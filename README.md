@@ -2,23 +2,46 @@
 
 Static site. No database, no build tools, no monthly cost.
 
-## Publish it
+## Where it lives
 
-1. Create a GitHub repo named `baliofscript.github.io`
-2. Upload everything in this folder (drag and drop works in GitHub's web UI)
-3. Settings → Pages → Source: `main` branch, folder: `/docs`
-4. Live in ~2 minutes
+Repo `qaisstan/balioffscript`, served by GitHub Pages from the `docs/` folder
+on `main`:
 
-The naming matters: `username.github.io` serves at the domain root, which the
-absolute paths in this site need. When you buy the domain, point it at GitHub
-Pages — `docs/CNAME` already contains `baliofscript.com`.
+    https://qaisstan.github.io/balioffscript/
+
+Settings → Pages → Source: `main` branch, folder `/docs`. Custom domain: empty.
+
+`qaisstan.github.io` is not available for this site — it already serves the
+personal portfolio at `www.qaisstanikzai.com`. So this is a project page and
+lives under a `/balioffscript/` path. That is handled by `BASE` in `build.py`,
+which prefixes every internal link.
+
+Do not upload files through GitHub's web interface. It silently drops dotfiles,
+which means `docs/.nojekyll` goes missing and the build breaks. Use `git push`.
+
+## Moving to baliofscript.com
+
+The domain is not bought yet. When it is:
+
+1. Buy it, and point DNS at GitHub Pages (four A records for the apex, or a
+   CNAME record for `www` → `qaisstan.github.io`)
+2. Settings → Pages → Custom domain: enter it, save, tick Enforce HTTPS.
+   GitHub writes its own `docs/CNAME` file
+3. In `build.py` set `BASE = ""` and `SITE_URL = "https://baliofscript.com"`
+4. `python3 build.py`, commit, push
+
+Do not create `docs/CNAME` by hand before the domain resolves — GitHub reads it
+as "serve this site at this domain" and the site goes offline until it does.
 
 ## Add a page
 
 1. Copy any file in `content/`, rename it — the filename becomes the URL
 2. Edit the frontmatter and body
 3. Run `python3 build.py`
-4. Commit
+4. Commit and push — `git add -A && git commit -m "New page" && git push`
+
+Never edit anything inside `docs/` by hand. `build.py` deletes and rewrites
+that whole folder every run.
 
 Frontmatter fields:
 
