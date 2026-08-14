@@ -704,14 +704,24 @@ def home(pages):
 <script type="application/ld+json">{site_schema}</script>
 {nav()}
 <main>
-<section class="hero wrap">
+<section class="hero-split">
+<div class="hero-copy">
+<p class="kicker">Independent property counsel &middot; Bali</p>
 <h1 class="hero-h">You cannot own land in Bali.<br><span>Three legal routes say otherwise.</span></h1>
 <p class="hero-sub">Leasehold, Hak Pakai, or HGB through a PT PMA. Everything else being sold to you is a nominee arrangement — void since 1960, and a criminal offence in Bali since February 2026.</p>
+<div class="hero-acts">
+<a class="lnk lnk-solid" href="#tool">Work out the real return</a>
+<a class="lnk" href="{BASE}/check/">What I&rsquo;d check first</a>
+</div>
 <form class="hero-search" action="{BASE}/search/">
-<input type="search" name="q" placeholder="Search: nominee, E33G, BPHTB, Pererenan…" aria-label="Search">
+<input type="search" name="q" placeholder="nominee, E33G, BPHTB, Pererenan…" aria-label="Search">
 <button type="submit">Search</button>
 </form>
-<a class="hero-jump" href="#tool">Work out the real return <b>→</b></a>
+</div>
+<div class="hero-fig">
+<img src="{BASE}/kai-hero.jpg" width="726" height="969" alt="{AUTHOR}, {AUTHOR_ROLE}" fetchpriority="high">
+<figcaption class="hero-cap"><span>{AUTHOR}</span>{AUTHOR_ROLE}</figcaption>
+</div>
 </section>
 <section class="wrap tool-wrap" id="tool">
 <div class="tool-head">
