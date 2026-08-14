@@ -70,6 +70,72 @@ CATEGORIES = {
     "areas": ("Areas", "Land prices, demand and constraints, area by area."),
 }
 
+# Category landing pages were thin — a heading and a list of cards. They are
+# also the pages best placed to rank for the broad terms ("bali property tax",
+# "bali visa"), so each one gets a real introduction and an SEO title.
+CATEGORY_SEO = {
+    "ownership": (
+        "Can foreigners own property in Bali?",
+        "Foreigners cannot hold Hak Milik — Indonesian freehold — under any structure, "
+        "including through a company or a spouse. Three lawful routes exist instead: a "
+        "leasehold contract, Hak Pakai registered in your own name if you hold residency, "
+        "or HGB held through a PT PMA for commercial use. Everything else being marketed "
+        "to foreign buyers is a nominee arrangement, which has been void since 1960 and "
+        "criminal in Bali since February 2026. These pages explain what each route gives "
+        "you, what the certificate actually says, and the clauses that decide whether a "
+        "lease is worth what you paid."),
+    "visas": (
+        "Indonesian visas and stay permits, explained",
+        "The system was restructured in 2025 — 133 indices reduced to 110, and "
+        "employer-sponsored work visas cut from 31 to 6 — so most visa advice written "
+        "before then is wrong. The rule underneath it has not changed: you choose a permit "
+        "by what you will actually do in Indonesia, not by how long you want to stay. "
+        "These pages cover the investor and remote-worker routes, Second Home, family "
+        "permits, permanent residence, and the pre-investment visa built for property "
+        "due diligence."),
+    "company": (
+        "PT PMA setup, capital and licensing in Bali",
+        "A PT PMA is the vehicle foreigners use to hold HGB and run a business in "
+        "Indonesia. Forming one is the easy part. The load is the capital requirement, the "
+        "business classification that decides what you may lawfully do, and the annual "
+        "reporting that continues whether or not the company trades. Bali also closed "
+        "several accommodation classifications to new foreign-owned companies in July "
+        "2026, which changed what a villa PT PMA can legally be used for."),
+    "tax": (
+        "Bali property tax: what buyers actually pay",
+        "Transaction tax, rental income tax, and the residency rule that decides which "
+        "country taxes you. The buyer's transfer tax runs around 5% on a titled transfer "
+        "and nothing on a leasehold, which is a larger difference than most buyers "
+        "realise. Rental income attracts its own treatment, and the 10% regional "
+        "accommodation tax is collected from guests and remitted by the operator — it is "
+        "not income. Spend more than 183 days here and you are an Indonesian tax resident "
+        "regardless of your visa."),
+    "building": (
+        "Bali zoning, PBG permits and what you can build",
+        "Zone colour tells you whether you may build. KDB and KLB tell you how much — and "
+        "a green-zone plot with a 10% footprint cap can be entirely legal and still "
+        "useless as a rental business. PBG is the building approval and SLF confirms the "
+        "finished building is fit for use; neither is a formality, and timelines run from "
+        "3 to 6 months in Denpasar to 10 to 12 months in Badung for an existing "
+        "unpermitted structure. Setbacks come off before any of it."),
+    "rental": (
+        "Bali villa rental yields and licensing",
+        "Advertised yields are gross. After platform commission, the 10% regional tax, "
+        "management fees, staffing, refurbishment and income tax, an advertised 12% "
+        "commonly lands between 4% and 6% — and on a leasehold, amortising the premium "
+        "over the years remaining can take it below zero. Licensing is the separate "
+        "question underneath: whether nightly rental is permitted on that plot at all, "
+        "and which business classification the operator holds."),
+    "areas": (
+        "Where to buy in Bali, area by area",
+        "Canggu has the liquidity and the strictest enforcement. The Bukit has the highest "
+        "nightly rates and the setback rules that produced the 2025 Bingin demolitions. "
+        "Sanur has the fastest permits on the island. Ubud has small buildable ratios and "
+        "sacred-site buffers. Tabanan has the clearest appreciation story and the hardest "
+        "route to a commercial accommodation licence. These pages cover what each area "
+        "costs and the specific constraint that breaks deals there."),
+}
+
 RISK_LABELS = {
     "critical": "Critical risk",
     "high": "High risk",
@@ -161,16 +227,35 @@ def md(text):
 
 # ---------------------------------------------------------------- chrome
 
+def title_tag(t):
+    """Google truncates around 60 characters. Append the site name only when
+    it still fits — the question itself carries the keywords, the brand does
+    not, so the brand is what gets dropped."""
+    if SITE_NAME in t:
+        return t
+    full = f"{t} — {SITE_NAME}"
+    return full if len(full) <= 60 else t
+
+
+def robots_meta(path):
+    """Utility pages have nothing to rank for. Keeping them out of the index
+    stops them being counted as thin content against the site."""
+    return '\n<meta name="robots" content="noindex,follow">' if path in ("/search/",) else ""
+
+
 def head(title, desc, path):
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{title}</title>
-<meta name="description" content="{desc}">
+<title>{title_tag(title)}</title>
+<meta name="description" content="{desc}">{robots_meta(path)}
 <link rel="canonical" href="{SITE_URL}{path}">
 <meta property="og:title" content="{title}">
+<meta property="og:url" content="{SITE_URL}{path}">
+<meta property="og:image" content="{SITE_URL}/{AUTHOR_PHOTO}">
+<meta name="twitter:card" content="summary">
 <meta property="og:description" content="{desc}">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="{SITE_NAME}">
@@ -178,6 +263,13 @@ def head(title, desc, path):
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Public+Sans:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{BASE}/style.css">
+<link rel="icon" href="{BASE}/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="{BASE}/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="{BASE}/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="{BASE}/favicon-16x16.png">
+<link rel="apple-touch-icon" href="{BASE}/apple-touch-icon.png">
+<link rel="manifest" href="{BASE}/site.webmanifest">
+<meta name="theme-color" content="#9e2b20">
 <script>window.SITE_BASE={json.dumps(BASE)}</script>
 {analytics()}</head>
 <body>"""
@@ -309,16 +401,47 @@ def article(m, siblings):
         f'<li><a href="{BASE}/{s["category"]}/{s["slug"]}/">{s["question"]}</a></li>'
         for s in siblings if s["slug"] != m["slug"]
     )
+    # Two graphs: the FAQ entity Google uses for rich results, and an Article
+    # with author and dates, which is what answer engines look for when
+    # deciding whether a page is attributable and current.
     schema = json.dumps({
         "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [{
-            "@type": "Question",
-            "name": m["question"],
-            "acceptedAnswer": {"@type": "Answer", "text": m["summary"]},
-        }],
+        "@graph": [
+            {
+                "@type": "FAQPage",
+                "mainEntity": [{
+                    "@type": "Question",
+                    "name": m["question"],
+                    "acceptedAnswer": {"@type": "Answer", "text": m["summary"]},
+                }],
+            },
+            {
+                "@type": "Article",
+                "headline": m["question"],
+                "description": m["summary"],
+                "datePublished": m.get("verified", str(date.today())),
+                "dateModified": m.get("verified", str(date.today())),
+                "inLanguage": "en",
+                "author": {"@type": "Person", "name": AUTHOR, "jobTitle": AUTHOR_ROLE,
+                           "url": INSTAGRAM},
+                "publisher": {"@type": "Organization", "name": SITE_NAME,
+                              "url": SITE_URL},
+                "mainEntityOfPage": {"@type": "WebPage", "@id": SITE_URL + path},
+                "articleSection": cat_name,
+                "citation": m.get("regulation", ""),
+            },
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/"},
+                    {"@type": "ListItem", "position": 2, "name": cat_name,
+                     "item": f'{SITE_URL}/{m["category"]}/'},
+                    {"@type": "ListItem", "position": 3, "name": m["question"]},
+                ],
+            },
+        ],
     })
-    return f"""{head(m["question"] + " — " + SITE_NAME, m["summary"], path)}
+    return f"""{head(m["question"], m["summary"], path)}
 <script type="application/ld+json">{schema}</script>
 {nav(m["category"])}
 <main class="wrap article">
@@ -347,12 +470,32 @@ def category(key, pages):
 </a></li>"""
         for p in pages
     )
-    return f"""{head(name + " — " + SITE_NAME, blurb, f"/{key}/")}
+    seo_title, intro = CATEGORY_SEO[key]
+    # Meta description has to fit Google's ~158 char cut; the intro is the
+    # on-page copy that gives the landing page something to rank with.
+    meta = (blurb if len(blurb) <= 158 else blurb[:155].rsplit(" ", 1)[0] + "…")
+    cat_schema = json.dumps({
+        "@context": "https://schema.org",
+        "@graph": [
+            {"@type": "CollectionPage", "name": seo_title, "description": meta,
+             "url": f"{SITE_URL}/{key}/", "inLanguage": "en",
+             "isPartOf": {"@type": "WebSite", "name": SITE_NAME, "url": SITE_URL},
+             "hasPart": [{"@type": "Article", "headline": q["question"],
+                          "url": f'{SITE_URL}/{key}/{q["slug"]}/'} for q in pages]},
+            {"@type": "BreadcrumbList", "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/"},
+                {"@type": "ListItem", "position": 2, "name": name}]},
+        ],
+    })
+    return f"""{head(seo_title, meta, f"/{key}/")}
+<script type="application/ld+json">{cat_schema}</script>
 {nav(key)}
 <main class="wrap section">
 <p class="eyebrow">Section</p>
-<h1>{name}</h1>
+<h1>{seo_title}</h1>
 <p class="standfirst">{blurb}</p>
+<div class="prose section-intro"><p>{intro}</p></div>
+<h2 class="sec-h">Every answer in this section</h2>
 <ul class="cards">{items}</ul>
 </main>
 {footer()}"""
@@ -401,7 +544,7 @@ def check_page():
 </section>"""
         for title, items in CHECK_ITEMS
     )
-    return f"""{head("What I'd check first — " + SITE_NAME, desc, "/check/")}
+    return f"""{head("What I'd check first before you buy", desc, "/check/")}
 {nav()}
 <main class="wrap article">
 <p class="eyebrow">Before you commit</p>
@@ -443,7 +586,23 @@ def home(pages):
 <h3>{p["question"]}</h3><p>{p["summary"]}</p></a></li>"""
         for p in pages[:6]
     )
+    site_schema = json.dumps({
+        "@context": "https://schema.org",
+        "@graph": [
+            {"@type": "WebSite", "name": SITE_NAME, "url": SITE_URL,
+             "description": TAGLINE, "inLanguage": "en",
+             "potentialAction": {"@type": "SearchAction",
+                                 "target": SITE_URL + "/search/?q={search_term_string}",
+                                 "query-input": "required name=search_term_string"}},
+            {"@type": "Person", "name": AUTHOR, "jobTitle": AUTHOR_ROLE,
+             "url": SITE_URL, "sameAs": [INSTAGRAM],
+             "image": f"{SITE_URL}/{AUTHOR_PHOTO}",
+             "knowsAbout": ["Indonesian property law", "Bali real estate",
+                            "PT PMA", "Indonesian visas", "Land zoning"]},
+        ],
+    })
     return f"""{head(SITE_NAME + " — " + TAGLINE, TAGLINE, "/")}
+<script type="application/ld+json">{site_schema}</script>
 {nav()}
 <main>
 <section class="hero wrap">
@@ -536,9 +695,14 @@ def out(oid, label, note=""):
 </div>"""
 
 
-CALC_DESC = ("Model what a Bali property actually returns: occupancy, platform commission, "
-             "PB1, management and running costs — and, on a time-limited right, the "
-             "amortisation that turns an advertised 12% into something very different.")
+CALC_DESC = ("Model what a Bali villa or apartment actually returns after platform "
+             "commission, PB1, management and tax — including the lease amortisation "
+             "that turns an advertised 12% yield into something very different.")
+# Longer version for the page itself, where there is no character limit.
+CALC_INTRO = ("Model what a Bali property actually returns: occupancy, platform commission, "
+              "PB1, management and running costs — and, on a time-limited right, the "
+              "amortisation nobody puts in the projection. Works for leasehold, HGB or "
+              "freehold, and for nightly or long-term letting.")
 
 
 def calc_widget():
@@ -647,12 +811,12 @@ def calc_widget():
 
 
 def calculator():
-    return f"""{head("Bali property ROI calculator — " + SITE_NAME, CALC_DESC, "/calculator/")}
+    return f"""{head("Bali property ROI calculator", CALC_DESC, "/calculator/")}
 {nav()}
 <main class="wrap calc-page">
 <p class="eyebrow">Tool</p>
 <h1>What does this property actually return?</h1>
-<p class="standfirst">{CALC_DESC}</p>
+<p class="standfirst">{CALC_INTRO}</p>
 {calc_widget()}
 
 <div class="prose calc-notes">
@@ -671,7 +835,7 @@ def calculator():
 
 
 def search_page():
-    return f"""{head("Search — " + SITE_NAME, "Search every answer on the site.", "/search/")}
+    return f"""{head("Search", "Search every answer on the site.", "/search/")}
 {nav()}
 <main class="wrap section">
 <p class="eyebrow">Search</p>
@@ -686,7 +850,7 @@ def search_page():
 
 
 def simple(slug, title, body):
-    return f"""{head(title + " — " + SITE_NAME, title, f"/{slug}/")}
+    return f"""{head(title, title, f"/{slug}/")}
 {nav()}
 <main class="wrap article">
 <h1>{title}</h1>
@@ -742,8 +906,25 @@ def main():
     sm = "".join(f"<url><loc>{SITE_URL}{u}</loc></url>" for u in urls)
     open(os.path.join(OUT, "sitemap.xml"), "w", encoding="utf-8").write(
         f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>')
-    open(os.path.join(OUT, "robots.txt"), "w", encoding="utf-8").write(
-        f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}/sitemap.xml\n")
+    # Answer engines are a real referral source now. A wildcard allow already
+    # permits them, but several read named rules, so they are listed by name.
+    ai_agents = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot",
+                 "anthropic-ai", "Claude-Web", "PerplexityBot", "Google-Extended",
+                 "Applebot-Extended", "CCBot", "Bingbot", "Amazonbot"]
+    robots = "User-agent: *\nAllow: /\n\n"
+    for a in ai_agents:
+        robots += f"User-agent: {a}\nAllow: /\n\n"
+    robots += f"Sitemap: {SITE_URL}/sitemap.xml\n"
+    open(os.path.join(OUT, "robots.txt"), "w", encoding="utf-8").write(robots)
+
+    # Web app manifest, so the favicon set is used on home screens too.
+    open(os.path.join(OUT, "site.webmanifest"), "w", encoding="utf-8").write(json.dumps({
+        "name": SITE_NAME, "short_name": "Off Script",
+        "icons": [{"src": f"{BASE}/icon-192.png", "sizes": "192x192", "type": "image/png"},
+                  {"src": f"{BASE}/icon-512.png", "sizes": "512x512", "type": "image/png"}],
+        "theme_color": "#9e2b20", "background_color": "#faf8f4", "display": "standalone",
+        "start_url": f"{BASE}/",
+    }))
     # Stops GitHub running Jekyll over the output. Without it the build breaks.
     open(os.path.join(OUT, ".nojekyll"), "w").write("")
 
