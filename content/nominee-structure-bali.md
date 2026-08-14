@@ -9,7 +9,7 @@ applies: Anyone offered a "nominee" or "we put it in a local name" deal
 verified: 2026-08-13
 ---
 
-The pitch is always the same. You get freehold — real freehold, Hak Milik — by registering the land in the name of an Indonesian. To protect you, a notary prepares a package: a loan agreement showing they owe you the purchase price, a power of attorney letting you sell or transfer, a statement letter acknowledging the land is really yours, and often a long lease back to you.
+The pitch is always the same. You get freehold, real freehold, Hak Milik, by registering the land in the name of an Indonesian. To protect you, a notary prepares a package: a loan agreement showing they owe you the purchase price, a power of attorney letting you sell or transfer, a statement letter acknowledging the land is really yours, and often a long lease back to you.
 
 It looks thorough. It is void.
 
@@ -17,7 +17,7 @@ It looks thorough. It is void.
 
 Article 26(2) of the Basic Agrarian Law voids any transaction that transfers freehold to a foreigner **directly or indirectly**. The whole nominee package is the textbook example of indirectly. Indonesian civil law adds a second problem: a contract requires a lawful cause, and a contract whose purpose is to defeat a statutory prohibition has none.
 
-So the loan agreement, the power of attorney and the statement letter are not protection. They are evidence — written, notarised, dated evidence — that both parties knew what they were doing.
+So the loan agreement, the power of attorney and the statement letter are not protection. They are evidence, written, notarised, dated evidence, that both parties knew what they were doing.
 
 ## What that means in practice
 
@@ -34,12 +34,12 @@ And when you go to court, you are asking a judge to enforce an arrangement you e
 
 Bali's Perda 4/2026, signed in February 2026, criminalises nominee land arrangements specifically. This sits on top of an enforcement climate that has turned physical: demolitions at Bingin from July 2025, thousands of deportations, properties sealed.
 
-The old defence — "it's technically void but nobody enforces it" — has stopped being true.
+The old defence, "it's technically void but nobody enforces it", has stopped being true.
 
 ## If you already have one
 
 Do not panic and do not do nothing. The unwind is real work: you need the registered owner's cooperation to transfer the land into a legal structure, usually a PT PMA holding HGB, or a properly drafted long lease. It costs money and it triggers transfer taxes. It is still cheaper than the alternative.
 
-Get an Indonesian lawyer — your own — to look at what you actually hold before you approach the nominee.
+Get an Indonesian lawyer, your own, to look at what you actually hold before you approach the nominee.
 
 > The uncomfortable version: your exposure is highest while the nominee relationship is good. That is exactly when people decide not to deal with it.

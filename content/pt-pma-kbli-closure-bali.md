@@ -36,7 +36,7 @@ Indonesia's licensing system grades every activity by risk. The grade decides ho
 | Medium | Document verification | Check current list |
 | High | Verification plus inspection | Check current list |
 
-Villa and homestay were **low-risk, self-declared** — you ticked a box and were licensed. That is precisely why they were closed. The categories that survive are the ones requiring real verification.
+Villa and homestay were **low-risk, self-declared**. You ticked a box and were licensed. That is precisely why they were closed. The categories that survive are the ones requiring real verification.
 
 ## What is still open
 
@@ -45,7 +45,7 @@ Villa and homestay were **low-risk, self-declared** — you ticked a box and wer
 | `55204` | Apartment hotel | Any size |
 | `5510` | Hotel, star or non-star | Above 6,000 m² only |
 
-For a single villa on a normal plot, neither is a comfortable fit. A standalone villa does not become an apartment hotel because you registered that code — the classification has to match what the building actually is and how it actually operates. Registering a code that does not describe your business is a licensing problem waiting to surface.
+For a single villa on a normal plot, neither is a comfortable fit. A standalone villa does not become an apartment hotel because you registered that code. The classification has to match what the building actually is and how it actually operates. Registering a code that does not describe your business is a licensing problem waiting to surface.
 
 ## The lawful structure, and the one that is not
 
@@ -83,7 +83,7 @@ Separately from the closure, the classification system was renumbered. The migra
 | `55199` | `55209` | Other short-term accommodation |
 | `55110` / `55120` | `5510` | Hotel, star or non-star |
 
-Renumbering alone does not cancel an existing licence where the underlying business has not changed. But the definition of homestay narrowed — it now requires owner-occupancy.
+Renumbering alone does not cancel an existing licence where the underlying business has not changed. But the definition of homestay narrowed. It now requires owner-occupancy.
 
 If a seller shows you an NIB still displaying 2020 codes and tells you it is fine, that is worth checking before you rely on it.
 

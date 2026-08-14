@@ -24,7 +24,7 @@ Every Bali property conversation eventually turns on one question: what does the
 
 If a listing says "freehold" and the buyer is foreign, one of two things is true: the structure is actually something else, or it is a nominee arrangement.
 
-## HGB — the commercial route
+## HGB: the commercial route
 
 HGB lets the holder build on and use land they do not own outright. It is the normal route for a foreign-owned company holding property for commercial purposes, and it can be mortgaged and transferred.
 
@@ -39,9 +39,9 @@ It comes in two forms, and the difference decides your timeline:
 
 Nobody can promise you an HGB conversion timeline without first establishing which of these applies. On a private-granted conversion, the seller's cooperation is a dependency you do not control.
 
-## Hak Pakai — the residential route
+## Hak Pakai: the residential route
 
-Hak Pakai is the one route that puts a registered certificate in a foreign individual's own name. It requires residency — a KITAS or KITAP — and the property must be residential and meet a minimum value.
+Hak Pakai is the one route that puts a registered certificate in a foreign individual's own name. It requires residency, a KITAS or KITAP, and the property must be residential and meet a minimum value.
 
 It does not authorise a rental business. A residence and an accommodation business are different legal activities.
 
@@ -59,7 +59,7 @@ You will hear "80 years" constantly. The framework is 30 years, plus up to 20 ye
 - The certificate is real but a second certificate exists over the same land
 - The seller on the certificate is dead and the heirs have not all consented
 - The land is joint marital property and the spouse has not consented
-- A hak tanggungan — a registered mortgage — sits against the title
+- A hak tanggungan, a registered mortgage, sits against the title
 - The land is adat land that cannot be transferred to outsiders at all
 
 Every one of these is found the same way: your own notary verifies the certificate at the local BPN office. Not the seller's notary. Yours.

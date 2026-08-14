@@ -36,7 +36,7 @@ An attractive percentage with everything billed separately is not attractive.
 
 **Term and exit.** How long are you locked in, what notice is required, and can you leave for underperformance? A three-year term with no performance exit is a long time to be wrong.
 
-**Reporting.** Monthly statements showing gross revenue, each deduction, and occupancy — with access to the underlying booking data. If you cannot see the platform account, you cannot verify the revenue you are being paid a share of.
+**Reporting.** Monthly statements showing gross revenue, each deduction, and occupancy, with access to the underlying booking data. If you cannot see the platform account, you cannot verify the revenue you are being paid a share of.
 
 **Who holds the money.** Do guest payments land in your account or theirs? If theirs, when do they remit, and what happens on insolvency?
 
@@ -44,7 +44,7 @@ An attractive percentage with everything billed separately is not attractive.
 
 **Owner use.** How many nights can you use your own villa, in which seasons, and with what notice?
 
-**Maintenance and reserves.** Who funds the refurbishment a rental property needs every few years? This is routinely absent, and it is a real annual cost — the [calculator](/calculator/) treats it as one.
+**Maintenance and reserves.** Who funds the refurbishment a rental property needs every few years? This is routinely absent, and it is a real annual cost, the [calculator](/calculator/) treats it as one.
 
 ## Guaranteed returns
 
@@ -56,7 +56,7 @@ Ask what backs the guarantee. If it is funded from your own sale proceeds or fro
 
 A management agreement does not create the right to operate short-term accommodation. That comes from zoning, the business classification and the permits.
 
-If the operator holds the accommodation licence and you hold the property, the relationship must be a genuine, documented, arm's-length arrangement — a real lease or a real management contract with a properly licensed operator.
+If the operator holds the accommodation licence and you hold the property, the relationship must be a genuine, documented, arm's-length arrangement, a real lease or a real management contract with a properly licensed operator.
 
 > What it cannot be is a local name on a licence while a foreign owner directs the business. Since Perda Bali 4/2026 that is a nominee arrangement, and facilitating one is prohibited in its own right.
 

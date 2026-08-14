@@ -9,7 +9,7 @@ applies: Buyers looking at Pererenan, Cemagi, Seseh, Nyanyi
 verified: 2026-08-14
 ---
 
-Pererenan is the value trade off Canggu — **USD 55,000–75,000 per are** against Berawa's 82,500, with better beach access and less traffic.
+Pererenan is the value trade off Canggu. **USD 55,000–75,000 per are** against Berawa's 82,500, with better beach access and less traffic.
 
 It is also where more of the land is green.
 
@@ -26,15 +26,15 @@ Check the numbers, not the colour:
 | Green zone villa plot | 500 m² | 10% | **50 m²** |
 | Pink zone hotel plot | 2,000 m² | 60% | 1,200 m² |
 
-KDB caps your building footprint as a percentage of the land. KLB caps total floor area. Zoning tells you **if** you can build. KDB and KLB tell you **how much** — and a 10% KDB on a 500 m² plot is a bungalow, not a rental business.
+KDB caps your building footprint as a percentage of the land. KLB caps total floor area. Zoning tells you **if** you can build. KDB and KLB tell you **how much**, and a 10% KDB on a 500 m² plot is a bungalow, not a rental business.
 
-**LP2B** — protected agricultural land — may also apply, which restricts conversion regardless of what a seller says is possible.
+**LP2B**, protected agricultural land, may also apply, which restricts conversion regardless of what a seller says is possible.
 
 > Treat "we can change the zoning later" as a red flag. Zoning changes are a government spatial-planning process, not a private application on behalf of one buyer.
 
 ## Everything Canggu applies here too
 
-Pererenan is in Badung. Same enforcement posture, same permit timelines — 5–6 months for a PBG from empty land, 10–12 months to regularise an existing unpermitted building.
+Pererenan is in Badung. Same enforcement posture, same permit timelines: 5–6 months for a PBG from empty land, 10–12 months to regularise an existing unpermitted building.
 
 ## What to check
 

@@ -1,5 +1,5 @@
 ---
-question: HGB or leasehold — which is actually better?
+question: HGB or leasehold: which is actually better?
 summary: One is a registered right you can mortgage. The other is a contract that expires. The right answer depends on what you intend to do with it.
 category: ownership
 order: 03
@@ -30,7 +30,7 @@ This is the decision most Bali buyers get talked into rather than make. The two 
 
 A lease is a wasting asset. Whatever you paid buys a fixed number of years, and at the end the land and everything you built returns to the owner.
 
-That has a real annual cost. On a USD 300,000 premium with 25 years remaining, it is USD 12,000 a year of value consumed before you count a single expense — which is why a lease that appears to yield 12% can be losing money.
+That has a real annual cost. On a USD 300,000 premium with 25 years remaining, it is USD 12,000 a year of value consumed before you count a single expense, which is why a lease that appears to yield 12% can be losing money.
 
 Put your figures through the [calculator](/calculator/) and set the residual to zero. That is the honest comparison against an HGB you expect to renew.
 
@@ -58,6 +58,6 @@ Transfer and sublease rights must also be explicit. If the lease does not say yo
 
 ## What neither structure fixes
 
-Neither answers whether you can legally run a rental business on the plot. That depends on zoning, the business classification and the permits — and since July 2026, [the classifications a new PT PMA can register in Bali have narrowed sharply](/company/pt-pma-kbli-closure-bali/).
+Neither answers whether you can legally run a rental business on the plot. That depends on zoning, the business classification and the permits, and since July 2026, [the classifications a new PT PMA can register in Bali have narrowed sharply](/company/pt-pma-kbli-closure-bali/).
 
 Choosing the structure before checking the use is the wrong order.

@@ -241,7 +241,7 @@
     segs.forEach(function (s) {
       var w = (s[1] / total) * W;
       bars += '<rect x="' + x.toFixed(1) + '" y="' + T + '" width="' + Math.max(0.5, w).toFixed(1) +
-              '" height="' + BAR + '" class="cx-seg ' + s[2] + '"><title>' + s[0] + " — " + full(s[1]) +
+              '" height="' + BAR + '" class="cx-seg ' + s[2] + '"><title>' + s[0] + ": " + full(s[1]) +
               " (" + ((s[1] / total) * 100).toFixed(1) + "%)</title></rect>";
       // Label inside the segment when it is wide enough to read.
       if (w > 54) {
@@ -334,10 +334,10 @@
     var notes = [];
     if (tenure === "lease") {
       notes.push("A lease is a wasting asset. After " + m.years +
-        " years it returns nothing unless the agreement contains an enforceable, priced extension clause — check that the clause binds the owner's heirs and successors.");
+        " years it returns nothing unless the agreement contains an enforceable, priced extension clause. Check that the clause binds the owner's heirs and successors.");
     }
     if (tenure === "hgb") {
-      notes.push("HGB is time-limited, not freehold. The 30 + 20 + 30 framework is available, not automatic — each step needs approval and cost. The residual above assumes renewal succeeds.");
+      notes.push("HGB is time-limited, not freehold. The 30 + 20 + 30 framework is available, not automatic: each step needs approval and cost. The residual above assumes renewal succeeds.");
     }
     if (nightly && num("occ") > 75) {
       notes.push("Occupancy above 75% across a full year is optimistic in Bali. Low season is real.");

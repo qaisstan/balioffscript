@@ -17,9 +17,9 @@ There is a legalisation route. It is longer and less certain than building from 
 
 | # | Stage | Duration |
 | --- | --- | --- |
-| 1 | PKKPR — spatial conformity for the activity | 1–2 months |
+| 1 | PKKPR: spatial conformity for the activity | 1–2 months |
 | 2 | Site survey and measurement | 2–4 weeks |
-| 3 | As-built drawings — architecture, structure, MEP | 4–8 weeks |
+| 3 | As-built drawings: architecture, structure, MEP | 4–8 weeks |
 | 4 | Technical document preparation | 4–8 weeks |
 | 5 | Upload to SIMBG | 1–2 weeks |
 | 6 | Administrative verification | 2–4 weeks |
@@ -29,7 +29,7 @@ There is a legalisation route. It is longer and less certain than building from 
 | 10 | Functionality inspection on site | 4–8 weeks |
 | 11 | SLF issued | 2–4 weeks |
 
-Stage 3 is the one people underestimate. **As-built drawings** mean surveying and documenting a building that already exists, to the standard a new design would be held to. If the original build has no drawings — common — this is done from scratch, and if construction does not meet current technical standards, remediation comes before approval.
+Stage 3 is the one people underestimate. **As-built drawings** mean surveying and documenting a building that already exists, to the standard a new design would be held to. If the original build has no drawings, common, this is done from scratch, and if construction does not meet current technical standards, remediation comes before approval.
 
 ## By regency
 
@@ -45,7 +45,7 @@ Stage 3 is the one people underestimate. **As-built drawings** mean surveying an
 
 Legalisation confirms the building complies. Where it cannot comply, there is no timeline at all:
 
-- The structure sits inside a **setback** — beach, river, cliff or temple buffer
+- The structure sits inside a **setback**, beach, river, cliff or temple buffer
 - The **zoning does not permit** the use, and never did
 - The building exceeds **KDB or KLB** limits for the parcel
 - The land carries **LP2B** protected-agricultural status
@@ -57,7 +57,7 @@ A structure inside a setback is the hardest case. In July 2025 buildings at Bing
 
 This is a negotiation, and it should happen before you sign.
 
-Legalisation is a real cost in money and months. If a seller is discounting for missing permits, establish whether the discount actually covers the work — and whether the work is possible at all.
+Legalisation is a real cost in money and months. If a seller is discounting for missing permits, establish whether the discount actually covers the work, and whether the work is possible at all.
 
 > A villa that has operated for years without permits has not proven it is legal. It has proven it has not yet been assessed.
 

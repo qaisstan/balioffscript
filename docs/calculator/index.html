@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bali property ROI calculator — Bali Off Script</title>
-<meta name="description" content="Work out what a Bali villa or apartment really returns after platform fees, PB1, management and tax — including the lease amortisation nobody shows you.">
+<title>Bali property ROI calculator | Bali Off Script</title>
+<meta name="description" content="Work out what a Bali villa or apartment really returns after platform fees, PB1, management and tax. Including the lease amortisation nobody shows you.">
 <link rel="canonical" href="https://balioffscript.com/calculator/">
 <meta property="og:title" content="Bali property ROI calculator">
 <meta property="og:url" content="https://balioffscript.com/calculator/">
 <meta property="og:image" content="https://balioffscript.com/kai.jpg">
 <meta name="twitter:card" content="summary">
-<meta property="og:description" content="Work out what a Bali villa or apartment really returns after platform fees, PB1, management and tax — including the lease amortisation nobody shows you.">
+<meta property="og:description" content="Work out what a Bali villa or apartment really returns after platform fees, PB1, management and tax. Including the lease amortisation nobody shows you.">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Bali Off Script">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,7 +39,7 @@
 <main class="wrap calc-page">
 <p class="eyebrow">Tool</p>
 <h1>What does this property actually return?</h1>
-<p class="standfirst">Model what a Bali property actually returns: occupancy, platform commission, PB1, management and running costs — and, on a time-limited right, the amortisation nobody puts in the projection. Works for leasehold, HGB or freehold, and for nightly or long-term letting.</p>
+<p class="standfirst">Model what a Bali property actually returns: occupancy, platform commission, PB1, management and running costs, and, on a time-limited right, the amortisation nobody puts in the projection. Works for leasehold, HGB or freehold, and for nightly or long-term letting.</p>
 <div class="calc-wrap">
 <form id="calc" class="calc-form" onsubmit="return false">
 
@@ -48,7 +48,7 @@
 <div class="f f-choice">
 <span class="f-l">What you are buying<button type="button" class="info" aria-expanded="false" aria-label="What is What you are buying?">i</button></span>
 <div class="segs"><label class="seg"><input type="radio" name="tenure" value="lease" checked><span>Leasehold</span></label><label class="seg"><input type="radio" name="tenure" value="hgb"><span>HGB / Hak Pakai</span></label><label class="seg"><input type="radio" name="tenure" value="freehold"><span>Freehold-equivalent</span></label></div>
-<span class="f-h" hidden>Leasehold is a contract for a fixed number of years — at the end it returns nothing unless the agreement contains an enforceable extension. HGB and Hak Pakai are registered rights, time-limited but renewable, commonly 30 years plus a 20-year extension and a 30-year renewal, each step subject to approval. Freehold-equivalent means the value does not run down — Hak Milik is not available to foreigners, so this mainly models an Indonesian-held title or a comparison case.</span>
+<span class="f-h" hidden>Leasehold is a contract for a fixed number of years, at the end it returns nothing unless the agreement contains an enforceable extension. HGB and Hak Pakai are registered rights, time-limited but renewable, commonly 30 years plus a 20-year extension and a 30-year renewal, each step subject to approval. Freehold-equivalent means the value does not run down. Hak Milik is not available to foreigners, so this mainly models an Indonesian-held title or a comparison case.</span>
 </div>
 <div class="f f-choice">
 <span class="f-l">Property type<button type="button" class="info" aria-expanded="false" aria-label="What is Property type?">i</button></span>
@@ -58,17 +58,17 @@
 <div class="f f-choice">
 <span class="f-l">How it earns<button type="button" class="info" aria-expanded="false" aria-label="What is How it earns?">i</button></span>
 <div class="segs"><label class="seg"><input type="radio" name="revmode" value="nightly" checked><span>Nightly rental</span></label><label class="seg"><input type="radio" name="revmode" value="monthly"><span>Long-term rental</span></label></div>
-<span class="f-h" hidden>Nightly means short-term accommodation, which is a licensed business activity and attracts OTA commission and PB1. Long-term means a genuine residential tenancy — different legal activity, far lower costs, and it does not need an accommodation licence.</span>
+<span class="f-h" hidden>Nightly means short-term accommodation, which is a licensed business activity and attracts OTA commission and PB1. Long-term means a genuine residential tenancy. Different legal activity, far lower costs, and it does not need an accommodation licence.</span>
 </div>
 <label class="f term-only">
 <span class="f-l">Years remaining on the right<button type="button" class="info" aria-expanded="false" aria-label="What is Years remaining on the right?">i</button></span>
 <input type="number" id="years" value="25" step="1" inputmode="decimal">
-<span class="f-h" hidden>The number of years you actually get. This drives the amortisation — it is the single most important input on the page and the one most often glossed over in a sales pitch.</span>
+<span class="f-h" hidden>The number of years you actually get. This drives the amortisation. It is the single most important input on the page and the one most often glossed over in a sales pitch.</span>
 </label>
 <label class="f term-only">
 <span class="f-l">Value left at the end (%)<button type="button" class="info" aria-expanded="false" aria-label="What is Value left at the end (%)?">i</button></span>
 <input type="number" id="residual" value="0" step="5" inputmode="decimal">
-<span class="f-h" hidden>What the asset is still worth to you when the term expires, as a percentage of what you put in. A plain lease is 0 — it reverts to the landowner. HGB defaults to 60% on the assumption renewal succeeds but costs money and carries risk. Set it to 0 to see the worst case.</span>
+<span class="f-h" hidden>What the asset is still worth to you when the term expires, as a percentage of what you put in. A plain lease is 0. It reverts to the landowner. HGB defaults to 60% on the assumption renewal succeeds but costs money and carries risk. Set it to 0 to see the worst case.</span>
 </label>
 </fieldset>
 
@@ -77,7 +77,7 @@
 <label class="f ">
 <span class="f-l">Purchase price or lease premium (USD)<button type="button" class="info" aria-expanded="false" aria-label="What is Purchase price or lease premium (USD)?">i</button></span>
 <input type="number" id="price" value="300000" step="1000" inputmode="decimal">
-<span class="f-h" hidden>The headline number — what you hand over for the property or the lease.</span>
+<span class="f-h" hidden>The headline number, what you hand over for the property or the lease.</span>
 </label>
 <label class="f ">
 <span class="f-l">Build or renovation (USD)<button type="button" class="info" aria-expanded="false" aria-label="What is Build or renovation (USD)?">i</button></span>
@@ -87,7 +87,7 @@
 <label class="f ">
 <span class="f-l">Furniture, pool, setup (USD)<button type="button" class="info" aria-expanded="false" aria-label="What is Furniture, pool, setup (USD)?">i</button></span>
 <input type="number" id="ffe" value="35000" step="1000" inputmode="decimal">
-<span class="f-h" hidden>Furniture, fittings and equipment. Routinely underestimated — a villa fit-out to rentable standard is rarely trivial.</span>
+<span class="f-h" hidden>Furniture, fittings and equipment. Routinely underestimated, a villa fit-out to rentable standard is rarely trivial.</span>
 </label>
 <label class="f ">
 <span class="f-l">Transaction costs (%)<button type="button" class="info" aria-expanded="false" aria-label="What is Transaction costs (%)?">i</button></span>
@@ -101,7 +101,7 @@
 <label class="f nightly-only">
 <span class="f-l">Average nightly rate (USD)<button type="button" class="info" aria-expanded="false" aria-label="What is Average nightly rate (USD)?">i</button></span>
 <input type="number" id="adr" value="180" step="5" inputmode="decimal">
-<span class="f-h" hidden>Your average achieved rate across the whole year — not your high-season headline rate.</span>
+<span class="f-h" hidden>Your average achieved rate across the whole year, not your high-season headline rate.</span>
 </label>
 <label class="f nightly-only">
 <span class="f-l">Occupancy (%)<button type="button" class="info" aria-expanded="false" aria-label="What is Occupancy (%)?">i</button></span>
@@ -140,7 +140,7 @@
 <label class="f ">
 <span class="f-l">Management fee (%)<button type="button" class="info" aria-expanded="false" aria-label="What is Management fee (%)?">i</button></span>
 <input type="number" id="mgmt" value="20" step="1" inputmode="decimal">
-<span class="f-h" hidden>What a management company charges, usually on net room revenue after platform commission. Verify the base — a fee on gross is a materially different number.</span>
+<span class="f-h" hidden>What a management company charges, usually on net room revenue after platform commission. Verify the base. A fee on gross is a materially different number.</span>
 </label>
 <label class="f ">
 <span class="f-l">Staff, utilities, upkeep (USD / month)<button type="button" class="info" aria-expanded="false" aria-label="What is Staff, utilities, upkeep (USD / month)?">i</button></span>
@@ -155,7 +155,7 @@
 <label class="f ">
 <span class="f-l">Income tax (%)<button type="button" class="info" aria-expanded="false" aria-label="What is Income tax (%)?">i</button></span>
 <input type="number" id="tax_rate" value="22" step="1" inputmode="decimal">
-<span class="f-h" hidden>Tax on profit. 22% is the standard Indonesian corporate rate for a PT PMA. Personal rates and small-business regimes differ — use your actual figure.</span>
+<span class="f-h" hidden>Tax on profit. 22% is the standard Indonesian corporate rate for a PT PMA. Personal rates and small-business regimes differ, use your actual figure.</span>
 </label>
 </fieldset>
 </form>
@@ -164,57 +164,57 @@
 <h2 class="calc-h">Result</h2>
 <div class="calc-row" id="row_invested">
 <span class="calc-k">Total capital in</span>
-<span class="calc-v" id="o_invested">—</span>
+<span class="calc-v" id="o_invested">&middot;</span>
 </div>
 <div class="calc-sep">First trading year</div>
 <div class="calc-row" id="row_gross">
 <span class="calc-k">Gross revenue</span>
-<span class="calc-v" id="o_gross">—</span>
+<span class="calc-v" id="o_gross">&middot;</span>
 </div>
 <div class="calc-row" id="row_netrev">
 <span class="calc-k">After platform + PB1</span>
-<span class="calc-v" id="o_netrev">—</span>
+<span class="calc-v" id="o_netrev">&middot;</span>
 </div>
 <div class="calc-row" id="row_noi">
 <span class="calc-k">Net operating income</span>
-<span class="calc-v" id="o_noi">—</span>
+<span class="calc-v" id="o_noi">&middot;</span>
 </div>
 <div class="calc-row" id="row_tax">
 <span class="calc-k">Income tax</span>
-<span class="calc-v" id="o_tax">—</span>
+<span class="calc-v" id="o_tax">&middot;</span>
 </div>
 <div class="calc-row" id="row_net">
 <span class="calc-k">Net profit</span>
-<span class="calc-v" id="o_net">—</span>
+<span class="calc-v" id="o_net">&middot;</span>
 </div>
 <div class="calc-sep">Return</div>
 <div class="calc-row" id="row_grossyield">
 <span class="calc-k">Gross yield<em>what gets advertised</em></span>
-<span class="calc-v" id="o_grossyield">—</span>
+<span class="calc-v" id="o_grossyield">&middot;</span>
 </div>
 <div class="calc-row" id="row_netyield">
 <span class="calc-k">Net yield<em>what you keep</em></span>
-<span class="calc-v" id="o_netyield">—</span>
+<span class="calc-v" id="o_netyield">&middot;</span>
 </div>
 <div class="calc-row" id="row_amort">
 <span class="calc-k">Amortisation<em>value lost per year</em></span>
-<span class="calc-v" id="o_amort">—</span>
+<span class="calc-v" id="o_amort">&middot;</span>
 </div>
 <div class="calc-row" id="row_real">
 <span class="calc-k">Real return<em>after amortisation</em></span>
-<span class="calc-v" id="o_real">—</span>
+<span class="calc-v" id="o_real">&middot;</span>
 </div>
 <div class="calc-row" id="row_payback">
 <span class="calc-k">Capital returned in</span>
-<span class="calc-v" id="o_payback">—</span>
+<span class="calc-v" id="o_payback">&middot;</span>
 </div>
 <div class="calc-row" id="row_break">
 <span class="calc-k">Break-even</span>
-<span class="calc-v" id="o_break">—</span>
+<span class="calc-v" id="o_break">&middot;</span>
 </div>
 <div class="calc-row" id="row_endpos">
 <span class="calc-k">Position at end of term</span>
-<span class="calc-v" id="o_endpos">—</span>
+<span class="calc-v" id="o_endpos">&middot;</span>
 </div>
 <div class="calc-warn" id="o_warn"></div>
 </aside>
@@ -223,7 +223,7 @@
 <section class="charts">
 <figure class="chart">
 <figcaption><h2>Do you get your money back?</h2>
-<p>Cumulative position across the term — you start at minus your capital, and the line is where you stand each year. Anything below zero at the end is a loss, whatever the yield said.</p></figcaption>
+<p>Cumulative position across the term. You start at minus your capital, and the line is where you stand each year. Anything below zero at the end is a loss, whatever the yield said.</p></figcaption>
 <div id="chart_cum"></div>
 </figure>
 
@@ -246,15 +246,15 @@
 <p>On a leasehold there is a further deduction that is almost never shown. A 25-year lease is a wasting asset: you are buying 25 years of use, after which the land and everything built on it revert to the owner unless the lease contains an enforceable, priced extension clause. Amortising the premium over the remaining term is the only way to compare a leasehold against a freehold purchase honestly.</p>
 <p>The defaults above are deliberately middle-of-road, not optimistic. Change them to your actual numbers. If a seller's projection cannot survive being typed into this page, that is the answer.</p>
 <h2>What this does not model</h2>
-<p>Capital appreciation, currency movement, financing costs, and the risk that the property cannot legally be operated as short-term accommodation at all. That last one is not a rounding error — <a href="/company/pt-pma-kbli-closure-bali/">Bali closed the villa and homestay business classifications to new foreign-owned companies in July 2026</a>, and zoning determines whether nightly rental is permitted on the plot before any of these numbers matter.</p>
+<p>Capital appreciation, currency movement, financing costs, and the risk that the property cannot legally be operated as short-term accommodation at all. That last one is not a rounding error, <a href="/company/pt-pma-kbli-closure-bali/">Bali closed the villa and homestay business classifications to new foreign-owned companies in July 2026</a>, and zoning determines whether nightly rental is permitted on the plot before any of these numbers matter.</p>
 </div>
 <section class="cta">
 <div class="cta-id">
 <img class="cta-photo" src="/kai.jpg" width="96" height="96" loading="lazy" alt="Kai, Bali property adviser">
 <div class="cta-said">
 <p class="cta-k">Send me the seller's projection.</p>
-<p class="cta-b">If you have a yield sheet from an agent or developer, send it to me with the location and the title type. I'll tell you which assumptions break first — the occupancy, the lease term, the licence, or the zoning. </p>
-<p class="cta-by">Kai — Bali property adviser</p>
+<p class="cta-b">If you have a yield sheet from an agent or developer, send it to me with the location and the title type. I'll tell you which assumptions break first, the occupancy, the lease term, the licence, or the zoning. </p>
+<p class="cta-by">Kai, Bali property adviser</p>
 </div>
 </div>
 <a class="btn" href="https://www.instagram.com/balioffscript/" rel="me"><svg class="ig" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41-.56-.22-.96-.48-1.38-.9-.42-.42-.68-.82-.9-1.38-.16-.42-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41 1.27-.06 1.65-.07 4.85-.07M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.31-1.46.72-2.13 1.38C1.35 2.68.94 3.35.63 4.14.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.31.79.72 1.46 1.38 2.13.67.67 1.34 1.07 2.13 1.38.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56.79-.31 1.46-.72 2.13-1.38.67-.67 1.07-1.34 1.38-2.13.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91-.31-.79-.72-1.46-1.38-2.13C21.32 1.35 20.65.94 19.86.63c-.76-.3-1.64-.5-2.91-.56C15.67.01 15.26 0 12 0z"/><path d="M12 5.84A6.16 6.16 0 1 0 18.16 12 6.16 6.16 0 0 0 12 5.84zM12 16a4 4 0 1 1 4-4 4 4 0 0 1-4 4z"/><circle cx="18.41" cy="5.59" r="1.44"/></svg><span>Send it on Instagram</span></a>

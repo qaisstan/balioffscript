@@ -34,11 +34,11 @@ The strongest version pays for the extension years up front, at today's price, r
 
 ## What happens if the clause fails
 
-At expiry, the land and everything standing on it reverts to the owner. Your villa, your pool, your landscaping, at zero compensation. This is not a penalty clause — it is simply what a lease is.
+At expiry, the land and everything standing on it reverts to the owner. Your villa, your pool, your landscaping, at zero compensation. This is not a penalty clause. It is simply what a lease is.
 
 ## Two more clauses worth the argument
 
-**Transfer and sublease rights.** If you cannot assign the lease, you cannot sell your villa. Some deeds are silent, some require owner consent — get consent made unreasonable-to-withhold, or removed.
+**Transfer and sublease rights.** If you cannot assign the lease, you cannot sell your villa. Some deeds are silent, some require owner consent. Get consent made unreasonable-to-withhold, or removed.
 
 **Death and inheritance.** State that the lease passes to your heirs and that the owner's obligations bind theirs. Silence here converts your estate into a negotiation.
 

@@ -9,7 +9,7 @@ applies: Large-scale investors and government-invited applicants
 verified: 2026-08-14
 ---
 
-"Golden Visa" is a marketing label, not a legal category. It refers to the **five and ten year tiers inside the existing E28 (investor) and E33 (Second Home) families** — longer validity in exchange for a materially higher financial commitment.
+"Golden Visa" is a marketing label, not a legal category. It refers to the **five and ten year tiers inside the existing E28 (investor) and E33 (Second Home) families**, longer validity in exchange for a materially higher financial commitment.
 
 The most important thing to understand: it is still an **ITAS**. A long one, but temporary and renewable, not permanent residence. If permanence is the goal, [ITAP is a different question](/visas/kitap-itap-indonesia/).
 
@@ -21,7 +21,7 @@ The most important thing to understand: it is still an **ITAS**. A long one, but
 
 ## What the ordinary investor route requires
 
-For a standard investor ITAS rather than a Golden tier, the commonly cited minimum personal shareholding for ordinary PT PMA share-based routes is around **IDR 10 billion** — verify the current figure, as these are revised periodically.
+For a standard investor ITAS rather than a Golden tier, the commonly cited minimum personal shareholding for ordinary PT PMA share-based routes is around **IDR 10 billion**. Verify the current figure, as these are revised periodically.
 
 That is a different number from the company's own paid-up capital requirement. Immigration eligibility and corporate capital rules are separate regimes with separate regulators, and conflating them is a routine error.
 
@@ -42,7 +42,7 @@ That second row matters enormously for the readers of this site. **Buying a vill
 
 If you already need a PT PMA for a genuine business, the investor route is the natural permit and the longer tiers reduce renewal friction.
 
-If you are buying property to live in and have no operating business, the Second Home route is usually the more honest fit — you are buying residence with a deposit rather than constructing a company to justify a visa.
+If you are buying property to live in and have no operating business, the Second Home route is usually the more honest fit. You are buying residence with a deposit rather than constructing a company to justify a visa.
 
 Building a company purely to obtain a visa, with no real business behind it, is a structure that has to survive scrutiny at OSS, at the tax office, and at renewal. It frequently does not.
 

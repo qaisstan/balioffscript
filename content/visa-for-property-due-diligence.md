@@ -18,11 +18,11 @@ There is a category built for exactly this, and almost nobody uses it.
 | Index | Type | Duration |
 | --- | --- | --- |
 | `C12` | Single-entry pre-investment | Commonly around 60 days, extendable |
-| `D12` | Multiple-entry pre-investment | **180 days, extendable by a further 180 — up to 12 months total** |
+| `D12` | Multiple-entry pre-investment | **180 days, extendable by a further 180: up to 12 months total** |
 
 `D12` is the useful one. Multiple entry, six months at a time, up to a year in total. It is designed for site visits, due diligence, and meetings with counsel and agents before committing to an investment.
 
-For anyone seriously evaluating a purchase — walking plots, verifying certificates at BPN, sitting with a notary, checking zoning at the regency office — that is the difference between doing it properly and doing it in a rush.
+For anyone seriously evaluating a purchase, walking plots, verifying certificates at BPN, sitting with a notary, checking zoning at the regency office. That is the difference between doing it properly and doing it in a rush.
 
 ## What it does not authorise
 
@@ -54,7 +54,7 @@ Two to four weeks is a realistic minimum for thorough due diligence, and that as
 | Route | Realistic for due diligence? |
 | --- | --- |
 | Visa exemption (under 30 days) | No |
-| Visa on arrival — 30 days + one extension | Tight, and the extension eats a week |
+| Visa on arrival: 30 days + one extension | Tight, and the extension eats a week |
 | `C12` single entry | Workable for a focused trip |
 | `D12` multiple entry, up to 12 months | Built for this |
 

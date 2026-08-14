@@ -15,7 +15,7 @@ That number is your ceiling. Everything above it is someone else's margin.
 
 ## The method
 
-**1. Establish realistic revenue.** Achievable nightly rate at honest full-year occupancy. Not the seller's figure — the area's.
+**1. Establish realistic revenue.** Achievable nightly rate at honest full-year occupancy. Not the seller's figure, the area's.
 
 **2. Subtract every cost.** Platform commission, the 10% regional tax, management, staff and running costs, refurbishment reserve, income tax.
 
@@ -25,7 +25,7 @@ That number is your ceiling. Everything above it is someone else's margin.
 
 **5. Subtract everything that is not the purchase price.** Transaction costs around 7%, furniture and setup, any build or renovation. What remains is the most you can pay.
 
-The [calculator](/calculator/) does steps 1 to 4 — adjust the price until the net yield reaches your number.
+The [calculator](/calculator/) does steps 1 to 4, adjust the price until the net yield reaches your number.
 
 ## On a lease, add the step everyone skips
 
@@ -40,7 +40,7 @@ A 20-year lease and a 40-year lease at the same price are not the same purchase.
 
 - Genuinely scarce zoning where supply is constrained
 - A long remaining term or a strong, priced extension right
-- Full permits already in place — PBG and SLF issued, not pending
+- Full permits already in place, PBG and SLF issued, not pending
 - An operator classification that lawfully covers nightly rental
 - Land in a corridor with a concrete infrastructure catalyst
 

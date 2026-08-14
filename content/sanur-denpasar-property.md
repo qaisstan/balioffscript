@@ -15,7 +15,7 @@ The Kura Kura special economic zone sits next door as a medium-term catalyst.
 
 ## The underrated advantage: permits actually move
 
-Sanur is in Denpasar, which is the fastest jurisdiction in Bali for building approvals — better digital integration with the national SIMBG system, and a focus on residential and smaller commercial buildings rather than large resort projects.
+Sanur is in Denpasar, which is the fastest jurisdiction in Bali for building approvals, better digital integration with the national SIMBG system, and a focus on residential and smaller commercial buildings rather than large resort projects.
 
 | Situation | Denpasar | Badung, for comparison |
 | --- | --- | --- |
@@ -26,7 +26,7 @@ On a project where you are carrying finance or losing rental months, that differ
 
 ## What Sanur is not
 
-It is not a high-ADR market. Nightly rates are materially below Canggu and well below the Bukit. The case for Sanur is stable occupancy, lower entry cost, lower operating friction and easier resale — not headline yield.
+It is not a high-ADR market. Nightly rates are materially below Canggu and well below the Bukit. The case for Sanur is stable occupancy, lower entry cost, lower operating friction and easier resale, not headline yield.
 
 If a projection shows Bukit nightly rates on Sanur land, the projection is wrong.
 

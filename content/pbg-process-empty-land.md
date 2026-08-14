@@ -9,7 +9,7 @@ applies: Anyone buying land to build on
 verified: 2026-08-14
 ---
 
-Every building in Indonesia needs a **PBG** — the building approval — before construction legally begins. Everything runs through the national **SIMBG** system.
+Every building in Indonesia needs a **PBG**, the building approval, before construction legally begins. Everything runs through the national **SIMBG** system.
 
 From bare land to an issued PBG, plan for **up to six months**.
 
@@ -18,7 +18,7 @@ From bare land to an issued PBG, plan for **up to six months**.
 | # | Stage | Typical duration |
 | --- | --- | --- |
 | 1 | Due diligence and preparation | 1–2 weeks |
-| 2 | **PKKPR** — spatial suitability confirmation via OSS | 2–4 weeks |
+| 2 | **PKKPR**: spatial suitability confirmation via OSS | 2–4 weeks |
 | 3 | Land survey and topography | 1–2 weeks |
 | 4 | Architectural, structural and MEP design | 3–6 weeks |
 | 5 | Technical document preparation | 2–3 weeks |
@@ -27,9 +27,9 @@ From bare land to an issued PBG, plan for **up to six months**.
 | 8 | Technical evaluation by the public works office | 3–6 weeks |
 | 9 | TPT/TPA expert review, if required | 2–4 weeks |
 | 10 | PBG issued electronically | 1–2 weeks |
-| 11 | Construction may begin | — |
+| 11 | Construction may begin |: |
 
-Stage 2 is the gate. **PKKPR comes before everything** — without spatial suitability confirmed, the rest of the sequence has nothing to stand on. If there are document deficiencies at any stage, the file returns to the relevant step rather than continuing.
+Stage 2 is the gate. **PKKPR comes before everything**, without spatial suitability confirmed, the rest of the sequence has nothing to stand on. If there are document deficiencies at any stage, the file returns to the relevant step rather than continuing.
 
 ## Your regency decides months of this
 
@@ -43,11 +43,11 @@ Stage 2 is the gate. **PKKPR comes before everything** — without spatial suita
 | **Badung** | 5–6 months | Highest tourism volume, strict technical evaluation, intensive inspections |
 | **Klungkung** | 5–6 months | Smaller team, longer queues; marine and spatial coordination |
 
-Badung is where most people buy and the slowest place to get approved. That is not a coincidence — the volume causes the queue.
+Badung is where most people buy and the slowest place to get approved. That is not a coincidence, the volume causes the queue.
 
 ## What you will be asked for
 
-- Land certificate — SHM or HGB
+- Land certificate, SHM or HGB
 - PKKPR approval
 - Identity and NPWP
 - Site plan
@@ -58,13 +58,13 @@ Badung is where most people buy and the slowest place to get approved. That is n
 
 ## After construction
 
-PBG is not the end. **SLF** — the certificate of building functionality — must be obtained once construction completes, and it is what makes the building legally usable.
+PBG is not the end. **SLF**, the certificate of building functionality, must be obtained once construction completes, and it is what makes the building legally usable.
 
 A PBG is valid for a construction period of around two years, extendable by one. Starting late can mean starting again.
 
 ## What shortens it
 
-Complete, valid documents at first submission. Most of the delay in these timelines is resubmission, not government processing — a file that goes back for deficiencies loses weeks each time.
+Complete, valid documents at first submission. Most of the delay in these timelines is resubmission, not government processing. A file that goes back for deficiencies loses weeks each time.
 
 Respond to revision requests immediately. A file sitting in your inbox is a file not moving.
 

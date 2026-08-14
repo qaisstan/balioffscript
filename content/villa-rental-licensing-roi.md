@@ -31,7 +31,7 @@ Run that through and 8–15% gross becomes **4–6% net** on average stock, 8–
 
 The number almost nobody subtracts. If you paid USD 300,000 for a 25-year lease, you are consuming USD 12,000 of capital every year. A "7% net yield" on that villa is not 7%.
 
-Freehold-equivalent structures appreciate. A lease runs down. Both can be good investments — but only one of them can be modelled as if the asset still exists at the end.
+Freehold-equivalent structures appreciate. A lease runs down. Both can be good investments, but only one of them can be modelled as if the asset still exists at the end.
 
 ## Licensing, which is now the binding constraint
 

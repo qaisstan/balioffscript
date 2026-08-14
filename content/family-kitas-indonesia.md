@@ -23,11 +23,11 @@ Applying as generic "spouse KITAS" without identifying the correct index is a co
 
 ## What you need
 
-For **E31A**, the marriage certificate must be registered with Indonesian Dukcapil — or, if you married abroad, legalised and translated, and properly reported to the relevant Indonesian authority.
+For **E31A**, the marriage certificate must be registered with Indonesian Dukcapil, or, if you married abroad, legalised and translated, and properly reported to the relevant Indonesian authority.
 
 That reporting step is the one people miss. An overseas marriage that was never reported is frequently the reason a file stalls, and fixing it afterwards takes longer than doing it in order.
 
-For **E31B, E31E, E31H and E31J**, the principal must hold a valid, active ITAS or ITAP. Your permit is derivative of theirs — if theirs lapses, yours does not survive on its own.
+For **E31B, E31E, E31H and E31J**, the principal must hold a valid, active ITAS or ITAP. Your permit is derivative of theirs, if theirs lapses, yours does not survive on its own.
 
 You will also need proof of the specific relationship (birth certificates, translated and legalised where required) and minimum living-funds evidence, commonly cited around **USD 2,000** equivalent.
 

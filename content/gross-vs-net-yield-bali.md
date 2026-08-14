@@ -15,19 +15,19 @@ Here is the full distance between that number and what you keep.
 
 ## The deductions, in order
 
-**Platform commission — 15–20%.** Airbnb, Booking.com and the rest take theirs before anything reaches you.
+**Platform commission: 15–20%.** Airbnb, Booking.com and the rest take theirs before anything reaches you.
 
-**PB1 — 10%.** The regional accommodation tax, collected from the guest and remitted by the operator. Frequently presented as revenue in projections. It has never been yours.
+**PB1: 10%.** The regional accommodation tax, collected from the guest and remitted by the operator. Frequently presented as revenue in projections. It has never been yours.
 
-**Management — 15–25%.** Charged on gross or on net after commission, depending on the contract. The difference is thousands a year.
+**Management: 15–25%.** Charged on gross or on net after commission, depending on the contract. The difference is thousands a year.
 
-**Running costs.** Staff, utilities, pool, garden, maintenance, supplies — a fixed monthly base that [does not fall when the villa is empty](/rental/bali-villa-running-costs/).
+**Running costs.** Staff, utilities, pool, garden, maintenance, supplies. A fixed monthly base that [does not fall when the villa is empty](/rental/bali-villa-running-costs/).
 
-**Refurbishment reserve — around 5%.** A rental villa needs refitting every few years. If it is not in the projection, it is coming out of your pocket instead.
+**Refurbishment reserve: around 5%.** A rental villa needs refitting every few years. If it is not in the projection, it is coming out of your pocket instead.
 
 **Income tax.** On whatever profit survives the above.
 
-**Lease amortisation.** On a time-limited right, the premium divided by the years remaining. Not a cash cost — an economic one, and the largest single item on a short lease.
+**Lease amortisation.** On a time-limited right, the premium divided by the years remaining. Not a cash cost, an economic one, and the largest single item on a short lease.
 
 ## What that does to a headline
 
@@ -45,7 +45,7 @@ Same property. Same revenue. Three very different numbers, and only one of them 
 
 Ask four questions:
 
-1. **Is this gross or net?** If they say net, ask which deductions are included — most "net" figures still omit refurbishment and amortisation.
+1. **Is this gross or net?** If they say net, ask which deductions are included, most "net" figures still omit refurbishment and amortisation.
 2. **What occupancy does it assume, across the full year?**
 3. **Is the lease amortised?** On a leasehold, if the answer is no, the figure is not comparable to a freehold return anywhere else in the world.
 4. **Is nightly rental legally permitted on this plot, by this operator?** If not, the projection describes a business that cannot run.

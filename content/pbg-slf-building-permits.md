@@ -9,13 +9,13 @@ applies: Every existing building purchase
 verified: 2026-08-13
 ---
 
-**PBG** — Persetujuan Bangunan Gedung — is the building approval that replaced the old IMB. **SLF** — Sertifikat Laik Fungsi — certifies the completed building is fit for use.
+**PBG**, Persetujuan Bangunan Gedung, is the building approval that replaced the old IMB. **SLF**, Sertifikat Laik Fungsi, certifies the completed building is fit for use.
 
 Both are required. Both are frequently missing on villas that have been sold and resold for years.
 
 ## What missing paperwork actually costs you
 
-Without a PBG and SLF you cannot obtain a rental licence, which means you cannot legally list the property — and after the **31 March 2026** deadline, platform listings without a licence face delisting.
+Without a PBG and SLF you cannot obtain a rental licence, which means you cannot legally list the property, and after the **31 March 2026** deadline, platform listings without a licence face delisting.
 
 You also cannot cleanly sell to a buyer who does their diligence, you may not be able to connect certain utilities or insure the building properly, and you carry exposure to enforcement.
 
@@ -23,7 +23,7 @@ That exposure stopped being theoretical in July 2025, when 48 structures at Bing
 
 ## Retrospective permits
 
-Sometimes possible. Sometimes not — particularly where the building breaches zoning, height limits or setbacks, in which case no amount of process will fix it, because the building should not exist where it is.
+Sometimes possible. Sometimes not, particularly where the building breaches zoning, height limits or setbacks, in which case no amount of process will fix it, because the building should not exist where it is.
 
 Where it is possible it takes months, costs real money, and may require physical modification to the building.
 

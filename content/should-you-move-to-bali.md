@@ -19,7 +19,7 @@ It is **what will you actually do here?**
 
 Work for a foreign employer, invest in a business, join family, study, retire on savings, or simply visit. That answer determines your permit, your sponsor requirement and your legal basis. Length of stay falls out of it.
 
-Choosing a visa by desired duration is how people end up on a status that does not permit what they are actually doing — which is an enforcement risk, not a technicality.
+Choosing a visa by desired duration is how people end up on a status that does not permit what they are actually doing, which is an enforcement risk, not a technicality.
 
 | What you will do | Route |
 | --- | --- |
@@ -42,7 +42,7 @@ Choosing a visa by desired duration is how people end up on a status that does n
 1. Decide what you will genuinely be doing
 2. Identify the permit that matches, and confirm you meet its published criteria
 3. Understand the tax position before you cross 183 days
-4. Come for a long stay — ideally including a rainy season — before committing capital
+4. Come for a long stay, ideally including a rainy season, before committing capital
 5. Only then consider property, and only after [the due diligence](/check/)
 
 ## The order that causes problems

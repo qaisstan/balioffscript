@@ -17,16 +17,16 @@ To a **trading NIB with a genuine domicile secured**, before any construction st
 
 | Phase | Normal | When it stalls |
 | --- | --- | --- |
-| Structuring and classification mapping | 1–2 weeks | — |
+| Structuring and classification mapping | 1–2 weeks |: |
 | Incorporation: deed → decree → NPWP → domicile | 3–5 weeks | 8+ weeks |
-| NIB and risk classification | 1–2 weeks | — |
-| Bank account and capital injection | 2–3 weeks, runs in parallel | — |
+| NIB and risk classification | 1–2 weeks |: |
+| Bank account and capital injection | 2–3 weeks, runs in parallel |: |
 | KKPR spatial validation | 2–4 weeks | 8–12 weeks |
 | Operational licensing for the classification | 4–8 weeks | 3–4 months |
 | PBG → construction → SLF | 10–16 weeks | 6+ months |
 | Investor or work KITAS | 3–5 weeks | 8+ weeks |
 
-Read the right-hand column carefully. These are not rare edge cases — they are the ordinary outcome when one input is wrong at the start.
+Read the right-hand column carefully. These are not rare edge cases. They are the ordinary outcome when one input is wrong at the start.
 
 ## The capital position
 
@@ -35,7 +35,7 @@ Two separate numbers, routinely confused:
 - **Paid-up capital floor: IDR 2.5 billion.** This must actually be in the company's bank account.
 - **Investment value: above IDR 10 billion**, per active business classification, per location.
 
-The gap between them is commonly bridged with a shareholder loan, subject to a **4:1 debt-to-equity cap**. Paid-up capital also carries a **12-month retention requirement** — it is not money you inject to satisfy a checkbox and withdraw the following month.
+The gap between them is commonly bridged with a shareholder loan, subject to a **4:1 debt-to-equity cap**. Paid-up capital also carries a **12-month retention requirement**. It is not money you inject to satisfy a checkbox and withdraw the following month.
 
 > If your capital self-declaration does not reconcile with the actual bank transfer and the figures in the articles of association, the file stops. This is the single most common reason an incorporation runs to eight weeks instead of four.
 
@@ -43,7 +43,7 @@ The gap between them is commonly bridged with a shareholder loan, subject to a *
 
 Before any of the above, one question decides whether the company can exist at all: **is your intended activity open to a new foreign-owned company in Bali?**
 
-Since 22 July 2026, eighteen classifications are closed to new PMA registration — villa, café, real estate brokerage, hotels under 6,000 m², hotel management, vehicle rental among them. Apartment hotel and hotels above 6,000 m² remain open. [The detail is here](/company/pt-pma-kbli-closure-bali/).
+Since 22 July 2026, eighteen classifications are closed to new PMA registration, villa, café, real estate brokerage, hotels under 6,000 m², hotel management, vehicle rental among them. Apartment hotel and hotels above 6,000 m² remain open. [The detail is here](/company/pt-pma-kbli-closure-bali/).
 
 Discovering this at week six is expensive. Establish it at week zero.
 
@@ -54,7 +54,7 @@ Discovering this at week six is expensive. Establish it at week zero.
 - A site outside a digitised RDTR zone, so spatial validation has no fast path
 - A site inside a sacred-zone, coastal setback or protected-agricultural overlay
 - A closed-list classification proposed for a new Bali company
-- Any arrangement where a local partner holds shares but the foreigner decides — this is a nominee, and it is void
+- Any arrangement where a local partner holds shares but the foreigner decides. This is a nominee, and it is void
 
 ## The order that saves money
 

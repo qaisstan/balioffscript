@@ -26,7 +26,7 @@ Verification also involves cultural agencies, not just the planning office, whic
 
 ## The agro-tourism trap
 
-Gianyar does permit some conditional use, and agro-tourism is genuinely possible in green zones here — which is exactly why it gets sold.
+Gianyar does permit some conditional use, and agro-tourism is genuinely possible in green zones here, which is exactly why it gets sold.
 
 The catch is the buildable ratio. A green-zone plot approved for agro-tourism commonly carries a KDB around 10% and a KLB as low as 0.2. On 500 m² that is a 50 m² footprint. The permission is real; the business case usually is not.
 

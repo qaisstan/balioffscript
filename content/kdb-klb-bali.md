@@ -13,9 +13,9 @@ Buyers check the zone colour and stop. The colour is the beginning of the questi
 
 [[diagram:kdb]]
 
-**KDB** — Koefisien Dasar Bangunan — caps your building footprint as a percentage of the land area.
+**KDB**, Koefisien Dasar Bangunan, caps your building footprint as a percentage of the land area.
 
-**KLB** — Koefisien Lantai Bangunan — caps total floor area across all storeys, as a ratio of land area.
+**KLB**, Koefisien Lantai Bangunan, caps total floor area across all storeys, as a ratio of land area.
 
 Zoning tells you **if**. KDB and KLB tell you **how much**.
 
@@ -26,7 +26,7 @@ Zoning tells you **if**. KDB and KLB tell you **how much**.
 | Green zone villa plot | 500 m² | 10% | **50 m²** |
 | Pink zone hotel plot | 2,000 m² | 60% | 1,200 m² |
 
-A 500 m² plot with a 10% KDB permits a 50 m² footprint. That is a studio, not a rental villa. The plot may be entirely legal, correctly zoned, and conditionally permitted for agro-tourism — and still incapable of supporting the business it is being sold for.
+A 500 m² plot with a 10% KDB permits a 50 m² footprint. That is a studio, not a rental villa. The plot may be entirely legal, correctly zoned, and conditionally permitted for agro-tourism, and still incapable of supporting the business it is being sold for.
 
 > A "conditionally permitted" green zone plot with a 10% KDB and a KLB of 0.2 is not an opportunity. It is a very expensive garden.
 
@@ -48,7 +48,7 @@ A yellow designation in Gianyar is not a yellow designation in Badung. District 
 
 ## Setbacks come off before any of this
 
-KDB is applied to the land area, but setbacks reduce what you can use before the percentage is calculated. Beach, river, cliff and temple buffers all bite, and on clifftop or beachfront plots they routinely remove most of the developable area — precisely on the plots priced for the view.
+KDB is applied to the land area, but setbacks reduce what you can use before the percentage is calculated. Beach, river, cliff and temple buffers all bite, and on clifftop or beachfront plots they routinely remove most of the developable area, precisely on the plots priced for the view.
 
 ## What to ask for, in writing
 

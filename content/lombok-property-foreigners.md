@@ -1,6 +1,6 @@
 ---
 question: Is Lombok a better bet than Bali right now?
-summary: Cheaper land, and — crucially — Bali's 2026 restrictions do not apply there. Different province, different rules.
+summary: Cheaper land, and, crucially, Bali's 2026 restrictions do not apply there. Different province, different rules.
 category: areas
 order: 08
 risk: high
@@ -19,26 +19,26 @@ That distinction is not geographic trivia. It determines which rules apply.
 
 | | Bali | Lombok (NTB) |
 | --- | --- | --- |
-| National land law — UUPA 5/1960, PP 18/2021 | Applies | **Applies identically** |
+| National land law: UUPA 5/1960, PP 18/2021 | Applies | **Applies identically** |
 | Bali's 18 closed business classifications (22 July 2026) | Applies | **Does not apply** |
 | Perda Bali 4/2026 on nominee arrangements | Applies | **Does not apply** |
 | Spatial planning and RDTR | Bali regencies | NTB regencies, different rules |
 
 So the villa and homestay classifications [closed to new foreign-owned companies in Bali](/company/pt-pma-kbli-closure-bali/) are a **Bali provincial measure**. A project in Lombok is assessed under NTB rules.
 
-For an investor whose Bali structure stopped working in July 2026, that is a material difference — and it is the actual reason to look at Lombok, rather than the price.
+For an investor whose Bali structure stopped working in July 2026, that is a material difference, and it is the actual reason to look at Lombok, rather than the price.
 
 ## What does not change
 
 **Foreigners still cannot own freehold anywhere in Indonesia.** UUPA 5/1960 is national law. The same three routes apply: leasehold, Hak Pakai with residency, or HGB through a PT PMA.
 
-**Nominee arrangements are still void nationally.** Perda Bali 4/2026 added criminal exposure and facilitator liability in Bali specifically — but the underlying arrangement has been void under Article 26(2) since 1960, everywhere. Lombok is not a workaround.
+**Nominee arrangements are still void nationally.** Perda Bali 4/2026 added criminal exposure and facilitator liability in Bali specifically, but the underlying arrangement has been void under Article 26(2) since 1960, everywhere. Lombok is not a workaround.
 
 **Every land right except Hak Milik still expires.**
 
 ## What is genuinely different
 
-**Mandalika** is a national special economic zone on the south coast, with the MotoGP circuit as its anchor — state-backed development rather than organic growth.
+**Mandalika** is a national special economic zone on the south coast, with the MotoGP circuit as its anchor, state-backed development rather than organic growth.
 
 **Land is materially cheaper**, and the tourism base is far smaller. That is both the opportunity and the risk.
 

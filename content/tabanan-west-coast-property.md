@@ -15,7 +15,7 @@ That is the pitch. Here is what the pitch leaves out.
 
 ## Tabanan sits inside the moratorium
 
-Tabanan is one of the six regencies covered by the construction moratorium. Zoning and permit diligence here is not a box to tick after signing — it determines whether the project exists at all.
+Tabanan is one of the six regencies covered by the construction moratorium. Zoning and permit diligence here is not a box to tick after signing. It determines whether the project exists at all.
 
 ## Tabanan is the most restrictive regency for commercial accommodation
 
@@ -23,8 +23,8 @@ Of the main investment regencies, Tabanan is generally the least permissive for 
 
 Two constraints dominate:
 
-- **LP2B** — protected agricultural land, applied heavily across Tabanan, restricting conversion
-- **Coastal setbacks** — the most common single reason west coast deals collapse
+- **LP2B**, protected agricultural land, applied heavily across Tabanan, restricting conversion
+- **Coastal setbacks**, the most common single reason west coast deals collapse
 
 The Tanah Lot corridor and Kedungu are exactly where both apply.
 
@@ -45,7 +45,7 @@ It is a much weaker short-term rental play today, and projections that apply Can
 
 ## What to check
 
-- Whether LP2B applies to the parcel — this is the first question, not the last
+- Whether LP2B applies to the parcel. This is the first question, not the last
 - Coastal setback, measured and confirmed in writing
 - The RDTR designation and whether commercial accommodation is permitted at all
 - Moratorium status for the intended build

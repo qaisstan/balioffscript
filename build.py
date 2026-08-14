@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Bali Off Script — static site builder.
+Bali Off Script, static site builder.
 
 Usage:  python3 build.py
 
@@ -77,7 +77,7 @@ CATEGORIES = {
 CATEGORY_SEO = {
     "ownership": (
         "Can foreigners own property in Bali?",
-        "Foreigners cannot hold Hak Milik — Indonesian freehold — under any structure, "
+        "Foreigners cannot hold Hak Milik, Indonesian freehold, under any structure, "
         "including through a company or a spouse. Three lawful routes exist instead: a "
         "leasehold contract, Hak Pakai registered in your own name if you hold residency, "
         "or HGB held through a PT PMA for commercial use. Everything else being marketed "
@@ -87,8 +87,8 @@ CATEGORY_SEO = {
         "lease is worth what you paid."),
     "visas": (
         "Indonesian visas and stay permits, explained",
-        "The system was restructured in 2025 — 133 indices reduced to 110, and "
-        "employer-sponsored work visas cut from 31 to 6 — so most visa advice written "
+        "The system was restructured in 2025: 133 indices reduced to 110, and "
+        "employer-sponsored work visas cut from 31 to 6, so most visa advice written "
         "before then is wrong. The rule underneath it has not changed: you choose a permit "
         "by what you will actually do in Indonesia, not by how long you want to stay. "
         "These pages cover the investor and remote-worker routes, Second Home, family "
@@ -108,12 +108,12 @@ CATEGORY_SEO = {
         "country taxes you. The buyer's transfer tax runs around 5% on a titled transfer "
         "and nothing on a leasehold, which is a larger difference than most buyers "
         "realise. Rental income attracts its own treatment, and the 10% regional "
-        "accommodation tax is collected from guests and remitted by the operator — it is "
+        "accommodation tax is collected from guests and remitted by the operator, it is "
         "not income. Spend more than 183 days here and you are an Indonesian tax resident "
         "regardless of your visa."),
     "building": (
         "Bali zoning, PBG permits and what you can build",
-        "Zone colour tells you whether you may build. KDB and KLB tell you how much — and "
+        "Zone colour tells you whether you may build. KDB and KLB tell you how much, and "
         "a green-zone plot with a 10% footprint cap can be entirely legal and still "
         "useless as a rental business. PBG is the building approval and SLF confirms the "
         "finished building is fit for use; neither is a formality, and timelines run from "
@@ -123,7 +123,7 @@ CATEGORY_SEO = {
         "Bali villa rental yields and licensing",
         "Advertised yields are gross. After platform commission, the 10% regional tax, "
         "management fees, staffing, refurbishment and income tax, an advertised 12% "
-        "commonly lands between 4% and 6% — and on a leasehold, amortising the premium "
+        "commonly lands between 4% and 6%, and on a leasehold, amortising the premium "
         "over the years remaining can take it below zero. Licensing is the separate "
         "question underneath: whether nightly rental is permitted on that plot at all, "
         "and which business classification the operator holds."),
@@ -346,7 +346,7 @@ def dg_terms():
 
 
 def dg_pbg():
-    """Permit time by regency — the months nobody budgets for."""
+    """Permit time by regency, the months nobody budgets for."""
     rows = [("Denpasar", 3, 5), ("Gianyar", 4, 5), ("Tabanan", 4, 5), ("Badung", 5, 6), ("Klungkung", 5, 6)]
     o, y = "", 0
     SC = 62
@@ -446,11 +446,11 @@ DIAGRAMS = {
 
 def title_tag(t):
     """Google truncates around 60 characters. Append the site name only when
-    it still fits — the question itself carries the keywords, the brand does
+    it still fits. The question itself carries the keywords, the brand does
     not, so the brand is what gets dropped."""
     if SITE_NAME in t:
         return t
-    full = f"{t} — {SITE_NAME}"
+    full = f"{t} | {SITE_NAME}"
     return full if len(full) <= 60 else t
 
 
@@ -508,7 +508,7 @@ def analytics():
 
 def nav(active=""):
     """Dropdowns list sections, not every article. Questions live on the
-    section page — a menu that grows with the content stops being a menu."""
+    section page, a menu that grows with the content stops being a menu."""
     def row(key):
         name, blurb = CATEGORIES[key]
         n = len([q for q in ALL_PAGES if q["category"] == key])
@@ -615,7 +615,7 @@ def cta(kicker="Got a specific situation?",
 <div class="cta-said">
 <p class="cta-k">{kicker}</p>
 <p class="cta-b">{body}</p>
-<p class="cta-by">{AUTHOR} — {AUTHOR_ROLE}</p>
+<p class="cta-by">{AUTHOR}, {AUTHOR_ROLE}</p>
 </div>
 </div>
 <a class="btn" href="{INSTAGRAM}" rel="me">{ig_logo()}<span>{btn}</span></a>
@@ -772,14 +772,14 @@ def category(key, pages):
 
 CHECK_ITEMS = [
     ("The plot", [
-        "Exact location — regency and village, not 'Canggu area'",
+        "Exact location, regency and village, not 'Canggu area'",
         "Certificate type and number: Hak Milik, HGB, Hak Pakai, or a lease",
         "Whose name is on the certificate, and their authority to transact",
         "Land area, and the cadastral drawing against what you walked",
     ]),
     ("The zoning", [
         "RDTR designation for this parcel, from the regency, not the agent",
-        "KDB and KLB figures — what you can actually build, not just whether you can",
+        "KDB and KLB figures. What you can actually build, not just whether you can",
         "Setbacks: beach, river, cliff, temple",
         "Whether LP2B or subak protections apply",
     ]),
@@ -789,7 +789,7 @@ CHECK_ITEMS = [
         "If off-plan: what has actually been approved, with application numbers",
     ]),
     ("The business", [
-        "The rental model — nightly, monthly, or genuine long-term residential",
+        "The rental model, nightly, monthly, or genuine long-term residential",
         "Which KBLI classification the operator intends to use",
         "Whether that classification is open for new registration today",
         "Whether the NIB covers this location or only a company domicile",
@@ -805,7 +805,7 @@ CHECK_ITEMS = [
 
 def about_page():
     """The entity page. Search engines and answer engines both need one place
-    that states plainly who publishes this and what they do — otherwise a
+    that states plainly who publishes this and what they do, otherwise a
     'who is X' question has nothing to resolve against."""
     desc = ("Bali Off Script is written by Kai, a property adviser based in Bali. "
             "Straight answers on buying, building and living here, with the regulation "
@@ -830,7 +830,7 @@ def about_page():
              "areaServed": {"@type": "Place", "name": "Bali, Indonesia"}},
         ],
     })
-    return f"""{head(f"About {SITE_NAME} — who writes this", desc, "/about/")}
+    return f"""{head(f"About {SITE_NAME}, who writes this", desc, "/about/")}
 <script type="application/ld+json">{schema}</script>
 {nav()}
 <main class="wrap article">
@@ -842,26 +842,26 @@ def about_page():
 {portrait("who-photo")}
 <div>
 <h2 class="who-h">{AUTHOR}</h2>
-<p class="who-b">{AUTHOR_ROLE}, based in Bali. I advise foreign buyers on property here — what can actually be owned, what can legally be built and rented, and which structures fall apart when someone looks at them properly.</p>
+<p class="who-b">{AUTHOR_ROLE}, based in Bali. I advise foreign buyers on property here. What can actually be owned, what can legally be built and rented, and which structures fall apart when someone looks at them properly.</p>
 <a class="ig-link who-ig" href="{INSTAGRAM}" rel="me">{ig_logo("ig")}<span>@balioffscript</span></a>
 </div>
 </div>
 
 <div class="prose">
 <h2>What I do</h2>
-<p>I advise foreign buyers and investors on property across Bali and the surrounding islands — Nusa Penida, Lombok, the Gilis, and further east where clients are looking. The work covers the whole arc of a project, not one slice of it:</p>
+<p>I advise foreign buyers and investors on property across Bali and the surrounding islands, Nusa Penida, Lombok, the Gilis, and further east where clients are looking. The work covers the whole arc of a project, not one slice of it:</p>
 <ul>
-<li><strong>Land and property acquisition</strong> — what can actually be held, under which right, and what the certificate really says</li>
-<li><strong>Due diligence</strong> — title, zoning, permits, and the licensing position underneath the sale</li>
-<li><strong>Development and construction projects</strong> — what is buildable on a plot once KDB, KLB and setbacks are applied, and what the permit sequence actually costs in time</li>
-<li><strong>Structuring</strong> — leasehold, Hak Pakai or a company-held right, and which one fits the intended use rather than the one that closes fastest</li>
-<li><strong>Investment analysis</strong> — what a project returns after the costs that get left out of the projection</li>
+<li><strong>Land and property acquisition</strong>. What can actually be held, under which right, and what the certificate really says</li>
+<li><strong>Due diligence</strong>. Title, zoning, permits, and the licensing position underneath the sale</li>
+<li><strong>Development and construction projects</strong>. What is buildable on a plot once KDB, KLB and setbacks are applied, and what the permit sequence actually costs in time</li>
+<li><strong>Structuring</strong>, leasehold, Hak Pakai or a company-held right, and which one fits the intended use rather than the one that closes fastest</li>
+<li><strong>Investment analysis</strong>. What a project returns after the costs that get left out of the projection</li>
 </ul>
 <p>Different islands are not interchangeable. Spatial rules, permit timelines and enforcement all vary by regency and province, and an assumption carried from Canggu to Lombok is a common and expensive mistake.</p>
 
 <h2>Why this site exists</h2>
-<p>Most Bali property information is published by people selling Bali property. That is not a conspiracy, it is an incentive — and it means the honest answers to the hardest questions tend not to get written down.</p>
-<p>Foreigners cannot own freehold land in Indonesia. Nominee arrangements, still the most commonly sold structure on the island, have been void since 1960 and criminal in Bali since February 2026. Advertised rental yields are gross figures that ignore platform commission, regional tax, management, staffing and — on a lease — the fact that the asset expires. None of that is secret. It is simply inconvenient to the sale.</p>
+<p>Most Bali property information is published by people selling Bali property. That is not a conspiracy, it is an incentive, and it means the honest answers to the hardest questions tend not to get written down.</p>
+<p>Foreigners cannot own freehold land in Indonesia. Nominee arrangements, still the most commonly sold structure on the island, have been void since 1960 and criminal in Bali since February 2026. Advertised rental yields are gross figures that ignore platform commission, regional tax, management, staffing and, on a lease, the fact that the asset expires. None of that is secret. It is simply inconvenient to the sale.</p>
 <p>This site publishes it anyway.</p>
 
 <h2>How to judge whether I am any use</h2>
@@ -876,23 +876,23 @@ def about_page():
 <p>The <a href="{BASE}/calculator/">return calculator</a> is the clearest example. It is built to show what a property actually returns after every cost, including the lease amortisation that turns an advertised 12% into something very different. An adviser trying to sell you a villa would not publish that tool.</p>
 
 <h2>How I work</h2>
-<p>Send me a deal and I will tell you which link in the chain breaks first — the zoning, the licence, the lease term, or the numbers. The <a href="{BASE}/check/">intake list is here</a>. A first look costs you nothing.</p>
+<p>Send me a deal and I will tell you which link in the chain breaks first, the zoning, the licence, the lease term, or the numbers. The <a href="{BASE}/check/">intake list is here</a>. A first look costs you nothing.</p>
 <p>The most useful thing I can tell someone is often &ldquo;not this one&rdquo;. A deal that cannot survive being checked properly is not a deal worth doing, whoever is selling it.</p>
 
 <h2>What this is not</h2>
-<p>It is not legal advice, tax advice, or financial advice, and reading it does not create an adviser relationship. Indonesian regulations change often and are administered inconsistently between regencies and between individual offices. Before you sign anything or transfer any money, verify it with your own licensed Indonesian notary or PPAT, your own lawyer, and your own registered tax consultant — not the seller's. The <a href="{BASE}/disclaimer/">full disclaimer is here</a>.</p>
-<p>I work in Bali property, which is how I know what goes wrong. That also means I am not a neutral party — so check what I tell you against your own notary, lawyer and tax consultant, exactly as you would with anyone else in this market.</p>
+<p>It is not legal advice, tax advice, or financial advice, and reading it does not create an adviser relationship. Indonesian regulations change often and are administered inconsistently between regencies and between individual offices. Before you sign anything or transfer any money, verify it with your own licensed Indonesian notary or PPAT, your own lawyer, and your own registered tax consultant, not the seller's. The <a href="{BASE}/disclaimer/">full disclaimer is here</a>.</p>
+<p>I work in Bali property, which is how I know what goes wrong. That also means I am not a neutral party, so check what I tell you against your own notary, lawyer and tax consultant, exactly as you would with anyone else in this market.</p>
 </div>
 
 {cta("Got a specific situation?",
-     "Send me the details — location, title type, zoning, and whatever permits you've been shown. I'll tell you what I'd check first.",
+     "Send me the details. Location, title type, zoning, and whatever permits you've been shown. I'll tell you what I'd check first.",
      "Ask on Instagram")}
 </main>
 {footer()}"""
 
 
 def check_page():
-    desc = ("The information I need to tell you whether a Bali property works — and the "
+    desc = ("The information I need to tell you whether a Bali property works, and the "
             "list of things that decide it, in the order they decide it.")
     blocks = "".join(
         f"""<section class="chk">
@@ -960,13 +960,13 @@ def home(pages):
                             "PT PMA", "Indonesian visas", "Land zoning"]},
         ],
     })
-    return f"""{head(SITE_NAME + " — " + TAGLINE, TAGLINE, "/")}
+    return f"""{head(SITE_NAME + " | " + TAGLINE, TAGLINE, "/")}
 <script type="application/ld+json">{site_schema}</script>
 {nav()}
 <main>
 <section class="hero-split">
 <div class="hero-copy">
-<h1 class="hero-h">Know exactly what<br><span>you&rsquo;re buying in Bali.</span></h1>
+<h1 class="hero-h">Send me the deal<br><span>before you sign it.</span></h1>
 <p class="hero-sub">What a certificate actually gives you. What you can legally build and rent on the land. What a deal returns once every real cost is counted.</p>
 <p class="hero-note">Eyes on the ground in Bali. Message me before you sign anything.</p>
 <div class="hero-acts">
@@ -987,7 +987,7 @@ def home(pages):
 <div class="tool-head">
 <p class="proof-k">Start here</p>
 <h2 class="tool-h">Put the deal through this before you believe the yield.</h2>
-<p class="tool-b">Advertised Bali yields are gross — before platform commission, the 10% PB1, management, staff, refurbishment and tax. On a lease there is one more deduction nobody shows you: the premium, amortised over the years you actually get. Change any figure and every number and chart below updates.</p>
+<p class="tool-b">Advertised Bali yields are gross, before platform commission, the 10% PB1, management, staff, refurbishment and tax. On a lease there is one more deduction nobody shows you: the premium, amortised over the years you actually get. Change any figure and every number and chart below updates.</p>
 </div>
 {calc_widget()}
 </section>
@@ -1011,7 +1011,7 @@ def home(pages):
 {portrait("who-photo")}
 <div>
 <h2 class="who-h">I'm {AUTHOR}.</h2>
-<p class="who-b">I advise on property in Bali, and I'm on the ground here. This site exists because the honest answers to these questions are not what gets published — the market runs on optimism, and buyers find out afterwards. Everything here carries the regulation it comes from and the date I last checked it.</p>
+<p class="who-b">I advise on property in Bali, and I'm on the ground here. This site exists because the honest answers to these questions are not what gets published. The market runs on optimism, and buyers find out afterwards. Everything here carries the regulation it comes from and the date I last checked it.</p>
 <p class="who-b">If you're looking at something specific, send it to me. I'll tell you what I'd check first.</p>
 <a class="ig-link who-ig" href="{INSTAGRAM}" rel="me">{ig_logo("ig")}<span>@balioffscript</span></a>
 </div>
@@ -1024,7 +1024,7 @@ def home(pages):
 
 
 def field(fid, label, val, info="", step="1", cls=""):
-    """Every input carries an explanation behind an info toggle — the reader is
+    """Every input carries an explanation behind an info toggle, the reader is
     usually meeting these terms for the first time."""
     btn = (f'<button type="button" class="info" aria-expanded="false" '
            f'aria-label="What is {label}?">i</button>') if info else ""
@@ -1057,15 +1057,15 @@ def choice(name, label, opts, info=""):
 def out(oid, label, note=""):
     return f"""<div class="calc-row" id="row_{oid.replace('o_', '')}">
 <span class="calc-k">{label}{f'<em>{note}</em>' if note else ''}</span>
-<span class="calc-v" id="{oid}">—</span>
+<span class="calc-v" id="{oid}">&middot;</span>
 </div>"""
 
 
 CALC_DESC = ("Work out what a Bali villa or apartment really returns after platform fees, "
-             "PB1, management and tax — including the lease amortisation nobody shows you.")
+             "PB1, management and tax. Including the lease amortisation nobody shows you.")
 # Longer version for the page itself, where there is no character limit.
 CALC_INTRO = ("Model what a Bali property actually returns: occupancy, platform commission, "
-              "PB1, management and running costs — and, on a time-limited right, the "
+              "PB1, management and running costs, and, on a time-limited right, the "
               "amortisation nobody puts in the projection. Works for leasehold, HGB or "
               "freehold, and for nightly or long-term letting.")
 
@@ -1097,7 +1097,7 @@ def section_grid(pages, limit=4):
 def all_page(pages):
     """Every answer on one page. Useful for a reader who wants to browse, and
     a strong internal-linking hub for search engines."""
-    desc = ("Every answer on Bali Off Script in one place — ownership, visas, "
+    desc = ("Every answer on Bali Off Script in one place, ownership, visas, "
             "companies, tax, building, rental returns, areas and living here.")
     blocks = ""
     for k, (name, blurb) in CATEGORIES.items():
@@ -1136,7 +1136,7 @@ MAP_AREAS = [
          slug="tabanan-west-coast-property", url="/areas/tabanan-west-coast-property/"),
     dict(id="pererenan", n="Pererenan &amp; Cemagi", x=299, y=296, r="Badung",
          price="USD 55–75k / are", pbg="5–6 months",
-         watch="More green zone than Canggu — check LP2B and KDB before the view",
+         watch="More green zone than Canggu, check LP2B and KDB before the view",
          slug="pererenan-cemagi-property", url="/areas/pererenan-cemagi-property/"),
     dict(id="canggu", n="Canggu &amp; Berawa", x=310, y=295, r="Badung",
          price="~USD 82.5k / are", pbg="5–6 months",
@@ -1144,7 +1144,7 @@ MAP_AREAS = [
          slug="canggu-berawa-property", url="/areas/canggu-berawa-property/"),
     dict(id="seminyak", n="Seminyak &amp; Umalas", x=322, y=314, r="Badung",
          price="Near the ceiling", pbg="5–6 months",
-         watch="Mature market — stable cashflow, modest appreciation",
+         watch="Mature market, stable cashflow, modest appreciation",
          slug="where-to-buy-bali", url="/areas/where-to-buy-bali/"),
     dict(id="uluwatu", n="Uluwatu &amp; the Bukit", x=287, y=372, r="Badung",
          price="USD 25–60k / are", pbg="5–6 months",
@@ -1164,7 +1164,7 @@ MAP_AREAS = [
          slug="nusa-penida-property", url="/areas/nusa-penida-property/"),
     dict(id="lombok", n="Lombok", x=804, y=296, r="West Nusa Tenggara",
          price="Materially cheaper", pbg="Varies by regency",
-         watch="Different province — Bali's 2026 closure and nominee Perda do not apply",
+         watch="Different province. Bali's 2026 closure and nominee Perda do not apply",
          slug="lombok-property-foreigners", url="/areas/lombok-property-foreigners/"),
     dict(id="gili", n="Gili Islands", x=685, y=171, r="West Nusa Tenggara",
          price="Thin, seasonal market", pbg="Varies by regency",
@@ -1218,25 +1218,25 @@ def calc_widget():
 <fieldset class="fs">
 <legend>What you are buying</legend>
 {choice("tenure", "What you are buying", [("lease", "Leasehold"), ("hgb", "HGB / Hak Pakai"), ("freehold", "Freehold-equivalent")],
-        "Leasehold is a contract for a fixed number of years — at the end it returns nothing unless the agreement contains an enforceable extension. HGB and Hak Pakai are registered rights, time-limited but renewable, commonly 30 years plus a 20-year extension and a 30-year renewal, each step subject to approval. Freehold-equivalent means the value does not run down — Hak Milik is not available to foreigners, so this mainly models an Indonesian-held title or a comparison case.")}
+        "Leasehold is a contract for a fixed number of years, at the end it returns nothing unless the agreement contains an enforceable extension. HGB and Hak Pakai are registered rights, time-limited but renewable, commonly 30 years plus a 20-year extension and a 30-year renewal, each step subject to approval. Freehold-equivalent means the value does not run down. Hak Milik is not available to foreigners, so this mainly models an Indonesian-held title or a comparison case.")}
 {choice("asset", "Property type", [("villa", "Villa"), ("apartment", "Apartment"), ("guesthouse", "Guesthouse")],
         "This only sets sensible starting numbers for rate, occupancy and running costs. Change any field and your value is kept.")}
 {choice("revmode", "How it earns", [("nightly", "Nightly rental"), ("monthly", "Long-term rental")],
-        "Nightly means short-term accommodation, which is a licensed business activity and attracts OTA commission and PB1. Long-term means a genuine residential tenancy — different legal activity, far lower costs, and it does not need an accommodation licence.")}
+        "Nightly means short-term accommodation, which is a licensed business activity and attracts OTA commission and PB1. Long-term means a genuine residential tenancy. Different legal activity, far lower costs, and it does not need an accommodation licence.")}
 {field("years", "Years remaining on the right", "25",
-       "The number of years you actually get. This drives the amortisation — it is the single most important input on the page and the one most often glossed over in a sales pitch.", "1", "term-only")}
+       "The number of years you actually get. This drives the amortisation. It is the single most important input on the page and the one most often glossed over in a sales pitch.", "1", "term-only")}
 {field("residual", "Value left at the end (%)", "0",
-       "What the asset is still worth to you when the term expires, as a percentage of what you put in. A plain lease is 0 — it reverts to the landowner. HGB defaults to 60% on the assumption renewal succeeds but costs money and carries risk. Set it to 0 to see the worst case.", "5", "term-only")}
+       "What the asset is still worth to you when the term expires, as a percentage of what you put in. A plain lease is 0. It reverts to the landowner. HGB defaults to 60% on the assumption renewal succeeds but costs money and carries risk. Set it to 0 to see the worst case.", "5", "term-only")}
 </fieldset>
 
 <fieldset class="fs">
 <legend>Capital in</legend>
 {field("price", "Purchase price or lease premium (USD)", "300000",
-       "The headline number — what you hand over for the property or the lease.", "1000")}
+       "The headline number, what you hand over for the property or the lease.", "1000")}
 {field("build", "Build or renovation (USD)", "0",
        "Construction or refurbishment. Leave at zero if you are buying something finished.", "1000")}
 {field("ffe", "Furniture, pool, setup (USD)", "35000",
-       "Furniture, fittings and equipment. Routinely underestimated — a villa fit-out to rentable standard is rarely trivial.", "1000")}
+       "Furniture, fittings and equipment. Routinely underestimated, a villa fit-out to rentable standard is rarely trivial.", "1000")}
 {field("tx", "Transaction costs (%)", "7",
        "BPHTB (buyer's transfer tax, around 5% on a titled transfer), notary and PPAT fees, legal due diligence and agent commission. Budget an extra margin for contingencies.", "0.5")}
 </fieldset>
@@ -1244,7 +1244,7 @@ def calc_widget():
 <fieldset class="fs">
 <legend>Revenue</legend>
 {field("adr", "Average nightly rate (USD)", "180",
-       "Your average achieved rate across the whole year — not your high-season headline rate.", "5", "nightly-only")}
+       "Your average achieved rate across the whole year, not your high-season headline rate.", "5", "nightly-only")}
 {field("occ", "Occupancy (%)", "65",
        "Nights sold as a percentage of nights available, across a full year. Bali low season is real; sustained figures above 75% are unusual.", "1", "nightly-only")}
 {field("rent", "Monthly rent (USD)", "2200",
@@ -1262,13 +1262,13 @@ def calc_widget():
 {field("pb1", "PB1 regional tax (%)", "10",
        "The regional tax on accommodation revenue, collected from the guest and remitted by the operator. It is not optional and it is not income to you.", "1")}
 {field("mgmt", "Management fee (%)", "20",
-       "What a management company charges, usually on net room revenue after platform commission. Verify the base — a fee on gross is a materially different number.", "1")}
+       "What a management company charges, usually on net room revenue after platform commission. Verify the base. A fee on gross is a materially different number.", "1")}
 {field("opex", "Staff, utilities, upkeep (USD / month)", "1200",
        "Villa staff, power, water, pool and garden, internet, supplies, repairs. Staffing is the big line and it does not scale down in low season.", "50")}
 {field("capex", "Refurbishment reserve (%)", "5",
        "Money set aside for the refit a rental property needs every few years. Almost never shown in a yield projection, which is why projections look better than reality.", "1")}
 {field("tax_rate", "Income tax (%)", "22",
-       "Tax on profit. 22% is the standard Indonesian corporate rate for a PT PMA. Personal rates and small-business regimes differ — use your actual figure.", "1")}
+       "Tax on profit. 22% is the standard Indonesian corporate rate for a PT PMA. Personal rates and small-business regimes differ, use your actual figure.", "1")}
 </fieldset>
 </form>
 
@@ -1296,7 +1296,7 @@ def calc_widget():
 <section class="charts">
 <figure class="chart">
 <figcaption><h2>Do you get your money back?</h2>
-<p>Cumulative position across the term — you start at minus your capital, and the line is where you stand each year. Anything below zero at the end is a loss, whatever the yield said.</p></figcaption>
+<p>Cumulative position across the term. You start at minus your capital, and the line is where you stand each year. Anything below zero at the end is a loss, whatever the yield said.</p></figcaption>
 <div id="chart_cum"></div>
 </figure>
 
@@ -1329,10 +1329,10 @@ def calculator():
 <p>On a leasehold there is a further deduction that is almost never shown. A 25-year lease is a wasting asset: you are buying 25 years of use, after which the land and everything built on it revert to the owner unless the lease contains an enforceable, priced extension clause. Amortising the premium over the remaining term is the only way to compare a leasehold against a freehold purchase honestly.</p>
 <p>The defaults above are deliberately middle-of-road, not optimistic. Change them to your actual numbers. If a seller's projection cannot survive being typed into this page, that is the answer.</p>
 <h2>What this does not model</h2>
-<p>Capital appreciation, currency movement, financing costs, and the risk that the property cannot legally be operated as short-term accommodation at all. That last one is not a rounding error — <a href="{BASE}/company/pt-pma-kbli-closure-bali/">Bali closed the villa and homestay business classifications to new foreign-owned companies in July 2026</a>, and zoning determines whether nightly rental is permitted on the plot before any of these numbers matter.</p>
+<p>Capital appreciation, currency movement, financing costs, and the risk that the property cannot legally be operated as short-term accommodation at all. That last one is not a rounding error, <a href="{BASE}/company/pt-pma-kbli-closure-bali/">Bali closed the villa and homestay business classifications to new foreign-owned companies in July 2026</a>, and zoning determines whether nightly rental is permitted on the plot before any of these numbers matter.</p>
 </div>
 {cta("Send me the seller's projection.",
-     "If you have a yield sheet from an agent or developer, send it to me with the location and the title type. I'll tell you which assumptions break first — the occupancy, the lease term, the licence, or the zoning. ",
+     "If you have a yield sheet from an agent or developer, send it to me with the location and the title type. I'll tell you which assumptions break first, the occupancy, the lease term, the licence, or the zoning. ",
      "Send it on Instagram")}
 </main>
 {footer(f'<script src="{BASE}/calc.js" defer></script>')}"""
@@ -1453,7 +1453,7 @@ def main():
 DISCLAIMER = """
 Bali Off Script publishes general information about Indonesian property, immigration and tax rules. It is not legal advice, tax advice, or financial advice, and reading it does not create an adviser relationship.
 
-Indonesian regulations change frequently and are applied inconsistently between regencies and between individual government offices. A rule that held last quarter in Badung may be administered differently this quarter in Tabanan. Figures on this site — minimum property values, capital thresholds, tax rates, visa income requirements — are the ones in force when the page was written, and they move.
+Indonesian regulations change frequently and are applied inconsistently between regencies and between individual government offices. A rule that held last quarter in Badung may be administered differently this quarter in Tabanan. Figures on this site, minimum property values, capital thresholds, tax rates, visa income requirements, are the ones in force when the page was written, and they move.
 
 Before you sign anything, transfer any money, or rely on any structure described here, verify it with a licensed Indonesian notary or PPAT, an Indonesian lawyer, and a registered tax consultant. Engage your own, not the seller's.
 
@@ -1465,10 +1465,10 @@ Print this. Take it to viewings. If a seller or agent gets defensive about any l
 
 ## Before you pay a deposit
 
-- Original certificate sighted — SHM, SHGB or SHP, not a photocopy, not a photo
+- Original certificate sighted, SHM, SHGB or SHP, not a photocopy, not a photo
 - Certificate verified at the local BPN office by your own notary
 - Land physically walked with GPS against the cadastral drawing
-- Zoning confirmed on GISTARU or at the regency planning office — not from the agent
+- Zoning confirmed on GISTARU or at the regency planning office, not from the agent
 - Zoning permits your intended use (pink for commercial rental; yellow and green do not)
 - No hak tanggungan (mortgage or lien) registered against the title
 - No dispute, no overlapping certificate, no sertifikat ganda
@@ -1480,13 +1480,13 @@ Print this. Take it to viewings. If a seller or agent gets defensive about any l
 ## Before you sign
 
 - Access road confirmed as legal right of way, in writing, with width recorded
-- Setbacks checked — beach, river, cliff, and any temple or sacred-site buffer
+- Setbacks checked, beach, river, cliff, and any temple or sacred-site buffer
 - PBG (building permit) exists for every structure on the plot
 - SLF (fitness certificate) issued
 - If leasehold: extension clause is unconditional, priced or formula-based, and binds the owner's heirs and successors
 - If leasehold: transfer and sublease rights are explicit
 - If buying a company: full corporate, tax and licensing due diligence, and confirmation the LKPM reports are filed
-- Your own notary or PPAT engaged — not the one the seller brought
+- Your own notary or PPAT engaged, not the one the seller brought
 
 ## Before you complete
 

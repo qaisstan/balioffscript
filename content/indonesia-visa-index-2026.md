@@ -25,7 +25,7 @@ This is the part that survives every reshuffle:
 
 > Do not choose a visa based on how long you want to stay. The first legal question is always what you will **actually do** in Indonesia.
 
-Work, investment, family, study, medical treatment, remote employment, ancestry, or simply visiting. The activity determines the index, the sponsor requirement and the legal basis. Length of stay falls out of that answer — it is not the input.
+Work, investment, family, study, medical treatment, remote employment, ancestry, or simply visiting. The activity determines the index, the sponsor requirement and the legal basis. Length of stay falls out of that answer. It is not the input.
 
 Using a visitor status for unauthorised work is an enforcement risk, not a technicality.
 
@@ -33,8 +33,8 @@ Using a visitor status for unauthorised work is an enforcement risk, not a techn
 
 | Family | Purpose |
 | --- | --- |
-| `A` | Visa exemption — short qualifying visits |
-| `B` / `F` | Visa on arrival — 30 days, one 30-day extension |
+| `A` | Visa exemption: short qualifying visits |
+| `B` / `F` | Visa on arrival: 30 days, one 30-day extension |
 | `C` | Single-entry visitor, purpose-specific |
 | `D` | Multiple-entry visitor, including `D12` pre-investment |
 | `E23` family | Work for an Indonesia-based sponsor |
@@ -63,4 +63,4 @@ Two things follow from a restructure of this size.
 
 **The official index is the authority.** Not a summary, not a brochure, and not this page. Every index has an official Ditjen Imigrasi listing, and the current requirements live there.
 
-Figures in circulation — income thresholds, deposits, minimum investments — are revised periodically. Anything you read anywhere, including here, should be confirmed against the live official page before you file or transfer money.
+Figures in circulation, income thresholds, deposits, minimum investments, are revised periodically. Anything you read anywhere, including here, should be confirmed against the live official page before you file or transfer money.

@@ -36,7 +36,7 @@ Bali offers none of those three in the same form.
 | Rules | Centralised, predictable | Vary by regency; enforcement inconsistent |
 | Direction of travel | Progressively more open | **Tightening** |
 
-That last row matters most. Dubai liberalised foreign ownership to attract capital. Bali has moved the other way — [criminalising nominee arrangements](/ownership/nominee-structure-bali/) under Perda Bali 4/2026, and [closing eighteen business classifications to new foreign-owned companies](/company/pt-pma-kbli-closure-bali/) in July 2026.
+That last row matters most. Dubai liberalised foreign ownership to attract capital. Bali has moved the other way, [criminalising nominee arrangements](/ownership/nominee-structure-bali/) under Perda Bali 4/2026, and [closing eighteen business classifications to new foreign-owned companies](/company/pt-pma-kbli-closure-bali/) in July 2026.
 
 ## What that combination actually produces
 
@@ -53,6 +53,6 @@ The practical consequences follow logically:
 
 If you believe capital keeps arriving while the compliant supply stays constrained, the case for buying **clean** assets is strong.
 
-The case for buying cheap non-compliant ones on the assumption it will be regularised later is the opposite — that is a bet against the direction the policy is visibly moving.
+The case for buying cheap non-compliant ones on the assumption it will be regularised later is the opposite. That is a bet against the direction the policy is visibly moving.
 
 > Bali is not becoming Dubai. It is becoming a market where legal position, rather than location, is the main determinant of value.

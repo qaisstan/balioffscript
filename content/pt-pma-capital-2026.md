@@ -13,7 +13,7 @@ Two numbers get confused constantly, and the confusion costs people either a was
 
 ## Paid-up capital: IDR 2.5 billion
 
-Since BKPM Regulation 5/2025 took effect on 2 October 2025, the minimum paid-up capital for a PT PMA is **IDR 2.5 billion** — down from IDR 10 billion.
+Since BKPM Regulation 5/2025 took effect on 2 October 2025, the minimum paid-up capital for a PT PMA is **IDR 2.5 billion**, down from IDR 10 billion.
 
 This is money that must actually sit in the company's bank account. It is declared at incorporation, deposited once the account opens, and expected to remain for around twelve months. It is your money, in your company, usable for the business.
 
@@ -27,7 +27,7 @@ Some sectors are assessed differently: food and beverage on the two-digit KBLI p
 
 ## What this changed in practice
 
-Before October 2025, a foreigner needed IDR 10 billion — roughly USD 600,000 — sitting in cash to start. That put a legal structure out of reach for most people buying a single villa, which is a large part of why nominee arrangements were so common.
+Before October 2025, a foreigner needed IDR 10 billion, roughly USD 600,000, sitting in cash to start. That put a legal structure out of reach for most people buying a single villa, which is a large part of why nominee arrangements were so common.
 
 At IDR 2.5 billion, roughly USD 150,000, the legal route is now realistic for a much wider range of buyers. Combined with the criminalisation of nominees in Bali in February 2026, the calculation has flipped.
 

@@ -11,7 +11,7 @@ verified: 2026-08-13
 
 ## Income tax
 
-**Resident individual with an NPWP: 10% final** under PPh Pasal 4(2) on gross rental of land and buildings. Final means it is settled — no further income tax on that stream.
+**Resident individual with an NPWP: 10% final** under PPh Pasal 4(2) on gross rental of land and buildings. Final means it is settled, no further income tax on that stream.
 
 **Non-resident: 20%** under PPh Pasal 26, withheld.
 
@@ -19,7 +19,7 @@ verified: 2026-08-13
 
 ## The tax almost nobody remits
 
-**PB1 / PHR — 10% regional accommodation tax** on short-term accommodation. It applies to villa rentals in Badung and across Bali's tourism regencies.
+**PB1 / PHR: 10% regional accommodation tax** on short-term accommodation. It applies to villa rentals in Badung and across Bali's tourism regencies.
 
 Airbnb does not collect it. Booking.com does not collect it. It is on you to register and remit.
 
@@ -39,6 +39,6 @@ Registration as a PKP becomes mandatory above IDR 4.8 billion in turnover. Most 
 
 Rental income enforcement tightened sharply through 2025 and 2026. Platform listings are visible, licensing is being checked, and the **31 March 2026** deadline requiring all short-term rentals on booking platforms to be licensed created an obvious cross-reference between listings and registrations.
 
-The combination that gets people caught is not one missing filing. It is an unlicensed property, listed publicly, generating undeclared income, with no PB1 remitted — four failures that all point at each other.
+The combination that gets people caught is not one missing filing. It is an unlicensed property, listed publicly, generating undeclared income, with no PB1 remitted, four failures that all point at each other.
 
 > Getting compliant costs a fraction of getting caught. The properties being sealed in Bali right now are not sophisticated tax structures. They are ordinary villas whose owners assumed nobody was looking.

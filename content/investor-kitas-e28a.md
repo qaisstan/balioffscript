@@ -1,6 +1,6 @@
 ---
 question: How does the Investor KITAS (E28A) work?
-summary: Two years of residency attached to your PT PMA shareholding — and the permit most property-holding structures run on.
+summary: Two years of residency attached to your PT PMA shareholding, and the permit most property-holding structures run on.
 category: visas
 order: 03
 risk: medium
@@ -9,7 +9,7 @@ applies: Shareholders and directors of a PT PMA
 verified: 2026-08-13
 ---
 
-If you have set up a PT PMA — to hold property on HGB, to run villa rentals, to run any business — the E28A is the stay permit that goes with it.
+If you have set up a PT PMA, to hold property on HGB, to run villa rentals, to run any business, the E28A is the stay permit that goes with it.
 
 ## What it gives you
 
@@ -19,7 +19,7 @@ Two years, renewable. Residency, a local bank account, the ability to hold **Hak
 
 Qualifying shareholding in the PT PMA. The company must be properly incorporated with its NIB issued through OSS, and the paid-up capital must actually be in the company's account.
 
-Where you are a shareholder taking a director or commissioner role, parts of the foreign worker approval process are relaxed under Article 19 of PP 34/2021. Where you are working in the company as an employee rather than an owner, you are in Work KITAS territory instead: full RPTKA approval, plus the **DKPTKA levy of USD 100 per month** — USD 1,200 a year per foreign worker, paid through SIMPONI before the permit issues.
+Where you are a shareholder taking a director or commissioner role, parts of the foreign worker approval process are relaxed under Article 19 of PP 34/2021. Where you are working in the company as an employee rather than an owner, you are in Work KITAS territory instead: full RPTKA approval, plus the **DKPTKA levy of USD 100 per month**: USD 1,200 a year per foreign worker, paid through SIMPONI before the permit issues.
 
 ## What it costs to keep
 
@@ -31,7 +31,7 @@ The visa is the cheap part. The company behind it is not. A PT PMA carries:
 - Annual financial statements
 - BPJS health and employment registration for staff
 
-Budget several thousand US dollars a year for accounting and compliance before you have earned anything. People underprice this constantly, then let the filings slip, then discover the company is non-compliant at the exact moment they need it to be clean — a sale, a licence renewal, a visa extension.
+Budget several thousand US dollars a year for accounting and compliance before you have earned anything. People underprice this constantly, then let the filings slip, then discover the company is non-compliant at the exact moment they need it to be clean, a sale, a licence renewal, a visa extension.
 
 ## The dormant company problem
 

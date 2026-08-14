@@ -24,7 +24,7 @@ The deposit route is the one almost everyone uses. The property figure is high e
 
 ## What you get
 
-**Five or ten years**, depending on the tier — which is what makes it attractive compared with a one-year renewable permit. No sponsor is required. Immediate family can be included on some sub-indices.
+**Five or ten years**, depending on the tier, which is what makes it attractive compared with a one-year renewable permit. No sponsor is required. Immediate family can be included on some sub-indices.
 
 It is renewable while the financial commitment is maintained. That word *maintained* matters: the deposit is not a one-time entry fee. Confirm whether it must be held continuously, and in what account type, before you move the money.
 
@@ -40,7 +40,7 @@ E33 is a family, not a single visa:
 | `E33C` | Internationally recognised figure, government-invited |
 | `E33D` | Recognised figure establishing a company |
 | `E33E` | Senior / elderly long-stay tier |
-| `E33F` | Senior / elderly — confirm the current distinction from E33E |
+| `E33F` | Senior / elderly: confirm the current distinction from E33E |
 
 The senior tiers carry a minimum age, commonly cited at 55 or 60 depending on the sub-index, with income, pension or deposit conditions instead of the full standard threshold. If you are over 55, ask specifically about these before defaulting to the standard tier.
 
@@ -48,7 +48,7 @@ The senior tiers carry a minimum age, commonly cited at 55 or 60 depending on th
 
 Second Home status does **not** permit local employment or running an Indonesian business. It is residence, not work authorisation.
 
-If you intend to operate a villa rental business, this is not the permission that allows it — that is a company, licensing and zoning question, and [the classifications available to a new foreign-owned company in Bali narrowed sharply in July 2026](/company/pt-pma-kbli-closure-bali/).
+If you intend to operate a villa rental business, this is not the permission that allows it. That is a company, licensing and zoning question, and [the classifications available to a new foreign-owned company in Bali narrowed sharply in July 2026](/company/pt-pma-kbli-closure-bali/).
 
 ## The confusion worth avoiding
 
@@ -65,6 +65,6 @@ The visa stage is commonly reported at around **5 to 14 business days** once doc
 
 ## Tax
 
-A long stay makes you an Indonesian tax resident regardless of visa category — residence follows physical presence, not the permit in your passport. A large Indonesian bank deposit also carries its own reporting implications.
+A long stay makes you an Indonesian tax resident regardless of visa category. Residence follows physical presence, not the permit in your passport. A large Indonesian bank deposit also carries its own reporting implications.
 
 That is a conversation with a tax adviser before the money moves, not after.

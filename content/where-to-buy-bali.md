@@ -4,7 +4,7 @@ summary: Canggu for liquidity, Uluwatu for upside, Sanur and Ubud for value. Wha
 category: areas
 order: 01
 risk: info
-regulation: Land prices are market data, not regulation — verify current figures locally
+regulation: Land prices are market data, not regulation, verify current figures locally
 applies: Investors and lifestyle buyers
 verified: 2026-08-13
 ---
@@ -13,15 +13,15 @@ Land prices below are leasehold, per 100 square metres (one are), per the term. 
 
 ## Canggu, Berawa, Pererenan
 
-The most liquid market on the island — Canggu alone accounted for roughly a third of transactions in Q3 2025. Berawa around USD 82,500 per are, Pererenan USD 55,000–75,000.
+The most liquid market on the island, Canggu alone accounted for roughly a third of transactions in Q3 2025. Berawa around USD 82,500 per are, Pererenan USD 55,000–75,000.
 
 Best exit liquidity, established rental demand, strongest infrastructure. Also the most saturated: supply growth is compressing rates and traffic is now a genuine constraint on guest experience. Pererenan and Cemagi are where the value has moved.
 
 ## Uluwatu, Pecatu, Bingin, Balangan
 
-Roughly 40% cheaper land than Canggu — clifftop USD 40,000–60,000 per are, inland USD 25,000–40,000. The highest ADRs on the island, validated by Bulgari, Six Senses and Alila.
+Roughly 40% cheaper land than Canggu. Clifftop USD 40,000–60,000 per are, inland USD 25,000–40,000. The highest ADRs on the island, validated by Bulgari, Six Senses and Alila.
 
-Supply is constrained by limited pink zoning, which supports pricing. The upside case is the strongest in Bali right now. The counterweight is the July 2025 Bingin demolitions, which happened here — this is the area where zoning and permit diligence matters most, not least.
+Supply is constrained by limited pink zoning, which supports pricing. The upside case is the strongest in Bali right now. The counterweight is the July 2025 Bingin demolitions, which happened here. This is the area where zoning and permit diligence matters most, not least.
 
 ## Seminyak, Umalas, Kerobokan
 
@@ -33,7 +33,7 @@ The best value per square metre in an established area. Older and family demogra
 
 ## Ubud
 
-Wellness and culture demand, good land value, occupancy above 70% in the right pockets. Different guest profile — longer stays, lower ADR, less seasonal.
+Wellness and culture demand, good land value, occupancy above 70% in the right pockets. Different guest profile. Longer stays, lower ADR, less seasonal.
 
 ## Tabanan, Seseh, Cemagi, the Tanah Lot corridor
 
@@ -43,7 +43,7 @@ But Tabanan sits inside the six-regency construction moratorium. Zoning diligenc
 
 ## North Bali, Amed, Nusa Penida, Sidemen
 
-Lowest entry, thinnest rental demand, longest horizon. The case rests on the proposed North Bali airport in Buleleng — around IDR 50 trillion, 32 million passenger capacity, plus a 60km toll connection. Confirmed on paper. Indonesian infrastructure timelines are their own subject.
+Lowest entry, thinnest rental demand, longest horizon. The case rests on the proposed North Bali airport in Buleleng, around IDR 50 trillion, 32 million passenger capacity, plus a 60km toll connection. Confirmed on paper. Indonesian infrastructure timelines are their own subject.
 
 ## The macro
 

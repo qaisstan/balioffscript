@@ -4,7 +4,7 @@ summary: Sometimes. The honest answer depends on four numbers, and three of them
 category: rental
 order: 03
 risk: high
-regulation: Market analysis — verify all figures against the specific property
+regulation: Market analysis, verify all figures against the specific property
 applies: Anyone weighing a Bali villa purchase
 verified: 2026-08-14
 ---
@@ -15,7 +15,7 @@ Four numbers decide it. Most projections show you one.
 
 ## 1. Gross revenue
 
-Nightly rate multiplied by occupancy, across the whole year. The trap is the occupancy assumption — high season is not the year, and sustained figures above 75% are unusual once low season is included.
+Nightly rate multiplied by occupancy, across the whole year. The trap is the occupancy assumption. High season is not the year, and sustained figures above 75% are unusual once low season is included.
 
 ## 2. What reaches you
 
@@ -27,13 +27,13 @@ An advertised 12% commonly lands between 4% and 6% after all of it.
 
 This is the one nobody shows.
 
-If you hold a 25-year lease, you are consuming the premium at roughly a twenty-fifth a year. On USD 300,000 that is USD 12,000 annually, before a single expense — because at the end the land and everything on it [reverts to the owner](/ownership/land-rights-expiry-bali/).
+If you hold a 25-year lease, you are consuming the premium at roughly a twenty-fifth a year. On USD 300,000 that is USD 12,000 annually, before a single expense, because at the end the land and everything on it [reverts to the owner](/ownership/land-rights-expiry-bali/).
 
 A yield calculated without that number is not a return. It is a drawdown described as income.
 
 ## 4. Whether you can legally rent it at all
 
-Zoning decides whether nightly rental is permitted on the plot. The business classification decides whether your company may operate it — and [several were closed to new foreign-owned companies in July 2026](/company/pt-pma-kbli-closure-bali/).
+Zoning decides whether nightly rental is permitted on the plot. The business classification decides whether your company may operate it, and [several were closed to new foreign-owned companies in July 2026](/company/pt-pma-kbli-closure-bali/).
 
 If either answer is no, the first three numbers are irrelevant.
 
@@ -57,4 +57,4 @@ If a projection cannot survive being typed into a spreadsheet, that tells you wh
 - Off-plan where permits are pending and the projection assumes day-one occupancy
 - Any deal where the numbers only work at 80% occupancy
 
-> The Bali market is not short of demand — arrivals keep climbing. It is short of properties that can be legally operated at the price being asked.
+> The Bali market is not short of demand. Arrivals keep climbing. It is short of properties that can be legally operated at the price being asked.

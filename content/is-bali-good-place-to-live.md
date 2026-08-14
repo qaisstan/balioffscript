@@ -4,7 +4,7 @@ summary: For some people, genuinely. The honest answer depends on things nobody 
 category: living
 order: 01
 risk: info
-regulation: Not a regulatory question — lifestyle assessment
+regulation: Not a regulatory question, lifestyle assessment
 applies: Anyone considering relocating
 verified: 2026-08-14
 ---
@@ -27,7 +27,7 @@ Bali receives around seven million foreign arrivals a year and keeps a small fra
 
 **Healthcare.** Adequate for routine care in Denpasar, and serious cases are commonly flown to Singapore. Comprehensive international insurance is not optional.
 
-**Bureaucracy is continuous, not one-off.** Visa renewals, permits, tax filings. The paperwork does not end after you arrive — [it becomes a recurring feature of life](/visas/indonesia-visa-index-2026/).
+**Bureaucracy is continuous, not one-off.** Visa renewals, permits, tax filings. The paperwork does not end after you arrive. [it becomes a recurring feature of life](/visas/indonesia-visa-index-2026/).
 
 **Rainy season.** Roughly November to March. Humidity, flooding in low areas, and a genuine slowdown in social life. Six months of the year is not the postcard.
 
@@ -43,7 +43,7 @@ Bali receives around seven million foreign arrivals a year and keeps a small fra
 
 - Anyone needing regular specialist healthcare
 - People who dislike administrative friction
-- Anyone assuming property here creates security — [buying does not confer residency](/visas/kitap-itap-indonesia/), and the two systems are unrelated
+- Anyone assuming property here creates security. [buying does not confer residency](/visas/kitap-itap-indonesia/), and the two systems are unrelated
 - Anyone treating it as a permanent escape rather than a place with its own frictions
 
 > The people who last here are usually the ones who arrived with realistic expectations, not the ones who arrived most enthusiastic.

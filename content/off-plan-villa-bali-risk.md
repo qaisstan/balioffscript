@@ -30,7 +30,7 @@ A completed building is not proof of a legal building. An unbuilt one is not eve
 
 ## The licence risk that is new
 
-Since 22 July 2026, several accommodation classifications are [closed to new foreign-owned companies in Bali](/company/pt-pma-kbli-closure-bali/) — villa and homestay among them.
+Since 22 July 2026, several accommodation classifications are [closed to new foreign-owned companies in Bali](/company/pt-pma-kbli-closure-bali/), villa and homestay among them.
 
 That matters enormously off-plan. A project marketed in 2025 on the basis that buyers would operate nightly rentals through their own PT PMA may no longer have a route to do so. The building can complete exactly as promised and the income model still fail.
 
@@ -60,7 +60,7 @@ Bali construction timelines slip. Assume they will and ask what happens when the
 
 Every off-plan sale comes with one. Put it through the [calculator](/calculator/) with your own occupancy assumption and the actual lease term.
 
-Projections routinely omit platform commission, PB1, refurbishment reserve, and — on leasehold — the amortisation of the premium. A projection that cannot survive being typed into a spreadsheet was not built to.
+Projections routinely omit platform commission, PB1, refurbishment reserve, and, on leasehold, the amortisation of the premium. A projection that cannot survive being typed into a spreadsheet was not built to.
 
 ## The order of operations
 

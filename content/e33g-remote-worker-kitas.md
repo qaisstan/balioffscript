@@ -1,6 +1,6 @@
 ---
 question: What are the real requirements for the E33G remote worker KITAS?
-summary: One year of residency for remote workers — with an income floor and one rule people break immediately.
+summary: One year of residency for remote workers, with an income floor and one rule people break immediately.
 category: visas
 order: 02
 risk: medium
@@ -25,7 +25,7 @@ Valid for one year.
 
 You may not earn income from an Indonesian source, and you may not be paid in rupiah. Not by an Indonesian client, not through an Indonesian entity, not as a "consulting fee" from a local business.
 
-This is where the enforcement in 2025 landed. Foreigners on E33G doing paid work for Bali businesses — running marketing for a beach club, managing villas, taking photography jobs — have been deported. The visa is for work that happens to be done from Indonesia, not work in Indonesia.
+This is where the enforcement in 2025 landed. Foreigners on E33G doing paid work for Bali businesses, running marketing for a beach club, managing villas, taking photography jobs, have been deported. The visa is for work that happens to be done from Indonesia, not work in Indonesia.
 
 ## The tax question nobody raises at application
 
@@ -37,6 +37,6 @@ Whether your home country's treaty with Indonesia relieves any of that depends o
 
 ## Where it fits for property
 
-The E33G is a KITAS, so it satisfies the residency condition for **Hak Pakai**. If you are living in Bali on remote income and buying somewhere to live, that combination is worth looking at properly — it is a certificate in your own name rather than a contract with a landowner.
+The E33G is a KITAS, so it satisfies the residency condition for **Hak Pakai**. If you are living in Bali on remote income and buying somewhere to live, that combination is worth looking at properly. It is a certificate in your own name rather than a contract with a landowner.
 
 It does not let you run a rental business. That needs a company and a different permit.

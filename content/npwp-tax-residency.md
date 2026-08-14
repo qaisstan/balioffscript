@@ -13,7 +13,7 @@ verified: 2026-08-13
 
 Spend **183 days or more** in Indonesia within any twelve-month period and you become an Indonesian tax resident. Having a KITAS and intending to live here can also establish residency.
 
-Once resident, Indonesia taxes your **worldwide income** — not just what you earn here — at progressive rates from 5% to 35%.
+Once resident, Indonesia taxes your **worldwide income**, not just what you earn here, at progressive rates from 5% to 35%.
 
 Non-residents pay 20% on Indonesian-sourced income only, subject to treaty relief.
 
@@ -33,7 +33,7 @@ You need one to:
 - Register a PT PMA properly
 - Handle property transactions cleanly
 
-Registration runs through the tax office or online. Since January 2025 everything moves through **Coretax**, the replacement filing system. The rollout has been rough — legacy DJP Online still runs in parallel for some functions — so allow more time than the guides suggest.
+Registration runs through the tax office or online. Since January 2025 everything moves through **Coretax**, the replacement filing system. The rollout has been rough, legacy DJP Online still runs in parallel for some functions, so allow more time than the guides suggest.
 
 ## What to do about it
 
