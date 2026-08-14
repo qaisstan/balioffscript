@@ -259,6 +259,73 @@ tbody tr:last-child td { border-bottom: 0; }
 .related a { display: block; padding: 0.7rem 0; text-decoration: none; font-size: 0.9375rem; }
 .related a:hover { color: var(--seal); }
 
+/* ------------------------------------------------- home: proof / warn / who */
+
+.btn-lg { padding: 0.85rem 1.6rem; font-size: 0.9375rem; }
+
+.proof-wrap { padding-block: 1rem 0; }
+.proof {
+  display: grid; grid-template-columns: 1fr 22rem; gap: 2.5rem;
+  align-items: center; background: var(--ink); color: var(--paper); padding: 2.25rem;
+}
+.proof-k {
+  font-family: var(--mono); font-size: 0.6875rem; letter-spacing: 0.12em;
+  text-transform: uppercase; color: #8b94a1; margin: 0 0 0.5rem;
+}
+.proof-h { font-family: var(--display); font-size: 1.875rem; line-height: 1.15; margin: 0 0 0.75rem; }
+.proof-b { color: #b9c0ca; font-size: 0.9375rem; margin: 0 0 1.5rem; max-width: 34rem; }
+.proof-fig { border-left: 1px solid rgba(250,248,244,0.18); padding-left: 1.75rem; }
+.proof-row {
+  display: flex; justify-content: space-between; align-items: baseline; gap: 1rem;
+  padding: 0.6rem 0; border-bottom: 1px solid rgba(250,248,244,0.12);
+}
+.proof-row span { font-size: 0.8125rem; color: #b9c0ca; }
+.proof-row b { font-family: var(--mono); font-size: 1.0625rem; }
+.proof-bad b { color: #e8837a; }
+.proof-note { font-size: 0.75rem; color: #8b94a1; margin: 0.85rem 0 0; line-height: 1.5; }
+
+.warn-wrap { padding-block: 2.5rem 0; }
+.warn-block { border-left: 3px solid var(--seal); background: var(--paper-2); padding: 1.5rem 1.75rem; }
+.warn-flag {
+  display: inline-block; font-family: var(--mono); font-size: 0.6875rem;
+  letter-spacing: 0.1em; text-transform: uppercase; color: var(--seal); margin-bottom: 0.6rem;
+}
+.warn-block h2 { font-size: 1.375rem; line-height: 1.25; margin: 0 0 0.75rem; max-width: 44rem; }
+.warn-block p { font-size: 0.9375rem; margin: 0 0 0.6rem; max-width: 48rem; color: var(--slate); }
+.warn-block p:last-child { margin-bottom: 0; }
+
+.who-wrap { padding-block: 3rem 0; }
+.who { display: flex; gap: 2rem; align-items: flex-start; border-top: 2px solid var(--ink); padding-top: 1.75rem; }
+.who-photo {
+  flex: none; width: 132px; height: 132px; border-radius: 50%;
+  object-fit: cover; object-position: center top; border: 1px solid var(--rule-2);
+}
+.who-h { font-size: 1.5rem; margin: 0 0 0.6rem; }
+.who-b { font-size: 0.9375rem; margin: 0 0 0.75rem; max-width: 44rem; color: var(--slate); }
+.who-ig { font-size: 0.875rem; text-decoration: none; }
+
+@media (max-width: 52rem) {
+  .proof { grid-template-columns: 1fr; gap: 1.5rem; padding: 1.5rem; }
+  .proof-fig { border-left: 0; border-top: 1px solid rgba(250,248,244,0.18); padding-left: 0; padding-top: 1.25rem; }
+  .proof-h { font-size: 1.5rem; }
+  .who { flex-direction: column; gap: 1.25rem; }
+  .who-photo { width: 104px; height: 104px; }
+}
+
+/* -------------------------------------------------------- check page */
+
+.chk { max-width: var(--measure); margin-top: 2rem; border-top: 2px solid var(--ink); padding-top: 1rem; }
+.chk h2 { font-size: 1.125rem; margin: 0 0 0.75rem; }
+.chk-list { list-style: none; margin: 0; padding: 0; }
+.chk-list li {
+  position: relative; padding: 0.55rem 0 0.55rem 1.65rem;
+  border-bottom: 1px solid var(--rule); font-size: 0.9375rem;
+}
+.chk-list li::before {
+  content: ""; position: absolute; left: 0; top: 1.05rem;
+  width: 0.6rem; height: 0.6rem; border: 1px solid var(--rule-2); background: #fff;
+}
+
 /* ---------------------------------------------------------- calculator */
 
 .calc-page { padding-bottom: 3rem; }

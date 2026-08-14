@@ -47,7 +47,7 @@ AUTHOR = "Kai"
 AUTHOR_ROLE = "Bali property adviser"
 # Drop the file in assets/ under this name. If it isn't there, the portrait is
 # simply skipped rather than rendering a broken image on all 27 pages.
-AUTHOR_PHOTO = "qais.jpg"
+AUTHOR_PHOTO = "kai.jpg"
 TAGLINE = "Straight answers on buying, building and living in Bali."
 
 CATEGORIES = {
@@ -197,6 +197,8 @@ def footer(extra=""):
 </div>
 <div class="foot-links">
 <a class="ig-link" href="{INSTAGRAM}" rel="me">{ig_logo("ig ig-sm")}<span>@balioffscript</span></a>
+<a href="{BASE}/calculator/">ROI calculator</a>
+<a href="{BASE}/check/">What I'd check first</a>
 <a href="{BASE}/checklist/">Due diligence checklist</a>
 <a href="{BASE}/disclaimer/">Disclaimer</a>
 </div>
@@ -258,17 +260,19 @@ def portrait(cls="cta-photo"):
             f'loading="lazy" alt="{AUTHOR}, {AUTHOR_ROLE}">')
 
 
-def cta():
+def cta(kicker="Got a specific situation?",
+        body="Every deal in Bali has a detail that breaks the general rule. Send me the details and I'll tell you what I'd check first.",
+        btn="Ask on Instagram"):
     return f"""<section class="cta">
 <div class="cta-id">
 {portrait()}
 <div class="cta-said">
-<p class="cta-k">Got a specific situation?</p>
-<p class="cta-b">Every deal in Bali has a detail that breaks the general rule. Send me the details and I'll tell you what I'd check first.</p>
+<p class="cta-k">{kicker}</p>
+<p class="cta-b">{body}</p>
 <p class="cta-by">{AUTHOR} — {AUTHOR_ROLE}</p>
 </div>
 </div>
-<a class="btn" href="{INSTAGRAM}" rel="me">{ig_logo()}<span>Ask on Instagram</span></a>
+<a class="btn" href="{INSTAGRAM}" rel="me">{ig_logo()}<span>{btn}</span></a>
 </section>"""
 
 
@@ -330,6 +334,77 @@ def category(key, pages):
 {footer()}"""
 
 
+CHECK_ITEMS = [
+    ("The plot", [
+        "Exact location — regency and village, not 'Canggu area'",
+        "Certificate type and number: Hak Milik, HGB, Hak Pakai, or a lease",
+        "Whose name is on the certificate, and their authority to transact",
+        "Land area, and the cadastral drawing against what you walked",
+    ]),
+    ("The zoning", [
+        "RDTR designation for this parcel, from the regency, not the agent",
+        "KDB and KLB figures — what you can actually build, not just whether you can",
+        "Setbacks: beach, river, cliff, temple",
+        "Whether LP2B or subak protections apply",
+    ]),
+    ("The building", [
+        "PBG for every structure standing on the plot",
+        "SLF issued, not 'being processed'",
+        "If off-plan: what has actually been approved, with application numbers",
+    ]),
+    ("The business", [
+        "The rental model — nightly, monthly, or genuine long-term residential",
+        "Which KBLI classification the operator intends to use",
+        "Whether that classification is open for new registration today",
+        "Whether the NIB covers this location or only a company domicile",
+    ]),
+    ("The agreement", [
+        "If leasehold: term remaining, and whether extension is priced or merely promised",
+        "Whether transfer and sublease rights are explicit",
+        "Whether the extension clause binds the owner's heirs and successors",
+        "Who pays which taxes, in writing",
+    ]),
+]
+
+
+def check_page():
+    desc = ("The information I need to tell you whether a Bali property works — and the "
+            "list of things that decide it, in the order they decide it.")
+    blocks = "".join(
+        f"""<section class="chk">
+<h2>{title}</h2>
+<ul class="chk-list">{''.join(f'<li>{i}</li>' for i in items)}</ul>
+</section>"""
+        for title, items in CHECK_ITEMS
+    )
+    return f"""{head("What I'd check first — " + SITE_NAME, desc, "/check/")}
+{nav()}
+<main class="wrap article">
+<p class="eyebrow">Before you commit</p>
+<h1>What I'd check first</h1>
+<p class="standfirst">{desc}</p>
+
+<div class="prose">
+<p>Most Bali deals do not fail on price. They fail because one link in a chain does not match the others, and nobody checked the chain in order.</p>
+<p>The order is: <strong>land → owner → agreement → zoning → permitted use → business classification → PBG → SLF → operating licence</strong>. A break anywhere invalidates everything downstream. A beautiful plot with clean title is worthless for a rental business if the classification is closed, and a perfect licence is worthless if the building has no PBG.</p>
+<p>Below is what I go through. If you send me these, I can tell you where the problem is. If a seller becomes evasive about any single line, you have already learned something.</p>
+</div>
+
+{blocks}
+
+<div class="prose">
+<h2>What the answers usually reveal</h2>
+<p>In practice the break is nearly always in the same three places: the zoning does not permit the intended use, the business classification is unavailable, or the lease extension was promised verbally and never written into the deed.</p>
+<p>None of those are visible in a photograph of a villa.</p>
+</div>
+
+{cta("Send me the file.",
+     "Location, title type, zoning, and any permits you've been shown. I'll tell you which link in the chain breaks, and what it would take to fix it. No charge, and I'm not selling you the property.",
+     "Send it on Instagram")}
+</main>
+{footer()}"""
+
+
 def home(pages):
     counts = "".join(
         f"""<a class="ledger-row" href="{BASE}/{k}/">
@@ -358,10 +433,49 @@ def home(pages):
 <section class="wrap ledger-wrap">
 <div class="ledger">{counts}</div>
 </section>
+<section class="wrap proof-wrap">
+<div class="proof">
+<div class="proof-copy">
+<p class="proof-k">The number you were quoted</p>
+<h2 class="proof-h">A 12% yield is usually a 2% yield.</h2>
+<p class="proof-b">Advertised Bali yields are gross — before OTA commission, the 10% PB1, management, staff, refurbishment and tax. On a leasehold there is one more deduction nobody shows you: the premium amortised over the years remaining. Put a real deal through it and watch what happens.</p>
+<a class="btn btn-lg" href="{BASE}/calculator/">Open the calculator</a>
+</div>
+<div class="proof-fig">
+<div class="proof-row"><span>Advertised gross yield</span><b>12.0%</b></div>
+<div class="proof-row"><span>After operating costs and tax</span><b>1.9%</b></div>
+<div class="proof-row proof-bad"><span>After lease amortisation</span><b>−2.1%</b></div>
+<p class="proof-note">USD 300,000 leasehold villa, 25 years remaining, USD 180 a night at 65% occupancy.</p>
+</div>
+</div>
+</section>
+
+<section class="wrap warn-wrap">
+<div class="warn-block">
+<span class="warn-flag">Read this before you sign anything</span>
+<h2>If the structure puts the land in an Indonesian person's name for you, it is void.</h2>
+<p>Nominee arrangements have been void since 1960 under UU 5/1960 Art. 26(2). Since Perda Bali 4/2026 they are also a criminal matter, and facilitating one is prohibited in its own right. Regional authorities can suspend operations and close premises directly.</p>
+<p>It is still the most commonly sold structure in Bali. <a href="{BASE}/ownership/nominee-structure-bali/">Here is exactly what happens when it unwinds.</a></p>
+</div>
+</section>
+
 <section class="wrap">
 <h2 class="sec-h">Start here</h2>
 <ul class="cards">{recent}</ul>
 </section>
+
+<section class="wrap who-wrap">
+<div class="who">
+{portrait("who-photo")}
+<div>
+<h2 class="who-h">I'm {AUTHOR}.</h2>
+<p class="who-b">I advise on property in Bali, and I'm on the ground here. This site exists because the honest answers to these questions are not what gets published — the market runs on optimism, and buyers find out afterwards. Everything here carries the regulation it comes from and the date I last checked it.</p>
+<p class="who-b">If you're looking at something specific, send it to me. I'll tell you what I'd check first.</p>
+<a class="ig-link who-ig" href="{INSTAGRAM}" rel="me">{ig_logo("ig")}<span>@balioffscript</span></a>
+</div>
+</div>
+</section>
+
 <section class="wrap">{cta()}</section>
 </main>
 {footer()}"""
@@ -460,7 +574,9 @@ def calculator():
 <h2>What this does not model</h2>
 <p>Capital appreciation, currency movement, financing costs, and the risk that the property cannot legally be operated as short-term accommodation at all. That last one is not a rounding error — <a href="{BASE}/company/pt-pma-kbli-closure-bali/">Bali closed the villa and homestay business classifications to new foreign-owned companies in July 2026</a>, and zoning determines whether nightly rental is permitted on the plot before any of these numbers matter.</p>
 </div>
-{cta()}
+{cta("Send me the seller's projection.",
+     "If you have a yield sheet from an agent or developer, send it to me with the location and the title type. I'll tell you which assumptions break first — the occupancy, the lease term, the licence, or the zoning. No charge, and no pitch.",
+     "Send it on Instagram")}
 </main>
 {footer(f'<script src="{BASE}/calc.js" defer></script>')}"""
 
@@ -518,6 +634,7 @@ def main():
 
     write("/", home(pages))
     write("/calculator/", calculator())
+    write("/check/", check_page())
     write("/search/", search_page())
     write("/disclaimer/", simple("disclaimer", "Disclaimer", DISCLAIMER))
     write("/checklist/", simple("checklist", "Due diligence checklist", CHECKLIST))
@@ -531,7 +648,7 @@ def main():
     } for p in pages]
     open(os.path.join(OUT, "search-index.json"), "w", encoding="utf-8").write(json.dumps(index))
 
-    urls = ["/", "/calculator/", "/search/", "/checklist/", "/disclaimer/"] + [f"/{k}/" for k in CATEGORIES] + \
+    urls = ["/", "/calculator/", "/check/", "/search/", "/checklist/", "/disclaimer/"] + [f"/{k}/" for k in CATEGORIES] + \
            [f'/{p["category"]}/{p["slug"]}/' for p in pages]
     sm = "".join(f"<url><loc>{SITE_URL}{u}</loc></url>" for u in urls)
     open(os.path.join(OUT, "sitemap.xml"), "w", encoding="utf-8").write(
