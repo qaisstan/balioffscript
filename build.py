@@ -68,6 +68,7 @@ CATEGORIES = {
     "building": ("Building & Zoning", "Zone colours, permits, the moratorium, and what it costs to build."),
     "rental": ("Rental & ROI", "Licensing, management fees, and yields that survive contact with reality."),
     "areas": ("Areas", "Land prices, demand and constraints, area by area."),
+    "living": ("Living Here", "Whether Bali works as a place to live, and where the market goes next."),
 }
 
 # Category landing pages were thin — a heading and a list of cards. They are
@@ -126,6 +127,15 @@ CATEGORY_SEO = {
         "over the years remaining can take it below zero. Licensing is the separate "
         "question underneath: whether nightly rental is permitted on that plot at all, "
         "and which business classification the operator holds."),
+    "living": (
+        "Living in Bali: the honest version",
+        "Bali is a genuinely good place to live for some people and a slow disappointment "
+        "for others, and the difference is rarely what the brochures discuss. These pages "
+        "cover what actually changes when you move here, the infrastructure and policy "
+        "shifts pulling capital in, and where the market is heading next as Bali prices "
+        "itself out of reach for some buyers. Written the same way as the rest of the "
+        "site: specific, dated, and unwilling to sell you a version of the island that "
+        "does not exist."),
     "areas": (
         "Where to buy in Bali, area by area",
         "Canggu has the liquidity and the strictest enforcement. The Bukit has the highest "
