@@ -33,7 +33,7 @@ SITE_NAME = "Bali Off Script"
 #
 # Only set this once the domain is bought AND its DNS points at GitHub Pages.
 # A CNAME file naming a domain that doesn't resolve takes the site offline.
-DOMAIN = ""
+DOMAIN = "balioffscript.com"
 
 # BASE is the path the site is served from, no trailing slash. A custom domain
 # serves from the root; without one this is a GitHub project page living under
@@ -42,6 +42,12 @@ BASE = "" if DOMAIN else "/balioffscript"
 SITE_URL = f"https://{DOMAIN}" if DOMAIN else f"https://qaisstan.github.io{BASE}"
 
 INSTAGRAM = "https://www.instagram.com/balioffscript/"
+
+AUTHOR = "Kai"
+AUTHOR_ROLE = "Bali property adviser"
+# Drop the file in assets/ under this name. If it isn't there, the portrait is
+# simply skipped rather than rendering a broken image on all 27 pages.
+AUTHOR_PHOTO = "qais.jpg"
 TAGLINE = "Straight answers on buying, building and living in Bali."
 
 CATEGORIES = {
@@ -190,7 +196,7 @@ def footer():
 <p class="foot-note">{TAGLINE}</p>
 </div>
 <div class="foot-links">
-<a href="{INSTAGRAM}">Instagram</a>
+<a class="ig-link" href="{INSTAGRAM}" rel="me">{ig_logo("ig ig-sm")}<span>@balioffscript</span></a>
 <a href="{BASE}/checklist/">Due diligence checklist</a>
 <a href="{BASE}/disclaimer/">Disclaimer</a>
 </div>
@@ -231,11 +237,38 @@ def reel(url):
 </section>"""
 
 
+def ig_logo(cls="ig"):
+    """Instagram glyph, inline so it needs no network request and inherits
+    the surrounding ink colour."""
+    return (
+        f'<svg class="{cls}" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">'
+        '<path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41-.56-.22-.96-.48-1.38-.9-.42-.42-.68-.82-.9-1.38-.16-.42-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41 1.27-.06 1.65-.07 4.85-.07M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.31-1.46.72-2.13 1.38C1.35 2.68.94 3.35.63 4.14.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.31.79.72 1.46 1.38 2.13.67.67 1.34 1.07 2.13 1.38.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56.79-.31 1.46-.72 2.13-1.38.67-.67 1.07-1.34 1.38-2.13.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91-.31-.79-.72-1.46-1.38-2.13C21.32 1.35 20.65.94 19.86.63c-.76-.3-1.64-.5-2.91-.56C15.67.01 15.26 0 12 0z"/>'
+        '<path d="M12 5.84A6.16 6.16 0 1 0 18.16 12 6.16 6.16 0 0 0 12 5.84zM12 16a4 4 0 1 1 4-4 4 4 0 0 1-4 4z"/>'
+        '<circle cx="18.41" cy="5.59" r="1.44"/>'
+        "</svg>"
+    )
+
+
+def portrait(cls="cta-photo"):
+    """Rendered only when the photo is actually present, so a missing file
+    degrades to a text-only block instead of a broken image on every page."""
+    if not os.path.exists(os.path.join(ASSETS, AUTHOR_PHOTO)):
+        return ""
+    return (f'<img class="{cls}" src="{BASE}/{AUTHOR_PHOTO}" width="96" height="96" '
+            f'loading="lazy" alt="{AUTHOR}, {AUTHOR_ROLE}">')
+
+
 def cta():
     return f"""<section class="cta">
+<div class="cta-id">
+{portrait()}
+<div class="cta-said">
 <p class="cta-k">Got a specific situation?</p>
 <p class="cta-b">Every deal in Bali has a detail that breaks the general rule. Send me the details and I'll tell you what I'd check first.</p>
-<a class="btn" href="{INSTAGRAM}">Ask on Instagram</a>
+<p class="cta-by">{AUTHOR} — {AUTHOR_ROLE}</p>
+</div>
+</div>
+<a class="btn" href="{INSTAGRAM}" rel="me">{ig_logo()}<span>Ask on Instagram</span></a>
 </section>"""
 
 
