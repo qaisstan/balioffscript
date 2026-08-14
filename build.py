@@ -43,6 +43,16 @@ SITE_URL = f"https://{DOMAIN}" if DOMAIN else f"https://qaisstan.github.io{BASE}
 
 INSTAGRAM = "https://www.instagram.com/balioffscript/"
 
+# ---- Analytics --------------------------------------------------------------
+#
+# GA4_ID: paste the Measurement ID from Google Analytics (looks like
+#   "G-XXXXXXXXXX"). Leave empty and no tracking script is emitted at all.
+# GSC_VERIFY: the token from Google Search Console's "HTML tag" verification
+#   method — the content="..." value only, not the whole tag. Search Console is
+#   the one that shows which search terms people found you with.
+GA4_ID = ""
+GSC_VERIFY = ""
+
 AUTHOR = "Kai"
 AUTHOR_ROLE = "Bali property adviser"
 # Drop the file in assets/ under this name. If it isn't there, the portrait is
@@ -169,8 +179,22 @@ def head(title, desc, path):
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Public+Sans:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{BASE}/style.css">
 <script>window.SITE_BASE={json.dumps(BASE)}</script>
-</head>
+{analytics()}</head>
 <body>"""
+
+
+def analytics():
+    """Emitted only when the IDs above are filled in."""
+    out = ""
+    if GSC_VERIFY:
+        out += f'<meta name="google-site-verification" content="{GSC_VERIFY}">\n'
+    if GA4_ID:
+        out += (f'<script async src="https://www.googletagmanager.com/gtag/js?id={GA4_ID}"></script>\n'
+                "<script>window.dataLayer=window.dataLayer||[];"
+                "function gtag(){{dataLayer.push(arguments);}}"
+                "gtag('js',new Date());"
+                f"gtag('config','{GA4_ID}');</script>\n").replace("{{", "{").replace("}}", "}")
+    return out
 
 
 def nav(active=""):
@@ -183,7 +207,7 @@ def nav(active=""):
 <div class="wrap masthead-inner">
 <a class="wordmark" href="{BASE}/"><span>Bali</span> Off Script</a>
 <button class="menu-btn" aria-label="Menu" aria-expanded="false">Menu</button>
-<nav class="nav">{links}<a class="nav-calc" href="{BASE}/calculator/">Calculator</a><a class="nav-search" href="{BASE}/search/">Search</a></nav>
+<nav class="nav"><div class="nav-inner">{links}<a class="nav-calc" href="{BASE}/calculator/">Calculator</a><a class="nav-search" href="{BASE}/search/">Search</a></div></nav>
 </div>
 </header>"""
 
@@ -429,8 +453,9 @@ def home(pages):
 <input type="search" name="q" placeholder="Search: nominee, E33G, BPHTB, Pererenan…" aria-label="Search">
 <button type="submit">Search</button>
 </form>
+<a class="hero-jump" href="#tool">Work out the real return <b>→</b></a>
 </section>
-<section class="wrap tool-wrap">
+<section class="wrap tool-wrap" id="tool">
 <div class="tool-head">
 <p class="proof-k">Start here</p>
 <h2 class="tool-h">Put the deal through this before you believe the yield.</h2>
