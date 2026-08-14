@@ -986,8 +986,11 @@ def home(pages):
 </div>
 </section>
 
-<section class="wrap ledger-wrap">
-<div class="ledger">{counts}</div>
+<section class="wrap sg-wrap">
+<h2 class="sec-h">Explore everything</h2>
+<p class="sg-lede">Eight sections, {len(pages)} answers. Every page cites the regulation it rests on and the date it was last checked.</p>
+{section_grid(pages)}
+<p class="sg-all"><a href="{BASE}/all/">See the full index &rarr;</a></p>
 </section>
 <section class="wrap">
 <h2 class="sec-h">Start here</h2>
@@ -1057,6 +1060,62 @@ CALC_INTRO = ("Model what a Bali property actually returns: occupancy, platform 
               "amortisation nobody puts in the projection. Works for leasehold, HGB or "
               "freehold, and for nightly or long-term letting.")
 
+
+
+
+def section_grid(pages, limit=4):
+    """A visual index of the whole site. Replaces the counts ledger, which
+    told a reader how many answers existed without showing them any."""
+    cells = ""
+    for k, (name, blurb) in CATEGORIES.items():
+        items = [p for p in pages if p["category"] == k]
+        links = "".join(
+            f'<a class="sg-q" href="{BASE}/{k}/{q["slug"]}/">{q["question"]}</a>'
+            for q in items[:limit]
+        )
+        more = (f'<a class="sg-more" href="{BASE}/{k}/">All {len(items)} in {name} &rarr;</a>'
+                if len(items) > limit else
+                f'<a class="sg-more" href="{BASE}/{k}/">Open {name} &rarr;</a>')
+        cells += f"""<div class="sg-cell">
+<a class="sg-h" href="{BASE}/{k}/">{name}<em>{len(items)}</em></a>
+<p class="sg-b">{blurb}</p>
+<div class="sg-qs">{links}</div>
+{more}
+</div>"""
+    return f'<div class="sg">{cells}</div>'
+
+
+def all_page(pages):
+    """Every answer on one page. Useful for a reader who wants to browse, and
+    a strong internal-linking hub for search engines."""
+    desc = ("Every answer on Bali Off Script in one place — ownership, visas, "
+            "companies, tax, building, rental returns, areas and living here.")
+    blocks = ""
+    for k, (name, blurb) in CATEGORIES.items():
+        items = [p for p in pages if p["category"] == k]
+        rows = "".join(
+            f'<li><a href="{BASE}/{k}/{q["slug"]}/"><span>{q["question"]}</span>'
+            f'<em>{q["summary"]}</em></a></li>' for q in items
+        )
+        blocks += f"""<section class="ax">
+<h2 class="ax-h"><a href="{BASE}/{k}/">{name}</a><span>{len(items)}</span></h2>
+<p class="ax-b">{blurb}</p>
+<ul class="ax-list">{rows}</ul>
+</section>"""
+    return f"""{head("Every answer, in one place", desc, "/all/")}
+{nav()}
+<main class="wrap article">
+<p class="eyebrow">Index</p>
+<h1>Every answer, in one place</h1>
+<p class="standfirst">{len(pages)} answers across eight sections. Each carries the regulation it rests on and the date it was last checked.</p>
+<div class="ax-tools">
+<a class="lnk lnk-solid" href="{BASE}/calculator/">Return calculator</a>
+<a class="lnk" href="{BASE}/check/">What I&rsquo;d check first</a>
+<a class="lnk" href="{BASE}/areas/#land">Land budget</a>
+</div>
+{blocks}
+</main>
+{footer()}"""
 
 
 def land_widget():
@@ -1264,6 +1323,7 @@ def main():
     write("/calculator/", calculator())
     write("/about/", about_page())
     write("/check/", check_page())
+    write("/all/", all_page(pages))
     write("/search/", search_page())
     write("/disclaimer/", simple("disclaimer", "Disclaimer", DISCLAIMER))
     write("/checklist/", simple("checklist", "Due diligence checklist", CHECKLIST))
@@ -1277,7 +1337,7 @@ def main():
     } for p in pages]
     open(os.path.join(OUT, "search-index.json"), "w", encoding="utf-8").write(json.dumps(index))
 
-    urls = ["/", "/about/", "/calculator/", "/check/", "/search/", "/checklist/", "/disclaimer/"] + [f"/{k}/" for k in CATEGORIES] + \
+    urls = ["/", "/about/", "/all/", "/calculator/", "/check/", "/search/", "/checklist/", "/disclaimer/"] + [f"/{k}/" for k in CATEGORIES] + \
            [f'/{p["category"]}/{p["slug"]}/' for p in pages]
     sm = "".join(f"<url><loc>{SITE_URL}{u}</loc></url>" for u in urls)
     open(os.path.join(OUT, "sitemap.xml"), "w", encoding="utf-8").write(
