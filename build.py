@@ -37,7 +37,7 @@ DOMAIN = "balioffscript.com"
 
 # BASE is the path the site is served from, no trailing slash. A custom domain
 # serves from the root; without one this is a GitHub project page living under
-# /balioffscript/ (qaisstan.github.io itself is taken by the portfolio site).
+# /balioffscript/ (the account's user site is taken by an unrelated project).
 BASE = "" if DOMAIN else "/balioffscript"
 SITE_URL = f"https://{DOMAIN}" if DOMAIN else f"https://qaisstan.github.io{BASE}"
 

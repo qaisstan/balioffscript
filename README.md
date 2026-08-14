@@ -11,10 +11,10 @@ on `main`:
 
 Settings → Pages → Source: `main` branch, folder `/docs`. Custom domain: empty.
 
-`qaisstan.github.io` is not available for this site — it already serves the
-personal portfolio at `www.qaisstanikzai.com`. So this is a project page and
-lives under a `/balioffscript/` path. That is handled by `BASE` in `build.py`,
-which prefixes every internal link.
+The account's `*.github.io` user site is already taken by a separate, unrelated
+project — never modify that repo or its Pages settings. This site is therefore
+a project page, which is why `BASE` exists in `build.py`. With the custom
+domain attached, `BASE` is empty and everything serves from the root.
 
 Do not upload files through GitHub's web interface. It silently drops dotfiles,
 which means `docs/.nojekyll` goes missing and the build breaks. Use `git push`.
