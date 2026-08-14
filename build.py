@@ -430,24 +430,13 @@ def home(pages):
 <button type="submit">Search</button>
 </form>
 </section>
-<section class="wrap ledger-wrap">
-<div class="ledger">{counts}</div>
-</section>
-<section class="wrap proof-wrap">
-<div class="proof">
-<div class="proof-copy">
-<p class="proof-k">The number you were quoted</p>
-<h2 class="proof-h">A 12% yield is usually a 2% yield.</h2>
-<p class="proof-b">Advertised Bali yields are gross — before OTA commission, the 10% PB1, management, staff, refurbishment and tax. On a leasehold there is one more deduction nobody shows you: the premium amortised over the years remaining. Put a real deal through it and watch what happens.</p>
-<a class="btn btn-lg" href="{BASE}/calculator/">Open the calculator</a>
+<section class="wrap tool-wrap">
+<div class="tool-head">
+<p class="proof-k">Start here</p>
+<h2 class="tool-h">Put the deal through this before you believe the yield.</h2>
+<p class="tool-b">Advertised Bali yields are gross — before platform commission, the 10% PB1, management, staff, refurbishment and tax. On a lease there is one more deduction nobody shows you: the premium, amortised over the years you actually get. Change any figure and every number and chart below updates.</p>
 </div>
-<div class="proof-fig">
-<div class="proof-row"><span>Advertised gross yield</span><b>12.0%</b></div>
-<div class="proof-row"><span>After operating costs and tax</span><b>1.9%</b></div>
-<div class="proof-row proof-bad"><span>After lease amortisation</span><b>−2.1%</b></div>
-<p class="proof-note">USD 300,000 leasehold villa, 25 years remaining, USD 180 a night at 65% occupancy.</p>
-</div>
-</div>
+{calc_widget()}
 </section>
 
 <section class="wrap warn-wrap">
@@ -459,6 +448,9 @@ def home(pages):
 </div>
 </section>
 
+<section class="wrap ledger-wrap">
+<div class="ledger">{counts}</div>
+</section>
 <section class="wrap">
 <h2 class="sec-h">Start here</h2>
 <ul class="cards">{recent}</ul>
@@ -478,15 +470,38 @@ def home(pages):
 
 <section class="wrap">{cta()}</section>
 </main>
-{footer()}"""
+{footer(f'<script src="{BASE}/calc.js" defer></script>')}"""
 
 
-def field(fid, label, val, hint="", step="1", cls=""):
+def field(fid, label, val, info="", step="1", cls=""):
+    """Every input carries an explanation behind an info toggle — the reader is
+    usually meeting these terms for the first time."""
+    btn = (f'<button type="button" class="info" aria-expanded="false" '
+           f'aria-label="What is {label}?">i</button>') if info else ""
+    hint = f'<span class="f-h" hidden>{info}</span>' if info else ""
     return f"""<label class="f {cls}">
-<span class="f-l">{label}</span>
+<span class="f-l">{label}{btn}</span>
 <input type="number" id="{fid}" value="{val}" step="{step}" inputmode="decimal">
-{f'<span class="f-h">{hint}</span>' if hint else ''}
+{hint}
 </label>"""
+
+
+def choice(name, label, opts, info=""):
+    """Segmented control. Radios stay real radios for keyboard and screen
+    readers; the styling sits on the label."""
+    btn = (f'<button type="button" class="info" aria-expanded="false" '
+           f'aria-label="What is {label}?">i</button>') if info else ""
+    hint = f'<span class="f-h" hidden>{info}</span>' if info else ""
+    radios = "".join(
+        f'<label class="seg"><input type="radio" name="{name}" value="{v}"'
+        f'{" checked" if i == 0 else ""}><span>{lbl}</span></label>'
+        for i, (v, lbl) in enumerate(opts)
+    )
+    return f"""<div class="f f-choice">
+<span class="f-l">{label}{btn}</span>
+<div class="segs">{radios}</div>
+{hint}
+</div>"""
 
 
 def out(oid, label, note=""):
@@ -496,75 +511,124 @@ def out(oid, label, note=""):
 </div>"""
 
 
-def calculator():
-    desc = ("Model a Bali villa's real return: occupancy, OTA commission, PB1, management "
-            "fees and — for leasehold — the lease amortisation that turns an advertised 12% "
-            "into something very different.")
-    return f"""{head("Bali villa ROI calculator — " + SITE_NAME, desc, "/calculator/")}
-{nav()}
-<main class="wrap calc-page">
-<p class="eyebrow">Tool</p>
-<h1>What does this villa actually return?</h1>
-<p class="standfirst">{desc}</p>
+CALC_DESC = ("Model what a Bali property actually returns: occupancy, platform commission, "
+             "PB1, management and running costs — and, on a time-limited right, the "
+             "amortisation that turns an advertised 12% into something very different.")
 
-<div class="calc-wrap">
+
+def calc_widget():
+    """The interactive model. Shared by the home page and the tool page, so the
+    markup and the field IDs calc.js depends on stay in one place."""
+    return f"""<div class="calc-wrap">
 <form id="calc" class="calc-form" onsubmit="return false">
 
 <fieldset class="fs">
-<legend>Structure</legend>
-<div class="radios">
-<label class="r"><input type="radio" name="structure" value="lease" checked> Leasehold</label>
-<label class="r"><input type="radio" name="structure" value="hgb"> Freehold / HGB via PT PMA</label>
-</div>
-{field("years", "Lease years remaining", "25", "What you are actually buying", "1", "lease-only")}
+<legend>What you are buying</legend>
+{choice("tenure", "What you are buying", [("lease", "Leasehold"), ("hgb", "HGB / Hak Pakai"), ("freehold", "Freehold-equivalent")],
+        "Leasehold is a contract for a fixed number of years — at the end it returns nothing unless the agreement contains an enforceable extension. HGB and Hak Pakai are registered rights, time-limited but renewable, commonly 30 years plus a 20-year extension and a 30-year renewal, each step subject to approval. Freehold-equivalent means the value does not run down — Hak Milik is not available to foreigners, so this mainly models an Indonesian-held title or a comparison case.")}
+{choice("asset", "Property type", [("villa", "Villa"), ("apartment", "Apartment"), ("guesthouse", "Guesthouse")],
+        "This only sets sensible starting numbers for rate, occupancy and running costs. Change any field and your value is kept.")}
+{choice("revmode", "How it earns", [("nightly", "Nightly rental"), ("monthly", "Long-term rental")],
+        "Nightly means short-term accommodation, which is a licensed business activity and attracts OTA commission and PB1. Long-term means a genuine residential tenancy — different legal activity, far lower costs, and it does not need an accommodation licence.")}
+{field("years", "Years remaining on the right", "25",
+       "The number of years you actually get. This drives the amortisation — it is the single most important input on the page and the one most often glossed over in a sales pitch.", "1", "term-only")}
+{field("residual", "Value left at the end (%)", "0",
+       "What the asset is still worth to you when the term expires, as a percentage of what you put in. A plain lease is 0 — it reverts to the landowner. HGB defaults to 60% on the assumption renewal succeeds but costs money and carries risk. Set it to 0 to see the worst case.", "5", "term-only")}
 </fieldset>
 
 <fieldset class="fs">
 <legend>Capital in</legend>
-{field("price", "Purchase or lease premium (USD)", "300000", "", "1000")}
-{field("build", "Build or renovation (USD)", "0", "", "1000")}
-{field("ffe", "Furniture, pool, setup (USD)", "35000", "", "1000")}
-{field("tx", "Transaction costs (%)", "7", "BPHTB, notary, legal, agent", "0.5")}
+{field("price", "Purchase price or lease premium (USD)", "300000",
+       "The headline number — what you hand over for the property or the lease.", "1000")}
+{field("build", "Build or renovation (USD)", "0",
+       "Construction or refurbishment. Leave at zero if you are buying something finished.", "1000")}
+{field("ffe", "Furniture, pool, setup (USD)", "35000",
+       "Furniture, fittings and equipment. Routinely underestimated — a villa fit-out to rentable standard is rarely trivial.", "1000")}
+{field("tx", "Transaction costs (%)", "7",
+       "BPHTB (buyer's transfer tax, around 5% on a titled transfer), notary and PPAT fees, legal due diligence and agent commission. Budget an extra margin for contingencies.", "0.5")}
 </fieldset>
 
 <fieldset class="fs">
 <legend>Revenue</legend>
-{field("adr", "Average nightly rate (USD)", "180", "", "5")}
-{field("occ", "Occupancy (%)", "65", "Across the full year, not high season", "1")}
+{field("adr", "Average nightly rate (USD)", "180",
+       "Your average achieved rate across the whole year — not your high-season headline rate.", "5", "nightly-only")}
+{field("occ", "Occupancy (%)", "65",
+       "Nights sold as a percentage of nights available, across a full year. Bali low season is real; sustained figures above 75% are unusual.", "1", "nightly-only")}
+{field("rent", "Monthly rent (USD)", "2200",
+       "What a long-term tenant pays each month.", "50", "monthly-only")}
+{field("vacancy", "Vacancy (%)", "8",
+       "Share of the year with no tenant, including gaps between tenancies.", "1", "monthly-only")}
+{field("growth", "Annual revenue growth (%)", "3",
+       "How much you expect rate or rent to rise each year. Applied to the projection charts, not to the first-year figures.", "0.5")}
 </fieldset>
 
 <fieldset class="fs">
 <legend>Costs</legend>
-{field("ota", "OTA commission (%)", "16", "Airbnb / Booking.com", "1")}
-{field("pb1", "PB1 regional tax (%)", "10", "On accommodation revenue", "1")}
-{field("mgmt", "Management fee (%)", "20", "Of net room revenue", "1")}
-{field("opex", "Staff, utilities, upkeep (USD / month)", "1200", "", "50")}
-{field("capex", "Refurbishment reserve (%)", "5", "Of gross revenue", "1")}
-{field("tax_rate", "Income tax (%)", "22", "PT PMA corporate rate", "1")}
+{field("ota", "OTA commission (%)", "16",
+       "What Airbnb, Booking.com and the other platforms take off the top. Typically 15–20% once you account for the mix.", "1", "nightly-only")}
+{field("pb1", "PB1 regional tax (%)", "10",
+       "The regional tax on accommodation revenue, collected from the guest and remitted by the operator. It is not optional and it is not income to you.", "1")}
+{field("mgmt", "Management fee (%)", "20",
+       "What a management company charges, usually on net room revenue after platform commission. Verify the base — a fee on gross is a materially different number.", "1")}
+{field("opex", "Staff, utilities, upkeep (USD / month)", "1200",
+       "Villa staff, power, water, pool and garden, internet, supplies, repairs. Staffing is the big line and it does not scale down in low season.", "50")}
+{field("capex", "Refurbishment reserve (%)", "5",
+       "Money set aside for the refit a rental property needs every few years. Almost never shown in a yield projection, which is why projections look better than reality.", "1")}
+{field("tax_rate", "Income tax (%)", "22",
+       "Tax on profit. 22% is the standard Indonesian corporate rate for a PT PMA. Personal rates and small-business regimes differ — use your actual figure.", "1")}
 </fieldset>
 </form>
 
 <aside class="calc-out">
 <h2 class="calc-h">Result</h2>
 {out("o_invested", "Total capital in")}
-<div class="calc-sep">Trading year</div>
+<div class="calc-sep">First trading year</div>
 {out("o_gross", "Gross revenue")}
-{out("o_netrev", "After OTA + PB1")}
-{out("o_opex", "Operating costs")}
+{out("o_netrev", "After platform + PB1")}
 {out("o_noi", "Net operating income")}
 {out("o_tax", "Income tax")}
 {out("o_net", "Net profit")}
 <div class="calc-sep">Return</div>
 {out("o_grossyield", "Gross yield", "what gets advertised")}
-{out("o_netyield", "Net yield", "what you actually keep")}
-{out("o_amort", "Lease amortisation", "premium ÷ years remaining")}
-{out("o_true", "Return after amortisation", "the real number")}
-{out("o_payback", "Payback")}
+{out("o_netyield", "Net yield", "what you keep")}
+{out("o_amort", "Amortisation", "value lost per year")}
+{out("o_real", "Real return", "after amortisation")}
+{out("o_payback", "Capital returned in")}
 {out("o_break", "Break-even")}
-{out("o_expiry", "At expiry")}
+{out("o_endpos", "Position at end of term")}
 <div class="calc-warn" id="o_warn"></div>
 </aside>
 </div>
+
+<section class="charts">
+<figure class="chart">
+<figcaption><h2>Do you get your money back?</h2>
+<p>Cumulative position across the term — you start at minus your capital, and the line is where you stand each year. Anything below zero at the end is a loss, whatever the yield said.</p></figcaption>
+<div id="chart_cum"></div>
+</figure>
+
+<figure class="chart">
+<figcaption><h2>Where a year of revenue goes</h2>
+<p>The advertised yield is the whole bar. What reaches you is the last segment.</p></figcaption>
+<div id="chart_split"></div>
+</figure>
+
+<figure class="chart" id="chart_value_wrap">
+<figcaption><h2>What the right itself is worth</h2>
+<p>A time-limited right depreciates towards its residual as the clock runs down. This is the cost nobody puts in the projection, and on a lease it ends at zero.</p></figcaption>
+<div id="chart_value"></div>
+</figure>
+</section>"""
+
+
+def calculator():
+    return f"""{head("Bali property ROI calculator — " + SITE_NAME, CALC_DESC, "/calculator/")}
+{nav()}
+<main class="wrap calc-page">
+<p class="eyebrow">Tool</p>
+<h1>What does this property actually return?</h1>
+<p class="standfirst">{CALC_DESC}</p>
+{calc_widget()}
 
 <div class="prose calc-notes">
 <h2>How this differs from the yield you were quoted</h2>

@@ -263,6 +263,11 @@ tbody tr:last-child td { border-bottom: 0; }
 
 .btn-lg { padding: 0.85rem 1.6rem; font-size: 0.9375rem; }
 
+.tool-wrap { padding-block: 1.5rem 0; border-top: 2px solid var(--ink); margin-top: 2rem; }
+.tool-head { max-width: 46rem; padding-top: 1rem; }
+.tool-h { font-family: var(--display); font-size: 1.75rem; line-height: 1.15; margin: 0 0 0.6rem; }
+.tool-b { font-size: 0.9375rem; color: var(--slate); margin: 0 0 1.5rem; }
+
 .proof-wrap { padding-block: 1rem 0; }
 .proof {
   display: grid; grid-template-columns: 1fr 22rem; gap: 2.5rem;
@@ -341,15 +346,46 @@ tbody tr:last-child td { border-bottom: 0; }
 }
 .f { display: grid; gap: 0.25rem; margin-bottom: 0.85rem; }
 .f-l { font-size: 0.875rem; font-weight: 500; }
-.f-h { font-size: 0.75rem; color: var(--slate); }
+.f-h {
+  font-size: 0.8125rem; color: var(--slate); line-height: 1.5;
+  border-left: 2px solid var(--rule-2); padding: 0.35rem 0 0.35rem 0.7rem;
+  margin-top: 0.15rem;
+}
+.f-choice { gap: 0.4rem; }
+
+/* Info toggle — a quiet marker, not a UI element competing for attention. */
+.info {
+  appearance: none; border: 1px solid var(--rule-2); background: transparent;
+  color: var(--slate); font-family: var(--mono); font-size: 0.625rem;
+  width: 1.05rem; height: 1.05rem; border-radius: 50%; line-height: 1;
+  cursor: pointer; margin-left: 0.4rem; padding: 0; vertical-align: middle;
+}
+.info:hover, .info[aria-expanded="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.info:focus-visible { outline: 2px solid var(--seal); outline-offset: 1px; }
 .f input {
   font: inherit; font-family: var(--mono); font-size: 0.9375rem;
   padding: 0.5rem 0.6rem; border: 1px solid var(--rule-2);
   background: #fff; color: var(--ink); width: 100%;
 }
 .f input:focus { outline: 2px solid var(--seal); outline-offset: -1px; }
-.radios { display: flex; gap: 1.25rem; flex-wrap: wrap; margin-bottom: 0.9rem; }
-.r { font-size: 0.875rem; display: inline-flex; align-items: center; gap: 0.4rem; }
+/* Segmented control — real radios, styled as a set of hairline tabs. */
+.segs { display: flex; flex-wrap: wrap; gap: -1px; border: 1px solid var(--rule-2); background: #fff; }
+.seg { flex: 1 1 auto; min-width: 0; }
+.seg input { position: absolute; opacity: 0; pointer-events: none; }
+.seg span {
+  display: block; text-align: center; padding: 0.55rem 0.7rem;
+  font-size: 0.8125rem; cursor: pointer; white-space: nowrap;
+  border-right: 1px solid var(--rule-2); color: var(--slate);
+  transition: background 0.12s, color 0.12s;
+}
+.seg:last-child span { border-right: 0; }
+.seg span:hover { background: var(--paper-2); color: var(--ink); }
+.seg input:checked + span { background: var(--ink); color: var(--paper); font-weight: 500; }
+.seg input:focus-visible + span { outline: 2px solid var(--seal); outline-offset: -2px; }
+
+@media (max-width: 30rem) {
+  .seg span { white-space: normal; font-size: 0.75rem; padding: 0.5rem 0.4rem; }
+}
 
 /* Result panel — styled as the endorsement stamp, not a dashboard. */
 .calc-out {
@@ -368,7 +404,7 @@ tbody tr:last-child td { border-bottom: 0; }
 .calc-k em { display: block; font-style: normal; font-size: 0.6875rem; color: var(--slate); }
 .calc-v {
   font-family: var(--mono); font-size: 0.875rem; font-weight: 500;
-  text-align: right; white-space: nowrap;
+  text-align: right; overflow-wrap: anywhere;
 }
 .calc-v.ok { color: var(--verify); }
 .calc-v.mid { color: #8a6d1f; }
@@ -382,6 +418,37 @@ tbody tr:last-child td { border-bottom: 0; }
 .calc-warn ul { margin: 0; padding-left: 1rem; }
 .calc-warn li { margin-bottom: 0.5rem; color: var(--slate); }
 .calc-notes { margin-top: 3rem; }
+
+/* ------------------------------------------------------------ charts */
+
+.charts { margin-top: 3rem; display: grid; gap: 2.5rem; }
+.chart { margin: 0; border-top: 2px solid var(--ink); padding-top: 1rem; }
+.chart figcaption { margin-bottom: 0.9rem; }
+.chart figcaption h2 { font-size: 1.125rem; margin: 0 0 0.35rem; }
+.chart figcaption p { font-size: 0.875rem; color: var(--slate); margin: 0; max-width: 46rem; }
+.cx { width: 100%; height: auto; display: block; overflow: visible; }
+.cx-t { font-family: var(--mono); font-size: 9px; fill: var(--slate); letter-spacing: 0.02em; }
+.cx-t-b { font-family: var(--mono); font-size: 10px; fill: var(--ink); font-weight: 500; }
+.cx-end { text-anchor: end; }
+.cx-mid { text-anchor: middle; }
+.cx-line { fill: none; stroke: var(--ink); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.cx-area { fill: url(#gInk); }
+.cx-line-warn { stroke: var(--seal); }
+.cx-area-warn { fill: url(#gSeal); }
+.cx-line-pos { stroke: var(--verify); }
+.cx-zero { stroke: var(--ink); stroke-width: 1; opacity: 0.35; }
+.cx-grid { stroke: var(--rule); stroke-width: 1; }
+.cx-mark { stroke: var(--verify); stroke-width: 1.25; stroke-dasharray: 3 3; }
+.cx-res { stroke: var(--verify); stroke-width: 2; stroke-dasharray: 2 2; }
+.cx-dot-ok { fill: var(--verify); stroke: var(--paper); stroke-width: 1.5; }
+.cx-dot-bad { fill: var(--seal); stroke: var(--paper); stroke-width: 1.5; }
+.cx-badge { fill: var(--ink); }
+.cx-badge-t { font-family: var(--mono); font-size: 9px; fill: var(--paper); }
+.cx-seg { shape-rendering: crispEdges; }
+.cx-seg.s1 { fill: #b9563f; } .cx-seg.s2 { fill: #c98a3c; }
+.cx-seg.s3 { fill: #8a7f6d; } .cx-seg.s4 { fill: #6b7280; }
+.cx-seg.s5 { fill: #a6a08e; } .cx-seg.s6 { fill: #4a5462; }
+.cx-seg.s7 { fill: var(--verify); }
 
 @media (max-width: 54rem) {
   .calc-wrap { grid-template-columns: 1fr; }
