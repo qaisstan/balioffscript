@@ -24,16 +24,22 @@ ASSETS = os.path.join(ROOT, "assets")
 
 SITE_NAME = "Bali Off Script"
 
-# BASE is the path the site is served from, with no trailing slash.
+# ---- Where the site is published -------------------------------------------
 #
-#   ""                 site lives at a domain root  (custom domain)
-#   "/balioffscript"   site lives at github.io/<repo>/  (GitHub project page)
+# To move the site onto the custom domain, change this ONE line to
+# DOMAIN = "balioffscript.com" and run `python3 build.py`. Everything below
+# follows from it: the link prefix, canonical URLs, the sitemap, and the CNAME
+# file GitHub needs.
 #
-# Every internal link is built from BASE, so moving the site is a two-line
-# change here followed by `python3 build.py`. When baliofscript.com is bought
-# and pointed at GitHub Pages, set BASE = "" and SITE_URL to the new domain.
-BASE = "/balioffscript"
-SITE_URL = "https://qaisstan.github.io" + BASE
+# Only set this once the domain is bought AND its DNS points at GitHub Pages.
+# A CNAME file naming a domain that doesn't resolve takes the site offline.
+DOMAIN = ""
+
+# BASE is the path the site is served from, no trailing slash. A custom domain
+# serves from the root; without one this is a GitHub project page living under
+# /balioffscript/ (qaisstan.github.io itself is taken by the portfolio site).
+BASE = "" if DOMAIN else "/balioffscript"
+SITE_URL = f"https://{DOMAIN}" if DOMAIN else f"https://qaisstan.github.io{BASE}"
 
 INSTAGRAM = "https://www.instagram.com/balioffscript/"
 TAGLINE = "Straight answers on buying, building and living in Bali."
@@ -403,11 +409,13 @@ def main():
     # Stops GitHub running Jekyll over the output. Without it the build breaks.
     open(os.path.join(OUT, ".nojekyll"), "w").write("")
 
-    # No CNAME file is written. GitHub reads CNAME as "serve this site at this
-    # domain", so writing one for a domain that isn't registered and pointed at
-    # Pages takes the site offline. Once baliofscript.com is bought and its DNS
-    # points here, set the domain in Settings > Pages and GitHub commits its own
-    # CNAME file — then set BASE = "" above and rebuild.
+    # GitHub reads docs/CNAME as "serve this site at this domain". This script
+    # wipes docs/ on every run, so the file GitHub writes when you set a custom
+    # domain in Settings > Pages would be destroyed by the next build. Writing
+    # it from DOMAIN keeps it surviving rebuilds. No DOMAIN, no file — pointing
+    # Pages at a domain that doesn't resolve takes the site offline.
+    if DOMAIN:
+        open(os.path.join(OUT, "CNAME"), "w").write(DOMAIN + "\n")
 
     for f in os.listdir(ASSETS):
         shutil.copy(os.path.join(ASSETS, f), os.path.join(OUT, f))

@@ -19,19 +19,32 @@ which prefixes every internal link.
 Do not upload files through GitHub's web interface. It silently drops dotfiles,
 which means `docs/.nojekyll` goes missing and the build breaks. Use `git push`.
 
-## Moving to baliofscript.com
+## Moving to balioffscript.com
 
-The domain is not bought yet. When it is:
+Order matters. DNS first, then GitHub, then the build.
 
-1. Buy it, and point DNS at GitHub Pages (four A records for the apex, or a
-   CNAME record for `www` → `qaisstan.github.io`)
-2. Settings → Pages → Custom domain: enter it, save, tick Enforce HTTPS.
-   GitHub writes its own `docs/CNAME` file
-3. In `build.py` set `BASE = ""` and `SITE_URL = "https://baliofscript.com"`
-4. `python3 build.py`, commit, push
+1. Buy `balioffscript.com` at Namecheap
+2. Namecheap → Domain List → Manage → Advanced DNS. **Delete the two parking
+   records Namecheap creates by default**, then add:
 
-Do not create `docs/CNAME` by hand before the domain resolves — GitHub reads it
-as "serve this site at this domain" and the site goes offline until it does.
+       A      @      185.199.108.153
+       A      @      185.199.109.153
+       A      @      185.199.110.153
+       A      @      185.199.111.153
+       CNAME  www    qaisstan.github.io.
+
+3. Wait for DNS to resolve — `dig +short balioffscript.com` should return the
+   four addresses above
+4. Repo → Settings → Pages → Custom domain: `balioffscript.com`, Save. Wait for
+   the DNS check to go green, then tick **Enforce HTTPS**
+5. In `build.py` set `DOMAIN = "balioffscript.com"`
+6. `python3 build.py`, commit, push
+
+Step 5 is one line. `BASE`, `SITE_URL`, every internal link, the sitemap and the
+`docs/CNAME` file all follow from it.
+
+Do not set `DOMAIN` before the DNS resolves. GitHub reads `docs/CNAME` as "serve
+this site at this domain" and the site goes offline until that domain works.
 
 ## Add a page
 
