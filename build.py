@@ -929,11 +929,12 @@ def home(pages):
 <main>
 <section class="hero-split">
 <div class="hero-copy">
-<h1 class="hero-h">You cannot own land in Bali.<br><span>Three legal routes say otherwise.</span></h1>
-<p class="hero-sub">Leasehold, Hak Pakai, or HGB through a PT PMA. Everything else being sold to you is a nominee arrangement — void since 1960, and a criminal offence in Bali since February 2026.</p>
+<h1 class="hero-h">You saw the reel.<br><span>This is the part that takes longer.</span></h1>
+<p class="hero-sub">Everything I get asked about buying, building and renting in Bali — what a certificate actually gives you, what you can legally do with the land, and what the numbers look like once the real costs are in.</p>
+<p class="hero-note">No sales pitch. I&rsquo;m not selling you the property.</p>
 <div class="hero-acts">
 <a class="lnk lnk-solid" href="#tool">Work out the real return</a>
-<a class="lnk" href="{BASE}/check/">What I&rsquo;d check first</a>
+<a class="lnk" href="{BASE}/check/">Send me a deal</a>
 </div>
 <form class="hero-search" action="{BASE}/search/">
 <input type="search" name="q" placeholder="nominee, E33G, BPHTB, Pererenan…" aria-label="Search">
@@ -1087,7 +1088,7 @@ def all_page(pages):
 <p class="standfirst">{len(pages)} answers across eight sections, written from the regulations rather than from the sales pitch.</p>
 <div class="ax-tools">
 <a class="lnk lnk-solid" href="{BASE}/calculator/">Return calculator</a>
-<a class="lnk" href="{BASE}/check/">What I&rsquo;d check first</a>
+<a class="lnk" href="{BASE}/check/">Send me a deal</a>
 <a class="lnk" href="{BASE}/areas/#map">Area map</a>
 </div>
 {blocks}

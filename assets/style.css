@@ -905,3 +905,7 @@ tbody tr:last-child td { border-bottom: 0; }
 .mp-compact .mp-h { font-size: 1.25rem; }
 .mp-compact .mp-stage { grid-template-columns: minmax(0, 1fr) 17rem; }
 @media (max-width: 60rem) { .mp-compact .mp-stage { grid-template-columns: 1fr; } }
+.hero-note {
+  font-family: var(--mono); font-size: 0.6875rem; letter-spacing: 0.1em;
+  color: var(--slate); margin: -1.25rem 0 2rem;
+}
