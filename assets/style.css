@@ -78,22 +78,59 @@ code { font-family: var(--mono); font-size: 0.875em; background: var(--paper-2);
 .wordmark span { color: var(--seal); }
 
 .nav { margin-left: auto; }
-/* Spacing lives on the inner wrapper, which is what actually contains the
-   links — putting it on .nav leaves them jammed together. */
-.nav-inner { display: flex; gap: 1.35rem; flex-wrap: wrap; align-items: center; }
+.nav-inner { display: flex; gap: 0.35rem; align-items: center; }
 
-.nav a {
-  font-size: 0.8125rem;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  color: var(--slate);
-  text-decoration: none;
-  padding-block: 0.35rem;
-  border-bottom: 2px solid transparent;
+/* Dropdowns open on hover and on keyboard focus. Nothing is hidden behind
+   JavaScript, so the links are crawlable and reachable without it. */
+.nav-g { position: relative; }
+.nav-t {
+  appearance: none; -webkit-appearance: none; background: none; border: 0;
+  font: 500 0.8125rem var(--body); letter-spacing: 0.02em; color: var(--slate);
+  padding: 1.35rem 0.75rem; cursor: pointer; position: relative;
 }
-.nav a:hover { color: var(--ink); border-bottom-color: var(--rule-2); }
-.nav a.on { color: var(--ink); border-bottom-color: var(--accent); }
-.nav-search { font-family: var(--mono); }
+.nav-t::after {
+  content: ""; position: absolute; left: 0.75rem; right: 0.75rem; bottom: 1.1rem;
+  height: 2px; background: transparent;
+}
+.nav-t:hover { color: var(--ink); }
+.nav-g:hover .nav-t, .nav-g:focus-within .nav-t { color: var(--ink); }
+.nav-t.on::after { background: var(--accent); }
+
+.nav-drop {
+  position: absolute; top: 100%; left: -0.5rem; z-index: 60;
+  opacity: 0; visibility: hidden; transform: translateY(-4px);
+  transition: opacity 0.16s ease, transform 0.16s ease, visibility 0s linear 0.16s;
+}
+.nav-g:hover .nav-drop, .nav-g:focus-within .nav-drop {
+  opacity: 1; visibility: visible; transform: none; transition-delay: 0s;
+}
+.nd-in {
+  display: flex; gap: 2.25rem; margin-top: 0;
+  background: var(--paper); border: 1px solid var(--rule);
+  box-shadow: 0 14px 34px rgba(20, 24, 31, 0.09);
+  padding: 1.35rem 1.6rem; min-width: 20rem;
+}
+.nd-col { min-width: 13rem; max-width: 17rem; }
+.nd-h {
+  display: block; font-family: var(--mono); font-size: 0.625rem;
+  letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent);
+  text-decoration: none; padding-bottom: 0.6rem; margin-bottom: 0.5rem;
+  border-bottom: 1px solid var(--rule);
+}
+a.nd-h:hover { color: var(--ink); }
+.nd-list { display: flex; flex-direction: column; }
+.nd-list a {
+  font-size: 0.8125rem; line-height: 1.35; color: var(--slate);
+  text-decoration: none; padding: 0.42rem 0; border-bottom: 0;
+}
+.nd-list a:hover { color: var(--seal); }
+.nav-search {
+  font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--slate); text-decoration: none;
+  padding: 0.4rem 0 0.4rem 0.9rem; margin-left: 0.35rem;
+  border-left: 1px solid var(--rule);
+}
+.nav-search:hover { color: var(--ink); }
 
 .menu-btn {
   display: none;
@@ -120,9 +157,9 @@ code { font-family: var(--mono); font-size: 0.875em; background: var(--paper-2);
    right edge of the viewport. Type does the work; chrome stays out of it. */
 .hero-split {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 0.62fr);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 0.46fr);
   align-items: stretch;
-  min-height: min(62vh, 34rem);
+  min-height: min(56vh, 31rem);
   /* Warm tinted ground that fades back to paper — no hard rule beneath. */
   background:
     radial-gradient(120% 90% at 82% 30%, var(--hero-tint) 0%, transparent 62%),
@@ -178,12 +215,12 @@ code { font-family: var(--mono); font-size: 0.875em; background: var(--paper-2);
   width: 100%; height: 100%; object-fit: cover; object-position: 50% 16%;
   display: block;
   -webkit-mask-image:
-    linear-gradient(to right, transparent 0%, #000 13%),
-    linear-gradient(to bottom, #000 74%, transparent 99%);
+    linear-gradient(to right, transparent 0%, rgba(0,0,0,0.7) 20%, #000 40%),
+    linear-gradient(to bottom, transparent 0%, #000 14%, #000 62%, transparent 97%);
   -webkit-mask-composite: source-in;
   mask-image:
-    linear-gradient(to right, transparent 0%, #000 13%),
-    linear-gradient(to bottom, #000 74%, transparent 99%);
+    linear-gradient(to right, transparent 0%, rgba(0,0,0,0.7) 20%, #000 40%),
+    linear-gradient(to bottom, transparent 0%, #000 14%, #000 62%, transparent 97%);
   mask-composite: intersect;
 }
 .hero-cap {
@@ -640,8 +677,27 @@ tbody tr:last-child td { border-bottom: 0; }
     max-height: 0; overflow: hidden; visibility: hidden;
     transition: max-height 0.3s ease, visibility 0s linear 0.3s;
   }
-  .nav.open { max-height: 32rem; visibility: visible; transition: max-height 0.3s ease, visibility 0s; }
-  .nav-inner { display: flex; flex-direction: column; gap: 0; padding-bottom: 0.5rem; }
+  .nav.open { max-height: min(78vh, 60rem); overflow-y: auto; -webkit-overflow-scrolling: touch; visibility: visible; transition: max-height 0.3s ease, visibility 0s; }
+  .nav-inner { display: flex; flex-direction: column; gap: 0; padding-bottom: 0.5rem; align-items: stretch; }
+  .nav-g { position: static; }
+  .nav-t {
+    width: 100%; text-align: left; padding: 0.85rem 0;
+    font: 500 0.6875rem var(--mono); letter-spacing: 0.16em; text-transform: uppercase;
+    color: var(--slate); border-bottom: 1px solid var(--rule);
+  }
+  .nav-t::after { display: none; }
+  .nav-drop {
+    position: static; opacity: 1; visibility: visible; transform: none;
+    transition: none;
+  }
+  .nd-in {
+    flex-direction: column; gap: 0; border: 0; box-shadow: none;
+    padding: 0.25rem 0 0.75rem; min-width: 0; background: none;
+  }
+  .nd-col { min-width: 0; max-width: none; }
+  .nd-h { border-bottom: 0; padding-bottom: 0.35rem; margin-bottom: 0.1rem; }
+  .nd-list a { padding: 0.5rem 0 0.5rem 0.75rem; }
+  .nav-search { border-left: 0; padding: 0.9rem 0; margin-left: 0; }
   .nav a {
     border-bottom: 1px solid var(--rule); padding-block: 0.8rem;
     opacity: 0; transform: translateY(-4px);

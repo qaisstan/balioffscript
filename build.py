@@ -146,6 +146,20 @@ CATEGORY_SEO = {
         "costs and the specific constraint that breaks deals there."),
 }
 
+
+# Top-level navigation. Sections are grouped so the bar stays at five items
+# however many pages get added underneath — each dropdown lists its own
+# articles, so growth goes downward rather than sideways.
+NAV_GROUPS = [
+    ("Owning",    ["ownership", "building"]),
+    ("Moving",    ["visas", "living"]),
+    ("Business",  ["company", "tax"]),
+    ("Investing", ["rental", "areas"]),
+]
+
+# Populated in main() so nav() can list each section's pages.
+ALL_PAGES = []
+
 RISK_LABELS = {
     "critical": "Critical risk",
     "high": "High risk",
@@ -441,16 +455,42 @@ def analytics():
 
 
 def nav(active=""):
-    on = ' class="on"'
-    links = "".join(
-        f'<a href="{BASE}/{k}/"{on if k == active else ""}>{v[0]}</a>'
-        for k, v in CATEGORIES.items()
+    def col(key):
+        name = CATEGORIES[key][0]
+        items = "".join(
+            f'<a href="{BASE}/{key}/{q["slug"]}/">{q["question"]}</a>'
+            for q in ALL_PAGES if q["category"] == key
+        )
+        return (f'<div class="nd-col"><a class="nd-h" href="{BASE}/{key}/">{name}</a>'
+                f'<div class="nd-list">{items}</div></div>')
+
+    groups = ""
+    for label, keys in NAV_GROUPS:
+        on = " on" if active in keys else ""
+        groups += (
+            f'<div class="nav-g">'
+            f'<button class="nav-t{on}" type="button" aria-expanded="false">{label}</button>'
+            f'<div class="nav-drop"><div class="nd-in">{"".join(col(k) for k in keys)}</div></div>'
+            f"</div>"
+        )
+
+    tools = (
+        f'<div class="nav-g">'
+        f'<button class="nav-t" type="button" aria-expanded="false">Tools</button>'
+        f'<div class="nav-drop"><div class="nd-in"><div class="nd-col">'
+        f'<span class="nd-h">Work it out</span><div class="nd-list">'
+        f'<a href="{BASE}/calculator/">Return calculator</a>'
+        f'<a href="{BASE}/check/">What I&rsquo;d check first</a>'
+        f'<a href="{BASE}/checklist/">Due diligence checklist</a>'
+        f'<a href="{BASE}/about/">About</a>'
+        f"</div></div></div></div></div>"
     )
+
     return f"""<header class="masthead">
 <div class="wrap masthead-inner">
 <a class="wordmark" href="{BASE}/"><span>Bali</span> Off Script</a>
 <button class="menu-btn" aria-label="Menu" aria-expanded="false">Menu</button>
-<nav class="nav"><div class="nav-inner">{links}<a class="nav-calc" href="{BASE}/calculator/">Calculator</a><a class="nav-search" href="{BASE}/search/">Search</a></div></nav>
+<nav class="nav"><div class="nav-inner">{groups}{tools}<a class="nav-search" href="{BASE}/search/">Search</a></div></nav>
 </div>
 </header>"""
 
@@ -1147,6 +1187,8 @@ def main():
         (parse(os.path.join(CONTENT, f)) for f in os.listdir(CONTENT) if f.endswith(".md")),
         key=lambda p: p.get("order", "99"),
     )
+
+    ALL_PAGES.extend(pages)
 
     for p in pages:
         sib = [s for s in pages if s["category"] == p["category"]][:5]
