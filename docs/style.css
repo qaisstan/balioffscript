@@ -1,7 +1,6 @@
 /* Bali Off Script
-   Visual language borrowed from the artefact people actually have to read:
-   the Indonesian land certificate. Ink on warm paper, hairline rules,
-   monospaced reference numbers, and a sealing-wax endorsement stamp. */
+   Ink on near-white, hairline rules, monospaced reference numbers, and a
+   single muted accent that shifts per section. */
 
 :root {
   /* Volcanic stone, limestone, and the deep indigo of Balinese textile.
@@ -306,21 +305,6 @@ code { font-family: var(--mono); font-size: 0.875em; background: var(--paper-2);
 .card a:hover h3 { color: var(--accent); }
 .card p { margin: 0; font-size: 0.9375rem; color: var(--slate); }
 
-/* ------------------------------------------------------ source note */
-
-.sn {
-  max-width: var(--measure); margin: 2.5rem 0 0; padding-top: 1rem;
-  border-top: 1px solid var(--rule);
-  display: flex; flex-wrap: wrap; gap: 0.35rem 2rem;
-}
-.sn-i { font-size: 0.75rem; color: var(--slate); line-height: 1.5; }
-.sn-i em {
-  display: block; font-style: normal; font-family: var(--mono);
-  font-size: 0.5625rem; letter-spacing: 0.16em; text-transform: uppercase;
-  color: var(--rule-2); margin-bottom: 0.1rem;
-}
-.sn-i code { background: none; padding: 0; font-size: 0.75rem; color: var(--slate); }
-
 /* ---------------------------------------------------------- prose */
 
 .prose { max-width: var(--measure); }
@@ -361,7 +345,7 @@ tbody tr:last-child td { border-bottom: 0; }
 .cta-k { font-family: var(--display); font-size: 1.375rem; margin: 0 0 0.6rem; }
 .cta-b { margin: 0 0 0.9rem; color: #b9c0ca; font-size: 0.9375rem; }
 
-/* Byline: portrait sits left of the pitch, hairline ring echoing the stamp. */
+/* Byline: portrait sits left of the pitch, inside a hairline ring. */
 .cta-id { display: flex; gap: 1.25rem; align-items: flex-start; margin-bottom: 1.5rem; }
 .cta-said { flex: 1; min-width: 0; }
 .cta-photo {
@@ -555,7 +539,7 @@ tbody tr:last-child td { border-bottom: 0; }
   .seg span { white-space: normal; font-size: 0.75rem; padding: 0.5rem 0.4rem; }
 }
 
-/* Result panel — styled as the endorsement stamp, not a dashboard. */
+/* Result panel — quiet and typographic, not a dashboard. */
 .calc-out {
   position: sticky; top: 1.5rem;
   background: var(--paper-2); border: 1px solid var(--rule-2); padding: 1.25rem;

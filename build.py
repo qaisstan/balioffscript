@@ -171,12 +171,6 @@ CATEGORY_DIAGRAM = {
     "living": None,
 }
 
-RISK_LABELS = {
-    "critical": "Critical risk",
-    "high": "High risk",
-    "medium": "Worth checking",
-    "info": "Reference",
-}
 
 
 # ---------------------------------------------------------------- parsing
@@ -581,19 +575,6 @@ def footer(extra=""):
 </html>"""
 
 
-def stamp(m):
-    """Source note at the foot of the article. The regulation and the date are
-    what let a reader check the page rather than trust it, so they stay — but
-    they belong after the answer, not in front of it."""
-    bits = []
-    if m.get("regulation"):
-        bits.append(f'<span class="sn-i"><em>Legal basis</em><code>{m["regulation"]}</code></span>')
-    if m.get("applies"):
-        bits.append(f'<span class="sn-i"><em>Applies to</em>{m["applies"]}</span>')
-    bits.append(f'<span class="sn-i"><em>Last checked</em>{m.get("verified", str(date.today()))}</span>')
-    return f'<aside class="sn">{"".join(bits)}</aside>'
-
-
 def reel(url):
     if not url:
         return ""
@@ -698,7 +679,6 @@ def article(m, siblings):
 <h1>{m["question"]}</h1>
 <p class="standfirst">{m["summary"]}</p>
 <div class="prose">{md(m["body"])}</div>
-{stamp(m)}
 {map_widget(focus=m["slug"], compact=True) if m["category"] == "areas" and any(a["slug"] == m["slug"] for a in MAP_AREAS) else ""}
 {reel(m.get("reel", ""))}
 {cta()}
@@ -792,7 +772,7 @@ def about_page():
     'who is X' question has nothing to resolve against."""
     desc = ("Bali Off Script is written by Kai, a property adviser based in Bali. "
             "Straight answers on buying, building and living here, with the regulation "
-            "cited and the date it was last checked.")
+            "cited and checked against the current rules.")
     schema = json.dumps({
         "@context": "https://schema.org",
         "@graph": [
@@ -850,8 +830,8 @@ def about_page():
 <h2>How to judge whether I am any use</h2>
 <p>Not by testimonials, which anyone can write. By whether the reasoning holds up when you check it:</p>
 <ul>
-<li>Every page cites the regulation it rests on, by number, where one exists — so you can look it up rather than take my word for it</li>
-<li>Every page carries the date it was last checked, and that date is kept honest</li>
+<li>Regulations are named by number in the text where one exists, so you can look it up rather than take my word for it</li>
+<li>Pages are rewritten when the rules change, not left to rot</li>
 <li>Where rules are ambiguous, recently changed, or applied differently between regencies, the page says so instead of picking the convenient reading</li>
 <li>Where a figure is commonly cited but subject to revision, it is presented that way rather than as settled fact</li>
 <li>Nothing here is framed as a workaround for foreign ownership restrictions</li>
@@ -985,7 +965,7 @@ def home(pages):
 
 <section class="wrap sg-wrap">
 <h2 class="sec-h">Explore everything</h2>
-<p class="sg-lede">Eight sections, {len(pages)} answers. Every page cites the regulation it rests on and the date it was last checked.</p>
+<p class="sg-lede">Eight sections, {len(pages)} answers — written from the regulations rather than from the sales pitch.</p>
 {section_grid(pages)}
 <p class="sg-all"><a href="{BASE}/all/">See the full index &rarr;</a></p>
 </section>
@@ -1104,7 +1084,7 @@ def all_page(pages):
 <main class="wrap article">
 <p class="eyebrow">Index</p>
 <h1>Every answer, in one place</h1>
-<p class="standfirst">{len(pages)} answers across eight sections. Each carries the regulation it rests on and the date it was last checked.</p>
+<p class="standfirst">{len(pages)} answers across eight sections, written from the regulations rather than from the sales pitch.</p>
 <div class="ax-tools">
 <a class="lnk lnk-solid" href="{BASE}/calculator/">Return calculator</a>
 <a class="lnk" href="{BASE}/check/">What I&rsquo;d check first</a>
@@ -1441,11 +1421,11 @@ def main():
 DISCLAIMER = """
 Bali Off Script publishes general information about Indonesian property, immigration and tax rules. It is not legal advice, tax advice, or financial advice, and reading it does not create an adviser relationship.
 
-Indonesian regulations change frequently and are applied inconsistently between regencies and between individual government offices. A rule that held last quarter in Badung may be administered differently this quarter in Tabanan. Figures on this site — minimum property values, capital thresholds, tax rates, visa income requirements — are the ones in force on the date stamped on each page, and they move.
+Indonesian regulations change frequently and are applied inconsistently between regencies and between individual government offices. A rule that held last quarter in Badung may be administered differently this quarter in Tabanan. Figures on this site — minimum property values, capital thresholds, tax rates, visa income requirements — are the ones in force when the page was written, and they move.
 
 Before you sign anything, transfer any money, or rely on any structure described here, verify it with a licensed Indonesian notary or PPAT, an Indonesian lawyer, and a registered tax consultant. Engage your own, not the seller's.
 
-Every page carries a verification date. If a page is more than six months old, treat the numbers as a starting point for your own checking rather than a current fact.
+Treat every figure here as a starting point for your own checking rather than a current fact. Indonesian thresholds, rates and requirements are revised regularly.
 """
 
 CHECKLIST = """
