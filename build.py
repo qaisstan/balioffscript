@@ -580,26 +580,40 @@ def about_page():
 </div>
 
 <div class="prose">
+<h2>What I do</h2>
+<p>I advise foreign buyers and investors on property across Bali and the surrounding islands — Nusa Penida, Lombok, the Gilis, and further east where clients are looking. The work covers the whole arc of a project, not one slice of it:</p>
+<ul>
+<li><strong>Land and property acquisition</strong> — what can actually be held, under which right, and what the certificate really says</li>
+<li><strong>Due diligence</strong> — title, zoning, permits, and the licensing position underneath the sale</li>
+<li><strong>Development and construction projects</strong> — what is buildable on a plot once KDB, KLB and setbacks are applied, and what the permit sequence actually costs in time</li>
+<li><strong>Structuring</strong> — leasehold, Hak Pakai or a company-held right, and which one fits the intended use rather than the one that closes fastest</li>
+<li><strong>Investment analysis</strong> — what a project returns after the costs that get left out of the projection</li>
+</ul>
+<p>Different islands are not interchangeable. Spatial rules, permit timelines and enforcement all vary by regency and province, and an assumption carried from Canggu to Lombok is a common and expensive mistake.</p>
+
 <h2>Why this site exists</h2>
-<p>Most Bali property information is published by people selling Bali property. That is not a conspiracy, it is just an incentive — and it means the honest answers to the hardest questions tend not to get written down.</p>
+<p>Most Bali property information is published by people selling Bali property. That is not a conspiracy, it is an incentive — and it means the honest answers to the hardest questions tend not to get written down.</p>
 <p>Foreigners cannot own freehold land in Indonesia. Nominee arrangements, still the most commonly sold structure on the island, have been void since 1960 and criminal in Bali since February 2026. Advertised rental yields are gross figures that ignore platform commission, regional tax, management, staffing and — on a lease — the fact that the asset expires. None of that is secret. It is simply inconvenient to the sale.</p>
 <p>This site publishes it anyway.</p>
 
-<h2>How these pages are written</h2>
+<h2>How to judge whether I am any use</h2>
+<p>Not by testimonials, which anyone can write. By whether the reasoning holds up when you check it:</p>
 <ul>
-<li>Every page cites the regulation it rests on, by number, where one exists</li>
+<li>Every page cites the regulation it rests on, by number, where one exists — so you can look it up rather than take my word for it</li>
 <li>Every page carries the date it was last checked, and that date is kept honest</li>
-<li>Where the rules are ambiguous, recently changed, or applied differently between regencies, the page says so instead of picking the convenient reading</li>
+<li>Where rules are ambiguous, recently changed, or applied differently between regencies, the page says so instead of picking the convenient reading</li>
 <li>Where a figure is commonly cited but subject to revision, it is presented that way rather than as settled fact</li>
 <li>Nothing here is framed as a workaround for foreign ownership restrictions</li>
 </ul>
+<p>The <a href="{BASE}/calculator/">return calculator</a> is the clearest example. It is built to show what a property actually returns after every cost, including the lease amortisation that turns an advertised 12% into something very different. An adviser trying to sell you a villa would not publish that tool.</p>
+
+<h2>How I work</h2>
+<p>Send me a deal and I will tell you which link in the chain breaks first — the zoning, the licence, the lease term, or the numbers. The <a href="{BASE}/check/">intake list is here</a>. There is no charge for a first look and I am not selling you the property.</p>
+<p>The most valuable thing I can tell a client is usually "don't buy this one". If an adviser has never said that to you, you are talking to a salesperson.</p>
 
 <h2>What this is not</h2>
 <p>It is not legal advice, tax advice, or financial advice, and reading it does not create an adviser relationship. Indonesian regulations change often and are administered inconsistently between regencies and between individual offices. Before you sign anything or transfer any money, verify it with your own licensed Indonesian notary or PPAT, your own lawyer, and your own registered tax consultant — not the seller's. The <a href="{BASE}/disclaimer/">full disclaimer is here</a>.</p>
-<p>I am also not a neutral party. I advise on property in Bali, which is how I know what goes wrong. If a page tells you a deal looks bad, that is not a sales technique — I would rather you walked away from a bad one and trusted the next thing I told you.</p>
-
-<h2>If you have a specific deal</h2>
-<p>Send it to me. Location, title type, the zoning, and any permits you have been shown — the <a href="{BASE}/check/">intake list is here</a>. I will tell you which link in the chain breaks first. There is no charge for that and I am not selling you the property.</p>
+<p>I am also not a neutral party. I work in property in Bali, which is how I know what goes wrong.</p>
 </div>
 
 {cta("Got a specific situation?",

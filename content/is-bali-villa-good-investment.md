@@ -1,0 +1,60 @@
+---
+question: Is buying a villa in Bali actually a good investment?
+summary: Sometimes. The honest answer depends on four numbers, and three of them are usually missing from the pitch.
+category: rental
+order: 03
+risk: high
+regulation: Market analysis — verify all figures against the specific property
+applies: Anyone weighing a Bali villa purchase
+verified: 2026-08-14
+---
+
+It can be. It frequently is not, and the difference is arithmetic rather than opinion.
+
+Four numbers decide it. Most projections show you one.
+
+## 1. Gross revenue
+
+Nightly rate multiplied by occupancy, across the whole year. The trap is the occupancy assumption — high season is not the year, and sustained figures above 75% are unusual once low season is included.
+
+## 2. What reaches you
+
+From gross, subtract platform commission, the 10% regional accommodation tax, management fees, staff, utilities, upkeep, a refurbishment reserve and income tax.
+
+An advertised 12% commonly lands between 4% and 6% after all of it.
+
+## 3. What the right costs you each year
+
+This is the one nobody shows.
+
+If you hold a 25-year lease, you are consuming the premium at roughly a twenty-fifth a year. On USD 300,000 that is USD 12,000 annually, before a single expense — because at the end the land and everything on it [reverts to the owner](/ownership/land-rights-expiry-bali/).
+
+A yield calculated without that number is not a return. It is a drawdown described as income.
+
+## 4. Whether you can legally rent it at all
+
+Zoning decides whether nightly rental is permitted on the plot. The business classification decides whether your company may operate it — and [several were closed to new foreign-owned companies in July 2026](/company/pt-pma-kbli-closure-bali/).
+
+If either answer is no, the first three numbers are irrelevant.
+
+## Run it yourself
+
+The [calculator](/calculator/) applies all four. Put in the seller's own figures and watch what happens to the headline.
+
+If a projection cannot survive being typed into a spreadsheet, that tells you what it was built for.
+
+## When it does work
+
+- **Pink-zoned, properly permitted, with a classification that matches the operation.** The legal position is settled and the income is defensible.
+- **Freehold-equivalent or long-remaining HGB**, where amortisation is small or absent.
+- **Bought for use, with rental offsetting cost** rather than justifying the purchase.
+- **Land in a genuine appreciation corridor**, bought as land rather than as a yield story.
+
+## When it does not
+
+- Short lease, high price, rental income assumed to make up the difference
+- Green or yellow zone with the licence "to be arranged"
+- Off-plan where permits are pending and the projection assumes day-one occupancy
+- Any deal where the numbers only work at 80% occupancy
+
+> The Bali market is not short of demand — arrivals keep climbing. It is short of properties that can be legally operated at the price being asked.
