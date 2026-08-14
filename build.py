@@ -695,9 +695,8 @@ def out(oid, label, note=""):
 </div>"""
 
 
-CALC_DESC = ("Model what a Bali villa or apartment actually returns after platform "
-             "commission, PB1, management and tax — including the lease amortisation "
-             "that turns an advertised 12% yield into something very different.")
+CALC_DESC = ("Work out what a Bali villa or apartment really returns after platform fees, "
+             "PB1, management and tax — including the lease amortisation nobody shows you.")
 # Longer version for the page itself, where there is no character limit.
 CALC_INTRO = ("Model what a Bali property actually returns: occupancy, platform commission, "
               "PB1, management and running costs — and, on a time-limited right, the "
