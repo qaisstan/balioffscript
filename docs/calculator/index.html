@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bali villa ROI calculator — Bali Off Script</title>
+<meta name="description" content="Model a Bali villa's real return: occupancy, OTA commission, PB1, management fees and — for leasehold — the lease amortisation that turns an advertised 12% into something very different.">
+<link rel="canonical" href="https://balioffscript.com/calculator/">
+<meta property="og:title" content="Bali villa ROI calculator — Bali Off Script">
+<meta property="og:description" content="Model a Bali villa's real return: occupancy, OTA commission, PB1, management fees and — for leasehold — the lease amortisation that turns an advertised 12% into something very different.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Bali Off Script">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Public+Sans:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+<script>window.SITE_BASE=""</script>
+</head>
+<body>
+<header class="masthead">
+<div class="wrap masthead-inner">
+<a class="wordmark" href="/"><span>Bali</span> Off Script</a>
+<button class="menu-btn" aria-label="Menu" aria-expanded="false">Menu</button>
+<nav class="nav"><a href="/ownership/">Ownership</a><a href="/visas/">Visas</a><a href="/company/">Companies</a><a href="/tax/">Tax</a><a href="/building/">Building & Zoning</a><a href="/rental/">Rental & ROI</a><a href="/areas/">Areas</a><a class="nav-calc" href="/calculator/">Calculator</a><a class="nav-search" href="/search/">Search</a></nav>
+</div>
+</header>
+<main class="wrap calc-page">
+<p class="eyebrow">Tool</p>
+<h1>What does this villa actually return?</h1>
+<p class="standfirst">Model a Bali villa's real return: occupancy, OTA commission, PB1, management fees and — for leasehold — the lease amortisation that turns an advertised 12% into something very different.</p>
+
+<div class="calc-wrap">
+<form id="calc" class="calc-form" onsubmit="return false">
+
+<fieldset class="fs">
+<legend>Structure</legend>
+<div class="radios">
+<label class="r"><input type="radio" name="structure" value="lease" checked> Leasehold</label>
+<label class="r"><input type="radio" name="structure" value="hgb"> Freehold / HGB via PT PMA</label>
+</div>
+<label class="f lease-only">
+<span class="f-l">Lease years remaining</span>
+<input type="number" id="years" value="25" step="1" inputmode="decimal">
+<span class="f-h">What you are actually buying</span>
+</label>
+</fieldset>
+
+<fieldset class="fs">
+<legend>Capital in</legend>
+<label class="f ">
+<span class="f-l">Purchase or lease premium (USD)</span>
+<input type="number" id="price" value="300000" step="1000" inputmode="decimal">
+
+</label>
+<label class="f ">
+<span class="f-l">Build or renovation (USD)</span>
+<input type="number" id="build" value="0" step="1000" inputmode="decimal">
+
+</label>
+<label class="f ">
+<span class="f-l">Furniture, pool, setup (USD)</span>
+<input type="number" id="ffe" value="35000" step="1000" inputmode="decimal">
+
+</label>
+<label class="f ">
+<span class="f-l">Transaction costs (%)</span>
+<input type="number" id="tx" value="7" step="0.5" inputmode="decimal">
+<span class="f-h">BPHTB, notary, legal, agent</span>
+</label>
+</fieldset>
+
+<fieldset class="fs">
+<legend>Revenue</legend>
+<label class="f ">
+<span class="f-l">Average nightly rate (USD)</span>
+<input type="number" id="adr" value="180" step="5" inputmode="decimal">
+
+</label>
+<label class="f ">
+<span class="f-l">Occupancy (%)</span>
+<input type="number" id="occ" value="65" step="1" inputmode="decimal">
+<span class="f-h">Across the full year, not high season</span>
+</label>
+</fieldset>
+
+<fieldset class="fs">
+<legend>Costs</legend>
+<label class="f ">
+<span class="f-l">OTA commission (%)</span>
+<input type="number" id="ota" value="16" step="1" inputmode="decimal">
+<span class="f-h">Airbnb / Booking.com</span>
+</label>
+<label class="f ">
+<span class="f-l">PB1 regional tax (%)</span>
+<input type="number" id="pb1" value="10" step="1" inputmode="decimal">
+<span class="f-h">On accommodation revenue</span>
+</label>
+<label class="f ">
+<span class="f-l">Management fee (%)</span>
+<input type="number" id="mgmt" value="20" step="1" inputmode="decimal">
+<span class="f-h">Of net room revenue</span>
+</label>
+<label class="f ">
+<span class="f-l">Staff, utilities, upkeep (USD / month)</span>
+<input type="number" id="opex" value="1200" step="50" inputmode="decimal">
+
+</label>
+<label class="f ">
+<span class="f-l">Refurbishment reserve (%)</span>
+<input type="number" id="capex" value="5" step="1" inputmode="decimal">
+<span class="f-h">Of gross revenue</span>
+</label>
+<label class="f ">
+<span class="f-l">Income tax (%)</span>
+<input type="number" id="tax_rate" value="22" step="1" inputmode="decimal">
+<span class="f-h">PT PMA corporate rate</span>
+</label>
+</fieldset>
+</form>
+
+<aside class="calc-out">
+<h2 class="calc-h">Result</h2>
+<div class="calc-row" id="row_invested">
+<span class="calc-k">Total capital in</span>
+<span class="calc-v" id="o_invested">—</span>
+</div>
+<div class="calc-sep">Trading year</div>
+<div class="calc-row" id="row_gross">
+<span class="calc-k">Gross revenue</span>
+<span class="calc-v" id="o_gross">—</span>
+</div>
+<div class="calc-row" id="row_netrev">
+<span class="calc-k">After OTA + PB1</span>
+<span class="calc-v" id="o_netrev">—</span>
+</div>
+<div class="calc-row" id="row_opex">
+<span class="calc-k">Operating costs</span>
+<span class="calc-v" id="o_opex">—</span>
+</div>
+<div class="calc-row" id="row_noi">
+<span class="calc-k">Net operating income</span>
+<span class="calc-v" id="o_noi">—</span>
+</div>
+<div class="calc-row" id="row_tax">
+<span class="calc-k">Income tax</span>
+<span class="calc-v" id="o_tax">—</span>
+</div>
+<div class="calc-row" id="row_net">
+<span class="calc-k">Net profit</span>
+<span class="calc-v" id="o_net">—</span>
+</div>
+<div class="calc-sep">Return</div>
+<div class="calc-row" id="row_grossyield">
+<span class="calc-k">Gross yield<em>what gets advertised</em></span>
+<span class="calc-v" id="o_grossyield">—</span>
+</div>
+<div class="calc-row" id="row_netyield">
+<span class="calc-k">Net yield<em>what you actually keep</em></span>
+<span class="calc-v" id="o_netyield">—</span>
+</div>
+<div class="calc-row" id="row_amort">
+<span class="calc-k">Lease amortisation<em>premium ÷ years remaining</em></span>
+<span class="calc-v" id="o_amort">—</span>
+</div>
+<div class="calc-row" id="row_true">
+<span class="calc-k">Return after amortisation<em>the real number</em></span>
+<span class="calc-v" id="o_true">—</span>
+</div>
+<div class="calc-row" id="row_payback">
+<span class="calc-k">Payback</span>
+<span class="calc-v" id="o_payback">—</span>
+</div>
+<div class="calc-row" id="row_break">
+<span class="calc-k">Break-even</span>
+<span class="calc-v" id="o_break">—</span>
+</div>
+<div class="calc-row" id="row_expiry">
+<span class="calc-k">At expiry</span>
+<span class="calc-v" id="o_expiry">—</span>
+</div>
+<div class="calc-warn" id="o_warn"></div>
+</aside>
+</div>
+
+<div class="prose calc-notes">
+<h2>How this differs from the yield you were quoted</h2>
+<p>Most Bali villa yields are quoted gross: annual revenue divided by purchase price. That figure ignores OTA commission, the 10% PB1 regional accommodation tax, management fees, staffing, refurbishment and income tax. Once those are applied, an advertised 12% commonly lands between 4% and 6%.</p>
+<p>On a leasehold there is a further deduction that is almost never shown. A 25-year lease is a wasting asset: you are buying 25 years of use, after which the land and everything built on it revert to the owner unless the lease contains an enforceable, priced extension clause. Amortising the premium over the remaining term is the only way to compare a leasehold against a freehold purchase honestly.</p>
+<p>The defaults above are deliberately middle-of-road, not optimistic. Change them to your actual numbers. If a seller's projection cannot survive being typed into this page, that is the answer.</p>
+<h2>What this does not model</h2>
+<p>Capital appreciation, currency movement, financing costs, and the risk that the property cannot legally be operated as short-term accommodation at all. That last one is not a rounding error — <a href="/company/pt-pma-kbli-closure-bali/">Bali closed the villa and homestay business classifications to new foreign-owned companies in July 2026</a>, and zoning determines whether nightly rental is permitted on the plot before any of these numbers matter.</p>
+</div>
+<section class="cta">
+<div class="cta-id">
+
+<div class="cta-said">
+<p class="cta-k">Got a specific situation?</p>
+<p class="cta-b">Every deal in Bali has a detail that breaks the general rule. Send me the details and I'll tell you what I'd check first.</p>
+<p class="cta-by">Kai — Bali property adviser</p>
+</div>
+</div>
+<a class="btn" href="https://www.instagram.com/balioffscript/" rel="me"><svg class="ig" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41-.56-.22-.96-.48-1.38-.9-.42-.42-.68-.82-.9-1.38-.16-.42-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41 1.27-.06 1.65-.07 4.85-.07M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.31-1.46.72-2.13 1.38C1.35 2.68.94 3.35.63 4.14.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.31.79.72 1.46 1.38 2.13.67.67 1.34 1.07 2.13 1.38.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56.79-.31 1.46-.72 2.13-1.38.67-.67 1.07-1.34 1.38-2.13.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91-.31-.79-.72-1.46-1.38-2.13C21.32 1.35 20.65.94 19.86.63c-.76-.3-1.64-.5-2.91-.56C15.67.01 15.26 0 12 0z"/><path d="M12 5.84A6.16 6.16 0 1 0 18.16 12 6.16 6.16 0 0 0 12 5.84zM12 16a4 4 0 1 1 4-4 4 4 0 0 1-4 4z"/><circle cx="18.41" cy="5.59" r="1.44"/></svg><span>Ask on Instagram</span></a>
+</section>
+</main>
+<footer class="foot">
+<div class="wrap foot-inner">
+<div>
+<p class="foot-mark">Bali Off Script</p>
+<p class="foot-note">Straight answers on buying, building and living in Bali.</p>
+</div>
+<div class="foot-links">
+<a class="ig-link" href="https://www.instagram.com/balioffscript/" rel="me"><svg class="ig ig-sm" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41-.56-.22-.96-.48-1.38-.9-.42-.42-.68-.82-.9-1.38-.16-.42-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41 1.27-.06 1.65-.07 4.85-.07M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.31-1.46.72-2.13 1.38C1.35 2.68.94 3.35.63 4.14.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.31.79.72 1.46 1.38 2.13.67.67 1.34 1.07 2.13 1.38.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56.79-.31 1.46-.72 2.13-1.38.67-.67 1.07-1.34 1.38-2.13.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91-.31-.79-.72-1.46-1.38-2.13C21.32 1.35 20.65.94 19.86.63c-.76-.3-1.64-.5-2.91-.56C15.67.01 15.26 0 12 0z"/><path d="M12 5.84A6.16 6.16 0 1 0 18.16 12 6.16 6.16 0 0 0 12 5.84zM12 16a4 4 0 1 1 4-4 4 4 0 0 1-4 4z"/><circle cx="18.41" cy="5.59" r="1.44"/></svg><span>@balioffscript</span></a>
+<a href="/checklist/">Due diligence checklist</a>
+<a href="/disclaimer/">Disclaimer</a>
+</div>
+</div>
+<div class="wrap foot-legal">
+<p>General information, not legal or tax advice. Indonesian regulations change often and are applied inconsistently between regencies. Verify anything here with a licensed Indonesian notary, lawyer or tax consultant before you act on it.</p>
+</div>
+<script src="/search.js" defer></script><script src="/calc.js" defer></script>
+</footer>
+</body>
+</html>

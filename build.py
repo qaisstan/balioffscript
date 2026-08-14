@@ -183,12 +183,12 @@ def nav(active=""):
 <div class="wrap masthead-inner">
 <a class="wordmark" href="{BASE}/"><span>Bali</span> Off Script</a>
 <button class="menu-btn" aria-label="Menu" aria-expanded="false">Menu</button>
-<nav class="nav">{links}<a class="nav-search" href="{BASE}/search/">Search</a></nav>
+<nav class="nav">{links}<a class="nav-calc" href="{BASE}/calculator/">Calculator</a><a class="nav-search" href="{BASE}/search/">Search</a></nav>
 </div>
 </header>"""
 
 
-def footer():
+def footer(extra=""):
     return f"""<footer class="foot">
 <div class="wrap foot-inner">
 <div>
@@ -204,7 +204,7 @@ def footer():
 <div class="wrap foot-legal">
 <p>General information, not legal or tax advice. Indonesian regulations change often and are applied inconsistently between regencies. Verify anything here with a licensed Indonesian notary, lawyer or tax consultant before you act on it.</p>
 </div>
-<script src="{BASE}/search.js" defer></script>
+<script src="{BASE}/search.js" defer></script>{extra}
 </footer>
 </body>
 </html>"""
@@ -367,6 +367,104 @@ def home(pages):
 {footer()}"""
 
 
+def field(fid, label, val, hint="", step="1", cls=""):
+    return f"""<label class="f {cls}">
+<span class="f-l">{label}</span>
+<input type="number" id="{fid}" value="{val}" step="{step}" inputmode="decimal">
+{f'<span class="f-h">{hint}</span>' if hint else ''}
+</label>"""
+
+
+def out(oid, label, note=""):
+    return f"""<div class="calc-row" id="row_{oid.replace('o_', '')}">
+<span class="calc-k">{label}{f'<em>{note}</em>' if note else ''}</span>
+<span class="calc-v" id="{oid}">—</span>
+</div>"""
+
+
+def calculator():
+    desc = ("Model a Bali villa's real return: occupancy, OTA commission, PB1, management "
+            "fees and — for leasehold — the lease amortisation that turns an advertised 12% "
+            "into something very different.")
+    return f"""{head("Bali villa ROI calculator — " + SITE_NAME, desc, "/calculator/")}
+{nav()}
+<main class="wrap calc-page">
+<p class="eyebrow">Tool</p>
+<h1>What does this villa actually return?</h1>
+<p class="standfirst">{desc}</p>
+
+<div class="calc-wrap">
+<form id="calc" class="calc-form" onsubmit="return false">
+
+<fieldset class="fs">
+<legend>Structure</legend>
+<div class="radios">
+<label class="r"><input type="radio" name="structure" value="lease" checked> Leasehold</label>
+<label class="r"><input type="radio" name="structure" value="hgb"> Freehold / HGB via PT PMA</label>
+</div>
+{field("years", "Lease years remaining", "25", "What you are actually buying", "1", "lease-only")}
+</fieldset>
+
+<fieldset class="fs">
+<legend>Capital in</legend>
+{field("price", "Purchase or lease premium (USD)", "300000", "", "1000")}
+{field("build", "Build or renovation (USD)", "0", "", "1000")}
+{field("ffe", "Furniture, pool, setup (USD)", "35000", "", "1000")}
+{field("tx", "Transaction costs (%)", "7", "BPHTB, notary, legal, agent", "0.5")}
+</fieldset>
+
+<fieldset class="fs">
+<legend>Revenue</legend>
+{field("adr", "Average nightly rate (USD)", "180", "", "5")}
+{field("occ", "Occupancy (%)", "65", "Across the full year, not high season", "1")}
+</fieldset>
+
+<fieldset class="fs">
+<legend>Costs</legend>
+{field("ota", "OTA commission (%)", "16", "Airbnb / Booking.com", "1")}
+{field("pb1", "PB1 regional tax (%)", "10", "On accommodation revenue", "1")}
+{field("mgmt", "Management fee (%)", "20", "Of net room revenue", "1")}
+{field("opex", "Staff, utilities, upkeep (USD / month)", "1200", "", "50")}
+{field("capex", "Refurbishment reserve (%)", "5", "Of gross revenue", "1")}
+{field("tax_rate", "Income tax (%)", "22", "PT PMA corporate rate", "1")}
+</fieldset>
+</form>
+
+<aside class="calc-out">
+<h2 class="calc-h">Result</h2>
+{out("o_invested", "Total capital in")}
+<div class="calc-sep">Trading year</div>
+{out("o_gross", "Gross revenue")}
+{out("o_netrev", "After OTA + PB1")}
+{out("o_opex", "Operating costs")}
+{out("o_noi", "Net operating income")}
+{out("o_tax", "Income tax")}
+{out("o_net", "Net profit")}
+<div class="calc-sep">Return</div>
+{out("o_grossyield", "Gross yield", "what gets advertised")}
+{out("o_netyield", "Net yield", "what you actually keep")}
+{out("o_amort", "Lease amortisation", "premium ÷ years remaining")}
+{out("o_true", "Return after amortisation", "the real number")}
+{out("o_payback", "Payback")}
+{out("o_break", "Break-even")}
+{out("o_expiry", "At expiry")}
+<div class="calc-warn" id="o_warn"></div>
+</aside>
+</div>
+
+<div class="prose calc-notes">
+<h2>How this differs from the yield you were quoted</h2>
+<p>Most Bali villa yields are quoted gross: annual revenue divided by purchase price. That figure ignores OTA commission, the 10% PB1 regional accommodation tax, management fees, staffing, refurbishment and income tax. Once those are applied, an advertised 12% commonly lands between 4% and 6%.</p>
+<p>On a leasehold there is a further deduction that is almost never shown. A 25-year lease is a wasting asset: you are buying 25 years of use, after which the land and everything built on it revert to the owner unless the lease contains an enforceable, priced extension clause. Amortising the premium over the remaining term is the only way to compare a leasehold against a freehold purchase honestly.</p>
+<p>The defaults above are deliberately middle-of-road, not optimistic. Change them to your actual numbers. If a seller's projection cannot survive being typed into this page, that is the answer.</p>
+<h2>What this does not model</h2>
+<p>Capital appreciation, currency movement, financing costs, and the risk that the property cannot legally be operated as short-term accommodation at all. That last one is not a rounding error — <a href="{BASE}/company/pt-pma-kbli-closure-bali/">Bali closed the villa and homestay business classifications to new foreign-owned companies in July 2026</a>, and zoning determines whether nightly rental is permitted on the plot before any of these numbers matter.</p>
+</div>
+{cta()}
+</main>
+{footer(f'<script src="{BASE}/calc.js" defer></script>')}"""
+
+
 def search_page():
     return f"""{head("Search — " + SITE_NAME, "Search every answer on the site.", "/search/")}
 {nav()}
@@ -419,6 +517,7 @@ def main():
         write(f"/{k}/", category(k, cat_pages))
 
     write("/", home(pages))
+    write("/calculator/", calculator())
     write("/search/", search_page())
     write("/disclaimer/", simple("disclaimer", "Disclaimer", DISCLAIMER))
     write("/checklist/", simple("checklist", "Due diligence checklist", CHECKLIST))
@@ -432,7 +531,7 @@ def main():
     } for p in pages]
     open(os.path.join(OUT, "search-index.json"), "w", encoding="utf-8").write(json.dumps(index))
 
-    urls = ["/", "/search/", "/checklist/", "/disclaimer/"] + [f"/{k}/" for k in CATEGORIES] + \
+    urls = ["/", "/calculator/", "/search/", "/checklist/", "/disclaimer/"] + [f"/{k}/" for k in CATEGORIES] + \
            [f'/{p["category"]}/{p["slug"]}/' for p in pages]
     sm = "".join(f"<url><loc>{SITE_URL}{u}</loc></url>" for u in urls)
     open(os.path.join(OUT, "sitemap.xml"), "w", encoding="utf-8").write(

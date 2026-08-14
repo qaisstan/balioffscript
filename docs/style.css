@@ -259,6 +259,68 @@ tbody tr:last-child td { border-bottom: 0; }
 .related a { display: block; padding: 0.7rem 0; text-decoration: none; font-size: 0.9375rem; }
 .related a:hover { color: var(--seal); }
 
+/* ---------------------------------------------------------- calculator */
+
+.calc-page { padding-bottom: 3rem; }
+.calc-wrap {
+  display: grid; grid-template-columns: 1fr 20rem; gap: 2.5rem;
+  align-items: start; margin-top: 2rem;
+}
+.calc-form { display: grid; gap: 1.5rem; min-width: 0; }
+.fs { border: 0; border-top: 2px solid var(--ink); padding: 0.9rem 0 0; margin: 0; }
+.fs legend {
+  font-family: var(--mono); font-size: 0.6875rem; letter-spacing: 0.12em;
+  text-transform: uppercase; padding: 0 0.5rem 0 0;
+}
+.f { display: grid; gap: 0.25rem; margin-bottom: 0.85rem; }
+.f-l { font-size: 0.875rem; font-weight: 500; }
+.f-h { font-size: 0.75rem; color: var(--slate); }
+.f input {
+  font: inherit; font-family: var(--mono); font-size: 0.9375rem;
+  padding: 0.5rem 0.6rem; border: 1px solid var(--rule-2);
+  background: #fff; color: var(--ink); width: 100%;
+}
+.f input:focus { outline: 2px solid var(--seal); outline-offset: -1px; }
+.radios { display: flex; gap: 1.25rem; flex-wrap: wrap; margin-bottom: 0.9rem; }
+.r { font-size: 0.875rem; display: inline-flex; align-items: center; gap: 0.4rem; }
+
+/* Result panel — styled as the endorsement stamp, not a dashboard. */
+.calc-out {
+  position: sticky; top: 1.5rem;
+  background: var(--paper-2); border: 1px solid var(--rule-2); padding: 1.25rem;
+}
+.calc-h {
+  font-family: var(--mono); font-size: 0.6875rem; letter-spacing: 0.12em;
+  text-transform: uppercase; margin: 0 0 0.9rem; color: var(--slate);
+}
+.calc-row {
+  display: flex; justify-content: space-between; align-items: baseline;
+  gap: 0.75rem; padding: 0.4rem 0; border-bottom: 1px solid var(--rule);
+}
+.calc-k { font-size: 0.8125rem; }
+.calc-k em { display: block; font-style: normal; font-size: 0.6875rem; color: var(--slate); }
+.calc-v {
+  font-family: var(--mono); font-size: 0.875rem; font-weight: 500;
+  text-align: right; white-space: nowrap;
+}
+.calc-v.ok { color: var(--verify); }
+.calc-v.mid { color: #8a6d1f; }
+.calc-v.bad { color: var(--seal); }
+.calc-sep {
+  font-family: var(--mono); font-size: 0.625rem; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--slate);
+  margin: 1rem 0 0.25rem; padding-top: 0.6rem; border-top: 2px solid var(--ink);
+}
+.calc-warn { margin-top: 1rem; font-size: 0.8125rem; line-height: 1.5; }
+.calc-warn ul { margin: 0; padding-left: 1rem; }
+.calc-warn li { margin-bottom: 0.5rem; color: var(--slate); }
+.calc-notes { margin-top: 3rem; }
+
+@media (max-width: 54rem) {
+  .calc-wrap { grid-template-columns: 1fr; }
+  .calc-out { position: static; }
+}
+
 /* ---------------------------------------------------------- search page */
 
 .page-search { margin-bottom: 1.25rem; }
