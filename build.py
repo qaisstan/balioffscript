@@ -703,6 +703,7 @@ def article(m, siblings):
 <p class="standfirst">{m["summary"]}</p>
 {stamp(m)}
 <div class="prose">{md(m["body"])}</div>
+{map_widget(focus=m["slug"], compact=True) if m["category"] == "areas" and any(a["slug"] == m["slug"] for a in MAP_AREAS) else ""}
 {reel(m.get("reel", ""))}
 {cta()}
 <section class="related">
@@ -710,7 +711,7 @@ def article(m, siblings):
 <ul>{related}</ul>
 </section>
 </main>
-{footer()}"""
+{footer(f'<script src="{BASE}/map.js" defer></script>') if m["category"] == "areas" else footer()}"""
 
 
 def category(key, pages):
@@ -1121,42 +1122,50 @@ def all_page(pages):
 # Areas plotted on a schematic Bali. Not a survey map — the coastline is
 # stylised — but the relative positions, regencies and constraints are real.
 MAP_AREAS = [
-    dict(id="pererenan", n="Pererenan &amp; Cemagi", x=428, y=448, r="Badung",
-         price="USD 55–75k / are", pbg="5–6 months",
-         watch="More green zone than Canggu — check LP2B and KDB before the view",
-         url="/areas/pererenan-cemagi-property/"),
-    dict(id="canggu", n="Canggu &amp; Berawa", x=468, y=454, r="Badung",
-         price="~USD 82.5k / are", pbg="5–6 months",
-         watch="Tightest short-term rental enforcement on the island",
-         url="/areas/canggu-berawa-property/"),
-    dict(id="seminyak", n="Seminyak &amp; Umalas", x=518, y=468, r="Badung",
-         price="Near the ceiling", pbg="5–6 months",
-         watch="Mature market — stable cashflow, modest appreciation",
-         url="/areas/where-to-buy-bali/"),
-    dict(id="uluwatu", n="Uluwatu &amp; the Bukit", x=528, y=554, r="Badung",
-         price="USD 25–60k / are", pbg="5–6 months",
-         watch="Cliff and beach setbacks. Bingin was demolished in 2025",
-         url="/areas/uluwatu-bukit-property/"),
-    dict(id="sanur", n="Sanur", x=652, y=482, r="Denpasar",
-         price="Best value, established", pbg="3–5 months",
-         watch="Fastest permits in Bali. Lower rates than the west coast",
-         url="/areas/sanur-denpasar-property/"),
-    dict(id="ubud", n="Ubud &amp; Tegallalang", x=612, y=400, r="Gianyar",
-         price="Good land value", pbg="4–5 months",
-         watch="Temple buffers and very small buildable ratios",
-         url="/areas/ubud-gianyar-property/"),
-    dict(id="tabanan", n="Tabanan &amp; Tanah Lot", x=348, y=436, r="Tabanan",
+    dict(id="tabanan", n="Tabanan &amp; Tanah Lot", x=288, y=284, r="Tabanan",
          price="30–50% below Canggu", pbg="4–5 months",
          watch="LP2B and coastal setback. Hardest place to licence a rental",
-         url="/areas/tabanan-west-coast-property/"),
-    dict(id="penida", n="Nusa Penida", x=794, y=530, r="Klungkung",
+         slug="tabanan-west-coast-property", url="/areas/tabanan-west-coast-property/"),
+    dict(id="pererenan", n="Pererenan &amp; Cemagi", x=299, y=296, r="Badung",
+         price="USD 55–75k / are", pbg="5–6 months",
+         watch="More green zone than Canggu — check LP2B and KDB before the view",
+         slug="pererenan-cemagi-property", url="/areas/pererenan-cemagi-property/"),
+    dict(id="canggu", n="Canggu &amp; Berawa", x=310, y=295, r="Badung",
+         price="~USD 82.5k / are", pbg="5–6 months",
+         watch="Tightest short-term rental enforcement on the island",
+         slug="canggu-berawa-property", url="/areas/canggu-berawa-property/"),
+    dict(id="seminyak", n="Seminyak &amp; Umalas", x=322, y=314, r="Badung",
+         price="Near the ceiling", pbg="5–6 months",
+         watch="Mature market — stable cashflow, modest appreciation",
+         slug="where-to-buy-bali", url="/areas/where-to-buy-bali/"),
+    dict(id="uluwatu", n="Uluwatu &amp; the Bukit", x=287, y=372, r="Badung",
+         price="USD 25–60k / are", pbg="5–6 months",
+         watch="Cliff and beach setbacks. Bingin was demolished in 2025",
+         slug="uluwatu-bukit-property", url="/areas/uluwatu-bukit-property/"),
+    dict(id="sanur", n="Sanur", x=361, y=312, r="Denpasar",
+         price="Best value, established", pbg="3–5 months",
+         watch="Fastest permits in Bali. Lower rates than the west coast",
+         slug="sanur-denpasar-property", url="/areas/sanur-denpasar-property/"),
+    dict(id="ubud", n="Ubud &amp; Tegallalang", x=361, y=236, r="Gianyar",
+         price="Good land value", pbg="4–5 months",
+         watch="Temple buffers and very small buildable ratios",
+         slug="ubud-gianyar-property", url="/areas/ubud-gianyar-property/"),
+    dict(id="penida", n="Nusa Penida", x=479, y=329, r="Klungkung",
          price="Frontier pricing", pbg="5–6 months",
          watch="Water supply is the binding constraint, not the permit",
-         url="/areas/nusa-penida-property/"),
+         slug="nusa-penida-property", url="/areas/nusa-penida-property/"),
+    dict(id="lombok", n="Lombok", x=804, y=296, r="West Nusa Tenggara",
+         price="Materially cheaper", pbg="Varies by regency",
+         watch="Different province — Bali's 2026 closure and nominee Perda do not apply",
+         slug="lombok-property-foreigners", url="/areas/lombok-property-foreigners/"),
+    dict(id="gili", n="Gili Islands", x=685, y=171, r="West Nusa Tenggara",
+         price="Thin, seasonal market", pbg="Varies by regency",
+         watch="Tiny land supply, boat-dependent construction, fragile water",
+         slug="lombok-property-foreigners", url="/areas/lombok-property-foreigners/"),
 ]
 
 
-def map_widget():
+def map_widget(focus=None, compact=False):
     """Hover or tap an area to see what actually governs it there."""
     pins = "".join(
         f'<g class="mp-pin" data-id="{a["id"]}" tabindex="0" role="button" '
@@ -1170,32 +1179,16 @@ def map_widget():
     )
     data = json.dumps({a["id"]: {k: a[k] for k in ("n", "r", "price", "pbg", "watch", "url")}
                        for a in MAP_AREAS})
-    return f"""<section class="mp" id="map">
+    return f"""<section class="mp{' mp-compact' if compact else ''}" id="map" data-focus="{focus or ''}">
 <div class="mp-top">
-<h2 class="mp-h">Where things actually differ</h2>
-<p class="mp-sub">Every regency runs its own spatial rules and its own permit queue. Hover an area &mdash; or tap on a phone &mdash; for what governs it there.</p>
+<h2 class="mp-h">{"Where this sits" if compact else "Where things actually differ"}</h2>
+<p class="mp-sub">{"Every regency runs its own spatial rules and its own permit queue. Hover any area for what governs it there." if compact else "Every regency runs its own spatial rules and its own permit queue. Hover an area &mdash; or tap on a phone &mdash; for what governs it there."}</p>
 </div>
 <div class="mp-stage">
-<svg viewBox="0 0 1000 620" class="mp-svg" role="img" aria-label="Schematic map of Bali showing investment areas">
-<path class="mp-land" d="M52 330 C74 312 96 300 122 292 C186 268 318 236 400 224
- C500 210 610 206 700 214 C782 222 852 244 900 268 C932 284 948 292 946 302
- C944 320 936 336 930 348 C914 372 900 382 886 392 C858 410 838 418 820 424
- C788 436 768 440 752 444 C724 452 710 452 700 456 C680 462 672 466 664 470
- C654 476 650 480 648 486 C644 494 638 498 628 502 C620 508 616 512 612 516
- C606 526 604 536 600 546 C594 560 586 568 576 574 C560 584 542 588 528 586
- C508 582 494 576 486 566 C474 552 466 544 468 534 C470 520 478 512 486 508
- C498 500 508 498 516 496 C530 492 540 492 546 490 C542 484 538 480 536 476
- C526 470 516 468 508 466 C488 460 474 458 462 456 C428 450 408 448 392 444
- C356 438 336 436 316 434 C282 426 256 420 232 414 C196 400 172 390 150 380
- C114 362 96 350 86 350 C68 342 58 336 52 330 Z"/>
-<path class="mp-land mp-isle" d="M754 512 C776 500 812 500 832 512 C848 522 848 540 832 550
- C812 562 776 562 756 550 C740 540 740 522 754 512 Z"/>
+<svg viewBox="0 0 1000 470" class="mp-svg" role="img" aria-label="Schematic map of Bali showing investment areas">
+<path class="mp-land" d="M932.2 138.3 L946.8 144.3 L962.6 156.0 L974.6 171.1 L978.0 187.5 L974.6 194.7 L960.9 215.1 L956.5 219.3 L953.9 224.9 L952.1 256.8 L947.0 264.1 L929.9 281.4 L926.3 289.8 L918.2 303.1 L899.7 336.2 L884.8 350.4 L876.9 360.5 L880.2 373.3 L879.3 379.4 L880.5 383.8 L885.1 384.4 L888.9 377.2 L893.7 374.6 L896.4 378.5 L901.7 379.9 L906.6 384.2 L913.7 386.0 L903.9 399.6 L886.7 402.3 L880.5 400.2 L866.6 409.9 L854.5 410.0 L848.7 406.0 L857.1 395.8 L860.2 386.6 L865.0 376.0 L858.2 373.6 L844.7 374.7 L834.1 382.7 L834.1 394.1 L835.9 408.3 L836.3 424.3 L830.6 422.2 L830.3 411.4 L826.6 406.5 L822.6 406.2 L818.7 411.8 L814.8 412.5 L808.9 402.8 L805.0 401.0 L797.6 402.5 L781.9 408.8 L774.8 409.9 L772.3 408.8 L769.5 404.8 L766.8 403.9 L762.1 404.9 L756.7 409.0 L753.7 409.9 L750.3 407.5 L742.8 396.4 L738.1 392.4 L731.9 391.2 L712.5 390.8 L710.7 396.8 L706.2 399.8 L700.6 399.2 L695.2 394.7 L699.9 392.9 L702.8 390.0 L703.3 386.8 L700.9 383.8 L697.0 382.9 L689.2 385.8 L685.2 386.6 L683.5 389.1 L685.2 402.5 L680.9 404.9 L676.5 404.9 L672.4 403.4 L669.3 401.0 L667.0 397.2 L663.7 387.7 L660.8 383.8 L655.6 380.2 L653.6 380.6 L651.3 382.6 L645.3 383.8 L638.6 382.5 L613.2 368.3 L601.5 366.5 L597.1 355.9 L597.9 346.7 L599.2 337.9 L605.4 327.7 L613.9 330.2 L618.2 327.7 L620.3 331.1 L621.6 336.6 L623.6 340.4 L649.5 339.9 L655.2 337.3 L661.4 332.9 L665.5 335.1 L669.5 335.3 L678.1 337.5 L685.6 331.6 L689.5 331.8 L692.4 338.3 L695.8 342.5 L700.6 335.5 L704.9 333.0 L706.6 328.6 L693.6 323.1 L694.8 305.9 L697.9 291.4 L698.7 265.8 L694.7 242.0 L684.5 233.2 L680.1 209.9 L689.3 197.1 L697.2 193.6 L709.2 194.5 L712.5 193.2 L714.5 190.6 L717.3 183.4 L719.6 180.2 L726.1 175.3 L738.4 168.6 L743.8 164.5 L780.8 126.8 L787.7 122.0 L825.2 107.5 L832.5 107.2 L845.3 114.2 L875.6 122.4 L893.0 125.2 L899.4 128.3 L907.1 133.7 L914.6 136.1 L932.2 138.3 Z M509.8 144.1 L523.7 156.6 L539.8 167.5 L549.4 180.5 L543.9 199.0 L539.6 203.3 L526.2 214.3 L518.5 218.8 L508.3 229.9 L503.9 233.5 L474.2 235.8 L469.8 237.8 L466.8 247.5 L459.7 253.4 L403.6 273.9 L386.3 285.2 L373.1 299.9 L363.9 316.9 L357.7 323.4 L348.5 326.0 L340.4 329.3 L336.6 337.1 L337.5 346.5 L343.8 354.7 L346.9 351.9 L345.0 350.1 L341.2 343.3 L348.8 340.0 L351.1 347.7 L350.0 367.7 L347.3 372.1 L340.8 376.2 L333.2 379.2 L327.3 380.7 L317.5 381.2 L308.0 380.8 L299.2 378.5 L291.5 373.6 L291.2 367.2 L299.8 360.8 L318.3 351.9 L323.0 346.2 L327.7 336.8 L329.5 326.7 L317.0 301.3 L306.9 297.0 L295.0 287.6 L289.5 281.4 L287.2 275.3 L283.9 268.9 L276.2 262.8 L261.4 253.6 L232.4 226.8 L221.5 219.3 L167.2 193.2 L150.3 190.0 L101.6 190.3 L87.2 185.2 L74.6 175.1 L64.1 163.2 L30.5 114.5 L22.0 73.8 L23.9 62.5 L36.0 60.2 L45.7 60.6 L51.1 64.5 L60.2 76.4 L66.7 78.9 L73.3 77.0 L84.3 69.1 L90.6 73.8 L99.5 76.0 L115.8 77.7 L123.4 79.3 L192.6 103.8 L207.3 98.4 L245.4 98.5 L261.4 95.2 L278.3 82.8 L308.6 53.1 L323.9 45.8 L332.4 45.7 L341.7 47.5 L350.3 51.1 L363.9 60.1 L392.7 66.2 L461.2 95.2 L474.9 104.4 L487.3 115.8 L509.8 144.1 Z M481.1 303.0 L490.6 305.5 L497.3 315.4 L500.9 325.2 L508.4 334.0 L511.9 346.3 L497.2 362.5 L485.5 359.0 L462.4 342.9 L455.5 334.4 L449.6 332.7 L447.0 330.7 L448.3 327.3 L463.1 308.4 L467.5 304.7 L474.8 306.2 L481.1 303.0 Z"/>
 <g class="mp-regency">
-<text x="196" y="342">JEMBRANA</text><text x="486" y="286">BULELENG</text>
-<text x="336" y="392">TABANAN</text><text x="506" y="428">BADUNG</text>
-<text x="654" y="452">DENPASAR</text><text x="616" y="378">GIANYAR</text>
-<text x="676" y="324">BANGLI</text><text x="838" y="330">KARANGASEM</text>
-<text x="726" y="424">KLUNGKUNG</text>
+<text x="215" y="175">BALI</text><text x="800" y="215">LOMBOK</text>
 </g>
 {pins}
 </svg>
@@ -1203,7 +1196,7 @@ def map_widget():
 <p class="mp-empty">Pick an area.</p>
 </aside>
 </div>
-<p class="mp-fine">Schematic, not to scale. Land prices are leasehold per are (100&nbsp;m&sup2;) and move street by street. Permit figures are PBG from empty land.</p>
+<p class="mp-fine">Coastline from Natural Earth (public domain). Land prices are leasehold per are (100&nbsp;m&sup2;) and move street by street. Permit figures are PBG from empty land.</p>
 <script>window.MAP_DATA={data}</script>
 </section>"""
 

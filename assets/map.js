@@ -36,6 +36,10 @@
     pins.forEach(function (p) { p.classList.remove("on"); });
   }
 
+  // On an area article the map opens already showing that area.
+  var focus = root.dataset.focus;
+  if (focus && window.MAP_DATA[focus]) { pinned = focus; draw(focus); }
+
   pins.forEach(function (p) {
     var id = p.dataset.id;
     p.addEventListener("mouseenter", function () { if (!pinned) draw(id); });
