@@ -314,6 +314,7 @@ def footer(extra=""):
 <div class="foot-links">
 <a class="ig-link" href="{INSTAGRAM}" rel="me">{ig_logo("ig ig-sm")}<span>@balioffscript</span></a>
 <a href="{BASE}/calculator/">ROI calculator</a>
+<a href="{BASE}/about/">About</a>
 <a href="{BASE}/check/">What I'd check first</a>
 <a href="{BASE}/checklist/">Due diligence checklist</a>
 <a href="{BASE}/disclaimer/">Disclaimer</a>
@@ -532,6 +533,80 @@ CHECK_ITEMS = [
         "Who pays which taxes, in writing",
     ]),
 ]
+
+
+def about_page():
+    """The entity page. Search engines and answer engines both need one place
+    that states plainly who publishes this and what they do — otherwise a
+    'who is X' question has nothing to resolve against."""
+    desc = ("Bali Off Script is written by Kai, a property adviser based in Bali. "
+            "Straight answers on buying, building and living here, with the regulation "
+            "cited and the date it was last checked.")
+    schema = json.dumps({
+        "@context": "https://schema.org",
+        "@graph": [
+            {"@type": "AboutPage", "url": f"{SITE_URL}/about/", "name": f"About {SITE_NAME}",
+             "description": desc, "inLanguage": "en"},
+            {"@type": "Person", "@id": f"{SITE_URL}/#kai", "name": AUTHOR,
+             "jobTitle": AUTHOR_ROLE, "url": f"{SITE_URL}/about/",
+             "image": f"{SITE_URL}/{AUTHOR_PHOTO}", "sameAs": [INSTAGRAM],
+             "worksFor": {"@type": "Organization", "name": SITE_NAME, "url": SITE_URL},
+             "homeLocation": {"@type": "Place", "name": "Bali, Indonesia"},
+             "knowsAbout": ["Indonesian property law", "Bali real estate", "Leasehold",
+                            "Hak Pakai", "HGB", "PT PMA", "Indonesian visas",
+                            "Zoning and RDTR", "PBG and SLF permits"]},
+            {"@type": "Organization", "@id": f"{SITE_URL}/#org", "name": SITE_NAME,
+             "url": SITE_URL, "logo": f"{SITE_URL}/icon-512.png",
+             "description": TAGLINE, "sameAs": [INSTAGRAM],
+             "founder": {"@id": f"{SITE_URL}/#kai"},
+             "areaServed": {"@type": "Place", "name": "Bali, Indonesia"}},
+        ],
+    })
+    return f"""{head(f"About {SITE_NAME} — who writes this", desc, "/about/")}
+<script type="application/ld+json">{schema}</script>
+{nav()}
+<main class="wrap article">
+<p class="eyebrow">About</p>
+<h1>Who writes this</h1>
+<p class="standfirst">{desc}</p>
+
+<div class="who who-about">
+{portrait("who-photo")}
+<div>
+<h2 class="who-h">{AUTHOR}</h2>
+<p class="who-b">{AUTHOR_ROLE}, based in Bali. I advise foreign buyers on property here — what can actually be owned, what can legally be built and rented, and which structures fall apart when someone looks at them properly.</p>
+<a class="ig-link who-ig" href="{INSTAGRAM}" rel="me">{ig_logo("ig")}<span>@balioffscript</span></a>
+</div>
+</div>
+
+<div class="prose">
+<h2>Why this site exists</h2>
+<p>Most Bali property information is published by people selling Bali property. That is not a conspiracy, it is just an incentive — and it means the honest answers to the hardest questions tend not to get written down.</p>
+<p>Foreigners cannot own freehold land in Indonesia. Nominee arrangements, still the most commonly sold structure on the island, have been void since 1960 and criminal in Bali since February 2026. Advertised rental yields are gross figures that ignore platform commission, regional tax, management, staffing and — on a lease — the fact that the asset expires. None of that is secret. It is simply inconvenient to the sale.</p>
+<p>This site publishes it anyway.</p>
+
+<h2>How these pages are written</h2>
+<ul>
+<li>Every page cites the regulation it rests on, by number, where one exists</li>
+<li>Every page carries the date it was last checked, and that date is kept honest</li>
+<li>Where the rules are ambiguous, recently changed, or applied differently between regencies, the page says so instead of picking the convenient reading</li>
+<li>Where a figure is commonly cited but subject to revision, it is presented that way rather than as settled fact</li>
+<li>Nothing here is framed as a workaround for foreign ownership restrictions</li>
+</ul>
+
+<h2>What this is not</h2>
+<p>It is not legal advice, tax advice, or financial advice, and reading it does not create an adviser relationship. Indonesian regulations change often and are administered inconsistently between regencies and between individual offices. Before you sign anything or transfer any money, verify it with your own licensed Indonesian notary or PPAT, your own lawyer, and your own registered tax consultant — not the seller's. The <a href="{BASE}/disclaimer/">full disclaimer is here</a>.</p>
+<p>I am also not a neutral party. I advise on property in Bali, which is how I know what goes wrong. If a page tells you a deal looks bad, that is not a sales technique — I would rather you walked away from a bad one and trusted the next thing I told you.</p>
+
+<h2>If you have a specific deal</h2>
+<p>Send it to me. Location, title type, the zoning, and any permits you have been shown — the <a href="{BASE}/check/">intake list is here</a>. I will tell you which link in the chain breaks first. There is no charge for that and I am not selling you the property.</p>
+</div>
+
+{cta("Got a specific situation?",
+     "Send me the details — location, title type, zoning, and whatever permits you've been shown. I'll tell you what I'd check first.",
+     "Ask on Instagram")}
+</main>
+{footer()}"""
 
 
 def check_page():
@@ -886,6 +961,7 @@ def main():
 
     write("/", home(pages))
     write("/calculator/", calculator())
+    write("/about/", about_page())
     write("/check/", check_page())
     write("/search/", search_page())
     write("/disclaimer/", simple("disclaimer", "Disclaimer", DISCLAIMER))
@@ -900,7 +976,7 @@ def main():
     } for p in pages]
     open(os.path.join(OUT, "search-index.json"), "w", encoding="utf-8").write(json.dumps(index))
 
-    urls = ["/", "/calculator/", "/check/", "/search/", "/checklist/", "/disclaimer/"] + [f"/{k}/" for k in CATEGORIES] + \
+    urls = ["/", "/about/", "/calculator/", "/check/", "/search/", "/checklist/", "/disclaimer/"] + [f"/{k}/" for k in CATEGORIES] + \
            [f'/{p["category"]}/{p["slug"]}/' for p in pages]
     sm = "".join(f"<url><loc>{SITE_URL}{u}</loc></url>" for u in urls)
     open(os.path.join(OUT, "sitemap.xml"), "w", encoding="utf-8").write(
