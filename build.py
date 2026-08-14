@@ -624,6 +624,46 @@ def cta(kicker="Got a specific situation?",
 
 # ---------------------------------------------------------------- pages
 
+
+def read_time(body):
+    """Rough minutes at 210 wpm. Setting the expectation up front measurably
+    reduces people bouncing off a long page."""
+    words = len(re.sub(r"[^\w\s]", " ", body).split())
+    return max(1, round(words / 210))
+
+
+def next_up(m, pages):
+    """One strong recommendation beats a list of five. Next in the same
+    section by order, wrapping round at the end."""
+    sect = [p for p in pages if p["category"] == m["category"]]
+    if len(sect) < 2:
+        sect = pages
+    i = next((n for n, p in enumerate(sect) if p["slug"] == m["slug"]), 0)
+    return sect[(i + 1) % len(sect)]
+
+
+def onward(m, pages):
+    nxt = next_up(m, pages)
+    cat = CATEGORIES[nxt["category"]][0]
+    others = [p for p in pages
+              if p["category"] == m["category"]
+              and p["slug"] not in (m["slug"], nxt["slug"])][:5]
+    more = "".join(
+        f'<li><a href="{BASE}/{p["category"]}/{p["slug"]}/">{p["question"]}</a></li>'
+        for p in others
+    )
+    more_block = (f'<div class="on-more"><p class="on-more-h">More in '
+                  f'{CATEGORIES[m["category"]][0]}</p><ul>{more}</ul></div>') if more else ""
+    return f"""<section class="onward">
+<a class="on-next" href="{BASE}/{nxt["category"]}/{nxt["slug"]}/">
+<span class="on-k">Read this next &middot; {cat}</span>
+<span class="on-h">{nxt["question"]}</span>
+<span class="on-b">{nxt["summary"]}</span>
+</a>
+{more_block}
+</section>"""
+
+
 def article(m, siblings):
     cat_name = CATEGORIES[m["category"]][0]
     path = f'/{m["category"]}/{m["slug"]}/'
@@ -675,17 +715,14 @@ def article(m, siblings):
 <script type="application/ld+json">{schema}</script>
 {nav(m["category"])}
 <main class="wrap article">
-<p class="eyebrow"><a href="{BASE}/{m['category']}/">{cat_name}</a></p>
+<p class="eyebrow"><a href="{BASE}/{m['category']}/">{cat_name}</a><span class="rt">{read_time(m["body"])} min read</span></p>
 <h1>{m["question"]}</h1>
 <p class="standfirst">{m["summary"]}</p>
 <div class="prose">{md(m["body"])}</div>
 {map_widget(focus=m["slug"], compact=True) if m["category"] == "areas" and any(a["slug"] == m["slug"] for a in MAP_AREAS) else ""}
 {reel(m.get("reel", ""))}
 {cta()}
-<section class="related">
-<h2>Related</h2>
-<ul>{related}</ul>
-</section>
+{onward(m, ALL_PAGES)}
 </main>
 {footer(f'<script src="{BASE}/map.js" defer></script>') if m["category"] == "areas" else footer()}"""
 
@@ -839,12 +876,12 @@ def about_page():
 <p>The <a href="{BASE}/calculator/">return calculator</a> is the clearest example. It is built to show what a property actually returns after every cost, including the lease amortisation that turns an advertised 12% into something very different. An adviser trying to sell you a villa would not publish that tool.</p>
 
 <h2>How I work</h2>
-<p>Send me a deal and I will tell you which link in the chain breaks first — the zoning, the licence, the lease term, or the numbers. The <a href="{BASE}/check/">intake list is here</a>. There is no charge for a first look and I am not selling you the property.</p>
-<p>The most valuable thing I can tell a client is usually "don't buy this one". If an adviser has never said that to you, you are talking to a salesperson.</p>
+<p>Send me a deal and I will tell you which link in the chain breaks first — the zoning, the licence, the lease term, or the numbers. The <a href="{BASE}/check/">intake list is here</a>. A first look costs you nothing.</p>
+<p>The most useful thing I can tell someone is often &ldquo;not this one&rdquo;. A deal that cannot survive being checked properly is not a deal worth doing, whoever is selling it.</p>
 
 <h2>What this is not</h2>
 <p>It is not legal advice, tax advice, or financial advice, and reading it does not create an adviser relationship. Indonesian regulations change often and are administered inconsistently between regencies and between individual offices. Before you sign anything or transfer any money, verify it with your own licensed Indonesian notary or PPAT, your own lawyer, and your own registered tax consultant — not the seller's. The <a href="{BASE}/disclaimer/">full disclaimer is here</a>.</p>
-<p>I am also not a neutral party. I work in property in Bali, which is how I know what goes wrong.</p>
+<p>I work in Bali property, which is how I know what goes wrong. That also means I am not a neutral party — so check what I tell you against your own notary, lawyer and tax consultant, exactly as you would with anyone else in this market.</p>
 </div>
 
 {cta("Got a specific situation?",
@@ -888,7 +925,7 @@ def check_page():
 </div>
 
 {cta("Send me the file.",
-     "Location, title type, zoning, and any permits you've been shown. I'll tell you which link in the chain breaks, and what it would take to fix it. No charge, and I'm not selling you the property.",
+     "Location, title type, zoning, and any permits you've been shown. I'll tell you which link in the chain breaks, and what it would take to fix it. ",
      "Send it on Instagram")}
 </main>
 {footer()}"""
@@ -929,9 +966,9 @@ def home(pages):
 <main>
 <section class="hero-split">
 <div class="hero-copy">
-<h1 class="hero-h">You saw the reel.<br><span>This is the part that takes longer.</span></h1>
-<p class="hero-sub">Everything I get asked about buying, building and renting in Bali — what a certificate actually gives you, what you can legally do with the land, and what the numbers look like once the real costs are in.</p>
-<p class="hero-note">No sales pitch. I&rsquo;m not selling you the property.</p>
+<h1 class="hero-h">Send me the deal<br><span>before you sign it.</span></h1>
+<p class="hero-sub">I work in Bali property. Send me what you&rsquo;re looking at — the location, the title, the numbers — and I&rsquo;ll tell you what I&rsquo;d check first, and what usually goes wrong with deals like it.</p>
+<p class="hero-note">Everything on this site is what I get asked most.</p>
 <div class="hero-acts">
 <a class="lnk lnk-solid" href="#tool">Work out the real return</a>
 <a class="lnk" href="{BASE}/check/">Send me a deal</a>
@@ -964,12 +1001,6 @@ def home(pages):
 </div>
 </section>
 
-<section class="wrap sg-wrap">
-<h2 class="sec-h">Explore everything</h2>
-<p class="sg-lede">Eight sections, {len(pages)} answers — written from the regulations rather than from the sales pitch.</p>
-{section_grid(pages)}
-<p class="sg-all"><a href="{BASE}/all/">See the full index &rarr;</a></p>
-</section>
 <section class="wrap">
 <h2 class="sec-h">Start here</h2>
 <ul class="cards">{recent}</ul>
@@ -1301,7 +1332,7 @@ def calculator():
 <p>Capital appreciation, currency movement, financing costs, and the risk that the property cannot legally be operated as short-term accommodation at all. That last one is not a rounding error — <a href="{BASE}/company/pt-pma-kbli-closure-bali/">Bali closed the villa and homestay business classifications to new foreign-owned companies in July 2026</a>, and zoning determines whether nightly rental is permitted on the plot before any of these numbers matter.</p>
 </div>
 {cta("Send me the seller's projection.",
-     "If you have a yield sheet from an agent or developer, send it to me with the location and the title type. I'll tell you which assumptions break first — the occupancy, the lease term, the licence, or the zoning. No charge, and no pitch.",
+     "If you have a yield sheet from an agent or developer, send it to me with the location and the title type. I'll tell you which assumptions break first — the occupancy, the lease term, the licence, or the zoning. ",
      "Send it on Instagram")}
 </main>
 {footer(f'<script src="{BASE}/calc.js" defer></script>')}"""

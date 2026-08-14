@@ -27,6 +27,24 @@
     targets.forEach(function (el) { io.observe(el); });
   }
 
+  // Reading progress on article pages. Cheap, and it measurably increases
+  // how far people get down a long page.
+  var prose = document.querySelector(".article .prose");
+  if (prose && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    var bar = document.createElement("div");
+    bar.className = "progress";
+    document.body.appendChild(bar);
+    var tick = function () {
+      var r = prose.getBoundingClientRect();
+      var total = r.height - window.innerHeight;
+      var done = total > 0 ? Math.min(1, Math.max(0, -r.top / total)) : 0;
+      bar.style.width = (done * 100).toFixed(1) + "%";
+    };
+    window.addEventListener("scroll", tick, { passive: true });
+    window.addEventListener("resize", tick);
+    tick();
+  }
+
   var input = document.getElementById("q");
   if (!input) return;
 
