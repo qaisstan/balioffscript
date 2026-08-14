@@ -582,20 +582,16 @@ def footer(extra=""):
 
 
 def stamp(m):
-    """The endorsement block — the signature element. Modelled on the
-    validation panel stamped on the back of an Indonesian land certificate."""
-    risk = m.get("risk", "info")
-    rows = []
+    """Source note at the foot of the article. The regulation and the date are
+    what let a reader check the page rather than trust it, so they stay — but
+    they belong after the answer, not in front of it."""
+    bits = []
     if m.get("regulation"):
-        rows.append(("Legal basis", f'<code>{m["regulation"]}</code>'))
+        bits.append(f'<span class="sn-i"><em>Legal basis</em><code>{m["regulation"]}</code></span>')
     if m.get("applies"):
-        rows.append(("Applies to", m["applies"]))
-    rows.append(("Verified", m.get("verified", str(date.today()))))
-    body = "".join(f"<dt>{k}</dt><dd>{v}</dd>" for k, v in rows)
-    return f"""<aside class="stamp stamp-{risk}">
-<span class="stamp-flag">{RISK_LABELS.get(risk, "Reference")}</span>
-<dl>{body}</dl>
-</aside>"""
+        bits.append(f'<span class="sn-i"><em>Applies to</em>{m["applies"]}</span>')
+    bits.append(f'<span class="sn-i"><em>Last checked</em>{m.get("verified", str(date.today()))}</span>')
+    return f'<aside class="sn">{"".join(bits)}</aside>'
 
 
 def reel(url):
@@ -701,8 +697,8 @@ def article(m, siblings):
 <p class="eyebrow"><a href="{BASE}/{m['category']}/">{cat_name}</a></p>
 <h1>{m["question"]}</h1>
 <p class="standfirst">{m["summary"]}</p>
-{stamp(m)}
 <div class="prose">{md(m["body"])}</div>
+{stamp(m)}
 {map_widget(focus=m["slug"], compact=True) if m["category"] == "areas" and any(a["slug"] == m["slug"] for a in MAP_AREAS) else ""}
 {reel(m.get("reel", ""))}
 {cta()}

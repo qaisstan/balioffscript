@@ -306,33 +306,20 @@ code { font-family: var(--mono); font-size: 0.875em; background: var(--paper-2);
 .card a:hover h3 { color: var(--accent); }
 .card p { margin: 0; font-size: 0.9375rem; color: var(--slate); }
 
-/* ---------------------------------------------------------- the stamp */
+/* ------------------------------------------------------ source note */
 
-.stamp {
-  max-width: var(--measure);
-  border: 1px solid var(--rule-2);
-  border-left: 3px solid var(--slate);
-  background: var(--paper-2);
-  padding: 1.1rem 1.25rem 1rem;
-  margin: 0 0 2.5rem;
+.sn {
+  max-width: var(--measure); margin: 2.5rem 0 0; padding-top: 1rem;
+  border-top: 1px solid var(--rule);
+  display: flex; flex-wrap: wrap; gap: 0.35rem 2rem;
 }
-.stamp-critical { border-left-color: var(--seal); }
-.stamp-high { border-left-color: #7a3a3a; }
-.stamp-medium { border-left-color: var(--accent); }
-.stamp-info { border-left-color: var(--verify); }
-
-.stamp-flag {
-  display: inline-block;
-  font-family: var(--mono); font-size: 0.6875rem; letter-spacing: 0.14em;
-  text-transform: uppercase; color: var(--slate);
-  margin-bottom: 0.75rem;
+.sn-i { font-size: 0.75rem; color: var(--slate); line-height: 1.5; }
+.sn-i em {
+  display: block; font-style: normal; font-family: var(--mono);
+  font-size: 0.5625rem; letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--rule-2); margin-bottom: 0.1rem;
 }
-.stamp-critical .stamp-flag { color: var(--seal); }
-
-.stamp dl { display: grid; grid-template-columns: auto 1fr; gap: 0.35rem 1rem; margin: 0; font-size: 0.8125rem; }
-.stamp dt { font-family: var(--mono); font-size: 0.6875rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--slate); padding-top: 0.15rem; }
-.stamp dd { margin: 0; }
-.stamp code { background: transparent; padding: 0; font-size: 0.8125rem; }
+.sn-i code { background: none; padding: 0; font-size: 0.75rem; color: var(--slate); }
 
 /* ---------------------------------------------------------- prose */
 
