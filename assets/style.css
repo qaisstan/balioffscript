@@ -57,7 +57,10 @@ code { font-family: var(--mono); font-size: 0.875em; background: var(--paper-2);
 }
 .wordmark span { color: var(--seal); }
 
-.nav { display: flex; gap: 1.35rem; flex-wrap: wrap; margin-left: auto; }
+.nav { margin-left: auto; }
+/* Spacing lives on the inner wrapper, which is what actually contains the
+   links — putting it on .nav leaves them jammed together. */
+.nav-inner { display: flex; gap: 1.35rem; flex-wrap: wrap; align-items: center; }
 
 .nav a {
   font-size: 0.8125rem;
@@ -75,12 +78,20 @@ code { font-family: var(--mono); font-size: 0.875em; background: var(--paper-2);
 .menu-btn {
   display: none;
   margin-left: auto;
-  background: none;
-  border: 1px solid var(--rule-2);
+  appearance: none;
+  -webkit-appearance: none;
+  background: var(--paper);
+  /* Without an explicit colour iOS renders button text in system blue. */
+  color: var(--ink);
+  border: 1px solid var(--ink);
   border-radius: 2px;
-  font: 500 0.8125rem var(--body);
-  padding: 0.4rem 0.7rem;
+  font: 500 0.75rem/1 var(--mono);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.6rem 0.85rem;
+  min-height: 2.5rem;
   cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
 }
 
 /* ---------------------------------------------------------- hero */
@@ -523,13 +534,15 @@ tbody tr:last-child td { border-bottom: 0; }
   .tool-h { font-size: 1.375rem; }
 
   .menu-btn { display: block; }
-  /* Animated drawer: height transition on a grid row avoids a fixed max-height. */
+  /* max-height rather than grid 0fr: WKWebView (Instagram's in-app browser)
+     does not reliably collapse a 0fr row, which left the menu always open. */
   .nav {
-    display: grid; grid-template-rows: 0fr; width: 100%;
-    overflow: hidden; transition: grid-template-rows 0.28s ease;
+    display: block; width: 100%; margin-left: 0;
+    max-height: 0; overflow: hidden; visibility: hidden;
+    transition: max-height 0.3s ease, visibility 0s linear 0.3s;
   }
-  .nav-inner { min-height: 0; overflow: hidden; display: flex; flex-direction: column; }
-  .nav.open { grid-template-rows: 1fr; }
+  .nav.open { max-height: 32rem; visibility: visible; transition: max-height 0.3s ease, visibility 0s; }
+  .nav-inner { display: flex; flex-direction: column; gap: 0; padding-bottom: 0.5rem; }
   .nav a {
     border-bottom: 1px solid var(--rule); padding-block: 0.8rem;
     opacity: 0; transform: translateY(-4px);
