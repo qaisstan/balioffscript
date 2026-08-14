@@ -534,7 +534,7 @@ def nav(active=""):
 
     tools = [
         ("Return calculator", "/calculator/", "What a property really returns after every cost"),
-        ("Land budget", "/areas/#land", "What your budget buys, area by area"),
+        ("Area map", "/areas/#map", "What governs each area, regency by regency"),
         ("What I&rsquo;d check first", "/check/", "The intake list for a live deal"),
         ("Due diligence checklist", "/checklist/", "Print it and take it to viewings"),
         ("About", "/about/", "Who writes this, and why"),
@@ -749,11 +749,11 @@ def category(key, pages):
 <p class="standfirst">{blurb}</p>
 <div class="prose section-intro"><p>{intro}</p>
 {DIAGRAMS[CATEGORY_DIAGRAM[key]]() if CATEGORY_DIAGRAM.get(key) else ""}</div>
-{land_widget() if key == "areas" else ""}
+{map_widget() if key == "areas" else ""}
 <h2 class="sec-h">Every answer in this section</h2>
 <ul class="cards">{items}</ul>
 </main>
-{footer(f'<script src="{BASE}/land.js" defer></script>') if key == "areas" else footer()}"""
+{footer(f'<script src="{BASE}/map.js" defer></script>') if key == "areas" else footer()}"""
 
 
 CHECK_ITEMS = [
@@ -1111,31 +1111,102 @@ def all_page(pages):
 <div class="ax-tools">
 <a class="lnk lnk-solid" href="{BASE}/calculator/">Return calculator</a>
 <a class="lnk" href="{BASE}/check/">What I&rsquo;d check first</a>
-<a class="lnk" href="{BASE}/areas/#land">Land budget</a>
+<a class="lnk" href="{BASE}/areas/#map">Area map</a>
 </div>
 {blocks}
 </main>
 {footer()}"""
 
 
-def land_widget():
-    """Budget explorer for the areas section — the trade-off between price and
-    plot size is very hard to feel from a table."""
-    return """<section class="lx" id="land">
-<div class="lx-top">
-<p class="kicker">Land budget</p>
-<h2 class="lx-h">What does your budget actually buy?</h2>
-<p class="lx-sub">Drag your land budget. Bars show the plot size that money leases in each area, from the top of the local price range to the bottom.</p>
-<label class="lx-ctl">
-<span class="lx-lab">Budget</span>
-<input type="range" id="land-budget" min="50000" max="1000000" step="10000" value="300000" aria-label="Land budget in US dollars">
-<output class="lx-val" id="land-read">$300,000</output>
-</label>
+# Areas plotted on a schematic Bali. Not a survey map — the coastline is
+# stylised — but the relative positions, regencies and constraints are real.
+MAP_AREAS = [
+    dict(id="pererenan", n="Pererenan &amp; Cemagi", x=428, y=448, r="Badung",
+         price="USD 55–75k / are", pbg="5–6 months",
+         watch="More green zone than Canggu — check LP2B and KDB before the view",
+         url="/areas/pererenan-cemagi-property/"),
+    dict(id="canggu", n="Canggu &amp; Berawa", x=468, y=454, r="Badung",
+         price="~USD 82.5k / are", pbg="5–6 months",
+         watch="Tightest short-term rental enforcement on the island",
+         url="/areas/canggu-berawa-property/"),
+    dict(id="seminyak", n="Seminyak &amp; Umalas", x=518, y=468, r="Badung",
+         price="Near the ceiling", pbg="5–6 months",
+         watch="Mature market — stable cashflow, modest appreciation",
+         url="/areas/where-to-buy-bali/"),
+    dict(id="uluwatu", n="Uluwatu &amp; the Bukit", x=528, y=554, r="Badung",
+         price="USD 25–60k / are", pbg="5–6 months",
+         watch="Cliff and beach setbacks. Bingin was demolished in 2025",
+         url="/areas/uluwatu-bukit-property/"),
+    dict(id="sanur", n="Sanur", x=652, y=482, r="Denpasar",
+         price="Best value, established", pbg="3–5 months",
+         watch="Fastest permits in Bali. Lower rates than the west coast",
+         url="/areas/sanur-denpasar-property/"),
+    dict(id="ubud", n="Ubud &amp; Tegallalang", x=612, y=400, r="Gianyar",
+         price="Good land value", pbg="4–5 months",
+         watch="Temple buffers and very small buildable ratios",
+         url="/areas/ubud-gianyar-property/"),
+    dict(id="tabanan", n="Tabanan &amp; Tanah Lot", x=348, y=436, r="Tabanan",
+         price="30–50% below Canggu", pbg="4–5 months",
+         watch="LP2B and coastal setback. Hardest place to licence a rental",
+         url="/areas/tabanan-west-coast-property/"),
+    dict(id="penida", n="Nusa Penida", x=794, y=530, r="Klungkung",
+         price="Frontier pricing", pbg="5–6 months",
+         watch="Water supply is the binding constraint, not the permit",
+         url="/areas/nusa-penida-property/"),
+]
+
+
+def map_widget():
+    """Hover or tap an area to see what actually governs it there."""
+    pins = "".join(
+        f'<g class="mp-pin" data-id="{a["id"]}" tabindex="0" role="button" '
+        f'aria-label="{a["n"]}">'
+        f'<circle class="mp-hit" cx="{a["x"]}" cy="{a["y"]}" r="26"/>'
+        f'<circle class="mp-dot" cx="{a["x"]}" cy="{a["y"]}" r="7"/>'
+        f'<circle class="mp-ring" cx="{a["x"]}" cy="{a["y"]}" r="13"/>'
+        f'<text class="mp-lab" x="{a["x"]}" y="{a["y"] - 20}">{a["n"]}</text>'
+        f"</g>"
+        for a in MAP_AREAS
+    )
+    data = json.dumps({a["id"]: {k: a[k] for k in ("n", "r", "price", "pbg", "watch", "url")}
+                       for a in MAP_AREAS})
+    return f"""<section class="mp" id="map">
+<div class="mp-top">
+<h2 class="mp-h">Where things actually differ</h2>
+<p class="mp-sub">Every regency runs its own spatial rules and its own permit queue. Hover an area &mdash; or tap on a phone &mdash; for what governs it there.</p>
 </div>
-<div class="lx-rows" id="land-rows"></div>
-<p class="lx-msg" id="land-msg"></p>
-<p class="lx-fine">Leasehold, per are (100&nbsp;m&sup2;), for the term. Prices move street by street and these are indicative starting points, not valuations. Setbacks, KDB and KLB reduce what you can actually build on any of it.</p>
+<div class="mp-stage">
+<svg viewBox="0 0 1000 620" class="mp-svg" role="img" aria-label="Schematic map of Bali showing investment areas">
+<path class="mp-land" d="M52 330 C74 312 96 300 122 292 C186 268 318 236 400 224
+ C500 210 610 206 700 214 C782 222 852 244 900 268 C932 284 948 292 946 302
+ C944 320 936 336 930 348 C914 372 900 382 886 392 C858 410 838 418 820 424
+ C788 436 768 440 752 444 C724 452 710 452 700 456 C680 462 672 466 664 470
+ C654 476 650 480 648 486 C644 494 638 498 628 502 C620 508 616 512 612 516
+ C606 526 604 536 600 546 C594 560 586 568 576 574 C560 584 542 588 528 586
+ C508 582 494 576 486 566 C474 552 466 544 468 534 C470 520 478 512 486 508
+ C498 500 508 498 516 496 C530 492 540 492 546 490 C542 484 538 480 536 476
+ C526 470 516 468 508 466 C488 460 474 458 462 456 C428 450 408 448 392 444
+ C356 438 336 436 316 434 C282 426 256 420 232 414 C196 400 172 390 150 380
+ C114 362 96 350 86 350 C68 342 58 336 52 330 Z"/>
+<path class="mp-land mp-isle" d="M754 512 C776 500 812 500 832 512 C848 522 848 540 832 550
+ C812 562 776 562 756 550 C740 540 740 522 754 512 Z"/>
+<g class="mp-regency">
+<text x="196" y="342">JEMBRANA</text><text x="486" y="286">BULELENG</text>
+<text x="336" y="392">TABANAN</text><text x="506" y="428">BADUNG</text>
+<text x="654" y="452">DENPASAR</text><text x="616" y="378">GIANYAR</text>
+<text x="676" y="324">BANGLI</text><text x="838" y="330">KARANGASEM</text>
+<text x="726" y="424">KLUNGKUNG</text>
+</g>
+{pins}
+</svg>
+<aside class="mp-card" id="mp-card" aria-live="polite">
+<p class="mp-empty">Pick an area.</p>
+</aside>
+</div>
+<p class="mp-fine">Schematic, not to scale. Land prices are leasehold per are (100&nbsp;m&sup2;) and move street by street. Permit figures are PBG from empty land.</p>
+<script>window.MAP_DATA={data}</script>
 </section>"""
+
 
 def calc_widget():
     """The interactive model. Shared by the home page and the tool page, so the
