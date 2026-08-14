@@ -35,7 +35,7 @@ SITE_NAME = "Bali Off Script"
 BASE = "/balioffscript"
 SITE_URL = "https://qaisstan.github.io" + BASE
 
-INSTAGRAM = "https://instagram.com/baliofscript"
+INSTAGRAM = "https://www.instagram.com/balioffscript/"
 TAGLINE = "Straight answers on buying, building and living in Bali."
 
 CATEGORIES = {
