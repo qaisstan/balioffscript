@@ -197,6 +197,12 @@ def md(text):
         if not s:
             close()
             continue
+        if s.startswith("[[diagram:") and s.endswith("]]"):
+            close()
+            key = s[10:-2].strip()
+            if key in DIAGRAMS:
+                html.append(DIAGRAMS[key]())
+            continue
         if s.startswith("| "):
             cells = [c.strip() for c in s.strip("|").split("|")]
             if set("".join(cells)) <= set("-: "):
@@ -233,6 +239,141 @@ def md(text):
         html.append(f"<p>{inline(s)}</p>")
     close()
     return "\n".join(html)
+
+
+
+# ---------------------------------------------------------------- diagrams
+#
+# Inline SVG, no libraries and no image files. Drop one into any page body
+# with a line containing only:  [[diagram:zoning]]
+# Colours come from the stylesheet so they follow the section accent.
+
+def _svg(vb, inner, cap=""):
+    figcap = f'<figcaption class="dg-cap">{cap}</figcaption>' if cap else ""
+    return (f'<figure class="dg"><svg viewBox="{vb}" class="dg-svg" role="img" '
+            f'preserveAspectRatio="xMidYMid meet">{inner}</svg>{figcap}</figure>')
+
+
+def dg_zoning():
+    """Zone colour is where every Bali conversation starts and where most of
+    them stop. The colours here are the actual planning colours."""
+    cols = [
+        ("Pink", "#d98b9a", "Tourism", ["Accommodation is the", "intended use", "Still confirm the exact", "permitted activity"]),
+        ("Yellow", "#dcc98a", "Residential", ["Living, not operating", "Some conditional uses", "Not a green light for", "nightly rental"]),
+        ("Green", "#93b08f", "Agricultural", ["Development heavily", "restricted", "LP2B may prohibit", "conversion entirely"]),
+    ]
+    out, x = "", 0
+    for name, hexc, sub, lines in cols:
+        out += f'<rect x="{x}" y="0" width="196" height="74" fill="{hexc}"/>'
+        out += f'<text x="{x+16}" y="34" class="dg-t-lg">{name}</text>'
+        out += f'<text x="{x+16}" y="55" class="dg-t-sm-d">{sub}</text>'
+        out += f'<rect x="{x}" y="74" width="196" height="118" class="dg-panel"/>'
+        for i, ln in enumerate(lines):
+            out += f'<text x="{x+16}" y="{100+i*20}" class="dg-t">{ln}</text>'
+        out += f'<line x1="{x}" y1="0" x2="{x}" y2="192" class="dg-div"/>'
+        x += 200
+    return _svg("0 0 596 192", out,
+                "Zone colour is the start of the question, not the answer. The parcel's RDTR entry decides.")
+
+
+def dg_kdb():
+    """The number that turns a legal plot into an unusable one."""
+    o = ""
+    # Green zone plot: 500 m2, KDB 10%
+    o += '<text x="0" y="14" class="dg-t-lab">GREEN ZONE &middot; 500 m&sup2; &middot; KDB 10%</text>'
+    o += '<rect x="0" y="26" width="180" height="180" class="dg-plot"/>'
+    o += '<rect x="60" y="86" width="57" height="57" class="dg-fill"/>'
+    o += '<text x="88" y="119" class="dg-t-c">50 m&sup2;</text>'
+    o += '<text x="0" y="226" class="dg-t-sm">A bungalow. Not a rental business.</text>'
+    # Pink zone plot: 2000 m2, KDB 60%
+    o += '<text x="260" y="14" class="dg-t-lab">PINK ZONE &middot; 2,000 m&sup2; &middot; KDB 60%</text>'
+    o += '<rect x="260" y="26" width="180" height="180" class="dg-plot"/>'
+    o += '<rect x="278" y="44" width="139" height="139" class="dg-fill-2"/>'
+    o += '<text x="348" y="119" class="dg-t-c">1,200 m&sup2;</text>'
+    o += '<text x="260" y="226" class="dg-t-sm">Same rules. Entirely different project.</text>'
+    return _svg("0 0 460 240", o,
+                "KDB caps the footprint as a share of the plot. Zoning says whether you may build; KDB says how much.")
+
+
+def dg_terms():
+    """Every right except freehold runs out. Drawn to scale against 100 years."""
+    rows = [
+        ("Hak Milik", [("Permanent", 100, "dg-b-perm")], "Closed to foreigners"),
+        ("HGB / Hak Pakai", [("30", 30, "dg-b-1"), ("+20", 20, "dg-b-2"), ("+30", 30, "dg-b-3")], "Each step needs approval"),
+        ("HGU", [("35", 35, "dg-b-1"), ("+25", 25, "dg-b-2"), ("+35", 35, "dg-b-3")], "Minimum 5 hectares"),
+        ("Lease", [("20-30 typical", 27, "dg-b-1"), ("+ extension", 25, "dg-b-2")], "Only if the clause is enforceable"),
+    ]
+    o, y = "", 0
+    SCALE = 4.4
+    for label, segs, note in rows:
+        o += f'<text x="0" y="{y+15}" class="dg-t-lab">{label.upper()}</text>'
+        x = 0
+        for txt, yrs, cls in segs:
+            w = yrs * SCALE
+            o += f'<rect x="{132+x}" y="{y+2}" width="{w-2}" height="20" class="{cls}"/>'
+            if w > 34:
+                o += f'<text x="{132+x+w/2}" y="{y+16}" class="dg-t-c-rev">{txt}</text>'
+            x += w
+        if label != "Hak Milik":
+            o += f'<line x1="{132+x}" y1="{y-2}" x2="{132+x}" y2="{y+26}" class="dg-stop"/>'
+        o += f'<text x="0" y="{y+33}" class="dg-t-note">{note}</text>'
+        y += 52
+    o += f'<line x1="132" y1="{y-8}" x2="{132+100*SCALE}" y2="{y-8}" class="dg-axis"/>'
+    for t in (0, 25, 50, 75, 100):
+        o += f'<text x="{132+t*SCALE}" y="{y+8}" class="dg-t-c-sm">{t}</text>'
+    o += f'<text x="{132+100*SCALE+16}" y="{y+8}" class="dg-t-sm">years</text>'
+    return _svg(f"0 0 620 {y+20}", o,
+                "The vertical marks are reversion. At that point the land and everything on it returns to the owner or the State.")
+
+
+def dg_pbg():
+    """Permit time by regency — the months nobody budgets for."""
+    rows = [("Denpasar", 3, 5), ("Gianyar", 4, 5), ("Tabanan", 4, 5), ("Badung", 5, 6), ("Klungkung", 5, 6)]
+    o, y = "", 0
+    SC = 62
+    for name, lo, hi in rows:
+        o += f'<text x="0" y="{y+15}" class="dg-t-lab">{name.upper()}</text>'
+        o += f'<rect x="108" y="{y+3}" width="{lo*SC}" height="18" class="dg-b-1"/>'
+        o += f'<rect x="{108+lo*SC}" y="{y+3}" width="{(hi-lo)*SC}" height="18" class="dg-b-2"/>'
+        o += f'<text x="{108+hi*SC+10}" y="{y+17}" class="dg-t-sm">{lo}&ndash;{hi} months</text>'
+        y += 30
+    o += f'<line x1="108" y1="{y+2}" x2="{108+6*SC}" y2="{y+2}" class="dg-axis"/>'
+    for m in range(0, 7):
+        o += f'<text x="{108+m*SC}" y="{y+18}" class="dg-t-c-sm">{m}</text>'
+    return _svg(f"0 0 560 {y+28}", o,
+                "PBG from empty land. Add 8&ndash;12 months where an existing building has to be legalised instead.")
+
+
+def dg_chain():
+    """One broken link invalidates everything downstream."""
+    steps = ["Land", "Owner", "Agreement", "Zoning", "Permitted use", "Classification", "PBG", "SLF", "Licence"]
+    o, x = "", 0
+    W, GAP = 58, 8
+    for i, st in enumerate(steps):
+        broken = st == "Classification"
+        cls = "dg-node-bad" if broken else "dg-node"
+        o += f'<rect x="{x}" y="14" width="{W}" height="38" class="{cls}"/>'
+        words = st.split(" ")
+        if len(words) == 1:
+            o += f'<text x="{x+W/2}" y="{37}" class="dg-t-c-xs">{st}</text>'
+        else:
+            o += f'<text x="{x+W/2}" y="{31}" class="dg-t-c-xs">{words[0]}</text>'
+            o += f'<text x="{x+W/2}" y="{43}" class="dg-t-c-xs">{words[1]}</text>'
+        if i < len(steps) - 1:
+            o += f'<line x1="{x+W}" y1="33" x2="{x+W+GAP}" y2="33" class="dg-axis"/>'
+        if broken:
+            o += f'<text x="{x+W/2}" y="8" class="dg-t-c-xs dg-warn">closed</text>'
+            o += f'<line x1="{x+W+2}" y1="20" x2="{x+W+6}" y2="46" class="dg-break"/>'
+        x += W + GAP
+    o += f'<text x="0" y="72" class="dg-t-sm">A break anywhere invalidates every step to its right.</text>'
+    return _svg(f"0 0 {x} 80", o,
+                "The order due diligence actually runs in. Most failed deals break at zoning or classification.")
+
+
+DIAGRAMS = {
+    "zoning": dg_zoning, "kdb": dg_kdb, "terms": dg_terms,
+    "pbg": dg_pbg, "chain": dg_chain,
+}
 
 
 # ---------------------------------------------------------------- chrome
@@ -506,10 +647,11 @@ def category(key, pages):
 <h1>{seo_title}</h1>
 <p class="standfirst">{blurb}</p>
 <div class="prose section-intro"><p>{intro}</p></div>
+{land_widget() if key == "areas" else ""}
 <h2 class="sec-h">Every answer in this section</h2>
 <ul class="cards">{items}</ul>
 </main>
-{footer()}"""
+{footer(f'<script src="{BASE}/land.js" defer></script>') if key == "areas" else footer()}"""
 
 
 CHECK_ITEMS = [
@@ -656,6 +798,8 @@ def check_page():
 <p>Below is what I go through. If you send me these, I can tell you where the problem is. If a seller becomes evasive about any single line, you have already learned something.</p>
 </div>
 
+{DIAGRAMS["chain"]()}
+
 {blocks}
 
 <div class="prose">
@@ -706,7 +850,6 @@ def home(pages):
 <main>
 <section class="hero-split">
 <div class="hero-copy">
-<p class="kicker">Independent property counsel &middot; Bali</p>
 <h1 class="hero-h">You cannot own land in Bali.<br><span>Three legal routes say otherwise.</span></h1>
 <p class="hero-sub">Leasehold, Hak Pakai, or HGB through a PT PMA. Everything else being sold to you is a nominee arrangement — void since 1960, and a criminal offence in Bali since February 2026.</p>
 <div class="hero-acts">
@@ -720,7 +863,7 @@ def home(pages):
 </div>
 <div class="hero-fig">
 <img src="{BASE}/kai-hero.jpg" width="726" height="969" alt="{AUTHOR}, {AUTHOR_ROLE}" fetchpriority="high">
-<figcaption class="hero-cap"><span>{AUTHOR}</span>{AUTHOR_ROLE}</figcaption>
+<figcaption class="hero-cap"><span>{AUTHOR}</span>Property adviser</figcaption>
 </div>
 </section>
 <section class="wrap tool-wrap" id="tool">
@@ -812,6 +955,26 @@ CALC_INTRO = ("Model what a Bali property actually returns: occupancy, platform 
               "amortisation nobody puts in the projection. Works for leasehold, HGB or "
               "freehold, and for nightly or long-term letting.")
 
+
+
+def land_widget():
+    """Budget explorer for the areas section — the trade-off between price and
+    plot size is very hard to feel from a table."""
+    return """<section class="lx" id="land">
+<div class="lx-top">
+<p class="kicker">Land budget</p>
+<h2 class="lx-h">What does your budget actually buy?</h2>
+<p class="lx-sub">Drag your land budget. Bars show the plot size that money leases in each area, from the top of the local price range to the bottom.</p>
+<label class="lx-ctl">
+<span class="lx-lab">Budget</span>
+<input type="range" id="land-budget" min="50000" max="1000000" step="10000" value="300000" aria-label="Land budget in US dollars">
+<output class="lx-val" id="land-read">$300,000</output>
+</label>
+</div>
+<div class="lx-rows" id="land-rows"></div>
+<p class="lx-msg" id="land-msg"></p>
+<p class="lx-fine">Leasehold, per are (100&nbsp;m&sup2;), for the term. Prices move street by street and these are indicative starting points, not valuations. Setbacks, KDB and KLB reduce what you can actually build on any of it.</p>
+</section>"""
 
 def calc_widget():
     """The interactive model. Shared by the home page and the tool page, so the

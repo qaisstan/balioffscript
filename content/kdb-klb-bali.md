@@ -11,6 +11,8 @@ verified: 2026-08-14
 
 Buyers check the zone colour and stop. The colour is the beginning of the question.
 
+[[diagram:kdb]]
+
 **KDB** — Koefisien Dasar Bangunan — caps your building footprint as a percentage of the land area.
 
 **KLB** — Koefisien Lantai Bangunan — caps total floor area across all storeys, as a ratio of land area.

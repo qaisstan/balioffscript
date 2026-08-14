@@ -11,6 +11,8 @@ verified: 2026-08-13
 
 Zoning is the single fastest way to lose money in Bali, because it is invisible on site. Two identical plots side by side can carry completely different rights.
 
+[[diagram:zoning]]
+
 ## The colours
 
 **Pink — tourism.** Hotels, villas, commercial accommodation. This is the only zone where a villa rental licence is obtainable.

@@ -47,6 +47,8 @@ It does not authorise a rental business. A residence and an accommodation busine
 
 ## The 80-year number
 
+[[diagram:terms]]
+
 You will hear "80 years" constantly. The framework is 30 years, plus up to 20 years extension, plus up to 30 years renewal.
 
 > Each step must be applied for, approved and paid for. It is a sequence of permissions, not a guaranteed eighty-year term. Diarise the expiry dates the day you buy.

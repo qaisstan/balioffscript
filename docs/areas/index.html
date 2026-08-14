@@ -42,6 +42,21 @@
 <h1>Where to buy in Bali, area by area</h1>
 <p class="standfirst">Land prices, demand and constraints, area by area.</p>
 <div class="prose section-intro"><p>Canggu has the liquidity and the strictest enforcement. The Bukit has the highest nightly rates and the setback rules that produced the 2025 Bingin demolitions. Sanur has the fastest permits on the island. Ubud has small buildable ratios and sacred-site buffers. Tabanan has the clearest appreciation story and the hardest route to a commercial accommodation licence. These pages cover what each area costs and the specific constraint that breaks deals there.</p></div>
+<section class="lx" id="land">
+<div class="lx-top">
+<p class="kicker">Land budget</p>
+<h2 class="lx-h">What does your budget actually buy?</h2>
+<p class="lx-sub">Drag your land budget. Bars show the plot size that money leases in each area, from the top of the local price range to the bottom.</p>
+<label class="lx-ctl">
+<span class="lx-lab">Budget</span>
+<input type="range" id="land-budget" min="50000" max="1000000" step="10000" value="300000" aria-label="Land budget in US dollars">
+<output class="lx-val" id="land-read">$300,000</output>
+</label>
+</div>
+<div class="lx-rows" id="land-rows"></div>
+<p class="lx-msg" id="land-msg"></p>
+<p class="lx-fine">Leasehold, per are (100&nbsp;m&sup2;), for the term. Prices move street by street and these are indicative starting points, not valuations. Setbacks, KDB and KLB reduce what you can actually build on any of it.</p>
+</section>
 <h2 class="sec-h">Every answer in this section</h2>
 <ul class="cards"><li class="card">
 <a href="/areas/where-to-buy-bali/">
@@ -99,7 +114,7 @@
 <div class="wrap foot-legal">
 <p>General information, not legal or tax advice. Indonesian regulations change often and are applied inconsistently between regencies. Verify anything here with a licensed Indonesian notary, lawyer or tax consultant before you act on it.</p>
 </div>
-<script src="/search.js" defer></script>
+<script src="/search.js" defer></script><script src="/land.js" defer></script>
 </footer>
 </body>
 </html>

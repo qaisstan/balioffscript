@@ -17,6 +17,8 @@ Everything a foreigner can hold — HGB, Hak Pakai, HGU, a lease — runs for a 
 
 ## The terms
 
+[[diagram:terms]]
+
 | Right | Structure | Total |
 | --- | --- | --- |
 | **HGB** on state land | 30 years + 20 extension + 30 renewal | up to 80 years |

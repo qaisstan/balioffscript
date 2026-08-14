@@ -33,6 +33,8 @@ Stage 2 is the gate. **PKKPR comes before everything** — without spatial suita
 
 ## Your regency decides months of this
 
+[[diagram:pbg]]
+
 | Regency | Time to PBG | Why |
 | --- | --- | --- |
 | **Denpasar** | 3–5 months | Best digital integration, mostly residential and small commercial |
