@@ -50,7 +50,7 @@ INSTAGRAM = "https://www.instagram.com/balioffscript/"
 # GSC_VERIFY: the token from Google Search Console's "HTML tag" verification
 #   method — the content="..." value only, not the whole tag. Search Console is
 #   the one that shows which search terms people found you with.
-GA4_ID = ""
+GA4_ID = "G-9LMCFLT4XX"
 GSC_VERIFY = ""
 
 AUTHOR = "Kai"
