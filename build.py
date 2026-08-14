@@ -966,12 +966,12 @@ def home(pages):
 <main>
 <section class="hero-split">
 <div class="hero-copy">
-<h1 class="hero-h">Send me the deal<br><span>before you sign it.</span></h1>
-<p class="hero-sub">I work in Bali property. Send me what you&rsquo;re looking at — the location, the title, the numbers — and I&rsquo;ll tell you what I&rsquo;d check first, and what usually goes wrong with deals like it.</p>
-<p class="hero-note">Everything on this site is what I get asked most.</p>
+<h1 class="hero-h">Know exactly what<br><span>you&rsquo;re buying in Bali.</span></h1>
+<p class="hero-sub">What a certificate actually gives you. What you can legally build and rent on the land. What a deal returns once every real cost is counted.</p>
+<p class="hero-note">Eyes on the ground in Bali. Message me before you sign anything.</p>
 <div class="hero-acts">
 <a class="lnk lnk-solid" href="#tool">Work out the real return</a>
-<a class="lnk" href="{BASE}/check/">Send me a deal</a>
+<a class="lnk" href="{BASE}/check/">Ask me about a deal</a>
 </div>
 <form class="hero-search" action="{BASE}/search/">
 <input type="search" name="q" placeholder="nominee, E33G, BPHTB, Pererenan…" aria-label="Search">
@@ -1119,7 +1119,7 @@ def all_page(pages):
 <p class="standfirst">{len(pages)} answers across eight sections, written from the regulations rather than from the sales pitch.</p>
 <div class="ax-tools">
 <a class="lnk lnk-solid" href="{BASE}/calculator/">Return calculator</a>
-<a class="lnk" href="{BASE}/check/">Send me a deal</a>
+<a class="lnk" href="{BASE}/check/">Ask me about a deal</a>
 <a class="lnk" href="{BASE}/areas/#map">Area map</a>
 </div>
 {blocks}
