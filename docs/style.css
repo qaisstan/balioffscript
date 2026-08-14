@@ -97,7 +97,9 @@ code { font-family: var(--mono); font-size: 0.875em; background: var(--paper-2);
 .nav-t.on::after { background: var(--accent); }
 
 .nav-drop {
-  position: absolute; top: 100%; left: -0.5rem; z-index: 60;
+  /* Anchored to the right so a panel near the edge of the bar cannot run off
+     the viewport, which is what happened when it opened leftward. */
+  position: absolute; top: 100%; right: 0; left: auto; z-index: 60;
   opacity: 0; visibility: hidden; transform: translateY(-4px);
   transition: opacity 0.16s ease, transform 0.16s ease, visibility 0s linear 0.16s;
 }
@@ -105,25 +107,28 @@ code { font-family: var(--mono); font-size: 0.875em; background: var(--paper-2);
   opacity: 1; visibility: visible; transform: none; transition-delay: 0s;
 }
 .nd-in {
-  display: flex; gap: 2.25rem; margin-top: 0;
+  display: flex; flex-direction: column;
+  width: max-content; max-width: min(24rem, calc(100vw - 3rem));
   background: var(--paper); border: 1px solid var(--rule);
   box-shadow: 0 14px 34px rgba(20, 24, 31, 0.09);
-  padding: 1.35rem 1.6rem; min-width: 20rem;
+  padding: 0.5rem;
 }
-.nd-col { min-width: 13rem; max-width: 17rem; }
-.nd-h {
-  display: block; font-family: var(--mono); font-size: 0.625rem;
-  letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent);
-  text-decoration: none; padding-bottom: 0.6rem; margin-bottom: 0.5rem;
-  border-bottom: 1px solid var(--rule);
+.nd-row {
+  display: block; text-decoration: none; padding: 0.7rem 0.8rem;
+  border-radius: 2px; transition: background 0.12s ease;
 }
-a.nd-h:hover { color: var(--ink); }
-.nd-list { display: flex; flex-direction: column; }
-.nd-list a {
-  font-size: 0.8125rem; line-height: 1.35; color: var(--slate);
-  text-decoration: none; padding: 0.42rem 0; border-bottom: 0;
+.nd-row:hover { background: var(--paper-2); }
+.nd-row-h {
+  display: flex; align-items: baseline; gap: 0.5rem;
+  font-family: var(--mono); font-size: 0.6875rem; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--accent); margin-bottom: 0.25rem;
 }
-.nd-list a:hover { color: var(--seal); }
+.nd-row-h em {
+  font-style: normal; font-size: 0.625rem; color: var(--slate);
+  margin-left: auto; letter-spacing: 0.06em;
+}
+.nd-row-b { display: block; font-size: 0.8125rem; line-height: 1.45; color: var(--slate); }
+
 .nav-search {
   font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.1em;
   text-transform: uppercase; color: var(--slate); text-decoration: none;
@@ -691,12 +696,10 @@ tbody tr:last-child td { border-bottom: 0; }
     transition: none;
   }
   .nd-in {
-    flex-direction: column; gap: 0; border: 0; box-shadow: none;
-    padding: 0.25rem 0 0.75rem; min-width: 0; background: none;
+    border: 0; box-shadow: none; width: auto; max-width: none;
+    padding: 0.25rem 0 0.75rem; background: none;
   }
-  .nd-col { min-width: 0; max-width: none; }
-  .nd-h { border-bottom: 0; padding-bottom: 0.35rem; margin-bottom: 0.1rem; }
-  .nd-list a { padding: 0.5rem 0 0.5rem 0.75rem; }
+  .nd-row { padding: 0.6rem 0 0.6rem 0.75rem; }
   .nav-search { border-left: 0; padding: 0.9rem 0; margin-left: 0; }
   .nav a {
     border-bottom: 1px solid var(--rule); padding-block: 0.8rem;
@@ -791,3 +794,4 @@ tbody tr:last-child td { border-bottom: 0; }
 .lx-note { font-size: 0.8125rem; color: var(--slate); }
 .lx-msg { margin: 1.75rem 0 0; font-size: 0.9375rem; max-width: 52ch; border-left: 2px solid var(--accent); padding-left: 0.9rem; }
 .lx-fine { margin: 1rem 0 0; font-size: 0.75rem; line-height: 1.5; color: var(--slate); max-width: 52ch; }
+.dg-t-mono { font-family: var(--mono); font-size: 11px; fill: var(--accent); }

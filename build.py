@@ -160,6 +160,17 @@ NAV_GROUPS = [
 # Populated in main() so nav() can list each section's pages.
 ALL_PAGES = []
 
+CATEGORY_DIAGRAM = {
+    "ownership": "terms",
+    "building": "zoning",
+    "visas": "visas",
+    "company": "pma",
+    "rental": None,      # the calculator is the visual here
+    "tax": None,
+    "areas": None,       # the land explorer is the visual here
+    "living": None,
+}
+
 RISK_LABELS = {
     "critical": "Critical risk",
     "high": "High risk",
@@ -384,9 +395,56 @@ def dg_chain():
                 "The order due diligence actually runs in. Most failed deals break at zoning or classification.")
 
 
+
+def dg_visas():
+    """The rule the whole immigration system runs on: activity first."""
+    rows = [
+        ("Work for an Indonesian employer", "E23 family", "RPTKA required"),
+        ("Invest / run a company", "E28 family", "Board role + shareholding"),
+        ("Remote work, foreign employer", "E33G", "Income-tested"),
+        ("Live on savings", "E33 Second Home", "Deposit or property"),
+        ("Join Indonesian family", "E31 family", "Documented relationship"),
+        ("Indonesian ancestry", "E32 / GCI", "Can reach indefinite ITAP"),
+        ("Just evaluating a purchase", "C12 / D12", "Visitor, not residence"),
+    ]
+    o = '<text x="0" y="12" class="dg-t-lab">WHAT WILL YOU ACTUALLY DO?</text>'
+    o += '<text x="286" y="12" class="dg-t-lab">ROUTE</text>'
+    o += '<text x="418" y="12" class="dg-t-lab">GATE</text>'
+    y = 24
+    for act, route, gate in rows:
+        o += f'<rect x="0" y="{y}" width="560" height="26" class="dg-panel"/>'
+        o += f'<text x="10" y="{y+17}" class="dg-t">{act}</text>'
+        o += f'<text x="286" y="{y+17}" class="dg-t-mono">{route}</text>'
+        o += f'<text x="418" y="{y+17}" class="dg-t-sm">{gate}</text>'
+        y += 30
+    o += f'<text x="0" y="{y+16}" class="dg-t-sm">Length of stay follows from the activity. It is never the starting question.</text>'
+    return _svg(f"0 0 560 {y+26}", o,
+                "Choosing a permit by how long you want to stay is how people end up on a status that does not cover what they are doing.")
+
+
+def dg_pma():
+    """Six to ten weeks to a trading licence, if nothing stalls."""
+    steps = [("Structure &amp; KBLI", 1.5), ("Deed &rarr; NPWP", 3), ("NIB", 1.5),
+             ("Capital", 2.5), ("KKPR", 3), ("PBG &rarr; SLF", 13)]
+    o, x = "", 0
+    SC = 20
+    for i, (label, wk) in enumerate(steps):
+        w = wk * SC
+        cls = "dg-b-1" if i < 4 else "dg-b-2"
+        o += f'<rect x="{x}" y="20" width="{w-3}" height="26" class="{cls}"/>'
+        o += f'<text x="{x}" y="14" class="dg-t-lab">{label}</text>'
+        o += f'<text x="{x+4}" y="37" class="dg-t-c-rev" text-anchor="start">{wk:g}w</text>'
+        x += w
+    o += f'<line x1="0" y1="56" x2="{x}" y2="56" class="dg-axis"/>'
+    o += '<text x="0" y="72" class="dg-t-sm">Trading NIB with a real domicile: 6&ndash;10 weeks. Building runs long after that.</text>'
+    return _svg(f"0 0 {x+10} 82", o,
+                "Any of these can double. Capital that does not reconcile, a virtual office, or an undigitised RDTR zone are the usual causes.")
+
+
 DIAGRAMS = {
     "zoning": dg_zoning, "kdb": dg_kdb, "terms": dg_terms,
     "pbg": dg_pbg, "chain": dg_chain,
+    "visas": dg_visas, "pma": dg_pma,
 }
 
 
@@ -455,14 +513,14 @@ def analytics():
 
 
 def nav(active=""):
-    def col(key):
-        name = CATEGORIES[key][0]
-        items = "".join(
-            f'<a href="{BASE}/{key}/{q["slug"]}/">{q["question"]}</a>'
-            for q in ALL_PAGES if q["category"] == key
-        )
-        return (f'<div class="nd-col"><a class="nd-h" href="{BASE}/{key}/">{name}</a>'
-                f'<div class="nd-list">{items}</div></div>')
+    """Dropdowns list sections, not every article. Questions live on the
+    section page — a menu that grows with the content stops being a menu."""
+    def row(key):
+        name, blurb = CATEGORIES[key]
+        n = len([q for q in ALL_PAGES if q["category"] == key])
+        return (f'<a class="nd-row" href="{BASE}/{key}/">'
+                f'<span class="nd-row-h">{name}<em>{n}</em></span>'
+                f'<span class="nd-row-b">{blurb}</span></a>')
 
     groups = ""
     for label, keys in NAV_GROUPS:
@@ -470,27 +528,30 @@ def nav(active=""):
         groups += (
             f'<div class="nav-g">'
             f'<button class="nav-t{on}" type="button" aria-expanded="false">{label}</button>'
-            f'<div class="nav-drop"><div class="nd-in">{"".join(col(k) for k in keys)}</div></div>'
+            f'<div class="nav-drop"><div class="nd-in">{"".join(row(k) for k in keys)}</div></div>'
             f"</div>"
         )
 
-    tools = (
-        f'<div class="nav-g">'
-        f'<button class="nav-t" type="button" aria-expanded="false">Tools</button>'
-        f'<div class="nav-drop"><div class="nd-in"><div class="nd-col">'
-        f'<span class="nd-h">Work it out</span><div class="nd-list">'
-        f'<a href="{BASE}/calculator/">Return calculator</a>'
-        f'<a href="{BASE}/check/">What I&rsquo;d check first</a>'
-        f'<a href="{BASE}/checklist/">Due diligence checklist</a>'
-        f'<a href="{BASE}/about/">About</a>'
-        f"</div></div></div></div></div>"
+    tools = [
+        ("Return calculator", "/calculator/", "What a property really returns after every cost"),
+        ("Land budget", "/areas/#land", "What your budget buys, area by area"),
+        ("What I&rsquo;d check first", "/check/", "The intake list for a live deal"),
+        ("Due diligence checklist", "/checklist/", "Print it and take it to viewings"),
+        ("About", "/about/", "Who writes this, and why"),
+    ]
+    trows = "".join(
+        f'<a class="nd-row" href="{BASE}{href}"><span class="nd-row-h">{t}</span>'
+        f'<span class="nd-row-b">{d}</span></a>' for t, href, d in tools
     )
+    groups += (f'<div class="nav-g">'
+               f'<button class="nav-t" type="button" aria-expanded="false">Tools</button>'
+               f'<div class="nav-drop"><div class="nd-in">{trows}</div></div></div>')
 
     return f"""<header class="masthead">
 <div class="wrap masthead-inner">
 <a class="wordmark" href="{BASE}/"><span>Bali</span> Off Script</a>
 <button class="menu-btn" aria-label="Menu" aria-expanded="false">Menu</button>
-<nav class="nav"><div class="nav-inner">{groups}{tools}<a class="nav-search" href="{BASE}/search/">Search</a></div></nav>
+<nav class="nav"><div class="nav-inner">{groups}<a class="nav-search" href="{BASE}/search/">Search</a></div></nav>
 </div>
 </header>"""
 
@@ -686,7 +747,8 @@ def category(key, pages):
 <p class="eyebrow">Section</p>
 <h1>{seo_title}</h1>
 <p class="standfirst">{blurb}</p>
-<div class="prose section-intro"><p>{intro}</p></div>
+<div class="prose section-intro"><p>{intro}</p>
+{DIAGRAMS[CATEGORY_DIAGRAM[key]]() if CATEGORY_DIAGRAM.get(key) else ""}</div>
 {land_widget() if key == "areas" else ""}
 <h2 class="sec-h">Every answer in this section</h2>
 <ul class="cards">{items}</ul>
