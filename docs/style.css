@@ -948,3 +948,46 @@ tbody tr:last-child td { border-bottom: 0; }
 .on-more li { border-bottom: 1px solid var(--rule); }
 .on-more a { display: block; padding: 0.65rem 0; text-decoration: none; font-size: 0.9375rem; }
 .on-more a:hover { color: var(--seal); }
+
+/* ---------------------------------------------------------- reel strip */
+
+.rs { margin: 2.5rem 0 0; }
+.rs-head { display: flex; align-items: baseline; gap: 1rem; margin-bottom: 1rem; }
+.rs-h { font-size: 1.25rem; margin: 0; }
+.rs-follow {
+  margin-left: auto; display: inline-flex; align-items: center; gap: 0.4rem;
+  font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.06em;
+  color: var(--slate); text-decoration: none;
+}
+.rs-follow:hover { color: var(--seal); }
+
+.rs-track {
+  list-style: none; margin: 0; padding: 0 0 1rem;
+  display: flex; gap: 1rem; overflow-x: auto; overflow-y: hidden;
+  scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+}
+.rs-track::-webkit-scrollbar { height: 4px; }
+.rs-track::-webkit-scrollbar-thumb { background: var(--rule-2); }
+.rs-card { flex: 0 0 auto; scroll-snap-align: start; width: 328px; max-width: 82vw; }
+.rs-slot {
+  position: relative; min-height: 420px; background: var(--paper-2);
+  border: 1px solid var(--rule); display: flex; align-items: center; justify-content: center;
+}
+.rs-slot .instagram-media { margin: 0 !important; min-width: 0 !important; }
+/* Placeholder marker while the embed is still off-screen. */
+.rs-play {
+  width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--rule-2);
+  position: relative;
+}
+.rs-play::after {
+  content: ""; position: absolute; top: 50%; left: 54%; transform: translate(-50%, -50%);
+  border-left: 12px solid var(--rule-2); border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+}
+.rs-slot[data-done] { min-height: 0; border: 0; background: none; display: block; }
+
+@media (max-width: 46rem) {
+  .rs-card { width: 300px; }
+  .rs-slot { min-height: 380px; }
+}

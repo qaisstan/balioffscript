@@ -983,6 +983,8 @@ def home(pages):
 <figcaption class="hero-cap"><span>{AUTHOR}</span>Property adviser</figcaption>
 </div>
 </section>
+<section class="wrap">{reel_strip()}</section>
+
 <section class="wrap tool-wrap" id="tool">
 <div class="tool-head">
 <p class="proof-k">Start here</p>
@@ -1020,7 +1022,7 @@ def home(pages):
 
 <section class="wrap">{cta()}</section>
 </main>
-{footer(f'<script src="{BASE}/calc.js" defer></script>')}"""
+{footer(f'<script src="{BASE}/calc.js" defer></script><script src="{BASE}/reels.js" defer></script>')}"""
 
 
 def field(fid, label, val, info="", step="1", cls=""):
@@ -1171,6 +1173,38 @@ MAP_AREAS = [
          watch="Tiny land supply, boat-dependent construction, fragile water",
          slug="lombok-property-foreigners", url="/areas/lombok-property-foreigners/"),
 ]
+
+
+
+# ---------------------------------------------------------------- reels
+#
+# Add or reorder by editing this list. Paste the shortcode from the URL:
+# instagram.com/balioffscript/reel/DZggWgDPwoV/  ->  "DZggWgDPwoV"
+# Order here is the order on the page. Put the strongest first.
+REELS = [
+    "DcDDNqXxTdx", "DbPebwERD-W", "DbAUMTsxs5D", "Db90Tkgvx4l",
+    "Db65NkhPtHo", "Db2Yy1ox5sO", "DaRfEbhvymR", "DZggWgDPwoV",
+    "DZM-yYrvpOq", "DZLuTzVvHEa", "DYqa-PGPUZd", "DY6ApqbPkl2",
+]
+
+
+def reel_strip():
+    """Horizontal strip of reels. Each one loads only when it scrolls into
+    view, so twelve Instagram embeds do not sit on the critical path."""
+    if not REELS:
+        return ""
+    cards = "".join(
+        f'<li class="rs-card"><div class="rs-slot" data-reel="{code}">'
+        f'<span class="rs-play" aria-hidden="true"></span></div></li>'
+        for code in REELS
+    )
+    return f"""<section class="rs" id="reels">
+<div class="rs-head">
+<h2 class="rs-h">On the ground</h2>
+<a class="rs-follow" href="{INSTAGRAM}" rel="me">{ig_logo("ig ig-sm")}<span>@balioffscript</span></a>
+</div>
+<ul class="rs-track">{cards}</ul>
+</section>"""
 
 
 def map_widget(focus=None, compact=False):
@@ -1335,7 +1369,7 @@ def calculator():
      "If you have a yield sheet from an agent or developer, send it to me with the location and the title type. I'll tell you which assumptions break first, the occupancy, the lease term, the licence, or the zoning. ",
      "Send it on Instagram")}
 </main>
-{footer(f'<script src="{BASE}/calc.js" defer></script>')}"""
+{footer(f'<script src="{BASE}/calc.js" defer></script><script src="{BASE}/reels.js" defer></script>')}"""
 
 
 def search_page():
