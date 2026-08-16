@@ -486,7 +486,7 @@ def robots_meta(path):
     return '\n<meta name="robots" content="noindex,follow">' if path in ("/search/",) else ""
 
 
-def head(title, desc, path):
+def head(title, desc, path, card=None):
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -497,8 +497,10 @@ def head(title, desc, path):
 <link rel="canonical" href="{SITE_URL}{path}">
 <meta property="og:title" content="{title}">
 <meta property="og:url" content="{SITE_URL}{path}">
-<meta property="og:image" content="{SITE_URL}/{AUTHOR_PHOTO}">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="{SITE_URL}/og/{card or 'default'}.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <meta property="og:description" content="{desc}">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="{SITE_NAME}">
@@ -755,7 +757,7 @@ def article(m, siblings):
             },
         ],
     })
-    return f"""{head(m.get("title") or m["question"], meta_desc(m["summary"], m["body"]), path)}
+    return f"""{head(m.get("title") or m["question"], meta_desc(m["summary"], m["body"]), path, card=m["slug"])}
 <script type="application/ld+json">{schema}</script>
 {nav(m["category"])}
 <main class="wrap article">
