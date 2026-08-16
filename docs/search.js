@@ -99,3 +99,28 @@
     timer = setTimeout(function () { run(input.value); }, 120);
   });
 })();
+
+// Share row: use the phone's native share sheet where it exists, and fall
+// back to copying the link so the button always does something.
+(function () {
+  document.querySelectorAll(".sh-more").forEach(function (btn) {
+    var bar = btn.closest(".sh");
+    btn.addEventListener("click", function () {
+      var data = { title: bar.dataset.title, url: bar.dataset.url };
+      if (navigator.share) { navigator.share(data).catch(function () {}); return; }
+      var done = function () {
+        var was = btn.getAttribute("aria-label");
+        btn.classList.add("ok");
+        btn.setAttribute("aria-label", "Link copied");
+        setTimeout(function () { btn.classList.remove("ok"); btn.setAttribute("aria-label", was); }, 1600);
+      };
+      if (navigator.clipboard) { navigator.clipboard.writeText(data.url).then(done, function () {}); }
+      else {
+        var i = document.createElement("input");
+        i.value = data.url; document.body.appendChild(i); i.select();
+        try { document.execCommand("copy"); done(); } catch (e) {}
+        document.body.removeChild(i);
+      }
+    });
+  });
+})();

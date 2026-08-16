@@ -509,12 +509,12 @@ def head(title, desc, path, card=None):
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Public+Sans:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{BASE}/style.css">
 <link rel="icon" href="{BASE}/favicon.ico" sizes="any">
-<link rel="icon" type="image/svg+xml" href="{BASE}/favicon.svg">
+<link rel="icon" type="image/png" sizes="96x96" href="{BASE}/icon-96.png">
+<link rel="icon" type="image/png" sizes="48x48" href="{BASE}/icon-48.png">
 <link rel="icon" type="image/png" sizes="32x32" href="{BASE}/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="{BASE}/favicon-16x16.png">
 <link rel="apple-touch-icon" href="{BASE}/apple-touch-icon.png">
 <link rel="manifest" href="{BASE}/site.webmanifest">
-<meta name="theme-color" content="#9e2b20">
+<meta name="theme-color" content="#16191d">
 <script>window.SITE_BASE={json.dumps(BASE)}</script>
 {analytics()}</head>
 <body>"""
@@ -688,6 +688,37 @@ def next_up(m, pages):
     return sect[(i + 1) % len(sect)]
 
 
+
+def share_bar(title, path):
+    """Share row on every article. Native sheet on a phone, explicit networks
+    on desktop, and a copy-link fallback that always works."""
+    from urllib.parse import quote
+    url = SITE_URL + path
+    u, t = quote(url, safe=""), quote(title)
+    ico = {
+      "wa": '<path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm5.43 12.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.38-1.47-.88-.79-1.48-1.75-1.65-2.05-.17-.3-.02-.46.13-.61.14-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.06 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49 1.9.82 2.64.89 3.59.75.58-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35z"/>',
+      "li": '<path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM2.4 21.5h5.16V9.06H2.4V21.5zM10.6 9.06h4.95v1.7h.07c.69-1.24 2.37-2.55 4.88-2.55 5.22 0 6.18 3.32 6.18 7.63v5.66h-5.15v-5.02c0-1.2-.02-2.74-1.71-2.74-1.72 0-1.98 1.3-1.98 2.65v5.11H10.6V9.06z"/>',
+      "fb": '<path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5.02 3.66 9.18 8.44 9.94v-7.03H7.9v-2.91h2.54V9.85c0-2.52 1.5-3.91 3.77-3.91 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.78-1.63 1.57v1.89h2.78l-.45 2.91h-2.33V22c4.78-.76 8.44-4.92 8.44-9.94z"/>',
+      "x":  '<path d="M18.24 2h3.31l-7.23 8.26L22.8 22h-6.6l-5.17-6.76L5.1 22H1.78l7.73-8.84L1.4 2h6.77l4.67 6.18L18.24 2zm-1.16 18h1.83L7.06 3.9H5.09L17.08 20z"/>',
+      "tg": '<path d="M21.9 4.3 18.6 20c-.25 1.1-.9 1.37-1.82.85l-5.03-3.7-2.43 2.34c-.27.27-.5.5-1.01.5l.36-5.13L18.1 6.5c.4-.36-.09-.56-.62-.2L5.9 13.05.87 11.5c-1.1-.34-1.12-1.1.23-1.62L20.5 2.6c.9-.34 1.7.22 1.4 1.7z"/>',
+    }
+    def a(cls, href, label, key):
+        return (f'<a class="sh-b sh-{cls}" href="{href}" target="_blank" rel="noopener" '
+                f'aria-label="Share on {label}">'
+                f'<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">{ico[key]}</svg></a>')
+    return f"""<div class="sh" data-url="{url}" data-title="{title}">
+<span class="sh-l">Share</span>
+{a("wa", f"https://wa.me/?text={t}%20{u}", "WhatsApp", "wa")}
+{a("li", f"https://www.linkedin.com/sharing/share-offsite/?url={u}", "LinkedIn", "li")}
+{a("fb", f"https://www.facebook.com/sharer/sharer.php?u={u}", "Facebook", "fb")}
+{a("x", f"https://twitter.com/intent/tweet?text={t}&url={u}", "X", "x")}
+{a("tg", f"https://t.me/share/url?url={u}&text={t}", "Telegram", "tg")}
+<button class="sh-b sh-more" type="button" aria-label="More sharing options">
+<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 16.08a2.9 2.9 0 0 0-1.96.77L8.9 12.7a3.3 3.3 0 0 0 0-1.4l7.05-4.11A2.98 2.98 0 1 0 15 5a3 3 0 0 0 .06.59L8.02 9.7a3 3 0 1 0 0 4.6l7.12 4.16c-.05.19-.08.39-.08.59a2.92 2.92 0 1 0 2.94-2.97z"/></svg>
+</button>
+</div>"""
+
+
 def onward(m, pages):
     nxt = next_up(m, pages)
     cat = CATEGORIES[nxt["category"]][0]
@@ -768,6 +799,7 @@ def article(m, siblings):
 {map_widget(focus=m["slug"], compact=True) if m["category"] == "areas" and any(a["slug"] == m["slug"] for a in MAP_AREAS) else ""}
 {reel(m.get("reel", ""))}
 {cta()}
+{share_bar(m.get("title") or m["question"], path)}
 {onward(m, ALL_PAGES)}
 </main>
 {footer(f'<script src="{BASE}/map.js" defer></script>') if m["category"] == "areas" else footer()}"""
@@ -1509,7 +1541,7 @@ def main():
         "name": SITE_NAME, "short_name": "Off Script",
         "icons": [{"src": f"{BASE}/icon-192.png", "sizes": "192x192", "type": "image/png"},
                   {"src": f"{BASE}/icon-512.png", "sizes": "512x512", "type": "image/png"}],
-        "theme_color": "#9e2b20", "background_color": "#faf8f4", "display": "standalone",
+        "theme_color": "#16191d", "background_color": "#faf8f4", "display": "standalone",
         "start_url": f"{BASE}/",
     }))
     # Stops GitHub running Jekyll over the output. Without it the build breaks.
