@@ -1,5 +1,6 @@
 ---
 question: What are the real requirements for the E33G remote worker KITAS?
+title: E33G Remote Worker KITAS: Requirements
 summary: One year of residency for remote workers, with an income floor and one rule people break immediately.
 category: visas
 order: 02

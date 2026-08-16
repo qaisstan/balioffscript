@@ -1,5 +1,6 @@
 ---
 question: Bali, Thailand or Portugal for property?
+title: Bali vs Thailand vs Portugal for Property
 summary: Only one of the three lets a foreigner own anything outright. That is the decision, not the yield.
 category: living
 order: 06

@@ -1,5 +1,6 @@
 ---
 question: What is it really like to build a villa in Bali?
+title: Building a Villa in Bali: Costs, Permits, Timeline
 summary: The permit sequence, the timeline by regency, and the parts of the process people do not budget for.
 category: building
 order: 07

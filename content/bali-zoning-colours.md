@@ -1,5 +1,6 @@
 ---
 question: What do Bali's zoning colours mean, and how do you check properly?
+title: Bali Zoning Colours: Pink, Yellow and Green
 summary: Pink lets you rent. Yellow does not. Green gets demolished. Check it yourself before you pay anything.
 category: building
 order: 01

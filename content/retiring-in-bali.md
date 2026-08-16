@@ -1,5 +1,6 @@
 ---
 question: Can you retire in Bali, and what does it take?
+title: Retiring in Bali: Visas, Costs and Requirements
 summary: There is a route built for it. The requirements are financial rather than age-based, and property gives you nothing.
 category: visas
 order: 10

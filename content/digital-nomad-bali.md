@@ -1,5 +1,6 @@
 ---
 question: Can you legally work remotely from Bali?
+title: Bali Digital Nomad Visa (E33G): Real Requirements
 summary: Yes, and there is a specific permit for it. Most people arrive on the wrong one.
 category: visas
 order: 11

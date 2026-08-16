@@ -1,5 +1,6 @@
 ---
 question: Which Indonesian visa do you actually need?
+title: Which Bali Visa Do You Need? Full Comparison
 summary: The index codes changed. Here is what each one lets you do, and which ones unlock property ownership.
 category: visas
 order: 01

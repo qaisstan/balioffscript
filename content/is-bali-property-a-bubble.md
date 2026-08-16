@@ -1,5 +1,6 @@
 ---
 question: Is Bali property a bubble?
+title: Is Bali Property a Bubble? An Honest Answer
 summary: Prices have run hard. Whether that is a bubble depends on which part of the market you are looking at.
 category: rental
 order: 09

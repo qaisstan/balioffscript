@@ -1,5 +1,6 @@
 ---
 question: How much capital do you need for a PT PMA in 2026?
+title: PT PMA Capital Requirements in 2026
 summary: The paid-up requirement dropped 75% in October 2025. The investment plan requirement did not.
 category: company
 order: 01

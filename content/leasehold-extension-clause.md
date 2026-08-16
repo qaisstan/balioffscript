@@ -1,5 +1,6 @@
 ---
 question: What makes a Bali leasehold extension clause actually safe?
+title: Bali Leasehold Extension Clauses Explained
 summary: The initial term is not the asset. The extension clause is, and most of them are worthless.
 category: ownership
 order: 02

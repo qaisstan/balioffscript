@@ -1,5 +1,6 @@
 ---
 question: Where should you actually live in Bali?
+title: Best Areas to Live in Bali, Compared
 summary: Where to live and where to invest are different questions with different answers.
 category: living
 order: 05

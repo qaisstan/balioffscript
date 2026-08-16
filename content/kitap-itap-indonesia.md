@@ -1,5 +1,6 @@
 ---
 question: How do you get permanent residence in Indonesia?
+title: KITAP Indonesia: Permanent Residence Explained
 summary: ITAP is converted from a qualifying temporary permit, not applied for directly. Which permit you hold decides whether the door exists.
 category: visas
 order: 05

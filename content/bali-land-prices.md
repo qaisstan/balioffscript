@@ -1,5 +1,6 @@
 ---
 question: What does land actually cost in Bali right now?
+title: Bali Land Prices 2026, Area by Area
 summary: Area by area, in dollars per are, with the reason each one is priced the way it is.
 category: areas
 order: 01

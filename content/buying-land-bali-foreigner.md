@@ -1,5 +1,6 @@
 ---
 question: How does a foreigner actually buy land in Bali?
+title: Buying Land in Bali as a Foreigner: Full Process
 summary: The full sequence, in the order it has to happen, and where the money should be at each step.
 category: ownership
 order: 06

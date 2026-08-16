@@ -1,5 +1,6 @@
 ---
 question: What taxes do you pay when buying property in Bali?
+title: Bali Property Tax: What Buyers Pay in 2026
 summary: Around 5% for the buyer on a titled transfer, and zero on a leasehold, which is a bigger deal than it sounds.
 category: tax
 order: 01

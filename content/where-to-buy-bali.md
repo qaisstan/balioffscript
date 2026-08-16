@@ -1,5 +1,6 @@
 ---
 question: Where should you actually buy in Bali?
+title: Where to Buy in Bali: Best Areas for Investors
 summary: Canggu for liquidity, Uluwatu for upside, Sanur and Ubud for value. What each area costs and what it costs you.
 category: areas
 order: 01

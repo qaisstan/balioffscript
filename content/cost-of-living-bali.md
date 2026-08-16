@@ -1,5 +1,6 @@
 ---
 question: What does it actually cost to live in Bali?
+title: Cost of Living in Bali: What It Really Costs
 summary: What drives the number, what people underestimate, and why the figures you see online are usually somebody else's life.
 category: living
 order: 04

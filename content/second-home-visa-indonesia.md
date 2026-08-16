@@ -1,5 +1,6 @@
 ---
 question: What does the Second Home Visa actually require?
+title: Indonesia Second Home Visa: Requirements 2026
 summary: A deposit in an Indonesian state bank or qualifying property, in exchange for five or ten years of residence with no sponsor.
 category: visas
 order: 04

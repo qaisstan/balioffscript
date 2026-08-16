@@ -1,5 +1,6 @@
 ---
 question: How safe is your money in a Bali property deal?
+title: Is It Safe to Buy Property in Bali?
 summary: Safer than the horror stories suggest, and only if you do four specific things.
 category: ownership
 order: 07

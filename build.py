@@ -733,7 +733,7 @@ def article(m, siblings):
             },
         ],
     })
-    return f"""{head(m["question"], m["summary"], path)}
+    return f"""{head(m.get("title") or m["question"], m["summary"], path)}
 <script type="application/ld+json">{schema}</script>
 {nav(m["category"])}
 <main class="wrap article">

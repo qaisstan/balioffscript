@@ -1,5 +1,6 @@
 ---
 question: How does Hak Pakai work, and who can actually get it?
+title: Hak Pakai in Bali: How It Works for Foreigners
 summary: The one route that registers land in a foreigner's own name. Requires residency, and most people are never told it exists.
 category: ownership
 order: 04

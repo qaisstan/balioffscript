@@ -1,5 +1,6 @@
 ---
 question: What happens if you buy a villa built without a PBG?
+title: PBG and SLF Permits in Bali Explained
 summary: No licence, no legal rental, and exposure to sealing or demolition. It is more common than the market admits.
 category: building
 order: 02

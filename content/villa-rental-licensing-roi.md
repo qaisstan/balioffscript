@@ -1,5 +1,6 @@
 ---
 question: What yield does a Bali villa actually produce?
+title: Bali Villa Rental Yields: The Real Numbers
 summary: Gross yields get advertised at 8–15%. Net, after everything, is usually 4–6%. Here is where the difference goes.
 category: rental
 order: 01
