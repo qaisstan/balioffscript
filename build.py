@@ -798,9 +798,9 @@ def article(m, siblings):
 <div class="prose">{md(m["body"])}</div>
 {map_widget(focus=m["slug"], compact=True) if m["category"] == "areas" and any(a["slug"] == m["slug"] for a in MAP_AREAS) else ""}
 {reel(m.get("reel", ""))}
-{cta()}
 {share_bar(m.get("title") or m["question"], path)}
 {onward(m, ALL_PAGES)}
+{cta()}
 </main>
 {footer(f'<script src="{BASE}/map.js" defer></script>') if m["category"] == "areas" else footer()}"""
 
@@ -844,6 +844,7 @@ def category(key, pages):
 {map_widget() if key == "areas" else ""}
 <h2 class="sec-h">Every answer in this section</h2>
 <ul class="cards">{items}</ul>
+{share_bar(seo_title, f"/{key}/")}
 </main>
 {footer(f'<script src="{BASE}/map.js" defer></script>') if key == "areas" else footer()}"""
 
@@ -961,6 +962,7 @@ def about_page():
 <p>I work in Bali property, which is how I know what goes wrong. That also means I am not a neutral party, so check what I tell you against your own notary, lawyer and tax consultant, exactly as you would with anyone else in this market.</p>
 </div>
 
+{share_bar(f"About {SITE_NAME}", "/about/")}
 {cta("Got a specific situation?",
      "Send me the details. Location, title type, zoning, and whatever permits you've been shown. I'll tell you what I'd check first.",
      "Ask on Instagram")}
@@ -1001,6 +1003,7 @@ def check_page():
 <p>None of those are visible in a photograph of a villa.</p>
 </div>
 
+{share_bar("What I'd check first before you buy", "/check/")}
 {cta("Send me the file.",
      "Location, title type, zoning, and any permits you've been shown. I'll tell you which link in the chain breaks, and what it would take to fix it. ",
      "Send it on Instagram")}
@@ -1089,7 +1092,7 @@ def home(pages):
 </div>
 </section>
 
-<section class="wrap">{cta()}</section>
+<section class="wrap">{share_bar(SITE_NAME, "/")}{cta()}</section>
 </main>
 {footer(f'<script src="{BASE}/calc.js" defer></script><script src="{BASE}/reels.js" defer></script>')}"""
 
@@ -1194,6 +1197,7 @@ def all_page(pages):
 <a class="lnk" href="{BASE}/areas/#map">Area map</a>
 </div>
 {blocks}
+{share_bar("Every answer, in one place", "/all/")}
 </main>
 {footer()}"""
 
@@ -1442,6 +1446,7 @@ def calculator():
 <h2>What this does not model</h2>
 <p>Capital appreciation, currency movement, financing costs, and the risk that the property cannot legally be operated as short-term accommodation at all. That last one is not a rounding error, <a href="{BASE}/company/pt-pma-kbli-closure-bali/">Bali closed the villa and homestay business classifications to new foreign-owned companies in July 2026</a>, and zoning determines whether nightly rental is permitted on the plot before any of these numbers matter.</p>
 </div>
+{share_bar("Bali property ROI calculator", "/calculator/")}
 {cta("Send me the seller's projection.",
      "If you have a yield sheet from an agent or developer, send it to me with the location and the title type. I'll tell you which assumptions break first, the occupancy, the lease term, the licence, or the zoning. ",
      "Send it on Instagram")}
@@ -1470,6 +1475,7 @@ def simple(slug, title, body):
 <main class="wrap article">
 <h1>{title}</h1>
 <div class="prose">{md(body)}</div>
+{share_bar(title, f"/{slug}/")}
 </main>
 {footer()}"""
 
