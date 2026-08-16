@@ -43,6 +43,10 @@ SITE_URL = f"https://{DOMAIN}" if DOMAIN else f"https://qaisstan.github.io{BASE}
 
 INSTAGRAM = "https://www.instagram.com/balioffscript/"
 
+# WhatsApp. wa.me wants the number with no plus, spaces or dashes.
+WHATSAPP_NUMBER = "6285878052692"
+WHATSAPP_TEXT = "Hi Kai, I need your help with a property in Bali."
+
 # ---- Analytics --------------------------------------------------------------
 #
 # GA4_ID: paste the Measurement ID from Google Analytics (looks like
@@ -558,6 +562,7 @@ def footer(extra=""):
 <p class="foot-note">{TAGLINE}</p>
 </div>
 <div class="foot-links">
+<a class="ig-link" href="{wa_link()}" target="_blank" rel="noopener">{wa_logo("ig ig-sm")}<span>WhatsApp</span></a>
 <a class="ig-link" href="{INSTAGRAM}" rel="me">{ig_logo("ig ig-sm")}<span>@balioffscript</span></a>
 <a href="{BASE}/calculator/">ROI calculator</a>
 <a href="{BASE}/about/">About</a>
@@ -583,6 +588,20 @@ def reel(url):
 <blockquote class="instagram-media" data-instgrm-permalink="{url}" data-instgrm-version="14"></blockquote>
 <script async src="//www.instagram.com/embed.js"></script>
 </section>"""
+
+
+def wa_link(text=None):
+    from urllib.parse import quote
+    return f"https://wa.me/{WHATSAPP_NUMBER}?text={quote(text or WHATSAPP_TEXT)}"
+
+
+def wa_logo(cls="ig"):
+    return (
+        f'<svg class="{cls}" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">'
+        '<path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.38-1.47-.88-.79-1.48-1.75-1.65-2.05-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.06 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35z"/>'
+        '<path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.13h-.01a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.11.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.24-8.23a8.18 8.18 0 0 1 5.82 2.42 8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.7 8.23-8.24 8.23z"/>'
+        "</svg>"
+    )
 
 
 def ig_logo(cls="ig"):
@@ -618,7 +637,10 @@ def cta(kicker="Got a specific situation?",
 <p class="cta-by">{AUTHOR}, {AUTHOR_ROLE}</p>
 </div>
 </div>
+<div class="cta-acts">
+<a class="btn btn-wa" href="{wa_link()}" target="_blank" rel="noopener">{wa_logo()}<span>WhatsApp</span></a>
 <a class="btn" href="{INSTAGRAM}" rel="me">{ig_logo()}<span>{btn}</span></a>
+</div>
 </section>"""
 
 
@@ -971,7 +993,7 @@ def home(pages):
 <p class="hero-note">Eyes on the ground in Bali. Message me before you sign anything.</p>
 <div class="hero-acts">
 <a class="lnk lnk-solid" href="#tool">Work out the real return</a>
-<a class="lnk" href="{BASE}/check/">Ask me about a deal</a>
+<a class="lnk" href="{wa_link()}" target="_blank" rel="noopener">Message me</a>
 </div>
 <form class="hero-search" action="{BASE}/search/">
 <input type="search" name="q" placeholder="nominee, E33G, BPHTB, Pererenan…" aria-label="Search">
@@ -983,8 +1005,6 @@ def home(pages):
 <figcaption class="hero-cap"><span>{AUTHOR}</span>Property adviser</figcaption>
 </div>
 </section>
-<section class="wrap">{reel_strip()}</section>
-
 <section class="wrap tool-wrap" id="tool">
 <div class="tool-head">
 <p class="proof-k">Start here</p>
@@ -993,6 +1013,8 @@ def home(pages):
 </div>
 {calc_widget()}
 </section>
+
+{reel_strip()}
 
 <section class="wrap warn-wrap">
 <div class="warn-block">
@@ -1121,7 +1143,7 @@ def all_page(pages):
 <p class="standfirst">{len(pages)} answers across eight sections, written from the regulations rather than from the sales pitch.</p>
 <div class="ax-tools">
 <a class="lnk lnk-solid" href="{BASE}/calculator/">Return calculator</a>
-<a class="lnk" href="{BASE}/check/">Ask me about a deal</a>
+<a class="lnk" href="{wa_link()}" target="_blank" rel="noopener">Message me</a>
 <a class="lnk" href="{BASE}/areas/#map">Area map</a>
 </div>
 {blocks}
@@ -1189,21 +1211,29 @@ REELS = [
 
 
 def reel_strip():
-    """Horizontal strip of reels. Each one loads only when it scrolls into
-    view, so twelve Instagram embeds do not sit on the critical path."""
+    """Continuous marquee of reels. Custom cards rather than Instagram's embed,
+    because their embed renders a header, like count, comment and share row
+    that cannot be styled from outside the iframe. Thumbnails are served from
+    this site so nothing depends on a CDN link that expires. Clicking opens
+    the real reel in a lightbox."""
     if not REELS:
         return ""
-    cards = "".join(
-        f'<li class="rs-card"><div class="rs-slot" data-reel="{code}">'
-        f'<span class="rs-play" aria-hidden="true"></span></div></li>'
-        for code in REELS
-    )
-    return f"""<section class="rs" id="reels">
-<div class="rs-head">
-<h2 class="rs-h">On the ground</h2>
-<a class="rs-follow" href="{INSTAGRAM}" rel="me">{ig_logo("ig ig-sm")}<span>@balioffscript</span></a>
+    def card(code):
+        return (f'<button class="rl-card" type="button" data-reel="{code}" '
+                f'aria-label="Play reel">'
+                f'<img src="{BASE}/reels/{code}.jpg" width="360" height="640" '
+                f'loading="lazy" alt="">'
+                f'<span class="rl-play" aria-hidden="true"></span></button>')
+    # The track is duplicated so the loop has no visible seam.
+    once = "".join(card(c) for c in REELS)
+    return f"""<section class="rl" id="reels">
+<div class="rl-vp">
+<div class="rl-track" style="animation-duration:{max(28, len(REELS) * 5)}s">{once}{once}</div>
 </div>
-<ul class="rs-track">{cards}</ul>
+<div class="rl-lb" id="rl-lb" hidden>
+<button class="rl-close" id="rl-close" aria-label="Close">&times;</button>
+<div class="rl-frame" id="rl-frame"></div>
+</div>
 </section>"""
 
 
@@ -1479,7 +1509,11 @@ def main():
         open(os.path.join(OUT, "CNAME"), "w").write(DOMAIN + "\n")
 
     for f in os.listdir(ASSETS):
-        shutil.copy(os.path.join(ASSETS, f), os.path.join(OUT, f))
+        src, dst = os.path.join(ASSETS, f), os.path.join(OUT, f)
+        if os.path.isdir(src):
+            shutil.copytree(src, dst)          # reel thumbnails live in a folder
+        else:
+            shutil.copy(src, dst)
 
     print(f"Built {len(pages)} answers + {len(CATEGORIES)} sections into docs/")
 

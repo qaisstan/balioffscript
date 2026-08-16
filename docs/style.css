@@ -949,6 +949,101 @@ tbody tr:last-child td { border-bottom: 0; }
 .on-more a { display: block; padding: 0.65rem 0; text-decoration: none; font-size: 0.9375rem; }
 .on-more a:hover { color: var(--seal); }
 
+/* ---------------------------------------------------------- area map */
+
+.mp { margin: 0 0 3rem; scroll-margin-top: 5rem; }
+.mp-top { max-width: 46rem; margin-bottom: 1.5rem; }
+.mp-h { font-size: 1.5rem; margin: 0 0 0.5rem; }
+.mp-sub { font-size: 0.9375rem; color: var(--slate); margin: 0; max-width: 50ch; }
+
+.mp-stage { display: grid; grid-template-columns: minmax(0, 1fr) 19rem; gap: 1.75rem; align-items: start; }
+@media (max-width: 60rem) { .mp-stage { grid-template-columns: 1fr; } }
+
+.mp-svg { width: 100%; height: auto; display: block; overflow: visible; }
+.mp-land { fill: var(--paper-2); stroke: var(--rule-2); stroke-width: 1.5; stroke-linejoin: round; }
+.mp-isle { fill: var(--paper-2); }
+.mp-regency text {
+  font-family: var(--mono); font-size: 11px; letter-spacing: 0.14em;
+  fill: var(--slate); opacity: 0.4; text-anchor: middle;
+}
+
+.mp-pin { cursor: pointer; outline: none; }
+.mp-hit { fill: transparent; }
+.mp-dot { fill: var(--accent); transition: r 0.15s ease, fill 0.15s ease; }
+.mp-ring { fill: none; stroke: var(--accent); stroke-width: 1.5; opacity: 0; transition: opacity 0.15s ease, r 0.15s ease; }
+.mp-lab {
+  font-family: var(--mono); font-size: 11.5px; fill: var(--ink);
+  text-anchor: middle; opacity: 0; transition: opacity 0.15s ease;
+  paint-order: stroke; stroke: var(--paper); stroke-width: 4px; stroke-linejoin: round;
+}
+.mp-pin:hover .mp-ring, .mp-pin:focus .mp-ring, .mp-pin.on .mp-ring { opacity: 1; }
+.mp-pin:hover .mp-lab, .mp-pin:focus .mp-lab, .mp-pin.on .mp-lab { opacity: 1; }
+.mp-pin:hover .mp-dot, .mp-pin.on .mp-dot { fill: var(--seal); r: 8.5; }
+.mp-pin:focus .mp-ring { stroke: var(--seal); }
+
+.mp-card {
+  background: var(--paper-2); border: 1px solid var(--rule); padding: 1.25rem 1.35rem;
+  position: sticky; top: 6rem; min-height: 13rem;
+}
+.mp-empty { font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--slate); margin: 0; }
+.mp-c-r { font-family: var(--mono); font-size: 0.625rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent); margin: 0 0 0.4rem; }
+.mp-c-h { font-size: 1.1875rem; margin: 0 0 0.9rem; }
+.mp-c-dl { display: grid; grid-template-columns: auto 1fr; gap: 0.35rem 0.9rem; margin: 0 0 0.9rem; font-size: 0.8125rem; }
+.mp-c-dl dt { font-family: var(--mono); font-size: 0.625rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--slate); padding-top: 0.15rem; }
+.mp-c-dl dd { margin: 0; }
+.mp-c-w { font-size: 0.8125rem; line-height: 1.5; margin: 0 0 1rem; padding-left: 0.75rem; border-left: 2px solid var(--seal); }
+.mp-c-w span { display: block; font-family: var(--mono); font-size: 0.5625rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--seal); margin-bottom: 0.2rem; }
+.mp-c-a { font-family: var(--mono); font-size: 0.6875rem; letter-spacing: 0.06em; color: var(--seal); text-decoration: none; }
+.mp-c-a:hover { color: var(--ink); }
+.mp-fine { margin: 1.25rem 0 0; font-size: 0.75rem; line-height: 1.5; color: var(--slate); max-width: 56ch; }
+.mp-compact { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); }
+.mp-compact .mp-h { font-size: 1.25rem; }
+.mp-compact .mp-stage { grid-template-columns: minmax(0, 1fr) 17rem; }
+@media (max-width: 60rem) { .mp-compact .mp-stage { grid-template-columns: 1fr; } }
+.hero-note {
+  font-family: var(--mono); font-size: 0.6875rem; letter-spacing: 0.1em;
+  color: var(--slate); margin: -1.25rem 0 2rem;
+}
+
+/* ------------------------------------------------ onward / read next */
+
+.rt { float: right; color: var(--rule-2); letter-spacing: 0.08em; }
+
+/* Reading progress — a hairline, not a toy. */
+.progress {
+  position: fixed; top: 0; left: 0; height: 2px; width: 0;
+  background: var(--accent); z-index: 90; transition: width 0.1s linear;
+}
+
+.onward { max-width: var(--measure); margin-top: 3rem; }
+.on-next {
+  display: block; text-decoration: none; background: var(--paper-2);
+  border: 1px solid var(--rule); padding: 1.5rem 1.6rem;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+.on-next:hover { background: #fff; border-color: var(--rule-2); }
+.on-k {
+  display: block; font-family: var(--mono); font-size: 0.625rem;
+  letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent);
+  margin-bottom: 0.6rem;
+}
+.on-h {
+  display: block; font-family: var(--display); font-size: 1.375rem;
+  line-height: 1.15; letter-spacing: -0.02em; margin-bottom: 0.45rem;
+}
+.on-next:hover .on-h { color: var(--seal); }
+.on-b { display: block; font-size: 0.9375rem; color: var(--slate); line-height: 1.5; }
+
+.on-more { margin-top: 1.75rem; }
+.on-more-h {
+  font-family: var(--mono); font-size: 0.625rem; letter-spacing: 0.16em;
+  text-transform: uppercase; color: var(--slate); margin: 0 0 0.5rem;
+}
+.on-more ul { list-style: none; margin: 0; padding: 0; }
+.on-more li { border-bottom: 1px solid var(--rule); }
+.on-more a { display: block; padding: 0.65rem 0; text-decoration: none; font-size: 0.9375rem; }
+.on-more a:hover { color: var(--seal); }
+
 /* ---------------------------------------------------------- reel strip */
 
 .rs { margin: 2.5rem 0 0; }
@@ -991,3 +1086,71 @@ tbody tr:last-child td { border-bottom: 0; }
   .rs-card { width: 300px; }
   .rs-slot { min-height: 380px; }
 }
+
+/* ------------------------------------------------------- reel carousel */
+
+.rl { margin: 3rem 0 0; }
+/* Full-bleed viewport so cards run off both edges and the loop reads as
+   continuous rather than as a box that happens to scroll. */
+.rl-vp {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 5%, #000 95%, transparent);
+  mask-image: linear-gradient(to right, transparent, #000 5%, #000 95%, transparent);
+}
+.rl-track {
+  display: flex; gap: 0.75rem; width: max-content; will-change: transform;
+  animation-name: rl-marquee; animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+/* The track holds the reels twice, so travelling exactly half its width lands
+   on an identical frame and the loop has no seam. */
+@keyframes rl-marquee {
+  from { transform: translate3d(0, 0, 0); }
+  to   { transform: translate3d(-50%, 0, 0); }
+}
+.rl-vp:hover .rl-track, .rl-vp:focus-within .rl-track { animation-play-state: paused; }
+@media (prefers-reduced-motion: reduce) {
+  .rl-track { animation: none; }
+  .rl-vp { overflow-x: auto; }
+}
+
+.rl-card {
+  flex: 0 0 auto; position: relative; padding: 0; border: 0; cursor: pointer;
+  width: 148px; aspect-ratio: 9 / 16;   /* true reel ratio, never stretched */
+  border-radius: 12px; overflow: hidden; background: var(--paper-2);
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+.rl-card img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.rl-card:hover, .rl-card:focus-visible { transform: translateY(-3px) scale(1.02); box-shadow: 0 10px 26px rgba(20,24,31,0.16); }
+.rl-card:focus-visible { outline: 2px solid var(--seal); outline-offset: 2px; }
+
+.rl-play {
+  position: absolute; inset: 0; margin: auto; width: 34px; height: 34px;
+  border-radius: 50%; background: rgba(0,0,0,0.42);
+  backdrop-filter: blur(2px); pointer-events: none;
+}
+.rl-play::after {
+  content: ""; position: absolute; top: 50%; left: 54%; transform: translate(-50%,-50%);
+  border-left: 10px solid #fff; border-top: 6px solid transparent; border-bottom: 6px solid transparent;
+}
+
+/* Lightbox */
+.rl-lb {
+  position: fixed; inset: 0; z-index: 200; background: rgba(12,14,17,0.9);
+  display: flex; align-items: center; justify-content: center; padding: 1.5rem;
+}
+.rl-lb[hidden] { display: none; }
+.rl-frame { width: min(420px, 94vw); aspect-ratio: 9 / 16; max-height: 88vh; }
+.rl-frame iframe { width: 100%; height: 100%; border: 0; border-radius: 10px; background: #000; }
+.rl-close {
+  position: absolute; top: 1rem; right: 1.25rem; width: 42px; height: 42px;
+  background: none; border: 1px solid rgba(255,255,255,0.35); border-radius: 50%;
+  color: #fff; font-size: 1.5rem; line-height: 1; cursor: pointer;
+}
+.rl-close:hover { background: rgba(255,255,255,0.12); }
+
+@media (max-width: 46rem) { .rl-card { width: 124px; border-radius: 10px; } }
+
+.cta-acts { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+.btn-wa { background: #1f7a4d; }
+.btn-wa:hover { background: #fff; color: var(--ink); }
