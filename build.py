@@ -448,6 +448,28 @@ DIAGRAMS = {
 
 # ---------------------------------------------------------------- chrome
 
+
+def meta_desc(summary, body="", target=120, cap=158):
+    """Google discards descriptions under roughly 120 characters and substitutes
+    scraped page text, which on this site meant nav and footer links. Extend a
+    short summary with the article's opening sentence rather than pad it."""
+    d = summary.strip()
+    if len(d) >= target or not body:
+        return d[:cap]
+    first = re.split(r"(?<=[.!?])\s", re.sub(r"[#*`>|\[\]]", "", body.strip()))
+    for sentence in first:
+        sentence = sentence.strip()
+        if not sentence:
+            continue
+        candidate = f"{d} {sentence}"
+        if len(candidate) > cap:
+            return candidate[:cap].rsplit(" ", 1)[0] + "..."
+        d = candidate
+        if len(d) >= target:
+            break
+    return d
+
+
 def title_tag(t):
     """Google truncates around 60 characters. Append the site name only when
     it still fits. The question itself carries the keywords, the brand does
@@ -733,7 +755,7 @@ def article(m, siblings):
             },
         ],
     })
-    return f"""{head(m.get("title") or m["question"], m["summary"], path)}
+    return f"""{head(m.get("title") or m["question"], meta_desc(m["summary"], m["body"]), path)}
 <script type="application/ld+json">{schema}</script>
 {nav(m["category"])}
 <main class="wrap article">
@@ -762,7 +784,7 @@ def category(key, pages):
     seo_title, intro = CATEGORY_SEO[key]
     # Meta description has to fit Google's ~158 char cut; the intro is the
     # on-page copy that gives the landing page something to rank with.
-    meta = (blurb if len(blurb) <= 158 else blurb[:155].rsplit(" ", 1)[0] + "…")
+    meta = meta_desc(blurb, intro)
     cat_schema = json.dumps({
         "@context": "https://schema.org",
         "@graph": [
@@ -982,7 +1004,7 @@ def home(pages):
                             "PT PMA", "Indonesian visas", "Land zoning"]},
         ],
     })
-    return f"""{head(SITE_NAME + " | " + TAGLINE, TAGLINE, "/")}
+    return f"""{head(SITE_NAME + " | " + TAGLINE, "What a Bali property certificate actually gives you, what you can legally build and rent on the land, and what a deal returns once every real cost is counted.", "/")}
 <script type="application/ld+json">{site_schema}</script>
 {nav()}
 <main>
@@ -1395,7 +1417,7 @@ def calculator():
 
 
 def search_page():
-    return f"""{head("Search", "Search every answer on the site.", "/search/")}
+    return f"""{head("Search", "Search every answer on Bali Off Script: ownership, visas, companies, tax, zoning, permits, rental returns and where to buy across Bali.", "/search/")}
 {nav()}
 <main class="wrap section">
 <p class="eyebrow">Search</p>
@@ -1410,7 +1432,7 @@ def search_page():
 
 
 def simple(slug, title, body):
-    return f"""{head(title, title, f"/{slug}/")}
+    return f"""{head(title, meta_desc(title, body), f"/{slug}/")}
 {nav()}
 <main class="wrap article">
 <h1>{title}</h1>
