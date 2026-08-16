@@ -993,7 +993,7 @@ def home(pages):
 <p class="hero-note">Eyes on the ground in Bali. Message me before you sign anything.</p>
 <div class="hero-acts">
 <a class="lnk lnk-solid" href="#tool">Work out the real return</a>
-<a class="lnk" href="{wa_link()}" target="_blank" rel="noopener">Message me</a>
+<a class="lnk lnk-wa" href="{wa_link()}" target="_blank" rel="noopener">{wa_logo("ig")}<span>Message me</span></a>
 </div>
 <form class="hero-search" action="{BASE}/search/">
 <input type="search" name="q" placeholder="nominee, E33G, BPHTB, Pererenan…" aria-label="Search">
@@ -1143,7 +1143,7 @@ def all_page(pages):
 <p class="standfirst">{len(pages)} answers across eight sections, written from the regulations rather than from the sales pitch.</p>
 <div class="ax-tools">
 <a class="lnk lnk-solid" href="{BASE}/calculator/">Return calculator</a>
-<a class="lnk" href="{wa_link()}" target="_blank" rel="noopener">Message me</a>
+<a class="lnk lnk-wa" href="{wa_link()}" target="_blank" rel="noopener">{wa_logo("ig")}<span>Message me</span></a>
 <a class="lnk" href="{BASE}/areas/#map">Area map</a>
 </div>
 {blocks}

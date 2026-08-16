@@ -1154,3 +1154,9 @@ tbody tr:last-child td { border-bottom: 0; }
 .cta-acts { display: flex; flex-wrap: wrap; gap: 0.6rem; }
 .btn-wa { background: #1f7a4d; }
 .btn-wa:hover { background: #fff; color: var(--ink); }
+/* Hero WhatsApp action: green and badged, so it is obvious where it goes. */
+.lnk-wa {
+  display: inline-flex; align-items: center; gap: 0.55rem;
+  background: #1f7a4d; border-color: #1f7a4d; color: #fff;
+}
+.lnk-wa:hover { background: #17603c; border-color: #17603c; color: #fff; }
