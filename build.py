@@ -463,7 +463,7 @@ def meta_desc(summary, body="", target=120, cap=158):
             continue
         candidate = f"{d} {sentence}"
         if len(candidate) > cap:
-            return candidate[:cap].rsplit(" ", 1)[0] + "..."
+            return candidate[:cap - 3].rsplit(" ", 1)[0] + "..."
         d = candidate
         if len(d) >= target:
             break
@@ -851,9 +851,8 @@ def about_page():
     """The entity page. Search engines and answer engines both need one place
     that states plainly who publishes this and what they do, otherwise a
     'who is X' question has nothing to resolve against."""
-    desc = ("Bali Off Script is written by Kai, a property adviser based in Bali. "
-            "Straight answers on buying, building and living here, with the regulation "
-            "cited and checked against the current rules.")
+    desc = ("Written by Kai, a property adviser based in Bali. Straight answers on "
+            "buying, building and renting here, across Bali and the surrounding islands.")
     schema = json.dumps({
         "@context": "https://schema.org",
         "@graph": [
