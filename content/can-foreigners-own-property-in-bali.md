@@ -40,6 +40,37 @@ Since Bali's Perda 4/2026, signed in February 2026, it also carries criminal exp
 
 Buying somewhere to live in and you hold a KITAS, Hak Pakai. Buying to rent out, PT PMA with HGB, because the rental licence attaches to the company. Buying a holiday base, short horizon, want the lowest entry cost. Leasehold, with an extension clause you have paid a lawyer to read.
 
+## The four routes, compared
+
+| Route | What you hold | Who qualifies | Main limitation |
+| --- | --- | --- | --- |
+| Hak Pakai | A registered right of use, in your own name | Foreigners with valid residency | Residence use, minimum property value, term-limited |
+| Leasehold | A contract with the landowner | Anyone | Only as strong as the contract and the counterparty |
+| HGB via PT PMA | A registered building right, held by your company | Anyone able to fund and run a PT PMA | Capital requirement, annual compliance, closed classifications |
+| Nominee | Nothing enforceable | Nobody. It is prohibited | You are not the owner and cannot become one |
+
+Three of those are real. The fourth is sold constantly and is the reason most of the loss stories from this island exist.
+
+## Why freehold is closed to foreigners
+
+Hak Milik, Indonesian freehold, is reserved to Indonesian citizens under the Basic Agrarian Law. This is not an administrative preference that a good lawyer works around, and it is not new. It is a constitutional position on land that has been consistent for decades.
+
+Every structure marketed as a way for a foreigner to hold freehold is either one of the lawful alternatives above, described inaccurately, or a nominee arrangement, described optimistically.
+
+## What Perda Bali 4/2026 changed
+
+Bali's regional regulation went beyond prohibiting nominee arrangements. It made **facilitating** one an offence in itself, which reaches the agents, consultants and advisers who arrange them. Regional authorities can issue warnings, suspend operations and close premises directly.
+
+The practical effect is that the people who used to recommend nominee structures casually now have their own exposure. That is worth knowing when you assess advice you are given.
+
+## Choosing between the lawful routes
+
+If you hold residency and want a home, Hak Pakai is the cleanest answer: a registered right, in your name, at the land office.
+
+If you want a rental business, the question is not primarily ownership but licensing, and the KBLI closures of July 2026 changed what is available. Solve the licence first, then decide what holds the land.
+
+If you want neither, a well-drafted long leasehold is a legitimate instrument used by serious buyers. The drafting is the entire product.
+
 ## Common questions
 
 ### Can foreigners own property in Bali?

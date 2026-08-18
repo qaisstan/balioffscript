@@ -59,6 +59,44 @@ If a projection cannot survive being typed into a spreadsheet, that tells you wh
 
 > The Bali market is not short of demand. Arrivals keep climbing. It is short of properties that can be legally operated at the price being asked.
 
+## What you are actually buying
+
+A Bali villa is two assets with different behaviours bolted together, and confusing them is the source of most poor decisions here.
+
+**The land** carries the value that persists. Well-zoned coastal land is genuinely scarce and has appreciated over long periods.
+
+**The building** is a depreciating operating asset in a hostile climate, with a refurbishment cycle of roughly five years and a functional life far shorter than a European equivalent.
+
+A seller who prices a ten-year-old villa as though the structure holds its original value is pricing one asset as if it were the other.
+
+## When it works
+
+- The land is verified, well-zoned and in a location with existing demand
+- A lawful operating licence exists and covers this building
+- The price is justified by land value plus depreciated replacement cost, not by a projection
+- Occupancy and costs are modelled honestly, with a sinking fund
+- The holding period is long enough to ride a soft year
+
+## When it does not
+
+- The price is set by a yield forecast rather than by the asset
+- The rental licence is absent, assumed, or belongs to someone else
+- The property is one of two hundred near-identical villas in the same corridor
+- The lease has years already run and a weak extension clause
+- The buyer needs the capital back inside three to five years
+
+## The current market condition
+
+Supply of the standard three-bedroom pool villa has grown faster than guest nights in the main corridors. Differentiated properties still perform. Generic ones increasingly compete on price, which compresses yields before it visibly moves values.
+
+That is not a reason to avoid the market. It is a reason to stop paying for the generic version at prices set when it was scarce.
+
+## The comparison worth making
+
+Against what alternative? Money in a villa here is illiquid, operationally demanding, exposed to regulatory change, and denominated in a currency you may not spend. Against those facts, a return that merely matches a passive index is not compensation for the risk taken.
+
+Buy here because you have found a genuinely good asset at a defensible price, or because you want to be here. Not because the headline yield looked better than a savings account.
+
 ## Common questions
 
 ### Is buying a villa in Bali a good investment?

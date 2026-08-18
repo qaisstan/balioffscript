@@ -62,6 +62,42 @@ Diarise the expiry and the application window the day you acquire the right. Not
 
 Rights are lost by missing an application deadline far more often than by refusal. A right that lapses because nobody calendared it is indistinguishable, at the end, from one that was never granted.
 
+## Why expiry is the quiet risk
+
+Every title a foreigner can hold in Indonesia is term-limited. HGB, Hak Pakai and leaseholds all run out. Freehold does not, and freehold is not available to you.
+
+That makes the remaining term a core valuation input rather than a detail on the certificate. A property with a long remaining term and the same property with a short one are different assets at very different prices, because whoever buys from you inherits the expiry.
+
+## How value decays
+
+The decline is not linear. A right with thirty years to run trades close to its underlying value. The same right with eight years to run trades far below half, because the buyer pool narrows to people who can either extend it or accept losing it.
+
+The practical consequence is that the last years of a term are the years in which selling becomes hardest and extending becomes most expensive. Both problems arrive together.
+
+## Extension and renewal
+
+| Title | Position |
+| --- | --- |
+| HGB | Statutory extension and renewal paths, with conditions and timing requirements |
+| Hak Pakai | Extension and renewal available, subject to continued eligibility |
+| Leasehold | No statutory right. Only what your contract gives you |
+
+For registered titles, the process has deadlines. Letting an expiry pass without starting the extension is far more expensive than starting early, and in some cases forecloses the option entirely.
+
+For leaseholds there is no fallback at all. If the extension clause is weak, nothing in the law rescues it.
+
+## What to do
+
+- Read the expiry date off the certificate at purchase and record it somewhere you will actually see it
+- Diarise the extension window well before it opens, not when it closes
+- For leaseholds, confirm the extension clause fixes term, price, notice and successor binding
+- Factor the remaining term into your exit price from the day you buy
+- If you are buying a right with a short remaining term, price it as a wasting asset, because it is one
+
+## The question to ask a seller
+
+Not "how long is the lease" but "how many years remain, and what exactly does the extension clause say". Those are different questions, and the second one is where the money is.
+
 ## Common questions
 
 ### What happens when a land right expires in Indonesia?

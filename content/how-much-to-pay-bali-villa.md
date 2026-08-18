@@ -58,6 +58,41 @@ A 20-year lease and a 40-year lease at the same price are not the same purchase.
 
 > Sellers discount for a reason, not for a feeling. Bring arithmetic and you will find out quickly whether there is room.
 
+## Value the parts separately
+
+**Land.** Establish the price per are for comparable, similarly zoned land on the same road, from transacted evidence rather than listings. Multiply by plot size.
+
+**Building.** Estimate what it would cost to construct this villa today, then depreciate it for age and condition. In this climate that depreciation is steeper than most buyers apply.
+
+**Fit-out and furniture.** Short-lived here. A four-year-old fit-out is much closer to replacement than to new, and should be priced that way.
+
+**Income.** Only what the property can lawfully produce, given its licence position. An unlicensed villa's rental income is not a valuation input, it is a liability.
+
+Add the first three, sanity-check against the fourth. Where the asking price sits far above that total, ask what is justifying the gap.
+
+## Leasehold changes the arithmetic entirely
+
+A leasehold villa is a wasting asset. Its value should decline as the term runs down, steeply toward the end, and the extension clause determines how steeply.
+
+Buyers regularly pay near-freehold prices for leaseholds with a third of the term already gone and an extension clause that says "at market rate". That combination is the single worst value proposition commonly available in this market.
+
+## Why asking prices run high
+
+Listings cost the seller nothing to maintain, so they sit and drift upward. Agents quote asking prices as comparables because those are the numbers they have. The result is a market where the visible price level is set by properties that have not sold.
+
+Ask what actually transacted, and have your notary confirm it against the deeds.
+
+## The negotiation levers that exist
+
+- Remaining lease term and the quality of the extension clause
+- Missing or incomplete PBG and SLF
+- Absent or non-transferable rental licence
+- Age of fit-out and imminent refurbishment
+- Time on market, which is public information if you ask
+- Access road width and any unregistered right of way
+
+Each of these is a real, quantifiable deduction. Sellers price as though none of them exist, and buyers who have verified them negotiate from evidence rather than from feel.
+
 ## Common questions
 
 ### How much should you pay for a villa in Bali?

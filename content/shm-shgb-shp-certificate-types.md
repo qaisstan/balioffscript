@@ -66,6 +66,36 @@ Every one of these is found the same way: your own notary verifies the certifica
 
 Land rights and building compliance are also separate questions. A clean certificate tells you nothing about whether the building on it has a PBG.
 
+## Reading an Indonesian land certificate
+
+The certificate tells you four things that matter: the title type, the registered holder, the term if there is one, and the parcel it covers. Everything else in a transaction depends on those four.
+
+| Certificate | Full name | Who may hold it | Term |
+| --- | --- | --- | --- |
+| SHM | Sertifikat Hak Milik | Indonesian citizens only | Perpetual |
+| SHGB | Sertifikat Hak Guna Bangunan | Indonesian legal entities, including PT PMA | Defined, extendable |
+| SHP | Sertifikat Hak Pakai | Foreigners with residency, and others | Defined, extendable |
+| HGU | Hak Guna Usaha | Entities, for agricultural enterprise | Defined |
+| Girik / Petok | Unregistered customary evidence | Not a certificate at all | n/a |
+
+## Girik land
+
+Girik and similar documents are tax records or customary evidence of possession, not registered title. Land held this way is common in Bali, particularly inland and in family holdings, and it trades at a discount for good reason.
+
+It can be converted to registered title, but the process takes time, costs money, and can surface competing claims from family members who were not part of the sale conversation. Buying girik land on the assumption that conversion is a formality is one of the more reliable ways to acquire a dispute.
+
+## Conversion between title types
+
+Moving land from SHM to SHGB is a normal step when a plot passes from an individual to a company, and from SHM to SHP when a qualifying foreigner takes a right of use. Both are established procedures.
+
+What matters is that the conversion is completed and the new certificate issued in the correct name before you treat the transaction as done. Buyers have paid in full against a promise of conversion and held nothing but a receipt while the process stalled.
+
+## Verifying a certificate
+
+Never rely on a photocopy, a photograph, or a seller's summary. Have a notary you appointed check the original against the land office record. That check confirms the certificate is genuine, that the holder is who the seller says, and that no charge has been registered against it.
+
+Ask specifically about registered mortgages. A charge over the land follows the land, and discovering it after the deed is signed is discovering it too late.
+
 ## Common questions
 
 ### What is the difference between SHM, SHGB and SHP?

@@ -61,6 +61,39 @@ The delivery case is harder than the mainland in every dimension: longer permits
 
 > Frontier pricing usually reflects frontier delivery risk rather than a market that has not noticed yet. Price the delivery, not the view.
 
+## What buying on Nusa Penida actually involves
+
+Nusa Penida is a separate island forty-five minutes by fast boat from Sanur. It has genuine and growing tourism demand, spectacular coastline, and infrastructure that lags the mainland by a wide margin.
+
+The legal framework is identical to Bali. No freehold in a foreign name, with leasehold, Hak Pakai or HGB through a company as the available routes. The difference is not the law, it is everything around the law.
+
+## The infrastructure reality
+
+| Utility | Position on Nusa Penida |
+| --- | --- |
+| Electricity | Improved but outages are routine; backup is standard, not optional |
+| Water | The binding constraint. Many properties truck water in |
+| Waste | Limited collection infrastructure |
+| Internet | Workable in the main areas, unreliable elsewhere |
+| Roads | Main routes improved; many coastal access roads are rough |
+| Medical | Basic only. Anything serious means a boat to Bali |
+
+Water is the item that decides whether a project works. A villa with a pool, on an island with limited groundwater and no piped supply to the plot, has an operating cost most projections quietly omit.
+
+## The demand pattern
+
+Most Nusa Penida visitors are day-trippers from Bali. They arrive at nine, photograph Kelingking, and leave at four. The overnight market is real but much smaller than the visitor numbers suggest, and it is concentrated near the northern harbours.
+
+Sea conditions affect crossings, which affects arrivals, which affects a booking calendar in a way mainland properties never experience. A rough week cancels bookings you had already counted.
+
+## Before you commit
+
+- How water reaches the plot, and at what monthly cost in full operation
+- Power supply and what backup the property carries
+- Distance and road condition to the harbour
+- Title verification, using a mainland notary you appointed
+- Who the realistic buyer is when you want to sell
+
 ## Common questions
 
 ### Can foreigners buy property on Nusa Penida?

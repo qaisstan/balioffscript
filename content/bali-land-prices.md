@@ -66,6 +66,37 @@ Put your actual figures through the return calculator with honest full-year occu
 
 If you are looking at a specific plot, the location, the certificate type and the asking price are usually enough for me to tell you whether it is worth the next step.
 
+## How land is priced here
+
+Bali land is quoted per **are**, which is 100 square metres. One hectare is 100 are. Getting this wrong is the single most common arithmetic error foreign buyers make, and it is expensive in both directions.
+
+Leasehold land is quoted differently again: usually as a total for the full term, sometimes per are per year. Always establish which, and always establish the term, before comparing two numbers.
+
+## What actually drives the price
+
+| Driver | Effect |
+| --- | --- |
+| Distance to beach | The largest single factor on the coast |
+| Zoning colour | Agricultural land trades at a fraction of tourism-zoned land |
+| Road access width | Narrow access can halve a plot's value |
+| View | Rice field, ocean, gorge; unrepeatable views carry large premiums |
+| Title type | Freehold trades above leasehold, and remaining term drives leasehold value |
+| Shape and frontage | Awkward plots cost more to build on and sell for less |
+
+Two plots on the same road can differ by a wide multiple on zoning and access alone. Comparing headline prices per are between areas, without those factors, produces conclusions that are simply wrong.
+
+## Asking price versus transacted price
+
+Listings in Bali sit for a long time at no cost to the seller, so asking prices drift upward independently of what anyone paid. The gap between asking and transacted is wider here than in most markets, and it is widest exactly where marketing is heaviest.
+
+Ask what sold on the street in the last twelve months, and ask your notary to confirm it against the deeds rather than accepting an agent's recollection.
+
+## Where prices have gone
+
+The coastal corridor from Seminyak through Canggu to Pererenan has seen the sharpest sustained rises, driven by tourism-zoned land running short. The 2021 window, when tourism stopped and distressed leaseholds traded well below prior pricing, closed as travel returned.
+
+Land in scarce, well-zoned coastal locations has held. What has softened is the yield on the buildings placed on it, which is a different number and a more useful one to watch.
+
 ## Common questions
 
 ### How much does land cost in Bali per are?

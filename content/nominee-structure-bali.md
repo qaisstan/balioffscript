@@ -45,6 +45,41 @@ Get an Indonesian lawyer, your own, to look at what you actually hold before you
 
 > The uncomfortable version: your exposure is highest while the nominee relationship is good. That is exactly when people decide not to deal with it.
 
+## What a nominee arrangement actually is
+
+An Indonesian citizen appears on the certificate as the owner. You provide the money. A stack of side documents is drawn up to give you control: a loan agreement, a power of attorney, a right-of-first-refusal, a statement that the nominee holds for your benefit, sometimes a blank undated transfer deed.
+
+None of those documents transfer title. Title is what the land office records, and the land office records the nominee.
+
+## Why the paperwork does not work
+
+The side agreements exist to achieve an outcome the law prohibits. An agreement whose purpose is to circumvent a statutory restriction is not a clever workaround; it is the evidence of the circumvention.
+
+That is why these documents have not reliably protected buyers when tested. The stronger and more explicit the paperwork is about your beneficial ownership, the more clearly it establishes that the arrangement is exactly what it is prohibited from being.
+
+## How it fails in practice
+
+| Failure | What happens |
+| --- | --- |
+| The nominee sells | They are the registered owner. A good-faith buyer takes clean title |
+| The nominee dies | The land passes to heirs who never signed anything |
+| The nominee divorces | The land may be treated as marital property |
+| The nominee borrows | Creditors can reach an asset registered in their name |
+| The nominee simply refuses | Your remedy is a claim on an unenforceable agreement |
+| Authorities act | Since Perda Bali 4/2026, the arrangement itself is actionable |
+
+Most failures are not dramatic betrayals. They are ordinary life events happening to a person whose name is on your asset.
+
+## Why it is still being sold
+
+Because it is easy, it is fast, and it lets an agent close a sale on land the buyer cannot lawfully hold. The reassurance offered is almost always about prevalence: everyone does it, thousands of villas are held this way, it has never been a problem here.
+
+Prevalence is not legality, and it has been a problem repeatedly. Perda Bali 4/2026 made facilitating these arrangements an offence in itself, which tells you what the regulatory direction is.
+
+## The alternatives are real
+
+Hak Pakai if you hold residency. A properly drafted long leasehold with defined extension terms. HGB through a PT PMA where the business case supports the company. These are the structures serious buyers use, and they are available to you.
+
 ## Common questions
 
 ### Is a nominee structure legal in Bali?

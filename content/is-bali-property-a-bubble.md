@@ -53,6 +53,38 @@ If you are buying on a 12% projection in a saturated pocket, you are the reason 
 
 [Run the numbers properly](/calculator/) and it usually answers itself.
 
+## Separate the two markets
+
+Bali does not have one property market, it has two, and they are behaving differently.
+
+**Land** in well-zoned, accessible coastal locations is genuinely scarce. Tourism-zoned land near the developed coast cannot be manufactured, and its price has been supported by that scarcity through several cycles including a full tourism shutdown.
+
+**The nightly rental villa business** built on that land is a different asset. Its value depends on guest nights, nightly rates, licensing and competition, and all four have moved against new entrants recently.
+
+Calling the whole island a bubble misses that the stress is concentrated in the second market, not the first.
+
+## What actually happened in 2021
+
+The useful stress test already occurred. Tourism stopped almost entirely. Villas produced no income for an extended period, and a genuine distressed window opened in 2021 where leaseholds and operating villas traded well below prior pricing.
+
+Land in prime locations came through it. Overleveraged operators did not. That is a fairly precise description of where the risk sits.
+
+## The current pressure
+
+Supply of the standardised three-bedroom pool villa has grown faster than demand in the main corridors. When two hundred functionally identical properties list in the same six months, they compete on price, because nothing else separates them.
+
+That shows up first as falling nightly rates and rising vacancy, which is a yield problem. It shows up in valuations later, and only for properties whose price was set by yield in the first place.
+
+## The risk that is not priced
+
+Regulatory change moves faster here than market cycles. The July 2026 KBLI closures removed the villa and homestay classifications from new foreign-owned companies, and Perda Bali 4/2026 made facilitating nominee arrangements an offence.
+
+A regulation can strand a business model in a quarter in a way a price cycle cannot. Anyone underwriting Bali on historical appreciation alone is modelling the wrong variable.
+
+## What this means practically
+
+Buy the land on its merits and verify it. Treat the rental income as a business with real costs and real competition, licensed properly. Do not pay a price that only makes sense if the last three years repeat, because the last three years included a supply surge that is still working through.
+
 ## Common questions
 
 ### Is Bali property in a bubble in 2026?

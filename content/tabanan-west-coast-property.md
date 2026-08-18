@@ -53,6 +53,34 @@ It is a much weaker short-term rental play today, and projections that apply Can
 
 Buy Tabanan for what it is. The infrastructure story is real. The rental licence, mostly, is not there yet.
 
+## The Tabanan thesis
+
+Tabanan is the coastline west of Cemagi, running through Nyanyi, Beraban, Kedungu and on toward Tanah Lot and beyond. It is the cheapest coastal land within reach of the developed side of Bali, and the entire investment case rests on one assumption: that development continues moving north and west along the coast, as it has for twenty years.
+
+Seminyak was rice fields. Canggu was rice fields. Pererenan was rice fields until 2019. Each time, the buyers who arrived early made the largest returns and waited the longest for them.
+
+## What is actually there now
+
+| Factor | Current position |
+| --- | --- |
+| Land price | Substantially below Pererenan, widening the further west |
+| Rental demand | Thin outside a handful of established resorts |
+| Infrastructure | Improving on the main routes, poor off them |
+| Schools and hospitals | A long drive; not a family-first area yet |
+| Beach | Excellent and uncrowded, with strong currents in places |
+
+## The honest risk
+
+You are buying ahead of demand. If infrastructure and guests take another decade to arrive, you hold well-priced land that produces little in the meantime and is hard to sell quickly, because the buyer pool at this end of the coast is shallow.
+
+That is a legitimate strategy for capital you do not need. It is a poor strategy for capital you intended to have working.
+
+## Zoning is the whole game here
+
+Cheap coastal land in Tabanan is frequently cheap because it is designated agricultural and cannot lawfully host tourism accommodation. Sellers are often relaxed about this, on the reasoning that others have built anyway.
+
+Others building anyway is not a permission. Verify the designation on the parcel itself, and price the land on what it may legally become, not on what the neighbour got away with.
+
 ## Common questions
 
 ### Is Tabanan a good investment in Bali?

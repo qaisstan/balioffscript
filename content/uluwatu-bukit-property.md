@@ -55,6 +55,36 @@ Where a structure sits inside a setback, regularisation may not be available on 
 
 The upside case here is real. So is the downside, and in 2025 it was physical.
 
+## What the Bukit is
+
+The Bukit is the limestone peninsula at Bali's southern tip: Uluwatu, Pecatu, Bingin, Padang Padang, Ungasan, Nusa Dua on the eastern side. It is geologically separate from the rest of the island, sitting high on porous rock above cliffs.
+
+That geology explains almost everything about the market here, good and bad.
+
+## Why the rates are the highest on the island
+
+Cliff-edge and ocean-view properties on the Bukit command nightly rates nothing on the west coast can match. The views are genuinely unrepeatable, the surf breaks are world-famous, and the supply of true clifftop land is finite in a way rice-field land is not.
+
+A property with an ocean view here is competing in a different market from a property four hundred metres inland with none. The price gap between the two is enormous and it is justified.
+
+## The constraints that catch buyers
+
+| Constraint | Why it matters |
+| --- | --- |
+| Water | Limestone holds little groundwater. Supply is a real cost and a real diligence item |
+| Access | Many clifftop plots are reached by narrow lanes; construction access is expensive |
+| Distance | Everything except the airport is a long drive; groceries, schools, hospitals |
+| Wind and salt | Exposure accelerates deterioration of finishes, fittings and pool equipment |
+| Setbacks | Cliff and coastal setbacks are enforced and reduce the buildable envelope |
+
+Water deserves particular attention. Ask specifically how the property is supplied, what it costs per month in high season with a full villa, and what happens in a dry year. It is the question sellers here are least prepared for.
+
+## The occupancy pattern
+
+Bukit demand is more seasonal than Canggu and stays are shorter. Guests come for the surf and the view, book a few nights, and leave. That produces excellent peak-season revenue and thinner shoulder months.
+
+Model both. A projection built on the July rate applied across twelve months describes a year the Bukit does not have.
+
 ## Common questions
 
 ### Is Uluwatu a good place to buy property?

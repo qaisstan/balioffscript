@@ -45,6 +45,42 @@ At expiry, the land and everything standing on it reverts to the owner. Your vil
 
 > Have your own notary read the deed. Not the seller's notary, not the agent's "our guy". The fee is a rounding error against the purchase.
 
+## The clause that decides everything
+
+Most Bali leaseholds are sold on a headline term: 25 years, 30 years, sometimes more, "extendable". The extension is where the value sits and where the drafting almost always fails.
+
+An extension clause is only an extension right if it fixes the term, fixes the price or a formula that produces one, fixes the notice period, and binds whoever owns the land at that future date. Miss any of those and you have an agreement to negotiate later, which is a different thing entirely.
+
+## Four ways extension clauses fail
+
+| Drafting | What it actually means |
+| --- | --- |
+| "Extendable at market rate" | The landowner sets the price when your alternative is walking away from your building |
+| "Extendable by mutual agreement" | No right at all. It is a statement that you may ask |
+| Price fixed, no successor binding | The heirs are not party to it |
+| No notice mechanism | You may lose the right by not exercising it in a window nobody defined |
+
+The market-rate version is the most common and the most damaging, because it reads like a right. It is not. It is the landowner's option, exercisable at the moment your negotiating position is weakest, against a building you paid for and cannot move.
+
+## What good drafting looks like
+
+- A stated extension term, in years
+- A price stated as a figure, or as a formula tied to a published index rather than to opinion
+- A notice period with defined start and end dates, and a consequence for late notice that is not forfeiture
+- Explicit binding of heirs, successors and any future owner of the land
+- Registration or notation of the lease so it is discoverable by a purchaser of the freehold
+- A clear statement of what happens to the building at the end of the term
+
+## The building at expiry
+
+Ask what happens to the structure you built. In many Bali leases the building reverts with the land, which means the last years of a lease are years in which you are maintaining an asset you are about to hand over.
+
+That reality should be in your numbers from the first year, not discovered in the twentieth.
+
+## Before you sign
+
+Have the lease reviewed by a notary you appointed, not the one the seller introduced. Confirm the landowner on the certificate is the person signing, and that any spouse or co-owner has consented. An extension right granted by someone who does not own the land is worth nothing.
+
 ## Common questions
 
 ### What should a leasehold extension clause say?

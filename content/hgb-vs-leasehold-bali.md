@@ -62,6 +62,44 @@ Neither answers whether you can legally run a rental business on the plot. That 
 
 Choosing the structure before checking the use is the wrong order.
 
+## The fundamental difference
+
+HGB is a right **in the land**, recorded at the land office, held by an Indonesian legal entity. Leasehold is a right **against a person**, recorded in a contract.
+
+That distinction decides what happens when things go wrong. A registered right survives the counterparty. A contractual right depends on them.
+
+## Side by side
+
+| | HGB via PT PMA | Leasehold |
+| --- | --- | --- |
+| Nature | Registered land title | Contract |
+| Who holds it | Your Indonesian company | You personally, or your company |
+| Setup cost | High: company formation, capital, notary | Low: the lease and the review |
+| Ongoing cost | Annual compliance, accounting, reporting | None beyond the property itself |
+| Term | Defined, with statutory extension paths | Whatever the contract says |
+| Survives owner's death | Yes, it is a registered right | Only if drafted to bind heirs |
+| Financing | More lender-recognisable | Rarely financeable |
+| Exit | Sell the company or transfer the title | Assign the lease, if permitted |
+| Fits a rental business | Depends entirely on KBLI availability | Depends on the operator's licence |
+
+## When HGB is worth the overhead
+
+If the property is a business rather than a home, if you intend to build and hold for a long period, or if you expect to sell to a buyer who wants a registered title, HGB through a PT PMA is the stronger position.
+
+The overhead is real and continuous: capital requirements, annual investment reporting, tax filings, financial statements, corporate secretarial work. These accrue whether or not the business earns anything, and a dormant PT PMA is a liability rather than a placeholder.
+
+The July 2026 KBLI closures also matter here. A PT PMA can still hold land under HGB and can still develop. What it can no longer register is the villa and homestay classifications, which changes how the operating side must be structured.
+
+## When leasehold is the right answer
+
+For a home you will use for a defined period, for a smaller budget, or where the alternative is a company you would rather not run, a well-drafted long lease is a legitimate and widely used instrument.
+
+The entire product is the drafting. The extension clause, the successor binding, the assignment right and the treatment of the building at expiry are where a good lease and a bad one diverge, and they cost the same to sign.
+
+## The check that applies to both
+
+Verify the land at the land office, through a notary you appointed. Confirm the person granting the right actually holds it, that there are no registered charges, and that the boundaries on the certificate match the ground.
+
 ## Common questions
 
 ### What is the difference between HGB and leasehold in Bali?

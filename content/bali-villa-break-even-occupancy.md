@@ -51,6 +51,40 @@ That is not a rare edge case. It is what a 20-year lease at a 30-year price prod
 
 > If a deal only works above 70% occupancy, it is not an investment. It is a bet on never having a bad season.
 
+## The calculation
+
+Break-even occupancy is the number of nights per year the villa must sell before it earns you anything.
+
+**Step one: annual fixed costs.** Staff, management retainer, insurance, utilities baseline, security, internet, maintenance contracts, sinking fund provision, tax and compliance. These are owed whether or not a single guest arrives.
+
+**Step two: net revenue per booked night.** Take the realistic nightly rate, subtract platform commission, subtract the management percentage, subtract cleaning, laundry and consumables for that stay. What remains is what one night actually contributes.
+
+**Step three: divide.** Fixed costs divided by net contribution per night gives the nights you must sell. Divide by 365 for the occupancy percentage.
+
+## Why the answer is usually uncomfortable
+
+Run honestly, most standard three-bedroom Bali villas break even at an occupancy well above what the sales projection assumed they would achieve in total.
+
+That is the whole issue. A projection showing a healthy return at 70 percent occupancy, on a villa that breaks even at 55 percent, is describing a business with fifteen points of margin between profit and loss, in a market where a bad season moves occupancy by more than that.
+
+## Margin of safety is the real metric
+
+| Break-even | What it means |
+| --- | --- |
+| Around 35 to 45 percent | Room to absorb a poor year, a slow launch, a rate war |
+| Around 55 to 65 percent | Profitable in a good year, exposed in a normal one |
+| Above 70 percent | Every assumption has to hold, permanently |
+
+A villa that breaks even low survives the thing that actually happens to new listings: a slow first year while reviews accumulate and the calendar fills.
+
+## What raises break-even without you noticing
+
+Staff counts that made sense for a larger property. A management agreement with separately billed extras. A pool that is expensive to run. A location where guests expect a lower rate than the pro forma used. Debt service, if you financed any part of it.
+
+## Use it as a filter
+
+Before you look at yield on any villa, ask what occupancy it needs to cover its costs. If the seller cannot answer, they have not modelled the property as a business, and the yield figure they are quoting is decoration.
+
 ## Common questions
 
 ### What occupancy do you need to break even on a Bali villa?

@@ -46,6 +46,37 @@ District spatial rules differ. A yellow designation in Ubud may carry conditiona
 - Water access and drainage, which is a practical constraint inland
 - PBG and SLF for anything already built
 
+## What the Ubud market is
+
+Ubud runs on a different guest than the coast. It fills with wellness retreats, longer stays, workshop attendees and people who came for two weeks and stayed two months. That demand is less seasonal than beach tourism and less sensitive to surf conditions, but the nightly ceiling is lower and always has been.
+
+Gianyar regency surrounds Ubud and holds most of the land worth looking at. Central Ubud itself is expensive, congested and largely built out.
+
+## Where value sits
+
+| Location | Character | Price position |
+| --- | --- | --- |
+| Central Ubud | Congested, walkable, commercial | Highest |
+| Penestanan and Sayan | Established expat pockets, valley views | High |
+| Tegallalang and north | Terraces, quieter, more agricultural land | Moderate |
+| Southern Gianyar | Closer to Sanur and the bypass | Lower |
+
+## The constraints that catch buyers
+
+Ubud's most beautiful plots are frequently the least buildable. The river valleys that produce the views also produce enforced setbacks, and green zone agricultural designation is widespread throughout Gianyar.
+
+A gorge-edge plot with a spectacular outlook often means a building envelope pushed far back from the edge, which changes the design, the cost and the reason you wanted the plot. Establish the buildable footprint before you fall in love with the view.
+
+Access is the second constraint. Many Ubud plots are reached by lanes too narrow for construction vehicles, which adds cost to the build and limits guest access afterward.
+
+## What to check in Ubud
+
+- Zoning designation on the parcel and the setback from any watercourse
+- Actual buildable footprint after setbacks, KDB and KLB
+- Access road width for both construction and arriving guests
+- Water supply, which varies sharply across the valleys
+- Whether the neighbouring land is agricultural and what may be built on it later
+
 ## Common questions
 
 ### Is Ubud a good place to buy property?

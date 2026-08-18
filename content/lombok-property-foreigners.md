@@ -64,6 +64,37 @@ Run the numbers through the [calculator](/calculator/) using **Lombok occupancy*
 
 > Cheaper land plus lower occupancy is not automatically a better return. It is a different risk, and it has to be priced as one.
 
+## Lombok compared with Bali
+
+Lombok sits directly east of Bali, similar in size, with a fraction of the tourism. Kuta Lombok and the south coast around Selong Belanak and Mawun hold most of the foreign interest, driven by surf and by the Mandalika development zone.
+
+The legal position is identical to Bali because it is national law, not regional. What differs is market depth.
+
+| Factor | Lombok | Bali |
+| --- | --- | --- |
+| Land price | Substantially lower | Higher, and rising |
+| Construction cost | Lower, but fewer skilled contractors | Higher, deep contractor pool |
+| Tourism volume | A small fraction of Bali's | The regional benchmark |
+| Airport connections | Limited international routes | Extensive |
+| Resale market | Shallow | Deep, particularly in Canggu |
+| Professional services | Thinner notary and legal infrastructure | Well established |
+
+## The Mandalika factor
+
+The Mandalika special economic zone on the south coast has driven much of Lombok's investment narrative, anchored by the MotoGP circuit and planned resort development. Some of it has been built. A good deal of it has not, on the original timeline or at the original scale.
+
+Buy on what exists. Land priced against a masterplan is priced against someone else's intentions, and masterplans in this region have a long history of arriving late and smaller.
+
+## The practical risks
+
+Title irregularity is more common than in Bali, particularly on land that has passed through inheritance without formal registration. Verify at the land office, through a notary you appointed, with the boundaries walked on the ground.
+
+Access rights deserve specific attention. A plot reached across a neighbour's land without a registered right of way is a plot you cannot reliably build on or sell.
+
+## Who Lombok suits
+
+Buyers with a long horizon, capital they do not need working, and a genuine tolerance for illiquidity. It does not suit anyone who may need to sell inside five years.
+
 ## Common questions
 
 ### Can foreigners buy property in Lombok?

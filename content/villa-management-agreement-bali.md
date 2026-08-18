@@ -62,6 +62,41 @@ If the operator holds the accommodation licence and you hold the property, the r
 
 Ask to see the operator's NIB, confirm the classification covers this location rather than only their company domicile, and confirm the codes have been migrated to KBLI 2025.
 
+## What the agreement decides
+
+The management agreement determines how much of your revenue you actually keep, how much visibility you have, and how trapped you are if the relationship goes wrong. It is negotiated once and lived with for years.
+
+## The clauses that matter
+
+| Clause | What to insist on |
+| --- | --- |
+| Fee basis | A percentage, and an explicit list of everything **not** covered by it |
+| Separately billed items | Named and capped. This is where the headline fee gets doubled |
+| Booking accounts | Owned by you. Listings, reviews and calendar in your name |
+| Bank account | Revenue into an account you control, not the manager's |
+| Reporting | Monthly, itemised, with source documents available on request |
+| Spending authority | A per-item limit above which your approval is required |
+| Maintenance markups | Disclosed. Ask whether the manager marks up contractor invoices |
+| Term and notice | Short initial term, reasonable notice, no automatic long renewal |
+| Termination | What happens to forward bookings, deposits, staff and access |
+| Exclusivity | Whether you may market the villa yourself |
+
+## Why listing ownership is the critical one
+
+If the manager owns the platform listing, the reviews and the calendar, changing manager means starting from zero: no reviews, no ranking, no forward bookings. That is enormous leverage, and owners hand it over without noticing because the manager sets the listing up during onboarding.
+
+Insist the accounts are created in your name, with the manager granted access. It costs nothing at the start and is close to impossible to recover later.
+
+## The fee that is not the fee
+
+A management fee quoted at a modest percentage of revenue frequently arrives alongside separate charges for booking commission, laundry, consumables, marketing, maintenance coordination and a markup on every contractor invoice.
+
+The only way to see the real number is to ask for a full sample month of actual statements from a comparable property under the same manager. Total everything charged, divide by the revenue, and compare that figure to the headline percentage.
+
+## Before you sign
+
+Talk to two current owners the manager has not selected for you. Ask what surprised them, how long payouts take, and how disputes over maintenance spending were resolved. Those three answers tell you more than the contract does.
+
 ## Common questions
 
 ### What should a Bali villa management agreement include?

@@ -52,6 +52,33 @@ Bali recorded **6,948,754 foreign arrivals in 2025**, up 9.72% year on year. Aus
 
 Demand is not the problem. Supply, licensing and zoning are.
 
+## Match the area to the strategy, not the holiday
+
+The most expensive mistake in this market is buying the area you enjoyed as a visitor. A place that makes a great two-week holiday and a place that fills a booking calendar or supports a family are frequently different places, and buying for both usually satisfies neither.
+
+Start from what the property has to do.
+
+| If your priority is | Look at | Because |
+| --- | --- | --- |
+| Rental depth and resale liquidity | Canggu, Berawa, Batu Bolong | Deepest guest demand and the only reliable exit market |
+| Highest nightly rates | Uluwatu, the Bukit cliffs | View properties command the island's top rates |
+| Family living | Sanur | Hospitals, calm water, schools, light traffic |
+| Wellness and long-stay guests | Ubud, Gianyar | Less seasonal demand, lower nightly ceiling |
+| Entry price and upside | Tabanan, west coast | Cheapest coastal land, thinnest current demand |
+| Newer stock, growing corridor | Pererenan, Cemagi | Active development, and heavy competing supply |
+
+## The three questions that decide it
+
+**How long are you holding?** Under five years, liquidity matters more than price, which points to Canggu and Seminyak. Over ten, entry price matters more, which points north and west.
+
+**Do you need income from year one?** If yes, buy where guests already are. Buying ahead of demand is a capital strategy, not an income one.
+
+**Will you live in it?** If yes, drive the commute to the school, the hospital and the airport at the worst hour of the day before you decide. Bali distances are measured in minutes, not kilometres, and the two diverge badly.
+
+## What does not decide it
+
+The area's growth story. Every area on this island has one, and they are told with equal confidence about places that went on to triple and places that went nowhere. Verify the plot, the title, the zoning and the demand that exists today.
+
 ## Common questions
 
 ### Where is the best place to buy property in Bali?

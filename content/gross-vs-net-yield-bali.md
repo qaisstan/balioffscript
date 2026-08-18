@@ -54,6 +54,45 @@ Then put the seller's own numbers into the [calculator](/calculator/) and compar
 
 > A projection is a marketing document. It is not a forecast, and it carries no obligation on anyone.
 
+## The gap, line by line
+
+Take a villa marketed at a gross yield. Here is what stands between that number and your bank account.
+
+| Deduction | Typical scale |
+| --- | --- |
+| Vacancy | The largest single item. Nobody runs at 100 percent |
+| Platform commission | Charged on every booking that comes through a channel |
+| Management fee | A percentage of revenue, plus what is billed separately |
+| Cleaning, laundry, consumables | Per stay, and it rises with turnover |
+| Staff | Villa staff, pool, garden, security |
+| Utilities | Including the months the villa sits empty |
+| Repairs and replacement | High in this climate. Pumps, air conditioning, timber, fabric |
+| Insurance | Building, contents, liability |
+| Tax | On the income, at whatever rate your structure attracts |
+| Sinking fund | The five-year refurbishment, provisioned annually |
+
+Gross yield counts none of these. It divides revenue by price and stops. That is not a return, it is a starting point.
+
+## Where projections mislead without lying
+
+Most Bali yield projections are not fabricated. They are constructed from real numbers arranged optimistically.
+
+The peak-season nightly rate applied across twelve months. Occupancy quoted as the platform average for the area rather than for a new listing with no reviews. Management fee stated as the headline percentage with the separately billed items omitted. No sinking fund at all, because the refurbishment is five years away and the projection covers three.
+
+Each assumption is defensible on its own. Stacked, they produce a number that has never happened.
+
+## Rebuild it yourself
+
+Ask for the last twelve months of actual statements from a genuinely comparable property: same area, same bedroom count, same age. Not a projection, not an average, actual statements.
+
+Then apply your own vacancy assumption, add every cost above, and provision the sinking fund. The number you get is the one to make a decision on.
+
+## Why the sinking fund matters most
+
+Tropical humidity, salt air and intense sun shorten the life of everything. Furniture, soft goods, paint, pool equipment and air conditioning all need replacing on roughly a five-year cycle if the property is to keep competing.
+
+Owners who did not provision for it take the hit in a single year, and that year looks like a loss. Owners who did simply have a slightly lower yield every year and no surprises. The second version is the honest number.
+
 ## Common questions
 
 ### What is a realistic net rental yield in Bali?

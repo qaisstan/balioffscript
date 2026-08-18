@@ -49,6 +49,43 @@ Then answer the question that comes first: on the specific plot or unit you are 
 
 Neither asset type is a good investment if the answer is no.
 
+## The structural difference
+
+| | Villa | Apartment |
+| --- | --- | --- |
+| Ownership route for a foreigner | Leasehold, or HGB via PT PMA | Hak Pakai on strata title, where you qualify |
+| Entry price | Higher | Lower |
+| Guest demand | Deep. Most visitors want a private pool | Thinner in a villa-led market |
+| Nightly rate | Higher | Lower |
+| Running costs | Staff, pool, garden, high maintenance | Service charge, far less to maintain |
+| Management intensity | High | Low |
+| Resale pool | Deep in the main corridors | Shallow |
+| Land value exposure | Yes, and it is the durable part | Minimal |
+
+## The case for apartments
+
+Strata-titled apartments are the simplest lawful ownership route for a qualifying foreigner: Hak Pakai, registered, in your own name, without a company. That alone removes a large amount of the complexity that catches villa buyers.
+
+They are also far cheaper to hold. No staff, no pool chemicals, no garden that grows back within a fortnight, and a building envelope somebody else maintains.
+
+## The case against
+
+Bali's tourism demand is built around private villas. An apartment competes for a smaller slice of guests, at lower rates, in a market where the alternative is a private pool for a modest premium.
+
+Resale is the harder problem. The local buyer pool for apartments is small and the foreign buyer pool mostly wants land. That combination makes exit slower and pricing weaker than the same money in a well-chosen villa.
+
+## Land is the part that lasts
+
+The durable value in Bali property is land, and an apartment gives you almost none of it. You own a right to a volume of air inside somebody else's building, in a climate that treats buildings harshly.
+
+Over a long hold, that difference compounds against you.
+
+## Who each suits
+
+An apartment suits a buyer who wants a lawful, low-maintenance base with modest capital, and who values simplicity over return.
+
+A villa suits a buyer with the capital to buy well-located land, the appetite to run an operating business, and a horizon long enough to make the land value matter.
+
 ## Common questions
 
 ### Is an apartment or a villa a better investment in Bali?

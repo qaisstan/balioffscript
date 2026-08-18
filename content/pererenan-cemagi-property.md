@@ -45,6 +45,36 @@ Pererenan is in Badung. Same enforcement posture, same permit timelines: 5–6 m
 
 Cheap land in Pererenan is usually cheap for a reason that appears in the spatial plan.
 
+## Where Pererenan sits
+
+Pererenan begins immediately north of the Perancak river, which is the boundary that has kept it distinct from Canggu. Cemagi continues further north and west, quieter again, and Seseh sits between them at the coast.
+
+The corridor was rice fields until roughly 2019. Everything you see was built inside six years, which explains both the appeal and the risk.
+
+## What is driving the development
+
+| Driver | Effect on the market |
+| --- | --- |
+| Canggu saturation | Buyers priced out or put off by traffic moved north |
+| Land availability | Larger plots, still subdividable, still cheaper than Berawa |
+| New schools | Families anchoring here rather than commuting |
+| Road access | Improving, though still the corridor's main constraint |
+| Beach | Uncrowded compared with Batu Bolong |
+
+## The supply question
+
+The honest problem with Pererenan is that a large number of very similar properties are being built at once. Three-bedroom villa, private pool, open-plan living, black-and-wood finish, rice-field view. When two hundred of them list on the same platform in the same six-month window, they compete on price, because nothing else distinguishes them.
+
+That does not make the area a bad buy. It makes the generic product a bad buy. A plot with an unrepeatable outlook, a design that is not the standard template, or a size the market is not building at all sits in a different competitive position entirely.
+
+## Verify before you commit
+
+- The zoning colour on the specific parcel, not the neighbourhood
+- Access road width, because construction access and guest access are different problems
+- Drainage and standing water in wet season, which the corridor has struggled with
+- How many comparable villas are under construction within one kilometre
+- Whether the rice-field view in front of you is on land already sold
+
 ## Common questions
 
 ### Is Pererenan a good place to buy in Bali?

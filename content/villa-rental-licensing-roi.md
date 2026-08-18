@@ -50,6 +50,41 @@ Ask for audited occupancy on existing units, not projections. If the answer is a
 
 > Underwrite on net, after tax, after management, after amortisation, at realistic occupancy rather than peak. If it still works, it is a real investment.
 
+## Licensing is a valuation input, not paperwork
+
+A villa that can lawfully sell nights and a villa that cannot are different assets, and the gap between them is most of the price.
+
+Yet rental licensing is routinely presented as an administrative step to be handled after purchase. It is not. It determines whether the income in the projection can legally exist.
+
+## What has changed
+
+On 22 July 2026 Bali closed 18 low-risk business classifications to new PT PMA registration. Four of them were the codes this market was built on: villa, homestay, real estate and management consultancy.
+
+The closure does not cancel existing licensed companies and it does not stop a foreigner holding land. It stops a **new** foreign-owned company registering those activities, which changes how any new project must be structured on the operating side.
+
+## The questions to ask before you buy
+
+- Is there a licence, and does it cover **this** building at **this** address?
+- Is the NIB active on OSS, not suspended or revoked?
+- Have the codes migrated to KBLI 2025?
+- Does the registered activity honestly describe how the property is actually run?
+- Does the licence transfer with the sale, or does it belong to an entity that is not part of the deal?
+- Do PBG and SLF exist for the building the licence supposedly covers?
+
+That last pair matters more than buyers expect. An operating licence rests on a building that is lawfully approved and certified. Without PBG and SLF, the licence is exposed regardless of what the certificate says.
+
+## The enforcement position
+
+Regional authorities can issue warnings, suspend operations and close premises directly. The financial damage is not the penalty, it is a property sitting closed while its fixed costs continue.
+
+An owner in that position has a villa with a full cost base and no revenue, which is the worst configuration this asset can be in.
+
+## How to price it
+
+If the licence is absent or non-transferable, the villa should be valued on land plus depreciated building, with the rental income treated as zero until the path to a lawful licence is verified and costed.
+
+Sellers will argue the point. The argument to hold is simple: income you cannot lawfully earn is not income, and you are being asked to pay for it today.
+
 ## Common questions
 
 ### Do you need a licence to rent a villa in Bali?

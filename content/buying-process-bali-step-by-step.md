@@ -72,6 +72,44 @@ On a lease, the **owner generally remains responsible for land and property tax*
 
 Confirm who pays what, in writing, and confirm the PBB receipts are current before you sign.
 
+## The stages
+
+| Stage | What happens | Typical duration |
+| --- | --- | --- |
+| Structure decision | Hak Pakai, leasehold, or PT PMA and HGB | Before you view anything |
+| Search and viewing | Plots or properties, ideally seen twice | Weeks to months |
+| Notary appointment | You appoint a PPAT; the seller does not choose yours | Days |
+| Due diligence | Certificate, zoning, boundaries, access, charges | 1 to 3 weeks if clean |
+| Conditional agreement | Terms, price, payment schedule, refund conditions | Days |
+| Deposit | Only after diligence, only against written conditions | |
+| Funds transfer | Traceable, from your account to the registered owner | Days |
+| Deed execution | Signed before the PPAT | One appointment |
+| Registration | The land office records the transfer | Weeks |
+
+A clean titled transfer moves in weeks. Anything touching inheritance, unregistered land, disputed boundaries or zoning questions takes considerably longer, and those are the transactions where rushing costs the most.
+
+## Due diligence, specifically
+
+- The certificate is genuine and current, verified at the land office
+- The seller is the registered owner, or holds documented authority to sell
+- Spouse consent where the land is marital property
+- No mortgage, caveat or other registered charge
+- Remaining term, if the title is term-limited
+- Zoning designation on this parcel, for the use you intend
+- Boundaries walked and matched to the certificate
+- Registered access rights
+- For built property: PBG and SLF, and any operating licence
+
+## Where money is actually lost
+
+Almost never at the deed. Almost always at the deposit, paid early, on trust, before verification, into an account nobody can identify, with no written condition allowing its return.
+
+A deposit should be refundable if a defined check fails, and the checks should be named in the document. If a seller will not agree to that, they are telling you something about what the checks would find.
+
+## Use your own people
+
+The agent introducing the property, the notary drafting the deed and the person verifying the title should not all be arranged by the seller. Independent review costs a small fraction of the purchase price and is the only line item that exists purely to protect you.
+
 ## Common questions
 
 ### How long does it take to buy property in Bali?

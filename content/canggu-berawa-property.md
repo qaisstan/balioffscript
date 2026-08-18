@@ -48,6 +48,38 @@ Budget that time and cost into any deal where permits are incomplete. It is not 
 
 If the yield projection assumes nightly rental, the licensing question comes before the numbers. Run the numbers anyway. The [ROI calculator](/calculator/) will show you what Canggu actually returns after costs.
 
+## The Canggu sub-areas
+
+Canggu is not one place. The sub-areas behave differently enough that a price quoted for "Canggu" tells you almost nothing.
+
+| Sub-area | Character | Position |
+| --- | --- | --- |
+| Berawa | Most built-up, beach clubs, commercial density | Highest prices, heaviest traffic |
+| Batu Bolong | The walkable cafe strip, surf break | High, strong rental demand |
+| Echo Beach | Surf-led, slightly calmer | Strong, more seasonal |
+| Padang Linjong and inland | Residential, quieter | Meaningfully cheaper |
+| Tumbak Bayuh | Inland, rice fields, longer commute | Lowest in the area |
+
+Moving one kilometre inland from Batu Bolong changes the price materially and changes the nightly rate less than buyers expect, which is where some of the better arithmetic in Canggu sits.
+
+## Why Canggu still works
+
+It has the deepest and most reliable guest demand on the island, the deepest resale market, and the largest pool of both renters and buyers. If you need to exit, Canggu is where an exit actually exists. That liquidity is worth real money and is routinely underweighted by buyers chasing yield further out.
+
+## Why Canggu is harder than it was
+
+Supply of the standard three-bedroom pool villa has grown faster than guest nights. Nightly rates in that segment have flattened while build costs and land prices have not. The result is compressed yields on generic product.
+
+Traffic is the second issue, and it is now a commercial factor rather than an inconvenience. A property two kilometres from a beach club that takes twenty-five minutes to reach at six in the evening gets that reflected in its reviews and its repeat bookings.
+
+## What to check in Canggu
+
+- Which sub-area, precisely, and how far to the nearest beach access on foot
+- The route out at peak hours, driven at peak hours
+- Remaining lease term, since much of Canggu's stock is leasehold with years already run
+- Whether a nightly rental licence exists and covers this building
+- How many identical villas list within 500 metres
+
 ## Common questions
 
 ### Is Canggu still a good place to buy?

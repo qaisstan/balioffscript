@@ -48,6 +48,41 @@ Before you transfer anything, [run through the list](/check/). If something on i
 
 Send me the deal first. It costs you nothing to have someone look.
 
+## Where the money actually goes wrong
+
+The losses in this market are rarely exotic. They cluster in a handful of ordinary situations, and almost all of them happen before the deed is ever signed.
+
+| Failure | How it happens |
+| --- | --- |
+| Deposit paid too early | Money moves before verification, on the strength of urgency |
+| Paid to the wrong party | An agent's account, a company you cannot identify, a relative |
+| No refund condition | The contract is silent, so the deposit is simply gone |
+| Seller does not own it | The person signing is not the registered holder |
+| Structure is unlawful | A nominee arrangement that cannot be enforced |
+| Off-plan non-completion | A newly formed developer with no assets behind the contract |
+
+## The rules that prevent almost all of it
+
+**Verify before you pay, not after.** Every check that matters can be completed in one to three weeks on a clean title. Nobody who is genuinely selling will lose a deal over that.
+
+**Pay the registered owner, traceably.** Bank transfer, from your account, to the person named on the certificate. No cash, no third parties, no accounts held "for convenience" by an intermediary.
+
+**Condition every payment.** Each tranche should be tied to a verification milestone that has actually been met, with the refund position written down.
+
+**Appoint your own people.** Your notary, your legal review. The party introducing the property should not also be the party confirming it is sound.
+
+## On urgency
+
+Manufactured urgency is the most reliable warning sign in this market. Another buyer is looking, the price rises Monday, the owner needs to close this week.
+
+Land that has been listed for months does not become urgent because you walked onto it. If a seller will not allow the time for standard verification, the verification is the reason.
+
+## Off-plan needs more
+
+Buying something that does not exist yet stacks every risk above on top of construction and counterparty risk. If you go ahead, tie payments to independently inspected milestones, confirm the land title and PBG exist before any deposit, and look hard at what the developer has actually completed before, under the same company name.
+
+A render is not a building, and a company incorporated last year has nothing behind its promises.
+
 ## Common questions
 
 ### How do you protect your money when buying in Bali?

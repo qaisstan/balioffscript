@@ -42,6 +42,38 @@ Against leasehold: a real registered title, mortgageable, administrative renewal
 
 Against a PT PMA: much simpler and cheaper to run, no quarterly investment reports, no corporate tax returns, no annual accounting, but no rental business.
 
+## Why Hak Pakai matters
+
+Hak Pakai is the only route by which a foreign individual holds a registered land right in Indonesia in their own name. Not through a company, not through a contract with a landowner, and not through anyone else. Your name, on a certificate, at the land office.
+
+For a home, that is a materially stronger position than a lease, and it is the position most buyers assume they are getting when they are actually being offered something else.
+
+## The conditions
+
+| Requirement | Position |
+| --- | --- |
+| Residency | Valid Indonesian residency, typically KITAS or KITAP |
+| Use | Residential. It is a residence title, not a business vehicle |
+| Minimum value | Applies to houses and apartments, set by regulation and revised periodically |
+| Quantity | Limited; it is intended for a home, not a portfolio |
+| Term | Granted for a defined period with extension and renewal rights |
+
+The minimum value thresholds and the term lengths have both been revised more than once. Read them off the current regulation and off the certificate itself rather than from an article, including this one.
+
+## Hak Pakai over Hak Milik land
+
+A common structure converts a portion of a freehold parcel to Hak Pakai in the foreign buyer's name, with the underlying Hak Milik remaining with the Indonesian owner. This is lawful and is registered. What matters is that the conversion is actually completed and recorded, not merely agreed.
+
+Buyers have paid for Hak Pakai and received a promise of it. The certificate is the product. Until it is issued in your name, you hold a contract.
+
+## What Hak Pakai does not do
+
+It does not permit you to run a nightly rental business. Accommodation is a licensed commercial activity, assessed separately, and a residence title does not contemplate it.
+
+It does not survive the loss of your residency indefinitely. If your permit lapses and is not replaced, the basis on which you hold the title is affected, and there are disposal timeframes to be aware of.
+
+It does not pass freely to foreign heirs. Inheritance of a title a foreigner cannot lawfully hold triggers a disposal requirement within a set period, which is among the most overlooked items in Bali estate planning.
+
 ## Common questions
 
 ### What is Hak Pakai?

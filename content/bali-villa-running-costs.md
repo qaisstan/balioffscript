@@ -53,6 +53,43 @@ Then put your figure into the [calculator](/calculator/) and see what it does to
 
 > If a seller cannot produce twelve months of bills for a villa they say has been running successfully, consider what that means.
 
+## The cost base of a villa
+
+| Category | Notes |
+| --- | --- |
+| Staff | Villa manager, housekeeping, pool, garden, security. Often the largest fixed cost |
+| Management fee | A percentage of revenue, plus items billed separately |
+| Platform commission | On every channel booking |
+| Cleaning and laundry | Per stay; rises with shorter average stays |
+| Consumables | Amenities, kitchen supplies, cleaning materials |
+| Utilities | Electricity is the big one; air conditioning and pool pumps dominate |
+| Pool | Chemicals, pump servicing, periodic resurfacing |
+| Garden | Continuous in this climate; growth is relentless |
+| Repairs | Frequent. Humidity, salt and UV shorten everything's life |
+| Insurance | Building, contents, public liability |
+| Compliance and tax | Licensing, filings, income tax |
+| Sinking fund | Provision for the five-year refurbishment |
+
+## Why Bali is harder on buildings than buyers expect
+
+Humidity attacks timber, adhesives and electronics. Salt air corrodes fittings, hinges, pool equipment and air conditioning coils, and it reaches further inland than people assume. Intense UV degrades fabric, paint and outdoor furniture within a couple of seasons. Wet season drives water into anything imperfectly sealed.
+
+The practical consequence is a maintenance rate several times what the same building would need in a temperate climate, and a refurbishment cycle measured in years rather than decades.
+
+## Electricity deserves its own line
+
+Air conditioning across multiple bedrooms, a pool pump running daily, water heating and a kitchen produce bills that surprise owners who budgeted from a residential baseline. It rises with occupancy, which means it rises exactly when the villa is earning, but it does not fall to zero when empty.
+
+## The costs projections leave out
+
+Vacancy period utilities and staff. Bank charges and currency conversion on international transfers. Marketing and photography refreshes. Replacement linen, which wears out faster than anything else in the property. Void periods during refurbishment. Anything billed by the manager outside the headline percentage.
+
+## Ask for statements, not estimates
+
+The single most useful document in a Bali villa purchase is twelve consecutive months of actual operating statements from a comparable property. Not a budget, not a projection, not an average for the area. Statements.
+
+If nobody will show you one, that itself is the information.
+
 ## Common questions
 
 ### What does it cost to run a villa in Bali?
