@@ -54,6 +54,47 @@ Bali is safe in the way that matters to most people and dangerous in one specifi
 
 Treat the roads with the respect you would give a motorbike anywhere else in the world, get insurance that actually covers you on one, and the rest of it is mostly noise.
 
+## The honest risk ranking
+
+| Risk | Reality |
+| --- | --- |
+| Road traffic | By far the largest. Scooter accidents dominate serious injury to foreigners |
+| Water | Strong currents and rip tides on the west and south coasts |
+| Petty theft | Occasional. Bag snatching from scooters, unlocked villas |
+| Alcohol and drugs | Methanol incidents occur; drug penalties are severe |
+| Violent crime | Rare against foreigners |
+| Natural events | Seismic and volcanic activity; infrequent but real |
+
+Most safety advice about Bali focuses on the bottom of that list. The top of it is what actually sends people home injured.
+
+## Roads
+
+Dense traffic, loose lane discipline, unlit roads and inexperienced riders combine badly. Wet season sharpens it further, since surfaces go slick within seconds of rain starting.
+
+Wear a proper helmet, hold the correct licence endorsement, and check whether your insurance covers motorbike accidents at all. Many policies do not, and a denied claim after a serious accident is financially catastrophic.
+
+## Water
+
+The west and south coast beaches have genuine rip currents. Swim where there are flags and lifeguards, and treat the absence of both as information rather than freedom.
+
+## Solo travellers
+
+Bali compares favourably with most of Southeast Asia and much of Europe for solo travellers, including women. Ordinary night-time precautions apply, particularly around drink spiking in the busier nightlife areas.
+
+## Drugs
+
+Indonesian drug penalties are severe and are applied to foreigners. This is not an area where local tolerance or a good lawyer changes the outcome, and it is worth being unambiguous about.
+
+## Health and medical
+
+Routine care is good and affordable. Complex care is thinner, and evacuation to Singapore runs USD 55,000 to 100,000.
+
+Carry insurance with at least USD 100,000 to 250,000 of evacuation cover, named explicitly, direct billing with local hospitals so you are not paying up front, and explicit cover for scooter accidents.
+
+## For property buyers
+
+Safety intersects with location choice. Proximity to hospitals matters more than most buyers weigh it, which is a large part of Sanur's case for families and older residents. So does road quality and lighting on the route home, which is easy to assess and rarely assessed.
+
 ## Common questions
 
 ### Is Bali safe for tourists in 2026?

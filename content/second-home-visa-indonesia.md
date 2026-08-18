@@ -70,6 +70,44 @@ A long stay makes you an Indonesian tax resident regardless of visa category. Re
 
 That is a conversation with a tax adviser before the money moves, not after.
 
+## The basis
+
+The Second Home visa is a long-stay permit for financially self-supporting foreigners. It does not require an employer, a company, or a family sponsor, which is its main attraction.
+
+Qualification rests on one of two things: a substantial deposit held in an Indonesian state bank, or ownership of qualifying property in Indonesia at a minimum value.
+
+Both figures have been revised since the visa launched, and the deposit requirement in particular attracted enough criticism that it was reconsidered. Verify the current level before planning around it.
+
+## What it gives and does not give
+
+| | Position |
+| --- | --- |
+| Residence | Long-stay, multi-year validity |
+| Work | Not permitted. It is not a work permit |
+| Sponsorship | None required, which is the point |
+| Property | Residency supports Hak Pakai, as any valid residency does |
+| Renewal | On continued satisfaction of the financial basis |
+
+## The capital cost
+
+A deposit sitting in an Indonesian state bank is capital not working elsewhere. Assess what that costs you annually against the alternative permits, because for many people it is a larger number than they first calculate.
+
+Where qualification is based on property ownership rather than a deposit, the capital is at least in an asset you chose. That route generally suits property buyers better than parking cash.
+
+## Who it suits
+
+People with capital, no employment tie to Indonesia, and no wish to run a PT PMA or arrange a sponsor. Retirees who do not meet the retirement route's criteria, and people who want residence without the annual sponsorship cycle.
+
+## Who it does not suit
+
+Anyone who needs to earn here, anyone who would be better served by an investor KITAS attached to a business they actually run, and anyone who cannot comfortably immobilise the required capital.
+
+## The recurring point about property
+
+The visa does not change what you may own. No permit converts a foreigner into someone who can hold Hak Milik. What residency does is open Hak Pakai, and that is true of the Second Home visa, a KITAS, and KITAP equally.
+
+Choose the permit on cost, duration and what you intend to do. The property position is the same across all of them.
+
 ## Common questions
 
 ### What is the Second Home visa?

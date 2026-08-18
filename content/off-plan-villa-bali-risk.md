@@ -68,6 +68,48 @@ Land → owner → agreement → zoning → permitted use → classification →
 
 Off-plan asks you to pay at the start of that chain and trust the rest. That can be a reasonable trade at the right discount, with the right developer, on a plot where the chain demonstrably works. It is not reasonable on assurances.
 
+## What you are actually signing
+
+Off-plan means paying today for a building that does not exist, on land you do not control, on the strength of a contract with an entity whose capacity to perform you may not have verified.
+
+Every risk in Bali property is present, plus construction risk, plus counterparty risk. It is the highest-risk configuration available in this market, and it is marketed as the most attractive.
+
+## The failure modes
+
+| Risk | What it looks like |
+| --- | --- |
+| Non-completion | Funds spent, structure unfinished, developer unable to continue |
+| Specification downgrade | Delivered finishes below what was shown |
+| Delay | Handover slipping by quarters, with no compensation mechanism |
+| Permits never obtained | The building cannot lawfully be used or licensed |
+| Title problems | The land right is not what was represented |
+| Yield shortfall | Guaranteed returns that stop being paid |
+| Counterparty failure | A newly formed company with no assets behind its promises |
+
+## Guaranteed returns deserve particular scepticism
+
+A guaranteed yield is only as good as the entity guaranteeing it. If that entity is a special purpose company formed for this project, with no assets beyond the project itself, the guarantee is worth what the company is worth when the guarantee is called.
+
+Ask who is guaranteeing it, what they hold, and what happens if the project underperforms. If the answer is that the developer will cover shortfalls from other projects, ask to see those projects.
+
+## Diligence that actually helps
+
+- Confirm the land title exists and is held by the entity you are contracting with, before any deposit
+- Confirm PBG has been issued for the design being sold
+- Look at what the developer has **completed** before, under the same company name, and visit it
+- Speak to buyers from a previous project the developer did not select for you
+- Check who the shareholders and directors actually are
+
+## Structure the payments
+
+Tie every tranche to an independently inspected construction milestone, verified by someone you appointed and pay. Not by the developer's own project manager, and not by photographs.
+
+Front-loaded payment schedules transfer your leverage to the developer at the start. Once they hold most of the money, your ability to compel completion is whatever the contract gives you against a company that may hold nothing.
+
+## The honest position
+
+Off-plan works when the developer is established, the land and permits are verified, and payments follow inspected progress. It fails when buyers pay for renders on the strength of a brochure and a promise.
+
 ## Common questions
 
 ### Is buying off-plan in Bali safe?

@@ -39,6 +39,44 @@ A PT PMA that holds a villa, files nothing and reports no activity is not invisi
 
 > If the only thing your company does is hold a house you live in, check whether Hak Pakai does the job. It has no annual compliance load at all.
 
+## The obligations that never stop
+
+A PT PMA is a company, and companies file. These obligations accrue whether or not the business trades, earns, or has a single guest.
+
+| Obligation | Frequency |
+| --- | --- |
+| Investment activity report (LKPM) | Quarterly for most classifications |
+| Corporate income tax return | Annual |
+| Monthly tax filings | Monthly, including nil returns |
+| Employee tax and social security | Monthly, where you have staff |
+| Financial statements | Annual |
+| NIB and licence currency | Continuous; codes must remain valid and migrated |
+| Shareholder and director records | Updated on change |
+
+## Why the reporting matters more than the tax
+
+Penalties for missed filings escalate from warnings toward suspension of the business licence. A suspended NIB stops the company operating, which for a villa business means the property cannot lawfully sell nights while its fixed costs continue.
+
+That is a far more expensive outcome than any fine, and it arrives from paperwork rather than from anything commercial.
+
+## The dormant company trap
+
+Owners who form a PT PMA for a project that stalls frequently let it go quiet: no trading, no filings, no attention. The company does not go dormant by itself. Obligations continue accruing, penalties compound, and the eventual cost of regularising or closing it exceeds what proper maintenance would have cost.
+
+If the project is not proceeding, closing the company properly is usually the cheaper decision. Closing it also takes time, so starting early matters.
+
+## Budget it from year one
+
+Accounting, monthly and annual tax filing, LKPM reporting, financial statement preparation and corporate secretarial work are recurring costs. They belong in your yield model as a fixed annual line, alongside insurance and staff.
+
+Buyers who model a PT PMA structure without these costs are modelling a company that does not comply.
+
+## Keep the classifications current
+
+The KBLI system was renumbered under BPS 7/2025 and the migration deadline of 18 June 2026 has passed. Separately, Bali closed 18 classifications to new foreign-owned registration on 22 July 2026.
+
+Neither cancels a valid existing licence where the underlying business has not changed, but both mean an NIB should be checked rather than assumed. An NIB still displaying 2020 codes is worth verifying before you rely on it.
+
 ## Common questions
 
 ### What are the annual obligations of a PT PMA?

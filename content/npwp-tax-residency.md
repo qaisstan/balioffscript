@@ -43,6 +43,42 @@ Get a registered Indonesian tax consultant to look at your actual circumstances 
 
 > This is the topic where the gap between what people do and what the rules say is widest in Bali. That gap has been closing steadily since 2024.
 
+## What the NPWP is for
+
+The NPWP is the Indonesian taxpayer identification number. Without one you cannot file, and a range of ordinary transactions become harder or more expensive: property transfers, company obligations, banking, and in some cases withholding is applied at a higher rate.
+
+For anyone holding property, running a PT PMA or living here beyond a short stay, it is a practical necessity rather than an option.
+
+## The 183-day test
+
+Physical presence beyond 183 days in a twelve-month period generally establishes Indonesian tax residence. There are additional tests around intent to reside and the location of your centre of interests, but presence is the one that catches people.
+
+The consequence is not administrative. Residence changes the basis on which you are assessed and the rates that apply, and it can bring foreign income into scope in ways non-residence does not.
+
+## Why people get this wrong
+
+Two assumptions do the damage.
+
+The first is that visa status determines tax status. It does not. Immigration and taxation are separate systems with separate tests, and it is entirely possible to be a tax resident while holding a permit that says nothing about tax.
+
+The second is that income paid abroad, by a foreign employer, into a foreign account, is outside the Indonesian system. Residence is about the person, not the payment route.
+
+## If you are on the E33G or living here long-term
+
+The remote worker permit is explicitly for foreign-sourced income, and holders often assume that settles the tax question. It settles the permit question. The 183-day test still applies to you as an individual.
+
+## What to do about it
+
+- Track your days in and out of Indonesia. Actually track them, with dates
+- Establish your position before it becomes historical, because retrospective fixes are expensive
+- Check whether a double taxation treaty exists between Indonesia and your home country, and what it does
+- Register for an NPWP if you hold property or a company here
+- Take local advice on the specific facts rather than reasoning from a general article
+
+## Reporting obligations follow
+
+Tax residence brings filing obligations, not just liability. Filing late or not at all accrues penalties independently of whether tax was actually owed.
+
 ## Common questions
 
 ### What is an NPWP?

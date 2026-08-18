@@ -62,6 +62,53 @@ For everyday life, healthcare here is a non-issue and often better value than ho
 
 For the one bad day, you are underinsured unless you deliberately arranged not to be. That is the whole calculation.
 
+## What the system looks like
+
+| Provider | Position |
+| --- | --- |
+| BIMC (Nusa Dua, Kuta) | International standard, highest cost, used to foreign patients |
+| Siloam | Good quality, lower cost, multiple locations |
+| Bali International Hospital (Sanur) | Opened 2024 for complex cases previously requiring travel abroad |
+| Public hospitals | Inexpensive, variable, language a barrier |
+| Local clinics | Fine for minor issues, cheap and quick |
+
+## Costs without insurance
+
+| Service | USD |
+| --- | --- |
+| Consultation | 40 to 100 |
+| Emergency room visit | 150 to 300 |
+| Standard room, per night | 300 to 500 |
+| Intensive care, per night | 1,500 to 2,500 |
+| Standard emergency case, total | 5,000 to 25,000 |
+| Medical evacuation to Singapore | 55,000 to 100,000 |
+
+Those last two lines are why insurance is not optional here.
+
+## What your policy must include
+
+- **Evacuation cover of at least USD 100,000 to 250,000**, named explicitly, not implied
+- **Direct billing** with local hospitals, so you are not paying up front and reclaiming
+- **Explicit cover for motorbike accidents**, which many policies exclude entirely, and most of the rest exclude unless you hold the correct licence endorsement
+- Adequate limits for children, which are sometimes lower than adult figures
+- Clarity on pre-existing conditions, particularly for older applicants
+
+The motorbike clause is the one that catches people. Scooter accidents are the leading cause of serious injury to foreigners in Bali, and they are the injury most policies are written to avoid covering.
+
+## What Bali does well
+
+Routine and everyday medicine. Consultations are fast, cheap and English-speaking at the private hospitals. Dentistry, physiotherapy, diagnostics and minor procedures are good value, and many residents deliberately handle these here rather than at home.
+
+## What it does less well
+
+Complex surgery, oncology, cardiac intervention and specialist paediatrics. Bali International Hospital was built to close that gap and has improved matters materially, but for the most complex cases Singapore remains the reference point.
+
+## The practical plan
+
+Register with a hospital before you need one. Know which one you would go to at 2am, know how you would get there, and keep your policy details somewhere you or someone with you can find them quickly.
+
+For anyone older, or with a family, hospital proximity should factor into where you choose to live. It is a large part of why Sanur suits retirees and families.
+
 ## Common questions
 
 ### Is healthcare in Bali good?

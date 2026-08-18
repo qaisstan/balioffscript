@@ -65,6 +65,42 @@ Two things follow from a restructure of this size.
 
 Figures in circulation, income thresholds, deposits, minimum investments, are revised periodically. Anything you read anywhere, including here, should be confirmed against the live official page before you file or transfer money.
 
+## The permits, at a glance
+
+| Permit | For | Work permitted |
+| --- | --- | --- |
+| Visitor visa | Tourism, property viewing, meetings | No |
+| E33G | Remote work for a foreign employer | Foreign income only |
+| E28A investor KITAS | Shareholders in an Indonesian company | Depends on role and authorisation |
+| Work KITAS | Employment by an Indonesian company | Yes, with the sponsoring employer |
+| Family KITAS | Dependants of a sponsor | No |
+| Retirement route | Qualifying retirees | No |
+| Second Home | Self-supporting long stay | No |
+| Golden Visa | Investors at defined thresholds | Depends on structure |
+| KITAP | Permanent stay after qualifying periods | Depends on category |
+
+## The pattern worth noticing
+
+Most of these permits do not allow you to work. The visitor visa, family KITAS, retirement route and Second Home visa all grant presence, not the right to earn.
+
+That is the single most misunderstood feature of the Indonesian system, and since the Dharma Dewata task force became operational on 15 April 2026 it has become the most consequential. Roughly 100 officers across Canggu, Ubud, Seminyak, Kerobokan and Uluwatu detained 62 foreign nationals in the first three weeks.
+
+## Overstay
+
+Daily fines accrue from the first day. Longer overstays escalate toward detention, deportation and a re-entry ban.
+
+It is not a fee you can elect to pay in exchange for staying longer, and treating it that way has become considerably more expensive.
+
+## Rules change often
+
+Thresholds, categories and criteria in this area have been revised repeatedly, and several of the newer routes have already had their requirements adjusted after launch.
+
+Anything you read about Indonesian visas, including here, should be checked against the current official source before you act on it. The direction of travel has been toward more defined categories and firmer enforcement, but the specific numbers move.
+
+## Choosing
+
+Start from the activity, not the duration. Decide what you will actually do here, find the permit that authorises it, and hold the evidence supporting it. Choosing a permit because it lasts longer, and then doing something it does not cover, is how people end up deported.
+
 ## Common questions
 
 ### What visas are available for Indonesia in 2026?

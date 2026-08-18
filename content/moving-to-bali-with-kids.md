@@ -65,6 +65,49 @@ It is also administratively heavier than home, medically thinner, and considerab
 
 Families who plan for the real number stay. Families who plan for the blog-post number leave in year two.
 
+## The budget, realistically
+
+| | Monthly, USD |
+| --- | --- |
+| Comfortable single | 1,800 to 2,500 |
+| Couple | 2,500 to 3,500 |
+| Family, children in international school | 4,000 to 6,500 |
+
+School fees account for almost all of the difference. Established international schools run USD 15,000 to 28,000 per child per year, and the all-in figure including registration, transport and lunch reaches USD 8,000 to 28,000 per child.
+
+## The sequence that works
+
+1. **School place first.** Apply early; the established schools have waiting lists
+2. **Housing near it**, with the school run driven at the actual hour
+3. **Insurance**, with evacuation cover and child limits checked explicitly
+4. **Rent for a year** before buying anything at all
+
+Families who reverse this end up living an hour from the school they eventually get into.
+
+## Healthcare with children
+
+Routine paediatric care is good and inexpensive. The gap is complex and critical care.
+
+Check your policy for evacuation cover of at least USD 100,000 to 250,000, named explicitly, and confirm the limits that apply to children specifically, which are sometimes lower than the adult figures. Direct billing with local hospitals matters too, so you are not funding a paediatric emergency on a credit card.
+
+BIMC and Siloam handle everyday cases well. Bali International Hospital opened in Sanur in 2024 for the complex cases that previously required flying abroad.
+
+## Where families settle
+
+**Sanur** is the most family-oriented: hospitals close, calm shallow water, light traffic, and a longer-term resident community.
+
+**The Canggu and Pererenan corridor** has the schools serving recently arrived families and the most active social scene, with the worst traffic.
+
+**Ubud** suits families drawn to the creative and sustainability-focused schools, with everything a longer drive away.
+
+## The advantages are real
+
+Outdoor life year round, small class sizes, an international peer group, and children who grow up comfortable across cultures. Domestic help is affordable in a way it is not at home, which changes what family life feels like day to day.
+
+## The costs are real too
+
+Transience. Your children's friends leave, repeatedly, and so do their teachers. Medical thinness for anything serious. Administrative overhead in a system that changes. And your family's presence rests on renewable permits rather than a permanent right to be here.
+
 ## Common questions
 
 ### How much does it cost for a family to live in Bali?

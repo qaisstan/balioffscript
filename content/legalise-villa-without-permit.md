@@ -73,6 +73,45 @@ Past operation is never evidence of current compliance. When the property change
 
 Buying an unpermitted villa can be a good deal. It is only a good deal if you priced the year it takes to fix.
 
+## First, establish what is wrong
+
+Not all unpermitted buildings have the same problem, and the difference decides whether anything can be done.
+
+| Situation | Prospect |
+| --- | --- |
+| Documentation never completed, building complies | Usually regularisable |
+| Built to a different design than approved | Often resolvable, with revised approval |
+| Extension added outside the approval | Depends on whether it fits the envelope |
+| Breaches KDB, KLB or height limits | Difficult; may require partial demolition |
+| Inside a setback from road, river or coast | Generally not fixable |
+| Wrong zoning for the use | Not fixable |
+
+The first three are paperwork problems with a cost attached. The last three are not problems with the paperwork, they are problems with the building.
+
+## The process
+
+Regularisation means bringing the building into the current approval system: as-built drawings prepared by qualified professionals, assessment against the spatial plan and technical standards, and application for approval and subsequently SLF.
+
+It is slower and more expensive than getting PBG in the first place, and the outcome is not guaranteed.
+
+## If you are buying
+
+Do not accept "it can be legalised" as an assurance. Get it verified before you commit, by someone you appointed, and get the cost and timeline estimated.
+
+Then price the property on land plus depreciated structure, with rental income at zero until the licence position is resolved. That is the honest valuation of an asset that cannot currently earn lawfully.
+
+Sellers resist this strongly, because the income is what justifies their price. That resistance is the negotiation.
+
+## If you already own it
+
+Address it rather than waiting. The position has been tightening, not loosening, and regional authorities can issue warnings, suspend operations and close premises directly.
+
+A closed villa carries its full cost base and earns nothing, which is a worse outcome than the cost of regularising while you still have the choice.
+
+## What it affects
+
+Insurance, financing, the operating licence, utilities connections and resale all rest on a lawfully approved building. An unpermitted villa is not one problem, it is the same problem appearing in five places.
+
 ## Common questions
 
 ### Can you legalise a villa built without a permit in Bali?

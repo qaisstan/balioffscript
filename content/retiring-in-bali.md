@@ -46,6 +46,45 @@ Do the visa first. It costs less to discover a problem before you have committed
 
 If you want a second opinion on a specific plan, send it over.
 
+## The routes available
+
+| Route | Broad basis |
+| --- | --- |
+| Retirement permit | Minimum age, plus income or savings evidence |
+| Second Home visa | Substantial deposit in an Indonesian state bank, or qualifying property |
+| Golden Visa | Higher investment thresholds, longer validity |
+| KITAP | Permanent stay, after qualifying periods on a KITAS |
+
+The age and financial tests for the retirement route have both been revised more than once. Confirm the current figures against the official source before planning around them.
+
+## What it actually costs to live
+
+The visa threshold is not the budget. Plan the real one.
+
+| | Monthly, USD |
+| --- | --- |
+| Comfortable single | 1,800 to 2,500 |
+| Couple | 2,500 to 3,500 |
+| Health insurance | Rising sharply with age; get quotes before you commit |
+
+Health insurance is the line that changes most for retirees. Premiums climb with age, some policies impose entry age limits, and pre-existing conditions are frequently excluded. Establish what cover is available to you at your age **before** you make plans that depend on being here.
+
+## Healthcare is the real planning problem
+
+Routine care in Bali is good and inexpensive. A consultation runs USD 40 to 100. The main private hospitals speak English and handle everyday medicine well.
+
+Complex and critical care is thinner. Bali International Hospital opened in Sanur in 2024 specifically to address that gap, and it has improved the position materially. Even so, medical evacuation to Singapore runs USD 55,000 to 100,000, and your policy should carry at least USD 100,000 to 250,000 of evacuation cover, named explicitly.
+
+For anyone retiring here, that clause is more important than the visa.
+
+## The ownership advantage
+
+Holding valid residency opens Hak Pakai, the only route by which a foreigner holds a registered land right in their own name. That is a genuine practical benefit of a retirement permit over repeated visitor stays, and it is often overlooked in the visa comparison.
+
+## Practical advice
+
+Rent for a year first, including a wet season. Choose the area for hospital access and quiet rather than for the beach. Sanur is where most retirees end up, for reasons that become obvious the first time somebody needs a doctor at short notice.
+
 ## Common questions
 
 ### Can you retire in Bali as a foreigner?

@@ -46,6 +46,42 @@ Ask what the money is for.
 
 **Both?** They are rarely the same asset, and anyone telling you otherwise is selling one of them.
 
+## The comparison that actually matters
+
+| | Bali | Thailand | Portugal |
+| --- | --- | --- | --- |
+| Foreign freehold | No | Condominiums, within quota | Yes, unrestricted |
+| Land ownership | Leasehold, Hak Pakai, or HGB via company | Leasehold or company; land restricted | Full ownership |
+| Residency | Several routes, all activity-limited | Several, including long-stay | EU residency pathways |
+| Healthcare | Good routine, limited complex | Strong private sector | Mature public and private |
+| Cost of living | Low | Low | Moderate |
+| Rental yield | Higher headline, often gross and unlicensed | Moderate, more transparent | Lower, more regulated |
+| Regulatory stability | Volatile | Moderate | Stable |
+
+## Ownership is the structural difference
+
+Portugal lets you own property outright, as a foreigner, with the same rights as a citizen. Thailand lets you own a condominium freehold within the foreign quota of a building.
+
+Indonesia lets you own neither. Everything a foreigner does here is a right of use, a lease, or a company holding, and every one of them is term-limited.
+
+That single fact drives most of the rest. It explains why yields need to be higher here to compensate, why exit is harder, and why so much of the local advice industry exists to obscure it.
+
+## Regulatory volatility is the underrated risk
+
+In the space of one year Bali closed 18 business classifications to new foreign-owned companies, made facilitating nominee arrangements an offence, and deployed a dedicated immigration task force that detained 62 foreign nationals in three weeks.
+
+Portugal changed its golden visa rules too, and Thailand adjusts its long-stay categories. But the pace and reach of change here is a different order, and anyone underwriting a Bali investment on a ten-year view should price it.
+
+## Where Bali genuinely wins
+
+Rental demand for private villas is deeper than either alternative, land in the developed corridors is genuinely scarce, and the cost of building and operating is low. For an owner-operator who does the diligence properly, the returns available are real.
+
+## Where it loses
+
+If your priority is a secure, transferable, permanent asset that your children inherit without a disposal requirement, Bali is the wrong market and no structure fixes that.
+
+Choose Bali because you want the business and the life. Do not choose it because the headline yield beat Lisbon's, since that comparison is between a gross number and a net one.
+
 ## Common questions
 
 ### Is Bali or Thailand better for property investment?

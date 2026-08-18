@@ -58,6 +58,51 @@ Buying the land before confirming what it permits. It is the single most expensi
 
 Send me the parcel details and I will tell you what I would check before you buy it.
 
+## The order that keeps you out of trouble
+
+1. **Zoning** on the specific parcel, for the use you intend
+2. **Buildable envelope** after KDB, KLB, height limits and setbacks
+3. **Access** wide enough for construction vehicles, with registered rights
+4. **Design** drawn to what the envelope actually permits
+5. **PBG** obtained before any work starts
+6. **Build**, against inspected milestones
+7. **SLF** on completion
+8. **Operating licence**, if the villa is a business
+
+Every expensive villa failure in Bali is a version of doing these out of order. Designing before establishing the envelope wastes architect fees. Building before PBG risks a stop-work order or demolition.
+
+## Budgeting properly
+
+Construction is quoted per square metre and the range between basic and high specification is very wide. A single number tells you nothing.
+
+Insist the quote separates:
+
+| Element | Why separate |
+| --- | --- |
+| Structure and shell | The part least likely to vary |
+| Finishes | Where specification disputes happen |
+| Pool | Substantial, and often quoted vaguely |
+| Landscaping | Routinely underestimated |
+| Furniture and fit-out | Frequently excluded entirely from a headline price |
+| Professional fees | Architect, engineer, permits, supervision |
+| Contingency | 10 to 15 percent, and you will use it |
+
+## Contracts and payments
+
+Fixed price transfers risk to the builder and invites specification arguments. Cost-plus gives transparency and removes the builder's incentive to control cost. Either can work; what matters is that payments are tied to **inspected milestones** rather than to dates.
+
+Paying ahead of progress is the most reliable way to lose money on a Bali build. A contractor holding your money and behind on your project has every incentive to move to the next client's site.
+
+## Independent supervision
+
+Appoint someone whose only job is to represent you: an independent project manager or a qualified surveyor, paid by you, inspecting before each payment.
+
+Owners who supervise remotely, through photographs sent by the builder, consistently discover problems at handover that cost more to remedy than supervision would have cost across the entire build.
+
+## Timing
+
+A straightforward villa takes the better part of a year once permits are in hand. Wet season slows external work, material delivery is unpredictable, and permits themselves are the largest variable. Plan for longer than you are told.
+
 ## Common questions
 
 ### How much does it cost to build a villa in Bali?

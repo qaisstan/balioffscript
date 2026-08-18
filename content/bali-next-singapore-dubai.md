@@ -57,6 +57,43 @@ The case for buying cheap non-compliant ones on the assumption it will be regula
 
 > Bali is not becoming Dubai. It is becoming a market where legal position, rather than location, is the main determinant of value.
 
+## Why the comparison keeps getting made
+
+It is a good story, and it justifies almost any price. If Bali is early-stage Dubai, then today's land price is cheap regardless of what it is, and no further analysis is required.
+
+That is precisely what makes it useful to the people telling it.
+
+## Why it does not hold
+
+| | Singapore and Dubai | Bali |
+| --- | --- | --- |
+| Economic base | Finance, logistics, trade, deliberately built | Tourism, almost entirely |
+| Policy | Sovereign strategy, decades of consistency | Regional, and changing rapidly |
+| Foreign ownership | Extensive freehold rights | None, in a foreign name |
+| Infrastructure | Built ahead of demand | Behind demand, visibly |
+| Land | Reclaimed and expanded | Fixed, constrained, largely agricultural |
+| Capital markets | Deep, institutional | Thin, retail, largely cash |
+
+Singapore and Dubai became what they are through sustained state investment in ports, airports, legal systems and financial infrastructure, aimed explicitly at attracting global capital. Both offer foreigners strong ownership rights because attracting that capital was the point.
+
+Bali's regulatory direction has been the opposite. In one year: 18 business classifications closed to new foreign-owned companies, facilitating nominee arrangements criminalised, and a dedicated immigration task force deployed.
+
+That is not a jurisdiction positioning itself as the next regional financial hub. It is a jurisdiction tightening control over foreign activity.
+
+## What actually drives value here
+
+Scarcity of well-zoned coastal land, and tourism volume. Both are real, both support prices, and neither resembles a sovereign wealth programme.
+
+The scarcity argument is genuinely good. Tourism-zoned land near the developed coast cannot be manufactured, and it came through a complete tourism shutdown in 2020 and 2021 with prime locations intact.
+
+That is a sound reason to own land here. It does not require a Dubai analogy, and it does not support Dubai prices.
+
+## What to do with the story
+
+Treat it as a warning about the seller rather than information about the asset. Verify the plot, the title, the zoning and the demand that exists today, and pay a price supported by those.
+
+Anyone whose case rests on what Bali will become in twenty years is asking you to fund a prediction.
+
 ## Common questions
 
 ### Will Bali become the next Singapore or Dubai?

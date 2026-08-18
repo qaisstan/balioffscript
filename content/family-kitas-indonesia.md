@@ -55,6 +55,42 @@ A foreign spouse running a business on a family KITAS is a compliance problem, n
 
 Tax residence follows presence, not permit type. A long-resident family-based ITAS holder becomes an Indonesian tax resident under [the 183-day rule](/tax/npwp-tax-residency/) like anyone else.
 
+## Who it covers
+
+The family KITAS is a dependent residence permit, sponsored by a family member who already holds status here.
+
+| Sponsor | Dependants covered |
+| --- | --- |
+| Indonesian citizen spouse | Foreign spouse, and children |
+| Foreign KITAS holder | Spouse, and children under the qualifying age |
+| Indonesian citizen parent | Foreign children, in defined circumstances |
+
+## It is not a work permit
+
+A dependent permit grants residence, not the right to earn. Working on a family KITAS without separate authorisation is a violation, and it is being enforced on the same basis as everything else since April 2026.
+
+This catches trailing spouses in particular. Someone who moved here with a partner, has time, and starts taking on freelance work or teaching classes is working, whether or not it feels like a job and whether or not it pays much.
+
+## Marriage to an Indonesian citizen
+
+This is where the property question becomes complicated, and where advice most often goes wrong.
+
+Under Indonesian law, marital property is treated as jointly held by default. A foreign spouse cannot hold Hak Milik, so land acquired during a marriage without a separating agreement can create a genuine legal problem: the Indonesian spouse's freehold becomes marital property in which a foreigner has an interest they cannot lawfully hold.
+
+A prenuptial agreement, or a postnuptial agreement where the law permits it, separating assets is the mechanism that resolves this. It needs to be properly executed and registered, not merely signed.
+
+Couples who did not do it, and who bought land during the marriage, have a real issue that should be addressed with a notary rather than left.
+
+## Dependency
+
+Dependent permits follow the sponsor. If the sponsor's KITAS lapses, is not renewed, or is revoked, the dependants' status follows it down. In a marriage-based case, divorce affects the basis on which the permit was granted.
+
+That is worth understanding in advance, particularly where children are enrolled in school and a household is established.
+
+## Renewal
+
+Issued for a defined term and renewed alongside the sponsor's status. Keep the underlying documentation current, including the marriage certificate and its Indonesian legalisation where required.
+
 ## Common questions
 
 ### What is a family KITAS?

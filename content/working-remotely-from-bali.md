@@ -59,6 +59,51 @@ The connectivity question is basically solved. The legal question is not, and it
 
 If you are here for months rather than weeks, get the right permit. It costs less than a deportation and a multi-year ban.
 
+## The infrastructure, honestly
+
+| | Position |
+| --- | --- |
+| Fibre internet | 50 to 100 Mbps standard in the main expat areas |
+| Mobile data | Good coverage, cheap, a reliable backup |
+| Power | Mostly stable, with short outages; a laptop battery covers most |
+| Coworking | Extensive in Canggu, good in Ubud and Sanur |
+| Cafes | Abundant, though wifi quality varies widely |
+
+For calls, screen sharing and normal knowledge work, this is sufficient. For anything requiring guaranteed uptime, run a mobile data backup and do not rely on a single connection.
+
+## Time zones are the real constraint
+
+Bali is UTC+8. That works well with Asia and Australia, awkwardly with Europe, and badly with North America.
+
+| Your team | Reality |
+| --- | --- |
+| Australia and Asia | Comfortable overlap |
+| Europe | Afternoons and evenings |
+| US East Coast | Late nights |
+| US West Coast | Very late nights, or very early mornings |
+
+People underestimate how much a permanent 3am call schedule erodes the reason they came. If your team is American, work out the actual meeting times before you commit, not after.
+
+## The permit question
+
+Working remotely on a visitor visa is a violation and is being actively enforced. Since 15 April 2026, roughly 100 officers have been deployed across Canggu, Ubud, Seminyak, Kerobokan and Uluwatu, with 62 foreign nationals detained in the first three weeks.
+
+The E33G is the lawful route for people employed by or contracted to a company established outside Indonesia. It requires a documented foreign employment relationship, a minimum annual income commonly cited at USD 60,000, and no income from Indonesian entities.
+
+Officers monitor public social media and LinkedIn profiles. Stating publicly that you are based in Bali while working, on a visitor visa, is evidence.
+
+## Where to base yourself
+
+**Canggu** has the highest density of coworking, cafes and other remote workers, and the worst traffic on the island.
+
+**Ubud** is quieter and cheaper, with a wellness-oriented community and a slower pace.
+
+**Sanur** suits people who want to work rather than network, with hospitals close and light traffic.
+
+## Tax
+
+Presence beyond 183 days in a twelve-month period generally makes you an Indonesian tax resident, regardless of where your employer sits or where you are paid. The permit and the tax position are separate systems.
+
 ## Common questions
 
 ### Is the internet good enough to work from Bali?

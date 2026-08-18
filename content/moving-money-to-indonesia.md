@@ -52,6 +52,47 @@ Sending a deposit before the checks are done, into an account you cannot identif
 
 It is also the most common. If someone is pressing you to transfer quickly to secure a property, that pressure is the information. [Here is what should be verified first](/check/).
 
+## Move money the boring way
+
+Bank transfer, from an account in your own name, to the registered owner or the notary's designated account. Documented, traceable, and matched to a written contract that says what the payment is for.
+
+Every alternative that gets suggested here exists to make somebody else's life easier, and it is never yours.
+
+## What to refuse
+
+| Suggestion | Why to decline |
+| --- | --- |
+| Cash for part of the price | Untraceable, and it usually accompanies an under-declared value |
+| Payment to an agent's account | The agent is not the seller |
+| Payment to a third-party company | You cannot verify who controls it |
+| A different account "for tax reasons" | The tax reasons are not yours |
+| Urgent transfer before documents are ready | Urgency is the technique |
+
+## Banking as a foreigner
+
+Opening an Indonesian bank account generally requires a KITAS or KITAP. On a visitor visa you usually cannot, which means transferring directly from your home account for the purchase.
+
+That is workable, and for a straightforward purchase it is often simpler. Plan for transfer timing, intermediary bank delays and the exchange rate, all of which matter on a large sum.
+
+## Currency and cost
+
+Large transfers are exposed to the rate on the day and to the spread your bank applies. On a property purchase the spread alone can equal a meaningful fraction of your legal fees. Specialist transfer services usually price better than a high-street bank, and it is worth comparing before you send.
+
+If you are funding construction in stages over a year, the rate moves against you or for you across the whole period. Some buyers fix part of it forward. Most do not think about it at all.
+
+## Documentation to keep
+
+- The transfer instruction and confirmation for every payment
+- The contract clause each payment corresponds to
+- The receipt from the recipient, identifying who received it and for what
+- The exchange rate and the amount that actually arrived
+
+This matters at sale, when your cost base is questioned, and it matters if anything about the transaction is later disputed. Reconstructing it years afterwards from bank statements alone is painful.
+
+## Transaction costs
+
+Budget roughly 7 percent of the purchase price in total: buyer transfer duty at around 5 percent on a titled transfer, notary and PPAT fees, and independent legal review.
+
 ## Common questions
 
 ### How do you transfer money to Indonesia to buy property?

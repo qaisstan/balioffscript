@@ -55,6 +55,43 @@ The moratorium runs on executive instruction backed by existing law rather than 
 
 > Zoning check first. Before the deposit, before the notary, before you fall in love with the view.
 
+## What the spatial plan does
+
+Bali's regional spatial planning system assigns every parcel a designation that controls what may lawfully be built on it. Local usage refers to these as colours, from how they appear on the plan maps.
+
+| Colour | Broad designation | Villa accommodation |
+| --- | --- | --- |
+| Green | Agricultural, including protected rice land | Generally no |
+| Yellow | Residential settlement | Residential yes; commercial accommodation restricted |
+| Pink / red | Commercial and tourism | Generally yes, subject to permits |
+| Orange | Mixed and other designations | Depends on the specific plan |
+
+The colour is not advisory. It determines whether the villa you intend to build can exist, and no amount of construction quality or good intentions changes it.
+
+## Why green land is cheap
+
+Because it is agricultural. Protected rice land in particular carries strong restrictions, and Bali has been tightening rather than loosening them as agricultural land has disappeared.
+
+Cheap coastal or rice-field land, in an area where everything else is expensive, is almost always cheap for this reason. That is the first thing to check, not the last.
+
+## The arguments you will hear
+
+**"Everyone builds here."** Existing structures may predate the current plan, may be unlicensed, or may sit in a different designation. Each parcel is assessed on its own, and enforcement has been increasing.
+
+**"It can be rezoned."** Spatial plans are revised at a policy level on a multi-year cycle. They are not adjusted on a buyer's application. Buying green land expecting rezoning is speculation on a government process, and should be priced as such.
+
+**"We know someone."** This is an offer to build something unlawful and hope. It leaves you owning the exposure permanently while the person who arranged it does not.
+
+## How to check
+
+Verify the designation on the specific parcel through the regional spatial planning system, with your notary confirming it. Not the neighbourhood, not a screenshot, not the agent's description. The parcel.
+
+Do this before any deposit. It costs almost nothing and it is the check that most often changes a decision.
+
+## Setbacks apply on top
+
+Even correctly zoned land carries setbacks: from roads, from watercourses, from the coast. These reduce the buildable envelope and are enforced. Establish the actual footprint you can build before you value the plot.
+
 ## Common questions
 
 ### What do the zoning colours mean in Bali?

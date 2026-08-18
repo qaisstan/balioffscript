@@ -47,6 +47,50 @@ This is the single most misunderstood point among remote workers here, and it is
 
 Buying does not give you the right to stay, and the E33G is not framed as a route to permanent residence. If long-term security is the goal, [look at the routes that do lead there](/visas/kitap-itap-indonesia/) before you commit capital.
 
+## The permit that made it lawful
+
+Before the E33G existed, effectively everyone working remotely from Bali was doing it on a visitor visa, which did not permit it. Enforcement was light, so the gap between the rule and the practice was widely ignored.
+
+That gap closed on 15 April 2026, when the Dharma Dewata task force became operational. Roughly 100 officers deployed across Canggu, Ubud, Seminyak, Kerobokan and Uluwatu detained 62 foreign nationals in the first three weeks.
+
+## What the enforcement actually targets
+
+Activity, not payment. That distinction has caught a lot of people who thought they were fine.
+
+| Treated as work | Even if |
+| --- | --- |
+| Remote work for a foreign employer | Paid abroad, into a foreign account |
+| Yoga or fitness instruction | Unpaid, or "just covering the room" |
+| Wellness workshops and retreats | Run as a passion project |
+| Volunteering | Entirely unpaid |
+| Sponsored posts and brand collaborations | Compensated in villa stays or meals |
+
+Officers also monitor public social media and LinkedIn. A profile stating you are based in Bali, working for a company, while you hold a visitor visa, is evidence against you.
+
+## The consequences
+
+Deportation and a multi-year ban on re-entering Indonesia. For someone who has built a life, a business or a property position here, that is not a fine, it is the end of the plan.
+
+## The realistic budget
+
+| | Monthly, USD |
+| --- | --- |
+| Modest, shared or simple housing | 1,200 to 1,600 |
+| Comfortable single | 1,800 to 2,500 |
+| Couple | 2,500 to 3,500 |
+
+Rent is the main variable. Canggu long-term rentals start from around IDR 17.5 million a month and rise sharply for anything with a private pool near the beach.
+
+## Where nomads actually base themselves
+
+Canggu for the density of cafes, coworking and other people doing the same thing, with the worst traffic on the island as the price. Ubud for a quieter, cheaper version with a wellness bent. Sanur for people who want to work rather than network.
+
+Fibre at 50 to 100 Mbps is standard across all three, which is more than sufficient for calls and screen sharing.
+
+## Tax is not the same question
+
+Presence beyond 183 days in a twelve-month period generally makes you an Indonesian tax resident, whatever your permit says and wherever your salary lands. The E33G settles what you may do. It does not settle what you owe.
+
 ## Common questions
 
 ### Is there a digital nomad visa for Bali?

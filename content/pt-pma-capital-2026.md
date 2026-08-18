@@ -44,6 +44,45 @@ Everything runs through **OSS-RBA**: deed of establishment before a notary, mini
 
 One recent change worth knowing: as of May 2026, virtual offices are reported to be no longer accepted for PT PMA registration in Bali. Budget for a real address.
 
+## Two numbers, often confused
+
+**Investment plan value** is the total the company commits to invest, assessed per business classification and per project location. It is the threshold that determines whether the company can register the activity at all.
+
+**Paid-up capital** is the amount that must actually be deposited into the company. It is the number that affects your cash position.
+
+Buyers regularly hear one figure, budget for it, and discover the other. Establish both, for your specific classification and location, before you commit to the structure.
+
+## Per classification, per location
+
+The threshold is generally assessed per KBLI code and per project location rather than once per company. That has two practical consequences.
+
+Adding business activities is not free. A company registering two distinct classifications may face the threshold twice.
+
+Operating in two regencies can be treated as two project locations. A structure that made sense for one villa may not scale to a second in a different area the way an owner assumed.
+
+## What counts toward the investment
+
+The rules define what may be included in the investment value, and land, buildings and working capital are treated differently. Do not assume the purchase price of the land simply satisfies the requirement.
+
+Confirm the treatment before relying on it in your funding plan, because getting this wrong means finding additional capital at the point the company is being registered.
+
+## The costs that come with the structure
+
+| Item | Nature |
+| --- | --- |
+| Paid-up capital | Deposited, and it is real money in the company |
+| Formation costs | Notary, ministry approval, OSS registration |
+| Annual compliance | Accounting, tax filings, LKPM, financial statements |
+| Bank account | Required, and opening it takes time |
+
+## Does the structure fit the project?
+
+For a single villa, the capital requirement and continuing compliance burden are substantial relative to the asset. For a genuine development or a multi-property operation, they are proportionate.
+
+The July 2026 closures matter here too. A PT PMA can hold land under HGB and can develop, but it can no longer register the villa or homestay classifications as a new foreign-owned company. Confirm that the activity you are capitalising the company to perform is one it can actually register.
+
+Verify the current thresholds before budgeting. They have been revised and they will be again.
+
 ## Common questions
 
 ### How much capital does a PT PMA need?

@@ -53,6 +53,49 @@ Each of those is recoverable alone. Together they are the reason people leave.
 
 > The question is not whether Bali is worth moving to. It is whether the version of Bali you are imagining is one the rules actually permit.
 
+## Who it works for
+
+People with income from outside Indonesia, a tolerance for administrative friction, realistic healthcare expectations, and a reason to be here beyond escaping somewhere else.
+
+The last one matters more than the others. Bali is very good at making a difficult life feel temporarily better and very bad at fixing anything structural. People who move to solve a problem generally bring it with them.
+
+## The honest downsides
+
+| Issue | Reality |
+| --- | --- |
+| Traffic | Worse every year in the developed corridors |
+| Bureaucracy | Slow, changeable, and it never ends |
+| Healthcare | Good routine care, thin complex care, evacuation costs USD 55,000 to 100,000 |
+| Visa dependency | Your right to be here is renewable, not permanent |
+| Ownership | No freehold, ever, in your own name |
+| Transience | Friends leave constantly |
+| Infrastructure | Waste, drainage and water are genuine problems |
+| Enforcement | Working on the wrong permit now means deportation and a ban |
+
+## The budget
+
+| | Monthly, USD |
+| --- | --- |
+| Comfortable single | 1,800 to 2,500 |
+| Couple | 2,500 to 3,500 |
+| Family with school fees | 4,000 to 6,500 |
+
+School fees drive most of the family figure: USD 15,000 to 28,000 per child per year at established international schools, before registration, transport and lunch.
+
+Add setup costs, insurance with evacuation cover, and a genuine buffer. People arriving with three months of runway tend to make poor decisions in month four.
+
+## The visa question comes first
+
+Since April 2026, working remotely on a visitor visa is being actively enforced, with roughly 100 officers deployed across the main expat areas and 62 detentions in the first three weeks of operations. Deportation carries a multi-year re-entry ban.
+
+If your plan involves earning while you are here, resolve the permit before you move, not after.
+
+## Try it properly first
+
+Come for three months, in wet season, and live the way you would actually live rather than the way you would holiday. Cook, commute, deal with something administrative, get through a week of rain.
+
+Most people who do that either commit properly or save themselves an expensive mistake. Both outcomes are good ones.
+
 ## Common questions
 
 ### Should you move to Bali?

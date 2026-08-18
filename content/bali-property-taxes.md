@@ -40,6 +40,40 @@ Budgeting the purchase price and nothing else. On a titled purchase, closing cos
 
 The second mistake is assuming assessed value is the tax base. Where the transaction price is higher, which it usually is, the transaction price governs.
 
+## The taxes across a property's life
+
+| Stage | Tax | Who normally bears it |
+| --- | --- | --- |
+| Purchase | Buyer transfer duty on a titled transfer, around 5 percent | Buyer |
+| Purchase | Notary and PPAT fees | Buyer, usually |
+| Ownership | Annual land and building tax | Owner |
+| Operation | Income tax on rental revenue | Owner or operating company |
+| Sale | Seller transfer tax on the sale value | Seller |
+
+Budget roughly 7 percent of the purchase price for total transaction costs, covering the transfer duty, notary and PPAT fees, and independent legal review.
+
+## Transfer duty on purchase
+
+The buyer's duty is calculated on the transaction value or the assessed value, whichever the authorities apply, so a price stated below the assessed value does not reduce the tax. There is a threshold below which the duty does not apply, and it is set regionally.
+
+## Annual land and building tax
+
+Assessed on the official valuation of the land and any structure on it. By European or American standards it is modest, but it should be paid and the receipts kept. Outstanding tax on a property is a matter that surfaces at sale, and it surfaces at the worst moment.
+
+Ask a seller for the last several years of receipts as part of diligence. Gaps are worth understanding before you take the property on.
+
+## Sale
+
+The seller normally bears a final transfer tax on the sale value. Who actually pays what is negotiable in practice and frequently negotiated, so it should be explicit in the deed rather than assumed.
+
+## Leasehold is treated differently
+
+Lease payments do not attract the same transfer duty as a titled transfer. The treatment differs and it affects the total cost of the transaction meaningfully. Confirm the position with your notary before the payment schedule is fixed, not after money has moved.
+
+## Under-declaring is not a strategy
+
+Stating a price below the real one to reduce duty is common enough that it will be suggested to you. It creates a documented purchase price lower than what you paid, which reduces your cost base on eventual sale and increases the tax then. It also creates exposure you carry, not the person who suggested it.
+
 ## Common questions
 
 ### What taxes do you pay when buying property in Bali?

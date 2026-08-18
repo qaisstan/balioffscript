@@ -52,6 +52,45 @@ Bali receives around seven million foreign arrivals a year and keeps a small fra
 
 Spend a rainy season here before deciding. A February visit tells you more than five dry-season trips, and it is the single cheapest piece of due diligence available.
 
+## What daily life is actually like
+
+Warm, outdoor, scooter-based, and slower than a Western city for anything involving paperwork. Groceries, gyms, coworking, international food and good coffee are readily available in the main areas and largely absent outside them.
+
+The rhythm is early. People surf or train at six, work through the morning, and slow down in the afternoon heat. That suits some temperaments and frustrates others.
+
+## The genuine advantages
+
+- Cost. A comfortable single life runs USD 1,800 to 2,500 a month
+- Climate and outdoor living, year round
+- A large international community with easy entry points
+- Proximity to the rest of Asia and Australia
+- Domestic help and services at a fraction of Western cost
+- Space, at prices that buy a cupboard in London or Sydney
+
+## The genuine costs
+
+**Healthcare depth.** Routine care is good and cheap. Complex care is limited. Bali International Hospital opened in Sanur in 2024 to address the gap, and evacuation to Singapore still runs USD 55,000 to 100,000.
+
+**Traffic.** The main corridors are congested and getting worse. It reshapes how you plan a day.
+
+**Impermanence.** You are here on a renewable permit, holding property you cannot own outright, in a regulatory environment that changes quickly. That sits differently on different people.
+
+**Transience.** The friend group turns over constantly. Areas with the liveliest social scenes have the highest churn.
+
+**Infrastructure.** Waste management, drainage and water supply are real problems, most visible in wet season.
+
+## Who thrives here
+
+People with stable foreign income, a project or business that engages them, a realistic healthcare plan, and enough patience for a system that will not be hurried.
+
+## Who does not
+
+People who need certainty about the future, who require sophisticated medical care, who expect institutions to work like they do at home, or who arrived to escape rather than to build something.
+
+## The test worth applying
+
+Spend three months here in wet season, living rather than holidaying. If the answer is still yes in February, it is probably yes.
+
 ## Common questions
 
 ### Is Bali a good place to live?

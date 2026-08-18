@@ -43,6 +43,44 @@ The combination that gets people caught is not one missing filing. It is an unli
 
 > Getting compliant costs a fraction of getting caught. The properties being sealed in Bali right now are not sophisticated tax structures. They are ordinary villas whose owners assumed nobody was looking.
 
+## Where the income arises
+
+Income from Indonesian property is Indonesian-source income. It is taxable here regardless of where you live, where the guest booked, or which country's bank account the payment landed in.
+
+That is the point most foreign owners get wrong. The platform paying into an offshore account does not change where the income arose. The villa is here.
+
+## The structure decides the rate
+
+| Structure | Broad treatment |
+| --- | --- |
+| Non-resident individual | Withholding on Indonesian-source income, typically at a flat rate |
+| Resident individual | Progressive rates, with an NPWP required to file |
+| PT PMA | Corporate tax on profits, with deductible operating expenses |
+
+The three produce materially different outcomes on the same revenue, and the difference is largest where operating costs are high, which describes almost every Bali villa.
+
+A villa with substantial staff, management and maintenance costs is taxed very differently as a company profit than as gross income to a non-resident. That is one of the more legitimate reasons to run a property through a properly constituted company.
+
+## Deductibility
+
+Whether you can offset operating expenses against rental income depends on how the income is structured and reported. Where a flat withholding applies to gross receipts, your costs do not reduce the tax at all.
+
+Given that a Bali villa's operating costs consume a large share of revenue, that distinction can be the difference between a modest return and none.
+
+## Tax residence
+
+Presence beyond 183 days in a twelve-month period generally makes you an Indonesian tax resident, which changes the basis on which you are assessed on everything, not just the rental income.
+
+People who spend most of the year here while assuming their tax position is entirely offshore are frequently mistaken about both halves of that.
+
+## Practical points
+
+- Traceability has improved. Assuming platform income is invisible is not a plan
+- Budget tax as an operating cost from the first projection, not as an afterthought
+- Keep contemporaneous records of costs; reconstructing them later is expensive
+- Get the structure right before you buy, because changing it afterwards means a transfer, and a transfer means duty
+- Check whether a treaty between Indonesia and your home country affects your position
+
 ## Common questions
 
 ### Do you pay tax on rental income in Bali?

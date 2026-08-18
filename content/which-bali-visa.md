@@ -47,6 +47,39 @@ In the first seven months of 2025, Bali recorded 2,669 deportations. Immigration
 
 > Leaving permanently, changing sponsor, or switching permit type requires an **EPO**, Exit Permit Only. Departing without one creates an overstay record you will meet again at the border.
 
+## Start from the activity, not the duration
+
+Every mistake in this area comes from choosing a visa by how long it lasts rather than by what it permits. Indonesian permits are defined by activity, and the enforcement since April 2026 has been on activity.
+
+| What you intend to do | The route |
+| --- | --- |
+| Holiday, view property, meet notaries | Visitor visa |
+| Work remotely for a foreign employer | E33G remote worker KITAS |
+| Hold shares in and run an Indonesian company | Investor KITAS (E28A) |
+| Be employed by an Indonesian company | Work KITAS with a sponsoring employer |
+| Join a spouse or parent who holds status | Family KITAS |
+| Retire here | Retirement route, or Second Home |
+| Long stay on committed capital | Second Home visa or Golden Visa |
+| Settle permanently | KITAP, after qualifying periods |
+
+## The line that is being enforced
+
+Since the Dharma Dewata task force became operational on 15 April 2026, roughly 100 officers have been deployed across Canggu, Ubud, Seminyak, Kerobokan and Uluwatu. In the first three weeks, 62 foreign nationals were detained.
+
+The enforcement has treated activity as the test rather than payment. Unpaid volunteering, yoga instruction, wellness workshops and sponsored social posts have all been treated as work. A free villa stay in exchange for promotion counts as compensation.
+
+Officers also monitor public social media and LinkedIn. A profile stating you are based in Bali while working for a company, on a visitor visa, is evidence.
+
+## Residency and property
+
+Property purchase and residency are separate questions, but they intersect at one point: Hak Pakai, the only route by which a foreigner holds a registered land right in their own name, requires valid residency.
+
+If personal ownership matters to you, the visa decision comes first. Leasehold and PT PMA structures do not carry that requirement.
+
+## Practical advice
+
+Choose the permit that matches what you will actually do, apply for it before you arrive at the activity, and keep the evidence supporting it. The cost of the correct visa is trivial against deportation and a multi-year re-entry ban.
+
 ## Common questions
 
 ### Which visa do you need for Bali?

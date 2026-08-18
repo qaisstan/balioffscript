@@ -48,6 +48,44 @@ Realistic hard construction in 2026 runs roughly **USD 1,000–1,800 per square 
 
 Budget overruns of 25–35% are normal. Rainy season adds 20–40% to structural phases. Use a licensed contractor with an NIB, a detailed bill of quantities, milestone payments, and an independent construction supervisor who works for you rather than for the builder.
 
+## The two documents
+
+**PBG** (Persetujuan Bangunan Gedung) is the building approval. It authorises construction against a specific approved design and must be obtained **before** work starts. It replaced the older IMB system.
+
+**SLF** (Sertifikat Laik Fungsi) certifies that the completed building is fit for its intended function. It is issued after construction, against the approved design and applicable technical standards.
+
+Together they establish that a building was lawfully approved and is lawfully usable. Almost everything else depends on them.
+
+## Why they matter beyond compliance
+
+| Depends on PBG and SLF | Why |
+| --- | --- |
+| Operating licence | A rental licence rests on a lawfully approved building |
+| Insurance | Insurers can decline cover on unpermitted structures |
+| Financing | Lenders require them |
+| Resale | An informed buyer will discount heavily or walk |
+| Utilities | Formal connections can require them |
+
+A villa without them is not merely irregular. It is an asset whose income, insurability and resale are all compromised at once.
+
+## Getting PBG
+
+The application follows the zoning confirmation and requires drawings prepared by qualified professionals: architectural, structural, and the technical documents the regency requires. Submissions are assessed against the spatial plan, KDB, KLB, height limits and setbacks.
+
+Incomplete submissions are the main cause of delay. Duration ranges from weeks to months depending on the regency and the complexity of the project.
+
+## Building without it
+
+Construction without PBG risks stop-work orders and, where the building breaches zoning or setbacks, demolition. It also complicates every subsequent step: SLF cannot be issued against an unapproved building, and the operating licence rests on the SLF.
+
+Retrospective regularisation exists but it is slower, more expensive, and not available where the building itself breaches the plan.
+
+## Buying an existing villa
+
+Ask for both documents by name and check that they describe the building actually standing. Extensions, additional structures and converted spaces frequently sit outside what was originally approved.
+
+If they do not exist, price the property on land plus depreciated structure, with rental income treated as zero until a verified and costed regularisation path exists. Do not accept an assurance that it can be sorted out later.
+
 ## Common questions
 
 ### What is PBG in Indonesia?

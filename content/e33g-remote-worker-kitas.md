@@ -42,6 +42,46 @@ The E33G is a KITAS, so it satisfies the residency condition for **Hak Pakai**. 
 
 It does not let you run a rental business. That needs a company and a different permit.
 
+## What the E33G solves
+
+Before it existed, people working remotely from Bali were doing so on visitor visas, which did not permit it. The E33G created a lawful route for someone employed by or contracted to a company established outside Indonesia to live here while continuing that work.
+
+Given the enforcement position since April 2026, that distinction has stopped being theoretical.
+
+## The requirements
+
+| Requirement | Position |
+| --- | --- |
+| Employment | A genuine contract with a company established outside Indonesia |
+| Income | A minimum annual figure, commonly cited at USD 60,000, evidenced |
+| Living funds | General funds of around USD 2,000 |
+| Income source | Foreign only. No income from Indonesian entities |
+| Validity | One year, renewable while conditions continue |
+
+Verify the current threshold before applying. These figures have been revised and the published criteria are the authority, not an article.
+
+## The condition that catches people
+
+No Indonesian clients. None. The permit exists specifically for foreign-sourced income, and taking on local work breaches the basis on which it was granted.
+
+That includes arrangements people do not think of as clients: consulting for a business here, a share of a local venture, or being paid by an Indonesian entity for anything. If the money originates in Indonesia, it is outside what the permit covers.
+
+## Freelancers and contractors
+
+The permit is straightforward for a salaried employee of a foreign company. It is harder for an independent freelancer, because both the employment relationship and the income level must be documented.
+
+A consultant with clear, continuing contracts with foreign companies may qualify. Someone with irregular income from many small clients will struggle to evidence either limb. Check against the current official criteria rather than assuming.
+
+## Tax is a separate question
+
+The permit governs what you may do. It does not determine your tax position.
+
+Presence beyond 183 days in a twelve-month period generally makes you an Indonesian tax resident, regardless of the permit, the employer's location, or where the money is paid. Holders who assume the E33G settles their tax affairs are conflating two separate systems.
+
+## Why it is worth the paperwork
+
+The alternative is working on a visitor visa, which is being actively enforced. Detection leads to deportation and a multi-year ban on re-entering Indonesia. Against that, the cost and effort of the correct permit is not a close call.
+
 ## Common questions
 
 ### What is the E33G visa?

@@ -51,6 +51,41 @@ Building a company purely to obtain a visa, with no real business behind it, is 
 
 The visa stage itself is commonly reported at around **5 working days** after payment once the file is complete. Company incorporation, OSS/NIB registration and capital evidence are the real timeline, and they come first.
 
+## What it is
+
+The Golden Visa is a long-stay residence route for individuals and corporate investors who commit capital at defined levels. In exchange it offers multi-year permits without the sponsorship arrangements a conventional KITAS requires.
+
+The appeal is simplicity and duration rather than any right the cheaper permits do not also confer.
+
+## The categories
+
+| Category | Broad basis |
+| --- | --- |
+| Individual, non-corporate | Investment in Indonesian government securities or equivalent instruments |
+| Individual, corporate | Establishing a company in Indonesia at a defined investment level |
+| Corporate investor | Company-level investment, with permits for directors and commissioners |
+| Global talent and former citizens | Separate qualifying criteria |
+
+Thresholds vary by category and by validity period, with the longer permits requiring larger commitments. The figures have been revised since launch, so confirm the current tiers before planning.
+
+## What it does not do
+
+It is a residence route, not a work permit. What you may do commercially still depends on the underlying structure and on any work authorisation attached to it.
+
+It does not change the property rules. A Golden Visa holder faces the same position as any other foreigner: no freehold, with Hak Pakai, leasehold and PT PMA structures as the available routes.
+
+## Is it worth it?
+
+For most property buyers, no. If the objective is residency sufficient to support Hak Pakai, a conventional KITAS achieves that at a fraction of the capital commitment.
+
+The Golden Visa earns its place where the capital is going to be committed anyway, where the buyer wants to avoid company formation and annual sponsorship arrangements, or where the multi-year validity has genuine value against the friction of repeated renewals.
+
+## The capital question
+
+Funds committed to qualify are funds not working elsewhere. Assess the opportunity cost honestly against what a KITAS costs to obtain and maintain, and be clear about what the premium is actually buying.
+
+For someone spending part of the year here, the calculation frequently favours the simpler permit. For someone relocating permanently with substantial capital, the arithmetic changes.
+
 ## Common questions
 
 ### What is the Indonesia Golden Visa?

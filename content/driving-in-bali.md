@@ -56,6 +56,49 @@ Get the Indonesian licence. It is valid, it is cheap, and it removes the argumen
 
 If you are building or buying somewhere, factor in that you will likely want a car eventually. [Access roads and their legal width](/check/) are worth checking on any plot you are serious about, for exactly this reason.
 
+## The risk, in perspective
+
+Scooter accidents injure and kill more foreigners in Bali than crime does, by a very wide margin. Violent crime against visitors is rare. Road trauma is routine.
+
+That is the single most useful safety fact about this island, and it is the one least reflected in how people behave when they arrive.
+
+## Licensing, properly
+
+| Option | What it requires |
+| --- | --- |
+| International Driving Permit | Issued at home, **endorsed for motorcycles**, carried with your home licence |
+| Indonesian SIM | Applied for locally; the sensible choice for residents |
+| Car-only permit | Does not cover you on a scooter |
+
+The endorsement matters. An IDP covering cars only, used on a scooter, leaves you unlicensed for the vehicle you are riding.
+
+## Insurance is the real consequence
+
+Many travel policies exclude motorbike accidents entirely, and most of the rest exclude them unless you hold the correct licence for the engine size.
+
+Read that clause specifically, before you rent a scooter. A serious accident with a denied claim means paying for treatment that runs USD 5,000 to 25,000 for a standard emergency case, and USD 55,000 to 100,000 if evacuation to Singapore is needed.
+
+That is the difference between an accident and a financial catastrophe, and it turns entirely on a clause most people never read.
+
+## Practical rules
+
+- Wear a proper helmet, not a rental shell. Buy your own if you are staying
+- Avoid unlit roads at night; many have no edge marking and open drains
+- Take rain seriously. Roads go slick within seconds, and painted surfaces and drain covers are worst
+- Ride defensively at junctions; right of way is negotiated, not assumed
+- Do not ride after drinking, which is a large share of foreigner accidents here
+- Cover your skin. Most Bali scooter injuries are avoidable road rash
+
+## If you have never ridden
+
+Bali is not the place to learn on a busy road. Dense traffic, loose lane discipline and unfamiliar conventions are a poor combination with a first-time rider.
+
+Take lessons somewhere quiet, or use ride-hailing and drivers. A driver for the day costs very little against the alternative.
+
+## Cars
+
+Traffic in the developed corridors is heavy and getting worse. A car is more comfortable and far safer, and it is slower in Canggu at six in the evening than a scooter. Many residents run both.
+
 ## Common questions
 
 ### Do you need a licence to ride a scooter in Bali?

@@ -60,6 +60,44 @@ This is the single most common misunderstanding among foreign buyers in Bali. Th
 
 Permanent residence makes Indonesian tax residence essentially certain. Tax residence follows presence, the [183-day rule](/tax/npwp-tax-residency/), and applies to worldwide income once it attaches.
 
+## What KITAP gives you
+
+KITAP is permanent stay: the longest residence status short of citizenship. Compared with cycling through KITAS renewals, it means fewer renewals, longer validity, and a materially more stable footing for everything that depends on your status.
+
+That includes Hak Pakai ownership, banking, long-term planning, and simply not having your life contingent on an annual process.
+
+## The routes to it
+
+| Route | Broad basis |
+| --- | --- |
+| Via KITAS | Consecutive qualifying years holding an appropriate KITAS category |
+| Via marriage | Marriage to an Indonesian citizen, after a qualifying period |
+| Via investment or retirement | Where the underlying category permits progression |
+
+Not every KITAS category leads to KITAP, and the qualifying periods differ between them. Establish which path your current permit sits on before assuming time served counts toward it.
+
+## Continuity matters
+
+The qualifying years generally need to be consecutive and properly maintained. A gap, a lapsed renewal, or a change of category can reset the clock.
+
+People who move between permit types for practical reasons sometimes discover they have restarted a count they were years into. If KITAP is the destination, plan the route rather than improvising it.
+
+## Permanent is not unconditional
+
+KITAP can be revoked. Extended absence from Indonesia, breach of the conditions on which it was granted, and criminal matters are all grounds. It also requires periodic reporting and re-endorsement rather than being entirely hands-off.
+
+For marriage-based KITAP, divorce affects the basis on which it was granted, and that is worth understanding in advance rather than at the point it becomes relevant.
+
+## Why it matters for property
+
+Hak Pakai requires valid residency. Holding it on a permit renewed annually means your registered land right depends on a process you repeat every year. Holding it on KITAP does not.
+
+For anyone whose plan involves owning a home here in their own name over a long period, that stability is the practical argument for pursuing KITAP rather than settling into indefinite KITAS renewals.
+
+## Before you apply
+
+Have the record straight: continuous permit history, correct category, current tax registration, and the supporting documents legalised where required. Applications fail on documentation more often than on substance.
+
 ## Common questions
 
 ### What is KITAP?

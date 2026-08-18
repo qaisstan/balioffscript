@@ -61,6 +61,44 @@ Bad for: beach access, and anyone who finds the wellness scene tiring.
 
 Rent for a year before you buy anything. People are certain about their area for about six months, and then most of them move.
 
+## The areas, honestly
+
+| Area | Suits | Trade-off |
+| --- | --- | --- |
+| Canggu, Berawa | Working, social, gyms, cafes | Traffic, noise, cost, transience |
+| Pererenan, Cemagi | Newer, quieter version of the above | Constant construction |
+| Seminyak | Restaurants, walkable, established | Dense, touristy, expensive |
+| Sanur | Families, retirees, hospitals nearby | Quiet; not a scene |
+| Ubud | Creative, calm, cheaper, wellness | Humid, no beach, long drives |
+| Uluwatu, Bukit | Surf, views, space | Water supply, long drives to everything |
+| Sidemen, Amed, north | Genuine quiet, low cost | Limited services, isolation |
+
+## The commute decides more than the beach
+
+Bali distances are measured in minutes, not kilometres, and the two diverge badly. Twelve kilometres to a school can be an hour each way twice a day.
+
+Before choosing an area, drive the routes you will actually drive, at the times you will actually drive them: the school run at eight, the trip home at six, the airport at whatever hour your flights land. That exercise reorders most people's shortlist.
+
+## If you have children, the school comes first
+
+Choose the school, then live near it. The international schools cluster in the Canggu and Pererenan corridor and around Ubud, and that decision constrains where you live far more than any preference about surf or restaurants.
+
+## If you are over sixty, the hospital comes first
+
+Sanur, for proximity to Denpasar hospitals and Bali International Hospital. This becomes obvious the first time somebody needs a doctor at short notice, and it is worth being obvious to you beforehand.
+
+## Rent before you buy
+
+A year, including a wet season. Rain changes everything: which roads flood, which lanes become impassable, how the humidity feels in a particular house, whether the area empties out.
+
+People who buy after a two-week high-season visit consistently choose differently from people who buy after a year. The second group is right more often.
+
+## The thing nobody mentions
+
+The social circle is transient. People arrive, stay eighteen months, and leave. Areas with the most active expat scenes have the highest turnover, which means rebuilding your friendships repeatedly.
+
+Sanur and Ubud hold longer-term residents. Canggu does not, and that is worth knowing before you organise your life around it.
+
 ## Common questions
 
 ### What is the best area to live in Bali?

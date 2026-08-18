@@ -60,6 +60,40 @@ KDB is applied to the land area, but setbacks reduce what you can use before the
 
 If the answer to any of these is "we can sort that later", treat it as a no until someone shows you the spatial plan.
 
+## The three limits that shape a villa
+
+| Term | Full name | What it controls |
+| --- | --- | --- |
+| KDB | Koefisien Dasar Bangunan | Building coverage: the share of the plot the footprint may occupy |
+| KLB | Koefisien Lantai Bangunan | Floor area ratio: total built floor area relative to plot size |
+| KDH | Koefisien Daerah Hijau | Minimum green area that must remain unbuilt |
+
+Height is capped separately, traditionally referenced to the coconut palm rule and enforced through the spatial plan. Assume a low-rise limit and confirm the figure for your specific zone.
+
+## How they interact
+
+KDB limits how much of the plot you cover. KLB limits how much you build in total across all floors. KDH forces you to leave a proportion planted.
+
+The binding constraint is whichever bites first. On a small plot with a generous KLB but a tight KDB, you cannot spread out and the height cap stops you going up, so the design is decided for you before an architect is involved.
+
+## Run the numbers before you buy the plot
+
+This is the check that saves the most money and is skipped the most often.
+
+Take the plot size, apply the KDB to get maximum footprint, apply the KDH to confirm what must stay green, apply the KLB to get maximum total floor area, and apply the height limit. Then subtract the setbacks from roads, watercourses and the coast.
+
+What remains is what you can actually build. Compare it to the villa you have in mind before you pay for the land, not after you have paid an architect.
+
+## Where buyers get caught
+
+A plot marketed as suitable for a four-bedroom villa with a pool, which after coverage limits, green area and setbacks supports a considerably smaller building. The seller is not necessarily lying; they are quoting the plot size, and the plot size is not the buildable area.
+
+Pool, parking, staff quarters and covered outdoor living all consume footprint. On a constrained plot, a pool can be the element that forces the house smaller.
+
+## Confirm, do not assume
+
+Ratios vary by zone and by regency across Bali. A figure that applied to a friend's plot in another area tells you nothing about yours. Confirm the applicable coefficients for the specific parcel through the spatial planning system, with your notary or architect.
+
 ## Common questions
 
 ### What is KDB in Bali building rules?

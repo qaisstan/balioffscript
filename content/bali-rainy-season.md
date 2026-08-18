@@ -50,6 +50,41 @@ Plenty of people love Bali in rainy season. Plenty of people discover they were 
 
 Better to find out before you have bought.
 
+## What the season actually looks like
+
+Roughly November to March, with the heaviest rainfall usually between December and February. The typical pattern is a heavy downpour lasting an hour or two, often in the afternoon, then it clears.
+
+It does not rain all day, most days. Some weeks are genuinely wet, humidity sits high throughout, and mornings are frequently fine even in January.
+
+| Month | Character |
+| --- | --- |
+| November | Transition, increasing afternoon rain |
+| December to February | Peak. Heaviest rain, highest humidity |
+| March | Easing, still wet |
+| April to October | Dry season, with July and August the peak tourist months |
+
+## Why it matters for property
+
+**It is the only honest way to inspect a plot.** A road that floods in February looks perfect in July. Drainage, standing water, which lanes become impassable, whether a river rises: none of it is visible in dry season.
+
+Anyone buying land or a villa without seeing the area in wet season is inspecting half the property.
+
+**It sets the real occupancy.** Rental demand drops in the wet months. Any yield projection applying peak-season occupancy across twelve months is describing a year that does not exist, and the shoulder is where the arithmetic is decided.
+
+**It drives maintenance.** Wet season is when leaks appear, mould develops, timber swells and anything imperfectly sealed lets water in. The maintenance budget is set by these months, not the dry ones.
+
+**It delays construction.** External work slows, materials get wet, and access on unpaved roads becomes difficult. A build straddling wet season takes longer than the schedule you were shown.
+
+## The practical upsides
+
+Fewer tourists, cheaper flights, lighter traffic, greener landscape and lower rents on long stays. For anyone assessing whether they could live here, wet season is the honest test.
+
+## Riding in the rain
+
+Scooter accidents are the main risk foreigners face here, and wet season sharpens it. Roads become slick within seconds of rain starting, and drainage grates and painted surfaces are worst.
+
+Check whether your insurance covers motorbike accidents at all, and whether it requires the correct licence endorsement. Many policies exclude them, and a denied claim after a serious accident is financially catastrophic.
+
 ## Common questions
 
 ### When is rainy season in Bali?

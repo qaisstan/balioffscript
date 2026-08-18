@@ -70,6 +70,48 @@ Respond to revision requests immediately. A file sitting in your inbox is a file
 
 > Nobody can quote you a PBG timeline without knowing the regency, the zone, and whether the site sits in a digitised RDTR area. Anyone who quotes one anyway is guessing.
 
+## The sequence on a bare plot
+
+1. **Confirm zoning** permits your intended use on this specific parcel
+2. **Establish the envelope** from KDB, KLB, KDH, height limit and setbacks
+3. **Location suitability confirmation**, where the project requires it
+4. **Appoint qualified professionals** for architectural and structural drawings
+5. **Prepare the technical documentation** the regency requires
+6. **Submit for PBG**
+7. **Respond to queries**, which is where most time is lost
+8. **Receive PBG**, then start work
+
+Nothing is gained by starting earlier. Building before PBG risks a stop-work order and, where the structure breaches the plan, demolition.
+
+## Documents required
+
+| Document | Notes |
+| --- | --- |
+| Proof of land right | Certificate, or a lease with the owner's consent to build |
+| Spatial planning confirmation | For the specific parcel |
+| Architectural drawings | By a qualified professional |
+| Structural drawings and calculations | By a qualified engineer |
+| Site and utilities plans | Drainage, waste and water |
+| Owner and applicant identity documents | Including company documents where applicable |
+
+## Building on leased land
+
+If you hold a lease rather than a title, the landowner's written consent to build is required, and it should already be in the lease rather than negotiated when you need it.
+
+A lease that does not clearly authorise construction, and does not deal with what happens to the building at expiry, is a lease that will cause a problem at exactly the point you have spent the most money.
+
+## How long it takes
+
+Weeks to months, varying by regency and complexity. Incomplete or inconsistent submissions are the main cause of delay, and the fix is preparation rather than pressure.
+
+Build the permit period into your project timeline as a real phase with a real duration. Owners who treat it as a formality end up carrying land costs while waiting.
+
+## After construction
+
+SLF certifies the completed building is fit for its function, and it is issued against the approved design. Deviating from the approved drawings during construction, which happens routinely, complicates the SLF and therefore everything downstream of it.
+
+If a change is needed mid-build, have it approved rather than assuming it can be reconciled at the end.
+
 ## Common questions
 
 ### How do you get a building permit on empty land in Bali?

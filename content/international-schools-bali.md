@@ -59,6 +59,53 @@ If you are relocating with children, the school decision comes before the proper
 
 Rent near the school for a year first. If it works, buy nearby. If it does not, you have not tied a large amount of capital to the wrong side of the island.
 
+## The fee landscape
+
+| Tier | Annual tuition, USD |
+| --- | --- |
+| Bilingual and early years centres | 3,000 to 8,000 |
+| Mid-range international | 8,000 to 15,000 |
+| Established international schools | 15,000 to 28,000 |
+| Premium campuses | 28,000 and above |
+
+Green School Bali, the best known internationally, runs approximately USD 18,000 to 27,000 a year depending on grade level.
+
+## What tuition does not include
+
+| Item | Annual, USD |
+| --- | --- |
+| Registration and enrolment | 500 to 2,500, often one-off |
+| Transport | 1,200 to 3,600 |
+| Lunch | 600 to 1,200 |
+| Uniform | 150 to 400 |
+| Trips, activities, exams | Variable, and it adds up |
+
+Budget USD 8,000 to 28,000 per child per year all-in. For a family with two children in an established school, education alone can exceed the entire cost of living for a couple.
+
+## Where the schools are
+
+Two clusters. The **Canggu and Pererenan corridor** serves the entrepreneurial and remote-working community and has seen the most new capacity. **Ubud** is home to the schools known for creativity, sustainability and progressive curricula.
+
+Sanur and Denpasar have options too, including more established and more conventional academic programmes.
+
+## Choose the school before the area
+
+This is the most consequential piece of practical advice for any family moving here.
+
+Bali traffic turns a twelve-kilometre school run into an hour each way, twice a day. That is four hours of a parent's day, every weekday, permanently. It decides where you should live far more than any preference about beaches or surf.
+
+Get the school place first. Then rent within a short, tested drive of it. Then, much later, consider buying.
+
+## Curricula and continuity
+
+Schools here run IB, Cambridge, Australian and other curricula, and the mix matters if you may move again. A child midway through one system does not transfer cleanly into another.
+
+Ask about accreditation, teacher turnover and how many students complete the full programme rather than leaving after two years. High churn is common in Bali and it affects both teaching continuity and your child's friendships.
+
+## Waiting lists
+
+The established schools have them, particularly at entry year groups. Apply well before you plan to arrive, because a family that has moved and cannot get a school place is in a genuinely difficult position.
+
 ## Common questions
 
 ### How much are international school fees in Bali?

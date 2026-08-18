@@ -66,6 +66,43 @@ Discovering this at week six is expensive. Establish it at week zero.
 
 Most expensive failures come from doing step 3 first because it feels like progress.
 
+## The sequence
+
+| Step | What happens |
+| --- | --- |
+| 1. Classification check | Confirm the KBLI code is open to foreign registration, in your location, today |
+| 2. Name reservation | The company name is cleared |
+| 3. Deed of establishment | Executed before a notary, with articles of association |
+| 4. Ministry approval | Legal entity status granted |
+| 5. NPWP | Company tax registration |
+| 6. NIB and licensing | Through the OSS system, tied to classification and location |
+| 7. Bank account | Corporate account opened, capital deposited |
+| 8. Location and building permits | Where the project requires them |
+
+Each step depends on the one before it. There is no useful way to run them in parallel, which is why optimistic timelines rarely survive contact with the process.
+
+## Realistic duration
+
+Formation through NIB can move in a few weeks with complete documents and a straightforward classification. The realistic end-to-end timeline is longer once banking, verification and any location or building permits are included.
+
+Plan for months rather than weeks if the project involves construction. The company is the first step, not the whole path.
+
+## Step one is the one that fails
+
+The most common and most expensive delay is discovering, partway through, that the intended classification is restricted or closed to new foreign registration. That sends the structure back to the drawing board with costs already incurred.
+
+Bali closed 18 low-risk classifications to new PT PMA registration on 22 July 2026, including villa, homestay, real estate and management consultancy. Check the specific code, for the specific project location, before anything else happens.
+
+Registering the company in Jakarta does not solve it. Land can be held by a PT PMA registered anywhere in Indonesia, but business licensing follows the project location.
+
+## Do you need to be here?
+
+Much of the process can be handled remotely with properly executed powers of attorney. Banking is the step that most often requires presence, and verification requirements have tightened. Plan for at least one trip and build the bank appointment into it.
+
+## Before you start
+
+Have the shareholding structure, the director and commissioner appointments, and the funding source settled in advance. Changing them mid-process means amending documents that have already been executed, which costs time and notary fees.
+
 ## Common questions
 
 ### How long does it take to set up a PT PMA?

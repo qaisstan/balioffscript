@@ -70,6 +70,54 @@ The direction is one way. Bali is tightening what foreigners can do here, and en
 
 Anyone selling you a structure that depends on nobody checking is selling you something that stopped working.
 
+## What changed
+
+The Dharma Dewata immigration task force became operational on **15 April 2026**. Roughly 100 officers were deployed across Canggu, Ubud, Seminyak, Kerobokan and Uluwatu.
+
+In the first three weeks, **62 foreign nationals were detained**.
+
+This is a departure from how enforcement worked here previously. The gap between the rules and the practice had been wide for years, and a lot of people organised their lives around the assumption that it would stay wide.
+
+## The test is activity, not payment
+
+This is the part catching people who believed they were compliant.
+
+| Treated as work | Notwithstanding |
+| --- | --- |
+| Remote work for a foreign employer | Paid abroad, into a foreign account |
+| Yoga and fitness instruction | Unpaid, or covering costs only |
+| Wellness workshops and retreats | Run as a personal project |
+| Volunteering | Entirely unpaid |
+| Sponsored posts and collaborations | Compensated in villa stays, meals or products |
+
+A free stay in exchange for promotion is compensation. So is a comped meal. The absence of a salary does not put an activity outside the definition.
+
+## Social media is being monitored
+
+Officers review public social media and LinkedIn profiles. A profile stating you are based in Bali while listing current employment, held alongside a visitor visa, is evidence of the violation.
+
+People have been identified this way. Content documenting the work is documentation of the work.
+
+## The consequences
+
+Deportation, and a multi-year ban on re-entering Indonesia.
+
+For a visitor that is a ruined trip. For someone with a business here, a property, a family, or a partner, it is the end of the arrangement, and it is not appealable in any practical sense.
+
+## What to do about it
+
+If you are working remotely, get the **E33G**. It requires a documented employment or contracting relationship with a company established outside Indonesia, a minimum annual income commonly cited at USD 60,000, and no income from Indonesian entities.
+
+If you run a business here, the correct route is an investor or work KITAS attached to a properly constituted company.
+
+If you teach, host retreats, or create sponsored content, none of the permits that merely grant presence cover it. Get advice on the specific activity.
+
+## The broader direction
+
+This sits alongside Bali closing 18 business classifications to new foreign-owned companies in July 2026 and making the facilitation of nominee land arrangements an offence under Perda Bali 4/2026.
+
+The pattern is consistent: the informal accommodations this market ran on for a decade are being closed, and quickly. Anyone planning around the old tolerance is planning around something that no longer exists.
+
 ## Common questions
 
 ### Can you work remotely in Bali on a tourist visa?

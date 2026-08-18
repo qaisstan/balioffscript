@@ -39,6 +39,43 @@ An investor KITAS is attached to a real company doing real business. A PT PMA th
 
 If your only reason for the company is to hold property you live in, look hard at whether **Hak Pakai** does the job instead. It has no annual compliance load at all.
 
+## What the E28A is and is not
+
+The investor KITAS is a residence permit granted on the basis of your shareholding in an Indonesian company. It lets you live here in connection with that investment.
+
+It is not a general work permit. What you may actually do inside the company depends on your role and on whether a work authorisation accompanies the permit. Holding shares and holding the right to perform a job are different things, and the distinction is being enforced.
+
+## The requirements
+
+| Requirement | Position |
+| --- | --- |
+| Shareholding | At or above the prescribed investment value, in your name |
+| The company | A properly constituted PT PMA meeting its own capital thresholds |
+| Role | Director or commissioner, which affects what you may do |
+| Company standing | NIB active, filings current, classifications valid |
+
+The shareholding threshold sits alongside the PT PMA's own capital requirement, and both have been revised. Confirm the current figures before structuring, because a plan built on last year's numbers may not clear.
+
+## The dependency people underestimate
+
+Your permit rests on the company. If the PT PMA falls out of compliance, misses its LKPM reporting, has its NIB suspended, or lets its classifications lapse, your residence status is exposed.
+
+That makes annual compliance a personal matter, not an accounting chore. Owners who treat the company as a formality while relying on its permit have a single point of failure they are not watching.
+
+## The KBLI question
+
+Bali closed 18 low-risk classifications to new PT PMA registration on 22 July 2026, including villa, homestay, real estate and management consultancy. A company formed to operate a villa rental cannot register those activities as a new foreign-owned entity.
+
+That matters for an investor KITAS because the permit is granted in connection with a real business. The classification the company can actually register determines what business exists to invest in.
+
+## Renewal
+
+The permit is issued for a defined term and renewed while the investment and the company remain in good standing. Renewal is not automatic and it is not retrospective: allowing the company's position to deteriorate and fixing it at renewal time is considerably harder than maintaining it.
+
+## Is it the right route?
+
+If you genuinely intend to run a business here, yes. If the business exists mainly to produce a visa, the ongoing capital, compliance cost and dependency usually make one of the other long-stay routes cheaper and simpler.
+
 ## Common questions
 
 ### What is the E28A investor KITAS?

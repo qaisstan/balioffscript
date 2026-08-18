@@ -62,6 +62,43 @@ If you are spending several hundred thousand dollars, the visa that lets you ver
 
 Take the [checklist](/check/) with you.
 
+## What a visitor visa covers
+
+Coming to Bali to view property, meet notaries, walk plots, sit with a lawyer and eventually sign as a buyer is not employment. You are spending money, not earning it.
+
+That distinction is the whole basis of the visitor visa, and a property search sits comfortably inside it.
+
+## What would cross the line
+
+- Working remotely for your employer while you are here, which needs the E33G
+- Operating a business, taking Indonesian clients, or earning locally
+- Acting as an agent, introducing buyers, or taking commission
+- Anything the enforcement position treats as work, including unpaid activity
+
+Since April 2026, enforcement has treated activity rather than payment as the test. Unpaid volunteering, teaching and sponsored social posts have all been treated as violations. A property search is none of those things, but a "property trip" during which you also work your normal job is.
+
+## How long a diligence trip should be
+
+Longer than most buyers plan. Two weeks is a realistic minimum for a serious purchase, and more if construction is involved.
+
+You need to see a plot at different times of day, in traffic, and if at all possible in rain. Wet season runs roughly November to March, and it is the only honest way to see how a street, a plot and its drainage actually behave. A road that floods in February looks perfect in July.
+
+## What to accomplish while you are here
+
+- Appoint your own notary, not the seller's
+- Verify certificates at the land office
+- Check zoning on the specific parcel
+- Walk boundaries with the certificate in hand
+- Confirm access rights and road width
+- Drive the commute to the school, hospital and airport at peak hour
+- Meet two owners in the area who are not connected to your seller
+
+## Residency and buying
+
+You do not need residency to buy through a leasehold or a PT PMA. You do need valid residency for Hak Pakai, which is the only route to a registered land right in your own name.
+
+If personal ownership matters, resolve the visa question before the property one, because it changes which structures are available to you.
+
 ## Common questions
 
 ### What visa do you need to look at property in Bali?
