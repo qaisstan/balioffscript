@@ -1187,3 +1187,56 @@ tbody tr:last-child td { border-bottom: 0; }
 .sh-tg:hover { background: #229ed9; }
 .sh-more:hover { background: var(--ink); }
 .sh-more.ok { background: var(--verify); color: #fff; border-color: transparent; }
+
+/* ------------------------------------------------- article SEO furniture */
+
+.crumbs {
+  font-family: var(--mono); font-size: 0.6875rem; letter-spacing: 0.08em;
+  color: var(--slate); margin-bottom: 1.25rem;
+}
+.crumbs a { text-decoration: none; }
+.crumbs a:hover { color: var(--seal); }
+.crumbs span { margin: 0 0.5rem; color: var(--rule-2); }
+
+.byline {
+  display: flex; flex-wrap: wrap; gap: 0.4rem 1.25rem;
+  font-family: var(--mono); font-size: 0.6875rem; letter-spacing: 0.06em;
+  color: var(--slate); margin: -1.25rem 0 1.75rem;
+  padding-bottom: 1.25rem; border-bottom: 1px solid var(--rule);
+}
+
+.hero-img { margin: 0 0 2rem; max-width: min(46rem, 100%); }
+.hero-img img { width: 100%; height: auto; display: block; border: 1px solid var(--rule); }
+
+.toc {
+  max-width: var(--measure); margin: 0 0 2.25rem;
+  background: var(--paper-2); border-left: 2px solid var(--accent);
+  padding: 1rem 1.25rem;
+}
+.toc-h {
+  font-family: var(--mono); font-size: 0.625rem; letter-spacing: 0.16em;
+  text-transform: uppercase; color: var(--slate); margin: 0 0 0.6rem;
+}
+.toc ol { margin: 0; padding-left: 1.1rem; }
+.toc li { margin-bottom: 0.35rem; font-size: 0.875rem; }
+.toc a { text-decoration: none; }
+.toc a:hover { color: var(--seal); }
+
+.faqs { max-width: var(--measure); margin-top: 2.5rem; }
+.faqs h2 { font-size: 1.5rem; margin: 0 0 1rem; }
+.fq { border-bottom: 1px solid var(--rule); }
+.fq summary {
+  cursor: pointer; padding: 0.85rem 0; font-size: 1rem; font-weight: 500;
+  list-style: none; position: relative; padding-right: 1.75rem;
+}
+.fq summary::-webkit-details-marker { display: none; }
+.fq summary::after {
+  content: "+"; position: absolute; right: 0.25rem; top: 0.8rem;
+  font-family: var(--mono); color: var(--slate);
+}
+.fq[open] summary::after { content: "\2212"; }
+.fq summary:hover { color: var(--seal); }
+.fq p { margin: 0 0 1rem; font-size: 0.9375rem; color: var(--slate); line-height: 1.6; }
+
+/* Anchored headings should not hide behind the sticky masthead. */
+.prose h2, .prose h3, .faqs h2 { scroll-margin-top: 5.5rem; }

@@ -252,11 +252,13 @@ def md(text):
             continue
         if s.startswith("### "):
             close()
-            html.append(f"<h3>{inline(s[4:])}</h3>")
+            t = inline(s[4:])
+            html.append(f'<h3 id="{slugify(s[4:])}">{t}</h3>')
             continue
         if s.startswith("## "):
             close()
-            html.append(f"<h2>{inline(s[3:])}</h2>")
+            t = inline(s[3:])
+            html.append(f'<h2 id="{slugify(s[3:])}">{t}</h2>')
             continue
         close()
         html.append(f"<p>{inline(s)}</p>")
@@ -444,6 +446,78 @@ DIAGRAMS = {
     "pbg": dg_pbg, "chain": dg_chain,
     "visas": dg_visas, "pma": dg_pma,
 }
+
+
+
+def slugify(t):
+    t = re.sub(r"<[^>]+>", "", t)
+    t = re.sub(r"[^\w\s-]", "", t).strip().lower()
+    return re.sub(r"[\s_]+", "-", t)[:60]
+
+
+def headings(body):
+    """H2s only. The table of contents is for scanning, not for every subhead."""
+    return [(slugify(l[3:].strip()), l[3:].strip())
+            for l in body.split("\n") if l.startswith("## ")]
+
+
+def toc(body):
+    hs = headings(body)
+    if len(hs) < 4:
+        return ""
+    items = "".join(f'<li><a href="#{i}">{t}</a></li>' for i, t in hs)
+    return (f'<nav class="toc" aria-label="On this page">'
+            f'<p class="toc-h">On this page</p><ol>{items}</ol></nav>')
+
+
+def extract_faq(body):
+    """Questions under a '## Common questions' heading become both an on-page
+    block and FAQPage structured data, which is what Google reads for the
+    People Also Ask style result."""
+    m = re.search(r"^## Common questions\s*$(.*?)(?=^## |\Z)", body, re.M | re.S)
+    if not m:
+        return []
+    out, q, buf = [], None, []
+    for line in m.group(1).split("\n"):
+        if line.startswith("### "):
+            if q:
+                out.append((q, " ".join(buf).strip()))
+            q, buf = line[4:].strip(), []
+        elif q and line.strip():
+            buf.append(re.sub(r"[*`\[\]]|\(/[^)]*\)", "", line.strip()))
+    if q:
+        out.append((q, " ".join(buf).strip()))
+    return [(a, b) for a, b in out if b]
+
+
+# Terms that earn an internal link the first time they appear in a body.
+LINK_TERMS = [
+    ("nominee arrangement", "/ownership/nominee-structure-bali/"),
+    ("Hak Pakai", "/ownership/hak-pakai-explained/"),
+    ("leasehold", "/ownership/hgb-vs-leasehold-bali/"),
+    ("KDB", "/building/kdb-klb-bali/"),
+    ("zoning", "/building/bali-zoning-colours/"),
+    ("PBG", "/building/pbg-slf-building-permits/"),
+    ("PT PMA", "/company/pt-pma-capital-2026/"),
+    ("BPHTB", "/tax/bali-property-taxes/"),
+    ("tax resident", "/tax/npwp-tax-residency/"),
+    ("occupancy", "/rental/bali-villa-break-even-occupancy/"),
+    ("Second Home", "/visas/second-home-visa-indonesia/"),
+    ("cost of living", "/living/cost-of-living-bali/"),
+    ("school fees", "/living/international-schools-bali/"),
+    ("medical evacuation", "/living/healthcare-in-bali/"),
+]
+
+
+def autolink(html, self_path):
+    """One link per term, first occurrence only, never inside an existing
+    anchor, heading or code span."""
+    for term, target in LINK_TERMS:
+        if target == self_path or f'href="{BASE}{target}"' in html:
+            continue
+        pat = re.compile(r"(?<![\w/>-])(" + re.escape(term) + r")(?![\w<]|[^<]*</a>)", re.I)
+        html, n = pat.subn(rf'<a href="{BASE}{target}">\1</a>', html, count=1)
+    return html
 
 
 # ---------------------------------------------------------------- chrome
@@ -744,37 +818,51 @@ def onward(m, pages):
 def article(m, siblings):
     cat_name = CATEGORIES[m["category"]][0]
     path = f'/{m["category"]}/{m["slug"]}/'
-    related = "".join(
-        f'<li><a href="{BASE}/{s["category"]}/{s["slug"]}/">{s["question"]}</a></li>'
-        for s in siblings if s["slug"] != m["slug"]
-    )
-    # Two graphs: the FAQ entity Google uses for rich results, and an Article
-    # with author and dates, which is what answer engines look for when
-    # deciding whether a page is attributable and current.
+    seo_title = m.get("title") or m["question"]
+    updated = m.get("verified", str(date.today()))
+    faq = extract_faq(m["body"])
+
+    body_html = autolink(md(m["body"]), path)
+
+    faq_block = ""
+    if faq:
+        rows = "".join(
+            f'<details class="fq"><summary>{q}</summary><p>{a}</p></details>'
+            for q, a in faq
+        )
+        faq_block = f'<section class="faqs"><h2 id="common-questions">Common questions</h2>{rows}</section>'
+
+    # FAQPage carries every question on the page, which is what Google reads
+    # for People Also Ask. Article carries authorship and dates, which is what
+    # answer engines use to decide whether a page is attributable.
+    faq_entities = [{"@type": "Question", "name": q,
+                     "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq]
+    if not faq_entities:
+        faq_entities = [{"@type": "Question", "name": m["question"],
+                         "acceptedAnswer": {"@type": "Answer", "text": m["summary"]}}]
+
     schema = json.dumps({
         "@context": "https://schema.org",
         "@graph": [
-            {
-                "@type": "FAQPage",
-                "mainEntity": [{
-                    "@type": "Question",
-                    "name": m["question"],
-                    "acceptedAnswer": {"@type": "Answer", "text": m["summary"]},
-                }],
-            },
+            {"@type": "FAQPage", "mainEntity": faq_entities},
             {
                 "@type": "Article",
-                "headline": m["question"],
-                "description": m["summary"],
-                "datePublished": m.get("verified", str(date.today())),
-                "dateModified": m.get("verified", str(date.today())),
+                "headline": seo_title,
+                "alternativeHeadline": m["question"],
+                "description": meta_desc(m["summary"], m["body"]),
+                "image": f"{SITE_URL}/og/{m['slug']}.jpg",
+                "datePublished": updated,
+                "dateModified": updated,
                 "inLanguage": "en",
+                "wordCount": len(re.sub(r"[^\w\s]", " ", m["body"]).split()),
                 "author": {"@type": "Person", "name": AUTHOR, "jobTitle": AUTHOR_ROLE,
-                           "url": INSTAGRAM},
-                "publisher": {"@type": "Organization", "name": SITE_NAME,
-                              "url": SITE_URL},
+                           "url": SITE_URL + "/about/", "sameAs": [INSTAGRAM]},
+                "publisher": {"@type": "Organization", "name": SITE_NAME, "url": SITE_URL,
+                              "logo": {"@type": "ImageObject",
+                                       "url": f"{SITE_URL}/icon-512.png"}},
                 "mainEntityOfPage": {"@type": "WebPage", "@id": SITE_URL + path},
                 "articleSection": cat_name,
+                "about": {"@type": "Thing", "name": cat_name},
                 "citation": m.get("regulation", ""),
             },
             {
@@ -783,22 +871,36 @@ def article(m, siblings):
                     {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/"},
                     {"@type": "ListItem", "position": 2, "name": cat_name,
                      "item": f'{SITE_URL}/{m["category"]}/'},
-                    {"@type": "ListItem", "position": 3, "name": m["question"]},
+                    {"@type": "ListItem", "position": 3, "name": seo_title,
+                     "item": SITE_URL + path},
                 ],
             },
         ],
     })
-    return f"""{head(m.get("title") or m["question"], meta_desc(m["summary"], m["body"]), path, card=m["slug"])}
+
+    return f"""{head(seo_title, meta_desc(m["summary"], m["body"]), path, card=m["slug"])}
 <script type="application/ld+json">{schema}</script>
 {nav(m["category"])}
 <main class="wrap article">
-<p class="eyebrow"><a href="{BASE}/{m['category']}/">{cat_name}</a><span class="rt">{read_time(m["body"])} min read</span></p>
+<nav class="crumbs" aria-label="Breadcrumb">
+<a href="{BASE}/">Home</a><span>/</span><a href="{BASE}/{m['category']}/">{cat_name}</a>
+</nav>
 <h1>{m["question"]}</h1>
 <p class="standfirst">{m["summary"]}</p>
-<div class="prose">{md(m["body"])}</div>
+<div class="byline">
+<span>By {AUTHOR}, {AUTHOR_ROLE}</span>
+<span>Updated <time datetime="{updated}">{updated}</time></span>
+<span>{read_time(m["body"])} min read</span>
+</div>
+<figure class="hero-img">
+<img src="{BASE}/og/{m["slug"]}.jpg" width="1200" height="630" alt="{seo_title}" fetchpriority="high">
+</figure>
+{toc(m["body"])}
+<div class="prose">{body_html}</div>
+{faq_block}
 {map_widget(focus=m["slug"], compact=True) if m["category"] == "areas" and any(a["slug"] == m["slug"] for a in MAP_AREAS) else ""}
 {reel(m.get("reel", ""))}
-{share_bar(m.get("title") or m["question"], path)}
+{share_bar(seo_title, path)}
 {onward(m, ALL_PAGES)}
 {cta()}
 </main>
