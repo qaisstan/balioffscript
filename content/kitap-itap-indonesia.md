@@ -59,3 +59,17 @@ This is the single most common misunderstanding among foreign buyers in Bali. Th
 ## Tax
 
 Permanent residence makes Indonesian tax residence essentially certain. Tax residence follows presence, the [183-day rule](/tax/npwp-tax-residency/), and applies to worldwide income once it attaches.
+
+## Common questions
+
+### What is KITAP?
+It is the permanent stay permit, the longest-term residence status short of citizenship, available after qualifying periods on KITAS or through marriage to an Indonesian citizen.
+
+### How do you qualify for KITAP?
+Generally through consecutive years holding the appropriate KITAS, or through a qualifying marriage. The exact path depends on which KITAS category you hold.
+
+### What are the benefits of KITAP?
+Longer validity, fewer renewals, and stronger footing for Hak Pakai ownership and long-term planning. It also simplifies banking and everyday administration.
+
+### Can KITAP be revoked?
+Yes, on the same grounds any permit can be: extended absence, breach of conditions, or criminal matters. Permanent describes the term, not immunity from the rules.

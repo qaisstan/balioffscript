@@ -69,3 +69,17 @@ The visa stage is commonly reported at around **5 to 14 business days** once doc
 A long stay makes you an Indonesian tax resident regardless of visa category. Residence follows physical presence, not the permit in your passport. A large Indonesian bank deposit also carries its own reporting implications.
 
 That is a conversation with a tax adviser before the money moves, not after.
+
+## Common questions
+
+### What is the Second Home visa?
+It is a long-stay permit for financially self-supporting foreigners who commit defined funds or own qualifying property in Indonesia.
+
+### How much money do you need for the Second Home visa?
+It requires either a substantial deposit in an Indonesian state bank or ownership of qualifying property at a minimum value. Both figures have been revised, so verify the current level.
+
+### Is the Second Home visa a good option?
+It suits people who want residency without a company and without employment, and who can park the funds. It is expensive capital to tie up if you only need to be here part of the year.
+
+### Can you work on the Second Home visa?
+It is not a work permit. It grants residence, not the right to earn locally.

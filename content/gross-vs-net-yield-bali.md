@@ -53,3 +53,17 @@ Ask four questions:
 Then put the seller's own numbers into the [calculator](/calculator/) and compare.
 
 > A projection is a marketing document. It is not a forecast, and it carries no obligation on anyone.
+
+## Common questions
+
+### What is a realistic net rental yield in Bali?
+After vacancy, management, maintenance, tax and the sinking fund, net yields typically land well below the gross figures used in sales material. The gap between the two is the entire subject worth examining.
+
+### What is the difference between gross and net yield?
+Gross yield divides annual rental revenue by purchase price and stops there. Net yield subtracts every cost of actually producing that revenue. Only one of them is money you keep.
+
+### What costs are left out of Bali yield projections?
+Commonly: platform commission, management fee, vacancy, laundry and consumables, staff, pool and garden, repairs, utilities in void periods, insurance, tax, and the sinking fund for the five-year refurbishment.
+
+### What occupancy should you assume in Bali?
+Assume less than the seller does, and assume it varies by season. A projection built on peak-season occupancy applied to twelve months is describing a year that does not exist.

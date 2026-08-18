@@ -49,3 +49,17 @@ A single wet-season visit tells you more about whether you want to live here tha
 Plenty of people love Bali in rainy season. Plenty of people discover they were in love with a specific version of it that only exists half the year.
 
 Better to find out before you have bought.
+
+## Common questions
+
+### When is rainy season in Bali?
+Roughly November to March, with the heaviest rainfall usually between December and February.
+
+### Does it rain all day in Bali during rainy season?
+Rarely. The typical pattern is a heavy downpour for a couple of hours, often in the afternoon, then it clears. Plenty of days are fine, though some weeks are genuinely wet.
+
+### Is it worth visiting Bali in rainy season?
+Yes, if you want fewer tourists, cheaper flights and less traffic. It is also the only honest way to see how an area, street or plot actually behaves before you commit to it.
+
+### How does rainy season affect rental income?
+Occupancy drops. Any yield projection built on high-season occupancy across all twelve months is describing a year that does not exist.

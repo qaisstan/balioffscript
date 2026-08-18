@@ -50,3 +50,17 @@ Building a company purely to obtain a visa, with no real business behind it, is 
 ## Timeline
 
 The visa stage itself is commonly reported at around **5 working days** after payment once the file is complete. Company incorporation, OSS/NIB registration and capital evidence are the real timeline, and they come first.
+
+## Common questions
+
+### What is the Indonesia Golden Visa?
+It is a long-stay residence route for individuals and corporate investors who commit at defined investment levels, offering multi-year permits without the usual sponsorship requirements.
+
+### How much do you need for the Indonesia Golden Visa?
+Thresholds vary by category and by whether you establish a company or invest in government securities. The figures are substantial and have been revised, so confirm the current tiers.
+
+### Is the Golden Visa worth it?
+It buys time and simplicity rather than any property right a cheaper permit would not also unlock. For buyers whose main need is residency to support Hak Pakai, a KITAS is usually the cheaper answer.
+
+### Does the Golden Visa let you work in Indonesia?
+It is a residence route. What you may do commercially still depends on the underlying structure and any work authorisation attached to it.

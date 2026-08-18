@@ -53,3 +53,20 @@ Walking around at night in most areas. Solo travel. Being a woman travelling alo
 Bali is safe in the way that matters to most people and dangerous in one specific way that most people underestimate.
 
 Treat the roads with the respect you would give a motorbike anywhere else in the world, get insurance that actually covers you on one, and the rest of it is mostly noise.
+
+## Common questions
+
+### Is Bali safe for tourists in 2026?
+Broadly yes. Violent crime against foreigners is rare and most visits pass without incident. The genuine risk is road traffic, particularly scooters, which causes far more serious injuries to foreigners than crime does.
+
+### Is Bali safe for solo female travellers?
+Yes, relative to most destinations. The usual precautions apply at night and in quieter areas, but Bali compares favourably with most of Southeast Asia and with much of Europe.
+
+### What is the biggest danger in Bali?
+Scooter accidents, by a wide margin. Dense traffic, loose lane discipline, unlit roads at night and inexperienced riders combine badly. Wet season makes it worse.
+
+### Does travel insurance cover scooter accidents in Bali?
+Often not. Many policies exclude motorbike accidents unless you hold the correct licence for the engine size. Check that clause specifically, because a denied claim after a serious accident is financially catastrophic.
+
+### Are earthquakes a risk in Bali?
+Bali sits in a seismically active region. Earthquakes and volcanic activity are real but infrequent. It matters most for construction standards and insurance rather than daily life.

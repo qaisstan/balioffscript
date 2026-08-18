@@ -39,3 +39,20 @@ Since Bali's Perda 4/2026, signed in February 2026, it also carries criminal exp
 ## What decides your route
 
 Buying somewhere to live in and you hold a KITAS, Hak Pakai. Buying to rent out, PT PMA with HGB, because the rental licence attaches to the company. Buying a holiday base, short horizon, want the lowest entry cost. Leasehold, with an extension clause you have paid a lawyer to read.
+
+## Common questions
+
+### Can foreigners own property in Bali?
+Not freehold. Hak Milik, the freehold title, is reserved for Indonesian citizens. Foreigners hold property through Hak Pakai, a leasehold, or HGB held by a foreign-owned company.
+
+### What is the safest way for a foreigner to own property in Bali?
+The safest route is the one that is actually in your name and actually permitted: Hak Pakai for a residence where you qualify, a properly drafted leasehold, or HGB through a PT PMA where the business case supports the company.
+
+### Is the nominee structure legal in Bali?
+No. Holding land through an Indonesian nominee is prohibited, and since Perda Bali 4/2026 facilitating such an arrangement is itself an offence. Side agreements do not override the statute.
+
+### Can a foreigner own a house but not the land in Bali?
+Building and land rights are separable in Indonesian law, which is part of why leasehold and Hak Pakai structures work. It is also why the paperwork must be specific about which right you hold over what.
+
+### Can foreigners inherit property in Indonesia?
+Inheritance of a title a foreigner cannot lawfully hold triggers a disposal requirement within a set period. It is one of the most overlooked planning items in Bali purchases.

@@ -52,3 +52,17 @@ If you are buying a compliant asset with a long term at a price that works at 60
 If you are buying on a 12% projection in a saturated pocket, you are the reason people ask the question.
 
 [Run the numbers properly](/calculator/) and it usually answers itself.
+
+## Common questions
+
+### Is Bali property in a bubble in 2026?
+Not uniformly. Land in established areas is supported by real scarcity and real demand. The stress is concentrated in the standardised nightly-rental villa segment, where new supply has grown faster than guest nights.
+
+### Will Bali property prices go down?
+Land and villa prices are different questions. Land in scarce, well-zoned locations has held. Nightly rates in oversupplied villa pockets have already softened, which shows up as lower yields before it shows up as lower prices.
+
+### What happened to Bali property during COVID?
+Tourism stopped, income stopped, and a distressed window opened in 2021 where leaseholds and villas traded well below prior pricing. That window closed as travel returned.
+
+### What is the biggest risk to Bali property values?
+Regulatory change and oversupply in the rental segment, in that order. Licensing closures can strand a business model overnight in a way a price cycle cannot.

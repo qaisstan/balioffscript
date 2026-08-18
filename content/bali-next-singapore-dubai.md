@@ -56,3 +56,17 @@ If you believe capital keeps arriving while the compliant supply stays constrain
 The case for buying cheap non-compliant ones on the assumption it will be regularised later is the opposite. That is a bet against the direction the policy is visibly moving.
 
 > Bali is not becoming Dubai. It is becoming a market where legal position, rather than location, is the main determinant of value.
+
+## Common questions
+
+### Will Bali become the next Singapore or Dubai?
+The comparison does not hold. Singapore and Dubai built financial and logistics hubs on deliberate policy and heavy infrastructure. Bali's economy is tourism, its land is constrained and its infrastructure is behind, not ahead, of demand.
+
+### Is Bali becoming a financial hub?
+There is no meaningful movement toward that. Foreign ownership restrictions, licensing volatility and infrastructure constraints all point the other way.
+
+### Should you buy in Bali expecting Dubai-style appreciation?
+No. Buy on the income the asset can lawfully produce and on land you have verified. Appreciation narratives are the most expensive thing sold in this market.
+
+### What actually drives Bali property prices?
+Scarcity of well-zoned coastal land and tourism volume. Both are real, and neither resembles a sovereign wealth programme.

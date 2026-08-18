@@ -57,3 +57,20 @@ The deposit is where deals go wrong. Ask one question: if due diligence fails, w
 Never use the seller's notary. Engage your own. It is the cheapest protection in the entire transaction and the one people skip most often.
 
 Send me a deal before you sign it and I will tell you which of the above it fails on.
+
+## Common questions
+
+### Can a foreigner buy land in Bali?
+Not as freehold in a personal name. Land is held through a leasehold, Hak Pakai where you qualify, or HGB through an Indonesian company such as a PT PMA.
+
+### How do you buy land in Bali safely?
+Verify the certificate at the land office, check zoning against what you intend to build, confirm access rights and boundaries on the ground, and use your own independent notary rather than the seller's.
+
+### What should you check before buying land in Bali?
+Title type and remaining term, zoning colour, road access width, drainage and flood behaviour, setbacks from rivers and the coast, and whether the seller is the registered owner.
+
+### How much are land purchase costs in Bali?
+Budget around 7 percent of the price for transfer tax, notary and PPAT fees, and independent legal review. Independent review is the cheapest line on that list and the one buyers most often skip.
+
+### What is an are of land in Bali?
+Land here is priced per are, which is 100 square metres. Always confirm whether a quoted price is per are or total, because the confusion is expensive.

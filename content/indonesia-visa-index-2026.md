@@ -64,3 +64,17 @@ Two things follow from a restructure of this size.
 **The official index is the authority.** Not a summary, not a brochure, and not this page. Every index has an official Ditjen Imigrasi listing, and the current requirements live there.
 
 Figures in circulation, income thresholds, deposits, minimum investments, are revised periodically. Anything you read anywhere, including here, should be confirmed against the live official page before you file or transfer money.
+
+## Common questions
+
+### What visas are available for Indonesia in 2026?
+Visitor visas, the E33G remote worker permit, investor and work KITAS categories, family and retirement permits, Second Home, Golden Visa and KITAP. Each has different conditions and different things it does not permit.
+
+### Which Indonesian visa is easiest to get?
+The visitor visa, by a wide margin. It is also the one with the narrowest permitted activity, which is where most people get into trouble.
+
+### How often do Indonesian visa rules change?
+Frequently enough that any figure you read should be verified against the current official source before you rely on it, including the figures here.
+
+### What happens if you overstay in Indonesia?
+Daily fines accrue, and longer overstays escalate toward detention, deportation and re-entry bans. It is not a fee you can simply choose to pay.

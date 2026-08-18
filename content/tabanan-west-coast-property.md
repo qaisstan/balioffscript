@@ -52,3 +52,17 @@ It is a much weaker short-term rental play today, and projections that apply Can
 - Toll road alignment relative to the plot, from the published route, not the agent's map
 
 Buy Tabanan for what it is. The infrastructure story is real. The rental licence, mostly, is not there yet.
+
+## Common questions
+
+### Is Tabanan a good investment in Bali?
+It is the cheapest coastal land on the developed side of the island, which makes it the highest-upside and highest-patience option. Rental demand has not arrived at the level the coast further south enjoys.
+
+### How much is land in Tabanan?
+Substantially below Canggu and Pererenan, with the discount widening the further west you go. That gap is the whole thesis, and it will only close if infrastructure follows.
+
+### What is the risk of buying in Tabanan?
+Time. You are buying ahead of demand. If the road, the schools and the guests take another decade, you hold a well-priced asset that does not produce income in the meantime.
+
+### Is Tabanan zoned for tourism?
+Much of it is agricultural green zone. Zoning is the single most important check here, because cheap land is often cheap precisely because you cannot legally build accommodation on it.

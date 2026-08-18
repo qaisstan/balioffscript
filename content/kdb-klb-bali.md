@@ -59,3 +59,17 @@ KDB is applied to the land area, but setbacks reduce what you can use before the
 - Whether the intended use is permitted, conditional, or prohibited
 
 If the answer to any of these is "we can sort that later", treat it as a no until someone shows you the spatial plan.
+
+## Common questions
+
+### What is KDB in Bali building rules?
+Koefisien Dasar Bangunan is the building coverage ratio: the maximum proportion of the plot the building footprint may occupy. It is the constraint that most often shrinks a design.
+
+### What is KLB?
+Koefisien Lantai Bangunan is the floor area ratio, capping total built floor area relative to plot size. Together with KDB it decides how much villa a plot can hold.
+
+### How many floors can you build in Bali?
+Height is capped, traditionally referenced to the coconut palm rule, and enforced through the spatial plan. Assume a low-rise limit and verify the figure for your specific zone.
+
+### How do KDB and KLB affect what you can build?
+They set the ceiling on the villa before any design work starts. Running the numbers on the plot first prevents paying an architect to draw something that cannot be permitted.

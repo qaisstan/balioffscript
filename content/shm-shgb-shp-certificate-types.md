@@ -65,3 +65,17 @@ You will hear "80 years" constantly. The framework is 30 years, plus up to 20 ye
 Every one of these is found the same way: your own notary verifies the certificate at the local BPN office. Not the seller's notary. Yours.
 
 Land rights and building compliance are also separate questions. A clean certificate tells you nothing about whether the building on it has a PBG.
+
+## Common questions
+
+### What is the difference between SHM, SHGB and SHP?
+SHM is a freehold certificate, held only by Indonesian citizens. SHGB is a right-to-build certificate, held by Indonesian legal entities. SHP is a right-of-use certificate, the one a qualifying foreigner can hold.
+
+### Which certificate can a foreigner hold in Bali?
+SHP, the Hak Pakai certificate, subject to residency and value conditions. SHGB is available through a PT PMA. SHM is not available to a foreigner in any form.
+
+### How do you verify a Bali land certificate?
+Have your notary check it against the land office record. Confirm the owner's identity, the term, the boundaries and that there are no registered charges over it.
+
+### Can SHM be converted to SHGB?
+Conversion between title types is possible under defined procedures, and is a normal step when land moves from an individual to a company. Timing and cost should be confirmed before you commit.

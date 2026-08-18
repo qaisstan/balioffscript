@@ -61,3 +61,17 @@ Transfer and sublease rights must also be explicit. If the lease does not say yo
 Neither answers whether you can legally run a rental business on the plot. That depends on zoning, the business classification and the permits, and since July 2026, [the classifications a new PT PMA can register in Bali have narrowed sharply](/company/pt-pma-kbli-closure-bali/).
 
 Choosing the structure before checking the use is the wrong order.
+
+## Common questions
+
+### What is the difference between HGB and leasehold in Bali?
+HGB is a registered land title, held by an Indonesian legal entity including a PT PMA. Leasehold is a contract with a landowner. One is a right in the land register, the other is a right against a person.
+
+### Is HGB better than leasehold?
+HGB is stronger as a legal right but requires a company, which brings capital requirements, annual compliance and cost. Leasehold is simpler and cheaper but only as good as the contract and the counterparty.
+
+### How long is HGB valid?
+It is granted for a term with defined extension and renewal steps. Track the expiry, because the process to extend has deadlines and letting them pass is expensive.
+
+### Can a foreigner hold HGB personally?
+No. HGB is held by Indonesian legal entities, which for a foreign investor means a PT PMA rather than an individual.

@@ -54,3 +54,20 @@ Badung, Gianyar and Denpasar, Canggu, Pererenan, Seminyak, Uluwatu, Ubud, are ou
 The moratorium runs on executive instruction backed by existing law rather than one codifying regulation, which means it is enforced unevenly and can shift. Check current status at the regency before you plan a build in the affected areas.
 
 > Zoning check first. Before the deposit, before the notary, before you fall in love with the view.
+
+## Common questions
+
+### What do the zoning colours mean in Bali?
+The spatial plan assigns each parcel a designation controlling what may be built there. Green is broadly agricultural, yellow residential, pink or red commercial and tourism. The colour decides what your plot can legally become.
+
+### Can you build a villa on green zone land in Bali?
+Generally not for tourism accommodation. Green zone land is agricultural, and it is cheap for exactly that reason. Sellers frequently imply the designation is negotiable. It is not.
+
+### How do you check the zoning of land in Bali?
+Through the regional spatial planning system for the specific parcel, verified by your notary. Do not rely on a seller's screenshot or on what the neighbour built.
+
+### Can zoning be changed in Bali?
+Changes to spatial plans happen at a policy level, not at a buyer's request. Buying green land in the hope of rezoning is speculation, and it should be priced as such.
+
+### Does an existing villa nearby prove you can build?
+No. It may predate the current plan, may be unlicensed, or may sit in a different designation. Each parcel is assessed on its own.

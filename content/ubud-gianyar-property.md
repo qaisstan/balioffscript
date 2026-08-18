@@ -45,3 +45,20 @@ District spatial rules differ. A yellow designation in Ubud may carry conditiona
 - Whether LP2B or subak irrigation protections apply
 - Water access and drainage, which is a practical constraint inland
 - PBG and SLF for anything already built
+
+## Common questions
+
+### Is Ubud a good place to buy property?
+Ubud suits buyers targeting wellness, retreat and longer-stay guests rather than beach tourism. Demand is less seasonal than the coast but the nightly ceiling is lower.
+
+### How much is land in Ubud?
+Central Ubud carries a premium, and prices fall quickly as you move into the surrounding Gianyar villages. River-valley and rice-terrace views command the largest premium and often the hardest building constraints.
+
+### What are the building restrictions in Ubud?
+Green zone agricultural land is widespread across Gianyar, and river-boundary setbacks are enforced. A plot with a spectacular gorge view is frequently a plot you cannot build near the edge of.
+
+### Is Ubud good for rental income?
+It performs on longer stays, retreats and wellness programming. Occupancy is steadier across the year than the coast, so annual yield can be competitive even where nightly rates are not.
+
+### Is Ubud better than Canggu?
+For a quieter life and a lower entry price, yes. For nightly rate ceilings and resale liquidity, the coast is deeper. They serve different guests and different exit strategies.

@@ -69,3 +69,17 @@ Complete, valid documents at first submission. Most of the delay in these timeli
 Respond to revision requests immediately. A file sitting in your inbox is a file not moving.
 
 > Nobody can quote you a PBG timeline without knowing the regency, the zone, and whether the site sits in a digitised RDTR area. Anyone who quotes one anyway is guessing.
+
+## Common questions
+
+### How do you get a building permit on empty land in Bali?
+Confirm zoning permits your intended use, obtain the location suitability confirmation, prepare compliant drawings, then submit for PBG. Zoning first, always, because everything after it depends on it.
+
+### How long does PBG take in Bali?
+Weeks to months depending on the regency, the completeness of the drawings and the complexity of the project. Incomplete submissions are the main cause of delay.
+
+### Can you start building while waiting for PBG?
+No. Building without approval risks stop-work orders and demolition, and it complicates every licence that comes afterwards.
+
+### What documents do you need for PBG?
+Proof of the land right, the spatial planning confirmation, architectural and structural drawings by qualified professionals, and the technical documents the regency requires.

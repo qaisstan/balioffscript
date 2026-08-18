@@ -44,3 +44,17 @@ Do not panic and do not do nothing. The unwind is real work: you need the regist
 Get an Indonesian lawyer, your own, to look at what you actually hold before you approach the nominee.
 
 > The uncomfortable version: your exposure is highest while the nominee relationship is good. That is exactly when people decide not to deal with it.
+
+## Common questions
+
+### Is a nominee structure legal in Bali?
+No. Land held through an Indonesian nominee for a foreigner is prohibited, and the supporting side agreements are unenforceable because they exist to circumvent the law.
+
+### What happens if a nominee arrangement is challenged?
+The registered owner is the legal owner. Your loan agreements, powers of attorney and option contracts do not transfer title, and courts have not treated them as if they do.
+
+### Are nominee agreements still being sold in Bali?
+Yes, often with reassurance about how common they are. Prevalence is not legality, and since Perda Bali 4/2026 facilitating a nominee arrangement is itself prohibited.
+
+### What should you do instead of a nominee?
+Use a structure that is lawful in your own name or your own company: Hak Pakai where you qualify, a properly drafted leasehold, or HGB through a PT PMA where the business supports it.

@@ -45,3 +45,17 @@ Ask what the money is for.
 **Producing income over a defined period you are comfortable with?** Bali is competitive and the demand is not in question.
 
 **Both?** They are rarely the same asset, and anyone telling you otherwise is selling one of them.
+
+## Common questions
+
+### Is Bali or Thailand better for property investment?
+Thailand permits foreign freehold condominium ownership within quota, which is a cleaner ownership route than anything Bali offers. Bali has stronger villa rental demand and a shorter, more constrained supply of land.
+
+### Is Bali or Portugal better for expats?
+Portugal offers EU residency, freehold ownership and mature healthcare at higher cost. Bali offers lower cost and better weather with weaker ownership rights and thinner medical infrastructure.
+
+### Where can foreigners actually own property outright?
+Portugal and most of Europe allow full freehold. Thailand allows freehold condominiums. Indonesia allows neither to a foreigner personally, which is the structural difference that drives everything else.
+
+### Which has better rental yields, Bali or Thailand?
+Headline yields in Bali look higher, but they are quoted gross and frequently on unlicensed operations. Compare net, after licensing, management and vacancy, and the gap narrows considerably.

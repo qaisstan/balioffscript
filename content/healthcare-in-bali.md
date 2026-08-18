@@ -61,3 +61,20 @@ That is the figure that determines whether an accident is a bad week or a life-a
 For everyday life, healthcare here is a non-issue and often better value than home.
 
 For the one bad day, you are underinsured unless you deliberately arranged not to be. That is the whole calculation.
+
+## Common questions
+
+### Is healthcare in Bali good?
+Routine care is good and affordable, with English spoken at the main private hospitals. Complex or critical care is more limited, which is why medical evacuation cover matters so much.
+
+### What does a hospital visit cost in Bali?
+A consultation runs USD 40 to 100, an emergency room visit USD 150 to 300, a standard room USD 300 to 500 a night and intensive care USD 1,500 to 2,500 a night. Without insurance, a standard emergency case runs USD 5,000 to 25,000.
+
+### Which hospital should expats use in Bali?
+BIMC in Nusa Dua and Kuta for international-standard care, Siloam for good care at lower cost, and Bali International Hospital in Sanur, which opened in 2024 specifically to handle complex cases that previously required flying abroad.
+
+### How much does medical evacuation from Bali cost?
+USD 55,000 to 100,000 to Singapore. Your policy should carry at least USD 100,000 to 250,000 of evacuation cover, named explicitly.
+
+### Do you need health insurance in Bali?
+Yes, and it should include evacuation cover, direct billing with local hospitals so you are not paying up front, and explicit cover for scooter accidents.

@@ -38,3 +38,17 @@ Budget several thousand US dollars a year for accounting and compliance before y
 An investor KITAS is attached to a real company doing real business. A PT PMA that exists only to hold a villa, files nothing, and reports no activity is visible to both the investment board and the tax office.
 
 If your only reason for the company is to hold property you live in, look hard at whether **Hak Pakai** does the job instead. It has no annual compliance load at all.
+
+## Common questions
+
+### What is the E28A investor KITAS?
+It is the residence permit for a foreigner holding shares in an Indonesian company at or above the required investment level, allowing them to live here in connection with that investment.
+
+### How much do you need to invest for an investor KITAS?
+The shareholding threshold sits alongside the PT PMA's own capital requirements. Confirm both current figures before structuring, because they move.
+
+### Can you work on an investor KITAS?
+The permit is tied to your position in the company. What you may actually do depends on whether you hold a director or commissioner role and whether a work permit accompanies it.
+
+### How long is the investor KITAS valid?
+It is issued for a defined term and renewed while the underlying investment and company remain in good standing. Company compliance failures put the permit at risk.

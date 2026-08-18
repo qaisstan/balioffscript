@@ -57,3 +57,20 @@ Buying the land before confirming what it permits. It is the single most expensi
 [Confirm the zoning and the coefficients](/building/kdb-klb-bali/). Establish every setback in writing. Then decide.
 
 Send me the parcel details and I will tell you what I would check before you buy it.
+
+## Common questions
+
+### How much does it cost to build a villa in Bali?
+Construction is quoted per square metre and the range between basic and high specification is wide. Get the quote broken into structure, finishes, pool, landscaping and furniture, because bundled figures hide where the money goes.
+
+### How long does it take to build a villa in Bali?
+A straightforward villa typically runs the better part of a year once permits are in hand. Permits themselves, wet season and material delays are what push projects past a year.
+
+### Do you need a permit to build in Bali?
+Yes. PBG is the building approval and SLF certifies the completed building is fit for use. Starting without PBG is how projects end up demolished or unable to be licensed.
+
+### What are the biggest risks when building in Bali?
+Building on land whose zoning does not permit it, paying ahead of progress, and no independent supervision. All three are avoidable and all three are common.
+
+### Should you use a fixed-price or cost-plus contract?
+Fixed price transfers risk to the builder but invites specification disputes. Whichever you choose, tie payments to inspected milestones rather than to dates.

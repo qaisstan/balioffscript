@@ -47,3 +47,17 @@ This market is not more dangerous than others. It is less forgiving of skipped s
 Before you transfer anything, [run through the list](/check/). If something on it cannot be answered, that is the answer.
 
 Send me the deal first. It costs you nothing to have someone look.
+
+## Common questions
+
+### How do you protect your money when buying in Bali?
+Transfer traceably to the registered owner, never in cash and never to a third party. Condition every payment on a verification milestone, and appoint your own notary and legal reviewer.
+
+### What is the most common way buyers lose money in Bali?
+Deposits paid before due diligence, into accounts they cannot identify, with no written refund condition. The structure fails before the property is ever the problem.
+
+### Can you get your deposit back in Bali?
+Only if the contract says so, in specific terms tied to defined conditions. Verbal assurance from an agent is not a refund mechanism.
+
+### Is escrow available for Bali property purchases?
+Escrow-style arrangements exist but are not the default here, and quality varies. Whatever the mechanism, the release conditions should be written and objective.

@@ -46,3 +46,20 @@ This is the single most misunderstood point among remote workers here, and it is
 ## If you are considering property
 
 Buying does not give you the right to stay, and the E33G is not framed as a route to permanent residence. If long-term security is the goal, [look at the routes that do lead there](/visas/kitap-itap-indonesia/) before you commit capital.
+
+## Common questions
+
+### Is there a digital nomad visa for Bali?
+Yes. The E33G permit covers people who remain employed by or contracted to a company established outside Indonesia and want to live here without working locally.
+
+### What are the E33G requirements?
+A genuine employment or consulting agreement with a foreign company, a minimum annual income commonly cited at USD 60,000, general living funds of around USD 2,000, and no income from Indonesian entities.
+
+### How long is the E33G valid?
+One year, renewable while the foreign employment relationship and the income threshold continue to be met.
+
+### Can freelancers get the E33G?
+Only if they can document both the foreign employment relationship and the published income level. An independent consultant with clear foreign contracts may qualify, but it should be checked against the current official criteria rather than assumed.
+
+### Do digital nomads pay tax in Indonesia?
+Tax residence follows physical presence. Beyond 183 days in a year you are an Indonesian tax resident, even though your income is foreign and paid abroad.

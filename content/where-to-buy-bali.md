@@ -51,3 +51,17 @@ Lowest entry, thinnest rental demand, longest horizon. The case rests on the pro
 Bali recorded **6,948,754 foreign arrivals in 2025**, up 9.72% year on year. Australia leads at 1.63 million, then India and China. Ngurah Rai is expanding from roughly 24 to 32 million passengers.
 
 Demand is not the problem. Supply, licensing and zoning are.
+
+## Common questions
+
+### Where is the best place to buy property in Bali?
+There is no single answer, because the areas serve different strategies. Canggu and Pererenan for rental depth, Uluwatu for premium nightly rates, Sanur for family living and steady occupancy, Ubud for wellness demand, Tabanan for entry price.
+
+### Where is the cheapest place to buy in Bali?
+Tabanan and the west coast, followed by inland Gianyar. Both carry the same trade-off: lower price, thinner rental demand, more zoning constraints.
+
+### Which area of Bali has the best rental yield?
+Headline nightly rates are highest in Uluwatu and Canggu. Annual yield after vacancy, management and maintenance is often closer between areas than the marketing suggests.
+
+### Should you buy where you would want to live?
+Only if you intend to live there. The area that suits a resident and the area that fills a booking calendar are frequently not the same place, and buying for both usually satisfies neither.

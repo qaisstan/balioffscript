@@ -41,3 +41,20 @@ In practice this is unevenly enforced, but building a long-term plan on uneven e
 Against leasehold: a real registered title, mortgageable, administrative renewals instead of a private negotiation, but a higher entry price and residency required, and you pay 5% BPHTB on acquisition where a lease pays none.
 
 Against a PT PMA: much simpler and cheaper to run, no quarterly investment reports, no corporate tax returns, no annual accounting, but no rental business.
+
+## Common questions
+
+### What is Hak Pakai?
+The right of use. It is the title a foreigner can hold personally over a residence in Indonesia, subject to residency status and, for houses and apartments, minimum value thresholds.
+
+### Who can get Hak Pakai in Indonesia?
+Foreigners holding valid residency, typically a KITAS or KITAP. It is a residence title, not an investment vehicle, and the property must meet the applicable minimum value.
+
+### How long does Hak Pakai last?
+It is granted for a defined term with statutory extension and renewal rights. The term and the renewal conditions should be read off the certificate itself, not assumed.
+
+### Can you rent out a property held under Hak Pakai?
+Hak Pakai is a residence title. Running a nightly rental business from it is a separate licensing question and generally not what the title contemplates.
+
+### Is Hak Pakai better than leasehold?
+It is a registered right in your own name, which is stronger than a contractual lease. It is also more restricted in who qualifies and what the property can be used for.

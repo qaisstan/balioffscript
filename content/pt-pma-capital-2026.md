@@ -43,3 +43,17 @@ Choosing a KBLI because it is easy to register, then operating outside it, is a 
 Everything runs through **OSS-RBA**: deed of establishment before a notary, ministry approval, NIB issued, then risk-based licensing according to your KBLI. Four to eight weeks is realistic when documents are clean.
 
 One recent change worth knowing: as of May 2026, virtual offices are reported to be no longer accepted for PT PMA registration in Bali. Budget for a real address.
+
+## Common questions
+
+### How much capital does a PT PMA need?
+The investment threshold is substantial and is assessed per business classification and per project location, not once per company. Confirm the current figure before budgeting.
+
+### Does the capital have to be paid up?
+There is a distinction between the investment plan and the paid-up capital that must actually be deposited. Both matter, and the second is the one that affects your cash.
+
+### Does the capital requirement apply per KBLI code?
+The threshold is generally assessed per classification and location, which is why adding business activities to a company is not free.
+
+### Can the capital include the land and building?
+The investment value calculation and what counts toward it is defined by the rules, and land and buildings are treated differently from working capital. Confirm the treatment before relying on it.

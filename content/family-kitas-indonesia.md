@@ -54,3 +54,17 @@ A foreign spouse running a business on a family KITAS is a compliance problem, n
 ## Tax
 
 Tax residence follows presence, not permit type. A long-resident family-based ITAS holder becomes an Indonesian tax resident under [the 183-day rule](/tax/npwp-tax-residency/) like anyone else.
+
+## Common questions
+
+### What is a family KITAS?
+It is the dependent residence permit for the spouse and children of an Indonesian citizen or of a foreigner holding a KITAS, sponsored by that family member.
+
+### Can you work on a family KITAS?
+A dependent permit is not a work permit. Working requires a separate authorisation, and the distinction is being actively enforced.
+
+### Can a spouse of an Indonesian citizen own property?
+It is possible but it depends heavily on the marital property arrangement. A prenuptial or postnuptial agreement separating assets is central to how this works, and it should be in place properly.
+
+### How long is a family KITAS valid?
+It is issued for a defined term and renewed alongside the sponsor's status. If the sponsor's permit lapses, the dependent permits follow.

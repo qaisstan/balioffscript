@@ -58,3 +58,17 @@ If a projection cannot survive being typed into a spreadsheet, that tells you wh
 - Any deal where the numbers only work at 80% occupancy
 
 > The Bali market is not short of demand. Arrivals keep climbing. It is short of properties that can be legally operated at the price being asked.
+
+## Common questions
+
+### Is buying a villa in Bali a good investment?
+It can be, for buyers who value the land correctly, hold a lawful operating licence, and underwrite occupancy and costs honestly. It is a poor investment bought on a projection.
+
+### What return can you expect from a Bali villa?
+Net of every real cost, considerably less than the gross figures in sales decks. Run your own numbers on realistic occupancy and full running costs before you accept any quoted yield.
+
+### Is it better to buy leasehold or freehold in Bali?
+A foreigner cannot hold freehold personally. The practical choice is leasehold, Hak Pakai, or HGB through a PT PMA, and each has different cost, term and exit implications.
+
+### What is the most common mistake buyers make in Bali?
+Buying the projection instead of the asset: paying a price justified by an income stream that the licence, the zoning, or the market cannot actually deliver.

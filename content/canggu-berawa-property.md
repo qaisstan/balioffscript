@@ -47,3 +47,20 @@ Budget that time and cost into any deal where permits are incomplete. It is not 
 - Whether the operating company's licence covers this location, not just its domicile
 
 If the yield projection assumes nightly rental, the licensing question comes before the numbers. Run the numbers anyway. The [ROI calculator](/calculator/) will show you what Canggu actually returns after costs.
+
+## Common questions
+
+### Is Canggu still a good place to buy?
+Canggu has the deepest rental demand and the deepest resale market on the island. It also has the most competing supply, the worst traffic and the highest entry price on the west coast.
+
+### How much does a villa cost in Canggu?
+Well above the island average, with Berawa and Batu Bolong carrying the strongest premium. Compare like for like: land size, title type, remaining lease term and whether the licence actually permits nightly rental.
+
+### Is Canggu oversupplied with villas?
+In the standard three-bedroom pool villa segment, supply growth has outpaced demand growth. Differentiated properties still perform; identical ones compete on price.
+
+### What is the difference between Berawa, Batu Bolong and Echo Beach?
+Berawa is the most built-up and commercial, Batu Bolong the most walkable cafe strip, Echo Beach the surf end. Rates and traffic both fall as you move north and away from the beach.
+
+### Is Canggu traffic really that bad?
+Yes, and it should factor into your purchase. A villa 2km from a beach club can be 25 minutes away at 6pm, and guests price that into their reviews.

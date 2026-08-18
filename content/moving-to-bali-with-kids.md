@@ -64,3 +64,17 @@ Bali is a genuinely good place to raise children. Outdoor life, small class size
 It is also administratively heavier than home, medically thinner, and considerably more expensive than the number you have in your head.
 
 Families who plan for the real number stay. Families who plan for the blog-post number leave in year two.
+
+## Common questions
+
+### How much does it cost for a family to live in Bali?
+Plan for USD 4,000 to 6,500 a month with children in international school, against USD 1,800 to 2,500 for a comfortable single expat. School fees account for most of the difference.
+
+### Is Bali good for families with children?
+For many families, yes. Outdoor life, small class sizes and an international peer group are genuine advantages. It is administratively heavier and medically thinner than home.
+
+### Where do families live in Bali?
+Sanur is the most family-oriented area, close to Denpasar hospitals and calmer water. Ubud suits families drawn to the creative schools. The Canggu and Pererenan corridor has the schools serving recently arrived families.
+
+### What should families arrange before moving to Bali?
+School place first, then housing near it, then insurance with evacuation cover checked for child limits. Rent for a year before buying anything.

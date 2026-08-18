@@ -69,3 +69,20 @@ This is consistent with everything else happening in Bali policy this year. Nomi
 The direction is one way. Bali is tightening what foreigners can do here, and enforcing it more actively than at any point in the last decade.
 
 Anyone selling you a structure that depends on nobody checking is selling you something that stopped working.
+
+## Common questions
+
+### Can you work remotely in Bali on a tourist visa?
+No. Working on a visitor visa is a violation and is being actively enforced. The dedicated route for remote workers employed by a foreign company is the E33G permit.
+
+### What happens if you are caught working on a tourist visa in Bali?
+Immediate deportation and a multi-year ban on re-entering Indonesia. In the first three weeks of operations the task force detained 62 foreign nationals.
+
+### Does unpaid volunteering count as work in Bali?
+Yes, under the current enforcement posture. Payment is not the test, the activity is. Unpaid volunteering, yoga teaching and wellness workshops have all been treated as violations.
+
+### Do sponsored Instagram posts count as work in Bali?
+Yes. Sponsored posts and brand collaborations are treated as work, and a free villa stay or comped meals in exchange for promotion counts as compensation.
+
+### Where is immigration patrolling in Bali?
+Canggu, Ubud, Seminyak, Kerobokan and Uluwatu, with roughly 100 officers deployed. Officers also monitor public social media and LinkedIn profiles.

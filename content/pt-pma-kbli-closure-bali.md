@@ -96,3 +96,20 @@ If a seller shows you an NIB still displaying 2020 codes and tells you it is fin
 - The registered activity honestly describes the business you intend to run
 
 An existing operation next door proves nothing about your project. Each plot and each licence position stands on its own.
+
+## Common questions
+
+### Can a PT PMA still get a villa licence in Bali?
+Not under the villa or homestay classifications. Bali closed KBLI 55203 and 55201 to new foreign-owned company registration on 22 July 2026, along with real estate and management consultancy.
+
+### Which KBLI codes closed to foreign companies in Bali?
+55203 villa, 55201 homestay, 68111 real estate and 70209 management consultancy, as part of 18 low-risk classifications closed to new PT PMA registration.
+
+### Does the closure affect existing PT PMA companies?
+No. It stops new foreign-owned companies registering these activities. An existing licensed company with a valid NIB is not retroactively cancelled.
+
+### Can you register the PT PMA in Jakarta to avoid the Bali closure?
+No. Land can be held through a PT PMA registered anywhere in Indonesia, but business licensing follows the project location. A villa in Pererenan is a Bali project regardless of company domicile.
+
+### What structures are still available for villa rental in Bali?
+A PT PMA can hold the land under HGB and lease the building to a genuinely licensed local operator at arm's length, or sign a documented management agreement with one. What is not available is a nominee holding the licence while you run the business.

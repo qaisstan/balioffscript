@@ -65,3 +65,17 @@ Discovering this at week six is expensive. Establish it at week zero.
 5. Then build
 
 Most expensive failures come from doing step 3 first because it feels like progress.
+
+## Common questions
+
+### How long does it take to set up a PT PMA?
+Company formation and NIB issuance can move in weeks with complete documents. The realistic timeline is longer once classification checks, location permits and banking are included.
+
+### What are the steps to set up a PT PMA in Bali?
+Name reservation, deed of establishment, ministry approval, NIB and business licensing through OSS, tax registration, and bank account opening. Each step depends on the one before it.
+
+### Do you need to be in Indonesia to set up a PT PMA?
+Much of the process can be handled remotely, but banking and certain verifications are easier in person. Plan for at least one trip.
+
+### What is the most common delay in PT PMA setup?
+Choosing a business classification that turns out to be restricted or closed for new foreign registration, which sends the whole process back to the start.

@@ -55,3 +55,17 @@ Given that [medical evacuation to Singapore runs USD 55,000 to 100,000](/living/
 Get the Indonesian licence. It is valid, it is cheap, and it removes the argument entirely.
 
 If you are building or buying somewhere, factor in that you will likely want a car eventually. [Access roads and their legal width](/check/) are worth checking on any plot you are serious about, for exactly this reason.
+
+## Common questions
+
+### Do you need a licence to ride a scooter in Bali?
+Yes. Either an International Driving Permit endorsed for motorcycles alongside your home licence, or an Indonesian SIM. A car-only permit does not cover you on a scooter.
+
+### What happens if you ride without a licence in Bali?
+Beyond the on-the-spot fine, the serious consequence is insurance. Many policies exclude motorbike accidents unless you hold the correct licence, so a claim after a serious accident can be denied.
+
+### Can you get an Indonesian driving licence as a foreigner?
+Yes, you can apply for an Indonesian SIM locally. For anyone living here it removes the licensing argument entirely and is inexpensive.
+
+### Is it safe to ride a scooter in Bali?
+It is the main risk foreigners face here. Wear a proper helmet, avoid unlit roads at night, and take rainy season seriously because the surface becomes slick within seconds of rain starting.

@@ -50,3 +50,17 @@ That is not a rare edge case. It is what a 20-year lease at a 30-year price prod
 - **Ask what happens at 45%**, because at some point there will be a 45% year
 
 > If a deal only works above 70% occupancy, it is not an investment. It is a bet on never having a bad season.
+
+## Common questions
+
+### What occupancy do you need to break even on a Bali villa?
+It depends on rate and cost base, but the honest answer for most three-bedroom villas is materially higher than the occupancy assumed in the projection you were shown. Run the number yourself before you buy.
+
+### How do you calculate break-even occupancy?
+Divide total annual fixed and variable operating costs by the net revenue a single booked night produces after commission and cleaning. That gives you the nights per year the villa must sell before it earns anything.
+
+### What is average villa occupancy in Bali?
+It varies enormously by area, segment and how differentiated the property is. Averages hide the fact that the top quartile of listings takes a disproportionate share of the bookings.
+
+### Why does break-even occupancy matter more than yield?
+Because it tells you how much room for error you have. A villa breaking even at 40 percent survives a bad year. One breaking even at 70 percent does not.

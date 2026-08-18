@@ -45,3 +45,20 @@ That surprises people constantly, and it is the most expensive misunderstanding 
 Do the visa first. It costs less to discover a problem before you have committed capital, and the visa question is answerable in weeks while a property question is not.
 
 If you want a second opinion on a specific plan, send it over.
+
+## Common questions
+
+### Can you retire in Bali as a foreigner?
+Yes. There is a retirement route with age and financial requirements, alongside the Second Home visa and Golden Visa for those who meet the higher thresholds.
+
+### What is the age requirement to retire in Bali?
+The retirement permit carries a minimum age alongside income or savings evidence. Confirm the current figures, because both the age and the financial tests have been revised.
+
+### How much money do you need to retire in Bali?
+Beyond the visa threshold, plan the real budget: comfortable single living runs around USD 1,800 to 2,500 a month, plus health insurance with evacuation cover, which becomes more expensive with age.
+
+### Can retirees buy property in Bali?
+Holding valid residency opens Hak Pakai, which is the cleanest personal ownership route. That is one of the practical advantages of holding a retirement permit rather than repeated tourist stays.
+
+### What is the biggest issue for retirees in Bali?
+Healthcare. Routine care is good and cheap, complex care is limited, and evacuation to Singapore runs USD 55,000 to 100,000. Insurance is the whole plan, and age limits on policies matter.

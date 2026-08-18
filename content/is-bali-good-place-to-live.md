@@ -51,3 +51,17 @@ Bali receives around seven million foreign arrivals a year and keeps a small fra
 ## Before you commit
 
 Spend a rainy season here before deciding. A February visit tells you more than five dry-season trips, and it is the single cheapest piece of due diligence available.
+
+## Common questions
+
+### Is Bali a good place to live?
+For the right person, yes: cost, climate, community and outdoor life are genuine. The honest counterweights are healthcare depth, traffic, visa dependency and administrative friction.
+
+### What is daily life like in Bali?
+Warm, outdoor, scooter-based and slower than a Western city for anything administrative. Groceries, gyms, coworking and international food are all readily available in the main areas.
+
+### Is Bali good for long-term living?
+It depends on your permit, your income source and your healthcare plan. People who solve those three well tend to stay; people who improvise them tend to leave.
+
+### What do people find hardest about living in Bali?
+The transience of friendships and the administrative overhead. The weather and the cost are the easy parts.

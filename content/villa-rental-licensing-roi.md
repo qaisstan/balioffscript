@@ -49,3 +49,17 @@ Treat any "guaranteed 15% ROI" villa scheme as a claim requiring proof. The guar
 Ask for audited occupancy on existing units, not projections. If the answer is a brochure, you have your answer.
 
 > Underwrite on net, after tax, after management, after amortisation, at realistic occupancy rather than peak. If it still works, it is a real investment.
+
+## Common questions
+
+### Do you need a licence to rent a villa in Bali?
+Yes. Nightly accommodation is a licensed business activity. Renting without the correct permit is an enforcement risk that has become materially more real, not a technicality.
+
+### What happens if your villa is not licensed?
+Regional authorities can issue warnings, suspend operations and close premises. The financial consequence is not the fine, it is a property that produces nothing while it sits closed.
+
+### How does licensing affect your return?
+An unlicensed villa should be valued on the income it can lawfully produce, which may be zero for nightly rental. Any yield figure quoted without a licence attached is hypothetical.
+
+### Can you rent a villa long-term without a licence?
+Long-term leasing sits under different rules than nightly accommodation, and the economics are different too. It is often the fallback when the nightly licence is unavailable.

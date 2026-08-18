@@ -47,3 +47,17 @@ Structure payments against verified construction milestones with retention held 
 Realistic hard construction in 2026 runs roughly **USD 1,000–1,800 per square metre** for investment-grade work, excluding land. Below about USD 600 you are buying a building that will show rising damp and rusting reinforcement within three to five years.
 
 Budget overruns of 25–35% are normal. Rainy season adds 20–40% to structural phases. Use a licensed contractor with an NIB, a detailed bill of quantities, milestone payments, and an independent construction supervisor who works for you rather than for the builder.
+
+## Common questions
+
+### What is PBG in Indonesia?
+Persetujuan Bangunan Gedung is the building approval that replaced IMB. It authorises construction against an approved design and must be obtained before you build.
+
+### What is SLF?
+Sertifikat Laik Fungsi certifies the completed building is fit for its intended function. It is the document that connects a finished structure to a lawful operating licence.
+
+### Can you get PBG after building?
+Retrospective regularisation exists but it is slower, more expensive and not guaranteed. If the building breaches zoning or setbacks, no amount of paperwork fixes it.
+
+### Do you need PBG and SLF to rent out a villa?
+In practice yes. A rental licence rests on a building that is lawfully approved and certified. Without them, the operating permit is exposed.

@@ -46,3 +46,17 @@ IDR 1,000,000 per person per day, from day one, no grace period, charged for chi
 In the first seven months of 2025, Bali recorded 2,669 deportations. Immigration is not the sleepy department it was five years ago.
 
 > Leaving permanently, changing sponsor, or switching permit type requires an **EPO**, Exit Permit Only. Departing without one creates an overstay record you will meet again at the border.
+
+## Common questions
+
+### Which visa do you need for Bali?
+It depends entirely on what you intend to do here. Tourism, remote work for a foreign employer, investing in an Indonesian company, retiring, and joining a spouse are five different permits with five different conditions.
+
+### Can you live in Bali on a tourist visa?
+You can stay, within the permitted duration and extensions. You cannot work, and enforcement of that distinction has tightened sharply since April 2026.
+
+### What is the longest visa for Bali?
+KITAP offers the longest residence for those who qualify, with KITAS variants and the Golden Visa covering multi-year stays under different conditions.
+
+### Which Bali visa lets you buy property?
+Property purchase and residency are separate questions, but Hak Pakai requires valid residency. Buying through a PT PMA can support an investor KITAS, which is a different route to the same outcome.

@@ -52,3 +52,17 @@ Buy a villa → arrive → discover the permit does not cover the plan → disco
 Each of those is recoverable alone. Together they are the reason people leave.
 
 > The question is not whether Bali is worth moving to. It is whether the version of Bali you are imagining is one the rules actually permit.
+
+## Common questions
+
+### Should you move to Bali?
+It works well for people with foreign income, a tolerance for administrative friction, and realistic expectations about healthcare and infrastructure. It works badly as an escape from problems that travel with you.
+
+### What are the downsides of living in Bali?
+Traffic, bureaucracy, limited complex healthcare, waste and drainage issues, visa dependency, and a transient social circle where people leave constantly.
+
+### How much money do you need to move to Bali?
+Roughly USD 1,800 to 2,500 a month for a comfortable single life, USD 4,000 to 6,500 for a family with school fees, plus setup costs and insurance.
+
+### How long do most expats stay in Bali?
+Many leave within two or three years. Understanding why the leavers left is more useful than reading why the arrivals came.

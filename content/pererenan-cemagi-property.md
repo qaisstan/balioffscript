@@ -44,3 +44,20 @@ Pererenan is in Badung. Same enforcement posture, same permit timelines: 5–6 m
 - That the access road is a legal right of way, in writing, with a recorded width
 
 Cheap land in Pererenan is usually cheap for a reason that appears in the spatial plan.
+
+## Common questions
+
+### Is Pererenan a good place to buy in Bali?
+It is currently the most actively developed corridor on the west coast, which cuts both ways: infrastructure and demand are arriving, and so is a large volume of near-identical villa supply.
+
+### What is the difference between Pererenan and Canggu?
+Pererenan is the quieter continuation of the same coastline, north of the Perancak river. It has more land, newer construction and less traffic, though the gap narrows every year.
+
+### How much is land in Pererenan and Cemagi?
+Prices step down sharply moving north and inland from the beach. The same rice-field view can carry very different figures depending on access road width and zoning colour, so verify both before comparing plots.
+
+### What should you check before buying in Pererenan?
+Zoning colour, road access width for construction vehicles, drainage in wet season, and how many comparable villas are being built within a kilometre of the plot.
+
+### Is Pererenan oversupplied?
+In the nightly rental segment, the supply of three-bedroom pool villas is growing faster than demand in some pockets. Underwrite occupancy conservatively rather than assuming the last three years repeat.

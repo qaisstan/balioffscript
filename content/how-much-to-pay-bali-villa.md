@@ -57,3 +57,17 @@ A 20-year lease and a 40-year lease at the same price are not the same purchase.
 "Your asking price implies a 2% net return once amortisation is included. I need 8%. Here is the working." That is a specific, checkable argument.
 
 > Sellers discount for a reason, not for a feeling. Bring arithmetic and you will find out quickly whether there is room.
+
+## Common questions
+
+### How much should you pay for a villa in Bali?
+Value the land and value the building separately. Land carries the value that persists; the building depreciates in this climate faster than most buyers expect.
+
+### How do you value a Bali villa?
+Start from recent transacted land prices per are on the same road, add a realistic replacement cost for the structure less depreciation, then sanity-check against the income the property can lawfully produce.
+
+### Why are asking prices so much higher than transacted prices?
+Listings can sit for a long time with no cost to the seller, so asking prices drift upward independently of what anyone actually paid. Always ask what sold, not what is listed.
+
+### Should you pay a premium for furniture and fit-out?
+Rarely at the number quoted. Tropical furniture has a short life, and a four-year-old fit-out is much closer to needing replacement than to being new.

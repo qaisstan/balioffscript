@@ -61,3 +61,17 @@ Two to four weeks is a realistic minimum for thorough due diligence, and that as
 If you are spending several hundred thousand dollars, the visa that lets you verify it properly costs a rounding error by comparison.
 
 Take the [checklist](/check/) with you.
+
+## Common questions
+
+### What visa do you need to look at property in Bali?
+A standard visitor visa covers viewing property, meeting notaries and doing your own research. You are not working, you are spending money.
+
+### Can you sign a property contract on a tourist visa?
+Executing a purchase in your own name as a buyer is not employment. What you cannot do is operate a business or earn locally, which is a different activity.
+
+### How long should a property due diligence trip be?
+Long enough to see the plot at different times of day, in traffic, and ideally in rain. Two weeks is a realistic minimum for a serious purchase.
+
+### Do you need residency to buy property in Bali?
+For Hak Pakai in your own name, yes. For a leasehold or a purchase through a PT PMA, residency is a separate question from the transaction itself.

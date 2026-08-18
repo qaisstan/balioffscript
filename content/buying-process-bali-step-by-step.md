@@ -71,3 +71,17 @@ Fourteen days is tight for Bali due diligence. Certificate verification at BPN, 
 On a lease, the **owner generally remains responsible for land and property tax**. That is normal, and it means the tax bill is not yours, but it also means an owner who stops paying creates a problem attached to land you are using.
 
 Confirm who pays what, in writing, and confirm the PBB receipts are current before you sign.
+
+## Common questions
+
+### How long does it take to buy property in Bali?
+A straightforward titled transfer with clean documents typically moves in weeks rather than months. Anything with title irregularities, inheritance, or zoning questions takes considerably longer.
+
+### Do you need a notary to buy property in Bali?
+Yes. A PPAT notary executes the deed and handles registration. Use one you appointed, not one the seller or agent introduced.
+
+### Should you pay a deposit before due diligence?
+Not without a written refund condition tied to specific verification outcomes. A deposit paid on trust before checks is the most common way money is lost here.
+
+### What documents do you need to buy property in Bali?
+Your passport, tax number where required, proof of transferred funds, and from the seller: the original certificate, tax receipts, identity documents and evidence of authority to sell.

@@ -61,3 +61,17 @@ If the operator holds the accommodation licence and you hold the property, the r
 > What it cannot be is a local name on a licence while a foreign owner directs the business. Since Perda Bali 4/2026 that is a nominee arrangement, and facilitating one is prohibited in its own right.
 
 Ask to see the operator's NIB, confirm the classification covers this location rather than only their company domicile, and confirm the codes have been migrated to KBLI 2025.
+
+## Common questions
+
+### What should a Bali villa management agreement include?
+Fee basis and everything excluded from it, who holds the booking accounts, revenue reporting frequency, spending authority limits, termination notice, and what happens to forward bookings when the agreement ends.
+
+### How much do villa managers in Bali charge?
+A percentage of revenue is standard, but the headline percentage is rarely the full cost. Ask for a sample month of actual statements from a comparable property rather than a fee schedule.
+
+### Can you terminate a villa management agreement?
+Only on the terms written in it. Long notice periods, automatic renewals and control of the listing accounts are the clauses that make a manager hard to replace.
+
+### Who should own the booking listings?
+You should. If the manager owns the listing, the reviews and the calendar, changing manager means starting from zero, and that is leverage you gave away in the contract.

@@ -61,3 +61,17 @@ Sublease or transfer is allowed **only where the agreement expressly permits it*
 Diarise the expiry and the application window the day you acquire the right. Not the expiry, the window before it.
 
 Rights are lost by missing an application deadline far more often than by refusal. A right that lapses because nobody calendared it is indistinguishable, at the end, from one that was never granted.
+
+## Common questions
+
+### What happens when a land right expires in Indonesia?
+The right ends and the land reverts. Extensions and renewals exist but they have deadlines and conditions, and missing them is the most avoidable loss in this market.
+
+### How do you check the remaining term on a Bali title?
+It is stated on the certificate. Have a notary verify it against the land office record rather than relying on a photocopy or a seller's summary.
+
+### Can you extend HGB or Hak Pakai?
+Both have defined extension and renewal paths. The mechanics differ and the timing is unforgiving, so the process should start well before expiry, not at it.
+
+### Does a shorter remaining term reduce property value?
+Substantially, and non-linearly. A property with a short remaining term is worth far less than the same property with a long one, because the buyer inherits your expiry problem.

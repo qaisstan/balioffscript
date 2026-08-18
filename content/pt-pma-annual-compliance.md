@@ -38,3 +38,17 @@ Rental income inside a PT PMA is corporate income. It does not get the 10% final
 A PT PMA that holds a villa, files nothing and reports no activity is not invisible. Non-filing accumulates. When you need the company clean, to sell, to renew a licence, to extend a visa, the backlog surfaces at the worst moment, and clearing it costs more than staying current would have.
 
 > If the only thing your company does is hold a house you live in, check whether Hak Pakai does the job. It has no annual compliance load at all.
+
+## Common questions
+
+### What are the annual obligations of a PT PMA?
+Investment activity reporting, tax filings, financial statements, and keeping the NIB and business classifications current. Compliance is continuous, not annual paperwork you can catch up on.
+
+### What happens if a PT PMA does not file its reports?
+Penalties escalate from warnings toward suspension of the business licence. A suspended NIB stops the business operating, which is the expensive part.
+
+### How much does it cost to maintain a PT PMA in Bali?
+Accounting, tax filing, reporting and corporate secretarial work are recurring costs that continue whether or not the business earns anything. Budget them from year one.
+
+### Can you keep a dormant PT PMA?
+A company that files nothing and does nothing still accrues obligations. If the project is not proceeding, closing the company properly is usually cheaper than letting it drift.

@@ -40,3 +40,20 @@ If a projection shows Bukit nightly rates on Sanur land, the projection is wrong
 ## Run the numbers
 
 Sanur is the area where the honest arithmetic tends to look best, because entry cost is lower and the operating drag is smaller. Put your actual figures into the [ROI calculator](/calculator/) rather than trusting a comparison built on gross yield.
+
+## Common questions
+
+### Is Sanur a good place to buy property in Bali?
+Sanur suits buyers who want a functioning town rather than a resort strip: hospitals nearby, a calm beach, established freehold stock and residents who live here year-round. It rarely produces the headline yields Canggu markets, and it rarely produces the vacancy either.
+
+### How much does property cost in Sanur?
+Sanur land generally sits below the Canggu and Pererenan corridor and above Tabanan, with the widest spread depending on distance to the beach path. Ask for recent transacted prices on the same street rather than the asking prices for the area.
+
+### Is Sanur good for families?
+It is the most family-oriented area on the island. Denpasar hospitals are close, the water is calm and shallow, several schools are within a short drive, and the day-to-day traffic is far lighter than the west coast.
+
+### Who rents in Sanur?
+Longer-stay guests, older travellers and residents. That produces steadier occupancy at lower nightly rates, so the arithmetic favours annual yield over peak-season headline numbers.
+
+### Is Sanur better than Canggu for investment?
+It is a different investment. Canggu is a nightly-rate market with high seasonality and high competition. Sanur is an occupancy market. Which is better depends on whether you are underwriting a peak week or a full year.

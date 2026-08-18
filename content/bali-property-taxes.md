@@ -39,3 +39,17 @@ The landowner still owes income tax on the rent they receive, and it is worth co
 Budgeting the purchase price and nothing else. On a titled purchase, closing costs land around 7–8% all in once tax, notary and legal review are counted. Discovering that after committing to the price is how deals collapse at the deed stage.
 
 The second mistake is assuming assessed value is the tax base. Where the transaction price is higher, which it usually is, the transaction price governs.
+
+## Common questions
+
+### What taxes do you pay when buying property in Bali?
+The buyer's transfer duty on a titled transfer is around 5 percent, alongside notary and PPAT fees. Budget roughly 7 percent of the purchase price in total transaction costs.
+
+### Is there annual property tax in Indonesia?
+Yes, an annual land and building tax based on assessed value. It is modest relative to European or American property taxes but it should be paid and evidenced.
+
+### What tax do you pay when selling property in Bali?
+The seller normally bears a final transfer tax on the sale value. Who actually pays what is negotiable in practice, so it should be explicit in the deed.
+
+### Do you pay tax on a leasehold in Bali?
+Lease payments attract tax, and the treatment differs from a titled transfer. Confirm the position with your notary before the payment schedule is fixed, not after.

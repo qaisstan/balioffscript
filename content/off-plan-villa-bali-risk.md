@@ -67,3 +67,17 @@ Projections routinely omit platform commission, PB1, refurbishment reserve, and,
 Land → owner → agreement → zoning → permitted use → classification → PBG → SLF → operating licence.
 
 Off-plan asks you to pay at the start of that chain and trust the rest. That can be a reasonable trade at the right discount, with the right developer, on a plot where the chain demonstrably works. It is not reasonable on assurances.
+
+## Common questions
+
+### Is buying off-plan in Bali safe?
+It carries the highest risk profile in this market. You are paying now for a building that does not exist, on land you do not control, from a developer whose track record you may not be able to verify.
+
+### What are the risks of off-plan property in Bali?
+Non-completion, specification downgrades, delayed handover, permits never obtained, and a developer who is a newly formed company with no assets if the project fails.
+
+### How do you protect yourself buying off-plan in Bali?
+Tie payments to independently inspected construction milestones, confirm the land title and PBG exist before any deposit, and check what the developer has actually completed before.
+
+### What happens if a Bali developer does not finish the project?
+Your remedy is whatever the contract gives you against an entity that may hold nothing. That is why the counterparty matters more than the renders.

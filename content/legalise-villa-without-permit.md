@@ -72,3 +72,17 @@ Past operation is never evidence of current compliance. When the property change
 - Price the legalisation, then decide whether the discount is real
 
 Buying an unpermitted villa can be a good deal. It is only a good deal if you priced the year it takes to fix.
+
+## Common questions
+
+### Can you legalise a villa built without a permit in Bali?
+Sometimes. Retrospective approval is possible where the building complies with zoning and setbacks. Where it does not, no process makes it compliant.
+
+### What happens if you buy a villa with no PBG?
+You inherit the problem. It affects your ability to obtain an operating licence, to insure, to finance and to sell, and it should be reflected in the price.
+
+### How much does it cost to regularise an unpermitted villa?
+It varies with what is wrong. Documentation gaps are manageable; structures inside a setback or in the wrong zone often are not fixable at any price.
+
+### Should you buy an unlicensed villa in Bali?
+Only with the regularisation path verified in advance and priced into the offer, never on the seller's assurance that it can be sorted out later.

@@ -41,3 +41,20 @@ Whether your home country's treaty with Indonesia relieves any of that depends o
 The E33G is a KITAS, so it satisfies the residency condition for **Hak Pakai**. If you are living in Bali on remote income and buying somewhere to live, that combination is worth looking at properly. It is a certificate in your own name rather than a contract with a landowner.
 
 It does not let you run a rental business. That needs a company and a different permit.
+
+## Common questions
+
+### What is the E33G visa?
+It is Indonesia's remote worker permit, for people employed by or contracted to a company established outside Indonesia who want to live here without working for an Indonesian entity.
+
+### What income do you need for the E33G?
+A minimum annual income commonly cited at USD 60,000, evidenced, plus general living funds of around USD 2,000. Verify the current threshold before applying.
+
+### How long does the E33G last?
+One year, renewable while the foreign employment relationship and income level continue.
+
+### Can you work for Indonesian clients on the E33G?
+No. The permit is explicitly for foreign-sourced income. Taking on Indonesian clients breaches the basis on which it was granted.
+
+### Do E33G holders pay Indonesian tax?
+Tax residence follows physical presence. Past 183 days in a year you become an Indonesian tax resident, which is a separate question from the permit conditions.

@@ -63,3 +63,17 @@ Exactly as you would a Bali one, with the regency substituted:
 Run the numbers through the [calculator](/calculator/) using **Lombok occupancy**, not Bali's. The land discount usually shrinks once realistic occupancy is applied.
 
 > Cheaper land plus lower occupancy is not automatically a better return. It is a different risk, and it has to be priced as one.
+
+## Common questions
+
+### Can foreigners buy property in Lombok?
+Yes, under the same national framework as Bali. Hak Pakai, leasehold and PT PMA structures all apply; the difference is market depth, not law.
+
+### Is Lombok cheaper than Bali?
+Considerably, for both land and construction. The discount reflects lower tourism volume, less infrastructure and a much smaller resale market.
+
+### Is Lombok a good investment compared to Bali?
+It is a bet on future demand rather than existing demand. Bali produces income now. Lombok is priced for growth that has not yet arrived at scale.
+
+### What should you check before buying in Lombok?
+Title history, access rights, whether the land is inside a designated tourism zone, and how you would actually sell it in five years.

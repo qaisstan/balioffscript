@@ -44,3 +44,17 @@ At expiry, the land and everything standing on it reverts to the owner. Your vil
 **Death and inheritance.** State that the lease passes to your heirs and that the owner's obligations bind theirs. Silence here converts your estate into a negotiation.
 
 > Have your own notary read the deed. Not the seller's notary, not the agent's "our guy". The fee is a rounding error against the purchase.
+
+## Common questions
+
+### What should a leasehold extension clause say?
+The extension term, the price or a defined formula for it, the notice period, and what happens if the landowner refuses or has died. A clause promising a future negotiation is not an extension right.
+
+### What is the biggest risk in a Bali leasehold?
+An extension priced at future market value, or not priced at all. That converts your extension right into the landowner's option, exercisable against you at the worst possible moment.
+
+### Can a Bali leasehold be extended?
+Only on the terms in your contract. There is no automatic statutory right, which is why the extension mechanics matter more than the headline term.
+
+### What happens to a leasehold when the landowner dies?
+The lease should bind heirs and successors explicitly. Without that language you may find yourself renegotiating with several heirs who never signed anything.

@@ -51,3 +51,17 @@ Budget roughly 7% of the purchase price for transaction costs in total, and trea
 Sending a deposit before the checks are done, into an account you cannot identify, with no written refund condition.
 
 It is also the most common. If someone is pressing you to transfer quickly to secure a property, that pressure is the information. [Here is what should be verified first](/check/).
+
+## Common questions
+
+### How do you transfer money to Indonesia to buy property?
+By bank transfer, documented and traceable, from your account to the correct recipient. Never in cash and never through a third party's account.
+
+### Can foreigners open a bank account in Indonesia?
+Generally you need a KITAS or KITAP. On a tourist visa you usually cannot, which means transferring from your home account directly.
+
+### How much are transaction costs when buying in Bali?
+Budget roughly 7 percent of the purchase price in total, covering the buyer's transfer tax at around 5 percent on a titled transfer, notary and PPAT fees, and independent legal review.
+
+### What is the most common mistake when transferring funds?
+Sending a deposit before due diligence is complete, into an account you cannot identify, with no written refund condition.

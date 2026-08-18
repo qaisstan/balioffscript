@@ -58,3 +58,20 @@ That geography matters more than people realise. **Pick the school first, then f
 If you are relocating with children, the school decision comes before the property decision. Every time.
 
 Rent near the school for a year first. If it works, buy nearby. If it does not, you have not tied a large amount of capital to the wrong side of the island.
+
+## Common questions
+
+### How much are international school fees in Bali?
+Annual tuition runs from around USD 3,000 at early-years bilingual centres to over USD 30,000 at premium campuses. Established international schools sit at roughly USD 15,000 to 28,000 per student per year.
+
+### What does Green School Bali cost?
+Approximately USD 18,000 to 27,000 a year depending on grade level, before registration, transport, uniform and lunch.
+
+### What is the total cost of schooling in Bali?
+Budget USD 8,000 to 28,000 per child per year all-in. Registration adds USD 500 to 2,500, uniforms USD 150 to 400, transport USD 1,200 to 3,600 and lunch USD 600 to 1,200.
+
+### Where are the international schools in Bali?
+Mainly the Canggu and Pererenan corridor, which serves the entrepreneurial and remote-working community, and Ubud, home to the schools known for creativity and sustainability.
+
+### Should you choose the school or the area first?
+The school, always. Bali traffic turns a 12km school run into an hour each way twice a day, so the school decides where you should live far more than the beach does.

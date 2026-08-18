@@ -12,38 +12,73 @@ verified: 2026-08-16
 
 Land in Bali is quoted per **are**, which is 100 square metres. Not per square metre, not per hectare. Get that wrong and you will misread every listing you see.
 
-These are leasehold figures, for the term. They move street by street and they move fast.
+The figures below are leasehold, for the term. They move street by street, they move fast, and they are a starting point for a conversation rather than a valuation.
 
-## What each area costs
+## Bali land prices by area, 2026
 
-| Area | Per are (USD) | Why |
+| Area | USD per are | Character |
 | --- | --- | --- |
-| Berawa | ~82,500 | Deepest liquidity, most saturated |
+| Berawa, Canggu | around 82,500 | Deepest liquidity, most saturated |
 | Pererenan and Cemagi | 55,000 to 75,000 | Where Canggu money moved |
-| Uluwatu clifftop | 40,000 to 60,000 | Highest rates, hardest setbacks |
+| Uluwatu clifftop | 40,000 to 60,000 | Highest nightly rates, hardest setbacks |
 | Uluwatu inland | 25,000 to 40,000 | Same demand, no cliff premium |
-| Sanur | Best value in an established area | Calmer market, fastest permits |
+| Sanur | Best value in an established area | Calmest market, fastest permits |
 | Ubud | Good land value | Longer stays, lower nightly rates |
-| Tabanan coast | 30 to 50% below Canggu | Toll road coming, hardest licensing |
-
-## The number that actually matters
-
-Price per are tells you very little on its own, because two plots at the same price can give you completely different projects.
-
-A 500 square metre plot in a green zone with a 10% building coefficient gives you a 50 square metre footprint. The same money in a pink zone at 60% gives you 300. Same land area, six times the building.
-
-So before you compare prices, get the zoning and the building coefficients for the specific parcel. [Here is how those numbers work](/building/kdb-klb-bali/).
+| Tabanan coast | 30 to 50 percent below Canggu | Toll road coming, hardest licensing |
 
 ## Why the Bukit is the interesting number
 
-Inland Uluwatu is a third of Berawa, and the Bukit charges the highest nightly rates on the island. Bulgari, Six Senses and Alila all chose it.
+Inland Uluwatu costs roughly a third of Berawa, and the Bukit commands the highest nightly rates on the island. Bulgari, Six Senses and Alila all chose it.
 
-Cheaper land behind higher rates is unusual. The reason is supply: tourism zoning on the Bukit is scarce, so buildable, licensable plots are capped in a way Canggu's are not.
+Cheaper land sitting behind higher rates is unusual, and the reason is supply. Tourism zoning on the Bukit is scarce, so the number of plots that can legally be built on and licensed is capped in a way Canggu's is not.
 
-The counterweight is that this is where setback enforcement is hardest. Buildings at Bingin were demolished in 2025.
+The counterweight is enforcement. This is where setback rules bite hardest, and where buildings at Bingin were demolished in 2025.
 
-## What to do with these numbers
+## Price per are tells you very little on its own
 
-Put them into the [return calculator](/calculator/) with realistic occupancy rather than the seller's. Land price is one input out of about fifteen, and it is rarely the one that decides whether a deal works.
+Two plots at identical prices can produce completely different projects, because the price does not tell you what you may build.
 
-If you have a specific plot in front of you, send it over. Location, the certificate type, and the price is usually enough for me to tell you whether it is worth the next step.
+A 500 square metre plot in a green zone with a 10 percent building coefficient gives you a 50 square metre footprint. The same money in a pink zone at 60 percent gives you 300 square metres. Same land area, six times the building.
+
+So before comparing prices, get three things for the specific parcel:
+
+- The designation in the regency spatial plan
+- The building coefficients that apply to it
+- Every setback that applies, measured from the correct reference point
+
+Without those, a price per are is a number without a unit.
+
+## What moves prices here
+
+**Zoning scarcity.** Tourism-zoned land is finite and getting harder to add to. This is the main structural support under Bukit pricing.
+
+**Infrastructure.** The Gilimanuk to Mengwi toll road, targeted for 2027 to 2028, would cut the west coast drive from over three hours to roughly one. That is the clearest catalyst on the island and it is already priced into parts of Tabanan.
+
+**Arrivals.** Nearly 7 million foreign arrivals in 2025, up almost 10 percent, with the airport expanding from roughly 24 to 32 million passengers.
+
+**Policy.** Several accommodation classifications closed to new foreign-owned companies in July 2026. That makes existing licensed assets more valuable and new supply harder to create.
+
+## How to use these numbers
+
+Land price is one input out of roughly fifteen, and it is rarely the one that decides whether a deal works. Occupancy, the term remaining, the licence position and the operating costs matter more.
+
+Put your actual figures through the return calculator with honest full-year occupancy rather than the seller's, and see what survives.
+
+If you are looking at a specific plot, the location, the certificate type and the asking price are usually enough for me to tell you whether it is worth the next step.
+
+## Common questions
+
+### How much does land cost in Bali per are?
+Berawa in Canggu runs around USD 82,500 per are, Pererenan 55,000 to 75,000, clifftop Uluwatu 40,000 to 60,000 and inland Uluwatu 25,000 to 40,000. Tabanan sits 30 to 50 percent below Canggu. These are leasehold figures for the term.
+
+### What is an are in Bali property?
+An are is 100 square metres. Bali land is almost always quoted per are rather than per square metre, so a plot described as 5 are is 500 square metres.
+
+### Where is the cheapest land in Bali?
+Inland Uluwatu and the Tabanan coast are the cheapest areas that are still worth buying. Cheaper land exists, but usually because the spatial plan restricts what can be done with it.
+
+### Is land in Bali a good investment?
+It depends entirely on whether the specific parcel can legally be used for the purpose you intend. Properly zoned, permitted land in a supply-constrained area has performed well. Land bought on the assumption that zoning can be changed later has not.
+
+### Can foreigners buy land in Bali?
+Not freehold, under any structure. Foreigners use a leasehold contract, a registered right to use where they hold residency, or a company-held right for commercial purposes.

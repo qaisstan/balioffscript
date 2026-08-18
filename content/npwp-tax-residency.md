@@ -42,3 +42,17 @@ If you are living in Bali more than half the year, the honest position is that y
 Get a registered Indonesian tax consultant to look at your actual circumstances once. It is a small fee for knowing where you stand, and the alternative is a position you cannot correct retrospectively without penalties.
 
 > This is the topic where the gap between what people do and what the rules say is widest in Bali. That gap has been closing steadily since 2024.
+
+## Common questions
+
+### What is an NPWP?
+It is the Indonesian taxpayer identification number. You need one to file, to hold certain permits, and generally to operate a company or report income here.
+
+### When do you become a tax resident of Indonesia?
+Presence beyond 183 days in a twelve-month period generally makes you an Indonesian tax resident, along with other tests around intent to reside.
+
+### What happens if you are tax resident in Indonesia?
+Residence changes the basis on which you are assessed and the rates that apply. It matters most for people with foreign income who assumed physical presence was irrelevant.
+
+### Do you need an NPWP to buy property in Bali?
+It is commonly required for the transaction and for the tax filings around it. Your notary will tell you what is needed for your specific structure.

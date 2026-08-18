@@ -58,3 +58,17 @@ Canggu has the highest concentration of cafés and coworking, and the highest co
 The connectivity question is basically solved. The legal question is not, and it got significantly more serious in April.
 
 If you are here for months rather than weeks, get the right permit. It costs less than a deportation and a multi-year ban.
+
+## Common questions
+
+### Is the internet good enough to work from Bali?
+Yes. Fibre connections of 50 to 100 Mbps are standard in the main expat areas, which is sufficient for calls, screen sharing and normal remote work.
+
+### What are the best areas in Bali for remote work?
+Canggu has the highest concentration of cafes and coworking spaces, Ubud is quieter and cheaper, and Sanur suits people who want to work rather than network.
+
+### Do you need a visa to work remotely from Bali?
+Yes. Working on a tourist visa is a violation and is actively enforced. The E33G permit is built for remote workers employed by foreign companies.
+
+### Is the power reliable in Bali?
+Mostly, with occasional short outages. A laptop with battery and a local SIM with a decent data package covers you when the villa connection drops.

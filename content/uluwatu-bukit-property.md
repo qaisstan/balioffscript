@@ -54,3 +54,20 @@ Where a structure sits inside a setback, regularisation may not be available on 
 - Cliff stability and access, which is an engineering question as well as a legal one
 
 The upside case here is real. So is the downside, and in 2025 it was physical.
+
+## Common questions
+
+### Is Uluwatu a good place to buy property?
+The Bukit carries the highest nightly rates on the island for cliff and ocean-view properties, and the most severe practical constraints: water supply, road access and long drives to everything.
+
+### How much is land in Uluwatu?
+Cliff-edge and ocean-view plots command the largest premiums on the island. Interior Bukit land is dramatically cheaper and views are the whole difference.
+
+### What is the water situation on the Bukit?
+The Bukit is limestone, sits high, and has historically thin groundwater. Water supply is a genuine operating cost and a genuine due diligence item, not a detail.
+
+### Is Uluwatu good for rental income?
+For view properties, yes, at the top of the island's nightly rate range. Occupancy is more seasonal than Canggu and guests stay shorter, so model both numbers.
+
+### How far is Uluwatu from the airport?
+Roughly 45 to 60 minutes depending on traffic and exactly where on the Bukit you are, which is closer than most of the west coast.

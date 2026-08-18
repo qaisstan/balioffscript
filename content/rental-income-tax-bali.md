@@ -42,3 +42,17 @@ Rental income enforcement tightened sharply through 2025 and 2026. Platform list
 The combination that gets people caught is not one missing filing. It is an unlicensed property, listed publicly, generating undeclared income, with no PB1 remitted, four failures that all point at each other.
 
 > Getting compliant costs a fraction of getting caught. The properties being sealed in Bali right now are not sophisticated tax structures. They are ordinary villas whose owners assumed nobody was looking.
+
+## Common questions
+
+### Do you pay tax on rental income in Bali?
+Yes. Income from Indonesian property is Indonesian-source income and is taxable here regardless of where you live or where the guest paid.
+
+### How much tax do you pay on rental income in Indonesia?
+The rate depends on whether you are taxed as a resident individual, a non-resident, or through a company, and the three are meaningfully different. Structure decides the rate.
+
+### Does Airbnb report income to Indonesian tax authorities?
+Payment flows are increasingly traceable, and assuming platform income is invisible is not a strategy. Budget for tax as an operating cost from day one.
+
+### Can you offset expenses against rental income in Bali?
+Whether and how you can deduct operating costs depends on how the income is structured and reported. This is one of the clearest cases where the right structure changes the net number.

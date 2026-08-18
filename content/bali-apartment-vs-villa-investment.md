@@ -48,3 +48,17 @@ Run both through the [calculator](/calculator/) with realistic figures for each.
 Then answer the question that comes first: on the specific plot or unit you are looking at, is nightly rental permitted, and does the operator hold a classification that covers it?
 
 Neither asset type is a good investment if the answer is no.
+
+## Common questions
+
+### Is an apartment or a villa a better investment in Bali?
+Villas dominate the nightly rental market and command higher rates. Apartments are cheaper to enter, cheaper to maintain and easier to hold passively, but the guest demand is thinner because most visitors come here for a private pool.
+
+### Can foreigners buy apartments in Bali?
+Yes. Strata-titled apartments can be held under Hak Pakai by a foreigner meeting the residency and minimum-value requirements, which makes them one of the simpler ownership routes.
+
+### Do apartments in Bali hold their value?
+Resale depth is thinner than for villas because the local buyer pool is small and the foreign buyer pool mostly wants land. Price your exit conservatively.
+
+### What are the running costs of an apartment versus a villa?
+An apartment carries service charges but no pool, garden, or full staff. A villa typically runs staff, pool chemicals, garden and higher repair frequency, which is why gross and net yield diverge so sharply on villas.

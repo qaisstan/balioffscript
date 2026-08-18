@@ -60,3 +60,17 @@ Visitor numbers are rising and the coastline is exceptional. The demand case is 
 The delivery case is harder than the mainland in every dimension: longer permits, scarcer water, costlier construction, thinner rental season, and a much narrower resale market.
 
 > Frontier pricing usually reflects frontier delivery risk rather than a market that has not noticed yet. Price the delivery, not the view.
+
+## Common questions
+
+### Can foreigners buy property on Nusa Penida?
+The same rules apply as on the Bali mainland: no freehold in a foreign name, with leasehold or a properly structured company holding the usual routes.
+
+### Is Nusa Penida a good investment?
+It is an early-stage market with genuine tourism demand and genuinely limited infrastructure. Electricity, water and waste are the constraints that decide whether a project works.
+
+### What are the risks of buying on Nusa Penida?
+Utilities, boat-dependent logistics, thinner legal and notary infrastructure, and a much shallower resale market. Everything takes longer and costs more than the mainland equivalent.
+
+### Is tourism on Nusa Penida seasonal?
+Heavily. Sea conditions affect crossings, and day-trip traffic dominates. A property dependent on overnight guests should be underwritten on a shorter effective season.

@@ -52,3 +52,17 @@ Do not accept a monthly figure without the breakdown behind it. Ask for:
 Then put your figure into the [calculator](/calculator/) and see what it does to the yield you were quoted.
 
 > If a seller cannot produce twelve months of bills for a villa they say has been running successfully, consider what that means.
+
+## Common questions
+
+### What does it cost to run a villa in Bali?
+Staff, pool and garden maintenance, utilities, repairs, insurance, management fee, platform commission, consumables and tax. Together they consume far more of gross revenue than most projections show.
+
+### How much is villa management in Bali?
+Management fees are typically quoted as a percentage of revenue, and the number quoted is rarely the total. Check what is billed separately: booking commissions, laundry, consumables, maintenance markups and marketing.
+
+### What is a sinking fund and do you need one?
+It is money set aside for the refurbishment every villa needs on roughly a five-year cycle. Without one, the refurbishment comes out of the year's profit and the year looks like a loss.
+
+### Why do villas in Bali deteriorate so fast?
+Humidity, salt air, intense UV and heavy rain. Timber, fabric, paint, pumps and air conditioning all have shorter service lives here than in a temperate climate.

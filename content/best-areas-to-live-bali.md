@@ -60,3 +60,17 @@ Bad for: beach access, and anyone who finds the wellness scene tiring.
 ## The advice I give most often
 
 Rent for a year before you buy anything. People are certain about their area for about six months, and then most of them move.
+
+## Common questions
+
+### What is the best area to live in Bali?
+Sanur for families and calm, Canggu and Pererenan for the working and social scene, Ubud for quiet and creativity, Uluwatu for surf and views, Seminyak for restaurants and walkability.
+
+### Where do most expats live in Bali?
+The Canggu to Pererenan corridor holds the largest concentration, with Ubud, Sanur, Seminyak and the Bukit each supporting substantial communities.
+
+### Where is the cheapest place to live in Bali?
+Away from the coast. Inland Gianyar, Tabanan and the outskirts of the main hubs cost dramatically less than beachside Canggu, with the trade-off measured in commute time.
+
+### Should you rent before buying in Bali?
+Yes, for at least a year, ideally including a wet season. The area that suits a two-week holiday and the area that suits a life are rarely the same.
