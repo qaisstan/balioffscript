@@ -892,9 +892,6 @@ def article(m, siblings):
 <span>Updated <time datetime="{updated}">{updated}</time></span>
 <span>{read_time(m["body"])} min read</span>
 </div>
-<figure class="hero-img">
-<img src="{BASE}/og/{m["slug"]}.jpg" width="1200" height="630" alt="{seo_title}" fetchpriority="high">
-</figure>
 {toc(m["body"])}
 <div class="prose">{body_html}</div>
 {faq_block}

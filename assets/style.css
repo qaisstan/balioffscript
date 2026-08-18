@@ -1205,8 +1205,6 @@ tbody tr:last-child td { border-bottom: 0; }
   padding-bottom: 1.25rem; border-bottom: 1px solid var(--rule);
 }
 
-.hero-img { margin: 0 0 2rem; max-width: min(46rem, 100%); }
-.hero-img img { width: 100%; height: auto; display: block; border: 1px solid var(--rule); }
 
 .toc {
   max-width: var(--measure); margin: 0 0 2.25rem;
