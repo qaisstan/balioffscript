@@ -20,7 +20,7 @@ So rather than one number, here is what actually moves it.
 
 **How you rent.** Yearly contracts, paid up front, are dramatically cheaper than monthly. That upfront lump is the single biggest gap between the budget people plan and the one they live.
 
-**Whether you have children.** International school fees are the largest line item in any family budget here, by a wide margin. `[YOUR FIGURE]`
+**Whether you have children.** International school fees are the largest line item in any family budget here, by a wide margin. `Budget USD 8,000 to 28,000 per child per year all-in, once registration, transport, uniform and lunch are added to tuition`
 
 **How much you live like a tourist.** Beach clubs, daily cafés and imported food will double a budget quietly. Locals-market cooking and warungs will halve it.
 
