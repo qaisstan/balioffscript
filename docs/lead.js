@@ -17,24 +17,40 @@
   var loaded = Date.now();
   var i = 0;
 
-  // Country codes. Kai's buyers cluster in these markets, so they lead.
+  // Flag, dial code, name. Kai's buyers cluster in the first few markets, so
+  // those lead; the name is kept for the accessible label and for search-by-typing.
   var DIAL = [
-    ["Australia", "61"], ["United States", "1"], ["United Kingdom", "44"],
-    ["Singapore", "65"], ["Indonesia", "62"], ["Netherlands", "31"],
-    ["Germany", "49"], ["France", "33"], ["Canada", "1"], ["New Zealand", "64"],
-    ["Ireland", "353"], ["Switzerland", "41"], ["Sweden", "46"], ["Norway", "47"],
-    ["Denmark", "45"], ["Finland", "358"], ["Belgium", "32"], ["Austria", "43"],
-    ["Spain", "34"], ["Italy", "39"], ["Portugal", "351"], ["Poland", "48"],
-    ["Czechia", "420"], ["Russia", "7"], ["Ukraine", "380"], ["Turkey", "90"],
-    ["United Arab Emirates", "971"], ["Saudi Arabia", "966"], ["Qatar", "974"],
-    ["Israel", "972"], ["South Africa", "27"], ["India", "91"], ["China", "86"],
-    ["Hong Kong", "852"], ["Taiwan", "886"], ["Japan", "81"], ["South Korea", "82"],
-    ["Malaysia", "60"], ["Thailand", "66"], ["Philippines", "63"], ["Vietnam", "84"],
-    ["Brazil", "55"], ["Mexico", "52"], ["Argentina", "54"], ["Chile", "56"],
-    ["Colombia", "57"], ["Greece", "30"], ["Romania", "40"], ["Hungary", "36"],
-    ["Croatia", "385"], ["Estonia", "372"], ["Latvia", "371"], ["Lithuania", "370"],
-    ["Luxembourg", "352"], ["Iceland", "354"], ["Malta", "356"], ["Cyprus", "357"],
-    ["Kazakhstan", "7"], ["Nigeria", "234"], ["Kenya", "254"], ["Egypt", "20"]
+    ["🇦🇺", "61", "Australia"], ["🇺🇸", "1", "United States"],
+    ["🇬🇧", "44", "United Kingdom"], ["🇸🇬", "65", "Singapore"],
+    ["🇮🇩", "62", "Indonesia"], ["🇳🇱", "31", "Netherlands"],
+    ["🇩🇪", "49", "Germany"], ["🇫🇷", "33", "France"],
+    ["🇨🇦", "1", "Canada"], ["🇳🇿", "64", "New Zealand"],
+    ["🇮🇪", "353", "Ireland"], ["🇨🇭", "41", "Switzerland"],
+    ["🇸🇪", "46", "Sweden"], ["🇳🇴", "47", "Norway"],
+    ["🇩🇰", "45", "Denmark"], ["🇫🇮", "358", "Finland"],
+    ["🇧🇪", "32", "Belgium"], ["🇦🇹", "43", "Austria"],
+    ["🇪🇸", "34", "Spain"], ["🇮🇹", "39", "Italy"],
+    ["🇵🇹", "351", "Portugal"], ["🇵🇱", "48", "Poland"],
+    ["🇨🇿", "420", "Czechia"], ["🇷🇺", "7", "Russia"],
+    ["🇺🇦", "380", "Ukraine"], ["🇹🇷", "90", "Turkey"],
+    ["🇦🇪", "971", "UAE"], ["🇸🇦", "966", "Saudi Arabia"],
+    ["🇶🇦", "974", "Qatar"], ["🇮🇱", "972", "Israel"],
+    ["🇿🇦", "27", "South Africa"], ["🇮🇳", "91", "India"],
+    ["🇨🇳", "86", "China"], ["🇭🇰", "852", "Hong Kong"],
+    ["🇹🇼", "886", "Taiwan"], ["🇯🇵", "81", "Japan"],
+    ["🇰🇷", "82", "South Korea"], ["🇲🇾", "60", "Malaysia"],
+    ["🇹🇭", "66", "Thailand"], ["🇵🇭", "63", "Philippines"],
+    ["🇻🇳", "84", "Vietnam"], ["🇧🇷", "55", "Brazil"],
+    ["🇲🇽", "52", "Mexico"], ["🇦🇷", "54", "Argentina"],
+    ["🇨🇱", "56", "Chile"], ["🇨🇴", "57", "Colombia"],
+    ["🇬🇷", "30", "Greece"], ["🇷🇴", "40", "Romania"],
+    ["🇭🇺", "36", "Hungary"], ["🇭🇷", "385", "Croatia"],
+    ["🇪🇪", "372", "Estonia"], ["🇱🇻", "371", "Latvia"],
+    ["🇱🇹", "370", "Lithuania"], ["🇱🇺", "352", "Luxembourg"],
+    ["🇮🇸", "354", "Iceland"], ["🇲🇹", "356", "Malta"],
+    ["🇨🇾", "357", "Cyprus"], ["🇰🇿", "7", "Kazakhstan"],
+    ["🇳🇬", "234", "Nigeria"], ["🇰🇪", "254", "Kenya"],
+    ["🇪🇬", "20", "Egypt"]
   ];
 
   var sel = document.getElementById("ld-dial");
@@ -42,7 +58,8 @@
     DIAL.forEach(function (c) {
       var o = document.createElement("option");
       o.value = "+" + c[1];
-      o.textContent = c[0] + " (+" + c[1] + ")";
+      o.textContent = c[0] + "  +" + c[1];
+      o.setAttribute("aria-label", c[2] + " +" + c[1]);
       sel.appendChild(o);
     });
     sel.value = "+61";

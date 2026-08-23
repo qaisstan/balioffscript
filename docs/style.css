@@ -1243,6 +1243,7 @@ tbody tr:last-child td { border-bottom: 0; }
    One question per screen. Sized so the whole card sits above the fold on a
    phone, because this is the page the Instagram bio points at. */
 
+:root { --go: #1d5240; --go-lift: #2b7355; --go-tint: #f1f7f4; }
 .lead-body { background: var(--paper-2); }
 .lead-body .masthead, .lead-body .foot { display: none; }
 
@@ -1254,16 +1255,16 @@ tbody tr:last-child td { border-bottom: 0; }
   overflow: hidden;
 }
 
-.ld-top { display: flex; align-items: center; justify-content: space-between;
-  gap: 1rem; padding: 1rem 1.5rem .75rem; }
-.ld-mark { font-family: var(--display); font-weight: 600; font-size: .95rem;
-  letter-spacing: -.01em; }
-.ld-mark span { color: var(--seal); }
+.ld-top { display: flex; align-items: center; justify-content: flex-end;
+  padding: 0 1.5rem; }
 .ld-count { font-family: var(--mono); font-size: .7rem; color: var(--slate);
-  letter-spacing: .04em; }
+  letter-spacing: .04em; margin: 0; padding: .8rem 0 .55rem; }
+/* On the intro screen there is no step number, so the bar collapses away
+   entirely rather than leaving an empty band above the question. */
+.ld-count:empty { padding: 0; }
 
 .ld-track { height: 2px; background: var(--rule); }
-.ld-track span { display: block; height: 100%; width: 0; background: var(--seal);
+.ld-track span { display: block; height: 100%; width: 0; background: var(--go);
   transition: width .35s cubic-bezier(.4,0,.2,1); }
 
 .ld-body { padding: 1.75rem 1.5rem 1.5rem; }
@@ -1283,7 +1284,7 @@ tbody tr:last-child td { border-bottom: 0; }
   color: var(--ink); -webkit-appearance: none;
 }
 .ld-step input:focus-visible, .ld-step select:focus-visible {
-  outline: 2px solid var(--seal); outline-offset: 1px; border-color: transparent; }
+  outline: 2px solid var(--go); outline-offset: 1px; border-color: transparent; }
 
 .ld-tel { display: grid; grid-template-columns: minmax(0,7.5rem) 1fr; gap: .5rem; }
 .ld-tel select { font: inherit; font-size: .95rem; padding: .8rem .5rem;
@@ -1298,19 +1299,21 @@ tbody tr:last-child td { border-bottom: 0; }
   border: 1px solid var(--rule-2); border-radius: 3px;
   transition: border-color .15s, background .15s, transform .08s;
 }
-.ld-opt:hover { border-color: var(--seal); background: #fbf8f7; }
+.ld-opt:hover { border-color: var(--go); background: var(--go-tint); }
 .ld-opt:active { transform: scale(.995); }
-.ld-opt.sel { border-color: var(--seal); background: #fbf8f7; box-shadow: inset 0 0 0 1px var(--seal); }
+.ld-opt.sel { border-color: var(--go); background: var(--go-tint); box-shadow: inset 0 0 0 1px var(--go); }
 .ld-opt b { font-family: var(--mono); font-size: .7rem; font-weight: 500;
   color: var(--slate); border: 1px solid var(--rule-2); border-radius: 2px;
   padding: .1rem .35rem; flex: none; }
-.ld-opt.sel b { color: var(--seal); border-color: var(--seal); }
+.ld-opt.sel b { color: var(--go); border-color: var(--go); }
 
 .ld-acts { display: flex; align-items: center; gap: .75rem; margin-top: 1.25rem; }
 .ld-btn { font: inherit; font-size: 1rem; font-weight: 500; cursor: pointer;
-  padding: .8rem 1.5rem; border-radius: 3px; border: 1px solid var(--ink);
-  background: var(--ink); color: var(--paper); transition: opacity .15s; }
-.ld-btn:hover { opacity: .86; }
+  padding: .8rem 1.6rem; border-radius: 3px; border: 1px solid var(--go);
+  background: var(--go); color: #fff;
+  transition: background .15s, border-color .15s, transform .08s; }
+.ld-btn:hover { background: var(--go-lift); border-color: var(--go-lift); }
+.ld-btn:active { transform: scale(.985); }
 .ld-btn.ghost { background: transparent; color: var(--slate); border-color: transparent;
   padding-left: .25rem; padding-right: .25rem; font-size: .9rem; }
 .ld-btn.ghost:hover { color: var(--ink); }
@@ -1328,7 +1331,7 @@ tbody tr:last-child td { border-bottom: 0; }
 
 .ld-done { text-align: center; padding: .5rem 0 .25rem; }
 .ld-tick { width: 3rem; height: 3rem; margin: 0 auto 1rem; border-radius: 50%;
-  background: var(--verify); display: grid; place-items: center; }
+  background: var(--go); display: grid; place-items: center; }
 .ld-tick svg { width: 1.4rem; height: 1.4rem; stroke: #fff; stroke-width: 2.5;
   fill: none; stroke-linecap: round; stroke-linejoin: round; }
 .ld-done h2 { margin-bottom: .75rem; }
@@ -1338,22 +1341,12 @@ tbody tr:last-child td { border-bottom: 0; }
 .ld-sign span { display: block; font-family: var(--mono); font-size: .68rem;
   color: var(--slate); letter-spacing: .06em; margin-top: .25rem; }
 
-.ld-after { display: flex; flex-wrap: wrap; gap: .5rem; justify-content: center;
-  margin-top: 1.5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); }
-.ld-after a { display: inline-flex; align-items: center; gap: .4rem;
-  font-size: .9rem; padding: .6rem 1rem; border: 1px solid var(--rule-2);
-  border-radius: 3px; text-decoration: none; color: var(--ink); }
-.ld-after a:hover { border-color: var(--seal); color: var(--seal); }
 
 #ld-fallback { margin-top: 1rem; padding: .9rem 1rem; border-radius: 3px;
   background: var(--paper-2); border: 1px solid var(--rule); font-size: .9rem;
   color: var(--slate); }
 #ld-fallback a { color: var(--seal); font-weight: 500; }
 
-.ld-foot { text-align: center; padding: 1rem 1.5rem 1.25rem; }
-.ld-foot a { font-family: var(--mono); font-size: .68rem; color: var(--slate);
-  letter-spacing: .04em; text-decoration: none; }
-.ld-foot a:hover { color: var(--ink); }
 
 @media (prefers-reduced-motion: reduce) {
   .ld-step.on { animation: none; }

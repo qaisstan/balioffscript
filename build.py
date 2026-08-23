@@ -1588,12 +1588,12 @@ def opportunities_page():
             for k, v in items)
 
     budget = opts("budget", [
-        ("A", "Under $150k"), ("B", "$150k to $300k"), ("C", "$300k to $500k"),
-        ("D", "$500k to $1M"), ("E", "$1M and above"), ("F", "Still working it out"),
+        ("A", "Under $100k"), ("B", "$100k to $250k"), ("C", "$250k to $500k"),
+        ("D", "$500k and above"), ("E", "Still working it out"),
     ])
     timeline = opts("timeline", [
         ("A", "Ready now"), ("B", "Within 3 months"), ("C", "3 to 6 months"),
-        ("D", "6 to 12 months"), ("E", "Just researching"),
+        ("D", "6 months or more"), ("E", "Just researching"),
     ])
 
     return f"""{head(
@@ -1605,7 +1605,6 @@ def opportunities_page():
 <div class="lead-card">
 
 <div class="ld-top">
-<p class="ld-mark">Bali Off<span>Script</span></p>
 <p class="ld-count" id="ld-count"></p>
 </div>
 <div class="ld-track"><span id="ld-bar"></span></div>
@@ -1653,13 +1652,13 @@ def opportunities_page():
 
 <div class="ld-step" data-field="budget">
 <h2>What budget are you working with?</h2>
-<p class="ld-sub">A rough bracket is fine. It decides which areas and which title types are realistic.</p>
+<p class="ld-sub">A rough bracket is fine. It decides which areas and which title types are actually realistic for you.</p>
 <div class="ld-opts">{budget}</div>
 </div>
 
 <div class="ld-step" data-field="timeline">
-<h2>And when are you looking to move?</h2>
-<p class="ld-sub">Last one.</p>
+<h2>When are you able to invest?</h2>
+<p class="ld-sub">Some deals take months to come together. Others are gone in weeks. Your timing decides which ones are worth showing you.</p>
 <div class="ld-opts">{timeline}</div>
 </div>
 
@@ -1667,18 +1666,13 @@ def opportunities_page():
 <div class="ld-tick"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5.5 5.5L20 7"/></svg></div>
 <h2>Thank you.</h2>
 <p>I will personally contact you, get to know what you're actually looking for, and see whether there's a Bali opportunity worth putting in front of you.</p>
-<p class="ld-sign">Kindly, {AUTHOR}<span>BALI PROPERTY ADVISER</span></p>
-<div id="ld-fallback" hidden>Couldn't reach the server just now. <a href="#" target="_blank" rel="noopener">Send it to me on WhatsApp instead</a> — your answers are already written out.</div>
-<div class="ld-after">
-<a href="{INSTAGRAM}" rel="me">@balioffscript</a>
-<a href="{BASE}/">Read the guides</a>
-</div>
+<p class="ld-sign">Kindly, {AUTHOR}<span>MOST TRUSTED BALI PROPERTY ADVISER</span></p>
+<div id="ld-fallback" hidden><a href="#" target="_blank" rel="noopener">Send it to me on WhatsApp</a></div>
 </div>
 
 </form>
 </div>
 
-<div class="ld-foot"><a href="{BASE}/">BALIOFFSCRIPT.COM</a></div>
 </div>
 </main>
 <script src="{BASE}/lead.js" defer></script>
