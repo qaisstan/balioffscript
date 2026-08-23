@@ -9,6 +9,13 @@
  * Setup lives in README.md.
  */
 
+// The spreadsheet to write into, taken from its URL:
+// docs.google.com/spreadsheets/d/THIS_PART/edit
+// Addressing it by id means this works whether the script is bound to the
+// sheet or standalone. getActiveSpreadsheet() returns null when standalone,
+// which fails silently and is exactly how leads go missing.
+var SHEET_ID = "1JK3pIfbNCpXfZIN3Z55F8c45Ad1jfURdkn11JsYSCb8";
+
 // Where the "New lead" alert goes. Leave "" to switch alerts off.
 var NOTIFY = "hello@qaisstanikzai.com";
 
@@ -29,15 +36,6 @@ function doPost(e) {
     var phone = clean(d.phone, 40);
     if (!name || !phone) return ok();
 
-    var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Leads") ||
-                SpreadsheetApp.getActiveSpreadsheet().insertSheet("Leads");
-
-    if (sheet.getLastRow() === 0) {
-      sheet.appendRow(HEADERS);
-      sheet.getRange(1, 1, 1, HEADERS.length).setFontWeight("bold");
-      sheet.setFrozenRows(1);
-    }
-
     var row = [
       new Date(),
       name,
@@ -47,9 +45,18 @@ function doPost(e) {
       clean(d.ref, 200),
       clean(d.page, 200)
     ];
-    sheet.appendRow(row);
 
-    notify(row);
+    // Write and notify independently. If the sheet is unreachable the email
+    // still goes out, so the lead survives a broken spreadsheet.
+    var wrote = false;
+    try {
+      write(row);
+      wrote = true;
+    } catch (sheetErr) {
+      console.error("sheet write failed", sheetErr);
+    }
+
+    notify(row, wrote);
     return ok();
 
   } catch (err) {
@@ -74,12 +81,12 @@ function clean(v, max) {
 }
 
 
-function notify(row) {
+function notify(row, wrote) {
   if (!NOTIFY) return;
   try {
     MailApp.sendEmail({
       to: NOTIFY,
-      subject: "New lead: " + row[1] + " — " + row[3],
+      subject: (wrote ? "New lead: " : "New lead (SHEET FAILED): ") + row[1] + " — " + row[3],
       body: [
         "Name:      " + row[1],
         "Phone:     " + row[2],
@@ -88,12 +95,26 @@ function notify(row) {
         "",
         "Came from: " + (row[5] || "direct"),
         "",
-        SpreadsheetApp.getActiveSpreadsheet().getUrl()
+        "https://docs.google.com/spreadsheets/d/" + SHEET_ID + "/edit"
       ].join("\n")
     });
   } catch (err) {
     console.error(err);   // never let a mail failure lose the row
   }
+}
+
+
+function write(row) {
+  var ss = SpreadsheetApp.openById(SHEET_ID);
+  var sheet = ss.getSheetByName("Leads") || ss.insertSheet("Leads");
+
+  if (sheet.getLastRow() === 0) {
+    sheet.appendRow(HEADERS);
+    sheet.getRange(1, 1, 1, HEADERS.length).setFontWeight("bold");
+    sheet.setFrozenRows(1);
+  }
+  sheet.appendRow(row);
+  return true;
 }
 
 
