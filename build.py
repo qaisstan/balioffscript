@@ -47,6 +47,15 @@ INSTAGRAM = "https://www.instagram.com/balioffscript/"
 WHATSAPP_NUMBER = "6285878052692"
 WHATSAPP_TEXT = "Hi Kai, I need your help with a property in Bali."
 
+# ---- Lead form ----
+#
+# The /opportunities/ page posts here. Paste the Google Apps Script web app URL
+# (it ends in /exec) — see apps-script/README.md for the setup.
+#
+# Left empty, the form still works: it collects the answers and hands the person
+# to WhatsApp with them pre-written, so a lead is never lost to a missing key.
+LEAD_ENDPOINT = ""
+
 # ---- Analytics --------------------------------------------------------------
 #
 # GA4_ID: paste the Measurement ID from Google Analytics (looks like
@@ -560,7 +569,7 @@ def robots_meta(path):
     return '\n<meta name="robots" content="noindex,follow">' if path in ("/search/",) else ""
 
 
-def head(title, desc, path, card=None):
+def head(title, desc, path, card=None, body_class=""):
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -591,7 +600,7 @@ def head(title, desc, path, card=None):
 <meta name="theme-color" content="#16191d">
 <script>window.SITE_BASE={json.dumps(BASE)}</script>
 {analytics()}</head>
-<body>"""
+<body{f' class="{body_class}"' if body_class else ""}>"""
 
 
 def analytics():
@@ -1568,6 +1577,115 @@ def search_page():
 {footer()}"""
 
 
+def opportunities_page():
+    """The link-in-bio lead form. Deliberately standalone: no masthead, no
+    footer nav, nothing to click except answering the question in front of you."""
+
+    def opts(field, items):
+        return "\n".join(
+            f'<button type="button" class="ld-opt" data-value="{v}" aria-pressed="false">'
+            f'<b>{k}</b><span>{v}</span></button>'
+            for k, v in items)
+
+    budget = opts("budget", [
+        ("A", "Under $150k"), ("B", "$150k to $300k"), ("C", "$300k to $500k"),
+        ("D", "$500k to $1M"), ("E", "$1M and above"), ("F", "Still working it out"),
+    ])
+    timeline = opts("timeline", [
+        ("A", "Ready now"), ("B", "Within 3 months"), ("C", "3 to 6 months"),
+        ("D", "6 to 12 months"), ("E", "Just researching"),
+    ])
+
+    return f"""{head(
+        "Find the Right Bali Opportunity",
+        "Tell me your budget and timeline and I will personally come back to you with Bali "
+        "property opportunities that actually fit. Takes about ten seconds.",
+        "/opportunities/", body_class="lead-body")}
+<main class="lead">
+<div class="lead-card">
+
+<div class="ld-top">
+<p class="ld-mark">Bali Off<span>Script</span></p>
+<p class="ld-count" id="ld-count"></p>
+</div>
+<div class="ld-track"><span id="ld-bar"></span></div>
+
+<div class="ld-body">
+<p class="sr-only" id="ld-live" aria-live="polite"></p>
+<form id="lead" data-endpoint="{LEAD_ENDPOINT}" data-wa="{WHATSAPP_NUMBER}" novalidate>
+
+<input type="text" name="company" class="ld-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+<input type="hidden" name="budget"><input type="hidden" name="timeline">
+
+<div class="ld-step on">
+<h2>Let me help you find the right opportunity in Bali.</h2>
+<p class="ld-sub">Four questions, about ten seconds. Then I look at what actually fits your budget and your timing, and I come back to you myself.</p>
+<div class="ld-acts">
+<button type="button" class="ld-btn" data-next>Let's go</button>
+<span class="ld-hint">10 SECONDS</span>
+</div>
+</div>
+
+<div class="ld-step" data-field="name">
+<h2>First, what's your name?</h2>
+<p class="ld-sub">So I know who I'm talking to.</p>
+<input type="text" name="name" autocomplete="given-name" placeholder="Your name" maxlength="80" enterkeyhint="next">
+<p class="ld-err"></p>
+<div class="ld-acts">
+<button type="button" class="ld-btn ghost" data-back>Back</button>
+<button type="button" class="ld-btn" data-next>Continue</button>
+</div>
+</div>
+
+<div class="ld-step" data-field="phone">
+<h2>What's the best number to reach you on?</h2>
+<p class="ld-sub">I use this to message you directly. It is never shared, sold or added to a list.</p>
+<div class="ld-tel">
+<select id="ld-dial" aria-label="Country code"></select>
+<input type="tel" name="phone" autocomplete="tel-national" placeholder="Phone number" maxlength="20" enterkeyhint="next">
+</div>
+<p class="ld-err"></p>
+<div class="ld-acts">
+<button type="button" class="ld-btn ghost" data-back>Back</button>
+<button type="button" class="ld-btn" data-next>Continue</button>
+</div>
+</div>
+
+<div class="ld-step" data-field="budget">
+<h2>What budget are you working with?</h2>
+<p class="ld-sub">A rough bracket is fine. It decides which areas and which title types are realistic.</p>
+<div class="ld-opts">{budget}</div>
+</div>
+
+<div class="ld-step" data-field="timeline">
+<h2>And when are you looking to move?</h2>
+<p class="ld-sub">Last one.</p>
+<div class="ld-opts">{timeline}</div>
+</div>
+
+<div class="ld-step ld-done">
+<div class="ld-tick"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5.5 5.5L20 7"/></svg></div>
+<h2>Thank you.</h2>
+<p>I will personally contact you, get to know what you're actually looking for, and see whether there's a Bali opportunity worth putting in front of you.</p>
+<p class="ld-sign">Kindly, {AUTHOR}<span>BALI PROPERTY ADVISER</span></p>
+<div id="ld-fallback" hidden>Couldn't reach the server just now. <a href="#" target="_blank" rel="noopener">Send it to me on WhatsApp instead</a> — your answers are already written out.</div>
+<div class="ld-after">
+<a href="{INSTAGRAM}" rel="me">@balioffscript</a>
+<a href="{BASE}/">Read the guides</a>
+</div>
+</div>
+
+</form>
+</div>
+
+<div class="ld-foot"><a href="{BASE}/">BALIOFFSCRIPT.COM</a></div>
+</div>
+</main>
+<script src="{BASE}/lead.js" defer></script>
+</body>
+</html>"""
+
+
 def simple(slug, title, body):
     return f"""{head(title, meta_desc(title, body), f"/{slug}/")}
 {nav()}
@@ -1613,6 +1731,7 @@ def main():
     write("/check/", check_page())
     write("/all/", all_page(pages))
     write("/search/", search_page())
+    write("/opportunities/", opportunities_page())
     write("/disclaimer/", simple("disclaimer", "Disclaimer", DISCLAIMER))
     write("/checklist/", simple("checklist", "Due diligence checklist", CHECKLIST))
 
@@ -1625,7 +1744,8 @@ def main():
     } for p in pages]
     open(os.path.join(OUT, "search-index.json"), "w", encoding="utf-8").write(json.dumps(index))
 
-    urls = ["/", "/about/", "/all/", "/calculator/", "/check/", "/search/", "/checklist/", "/disclaimer/"] + [f"/{k}/" for k in CATEGORIES] + \
+    urls = ["/", "/about/", "/all/", "/calculator/", "/check/", "/search/", "/opportunities/",
+            "/checklist/", "/disclaimer/"] + [f"/{k}/" for k in CATEGORIES] + \
            [f'/{p["category"]}/{p["slug"]}/' for p in pages]
     sm = "".join(f"<url><loc>{SITE_URL}{u}</loc></url>" for u in urls)
     open(os.path.join(OUT, "sitemap.xml"), "w", encoding="utf-8").write(
