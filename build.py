@@ -54,7 +54,7 @@ WHATSAPP_TEXT = "Hi Kai, I need your help with a property in Bali."
 #
 # Left empty, the form still works: it collects the answers and hands the person
 # to WhatsApp with them pre-written, so a lead is never lost to a missing key.
-LEAD_ENDPOINT = ""
+LEAD_ENDPOINT = "https://script.google.com/macros/s/AKfycbxAyaSDxww9Kv7MsjpynwgXlTFcy4jmv-EwanKppMD2Slm-eQDw8QDlDf9_8VTaheI4PA/exec"
 
 # ---- Analytics --------------------------------------------------------------
 #
