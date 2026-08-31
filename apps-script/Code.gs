@@ -19,7 +19,7 @@ var SHEET_ID = "1JK3pIfbNCpXfZIN3Z55F8c45Ad1jfURdkn11JsYSCb8";
 // Where the "New lead" alert goes. Leave "" to switch alerts off.
 var NOTIFY = "hello@qaisstanikzai.com";
 
-var HEADERS = ["Received", "Name", "Phone", "Budget", "Timeline", "Source", "Page"];
+var HEADERS = ["Received", "Name", "Phone", "Email", "Budget", "Timeline", "Source", "Page"];
 
 
 function doPost(e) {
@@ -40,6 +40,7 @@ function doPost(e) {
       new Date(),
       name,
       phone,
+      clean(d.email, 120),
       clean(d.budget, 40),
       clean(d.timeline, 40),
       clean(d.ref, 200),
@@ -86,14 +87,15 @@ function notify(row, wrote) {
   try {
     MailApp.sendEmail({
       to: NOTIFY,
-      subject: (wrote ? "New lead: " : "New lead (SHEET FAILED): ") + row[1] + " — " + row[3],
+      subject: (wrote ? "New lead: " : "New lead (SHEET FAILED): ") + row[1] + " — " + row[4],
       body: [
         "Name:      " + row[1],
         "Phone:     " + row[2],
-        "Budget:    " + row[3],
-        "Timeline:  " + row[4],
+        "Email:     " + (row[3] || "not given"),
+        "Budget:    " + row[4],
+        "Timeline:  " + row[5],
         "",
-        "Came from: " + (row[5] || "direct"),
+        "Came from: " + (row[6] || "direct"),
         "",
         "https://docs.google.com/spreadsheets/d/" + SHEET_ID + "/edit"
       ].join("\n")
@@ -130,6 +132,7 @@ function testLead() {
   doPost({ postData: { contents: JSON.stringify({
     name: "Test Person",
     phone: "+61 400000000",
+    email: "test@example.com",
     budget: "$300k to $500k",
     timeline: "Within 3 months",
     ms: 9000,

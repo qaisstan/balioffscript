@@ -106,6 +106,11 @@
       var digits = form.elements.phone.value.replace(/[^0-9]/g, "");
       if (digits.length < 6) { err(step, "Please enter a valid number."); return false; }
       if (digits.length > 15) { err(step, "That number is too long."); return false; }
+      // Email is optional, but a typo in one that was filled in is worth catching.
+      var mail = form.elements.email.value.trim();
+      if (mail && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(mail)) {
+        err(step, "That email doesn't look right."); return false;
+      }
     }
     err(step, "");
     return true;
@@ -159,6 +164,7 @@
     return {
       name: form.elements.name.value.trim().slice(0, 80),
       phone: (dial + " " + form.elements.phone.value.trim()).slice(0, 40),
+      email: form.elements.email.value.trim().slice(0, 120),
       budget: form.elements.budget.value,
       timeline: form.elements.timeline.value,
       // Bot checks. A real person leaves the honeypot empty and takes more
@@ -189,6 +195,7 @@
     if (!box || !WA) { done(); return; }
     var text = "Hi Kai, I filled in the form on your site.\n\n"
       + "Name: " + d.name + "\nPhone: " + d.phone
+      + (d.email ? "\nEmail: " + d.email : "")
       + "\nBudget: " + d.budget + "\nTimeline: " + d.timeline;
     box.querySelector("a").href = "https://wa.me/" + WA + "?text=" + encodeURIComponent(text);
     box.hidden = false;

@@ -1628,7 +1628,7 @@ def opportunities_page():
 <div class="ld-step" data-field="name">
 <h2>First, what's your name?</h2>
 <p class="ld-sub">So I know who I'm talking to.</p>
-<input type="text" name="name" autocomplete="given-name" placeholder="Your name" maxlength="80" enterkeyhint="next">
+<input type="text" name="name" autocomplete="name" autocapitalize="words" spellcheck="false" placeholder="Your full name" maxlength="80" enterkeyhint="next">
 <p class="ld-err"></p>
 <div class="ld-acts">
 <button type="button" class="ld-btn ghost" data-back>Back</button>
@@ -1640,9 +1640,10 @@ def opportunities_page():
 <h2>What's the best number to reach you on?</h2>
 <p class="ld-sub">I use this to message you directly. It is never shared, sold or added to a list.</p>
 <div class="ld-tel">
-<select id="ld-dial" aria-label="Country code"></select>
-<input type="tel" name="phone" autocomplete="tel-national" placeholder="Phone number" maxlength="20" enterkeyhint="next">
+<select id="ld-dial" aria-label="Country code" autocomplete="tel-country-code"></select>
+<input type="tel" name="phone" autocomplete="tel-national" inputmode="tel" placeholder="Phone number" maxlength="20" enterkeyhint="next">
 </div>
+<input type="email" name="email" class="ld-email" autocomplete="email" inputmode="email" spellcheck="false" placeholder="Email (optional)" maxlength="120" enterkeyhint="next">
 <p class="ld-err"></p>
 <div class="ld-acts">
 <button type="button" class="ld-btn ghost" data-back>Back</button>
