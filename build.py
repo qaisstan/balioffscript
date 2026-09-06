@@ -669,7 +669,7 @@ def footer(extra=""):
 <p class="foot-note">{TAGLINE}</p>
 </div>
 <div class="foot-links">
-<a class="ig-link" href="{wa_link()}" target="_blank" rel="noopener">{wa_logo("ig ig-sm")}<span>WhatsApp</span></a>
+<a class="ig-link" href="{BASE}/opportunities/">{form_logo("ig ig-sm")}<span>Find the right one</span></a>
 <a class="ig-link" href="{INSTAGRAM}" rel="me">{ig_logo("ig ig-sm")}<span>@balioffscript</span></a>
 <a href="{BASE}/calculator/">ROI calculator</a>
 <a href="{BASE}/about/">About</a>
@@ -700,6 +700,14 @@ def reel(url):
 def wa_link(text=None):
     from urllib.parse import quote
     return f"https://wa.me/{WHATSAPP_NUMBER}?text={quote(text or WHATSAPP_TEXT)}"
+
+
+def form_logo(cls="ig"):
+    """Arrow into a box. Reads as "go here and fill this in" at any size."""
+    return (f'<svg class="{cls}" viewBox="0 0 24 24" aria-hidden="true" fill="none" '
+            'stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">'
+            '<path d="M12 4v10"/><path d="M8 11l4 4 4-4"/>'
+            '<path d="M5 17v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2"/></svg>')
 
 
 def wa_logo(cls="ig"):
@@ -745,7 +753,7 @@ def cta(kicker="Got a specific situation?",
 </div>
 </div>
 <div class="cta-acts">
-<a class="btn btn-wa" href="{wa_link()}" target="_blank" rel="noopener">{wa_logo()}<span>WhatsApp</span></a>
+<a class="btn btn-wa" href="{BASE}/opportunities/">{form_logo()}<span>Find the right one</span></a>
 <a class="btn" href="{INSTAGRAM}" rel="me">{ig_logo()}<span>{btn}</span></a>
 </div>
 </section>"""
@@ -1159,7 +1167,7 @@ def home(pages):
 <p class="hero-note">Eyes on the ground in Bali. Message me before you sign anything.</p>
 <div class="hero-acts">
 <a class="lnk lnk-solid" href="#tool">Work out the real return</a>
-<a class="lnk lnk-wa" href="{wa_link()}" target="_blank" rel="noopener">{wa_logo("ig")}<span>Message me</span></a>
+<a class="lnk lnk-wa" href="{BASE}/opportunities/">{form_logo("ig")}<span>Find the right one</span></a>
 </div>
 <form class="hero-search" action="{BASE}/search/">
 <input type="search" name="q" placeholder="nominee, E33G, BPHTB, Pererenan…" aria-label="Search">
@@ -1301,7 +1309,7 @@ def all_page(pages):
 <p class="standfirst">{len(pages)} answers across eight sections, written from the regulations rather than from the sales pitch.</p>
 <div class="ax-tools">
 <a class="lnk lnk-solid" href="{BASE}/calculator/">Return calculator</a>
-<a class="lnk lnk-wa" href="{wa_link()}" target="_blank" rel="noopener">{wa_logo("ig")}<span>Message me</span></a>
+<a class="lnk lnk-wa" href="{BASE}/opportunities/">{form_logo("ig")}<span>Find the right one</span></a>
 <a class="lnk" href="{BASE}/areas/#map">Area map</a>
 </div>
 {blocks}
