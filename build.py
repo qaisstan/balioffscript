@@ -45,6 +45,10 @@ INSTAGRAM = "https://www.instagram.com/balioffscript/"
 
 # WhatsApp. wa.me wants the number with no plus, spaces or dashes.
 WHATSAPP_NUMBER = "6285878052692"
+
+# Where lead-form handoffs go. Foreign leads are bounced straight into WhatsApp
+# with their answers pre-written; Indonesian numbers deliberately are not.
+LEAD_WHATSAPP = "46700081414"
 WHATSAPP_TEXT = "Hi Kai, I need your help with a property in Bali."
 
 # ---- Lead form ----
@@ -1619,7 +1623,7 @@ def opportunities_page():
 
 <div class="ld-body">
 <p class="sr-only" id="ld-live" aria-live="polite"></p>
-<form id="lead" data-endpoint="{LEAD_ENDPOINT}" data-wa="{WHATSAPP_NUMBER}" novalidate>
+<form id="lead" data-endpoint="{LEAD_ENDPOINT}" data-wa="{LEAD_WHATSAPP}" novalidate>
 
 <input type="text" name="company" class="ld-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
 <input type="hidden" name="budget"><input type="hidden" name="timeline">

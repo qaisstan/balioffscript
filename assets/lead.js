@@ -15,6 +15,7 @@
   var count = document.getElementById("ld-count");
   var live = document.getElementById("ld-live");
   var loaded = Date.now();
+  var dialTouched = false;
   var i = 0;
 
   // Flag, dial code, name. Kai's buyers cluster in the first few markets, so
@@ -63,6 +64,7 @@
       sel.appendChild(o);
     });
     sel.value = "+61";
+    sel.addEventListener("change", function () { dialTouched = true; });
   }
 
   function show(n) {
@@ -140,9 +142,11 @@
       pick.classList.add("sel");
       pick.setAttribute("aria-pressed", "true");
       form.elements[step.dataset.field].value = pick.dataset.value;
-      setTimeout(function () {
-        if (i === steps.length - 2) { submit(); } else { show(i + 1); }
-      }, 180);
+      if (i === steps.length - 2) {
+        submit();                    // synchronous: preserves the user gesture
+      } else {
+        setTimeout(function () { show(i + 1); }, 180);
+      }
     }
   });
 
@@ -158,6 +162,44 @@
   });
 
   form.addEventListener("submit", function (e) { e.preventDefault(); });
+
+  // Indonesian leads stay in the sheet only. Everyone else gets handed to
+  // WhatsApp with their answers already written out.
+  function isIndonesian() {
+    var dial = sel ? sel.value : "";
+    var d = form.elements.phone.value.replace(/[^0-9]/g, "");
+    if (dial === "+62") return true;
+    if (/^62\d{8,}$/.test(d)) return true;
+    // Someone who never opened the country list and typed a local 08 mobile is
+    // Indonesian, not Australian. If they did pick a country, trust them: an
+    // Australian landline starts 08 too.
+    if (!dialTouched && /^08\d{7,11}$/.test(d)) return true;
+    return false;
+  }
+
+  var WHEN = {
+    "Ready now": "I'm ready to invest now",
+    "Within 3 months": "I'm looking to invest within 3 months",
+    "3 to 6 months": "I'm looking to invest in 3 to 6 months",
+    "6 months or more": "I'm looking to invest in 6 months or more",
+    "Just researching": "I'm just researching at this stage"
+  };
+
+  function waLink(d) {
+    var first = (d.name.split(/\s+/)[0] || d.name).trim();
+    first = first.charAt(0).toUpperCase() + first.slice(1);
+
+    var budget = d.budget === "Still working it out"
+      ? "I'm still working out my budget"
+      : "My budget is around " + d.budget;
+
+    var when = WHEN[d.timeline] || ("I'm looking to invest " + d.timeline);
+
+    var text = "Hi Kai, I'm " + first + ". I just filled in the form on your site. "
+             + budget + " and " + when + ". Happy to connect.";
+
+    return "https://wa.me/" + WA + "?text=" + encodeURIComponent(text);
+  }
 
   function payload() {
     var dial = sel ? sel.value : "";
@@ -188,39 +230,44 @@
     }
   }
 
-  function fallback(d) {
-    // Never lose a lead to a failed request. Hand them to WhatsApp with the
-    // answers already written out.
+  function showWa(link) {
+    // Used when the popup was blocked, or the save failed. Either way the
+    // person still has a one-tap route to Kai with their answers written out.
     var box = document.getElementById("ld-fallback");
-    if (!box || !WA) { done(); return; }
-    var text = "Hi Kai, I filled in the form on your site.\n\n"
-      + "Name: " + d.name + "\nPhone: " + d.phone
-      + (d.email ? "\nEmail: " + d.email : "")
-      + "\nBudget: " + d.budget + "\nTimeline: " + d.timeline;
-    box.querySelector("a").href = "https://wa.me/" + WA + "?text=" + encodeURIComponent(text);
+    if (!box || !link) return;
+    box.querySelector("a").href = link;
     box.hidden = false;
-    done();
+  }
+
+  function send(d, link) {
+    if (!ENDPOINT) { showWa(link); return; }
+    // text/plain keeps this a CORS "simple request", so the browser skips the
+    // preflight that Apps Script cannot answer. keepalive keeps it alive when
+    // WhatsApp takes over the tab on mobile, which would otherwise kill the
+    // request before the row is written.
+    fetch(ENDPOINT, {
+      method: "POST",
+      mode: "no-cors",
+      keepalive: true,
+      headers: { "Content-Type": "text/plain;charset=utf-8" },
+      body: JSON.stringify(d)
+    }).catch(function () { showWa(link); });
   }
 
   function submit() {
     var d = payload();
-    var btn = form.querySelector("[data-next].primary:not([hidden])");
-    steps.forEach(function (s) { s.classList.add("busy"); });
 
-    if (!ENDPOINT) { fallback(d); return; }
+    // Decided before anything async runs. window.open is only permitted inside
+    // the click that triggered it, so the handoff cannot wait for the network.
+    var link = isIndonesian() ? "" : waLink(d);
 
-    // text/plain keeps this a CORS "simple request", so the browser skips the
-    // preflight that Apps Script cannot answer.
-    fetch(ENDPOINT, {
-      method: "POST",
-      mode: "no-cors",
-      headers: { "Content-Type": "text/plain;charset=utf-8" },
-      body: JSON.stringify(d)
-    }).then(function () {
-      done();
-    }).catch(function () {
-      fallback(d);
-    });
+    send(d, link);
+    done();
+
+    if (link) {
+      var w = window.open(link, "_blank");
+      if (!w) showWa(link);          // popup blocked, offer it as a link instead
+    }
   }
 
   show(0);
