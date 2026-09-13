@@ -86,12 +86,19 @@ CATEGORIES = {
     "rental": ("Rental & ROI", "Licensing, management fees, and yields that survive contact with reality."),
     "areas": ("Areas", "Land prices, demand and constraints, area by area."),
     "living": ("Living Here", "Whether Bali works as a place to live, and where the market goes next."),
+    "compare": ("Bali vs The World", "What foreigners can own, pay and keep in Bali against Dubai, Thailand, Portugal, Japan and the rest."),
 }
 
 # Category landing pages were thin — a heading and a list of cards. They are
 # also the pages best placed to rank for the broad terms ("bali property tax",
 # "bali visa"), so each one gets a real introduction and an SEO title.
 CATEGORY_SEO = {
+    "compare": (
+        "Bali vs Dubai, Thailand, Portugal and the Rest: 2026 Comparison",
+        "Foreigners cannot own land in Bali, and the money keeps arriving anyway. These pages "
+        "put Indonesia side by side with Dubai, Thailand, Vietnam, the Philippines, Japan, "
+        "Malaysia, Portugal and Spain on the only four questions that matter: what you can own, "
+        "what it costs to get in, what you are taxed on, and what you are left holding at the end."),
     "ownership": (
         "Can foreigners own property in Bali?",
         "Foreigners cannot hold Hak Milik, Indonesian freehold, under any structure, "
@@ -744,9 +751,23 @@ def portrait(cls="cta-photo"):
             f'loading="lazy" alt="{AUTHOR}, {AUTHOR_ROLE}">')
 
 
-def cta(kicker="Got a specific situation?",
-        body="Every deal in Bali has a detail that breaks the general rule. Send me the details and I'll tell you what I'd check first.",
-        btn="Ask on Instagram"):
+def lead_wa(context=""):
+    """Direct WhatsApp handoff. The article title rides along in the message so
+    Kai opens the chat already knowing what the person was reading."""
+    from urllib.parse import quote
+    msg = ("Hi Kai, I just read your article on " + context + ". "
+           "I would like your help with a property in Bali.") if context else \
+          "Hi Kai, I would like your help with a property in Bali."
+    return f"https://wa.me/{LEAD_WHATSAPP}?text={quote(msg)}"
+
+
+def cta(kicker="Want me to find you the right one?",
+        body="Tell me what you are looking for and I will come back to you personally. "
+             "Four questions, about ten seconds, then it opens straight into my WhatsApp.",
+        btn="Message me on WhatsApp"):
+    """One route only. It runs through /opportunities/ rather than a raw wa.me
+    link because that qualifies the person, records the lead, and keeps
+    Indonesian numbers out of Kai's WhatsApp, which a direct link cannot do."""
     return f"""<section class="cta">
 <div class="cta-id">
 {portrait()}
@@ -757,8 +778,7 @@ def cta(kicker="Got a specific situation?",
 </div>
 </div>
 <div class="cta-acts">
-<a class="btn btn-wa" href="{BASE}/opportunities/">{form_logo()}<span>Find the right one</span></a>
-<a class="btn" href="{INSTAGRAM}" rel="me">{ig_logo()}<span>{btn}</span></a>
+<a class="btn btn-wa" href="{BASE}/opportunities/">{wa_logo()}<span>{btn}</span></a>
 </div>
 </section>"""
 
@@ -918,9 +938,9 @@ def article(m, siblings):
 {faq_block}
 {map_widget(focus=m["slug"], compact=True) if m["category"] == "areas" and any(a["slug"] == m["slug"] for a in MAP_AREAS) else ""}
 {reel(m.get("reel", ""))}
+{cta()}
 {share_bar(seo_title, path)}
 {onward(m, ALL_PAGES)}
-{cta()}
 </main>
 {footer(f'<script src="{BASE}/map.js" defer></script>') if m["category"] == "areas" else footer()}"""
 
@@ -1124,7 +1144,7 @@ def check_page():
 </div>
 
 {share_bar("What I'd check first before you buy", "/check/")}
-{cta("Send me the file.",
+{cta("Want me to look at the numbers with you?",
      "Location, title type, zoning, and any permits you've been shown. I'll tell you which link in the chain breaks, and what it would take to fix it. ",
      "Send it on Instagram")}
 </main>
