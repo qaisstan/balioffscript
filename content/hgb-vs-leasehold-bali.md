@@ -1,5 +1,6 @@
 ---
 question: HGB or leasehold: which is actually better?
+title: HGB vs Leasehold in Bali: Which to Choose
 summary: One is a registered right you can mortgage. The other is a contract that expires. The right answer depends on what you intend to do with it.
 category: ownership
 order: 03
