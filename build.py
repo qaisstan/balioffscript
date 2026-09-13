@@ -895,6 +895,9 @@ def article(m, siblings):
                 "datePublished": updated,
                 "dateModified": updated,
                 "inLanguage": "en",
+                "speakable": {"@type": "SpeakableSpecification",
+                              "cssSelector": [".standfirst", ".prose h2"]},
+                "isAccessibleForFree": True,
                 "wordCount": len(re.sub(r"[^\w\s]", " ", m["body"]).split()),
                 "author": {"@type": "Person", "name": AUTHOR, "jobTitle": AUTHOR_ROLE,
                            "url": SITE_URL + "/about/", "sameAs": [INSTAGRAM]},
@@ -1174,9 +1177,25 @@ def home(pages):
              "potentialAction": {"@type": "SearchAction",
                                  "target": SITE_URL + "/search/?q={search_term_string}",
                                  "query-input": "required name=search_term_string"}},
-            {"@type": "Person", "name": AUTHOR, "jobTitle": AUTHOR_ROLE,
-             "url": SITE_URL, "sameAs": [INSTAGRAM],
+            {"@type": "ProfessionalService", "@id": f"{SITE_URL}/#org",
+             "name": SITE_NAME, "url": SITE_URL, "description": TAGLINE,
+             "logo": f"{SITE_URL}/icon-512.png", "image": f"{SITE_URL}/icon-512.png",
+             "sameAs": [INSTAGRAM],
+             "founder": {"@id": f"{SITE_URL}/#kai"},
+             "areaServed": [{"@type": "Place", "name": "Bali, Indonesia"},
+                            {"@type": "Place", "name": "Lombok, Indonesia"},
+                            {"@type": "Place", "name": "Nusa Penida, Indonesia"}],
+             "knowsAbout": ["Bali property law", "Indonesian land titles",
+                            "Hak Pakai", "HGB", "Leasehold in Indonesia",
+                            "PT PMA", "Indonesian visas", "Villa rental licensing",
+                            "Bali zoning and building permits"],
+             "serviceType": "Property advisory for foreign buyers in Bali",
+             "priceRange": "$$"},
+            {"@type": "Person", "@id": f"{SITE_URL}/#kai",
+             "name": AUTHOR, "jobTitle": AUTHOR_ROLE,
+             "url": SITE_URL + "/about/", "sameAs": [INSTAGRAM],
              "image": f"{SITE_URL}/{AUTHOR_PHOTO}",
+             "worksFor": {"@id": f"{SITE_URL}/#org"},
              "knowsAbout": ["Indonesian property law", "Bali real estate",
                             "PT PMA", "Indonesian visas", "Land zoning"]},
         ],
@@ -1778,7 +1797,15 @@ def main():
     urls = ["/", "/about/", "/all/", "/calculator/", "/check/", "/search/", "/opportunities/",
             "/checklist/", "/disclaimer/"] + [f"/{k}/" for k in CATEGORIES] + \
            [f'/{p["category"]}/{p["slug"]}/' for p in pages]
-    sm = "".join(f"<url><loc>{SITE_URL}{u}</loc></url>" for u in urls)
+
+    # lastmod is how Google decides what is worth recrawling. Articles carry
+    # their own verified date; everything else moves when the build does.
+    today = __import__("datetime").date.today().isoformat()
+    mod = {f'/{p["category"]}/{p["slug"]}/': p.get("verified", today) for p in pages}
+
+    sm = "".join(
+        f"<url><loc>{SITE_URL}{u}</loc><lastmod>{mod.get(u, today)}</lastmod></url>"
+        for u in urls)
     open(os.path.join(OUT, "sitemap.xml"), "w", encoding="utf-8").write(
         f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>')
     # Answer engines are a real referral source now. A wildcard allow already
