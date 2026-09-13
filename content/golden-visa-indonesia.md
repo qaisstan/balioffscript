@@ -1,7 +1,7 @@
 ---
 question: What is the Indonesian Golden Visa, and is it worth it?
 title: Indonesia Golden Visa: Tiers and Thresholds
-summary: Five or ten year permits for large investors and invited figures. Still a temporary permit, despite the name.
+summary: A long-stay route for investors who commit at defined levels. It buys time and simplicity, not a single property right a cheaper KITAS would not also unlock.
 category: visas
 order: 06
 risk: medium

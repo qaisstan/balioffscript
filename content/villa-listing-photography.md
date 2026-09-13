@@ -1,6 +1,6 @@
 ---
 question: How do you make a Bali villa listing perform?
-title: Bali Villa Listing and Photography 2026: What Drives Bookings
+title: Bali Villa Listings 2026: What Actually Drives Bookings
 summary: In a corridor of near-identical villas, photography and the first ten reviews decide your occupancy more than the building does.
 category: rental
 order: 17

@@ -1,6 +1,6 @@
 ---
 question: What happens if a Bali property deal goes wrong?
-title: Bali Property Disputes 2026: Resolution and Realistic Options
+title: Bali Property Disputes 2026: Your Realistic Options
 summary: Litigation here is slow, expensive and uncertain for foreigners. Almost everything worth doing about a dispute happens before you sign.
 category: ownership
 order: 20

@@ -1,5 +1,6 @@
 ---
 question: Can you legalise a Bali villa that was built without permits?
+title: Legalising a Bali Villa Built Without Permits
 summary: Often yes, through retroactive PBG and SLF. It takes eight months to a year and it is not guaranteed.
 category: building
 order: 06

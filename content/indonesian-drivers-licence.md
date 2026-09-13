@@ -1,6 +1,6 @@
 ---
 question: How do you get an Indonesian driving licence?
-title: Indonesian Driving Licence (SIM) 2026: How to Get One in Bali
+title: Indonesian Driving Licence (SIM) 2026: How to Get One
 summary: An IDP endorsed for motorcycles covers a visit. If you live here, the local SIM removes the insurance argument entirely.
 category: living
 order: 20

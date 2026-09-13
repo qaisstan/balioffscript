@@ -1,6 +1,6 @@
 ---
 question: What should you know about Balinese culture?
-title: Balinese Culture and Etiquette 2026: What Foreigners Get Wrong
+title: Balinese Culture and Etiquette: What Foreigners Get Wrong
 summary: Ceremony is not a tourist attraction here, it is the calendar. Understanding that changes how you build, hire and live.
 category: living
 order: 26

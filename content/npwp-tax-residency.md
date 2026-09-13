@@ -1,5 +1,6 @@
 ---
 question: When do you become an Indonesian tax resident, and do you need an NPWP?
+title: NPWP and Indonesian Tax Residency: The 183-Day Rule
 summary: 183 days, and then Indonesia taxes your worldwide income. Most long-stay foreigners have not done this arithmetic.
 category: tax
 order: 03

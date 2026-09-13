@@ -94,7 +94,7 @@ CATEGORIES = {
 # "bali visa"), so each one gets a real introduction and an SEO title.
 CATEGORY_SEO = {
     "compare": (
-        "Bali vs Dubai, Thailand, Portugal and the Rest: 2026 Comparison",
+        "Bali vs Dubai, Thailand and Portugal: 2026 Comparison",
         "Foreigners cannot own land in Bali, and the money keeps arriving anyway. These pages "
         "put Indonesia side by side with Dubai, Thailand, Vietnam, the Philippines, Japan, "
         "Malaysia, Portugal and Spain on the only four questions that matter: what you can own, "
@@ -984,6 +984,7 @@ def category(key, pages):
 {map_widget() if key == "areas" else ""}
 <h2 class="sec-h">Every answer in this section</h2>
 <ul class="cards">{items}</ul>
+{cta()}
 {share_bar(seo_title, f"/{key}/")}
 </main>
 {footer(f'<script src="{BASE}/map.js" defer></script>') if key == "areas" else footer()}"""
@@ -1180,7 +1181,7 @@ def home(pages):
                             "PT PMA", "Indonesian visas", "Land zoning"]},
         ],
     })
-    return f"""{head(SITE_NAME + " | " + TAGLINE, "What a Bali property certificate actually gives you, what you can legally build and rent on the land, and what a deal returns once every real cost is counted.", "/")}
+    return f"""{head("Bali Property for Foreigners: Straight Answers", "What a Bali property certificate actually gives you, what you can legally build and rent on the land, and what a deal returns once every real cost is counted.", "/")}
 <script type="application/ld+json">{site_schema}</script>
 {nav()}
 <main>
@@ -1337,6 +1338,7 @@ def all_page(pages):
 <a class="lnk" href="{BASE}/areas/#map">Area map</a>
 </div>
 {blocks}
+{cta()}
 {share_bar("Every answer, in one place", "/all/")}
 </main>
 {footer()}"""
@@ -1642,6 +1644,7 @@ def opportunities_page():
 <div class="ld-track"><span id="ld-bar"></span></div>
 
 <div class="ld-body">
+<h1 class="sr-only">Find the right property opportunity in Bali</h1>
 <p class="sr-only" id="ld-live" aria-live="polite"></p>
 <form id="lead" data-endpoint="{LEAD_ENDPOINT}" data-wa="{LEAD_WHATSAPP}" novalidate>
 
@@ -1719,6 +1722,7 @@ def simple(slug, title, body):
 <main class="wrap article">
 <h1>{title}</h1>
 <div class="prose">{md(body)}</div>
+{cta()}
 {share_bar(title, f"/{slug}/")}
 </main>
 {footer()}"""

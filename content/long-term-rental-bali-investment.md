@@ -1,6 +1,6 @@
 ---
 question: Is long-term rental better than Airbnb in Bali?
-title: Long-Term vs Short-Term Rental in Bali 2026: The Real Numbers
+title: Long-Term vs Short-Term Rental in Bali: Real Numbers
 summary: Short-term looks better on the headline rate and worse after costs, vacancy and licensing. For many owners the annual lease is the honest winner.
 category: rental
 order: 14
