@@ -1105,7 +1105,7 @@ def about_page():
 {share_bar(f"About {SITE_NAME}", "/about/")}
 {cta("Got a specific situation?",
      "Send me the details. Location, title type, zoning, and whatever permits you've been shown. I'll tell you what I'd check first.",
-     "Ask on Instagram")}
+     "Message me on WhatsApp")}
 </main>
 {footer()}"""
 
@@ -1146,7 +1146,7 @@ def check_page():
 {share_bar("What I'd check first before you buy", "/check/")}
 {cta("Want me to look at the numbers with you?",
      "Location, title type, zoning, and any permits you've been shown. I'll tell you which link in the chain breaks, and what it would take to fix it. ",
-     "Send it on Instagram")}
+     "Message me on WhatsApp")}
 </main>
 {footer()}"""
 
@@ -1587,9 +1587,9 @@ def calculator():
 <p>Capital appreciation, currency movement, financing costs, and the risk that the property cannot legally be operated as short-term accommodation at all. That last one is not a rounding error, <a href="{BASE}/company/pt-pma-kbli-closure-bali/">Bali closed the villa and homestay business classifications to new foreign-owned companies in July 2026</a>, and zoning determines whether nightly rental is permitted on the plot before any of these numbers matter.</p>
 </div>
 {share_bar("Bali property ROI calculator", "/calculator/")}
-{cta("Send me the seller's projection.",
+{cta("Want me to read the seller's projection?",
      "If you have a yield sheet from an agent or developer, send it to me with the location and the title type. I'll tell you which assumptions break first, the occupancy, the lease term, the licence, or the zoning. ",
-     "Send it on Instagram")}
+     "Message me on WhatsApp")}
 </main>
 {footer(f'<script src="{BASE}/calc.js" defer></script><script src="{BASE}/reels.js" defer></script>')}"""
 
