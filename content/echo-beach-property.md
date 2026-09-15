@@ -44,6 +44,18 @@ Echo Beach gives you Canggu demand at a small discount to the walkable centre, w
 
 The oversupply problem that affects the whole corridor affects here too. A generic three-bedroom pool villa competes on price. Something with a genuine outlook, an unusual size, or a short walk to the break does not.
 
+## The northern edge
+
+Where Echo Beach runs into Pererenan the character changes quickly: fewer cafes, more construction, wider plots and lower prices. That boundary has moved north repeatedly over the last five years and it will move again.
+
+Buying on the northern side means paying less and waiting for the strip to reach you, which is the same bet Pererenan buyers made in 2019.
+
+## What the swell does to bookings
+
+Echo demand tracks surf conditions more closely than the cafe-led parts of Canggu. Dry season swell fills the calendar. Flat weeks in the wet months are noticeably quieter than three kilometres south, where guests come for the restaurants regardless.
+
+Model that seasonality explicitly rather than applying a Canggu average.
+
 ## Common questions
 
 ### Is Echo Beach part of Canggu?

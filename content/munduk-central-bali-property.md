@@ -1,6 +1,6 @@
 ---
 question: Is Munduk worth buying in?
-title: Munduk and Central Bali Property 2026: Mountains and Patience
+title: Munduk and Central Bali Property 2026
 summary: Waterfalls, coffee plantations, cool air and almost no rental market. A lifestyle purchase that should never be underwritten on yield.
 category: areas
 order: 32
@@ -49,6 +49,18 @@ It does not suit investors. There is no version of this that produces a yield co
 ## What to verify
 
 Zoning, first and always. Access road width and gradient. Water, which is plentiful here but still parcel-specific. Land stability on slopes. Realistic drive times to a hospital and the airport.
+
+## The lakes
+
+Tamblingan and Buyan sit in a caldera near Munduk, and Bratan with its lakeside temple is further east at Bedugul. This is protected and agricultural land almost throughout, which is why the area looks the way it does and why very little can be built on it.
+
+Anyone shown lakeside land here should treat the zoning question as the entire transaction.
+
+## Building in the highlands
+
+Rain is heavier and more persistent than the coast, humidity sits high, and slopes need engineering that flat coastal plots do not. Damp and mould are ongoing maintenance items rather than occasional ones.
+
+Access roads are narrow, steep and frequently in poor condition, which raises construction costs and limits what can practically be delivered to a site.
 
 ## Common questions
 

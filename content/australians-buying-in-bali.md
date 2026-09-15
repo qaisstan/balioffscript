@@ -1,6 +1,6 @@
 ---
 question: Why are so many Australians buying in Bali?
-title: Australians Buying Property in Bali 2026: Why and What Goes Wrong
+title: Australians Buying Property in Bali 2026
 summary: Australians are the largest single group of foreign buyers here, and they keep making the same three mistakes.
 category: compare
 order: 07

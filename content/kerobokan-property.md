@@ -42,6 +42,22 @@ Kerobokan is not a destination and does not pretend to be. It is where you buy w
 
 For a resident, that is a strong proposition. For a nightly rental investor, it is a harder sell than the beach corridors and the numbers should reflect that.
 
+## The sub-areas that matter
+
+**Petitenget** at the southern edge is effectively Seminyak: beach clubs, restaurants and Seminyak pricing.
+
+**Umalas** to the north is quieter, more residential and family-oriented.
+
+**Central Kerobokan** along the main roads is commercial and dense, with the lowest prices and the most traffic.
+
+**Western Kerobokan** toward Canggu picks up some of that corridor's demand without its prices.
+
+## What it is genuinely good for
+
+Long-stay rental to residents rather than tourists. The tenant pool here is people who live in Bali and work here, which is steadier and far less seasonal than nightly guests.
+
+That produces lower headline rates and considerably better occupancy across a year, which for an absentee owner is frequently the better arithmetic.
+
 ## Common questions
 
 ### Is Kerobokan a good place to live in Bali?

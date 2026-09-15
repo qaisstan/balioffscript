@@ -43,6 +43,20 @@ Legian is the calmer end. Seminyak-adjacent northern Legian prices closer to Sem
 
 Building age and condition, PBG and SLF including extensions, remaining lease term, noise on the specific street, flood behaviour in wet season, and whether the licence covers what the property actually does.
 
+## The segments that work here
+
+**Budget and mid-market accommodation.** Consistent, high-volume demand that never stopped, largely ignored by foreign buyers chasing villa yields.
+
+**Commercial frontage.** Retail and food and beverage on the main streets, serving foot traffic that exists year-round.
+
+**Long-stay residential.** Cheaper than anywhere else within walking distance of a beach in the south.
+
+## The thing buyers miss
+
+Kuta demand is **less seasonal** than Canggu's. It is driven by Australian school holidays, domestic Indonesian travel and regional Asian visitors, which are three separate cycles that do not peak together.
+
+A property here fills more evenly across the year than a west coast villa, at a lower rate. For an owner who values occupancy over headline nightly figures, that is a real advantage and it is priced as though it is a weakness.
+
 ## Common questions
 
 ### Is Kuta a bad area to buy in Bali?

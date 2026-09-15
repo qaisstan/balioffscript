@@ -1,6 +1,6 @@
 ---
 question: Is Pecatu or Ungasan better value than Uluwatu?
-title: Pecatu and Ungasan Property 2026: Bukit Without the Cliff Price
+title: Pecatu and Ungasan Property 2026: Bukit Value
 summary: The interior Bukit, minutes from the famous breaks, at a fraction of clifftop prices. The trade is the view and the water.
 category: areas
 order: 27

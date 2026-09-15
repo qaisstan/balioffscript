@@ -1,6 +1,6 @@
 ---
 question: How do you close a PT PMA?
-title: Closing a PT PMA in Indonesia 2026: Why Walking Away Costs More
+title: Closing a PT PMA in Indonesia 2026: The Process
 summary: A dormant company does not quietly disappear. Obligations keep accruing and the eventual cost of regularising exceeds maintaining it.
 category: company
 order: 07

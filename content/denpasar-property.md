@@ -44,6 +44,18 @@ Realistically this is a market for someone with a long Indonesian horizon, possi
 
 Zoning and permitted use, since much of Denpasar is residential rather than commercial. Flood behaviour, which is a genuine issue in parts. Title history on older parcels. And who your tenant actually is before you buy for them.
 
+## Where people actually live
+
+Renon holds the government quarter and the embassies, with wide streets and the most orderly housing in the city. Sanglah surrounds the main hospital. Panjer and Sesetan are ordinary residential districts where prices are lowest.
+
+Foreign residents who live in Denpasar are usually here because of work or family rather than lifestyle, and they are a small minority.
+
+## The traffic reality
+
+Denpasar is the source of much of the congestion the rest of the island experiences. Commuter hours are heavy and the bypass carries the whole south coast.
+
+If you buy here, drive your actual routes at the hours you would use them, because the difference between eleven in the morning and six in the evening is enormous.
+
 ## Common questions
 
 ### Can foreigners buy property in Denpasar?

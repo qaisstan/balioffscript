@@ -44,6 +44,18 @@ Jimbaran is a working town with a fishing bay and a mix of villas and warungs, c
 
 For a private villa targeting independent guests, Jimbaran is usually the better economics. For resort-adjacent stability, Nusa Dua.
 
+## The branded residence model
+
+Much of what a foreign buyer can actually purchase in Nusa Dua sits within hotel-branded or resort-managed schemes rather than as standalone villas.
+
+That brings professional management, a maintained environment and an existing guest pipeline. It also brings management agreements with fee structures worth reading properly, restrictions on personal use, and a resale market limited to buyers who want that specific scheme.
+
+Read the management agreement before the brochure. Fee basis, what is billed separately, the term, and what happens to forward bookings if you exit are the clauses that matter.
+
+## The airport and the conference market
+
+Nusa Dua hosts the convention centre and much of Bali's business tourism, which is a demand stream entirely separate from the west coast's leisure market and considerably less seasonal.
+
 ## Common questions
 
 ### Is Nusa Dua good for property investment?

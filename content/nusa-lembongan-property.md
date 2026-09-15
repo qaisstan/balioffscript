@@ -46,6 +46,20 @@ It does not suit passive investors, and it does not suit anyone who may need to 
 
 Water supply and its monthly cost in full occupancy. Power arrangements and backup. Title, through a mainland notary you appointed. Access rights. Boat logistics for construction. And realistically, who buys it from you.
 
+## Where people actually buy
+
+**Jungutbatu** on the northwest coast has the harbour, most of the accommodation and the best infrastructure.
+
+**Mushroom Bay** is smaller and more resort-oriented.
+
+**The southern cliffs** have the dramatic outlooks and the hardest access, water and construction problems.
+
+## The seaweed economy
+
+Lembongan ran on seaweed farming before tourism, and parts of it still do. That matters because it shaped land ownership patterns: many parcels are family-held, often through inheritance without formal registration.
+
+Title verification here needs a mainland notary and more time than a Bali equivalent, and unregistered land should be treated as a much longer process rather than a discount.
+
 ## Common questions
 
 ### Can foreigners buy property on Nusa Lembongan?

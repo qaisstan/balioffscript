@@ -46,6 +46,22 @@ Anyone whose interest in Indonesia is economic rather than lifestyle, and who wa
 
 Anyone who wants a villa, a pool and a life should not be looking at Jakarta at all, and mostly is not.
 
+## Where foreigners actually buy
+
+**SCBD and Sudirman** hold the corporate towers and the highest-value apartments, with tenants from banking, energy and multinationals.
+
+**Kuningan** covers the embassy district and much of the established expatriate rental market.
+
+**Menteng** is the old colonial residential quarter, largely landed housing and largely a local market.
+
+**Kelapa Gading and Pantai Indah Kapuk** in the north are newer, cheaper and more domestic.
+
+## What the tenant market is
+
+Corporate lets, frequently through company housing budgets, on annual or multi-year terms. That is a fundamentally different relationship from a nightly guest: longer, more predictable, and negotiated by someone professional.
+
+It also means demand tracks the Indonesian economy and foreign corporate presence rather than tourism, which is the entire argument for looking at Jakarta at all.
+
 ## Common questions
 
 ### Can foreigners buy an apartment in Jakarta?
