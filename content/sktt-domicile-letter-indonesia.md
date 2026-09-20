@@ -1,6 +1,6 @@
 ---
 question: What is SKTT and do you need a domicile letter?
-title: SKTT and Domicile Letters 2026: The Registration After Your KITAS
+title: SKTT and Domicile Letters in Indonesia 2026
 summary: Getting the KITAS is not the end of the process. Local registration is a separate step and people only discover it when something else is blocked.
 category: visas
 order: 27

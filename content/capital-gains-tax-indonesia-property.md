@@ -1,6 +1,6 @@
 ---
 question: What tax do you pay when selling property in Indonesia?
-title: Selling Property in Indonesia 2026: The Final Tax on Disposal
+title: Selling Property in Indonesia 2026: The Final Tax
 summary: Indonesia does not tax the gain. It taxes the sale value, which is a very different calculation and usually simpler than people expect.
 category: tax
 order: 08
