@@ -5,70 +5,88 @@ summary: Almost every loss here comes from the same short list, and almost every
 category: rental
 order: 18
 risk: critical
-regulation: Market figures. Verify current pricing and rules directly.
+regulation: Market observation. Verify current pricing and rules directly.
 applies: Anyone planning a purchase here
-verified: 2026-09-13
+verified: 2026-09-21
 ---
 
-These are ranked by what they actually cost, not how often they are mentioned.
+I have watched the same ten things cost people money for years. None of them are exotic and every one is detectable before any money moves.
 
-## 1. Paying before verifying
+## One: paying before verification is complete
 
-A deposit moves on urgency, with no written refund condition, before the certificate is checked. This is the single most common way money disappears, and it happens before the deal is ever the problem.
+The mechanism behind almost every loss. A deposit or a payment goes out before the land office check, the zoning check or the permit check is finished, usually because a deadline appeared.
 
-## 2. Using the seller's notary
+There is always another buyer, always a reason today is the last day. Urgency is the tool used to prevent verification, and a seller who will not allow one to three weeks has answered the question.
 
-The party selling the property should not also be the party confirming it is sound. Independent review costs a fraction of the price and is the only line item that exists purely to protect you.
+## Two: using the agent's notary
 
-## 3. Treating a nominee arrangement as normal
+The notary the agent introduces has a commercial relationship with the agent, who is paid on the sale. Nobody behaves improperly and nobody works solely for you. Questions do not get asked, and findings get characterised as minor.
 
-You are told everyone does it. Prevalence is not legality. The registered owner is the owner, the side agreements are unenforceable because their purpose is circumvention, and since Perda Bali 4/2026 arranging one is itself prohibited.
+Your own notary is the only independent check in the transaction. It costs a little more and it is not optional.
 
-## 4. Buying the projection instead of the asset
+## Three: reading the term and not the extension clause
 
-Gross yields quoted at 15 percent land nearer 4 to 6 after vacancy, commission, management, staff, maintenance, tax and refurbishment. Ask for twelve months of actual operating statements, not a model.
+Buyers compare thirty years against twenty-five and ignore the clause that decides whether either number means anything.
 
-## 5. Ignoring the remaining lease term
+*Jaminan perpanjangan* is a guaranteed extension. *Prioritas perpanjangan* is a right to ask, at a price set at the moment your alternative is abandoning a building you paid for. Both appear in English translation as "extension rights", and most leases contain the second.
 
-A right with eight years left is worth a fraction of the same property with thirty, because your buyer inherits the expiry. The decay accelerates near the end.
+## Four: buying an "eighty year lease" that is thirty
 
-## 6. Accepting "extendable at market rate"
+Long leases are structured as an initial term plus agreed extensions, commonly 30 plus 25 plus 25, because notaries decline a single term far beyond thirty years. If those extensions are prioritas rather than jaminan, you bought thirty years and paid for eighty.
 
-That is not an extension right. It is the landowner's option, priced when your alternative is walking away from a building you paid for.
+## Five: underwriting to the gross yield
 
-## 7. Assuming the rental licence transfers
+The projection says fourteen percent. That is before management at fifteen to twenty-five percent, maintenance at ten to fifteen, staff, utilities, licensing, platform commission, tax and realistic vacancy.
 
-It may sit in a company that is not part of the sale. If it does not transfer, the income is not yours to count, and the property should be valued on land plus depreciated building.
+Net commonly lands at seven to nine percent. That is a good return. It is simply not the number that was used to justify the price.
 
-## 8. Not checking zoning on the specific parcel
+## Six: paying a prime-area price for a short term
 
-Green zone is agricultural and cheap for that reason. A villa next door proves nothing; it may predate the plan or be unlicensed.
+At USD 250,000, Berawa offers fifteen to eighteen years. Pererenan offers twenty-five to thirty. Berawa's higher rate and occupancy do not recover a ten year gap in term, and the calculation is not close.
 
-## 9. Under-budgeting the costs around the price
+Under about USD 300,000, term beats postcode nearly every time. Buyers do this backwards, from the area's reputation rather than the arithmetic.
 
-Roughly 7 to 8 percent in transaction costs, then furnishing at USD 25,000 to 45,000, then staff at IDR 84M to 100M a year with BPJS and THR, then a sinking fund for the five-year refurbishment.
+## Seven: ignoring zoning and permits
 
-## 10. No plan for the exit
+Land sold as a villa investment in a green zone where commercial accommodation is not permitted. A finished villa with no PBG, or a PBG for a substantially smaller building. Both are common, both are checkable in a week, and both make the property unsaleable to any buyer doing their own diligence.
 
-Who buys this from you, and what are they buying? A short lease, a missing permit or an untransferable licence shrinks the buyer pool to almost nobody.
+## Eight: treating it as passive income
+
+A short-let villa is a hospitality business with one unit. With a good manager it needs two to four hours a month plus a proper quarterly review and an annual visit.
+
+Owners who skip the quarterly review do not notice when occupancy drifts from seventy-five to fifty-five percent over two years, because a monthly statement shows what happened rather than what should have.
+
+## Nine: not planning the exit at purchase
+
+Your buyer pool is fixed on the day you buy. A USD 250,000 villa on a long term has hundreds of plausible buyers. A USD 900,000 villa has a dozen. A villa with eleven years left has almost none.
+
+Above USD 750,000, twelve to twenty-four months to sell is normal, and on a leasehold the term runs down throughout. If the numbers only work on a fast sale at asking, they do not work.
+
+## Ten: the nominee arrangement
+
+Land in an Indonesian person's name with a stack of side agreements presented as giving you control. Indonesian courts treat arrangements designed to circumvent the foreign ownership restriction as void, and Perda Bali 4/2026 prohibits facilitating them.
+
+The loan, the mortgage, the power of attorney and the statement of trust do not save you. When it fails it fails completely, and there is no partial recovery.
 
 ## The pattern
 
-Nine of the ten are solved by the same discipline: verify first, pay second, and use people you appointed.
+Nine of these ten cost nothing to avoid. They cost a week or two of patience and a few thousand dollars of independent professional work.
+
+Every foreign buyer I know of who lost money in Bali saved that money first. That is not a coincidence, it is the mechanism.
 
 ## Common questions
 
-### What is the biggest mistake buying property in Bali?
-Paying a deposit before due diligence, with no written refund condition. It is the failure that precedes almost every loss story here.
+### What is the biggest mistake when buying property in Bali?
+Paying before verification is complete, usually under a fabricated deadline. It is the mechanism behind nearly every significant loss.
 
-### Are Bali property scams common?
-Outright fraud is less common than structural failure: unlawful nominee arrangements, missing permits, weak leases and untransferable licences.
+### Should I use the agent's notary in Bali?
+No. That notary has a commercial relationship with the agent, who is paid on the sale. Engaging your own is the only independent check in the transaction.
 
-### How do I avoid losing money in Bali?
-Appoint your own notary, verify the certificate at the land office, check zoning on the parcel, tie every payment to a completed check, and pay only the registered owner.
+### Why do 80-year Bali leases go wrong?
+Because they are built as an initial term plus extensions, and if those extensions are only a right of first refusal rather than guaranteed, you bought thirty years at an eighty year price.
 
-### Should I trust a rental projection?
-Treat it as marketing until you have seen twelve months of actual statements from a comparable property.
+### Is a nominee arrangement ever safe in Bali?
+No. It is void under Indonesian law and prohibited to facilitate under Perda Bali 4/2026, and the side agreements intended to protect you are unenforceable.
 
-### What makes a Bali property hard to sell later?
-A short remaining term, a weak extension clause, missing PBG or SLF, and a licence that does not transfer.
+### How much should I spend avoiding these mistakes?
+On a USD 250,000 purchase, USD 2,000 to USD 4,000 for independent due diligence. Under two percent of the transaction, and it is the only part that protects the rest.

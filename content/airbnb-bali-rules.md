@@ -5,73 +5,78 @@ summary: Listing a villa nightly is a licensed commercial activity. Plenty of li
 category: rental
 order: 11
 risk: critical
-regulation: KBLI 2025 accommodation classifications; Bali PMA classification closure eff. 22 July 2026; Perda Bali 4/2026.
+regulation: KBLI 2025 accommodation classifications; Bali PMA villa/homestay classification closure effective 22 July 2026; Perda Bali 4/2026.
 applies: Anyone listing a Bali property for short stays
-verified: 2026-09-06
+verified: 2026-09-21
 ---
 
-Short-term rental is not a grey area here. It is a licensed business activity, and the licence sits on top of a lawfully approved building.
+Short-term letting in Bali is not a grey area in law. It is a licensed commercial activity with clear requirements. What is grey is enforcement, and that has been changing.
 
-## What a compliant listing requires
+## What the law requires
 
-| Layer | Document |
-| --- | --- |
-| The building | PBG approval and SLF certificate |
-| The business | NIB with an accommodation classification |
-| The classification | Valid, current, and matching how the property actually operates |
-| Tax | Registration and reporting on the income |
+Renting a property nightly to paying guests is **commercial accommodation**. It requires:
 
-Missing any layer and the listing is exposed regardless of how many years it has run without trouble.
+**Zoning that permits it.** The regional spatial plan classifies each parcel, and commercial accommodation is not permitted in every zone. A green or agricultural zone does not allow it, regardless of what the neighbours are doing.
 
-## The 2026 classification closure
+**A business entity with the correct classification.** Under KBLI 2025 the accommodation activities have defined codes, and the entity operating the property must be registered for the right one via OSS with an NIB.
 
-On 22 July 2026 Bali closed a set of low-risk classifications to new foreign-owned company registration, including villa and homestay. That does not cancel an existing licensed company and it does not stop a foreigner holding land, but it changes how a new project must structure its operating side.
+**Building permits that match.** PBG for the building, and SLF certifying it is fit for occupancy. A villa let commercially without SLF is operating outside the rules whatever else is in order.
 
-The practical effect: you can no longer assume the plan is "form a PT PMA, register the villa code, list it." Solve the licence question before you buy, not after.
+**Operational licensing** appropriate to the accommodation type.
 
-## Enforcement
+**Tax registration and filing** — income tax on the rental income, and the regional accommodation tax.
 
-Regional authorities can issue warnings, suspend operations and close premises directly. The cost is not the penalty, it is a property carrying its full staff and maintenance base while earning nothing.
+## The July 2026 change
 
-Perda Bali 4/2026 also made facilitating nominee land arrangements an offence in itself, which reaches the advisers who arrange them. The direction of travel is clear and it is one way.
+**Bali closed new foreign-owned villa and homestay registration to PMA companies with effect from 22 July 2026.**
 
-## Buying a villa that already lists
+This is the single most consequential development for foreign investors in this market. A plan that assumed setting up a PT PMA to operate short-let villas has to be checked against current availability of the classification before it means anything, and a company holding a property it cannot lawfully operate is the worst outcome available: full compliance cost, no commercial benefit.
 
-Ask specifically:
+If you are being sold an off-plan unit with a rental programme attached, ask specifically what entity will operate it, under what classification, and whether that classification is currently open. Get the answer in writing.
 
-- Does a licence exist, and does it cover **this** building at **this** address?
-- Is the NIB active on OSS rather than suspended?
-- Have the codes migrated to KBLI 2025?
-- Does the licence transfer with the sale, or belong to an entity not in the deal?
-- Do PBG and SLF exist for the building as it stands, including extensions?
+## The regional accommodation tax
 
-"It has been running for years" answers none of these.
+There is a regional tax on accommodation — historically referred to as PB1 or PHR — charged on the accommodation charge, and it is administered at regency level.
 
-## The lawful owner-operator split
+The important operational point: **the platforms do not collect or remit this for you.** Airbnb and Booking.com handle their own commission and, in some cases, withholding on the income side. The regional accommodation tax is your obligation and it is frequently overlooked entirely by foreign owners, who then discover a liability that has been accumulating.
 
-Land ownership and business operation are separate questions. A PT PMA can hold land under HGB and lease the building to a licensed local operator at market rent, with the operator holding their own licence and bearing real commercial risk.
+## Enforcement, realistically
 
-That is a genuine structure. A local name on a licence while you run everything is not, and the difference is whether the operator is a real business or a signature.
+For years enforcement was light and the market behaved accordingly. That has shifted.
 
-## Pricing it honestly
+Bali has taken visible action on unlicensed accommodation and on structures built without permits, particularly where they are conspicuous. Perda Bali 4/2026 addressing nominee arrangements is part of a broader tightening. Tax administration has improved materially since the Coretax rollout, and platform income is more traceable than it was.
 
-If the licence is absent or non-transferable, value the property on land plus depreciated building and treat the rental income as zero until the path to a lawful licence is verified and costed.
+The practical risk is not usually a dramatic raid. It is that an unlicensed property is **unsaleable to any buyer doing proper due diligence**, that a tax liability accumulates quietly, and that a complaint from a neighbour or a competitor converts a dormant issue into an active one.
 
-Sellers resist this, because the income is what justifies the price. That resistance is the negotiation.
+## What this means for a buyer
+
+**Before you buy**, confirm the zoning for the exact parcel permits commercial accommodation, that PBG and SLF exist and match the building, and what licensing the property currently holds. Ask to see the documents, not a description of them.
+
+**If the property has been let for years without a licence**, that is not evidence it is fine. It is evidence it has not been caught, and the liability came with the land.
+
+**If your plan requires a PT PMA to operate**, confirm the classification is available before you commit to anything.
+
+**If you cannot get the licensing right**, consider long-term rental instead. Letting to a single tenant on a longer term sits differently and avoids the commercial accommodation requirements entirely. Lower gross, far lower workload, and it is lawful.
+
+## The honest position
+
+A great many villas in Bali are let nightly without complete licensing, and most of their owners have had no problem. I am not going to pretend otherwise.
+
+What I will say is that the direction of travel is one way, that the gap between compliant and non-compliant properties shows up sharply at resale, and that building an investment on a position that depends on not being noticed is a choice you should make consciously rather than by default.
 
 ## Common questions
 
 ### Is Airbnb legal in Bali?
-Short-term letting is legal when properly licensed. Listing without an accommodation licence, on a building without PBG and SLF, is not, and it is being enforced.
+Short-term letting is a licensed commercial activity. It is lawful where the zoning permits it, the operating entity holds the correct KBLI classification, the building has PBG and SLF, and tax is registered and filed.
 
-### Do I need a licence to rent my villa on Airbnb in Bali?
-Yes. Nightly accommodation is a licensed business activity requiring an NIB with a valid accommodation classification, on a building holding PBG and SLF.
+### Do I need a licence to rent my villa nightly in Bali?
+Yes. Commercial accommodation requires appropriate zoning, a registered entity with the right classification, building permits including SLF, and operational licensing.
 
-### What happens if my Bali villa is not licensed?
-Authorities can warn, suspend operations and close the premises. The property then carries its full cost base while producing nothing.
+### What changed in Bali in July 2026?
+Bali closed new foreign-owned villa and homestay registration to PMA companies with effect from 22 July 2026, which affects any plan relying on a PT PMA to operate short-let accommodation.
 
-### Can a new foreign company still get a villa licence in Bali?
-Not under the villa or homestay classifications, which closed to new PMA registration on 22 July 2026. Existing licensed companies are unaffected. New projects need a different operating structure.
+### Does Airbnb pay my taxes in Bali?
+No. The platforms handle their own commission and in some cases income-side withholding. The regional accommodation tax is your obligation and is commonly overlooked.
 
-### Does a villa licence transfer when I buy?
-Not automatically. It may sit in a company that is not part of the sale. Confirm what transfers before you price the income.
+### What happens if my villa is not licensed?
+The most likely consequence is not enforcement but that the property becomes unsaleable to any buyer doing due diligence, while a tax liability accumulates.
