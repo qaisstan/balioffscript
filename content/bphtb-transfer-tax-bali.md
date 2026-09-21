@@ -5,70 +5,82 @@ summary: The buyer's acquisition duty on a titled transfer, around 5 percent, ca
 category: tax
 order: 06
 risk: high
-regulation: Indonesian tax regulation. Rates and thresholds change. Confirm with a local tax adviser before acting.
+regulation: UU 1/2022 on regional taxes; BPHTB administered by the regency. Rates and thresholds change. Confirm with a local tax adviser.
 applies: Every buyer of a titled property
-verified: 2026-09-16
+verified: 2026-09-21
 ---
 
-BPHTB is the single largest transaction cost in a Bali purchase, and the base it is calculated on surprises people more than the rate does.
+BPHTB — *Bea Perolehan Hak atas Tanah dan Bangunan* — is the duty a buyer pays on acquiring a registered land or building right. It is the largest single transaction cost in a Bali purchase and it catches buyers who budgeted only the price.
 
-## The basics
+## The rate and who pays
 
-**Bea Perolehan Hak atas Tanah dan Bangunan** is the duty on acquiring rights to land and buildings. The buyer pays it.
+**Five percent**, paid by the **buyer**, on a transfer of a registered right. It is administered at regency level, so Badung, Gianyar, Tabanan and Denpasar each collect their own and the administrative detail varies slightly.
 
-The headline rate is **around 5 percent**, and it is collected at the point the deed is executed. Your PPAT will not proceed without evidence it has been paid.
+It falls due at the transfer. The PPAT will not execute the deed until it is paid, and the land office will not register the transfer without evidence of payment. There is no deferring it.
 
 ## What it is calculated on
 
-This is the part that catches people. BPHTB is charged on the **higher** of:
+This is the part that surprises people. BPHTB is not simply five percent of what you agreed to pay.
 
-- The actual transaction value, or
-- The NJOP, the government's assessed value of the property
+It is charged on the **higher** of the transaction value and the **NJOP** — *Nilai Jual Objek Pajak*, the government's assessed value for the parcel. The tax office takes whichever number is larger.
 
-So agreeing a price below the assessed value does not reduce the tax. The tax office uses its own number when its number is higher.
+In most of south Bali the transaction value exceeds the NJOP, so the price you paid is the base. But NJOP values are periodically reassessed, and in areas that have appreciated sharply the assessed value can catch up or exceed a transaction priced low. If you agreed a figure below NJOP, you pay on NJOP.
 
-There is also a **threshold** deducted before the rate applies, set regionally. It is modest relative to most foreign purchases but it exists.
+There is also a threshold deduction, the **NPOPTKP**, applied before the rate. It is set at regency level and is modest — meaningful on a small transaction, immaterial on a large one.
 
-## The under-declaring trap
+## The deduction that gets missed
 
-You will be offered a lower declared price, framed as saving tax. Two problems.
+The threshold deduction is applied automatically by the regency but the amount differs between them, and it differs again for an acquisition by inheritance or gift, where a higher deduction typically applies.
 
-**It creates a documented purchase price lower than what you paid.** When you sell, your gain is calculated from that lower figure, so you pay more tax then. You have moved the cost, not removed it.
+If you are acquiring through inheritance rather than purchase, check the position specifically, because the calculation is not the same and the difference is not trivial.
 
-**The exposure is yours.** Not the agent's, not the seller's, not the notary's.
+## Leasehold is different, and it matters
 
-And where the declared figure sits below NJOP, the tax office simply uses NJOP anyway, so the saving frequently does not even materialise.
+**BPHTB applies to the acquisition of a registered right.** A leasehold — Hak Sewa — is a contractual arrangement, not a registered right, so a straightforward lease does not attract BPHTB in the way a titled transfer does.
 
-## What BPHTB does not apply to
+That is a five percent difference on the transaction, and it is one of leasehold's quiet commercial advantages. On a USD 400,000 purchase it is USD 20,000 that stays in your pocket.
 
-A **leasehold** is not an acquisition of a registered right in the same way a titled transfer is, and the tax treatment differs. Lease payments attract their own treatment.
+What the lease does attract is income tax on the landowner's rental income from it, and in practice that cost is frequently priced into the lease premium you pay. So it is not free. It is simply structured differently and usually smaller.
 
-Confirm the position with your notary **before** the payment schedule is agreed, because discovering it afterwards changes your total cost.
+Do not treat this as a reason to choose leasehold. Treat it as one input into a decision that should turn on term, control and what the property is for.
 
-## Budget it properly
+## What the seller pays
 
-| Item | Typical |
-| --- | --- |
-| BPHTB | Around 5 percent |
-| Notary and PPAT fees | 1 to 2.5 percent |
-| Independent legal review | Varies |
-| **Total transaction costs** | **Around 7 to 8 percent** |
+The seller's side is **PPh final**, an income tax on the disposal, generally **2.5 percent** of the transaction value for property transfers. It is a final tax on the gross sale value rather than a tax on the gain, which makes it simpler to calculate and sometimes more expensive than a gain-based tax would be.
 
-A buyer who budgets only the purchase price is short by roughly that amount before furnishing anything.
+Between the two, a titled transfer carries around 7.5 percent of total tax friction. Knowing which side bears which is part of negotiating the price.
+
+## Under-declaring, and why not to
+
+You will be offered the chance to declare a value below what you are actually paying, reducing both BPHTB and the seller's PPh.
+
+Three reasons to decline.
+
+Your **acquisition cost becomes the declared figure**. When you sell, the calculation runs against that low number, and the tax you saved comes back.
+
+The tax office **can reassess**, and NJOP data gives them a reference point. A declared value well below the assessed value invites attention.
+
+You will have **misrepresented a transaction value** in a country whose tax administration has materially improved its data matching since the Coretax rollout. That is a bad position to be in for a small saving.
+
+## Practical sequence
+
+Agree the price. The notary calculates BPHTB on the higher of price and NJOP, less the threshold deduction. You pay it, typically through the bank, and obtain the receipt. The notary executes the deed. The transfer is lodged at the land office and the updated certificate issues.
+
+Budget it from the start. Five percent on a USD 400,000 purchase is USD 20,000, and buyers who did not allow for it end up short at exactly the wrong moment.
 
 ## Common questions
 
-### What is BPHTB in Indonesia?
-The buyer's duty on acquiring rights to land and buildings, around 5 percent, paid at the deed stage.
+### How much is BPHTB in Bali?
+Five percent of the acquisition value, paid by the buyer, calculated on whichever is higher of the transaction value and the NJOP assessed value, less a regency-set threshold deduction.
 
-### Who pays BPHTB, buyer or seller?
-The buyer. The seller bears a separate final tax on the disposal.
+### Do you pay BPHTB on a leasehold in Bali?
+Not in the way a titled transfer does, because BPHTB applies to the acquisition of a registered right and Hak Sewa is contractual. This is a meaningful cost difference between the two routes.
 
-### Is BPHTB calculated on the sale price?
-On the higher of the transaction value or the NJOP assessed value, so a low declared price does not necessarily reduce it.
+### What is NJOP?
+Nilai Jual Objek Pajak, the government's assessed value for a parcel. BPHTB is charged on the higher of NJOP and the actual transaction value.
 
-### Can I reduce BPHTB by declaring a lower price?
-It usually fails, because NJOP applies when it is higher, and it increases your tax on eventual sale by lowering your cost base.
+### Who pays the seller's tax in Indonesia?
+The seller pays PPh final, generally 2.5 percent of the transaction value. Combined with the buyer's BPHTB, a titled transfer carries roughly 7.5 percent of tax friction.
 
-### Does BPHTB apply to leasehold?
-Leasehold is treated differently from a titled transfer. Confirm the position with your notary before agreeing the payment schedule.
+### Can I declare a lower price to reduce BPHTB?
+You should not. Your acquisition cost becomes the declared figure, so the saving is repaid when you sell, and the tax office can reassess against NJOP data.

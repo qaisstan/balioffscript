@@ -5,60 +5,88 @@ summary: The taxpayer number that most property transactions, company obligation
 category: tax
 order: 10
 risk: medium
-regulation: Indonesian tax regulation. Rates and thresholds change. Confirm with a local tax adviser before acting.
+regulation: Indonesian tax administration; NPWP–NIK integration; Coretax registration. Confirm current process with a tax consultant.
 applies: Anyone buying property or running a company here
-verified: 2026-09-16
+verified: 2026-09-21
 ---
 
-NPWP is the Indonesian taxpayer identification number. You will be asked for it more often than you expect.
+The NPWP — *Nomor Pokok Wajib Pajak* — is Indonesia's taxpayer identification number. Most things that involve the tax office require one, and getting it early is considerably easier than getting it under deadline pressure.
 
-## Why you need one
+## When you need one
 
-- Property transactions frequently require it, and the tax filings around them do
-- A PT PMA needs a company NPWP
-- Without one, withholding can apply at a **higher rate** on certain income
-- Banking and various administrative processes ask for it
-- You cannot file properly without it
+**A titled property transfer.** BPHTB and the seller's disposal tax run through the tax system, and the transaction stalls without a valid registration.
 
-That higher-rate point is the practical sting. Not having an NPWP can cost you money on income you were going to declare anyway.
+**Declaring rental income** in Indonesia.
 
-## Who can get one
+**Running a PT PMA.** The company has its own NPWP, and directors and commissioners generally need personal registration.
 
-**Individuals** with an Indonesian tax obligation. For a foreigner that usually means holding a KITAS or KITAP, or having Indonesian-source income to declare.
+**Employment** in Indonesia.
 
-**Companies**, as part of formation. Your PT PMA gets one during setup and it is not optional.
+**Opening some bank accounts**, depending on the bank and the product.
 
-## What it generally involves
+A straightforward leasehold purchase where you declare no Indonesian income has fewer touchpoints, but if you intend to rent the property out you will need one.
 
-Registration through the tax office or the online system, with your passport, stay permit, proof of address and, for a company, the incorporation documents.
+## What you need to apply
 
-For most people the process is administrative rather than difficult. Agents handle it routinely and inexpensively if you would rather not queue.
+**A passport**, valid, with your name exactly as it appears on every other document you will use.
 
-## The obligation that comes with it
+**A stay permit** — KITAS or KITAP — for an individual registration as a resident taxpayer. Registration routes exist for non-residents with Indonesian-source income, and they work differently.
 
-Holding an NPWP means **filing**, including nil returns where there is nothing to report. Missing filings accrue penalties independently of whether tax was actually due.
+**Proof of address in Indonesia**, commonly a domicile letter or the SKTT that accompanies a stay permit, or a tenancy agreement.
 
-People sometimes avoid registering in the belief that no number means no obligation. The obligation follows the income and the residence, not the card. Not registering simply means you are non-compliant without a number.
+**For a company**: the deed of establishment, the ministerial approval, the NIB, and identity documents for the directors.
 
-## NPWP and tax residence
+## The process
 
-They are related but separate. **Residence** follows physical presence, principally the 183-day test in a twelve-month period. **NPWP** is the registration.
+Registration is handled through the tax office covering your domicile, or online through the Coretax portal. In practice most foreigners use a tax consultant, and it is money well spent — not because the form is difficult, but because a rejected application over a data mismatch costs weeks.
 
-You can be tax resident and unregistered, which is the worst combination. Sort the registration once residence is established.
+Allow two to four weeks from a complete application. Longer if any document has to be corrected.
+
+## The part that goes wrong
+
+Since the NPWP–NIK integration and the Coretax rollout, the system **matches data strictly and rejects rather than queries**.
+
+The failures are almost always the same. A name spelled differently on the passport and the application — a missing middle name, a different order, an accent dropped. An address inconsistent between the stay permit and the tax registration. A passport renewed since an earlier registration, leaving two records that do not reconcile.
+
+To a person these look like obvious clerical variations. To the system they are different taxpayers.
+
+So: use the passport spelling exactly, everywhere, including middle names and their order. Keep the address consistent across every document. If your passport has been renewed, say so at registration rather than letting a duplicate record form.
+
+## NPWP, NIK and NITKU
+
+Three identifiers, frequently confused.
+
+**NPWP** is the taxpayer number. For Indonesian citizens it is now the same as their **NIK**, the national identity number. Foreigners have no NIK, so a sixteen-digit NPWP is issued instead and performs the same function.
+
+**NITKU** is a business unit identifier, issued to each registered place of business of a company. If your PT PMA operates from more than one location, each needs its own, and invoices and filings must reference the correct one. Companies registered before the change frequently have a gap here.
+
+## Holding one does not make you tax resident
+
+This is the most important thing on the page and the most commonly misunderstood.
+
+Indonesian tax residency follows **presence and intent**, principally the 183 day test, not the possession of a tax number. Plenty of people hold an NPWP for a transaction without becoming Indonesian tax resident. Plenty of others become tax resident by spending enough time here without ever thinking about it, and then have a genuine problem with their home country.
+
+If you are spending substantial time in Indonesia, work out your residency position deliberately. It affects the rate on your rental income, your obligations in your home country, and whether a treaty applies. It is a far more consequential question than the registration itself.
+
+## After you have it
+
+Filing obligations follow registration. An individual resident taxpayer files an annual return. A company files monthly and annually. Registering and then not filing creates penalties that accumulate quietly.
+
+If you registered for a single transaction and have no ongoing Indonesian income, discuss with a consultant whether the registration should remain active or be formally made non-active, rather than leaving it dormant and accruing filing obligations.
 
 ## Common questions
 
-### What is an NPWP?
-Nomor Pokok Wajib Pajak, the Indonesian taxpayer identification number used for filings and most property and company processes.
+### Do foreigners need an NPWP in Indonesia?
+For a titled property transfer, declaring rental income, running a PT PMA or working here, yes. A leasehold purchase with no Indonesian income has fewer touchpoints.
 
-### Do I need an NPWP to buy property in Bali?
-It is commonly required for the transaction and the tax filings around it. Your notary will confirm what your structure needs.
+### How long does it take to get an NPWP?
+Two to four weeks from a complete application, longer if any document needs correcting. Data mismatches are the main cause of delay.
 
-### Can a foreigner get an NPWP?
-Yes, generally with a valid stay permit or Indonesian-source income to declare.
+### Do I need a KITAS to get an NPWP?
+For registration as a resident taxpayer, yes. Separate routes exist for non-residents with Indonesian-source income and they work differently.
 
-### What happens if I do not have an NPWP?
-Withholding can apply at a higher rate on certain income, and various processes become harder. The underlying obligation does not disappear.
+### Does having an NPWP make me an Indonesian tax resident?
+No. Residency follows presence and intent, principally the 183 day test. Holding a tax number for a transaction does not by itself make you resident.
 
-### Does having an NPWP mean I must file?
-Yes, including nil returns. Missing filings accrue penalties regardless of whether tax was owed.
+### What happens if I register and never file?
+Filing obligations follow registration and penalties accumulate. If you registered for one transaction and have no ongoing Indonesian income, discuss formally deactivating rather than leaving it dormant.

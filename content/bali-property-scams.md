@@ -5,69 +5,86 @@ summary: The losses here follow a small number of repeating patterns, and almost
 category: ownership
 order: 14
 risk: critical
-regulation: Perda Bali 4/2026 prohibits facilitating nominee arrangements.
+regulation: Perda Bali 4/2026 prohibits facilitating nominee arrangements; Basic Agrarian Law on foreign ownership.
 applies: Every foreign buyer
-verified: 2026-09-06
+verified: 2026-09-21
 ---
 
-The stories are rarely exotic. They are the same handful of situations, repeated, and every one of them is preventable with checks that take a fortnight.
+Very little of what costs foreigners money in Bali is sophisticated. The same handful of patterns repeat, they are all detectable in advance, and the checks that catch them cost a fraction of what they prevent.
 
 ## The patterns
 
-**The deposit before diligence.** Urgency is manufactured, a deposit is paid to hold the plot, and the checks start afterwards. When something surfaces, there is no written refund condition and the money is gone.
+**The nominee.** Land bought in an Indonesian person's name, with a stack of side agreements — a loan, a mortgage, a power of attorney, a statement of trust — presented as giving you control. Indonesian courts have consistently held that arrangements designed to circumvent the foreign ownership restriction are void, so the side agreements do not save you. **Perda Bali 4/2026 now prohibits facilitating these arrangements**, which adds regulatory exposure to an already unenforceable position. When it fails, it fails completely.
 
-**The seller who does not own it.** The person signing is not the registered holder, or is one of several heirs, or is a spouse acting without the other's consent. Verified at the land office in days; disastrous if skipped.
+**The seller who does not own it.** The person selling is a family member, a former owner, a broker who "represents the family", or someone with a power of attorney that has expired or was never valid. The certificate is real. Their authority to sell it is not.
 
-**The nominee sold as normal.** You are told everyone does it, thousands of villas are held this way, it has never been a problem. Prevalence is not legality, and since Perda Bali 4/2026 facilitating the arrangement is itself an offence.
+**The certificate that does not match the land.** The document describes a parcel of a certain size and shape. The land you walked is a different size, or extends over a neighbour's boundary, or includes a strip that is actually a public road. Common on land that has been informally divided within a family over generations.
 
-**Green land sold as buildable.** Agricultural zoning, cheap for exactly that reason, sold with reassurance that permits are a formality or that the neighbour built anyway.
+**The building with no permit.** A finished, beautiful villa with no PBG, or a PBG for a substantially smaller building. You buy it, and regularising it — or demolishing the excess — is your cost. In some cases it cannot be regularised at all because the zoning does not permit what was built.
 
-**The double sale.** The same plot sold to more than one buyer, with registration deciding who actually holds it.
+**Zoning that does not allow your plan.** Land sold as a villa investment sitting in a green or agricultural zone where commercial accommodation is not permitted. The neighbours doing it anyway is not a defence and not a licence.
 
-**Off-plan with no substance.** Renders, a brochure, a special purpose company with no assets, and a payment schedule front-loaded so your leverage disappears before the foundations do.
+**The short lease sold as long.** Advertised as "eighty years", structured as thirty plus two extension options that are merely a right of first refusal at a price set later. You bought thirty years.
 
-**The licence that is not yours.** A villa marketed on its rental income, where the operating licence sits in a company that is not part of the sale.
+**The double sale.** The same parcel sold to two buyers, or land already leased to someone else. Detectable at the land office, invisible from a photocopy.
 
-**The agent's account.** Funds requested to a third-party account for convenience, tax reasons, or speed. The seller never receives them.
+**The off-plan that stops.** Staged payments into a build that halts. No lender's interest protects you, the company holding your money may have no assets, and enforcement against a local entity from abroad is slow and frequently pointless.
+
+**The deposit that vanishes.** Paid to an agent's personal account "to secure the property", against no written conditions, refundable at nobody's discretion but theirs.
 
 ## What every one of them has in common
 
-The buyer paid before verifying, used people the seller introduced, and had nothing in writing about getting the money back.
+Money moved before the checks were complete, and the checks that were done were done by someone the seller or the agent introduced.
+
+That is it. That is the mechanism in nearly every case. Everything else is detail.
+
+The second common thread is urgency. There is always another buyer, always a deadline, always a reason today is the last day. Urgency is not a feature of good deals. It is the tool used to prevent verification.
 
 ## The checks that prevent almost all of it
 
-- Appoint **your own** notary and legal reviewer, not the seller's
-- Verify the certificate at the land office: holder, type, term, charges
-- Confirm the seller is the registered owner, with spouse consent where relevant
-- Check zoning on the specific parcel, for the use you intend
-- Walk the boundaries with the certificate in hand
-- Confirm access rights are registered, not merely customary
-- Transfer only to the registered owner, traceably, in your own name
-- Condition every payment on a verification milestone that has actually been met
+**Verify the certificate at the land office**, directly, through a notary you engaged. Not a copy, not a photograph, not a reassurance.
+
+**Confirm the seller on the certificate is the person signing**, and that a married seller's spouse consents.
+
+**Walk the boundary** with the certificate and a surveyor. Compare what is drawn with what is fenced.
+
+**Check zoning for the exact parcel** against the regional spatial plan, and confirm your intended use is permitted.
+
+**Locate the PBG and SLF** and check them against the building that physically exists.
+
+**Read the extension clause** and establish whether it is a guaranteed extension or a right of first refusal.
+
+**Search for encumbrances**, existing leases, mortgages and access rights.
+
+**Ask the banjar** whether there is any dispute or customary constraint. This one is free and catches things no document search will.
+
+**Never pay to an individual's account.** Bank transfer, in your name, to the registered owner or a notary's client account, against written conditions.
 
 ## On urgency
 
-Manufactured urgency is the most reliable warning sign in this market. Another buyer is looking. The price rises Monday. The owner needs to close this week.
+If a seller or agent will not allow one to three weeks for verification, that is the answer to whether you should buy. Not a negotiating position to work around. The answer.
 
-Land that has been listed for eight months does not become urgent because you walked onto it. If a seller will not allow time for standard verification, the verification is the reason.
+Genuine sellers of genuine property understand due diligence and expect it. The only people who need you to move today are the ones who need you to move before you look.
 
 ## The cheapest line item
 
-Independent legal review costs a small fraction of the purchase price and is the only expense in the transaction that exists purely to protect you. It is also the one buyers most often cut.
+On a USD 250,000 purchase, full due diligence with an independent notary runs USD 2,000 to USD 4,000. It is under two percent of the transaction and it is the only part of the process that can save the other ninety-eight.
+
+Every foreign buyer I know of who lost money in Bali saved that amount first. That is not a coincidence, it is the mechanism.
 
 ## Common questions
 
-### Is buying property in Bali safe for foreigners?
-It is safe when done through a lawful structure with independent verification. It is unsafe when done on trust, at speed, using the seller's professionals.
+### Are nominee arrangements illegal in Bali?
+Agreements designed to circumvent the foreign ownership restriction are void under Indonesian law, and Perda Bali 4/2026 prohibits facilitating them. The side agreements meant to protect you are unenforceable.
 
-### What is the most common way people lose money in Bali property?
-Deposits paid before due diligence, into accounts they cannot identify, with no written refund condition.
+### How do I check if a Bali land certificate is genuine?
+Through a notary you engaged, who inspects the land office record directly and compares it to the original certificate. A photocopy proves nothing.
 
-### Are nominee arrangements a scam?
-They are an unlawful structure, sold routinely. The paperwork does not transfer title, and since Perda Bali 4/2026 arranging one is itself prohibited.
+### What is the most common way foreigners lose money in Bali?
+Moving money before verification is complete, usually because a fabricated deadline made them hurry, and relying on checks run by the seller's or agent's notary.
 
-### How do I check if a Bali land certificate is real?
-Have a notary you appointed verify the original against the land office record, confirming the holder, the title type, the remaining term and any registered charges.
+### Is it safe to pay a deposit in Bali?
+Only if it is small, paid to your own notary rather than an agent or individual, and refundable in writing against defined conditions.
 
-### Should I use the agent's notary in Bali?
-No. The party selling you the property should not also be the party confirming it is sound.
+### What if the villa has no building permit?
+Regularising it becomes your cost, and where the zoning does not permit what was built it may not be regularisable at all. Locate the PBG and SLF before you buy, not after.
