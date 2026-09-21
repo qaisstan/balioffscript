@@ -5,71 +5,90 @@ summary: Building, contents and public liability are the baseline. The exclusion
 category: rental
 order: 13
 risk: high
-regulation: Market practice. Terms vary substantially by insurer and policy.
+regulation: Insurance availability, pricing and exclusions vary by insurer and location. Read the policy exclusions rather than the summary.
 applies: Anyone owning or operating a villa here
-verified: 2026-09-06
+verified: 2026-09-21
 ---
 
-Insurance here is cheap relative to the asset and routinely either skipped or bought without reading.
+Insurance in Bali is more expensive, harder to place and more limited than buyers expect, and the exclusions matter more than the premium.
 
-## The cover you need
+## What you actually need
 
-| Cover | Why |
-| --- | --- |
-| Building | Fire, storm, flood, structural damage |
-| Contents | Furniture, appliances, electronics |
-| Public liability | A guest injured on your property |
-| Loss of rental income | Void period while damage is repaired |
-| Employer liability | Staff injured at work |
+**Building and contents.** Fire, storm, water damage, theft. The core policy.
 
-Public liability is the one owners underrate. A guest drowning, falling on wet stone or being injured by a failing structure is a catastrophic exposure, and pools plus alcohol plus unfamiliar surroundings is a real combination.
+**Public liability.** If you take paying guests, someone can be injured on your property — most obviously in or around the pool. This is the cover that matters most and the one most commonly absent.
 
-## What voids or limits a policy
+**Loss of rental income**, following an insured event that makes the property unlettable. Frequently an optional extension and worth having on an income property.
 
-**Unpermitted construction.** An insurer can decline cover on a building without PBG and SLF, or on an extension that was never approved. This is the most common gap here, and owners discover it at claim time.
+**Employer liability**, if you employ staff directly, alongside the BPJS obligations which are separate and mandatory.
 
-**Undeclared commercial use.** A policy written for a private residence may not cover a property operating as nightly accommodation. Declare the actual use.
+## Read the exclusions, not the summary
 
-**Unoccupied periods.** Many policies limit cover when a property sits empty beyond a stated number of days. Seasonal villas hit this.
+This is the whole subject. Indonesian policies frequently exclude or limit things that a buyer from Australia or Europe would assume were covered.
 
-**Maintenance and wear.** Gradual deterioration, damp and mould are usually excluded. In this climate that carves out a lot.
+**Earthquake and volcanic activity.** Bali is seismically active and Mount Agung erupted through 2017 to 2019. Cover may be excluded entirely, offered as a priced extension, or subject to a large deductible. In the east of the island this is not theoretical.
 
-**Flood and seismic.** Sometimes excluded, sometimes an extension, sometimes limited. Bali is seismically active and low-lying areas flood in wet season. Check specifically.
+**Flood.** Commonly excluded or limited, and several Bali areas flood reliably in the wet season. Check the specific street's history.
 
-## The permit link
+**Tsunami.** Frequently excluded on coastal property.
 
-The connection between permits and insurance is the point worth internalising. PBG and SLF are not only a licensing matter. They are frequently the condition on which a claim is paid.
+**Terrorism.** Historically excluded or separately priced in Indonesia.
 
-A villa without them is uninsured in practice even when a policy exists, which turns a permit problem into a total-loss problem.
+**Landslide**, which matters on sloped land in Ubud, the Bukit and the east.
 
-## Local versus international insurers
+**Wear, deterioration, mould and gradual water damage** — all normal in this climate and almost always excluded, which means your maintenance budget rather than your policy carries them.
 
-Local insurers are cheaper and understand local risk. Claims handling varies. International insurers with Indonesian operations cost more and are generally more predictable on large claims.
+**Unoccupancy clauses.** Many policies restrict cover when a property is empty beyond a stated period. A villa vacant through low season can fall outside cover exactly when it is most vulnerable.
 
-Whichever you choose, get the policy in English or with a certified translation, and read the exclusions rather than the brochure.
+## What it costs
 
-## Practical steps
+More than the equivalent at home as a proportion of value, and it varies substantially between insurers and with location — coastal, seismic zone, flood history, construction type.
 
-- Declare the property's real use, including nightly rental
-- Confirm PBG and SLF exist and are on file with the insurer
-- Check the unoccupancy clause against your actual season
-- Confirm flood and earthquake treatment explicitly
-- Keep a photographic inventory of contents, updated after refurbishment
-- Review the sum insured after any renovation
+Get at least three quotes. The spread between insurers on identical risk is wide in this market.
+
+## Getting it placed
+
+**Use a broker who places Bali villa risk regularly.** A general agent may not understand what a foreign-owned short-let villa actually is, and a policy written for the wrong use case fails at claim time.
+
+**Declare the commercial use.** A property let to paying guests, insured as a private residence, is a claim waiting to be refused. This is the most common way owners discover they had no cover.
+
+**Declare the construction accurately** — alang-alang thatch, timber, open-sided structures all affect fire rating and premium, and a misdescription voids cover.
+
+**Value it properly.** Underinsuring triggers averaging, where a partial claim is reduced in proportion to the underinsurance. Insure at rebuild cost, not at purchase price or market value.
+
+## The leasehold question
+
+On leased land, the **building may belong to the landowner at expiry**, but during the term the lease should state that improvements are the lessee's property.
+
+Get that written into the lease, and make sure the policy names the right insured party. A claim on a building where the insured interest is unclear is a claim that goes slowly.
+
+Also agree who insures what, and who receives the proceeds if the building is damaged. Leases are frequently silent and it matters.
+
+## Claims, realistically
+
+Slow. Document-heavy. Conducted in Indonesian.
+
+Which means: photograph everything at handover and periodically. Keep receipts for the fit-out and any works. Report promptly, because late notification is itself an exclusion. Use a broker who will actually advocate for you rather than just having sold you the policy.
+
+## What I would do
+
+Building and contents at accurate rebuild cost. Public liability, without question, on any property taking guests. Loss of rental income on an income property. Seismic extension priced and considered seriously, particularly in the east. Flood checked against the specific street.
+
+Then read the exclusions in full, once, properly. It takes an hour and it is the only way to know what you actually bought.
 
 ## Common questions
 
-### Do I need insurance for a villa in Bali?
-Yes. Building, contents and public liability are the baseline, and public liability matters most because guest injury around a pool is a genuine and severe exposure.
+### Do I need insurance for a Bali villa?
+Building and contents, and public liability if you take paying guests, which is the cover most commonly missing and the one with the largest downside.
 
-### Does villa insurance cover unpermitted buildings?
-Frequently not. Insurers can decline where PBG and SLF are absent, which makes a permit gap an insurance gap.
+### Is earthquake damage covered in Bali?
+Often excluded, offered as a priced extension, or subject to a large deductible. Bali is seismically active and this is not a theoretical exclusion.
 
-### Is flood and earthquake covered in Bali?
-It varies. Both are real risks here and both are often excluded or limited. Confirm the treatment in writing rather than assuming.
+### Why was my Bali insurance claim refused?
+Most commonly because the property was insured as a private residence while being let to paying guests, or because the construction was misdescribed.
 
-### Does a normal home policy cover Airbnb use?
-Usually not. Commercial short-term letting must be declared. An undeclared change of use is a common reason for a claim being refused.
+### How much does villa insurance cost in Bali?
+More than the equivalent at home as a proportion of value, with a wide spread between insurers on identical risk. Get at least three quotes.
 
-### How much does Bali villa insurance cost?
-Modest relative to the asset value, and cheap relative to a single liability claim. The variable that matters is not the premium but whether the exclusions leave you actually covered.
+### Who insures a villa on leased land?
+The lease should state that improvements are the lessee's property during the term and allocate who insures and who receives proceeds. Many leases are silent on both.
