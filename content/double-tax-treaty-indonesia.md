@@ -5,62 +5,90 @@ summary: Indonesia has treaties with most countries foreign buyers come from. Th
 category: tax
 order: 05
 risk: high
-regulation: Bilateral tax treaties. Application depends on residence, income type and the specific treaty.
+regulation: Bilateral tax treaties. Application depends on residence, income type and the specific treaty. Take advice in both countries.
 applies: Anyone with income or property in two countries
-verified: 2026-09-06
+verified: 2026-09-21
 ---
 
-Once you have property here and a life somewhere else, two tax systems can reach the same income. Treaties are the mechanism for sorting that out.
+Indonesia has tax treaties with most countries foreign buyers come from. They allocate taxing rights between two countries. They do not make income invisible, and they are not automatic.
 
-## What a treaty does
+## What a treaty actually does
 
-A double taxation agreement allocates taxing rights between two countries and provides relief where both would otherwise tax the same income. Indonesia has agreements with most of the countries its foreign property buyers come from.
+A double tax agreement does three things.
 
-The mechanism is usually either an exemption in one country or a credit in the other for tax already paid.
+**It allocates taxing rights.** For each type of income it says which country may tax, and sometimes caps the rate the source country may charge.
 
-## The rule that catches property owners
+**It provides relief from double taxation**, usually by requiring the residence country to give a credit for tax paid in the source country, or in some cases to exempt the income.
 
-**Income from immovable property is generally taxable where the property is.**
+**It resolves dual residence** through tie-breaker rules, where someone is resident in both countries under domestic law.
 
-That means rental income from a Bali villa is Indonesian-source income and Indonesia has primary taxing rights over it, regardless of where you live or where the guest paid.
+What it does not do is reduce your total tax to the lower of the two rates as a matter of course. Credit relief means you pay the higher of the two, split between them.
 
-Your home country may also tax it as a resident, and the treaty then relieves the double charge, typically through a credit. What the treaty does not do is remove the Indonesian obligation.
+## Property income specifically
 
-That is the point owners most often get wrong: they assume that because they pay tax at home, they have no exposure here.
+Nearly every treaty follows the same principle for **immovable property**: income from it may be taxed in the country where the property is located.
 
-## Residence
+For a Bali villa, that means **Indonesia taxes first**. Ten percent final for an Indonesian tax resident individual, twenty percent for a non-resident, on gross rental income.
 
-Treaties allocate residence where both countries would claim you, through tie-breaker tests: permanent home, centre of vital interests, habitual abode, nationality.
+Your country of residence then applies its own rules to the same income and gives credit for the Indonesian tax. Because Indonesia's rate is low by Australian, British and most European standards, the credit rarely covers the home liability, and the balance falls at home.
 
-Indonesia treats presence beyond 183 days in a twelve-month period as establishing tax residence. If you are here most of the year while also considered resident at home, the tie-breakers decide, and the answer changes your position on everything, not just the rental income.
+The same principle applies to **gains on disposal** of immovable property: the country where the property sits may tax them. Indonesia applies a final 2.5 percent on transfer value. Your home country applies its own capital gains rules with credit for that.
 
-## Claiming treaty benefits
+## Which country you are resident in decides everything
 
-Relief is not automatic. It generally requires a certificate of residence from your home tax authority, provided in the form and within the timeframe Indonesian rules require.
+This is the question underneath the treaty, and it is decided by domestic law first.
 
-Without it, a payer may be required to withhold at the full domestic rate. Get the documentation in place before the income arises rather than trying to reclaim afterwards.
+**Indonesia:** broadly, 183 days within a twelve month period, or presence with intent to reside.
 
-## What to do
+**Australia, UK, most of Europe:** various tests combining days, permanent home, family, and economic interests.
 
-- Establish where you are actually resident, on the facts and the tie-breakers
-- Register for an NPWP if you hold property or a company here
-- Keep contemporaneous records of Indonesian income and costs
-- Obtain a residence certificate where you intend to claim treaty relief
-- Take advice in both countries, because one adviser rarely covers both properly
+If you are resident in both, the treaty **tie-breaker** applies in order: permanent home available to you, then centre of vital interests, then habitual abode, then nationality, then mutual agreement between the authorities.
+
+Those are substantive tests. Keeping a house, a family and a business at home while spending time in Bali does not move your centre of vital interests, and people who assume it does end up taxed in both places rather than neither.
+
+## Relief is not automatic
+
+Treaty benefits generally have to be **claimed**, with documentation.
+
+In Indonesia, claiming a treaty rate typically requires a **certificate of residence** from your home tax authority in the form Indonesia accepts, provided before or at the time the income is paid. Without it, the domestic non-resident rate applies and recovering the difference afterwards is difficult.
+
+At home, claiming a foreign tax credit requires evidence of the Indonesian tax actually paid.
+
+Keep both. Owners who did not obtain a residence certificate at the right time routinely pay the higher rate and cannot recover it.
+
+## Where it gets technical
+
+**Pensions** are treated differently between treaties, and government pensions differently from private ones. Do not assume.
+
+**Company structures.** Income through a PT PMA is corporate income, and dividends out of it engage different treaty articles with their own rates.
+
+**Permanent establishment.** Running a business in Indonesia can create a taxable presence beyond simple property income, which changes the analysis substantially.
+
+**Exit taxation.** Several European jurisdictions tax unrealised gains on emigration, which is outside the treaty's normal operation.
+
+## The practical advice
+
+**Establish where you are actually resident**, deliberately, before buying or before a disposal.
+
+**Obtain the residence certificate** if you are claiming a treaty rate in Indonesia, in the required form and at the required time.
+
+**Take advice in both countries**, not one. The interaction is where the money is, and an adviser who only sees one side will miss it.
+
+**Do not assume a treaty eliminates tax.** It allocates it and prevents it being charged twice on the same income. You still pay, broadly at the higher of the two rates.
 
 ## Common questions
 
-### Does Indonesia have a double tax treaty with my country?
-Indonesia has agreements with most major countries, including Australia, the UK, the Netherlands, Germany, Singapore and the United States. Terms differ, so check the specific treaty.
+### Does Indonesia have double tax treaties?
+Yes, with most countries foreign buyers come from. They allocate taxing rights and provide credit relief rather than exempting income.
 
-### Do I pay tax twice on Bali rental income?
-Generally not. Indonesia has primary taxing rights over income from property here, and your home country typically gives a credit. You do still have an Indonesian obligation.
+### Which country taxes my Bali rental income?
+Indonesia first, because treaties give the first taxing right on immovable property income to the country where the property is located. Your country of residence then taxes with credit for Indonesian tax paid.
 
-### Does a tax treaty mean I do not pay tax in Indonesia?
-No. Treaties allocate rights and relieve double taxation. They do not remove the obligation where the income arises.
+### Does a tax treaty mean I only pay once?
+It prevents the same income being taxed twice in full, but credit relief means you effectively pay at the higher of the two rates, split between the countries.
 
-### How do I claim treaty benefits in Indonesia?
-Usually with a certificate of residence from your home tax authority, in the required form and timeframe. Without it, full domestic withholding may apply.
+### Do I need a certificate of residence for Indonesia?
+To claim a treaty rate, generally yes, in the form Indonesia accepts and provided at the right time. Without it the domestic non-resident rate applies and recovery is difficult.
 
-### Does the 183-day rule affect my treaty position?
-Yes. Presence beyond 183 days generally makes you an Indonesian tax resident, and where both countries claim you the treaty tie-breakers decide.
+### What if I am tax resident in two countries?
+The treaty tie-breaker applies in order: permanent home, centre of vital interests, habitual abode, nationality, then mutual agreement. These are substantive tests, not elections.

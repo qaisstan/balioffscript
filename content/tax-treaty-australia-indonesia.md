@@ -5,61 +5,80 @@ summary: Indonesia taxes the property income first. Australia assesses your worl
 category: tax
 order: 11
 risk: high
-regulation: Indonesian tax regulation. Rates and thresholds change. Confirm with a local tax adviser before acting.
+regulation: Australia–Indonesia double tax agreement; ATO foreign income tax offset rules. Take advice in both countries.
 applies: Australian tax residents with Bali property
-verified: 2026-09-16
+verified: 2026-09-21
 ---
 
-Australians are the largest foreign buyer group in Bali, and this is the question most of them get wrong in the same direction.
+Australians are the largest group of foreign buyers in Bali, and the tax interaction is the part most consistently left until after the purchase.
 
-## How the treaty allocates
+## The basic position
 
-Income from **immovable property** is generally taxable in the country where the property is. That gives **Indonesia primary taxing rights** over rental income from a Bali villa.
+**Australia taxes residents on worldwide income.** If you are an Australian tax resident, your Bali rental income is assessable in Australia, regardless of where it was earned, where it was paid or which account received it.
 
-Australia, meanwhile, taxes its residents on **worldwide income**. So the same income falls within both systems.
+**Indonesia taxes it first.** The Australia–Indonesia treaty follows the standard principle: income from immovable property may be taxed in the country where the property is located. Indonesia applies a final tax of ten percent for an Indonesian tax resident individual or twenty percent for a non-resident, on gross rental income.
 
-The treaty resolves that, usually by Australia giving a **foreign income tax offset** for Indonesian tax paid.
+**Australia then gives credit** through the **foreign income tax offset**, for Indonesian tax paid on that income.
 
-## What people get wrong
+## Why relief does not eliminate the tax
 
-**"I paid tax in Indonesia so I do not report it in Australia."** Wrong. You report it and claim the offset.
+The foreign income tax offset is **capped at the Australian tax attributable to that foreign income**.
 
-**"It is offshore so Australia cannot see it."** Australia has extensive information exchange arrangements. This is not a strategy.
+So if the Australian liability on your Bali rental profit exceeds the Indonesian tax paid, you pay the difference in Australia. Given Australian marginal rates and Indonesia's low final tax, that is the usual outcome.
 
-**"I will just not be an Australian tax resident."** Ceasing Australian tax residence is a substantive test about where you actually live and what ties you keep. It is not achieved by intention, and it has its own consequences including deemed disposal rules.
+There is a further complication that catches people. Indonesia's ten or twenty percent is a **final tax on gross rental income**. Australia taxes **net rental profit** after deductible expenses. You are comparing tax on two different bases, and the offset is calculated against the Australian figure.
 
-## What you actually need to do
+In a year of heavy expenses, the Australian assessable profit can be small while the Indonesian tax on gross was substantial, and the excess offset is generally not refundable or carried forward.
 
-- Report the Indonesian rental income on your Australian return
-- Claim the foreign income tax offset for Indonesian tax paid
-- Keep evidence of the Indonesian tax actually paid, because the offset depends on it
-- Keep records of the purchase, because your Australian cost base matters even though Indonesia taxes differently
+## Capital gains
 
-## On disposal
+Australian CGT applies to the disposal of foreign real property by an Australian resident, on the gain calculated under Australian rules, with the CGT discount available where the holding period qualifies.
 
-Indonesia applies a final tax on the **transfer value**. Australia calculates **capital gains** on the profit.
+Indonesia applies a **final tax of 2.5 percent of the transfer value** rather than taxing the gain. Credit is available for that against the Australian liability, and because the Indonesian amount is small relative to a gain-based Australian assessment, the balance generally falls in Australia.
 
-Those are different calculations on the same transaction, and the interaction is exactly where advice is worth paying for. Do not assume the Indonesian final tax covers your Australian position.
+Note a mismatch worth planning around: Indonesia taxes the **sale value** even where you made a loss. Australia taxes the **gain**. You can pay Indonesian tax on a loss-making sale and have no Australian liability to credit it against.
 
-## The practical advice
+## Leaseholds and the cost base
 
-Use an Australian accountant who has handled foreign property before, and an Indonesian adviser for the local side. One professional rarely covers both properly, and the gap between them is where mistakes live.
+Australian CGT applies to the asset you actually hold, which for most Bali buyers is a **leasehold interest** rather than land.
 
-Get a **certificate of residence** where you intend to claim treaty benefits, in the form and timeframe Indonesian rules require.
+The cost base, the timing of acquisition and disposal, and the treatment of an assignment of the remaining term are all technical questions. Anyone who agreed to declare a lower purchase value in Indonesia to reduce transaction tax has also created a record that does not match what they actually paid, which is unhelpful when establishing an Australian cost base.
+
+## Structures
+
+Holding through a **PT PMA** introduces Australian rules on controlled foreign companies, which can attribute the company's income to you whether or not it is distributed.
+
+This is genuinely specialist territory and it is frequently set up in Indonesia by advisers with no visibility of the Australian consequences. Get Australian advice **before** forming a structure, not after.
+
+## Residency, which decides everything
+
+If you cease to be an Australian tax resident, the analysis changes fundamentally — and Australian tax residency is a substantive test of where you live, your family and economic ties, and your intentions. Spending time in Bali while keeping a home, family and business in Australia does not achieve it.
+
+Australia also has **deemed disposal rules on ceasing residency** for certain assets, which is an event to plan around rather than discover.
+
+## What to actually do
+
+**Declare the income.** CRS automatic exchange of financial account information covers Indonesia, so foreign accounts and balances are visible to the ATO. The era of practical invisibility has ended.
+
+**Keep records in both currencies**, with exchange rates at the relevant times, and evidence of Indonesian tax paid.
+
+**Obtain a residence certificate** where you are claiming a treaty rate in Indonesia, at the right time.
+
+**Get Australian advice before buying**, particularly on structure. The cost is small against the consequences of getting it wrong, and almost everything is easier to arrange than to unwind.
 
 ## Common questions
 
-### Is there a tax treaty between Australia and Indonesia?
-Yes. It allocates taxing rights and relieves double taxation, generally through a foreign income tax offset in Australia.
+### Do Australians pay tax twice on Bali property?
+No, but relief is capped. Indonesia taxes first, Australia assesses the income and gives a foreign income tax offset limited to the Australian tax on that income, so the balance is usually payable in Australia.
 
-### Do I pay tax twice on Bali rental income as an Australian?
-Generally not. Indonesia taxes it first and Australia gives credit for Indonesian tax paid, claimed on your return.
+### How does the foreign income tax offset work for Bali income?
+It credits Indonesian tax paid against the Australian liability on the same income, capped at the Australian tax attributable to it, with excess generally neither refundable nor carried forward.
 
-### Do I have to declare Bali property income in Australia?
-Yes, if you are an Australian tax resident. Worldwide income is assessable.
+### Do I pay Australian CGT on a Bali villa?
+Australian CGT applies to the disposal of foreign real property by an Australian resident, with credit for the Indonesian final tax of 2.5 percent of transfer value.
 
-### What about when I sell?
-Indonesia applies a final tax on transfer value, Australia calculates capital gains on profit. The interaction needs advice.
+### What if I sell my Bali villa at a loss?
+Indonesia still charges 2.5 percent of the sale value because it taxes the transfer rather than the gain, while Australia taxes the gain — so there may be no Australian liability to credit it against.
 
-### Can I avoid Australian tax by not being resident?
-Ceasing residence is a substantive test about where you actually live, with its own consequences. It is not achieved by intention.
+### Does the ATO know about my Bali income?
+CRS automatic exchange of financial account information covers Indonesia, so foreign accounts and balances are visible. Declare the income.

@@ -5,60 +5,70 @@ summary: Foreign buyers here are effectively cash buyers. Local lending is large
 category: ownership
 order: 17
 risk: high
-regulation: Bank lending policy. Terms vary by institution and change.
+regulation: Bank lending policy; leasehold is not registered collateral. Verify current lending appetite directly with institutions.
 applies: Anyone who assumed they could borrow here
-verified: 2026-09-06
+verified: 2026-09-21
 ---
 
-This surprises buyers who are used to markets where financing is routine. Plan on cash.
+Bali is a cash market. Understanding why, and what the alternatives actually are, saves a great deal of wasted effort.
 
-## Why local lending is largely closed
+## Why domestic lending barely exists
 
-Indonesian banks lend against titles they can enforce against. A foreigner cannot hold freehold, and the alternatives are harder security:
+A bank lends against collateral it can register and, if necessary, seize and sell.
 
-| What you hold | Financeable locally |
-| --- | --- |
-| Leasehold | Rarely. It is a contract, not a registered title |
-| Hak Pakai | Occasionally, on restrictive terms |
-| HGB via PT PMA | More possible, still difficult, and rates are high |
+**Leasehold is not collateral.** Hak Sewa is a contract with the landowner. It is not registered at the land office and appears on no certificate. There is no interest for a bank to secure, which is why no Indonesian bank lends against a leasehold. Since most foreign purchases in Bali are leasehold, this removes most of the market in a sentence.
 
-Where lending is available at all, expect a large deposit requirement, a short term, and interest rates well above what you would pay in Europe, Australia or North America.
+**Hak Pakai** is a registered right and can in principle carry a security interest. In practice, bank appetite for lending to foreign individuals against it is very limited, and the requirements — residency, documented Indonesian income, an established banking relationship — exclude most buyers.
 
-## The realistic alternatives
+**HGB held by a PT PMA** is the most financeable position, because the collateral is registered and the borrower is an Indonesian legal entity. Even then, most banks will not lend to a young company with foreign shareholders and no domestic trading history. It becomes realistic after two or three years of audited accounts and a genuine banking relationship.
 
-**Release equity at home.** Borrowing against property in a country with a functioning mortgage market, at that market's rates, and bringing the cash here. This is what most buyers actually do and it is usually the cheapest capital available.
+## What the terms look like where lending exists
 
-**Developer payment plans.** Common on off-plan projects. These are not really financing, they are staged payments to a developer, and they carry the full off-plan risk profile: you are funding construction against a contract with an entity that may hold nothing.
+Rupiah lending rates run well above what buyers from Australia, the UK or Europe are used to. Loan-to-value is conservative. Tenors are shorter.
 
-**Private and seller lending.** It exists. It is unregulated, expensive, and enforcement if things go wrong is difficult. Treat it as a last resort and take independent legal advice on the security arrangement.
+And currency risk sits with you. Borrowing in rupiah against income in another currency — or the reverse — adds a genuine risk to an investment that already has several. A fifteen percent move changes your effective return more than most operational decisions you will make.
 
-## Why this matters beyond the purchase
+## What people actually do
 
-Being a cash market has consequences for the whole market, not just for you.
+**Pay cash.** The majority, and it is the reason Bali pricing does not respond to interest rates the way leveraged markets do. The market moves on liquidity, currency, flight capacity and sentiment instead.
 
-It thins the buyer pool at exit, because your buyer also needs cash. It makes prices less sensitive to interest rates than most property markets. And it means distress does not show up as forced sales the way it does elsewhere, so price discovery is slower and less reliable.
+**Borrow against property at home.** Redraw, equity release, or a line of credit secured on an existing property in Australia, the UK or Europe. Rates are lower, the lender understands the security, and currency exposure can be managed.
 
-That last point is worth holding onto when you assess what a property is "worth". Asking prices in a cash market can drift a long way from transacted prices without anything forcing correction.
+This is by a wide margin the most common financing route for Bali purchases and the one I would examine first. It is also cleaner: you own an unencumbered asset in Indonesia and a debt in a jurisdiction where debt works properly.
 
-## If you are borrowing at home
+**Developer payment plans.** Off-plan purchases staged across construction are a form of finance, and they are **unsecured exposure to a developer** rather than secured lending. Indonesia has no statutory deposit protection scheme. If the build stops, your money is in a hole in the ground with no lender's interest protecting it.
 
-Consider the currency. Your loan is in your home currency, your asset and its income are in rupiah. A move in the exchange rate changes your real position in both directions, and rupiah has had volatile periods.
+**Seller financing.** Occasionally available on a leasehold where the seller accepts staged payment. Entirely a matter of negotiation with no institutional protection, and the contract needs drafting with real care — specifically what happens if you default, and what security the seller holds in the meantime.
 
-That is not a reason to avoid it. It is a reason to size the borrowing so a bad currency year does not force a sale.
+## What this means for your plan
+
+**Assume no Indonesian mortgage.** Build the plan around cash or home-country borrowing, and treat any local lending you obtain as a bonus rather than a foundation.
+
+**Plan the transfer route before you commit to dates.** Moving USD 300,000 through a bank at a two percent spread costs USD 6,000; a specialist transfer service at a quarter of that costs USD 1,500. Arranging it under time pressure is how people accept the bank's rate.
+
+**Document source of funds.** Banks at both ends may ask, and being able to answer quickly prevents a transaction stalling at the worst moment.
+
+**Model without leverage.** A seven to nine percent net yield on unleveraged cash is the honest figure. Comparing it to a leveraged return at home is not a like-for-like comparison.
+
+## The one advantage of a cash market
+
+Prices are set by what buyers have rather than what they can borrow, which makes Bali far less exposed to rate cycles than Australian, British or European residential markets.
+
+It also means that when you negotiate, being a cash buyer carries little weight, because almost everyone is one. Speed and certainty are worth less here than they are at home.
 
 ## Common questions
 
-### Can foreigners get a mortgage in Bali?
-Very rarely, and on unattractive terms. Most foreign buyers here are cash buyers, typically funded by releasing equity on property at home.
+### Can I get a mortgage in Indonesia as a foreigner?
+Very rarely in practice. Leasehold cannot be used as collateral at all because it is not registered, and bank appetite for lending to foreign individuals against Hak Pakai is minimal.
 
-### Can I finance a leasehold villa in Bali?
-Almost never locally. A leasehold is a contract rather than a registered title, which makes it poor security for a lender.
+### Why can't a Bali leasehold be mortgaged?
+Hak Sewa is a contract with the landowner, not a registered land right, so there is no interest for a bank to take security over.
 
-### Do developers offer payment plans in Bali?
-Yes, commonly on off-plan projects. It is staged payment rather than financing, and it carries full construction and counterparty risk.
+### How do people finance Bali property?
+Mostly cash, or by borrowing against property in their home country, where rates are lower and the lender understands the security.
 
-### Is it better to borrow at home to buy in Bali?
-Usually yes. Home market rates and terms are almost always better than anything available locally, and the process is more predictable.
+### Can a PT PMA borrow against Indonesian property?
+It is the most financeable structure because HGB is registered collateral, but banks generally require two or three years of audited accounts and an established relationship first.
 
-### Does the cash market affect prices in Bali?
-Yes. It thins the buyer pool, makes prices less rate-sensitive, and slows price discovery, so asking prices can drift well above transacted levels.
+### Are developer payment plans a form of finance?
+They stage payments, but they are unsecured exposure to the developer. Indonesia has no statutory deposit protection scheme, so nothing protects the money if construction stops.
