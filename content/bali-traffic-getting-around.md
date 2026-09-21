@@ -5,69 +5,84 @@ summary: Distances here are measured in minutes, not kilometres, and the two div
 category: living
 order: 22
 risk: medium
-regulation: Observed conditions. Journey times vary substantially by hour and season.
+regulation: Traffic conditions and transport options change. Verify journey times at peak for the specific location.
 applies: Anyone choosing where to live or buy
-verified: 2026-09-06
+verified: 2026-09-21
 ---
 
-This is the daily reality that most affects quality of life here, and the one visitors underestimate because they experience it for two weeks rather than every day.
+Traffic is the most consistently underestimated factor in a Bali property decision, and it is getting worse rather than better.
 
-## The problem
+## The scale of it
 
-Bali's road network was built for a fraction of the current traffic. Roads are narrow, there are few alternative routes, and the volume of scooters, cars, delivery vehicles and construction traffic has grown far faster than the infrastructure.
+South Bali's road network was built for a fraction of the vehicles now using it, and there is limited scope to widen roads that run between temples, family compounds and rice fields.
 
-The result is that a 12 kilometre journey can take an hour. Not occasionally, predictably, at the times you actually need to travel.
+Journey times that a map suggests take twenty minutes routinely take an hour at peak. The **Canggu Shortcut**, **Jalan Raya Kerobokan**, the **Sunset Road** junctions and the **Bukit approach** are the worst, and the deterioration over the last few years has been visible.
 
-## Worst areas
+Peak periods are roughly 7 to 10 in the morning and 4 to 8 in the evening, with a secondary crush around school times.
 
-| Area | Position |
-| --- | --- |
-| Canggu and Berawa | The worst on the island, and getting worse |
-| Seminyak and Kerobokan | Dense, constant |
-| Denpasar approaches | Heavy at commuter hours |
-| Ubud centre | Congested, especially midday |
-| Sanur | Comparatively light |
-| Bukit interior | Light, but everything is far |
+## Why it matters commercially
 
-## What it should change about buying
+**Airport transfer time** is a real factor in guest satisfaction and in the reviews that drive your ranking. A guest arriving after a long flight and spending ninety minutes in a car to Uluwatu remembers it. Jimbaran at fifteen minutes and Sanur at twenty-five do not have that problem.
 
-**Drive the routes you will actually drive, at the hours you will actually drive them.** The school run at eight, the trip home at six, the airport at the hour your flights land.
+**Guests do not experience the map.** A listing describing a property as "ten minutes from Canggu" when it is thirty-five at the times guests actually travel produces a mismatch that appears in reviews.
 
-This single exercise reorders most people's shortlist, and almost nobody does it before committing.
+**Walkability commands a premium** precisely because traffic makes everything else difficult. That is the whole economic basis of Batu Bolong's land prices, and it is why walkable positions hold value better than anything else in the market.
 
-**If you have children, choose the school first**, then live near it. An hour each way twice a day is four hours of a parent's day, permanently.
+**Staff and contractors** are affected too. A villa in a hard-to-reach location has a smaller pool of reliable staff and pays more for trades.
 
-**If you are buying rental property**, traffic is now a commercial factor. A villa two kilometres from a beach club that takes twenty-five minutes at six in the evening gets that reflected in guest reviews and repeat bookings.
+**It shapes where the market goes.** Part of the corridor's northward movement is people being pushed out of congested areas, and part is people discovering that a longer drive is tolerable for a better property.
 
 ## Getting around
 
-**Scooter** is fastest and by a wide margin the most dangerous. It is the main physical risk foreigners face here.
+**Scooter.** The default, the fastest, and genuinely dangerous. Road fatalities in Bali are high and foreign visitors are disproportionately represented. If you ride, wear a proper helmet, get a licence, and check your travel insurance actually covers you — many policies exclude motorcycle accidents without a valid licence, which is a common and expensive discovery.
 
-**Car with driver** is inexpensive and the sensible option for families, airport runs and wet season.
+An **international driving permit with a motorcycle endorsement** is required for a foreign licence to be valid here, and a KITAS holder can obtain an Indonesian **SIM**.
 
-**Ride-hailing** (Grab and Gojek) is cheap and widely available, though some areas restrict pickups because of local transport arrangements.
+**Car and driver.** Inexpensive by Western standards, comfortable, and stuck in the same traffic as everyone else. Standard for families and airport transfers.
 
-**Walking** is viable in parts of Seminyak, Sanur and central Ubud, and largely not elsewhere. Pavements are inconsistent and often obstructed.
+**Ride hailing.** Widely used, though some areas have local arrangements restricting pickups, and a guest may need to walk to a collection point.
 
-## Wet season
+**Walking.** Practical in Batu Bolong, parts of Seminyak, Sanur's beachfront and Ubud's centre. Almost nowhere else, because footpaths are intermittent and traffic is heavy.
 
-Everything above gets worse from November to March. Rain slows traffic, floods some routes entirely, and makes riding genuinely hazardous.
+## What to check before buying
 
-Factor it into where you live rather than treating it as four months to endure.
+**Drive the route at peak, in both directions.** Not at eleven in the morning. Do the airport run at the time guests actually land, and the dinner run at seven in the evening.
+
+**Check access road width and condition.** Narrow lanes affect construction logistics, guest arrival with luggage, and whether a car can reach the property at all.
+
+**Ask about flooding** on the access route, which in the wet season closes some roads entirely.
+
+**Establish parking**, both on site and in the street. A villa with no parking in an area with none is a real problem for guests arriving with a car.
+
+## Where it is least bad
+
+**Sanur and Nusa Dua**, with wide planned roads and proximity to the airport.
+
+**Jimbaran**, fifteen minutes from the airport.
+
+**Walkable pockets** — Batu Bolong, Petitenget, Ubud centre, Sanur beachfront — where guests can leave the car parked.
+
+**The north, east and highlands**, which have almost no traffic and a two to three hour drive from the airport instead, which is a different problem.
+
+## The direction of travel
+
+There is no realistic prospect of south Bali's traffic improving. Vehicle numbers continue to grow, the road network cannot expand meaningfully, and tourism volumes are not falling.
+
+That argues for two things when buying: **value walkability**, because it is scarce and becoming scarcer, and **be honest about drive times** in your own underwriting rather than using the map.
 
 ## Common questions
 
 ### How bad is traffic in Bali?
-Bad enough to change where you should live. Twelve kilometres can take an hour in Canggu at peak times, predictably rather than occasionally.
+Bad and worsening in the south. Journeys a map suggests take twenty minutes routinely take an hour at peak, and the road network cannot expand meaningfully.
 
-### What is the best way to get around Bali?
-Scooter for speed at real safety cost, car with driver for comfort and safety, and Grab or Gojek for convenience. Choice depends on the journey and the weather.
+### Does traffic affect villa bookings?
+Yes. Airport transfer time affects guest satisfaction and reviews, and a listing that overstates proximity produces a mismatch guests comment on publicly.
 
-### Which area of Bali has the least traffic?
-Sanur among the established expat areas, and the Bukit interior, though everything is a long drive from there.
+### Do I need an international driving permit in Bali?
+For a foreign licence to be valid you generally need an international driving permit with the appropriate endorsement. Many travel insurance policies exclude motorcycle accidents without a valid licence.
 
-### Does traffic affect rental income in Bali?
-Yes. Guests notice journey times and reflect them in reviews, which affects rate and repeat bookings.
+### Where in Bali has the least traffic problem?
+Sanur and Nusa Dua with planned roads, Jimbaran at fifteen minutes from the airport, and the walkable pockets where guests can leave the car parked.
 
-### Should I visit before buying to test the traffic?
-Yes, and drive the specific routes at the specific hours you would use them, ideally in wet season.
+### How should traffic affect where I buy?
+Value walkability, which is scarce and becoming scarcer, and underwrite using real peak drive times rather than map estimates.

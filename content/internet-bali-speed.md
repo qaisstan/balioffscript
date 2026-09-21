@@ -5,64 +5,82 @@ summary: Fibre in the main expat areas is genuinely fine for remote work. Outsid
 category: living
 order: 19
 risk: low
-regulation: Provider coverage varies by street. Confirm availability at the specific address.
+regulation: Provider coverage and pricing change. Verify availability at the specific address before committing.
 applies: Remote workers and villa owners
-verified: 2026-09-06
+verified: 2026-09-21
 ---
 
-For normal remote work, calls and screen sharing, the main expat areas are well served. The problems are coverage outside them and reliability during weather.
+Internet is the single most consequential utility for a Bali rental property, because the guests who fill your quiet months are the ones who cannot stay without it.
 
-## What you can expect
+## Why it matters more than owners think
 
-| Area | Typical |
-| --- | --- |
-| Canggu, Seminyak, Sanur, Ubud centre | Fibre, 50 to 100 Mbps and above |
-| Outer Pererenan, Cemagi, Bukit | Fibre in places, patchy in others |
-| Tabanan, North Bali, remote plots | Often no fibre; mobile or satellite |
+Digital nomads and long-stay remote workers are what keep Canggu and Pererenan occupancy stable through February and March, which is where the annual number is decided.
 
-The variation is street by street rather than area by area. A villa 400 metres from a fibre-served road may not be served itself, and getting a line extended is a cost and a wait rather than a phone call.
+That guest **will not book a property with unreliable internet**, and they check. Listings that state a speed get booked by them; listings that do not, do not.
 
-**Check availability at the exact address before you commit**, particularly if you work from home. Do not accept "the area has fibre" as an answer.
+For a villa in a nomad area, internet is not a utility. It is a feature you market.
 
-## Providers
+## The options
 
-Biznet and MyRepublic are the common fibre providers in expat areas. IndiHome, the Telkom service, has the widest coverage and more variable performance.
+**Fibre.** Where it reaches, it is the answer — fast, reliable and inexpensive by international standards. Coverage is good across the developed south: Canggu, Seminyak, Kerobokan, Umalas, Sanur, Denpasar, and increasingly Pererenan and parts of the Bukit.
 
-Business packages cost more and generally come with better support and, in some cases, an SLA. For anyone whose income depends on the connection, that is worth paying for.
+Availability is **address-specific**, not area-specific. A street with fibre may not have it on both sides, and a property three hundred metres from a connected one may need infrastructure that does not exist.
 
-## Mobile as backup
+**Where fibre does not reach**, getting it to the property can be a significant one-off cost, and sometimes is simply not possible.
 
-Mobile data is cheap, fast and widely available, and it is the practical backup for everyone here. Telkomsel has the best coverage, particularly outside the south.
+**Mobile data.** 4G coverage is broad and 5G is available in parts of the south. As a primary connection it is workable in some locations and unreliable in others, and it degrades when the local cell is busy — which in a tourist area is exactly when your guests are there.
 
-A local SIM with a generous data package, plus a phone that tethers, covers you when the villa line drops. This is not an edge case, it is a normal part of working here.
+**Satellite.** Low-earth-orbit services have changed what is possible in remote areas. Availability, regulatory status and pricing in Indonesia should be verified currently rather than assumed, but for genuinely remote parcels it has become a real option where nothing else exists.
 
-## Weather
+## What to check before buying
 
-Heavy rain degrades connections, and wet season runs roughly November to March. Outages during storms are common and usually short.
+**Availability at the exact address**, confirmed with the provider, not the area.
 
-Power outages take the connection with them. A small UPS on the router costs very little and keeps you online through a short cut.
+**The actual speed delivered**, tested, not the advertised package.
 
-## Coworking
+**Whether there is a backup option**, because a single connection with no alternative is a single point of failure.
 
-Canggu has the highest density of coworking spaces, Ubud has good options, Sanur has fewer but adequate ones. They exist partly because villa connections are variable, and a membership is a reasonable insurance policy for anyone with critical calls.
+**What the previous owner or manager used** and what the guest complaints were.
 
-## For villa owners
+If you are buying in an emerging corridor — Seseh, Kedungu, the interior Bukit, the highlands — treat this as a serious diligence item rather than an assumption. It affects what your property can charge and who will book it.
 
-Guests rate wifi heavily, and a bad connection shows up in reviews faster than almost any other fault. If the property lists commercially, treat the connection as infrastructure rather than a utility: business package, mesh coverage across the property, and a router on a UPS.
+## Setting it up properly
+
+**Get the fastest available package**, because the marginal cost is small and the marginal benefit for a rental property is large.
+
+**Use proper networking.** A single provider-supplied router in a villa with thick walls, several buildings and an outdoor area will not cover it. Mesh access points across the property cost little and eliminate the most common complaint, which is not "the internet is slow" but "it does not work by the pool".
+
+**Provide a wired option** in at least one room. Remote workers on video calls value it.
+
+**Put the actual speed in the listing.** "Fast WiFi" means nothing. A number means something, and the guests who care will filter for it.
+
+**Have a backup.** A mobile data router as a fallback costs little and saves a bad review when the fibre goes down, which it does.
+
+## Reliability
+
+Outages happen. Heavy rain, infrastructure work and provider issues all cause them, and the wet season is worse.
+
+For a property marketing itself to remote workers, a redundant connection is not excessive. It is the difference between a minor inconvenience and a guest who could not work and says so publicly.
+
+## The wider point
+
+If your property is in an area without a nomad market — the east, the north, the islands, the highlands — internet matters less commercially, because that guest is not booking there anyway.
+
+If it is in Canggu, Pererenan, Umalas or Ubud, internet quality is directly connected to your low season occupancy, which is directly connected to your annual return.
 
 ## Common questions
 
-### Is the internet fast enough in Bali for remote work?
-In the main expat areas, yes. Fibre at 50 to 100 Mbps is standard and sufficient for calls, screen sharing and normal work.
+### Is internet good in Bali?
+Fibre is fast, reliable and inexpensive where it reaches, which covers most of the developed south. Availability is address-specific rather than area-specific.
 
-### What is the best internet provider in Bali?
-Biznet and MyRepublic are common in expat areas; IndiHome has the widest coverage. Availability is street-specific, so check the exact address.
+### How fast is internet in Canggu?
+Fibre packages in the developed south deliver speeds that comfortably support remote work and video calls. Test the actual delivered speed at the specific property rather than relying on the advertised package.
 
-### Does the internet work during rain in Bali?
-Heavy rain degrades connections and outages happen, usually briefly. Mobile data is the standard backup and it is cheap.
+### Does internet affect villa bookings in Bali?
+Substantially in nomad areas. Remote workers and long-stay guests fill the quiet months and will not book a property with unreliable connectivity.
 
-### Should I get a local SIM in Bali?
-Yes. Telkomsel has the best coverage. It is inexpensive and it is the practical fallback whenever the fixed line drops.
+### What internet options exist outside the main areas?
+Mobile data, which is workable in some locations and unreliable in others, and low-earth-orbit satellite services where availability and regulatory status should be verified currently.
 
-### Is there fibre everywhere in Bali?
-No. Coverage is good in the main southern expat areas and thin in Tabanan, the north and remote plots. Confirm at the address, not the area.
+### What should I do to make my villa's internet good?
+Take the fastest available package, install mesh access points across the property including outdoors, provide a wired option, state the actual speed in the listing, and keep a mobile backup.
