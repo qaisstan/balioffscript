@@ -1,6 +1,6 @@
 ---
 question: How do you check access rights to Bali land?
-title: Access Rights and Right of Way in Bali: The Check Nobody Does
+title: Access Rights and Right of Way in Bali Land
 summary: A road you drove down to view the land may belong to a neighbour. If your access is not documented, it can close.
 category: ownership
 order: 35

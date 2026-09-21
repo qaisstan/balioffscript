@@ -1,6 +1,6 @@
 ---
 question: Do you need a land survey in Bali?
-title: Land Surveys in Bali: Why the Certificate Area Is Often Wrong
+title: Land Surveys in Bali: Why the Area Is Often Wrong
 summary: The advertised area, the certificate area and what is physically fenced are frequently three different numbers. A survey is how you find out.
 category: ownership
 order: 36

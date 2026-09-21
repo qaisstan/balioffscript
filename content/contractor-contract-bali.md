@@ -1,6 +1,6 @@
 ---
 question: How should you contract a builder in Bali?
-title: Contractor Contracts in Bali: Payment, Retention and Remedies
+title: Contractor Contracts in Bali: Payment and Remedies
 summary: There is no licensing regime and no statutory warranty. Whatever protection you have is in the contract you signed and the money you have not yet paid.
 category: building
 order: 20
