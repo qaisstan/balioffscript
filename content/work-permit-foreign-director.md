@@ -5,55 +5,72 @@ summary: Holding shares is not the same as being allowed to work. Directors with
 category: company
 order: 10
 risk: critical
-regulation: Manpower regulations on foreign worker utilisation (RPTKA); immigration permit requirements.
+regulation: Manpower regulations on foreign worker utilisation (RPTKA); immigration permit requirements; DKP-TKA levy.
 applies: Anyone taking a role in their own PT PMA
-verified: 2026-09-15
+verified: 2026-09-21
 ---
 
-Foreign investors routinely assume that owning the company means they may run it. Those are separate permissions.
+You can own an Indonesian company as a foreigner. Working in it is a separate question with a separate process, and conflating the two is one of the more common and more serious mistakes foreign owners make.
 
-## The distinction
+## Shareholder, director, employee
 
-**Shareholding** is an ownership position. A foreigner can hold shares in a PT PMA.
+**A shareholder** owns shares. There is no work authorisation implied and none required, because holding shares is not working.
 
-**Working in Indonesia**, including acting as a director day to day, requires authorisation. That generally means an RPTKA, the foreign worker utilisation plan, and the corresponding stay permit.
+**A director** — *direksi* — is an officer of the company with legal authority to bind it. A foreign director who is **actively performing the role in Indonesia** requires work authorisation and an appropriate stay permit.
 
-An investor KITAS can support residence connected to your investment, but what you may actually *do* depends on your role and whether work authorisation accompanies it.
+**A commissioner** — *komisaris* — supervises rather than manages. The position is less operational and the requirements differ, which is why some structures place the foreign party here instead.
 
-## Why it matters more now
+The distinction that matters is not the title. It is whether you are **performing work in Indonesia**. Signing documents from abroad as a non-resident director is a different position from running the business from a desk in Canggu.
 
-Since the Dharma Dewata task force became operational on 15 April 2026, enforcement has been active. Roughly 100 officers across the main expat areas detained 62 foreign nationals in the first three weeks, and the test applied is activity rather than payment.
+## What authorisation requires
 
-A foreign director managing staff, meeting clients and running operations without the correct authorisation is doing exactly what is being enforced against.
+**RPTKA** — *Rencana Penggunaan Tenaga Kerja Asing*, the foreign worker utilisation plan. The company applies, justifying why the position requires a foreign national, and the plan is approved for defined positions and durations.
 
-## Positions and restrictions
+**DKP-TKA** — the compensation levy payable for employing a foreign worker, charged per position per month.
 
-Certain positions are closed to foreign nationals, and there are obligations around employing or training Indonesian counterparts for roles that are open.
+**The immigration permit** — a work KITAS tied to that position and that sponsoring company. It is not transferable. If you leave the company or the position changes, the permit needs to change with it.
 
-A commissioner role and a director role carry different implications. Take advice on which you should hold before the deed of establishment is executed, because changing it afterwards means amending documents that have already been signed.
+There are also positions closed to foreign nationals entirely, and requirements around Indonesian counterpart staffing depending on the sector.
 
-## The practical sequence
+## What happens without it
 
-1. Decide your role before formation, not after
-2. Establish whether that role requires work authorisation
-3. Arrange RPTKA and the appropriate permit before you start operating
-4. Keep the company's own compliance current, because your permit rests on it
+This is not a technicality that gets overlooked.
 
-That last point is the one people miss. If the PT PMA falls out of compliance, misses LKPM reporting, or has its NIB suspended, the permit that depends on it is exposed.
+A foreigner working in Indonesia without the correct permit faces immigration consequences ranging from fines to deportation and re-entry bans, and the sponsoring company faces its own exposure. Enforcement has become more visible and more consistent.
+
+The practical risk for most people is not a dramatic raid. It is that the exposure exists continuously and materialises at the worst moment — during a licence renewal, a visa extension, a dispute with a former employee or partner, or a complaint from a competitor.
+
+## The structures people use
+
+**Foreign director with a work KITAS.** The clean answer if you are genuinely running the business from Indonesia. It costs money and time and it is correct.
+
+**Foreign commissioner, Indonesian director.** Places the foreign party in a supervisory role. Workable where you genuinely are supervising rather than managing, and it requires an Indonesian director you actually trust, because they hold the operational authority to bind the company.
+
+**Non-resident foreign director.** You hold the position but do not perform work in Indonesia. Legitimate where it is true, and it is frequently claimed where it is not. Running daily operations from Bali on a tourist visa while describing yourself as a non-resident director is the version that goes wrong.
+
+**Investor KITAS.** Available to shareholders meeting an investment threshold. Note carefully that this is a residency route tied to an investment, and it is not a general work permit for any role you choose to take on. Confirm the current scope rather than assuming.
+
+## If you own a villa through a PT PMA
+
+Most owners do not need to work in the company at all. The property is held, a manager operates it, and the owner is a shareholder and possibly a non-resident director.
+
+That is a clean position and it avoids the entire question. The problems start when the owner is in Bali managing staff, handling bookings, dealing with suppliers and making operational decisions, while holding no work authorisation.
+
+If that describes your intention, sort the permit. If it does not, structure the company so nobody needs to pretend.
 
 ## Common questions
 
 ### Can a foreigner be a director of a PT PMA?
-Yes, subject to position restrictions and the correct work authorisation. Shareholding alone does not permit you to work.
+Yes. Whether you need work authorisation depends on whether you are actively performing the role in Indonesia rather than on the title itself.
+
+### Do I need a work permit to own a company in Indonesia?
+No. Holding shares is not working. Performing work in Indonesia for that company is what triggers the RPTKA and permit requirements.
 
 ### What is RPTKA?
-The foreign worker utilisation plan, the employer-side approval that underpins a foreign national working in Indonesia.
+The foreign worker utilisation plan the company must have approved, justifying why a position requires a foreign national, before an associated work permit can be issued.
 
-### Does an investor KITAS let me work?
-It supports residence connected to your investment. What you may actually do depends on your role and whether work authorisation accompanies it.
+### Can I run my Bali villa business on a tourist visa?
+No. Managing staff, handling operations and making business decisions in Indonesia is work, and doing it without authorisation exposes both you and the company.
 
-### Can I run my Bali business on a business visa?
-No. Managing an operation day to day is work and requires the appropriate permit.
-
-### What happens if my company falls out of compliance?
-Your permit is exposed, because it rests on the company's standing. Compliance is a personal matter, not just an accounting one.
+### Is a commissioner role safer than a director role?
+It is supervisory rather than operational, with different requirements, but it only works where you genuinely are supervising. It also means an Indonesian director holds the authority to bind the company.

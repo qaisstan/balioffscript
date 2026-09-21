@@ -5,62 +5,84 @@ summary: Base salaries are low and the obligations around them are not. Terminat
 category: company
 order: 05
 risk: high
-regulation: UU 13/2003 and successor labour law; BPJS Ketenagakerjaan and BPJS Kesehatan; THR regulation.
+regulation: UU 13/2003 as amended and successor labour law; BPJS Ketenagakerjaan and BPJS Kesehatan; THR regulation; regional minimum wage (UMK).
 applies: Anyone running a PT PMA or employing villa staff
-verified: 2026-09-13
+verified: 2026-09-21
 ---
 
-Employing people in Indonesia is straightforward to start and difficult to reverse. Plan for the second part.
+Indonesian labour costs look low until you add everything attached to them. The salary is the smallest part of the decision.
 
-## What you owe beyond salary
+## The minimum wage
 
-**BPJS.** Employer contributions to the national health and employment social security schemes add roughly 14 percent on top of salary. Not optional for properly employed staff.
+Each regency sets its own minimum wage, the **UMK**, revised annually. Badung's is among the higher rates in Bali, reflecting the tourism economy, and the regencies differ meaningfully from one another.
 
-**THR.** Tunjangan Hari Raya, the religious holiday allowance: one full month of salary, paid annually before the holiday, pro rata under twelve months of service. A legal entitlement, not a discretionary bonus.
+Paying below the applicable UMK is not a negotiable arrangement even if the employee agrees, and it creates a liability that surfaces in any dispute.
 
-**Regional minimum wage.** Set provincially with regency variation. Badung, covering Canggu, Seminyak and the airport side, runs the highest in Bali. Paying below the applicable minimum is a labour law problem.
+## What sits on top of the salary
 
-So a team costing IDR 7M a month in base salary costs meaningfully more than IDR 84M a year once these land.
+**BPJS Ketenagakerjaan** — the employment social security scheme, covering work accident, death, old age and pension. Contributions are split between employer and employee, with the employer carrying the larger share.
 
-## Employment versus contracting
+**BPJS Kesehatan** — health insurance. Also split, employer-weighted.
 
-Owners often prefer to treat people as contractors to avoid BPJS and THR. Whether that holds depends on the substance of the relationship, not the label: fixed hours, a single employer, day-to-day direction and control all point to employment.
+**THR** — *Tunjangan Hari Raya*, the religious holiday allowance. One month's salary, paid annually before the relevant religious holiday, pro-rated for employees with less than twelve months' service. It is a legal obligation, not a bonus, and it is enforced with a specific deadline.
 
-Misclassification is a labour dispute, and Indonesian labour law is protective of workers.
+**Overtime**, calculated at prescribed rates, which villa operations with evening and weekend cover accumulate more of than owners expect.
 
-## Termination is the expensive part
+**Leave entitlements** — annual leave and public holidays, of which Indonesia has many.
 
-Ending employment is considerably harder and costlier than in most Western jurisdictions. Severance is calculated on length of service and can run to many months of salary.
+Together these commonly add **twenty to thirty-five percent** to the base salary. Budget on that basis, not on the headline wage.
 
-The practical consequence: **hire slowly.** A business overstaffed in its first optimistic year is expensive to correct later, and the correction comes out of exactly the year you needed the cash.
+## Termination is the part that surprises people
+
+This is where foreign employers get caught, consistently.
+
+Indonesian labour law protects employees substantially. Dismissal requires a valid ground, a defined process, and — in most cases — **severance, service appreciation pay and compensation for entitlements**, calculated from length of service using statutory formulas.
+
+For a long-serving employee this can amount to many months of salary. It is not discretionary, it is not negotiable down by agreement in advance, and a termination that does not follow the process can be reversed or result in a larger payment.
+
+Practical consequences:
+
+**Hire carefully.** Correcting a bad hire is expensive in a way it is not in Australia, the UK or most of Europe.
+
+**Use a proper written contract**, with the role, term, salary, hours and grounds clearly defined.
+
+**Understand fixed-term versus permanent.** Fixed-term contracts (PKWT) are permitted only for work that is genuinely temporary, seasonal or project-based, with limits on duration and renewal. Misusing them to avoid permanence converts the contract to permanent by operation of law, which is exactly the outcome you were trying to avoid.
+
+**Document performance issues** contemporaneously. A dismissal defended on undocumented grounds does not go well.
+
+**Take advice before terminating**, not after.
+
+## Villa staff specifically
+
+A villa that rents typically needs a cleaner, a pool and garden service and often a security or night presence. Larger properties add a manager, cook and driver.
+
+Two routes.
+
+**Employ directly.** Cheaper per hour, and you carry the full employer obligations: BPJS, THR, overtime, leave, and the termination exposure. Through a PT PMA this is straightforward administratively. Personally, without a company, it is considerably murkier.
+
+**Contract through a management company or service provider.** More expensive per hour, and the employment relationship and its obligations sit with them. For most foreign owners with one or two properties, this is the better trade.
+
+The mistake to avoid is treating a long-standing, full-time, exclusively-engaged "contractor" as though they are not an employee. Indonesian law looks at the substance of the relationship, and a long-serving villa staff member who has worked exclusively for you for years is very likely an employee whatever the paperwork says.
 
 ## Foreign employees
 
-A foreigner working for your PT PMA needs the appropriate permit. There are also position restrictions and, in many cases, obligations around training or employing Indonesian counterparts.
+Employing a foreigner, including yourself as director, requires **RPTKA** approval — the foreign worker utilisation plan — and the corresponding immigration permit. Holding shares in your own company is not authorisation to work in it.
 
-Since April 2026 enforcement of work authorisation has tightened considerably. A foreign director or manager without the correct KITAS is exposed.
-
-## Practical steps
-
-- Written employment agreements in Indonesian
-- Register staff for BPJS from the start
-- Budget THR as an annual line, not a surprise
-- Keep attendance and payroll records properly
-- Take local advice before terminating anyone
+Certain positions are closed to foreign nationals entirely, and the company must demonstrate the role justifies a foreign hire. Enforcement here has tightened.
 
 ## Common questions
 
-### What does it cost to employ someone in Indonesia?
-Base salary plus roughly 14 percent employer BPJS contributions plus one month of salary annually as THR, against the applicable regional minimum wage.
+### What does it cost to employ someone in Bali?
+The regional minimum wage plus roughly twenty to thirty-five percent for BPJS employment and health contributions, THR, overtime and leave entitlements.
 
 ### What is THR in Indonesia?
-The mandatory religious holiday allowance: one full month of salary paid annually, pro rata for under a year of service. It is a legal entitlement.
+Tunjangan Hari Raya, the religious holiday allowance — one month's salary paid annually before the relevant holiday, pro-rated for under twelve months' service. It is a legal obligation with a specific deadline.
 
-### Can I hire staff as contractors in Indonesia?
-Only if the relationship genuinely is contracting. Fixed hours, single employer and daily direction point to employment regardless of the paperwork.
+### Is it hard to fire someone in Indonesia?
+Yes. Dismissal requires valid grounds, a defined process and statutory severance, service pay and compensation calculated on length of service. For long-serving staff this can be many months of salary.
 
-### How hard is it to fire someone in Indonesia?
-Considerably harder than in most Western countries, with severance based on length of service. Take local advice before acting.
+### Should I employ villa staff directly or through a manager?
+For most owners with one or two properties, contracting through a management company is the better trade: higher hourly cost, but the employment obligations and termination exposure sit with them.
 
-### Can my PT PMA employ foreigners?
-Yes, with the correct work authorisation and subject to position restrictions. Enforcement of work permits has tightened sharply since April 2026.
+### Can I work in my own PT PMA?
+Only with RPTKA approval and the corresponding immigration permit. Owning shares does not authorise you to work in the company, and enforcement has tightened.

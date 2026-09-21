@@ -5,62 +5,90 @@ summary: Monthly filings, quarterly reports and annual statements, owed whether 
 category: company
 order: 09
 risk: high
-regulation: Indonesian corporate tax and reporting obligations; LKPM investment activity reporting.
+regulation: Indonesian corporate tax and reporting obligations; LKPM investment activity reporting; Coretax administration.
 applies: Anyone running or budgeting a PT PMA
-verified: 2026-09-15
+verified: 2026-09-21
 ---
 
-The compliance load is the cost owners most often leave out of their model, and it accrues whether or not the business trades.
+The formation cost of a PT PMA is quoted constantly. The running cost is quoted rarely, and it is the number that actually matters, because it recurs every year for as long as the company exists.
 
-## The calendar
+## The monthly obligations
 
-| Obligation | Frequency |
-| --- | --- |
-| Monthly tax filings, including nil returns | Monthly |
-| Employee tax and BPJS, where you have staff | Monthly |
-| LKPM investment activity report | Quarterly for most classifications |
-| Corporate income tax return | Annual |
-| Financial statements | Annual |
+**Employee withholding tax (PPh 21)**, if the company has staff. Calculated, withheld, paid and reported monthly.
 
-Nil returns matter. A month with no activity still requires a filing, and missing them accrues penalties exactly as missing a real one does.
+**Withholding on payments to third parties (PPh 23, PPh 4(2))** — services, rent, certain contractor payments. Withheld at source and reported monthly.
 
-## Why LKPM is the one people forget
+**VAT (PPN)**, if the company is registered as a taxable enterprise. Monthly returns, and e-faktur invoicing through the system.
 
-The investment activity report is specific to foreign investment companies and it is not a tax filing, so it falls outside what a general accountant may handle by default.
+**Corporate income tax instalments (PPh 25)**, paid monthly against the eventual annual liability.
 
-Missing it escalates toward suspension of the NIB. A suspended NIB stops the business operating, which for a villa means the property cannot lawfully sell nights while its fixed costs continue.
+Every one of these has a deadline and every missed deadline generates a penalty. They accrue quietly.
+
+## The quarterly obligation
+
+**LKPM** — the investment activity report — is filed quarterly by PMA companies. It reports realised investment and employment.
+
+It is easy to overlook because it is not a tax filing and it comes from a different authority. It is also genuinely enforced, and a company with a history of missed LKPM filings has a standing problem that surfaces at licence renewal.
+
+## The annual obligations
+
+**Corporate income tax return (SPT Tahunan Badan)**, with financial statements attached.
+
+**Financial statements** prepared to Indonesian standards.
+
+**An audit**, where the company exceeds the thresholds requiring one. Below them, unaudited statements are acceptable.
+
+**Annual shareholder meeting (RUPS)** and the minutes, which are a company law requirement rather than a tax one and are frequently forgotten by single-shareholder companies.
+
+**Personal returns** for directors and commissioners who are Indonesian tax residents.
 
 ## What it costs
 
-Accounting, monthly and annual tax filing, LKPM reporting, financial statement preparation and corporate secretarial work are recurring. Budget them as a fixed annual line from year one, alongside insurance and staff.
+A small, low-activity PT PMA with a handful of transactions and no staff typically runs **USD 2,000 to USD 5,000 a year** for bookkeeping, monthly filings, LKPM and the annual return.
 
-A model that shows a PT PMA structure without these costs is modelling a company that does not comply.
+A company with staff, VAT registration, meaningful transaction volume and an audit requirement runs considerably more — USD 6,000 to USD 15,000 and upward depending on complexity.
 
-## Bookkeeping standards
+Add corporate secretarial work for any change to the company, and a virtual office or registered address if you use one.
 
-Keep contemporaneous records: invoices, receipts, contracts, bank statements, payroll. Reconstructing a year retrospectively is expensive and it is exactly when errors enter.
+This is the number that makes a PT PMA material at USD 300,000 of property value and immaterial at USD 1 million. It is also permanent: it does not stop because the company stopped trading.
 
-If the company owns property, keep the purchase documentation, transfer tax receipts and the annual land and building tax receipts with the company records rather than personally.
+## Coretax changed the tolerance
+
+Indonesia's tax administration now runs through Coretax, and the practical difference is that it **matches data strictly and rejects rather than queries**.
+
+A name spelled differently between documents, an address that does not match, an unlinked NPWP, or a missing **NITKU** — the business unit identifier issued per registered place of business — produces a failed filing rather than a phone call.
+
+Companies registered before the change frequently have a NITKU gap, and invoices referencing the wrong one cause problems. Have your consultant confirm the registration is clean rather than assuming it migrated correctly.
 
 ## The dormant company trap
 
-A company that stops trading does not stop filing. Obligations continue, penalties compound, and the eventual cost of regularising or closing exceeds what maintenance would have cost.
+A PT PMA that stops trading does not stop filing.
 
-If the project is finished, close it properly. If it is paused, stay minimally compliant.
+Monthly returns, quarterly LKPM and the annual return remain due. Penalties accumulate against a company nobody is watching. Two or three years later, the cost of regularising exceeds what maintaining it would have cost, and the company cannot be cleanly closed until the arrears are cleared.
+
+If a company has served its purpose, close it deliberately through the proper process. Abandoning it is the most expensive option available.
+
+## Choosing a consultant
+
+Not the cheapest. The cost of a bad one is penalties and a company that cannot pass a licence renewal.
+
+Ask what is included and what is extra, specifically: monthly filings, LKPM, the annual return, financial statements, audit coordination, corporate secretarial work and responding to tax office correspondence. That last one is commonly excluded and commonly needed.
+
+Ask for a monthly reporting pack you can actually read, and ask who is accountable if a deadline is missed.
 
 ## Common questions
 
-### What are the annual obligations of a PT PMA?
-Monthly tax filings including nil returns, quarterly LKPM investment reports, annual corporate tax returns and annual financial statements.
+### How much does it cost to run a PT PMA per year?
+USD 2,000 to USD 5,000 for a small, low-activity company, and USD 6,000 to USD 15,000 or more with staff, VAT registration, meaningful volume and an audit requirement.
 
 ### What is LKPM?
-The investment activity report required of foreign investment companies. Missing it escalates toward suspension of the business licence.
+The quarterly investment activity report required of PMA companies, reporting realised investment and employment. It is separate from tax filings and is genuinely enforced.
 
-### How much does PT PMA compliance cost per year?
-It is a recurring fixed cost covering accounting, filings, reporting and corporate secretarial work. Budget it from year one rather than treating it as optional.
+### Does a dormant PT PMA still have to file?
+Yes. Monthly tax filings, quarterly LKPM and the annual return remain due whether or not the company trades, and penalties accumulate.
 
-### Do I have to file if the company earned nothing?
-Yes. Nil returns are still returns, and missing them accrues penalties.
+### Does a PT PMA need an audit?
+Only above the thresholds that require one. Below them, unaudited financial statements prepared to Indonesian standards are acceptable.
 
-### What happens if my NIB is suspended?
-The company cannot lawfully operate, while its fixed costs continue. It is the most expensive consequence of a missed filing.
+### What is NITKU and does my company need one?
+A business unit identifier issued per registered place of business. Companies registered before the Coretax change often have a gap, which causes filing and invoicing failures.

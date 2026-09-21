@@ -5,71 +5,88 @@ summary: The NIB is your business identity number and OSS is the system that iss
 category: company
 order: 06
 risk: high
-regulation: BPS 7/2025 (KBLI 2025); OSS risk-based licensing; Bali PMA classification closure eff. 22 July 2026.
+regulation: BPS 7/2025 (KBLI 2025); OSS risk-based licensing; Bali PMA villa/homestay classification closure effective 22 July 2026.
 applies: Anyone forming or buying a PT PMA
-verified: 2026-09-13
+verified: 2026-09-21
 ---
 
-OSS, the Online Single Submission system, is where Indonesian business licensing happens. The NIB it issues is the number everything else hangs off.
+OSS — *Online Single Submission* — is Indonesia's integrated business licensing platform. The **NIB**, *Nomor Induk Berusaha*, is the business identity number it issues, and it functions as your company's registration, import identity and, depending on risk level, part of its operating licence.
 
-## What the NIB is
+## How the system works
 
-Nomor Induk Berusaha, the business identification number. It functions as your company's registration, import identification where relevant, and the anchor for your business licences.
+Indonesia operates **risk-based licensing**. What you need to trade depends on the risk classification of the activity you register.
 
-Without an active NIB covering the right activity at the right location, your company is not licensed to do what it is doing.
+**Low risk.** The NIB alone is sufficient to operate.
 
-## KBLI: the part that decides everything
+**Medium-low and medium-high risk.** The NIB plus a standard certificate, which may be self-declared or require verification.
 
-Every business activity has a KBLI classification code. Your NIB lists the codes you are registered for, and those codes determine:
+**High risk.** The NIB plus a full licence, with prior verification and often physical inspection.
 
-- Whether foreign ownership is permitted at all
-- The minimum investment required
-- The risk grade, which sets how much verification happens
-- Which additional licences you need
+Accommodation and food and beverage activities generally sit above low risk, which means an NIB by itself is not enough to operate a villa rental or a restaurant.
 
-**Get this wrong and nothing downstream works.** A company registered for the wrong code is either unlicensed for what it does, or has committed to capital thresholds it did not intend.
+## KBLI is the whole job
 
-## The risk grading
+Every activity has a **KBLI** code — the Indonesian standard classification of business fields, updated to **KBLI 2025 under BPS 7/2025**.
 
-| Risk level | What happens |
-| --- | --- |
-| Low | Self-declaration, NIB is effectively the licence |
-| Medium | Document verification required |
-| High | Verification plus inspection |
+Your company registers specific KBLI codes, and those codes determine what it may lawfully do, what licences it needs, what minimum capital applies, and crucially **whether foreign ownership is permitted at all and at what percentage**.
 
-Low-risk, self-declared classifications were precisely the ones Bali closed to new foreign-owned registration on 22 July 2026, including villa and homestay. That was not coincidence: they were closed because they required no verification.
+Get the code wrong and the company either cannot do what you intended, or is doing it without proper authorisation. Neither is discovered at formation. Both surface later, usually at a licence renewal, a tax audit or a sale.
 
-## The 2025 renumbering
+This is the single most consequential decision in forming a PT PMA, and it is routinely delegated to whoever is handling the incorporation without the owner understanding what was chosen.
 
-KBLI was renumbered under BPS 7/2025, with a migration deadline of 18 June 2026 that has passed. An NIB still displaying 2020-era codes is worth checking rather than assuming it is fine.
+## The July 2026 change
 
-Renumbering alone does not cancel a licence where the underlying business is unchanged, but definitions shifted. Homestay, for example, narrowed to require owner-occupancy.
+**Bali closed new foreign-owned villa and homestay registration to PMA companies with effect from 22 July 2026.**
 
-## Location matters
+If your plan involves a PT PMA operating short-let accommodation, the classification has to be confirmed currently available before the structure means anything. A company holding a property it cannot lawfully operate carries the full compliance cost with none of the commercial benefit.
 
-Business licensing follows the **project location**, not company domicile. A villa in Pererenan operated by a Jakarta-registered company is still a Bali project needing Bali-compliant zoning and permits.
+Ask this question first, in writing, from someone who will still be around when the answer matters. Do not accept "it can be arranged".
 
-## What to verify on any company you buy or form
+## What you need to get an NIB
 
-- NIB active on OSS, not suspended or revoked
-- Codes migrated to KBLI 2025
-- The classification genuinely open for new registration today
-- The NIB covers the project location
-- The registered activity honestly describes the business
+The company must exist first: deed of establishment before a notary, approval from the Ministry of Law, domicile, and a tax registration.
+
+Then OSS registration requires the company documents, the NPWP, the registered address, shareholder and director details, the chosen KBLI codes and the declared investment value.
+
+A **PT PMA** — a foreign investment company — carries a minimum investment value threshold that applies per KBLI code per location, and paid-up capital requirements. These are substantial and they are checked. Budget for them properly rather than treating them as a formality.
+
+## The registered address problem
+
+OSS requires a registered address that is zoned for the activity. An address in a residential zone will not support a commercial registration.
+
+A **virtual office** solves this for many service activities and is widely used. It does not solve it for activities requiring physical premises, which includes accommodation. A villa rental business needs the actual property to be appropriately zoned, and no office arrangement substitutes for that.
+
+## After the NIB
+
+Registration is the start of an ongoing obligation, not the end of a process.
+
+**LKPM**, the investment activity report, is filed quarterly by PMA companies and it is genuinely enforced. Missed filings accumulate and affect standing.
+
+**Monthly and annual tax filings** continue whether or not the company trades.
+
+**Licence renewals and standard certificates** have their own cycles.
+
+**Changes** — new activity, new address, new shareholder, new director — all have to be reflected in OSS. A company whose OSS record does not match reality has a problem waiting.
+
+## If you are buying an existing PT PMA
+
+Check the registered KBLI codes against what you intend to do. Check LKPM filings are current. Check tax filings are current. Check the NIB status is active and the licences are valid. Check the registered address is still correct and appropriately zoned.
+
+A dormant or non-compliant company is a liability you would be acquiring, and cleaning one up costs more than forming fresh in most cases.
 
 ## Common questions
 
 ### What is an NIB in Indonesia?
-Nomor Induk Berusaha, the business identification number issued through OSS. It anchors your company's licensing.
+The Nomor Induk Berusaha, the business identity number issued through OSS. It serves as company registration and, for low-risk activities, as the operating licence itself.
 
-### What is KBLI?
-The Indonesian standard classification of business activities. Your codes determine foreign ownership eligibility, capital thresholds, risk grading and required licences.
+### What is KBLI and why does it matter?
+The Indonesian business activity classification, updated to KBLI 2025. The codes a company registers determine what it may lawfully do, what licences and capital apply, and whether foreign ownership is permitted.
 
-### What is OSS in Indonesia?
-Online Single Submission, the government system that issues the NIB and processes business licensing.
+### Is an NIB enough to operate a villa rental?
+No. Accommodation sits above low risk, so additional certification or licensing is required, and Bali closed new foreign-owned villa and homestay registration to PMA companies on 22 July 2026.
 
-### Can I change my KBLI codes later?
-Codes can be added or amended, but thresholds are generally assessed per classification, so adding activities is not free.
+### Can I use a virtual office for a PT PMA?
+For many service activities, yes. Not for activities requiring physical premises such as accommodation, where the actual property must be appropriately zoned.
 
-### Does my company need an NIB for each location?
-Licensing follows project location. A company operating in a different regency than its domicile needs its licensing to cover that location.
+### What ongoing filings does a PT PMA have?
+Quarterly LKPM investment activity reports, monthly and annual tax filings whether or not the company trades, and licence renewals. OSS records must also be updated for any change.
