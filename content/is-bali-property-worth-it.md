@@ -7,60 +7,82 @@ order: 21
 risk: high
 regulation: Market figures. Verify current pricing and rules directly.
 applies: Anyone planning a purchase here
-verified: 2026-09-13
+verified: 2026-09-21
 ---
 
-The honest answer depends on which version of the purchase you are actually making.
+I get asked this more than anything else, and the honest answer is that it depends on a small number of variables that are almost entirely within your control at the point of purchase, and almost entirely outside it afterwards.
 
 ## When it is worth it
 
-- You bought **land** that is well zoned, verified, and in a location with real demand
-- The **structure is lawful** and in your name or your company's
-- A **licence exists** and covers the building, if you intend to rent nightly
-- The **price reflects** land value plus depreciated building, not a projection
-- You have a **horizon long enough** to ride a soft year
-- You **wanted to be here** anyway
+**You buy a long term at a price the income supports.** Twenty-five or thirty years on a property that nets enough to return your capital inside eight to ten years and leaves the rest as profit. This exists. It is not exciting and it works.
+
+**You verify properly before paying.** Title at the land office, zoning for the parcel, permits against the building, extension clause read and understood, seller's authority confirmed. One to three weeks and a few thousand dollars.
+
+**You run it as a business.** A good manager, a proper management agreement, quarterly performance reviews against comparable villas, and a capital reserve. The gap between a well-run and a badly-run villa in the same street is enormous and it is entirely operational.
+
+**You are honest about what the property is for.** If you want a home in Bali and some income alongside, say so and buy accordingly. Most of the disappointment I see comes from buying an investment and using it as a holiday house, or the reverse.
 
 ## When it is not
 
-- The price was set by a yield forecast rather than by the asset
-- The rental licence is absent, assumed, or belongs to someone not in the deal
-- It is one of two hundred near-identical villas in the same corridor
-- The lease has years already run and the extension clause says "market rate"
-- You need the capital back within three to five years
-- You bought it remotely, on trust, using the seller's professionals
+**You buy a short term at a prime-area price.** A fifteen-year remainder in Berawa at USD 250,000 is a countdown bought at a premium. The area does not extend the term.
 
-## The comparison that matters
+**You buy off-plan on a projection.** The gross yields quoted are routinely double the achievable net, and the payment structure is unsecured exposure to a developer. Some off-plan works. Most of what is marketed at USD 150,000 to USD 250,000 does not.
 
-Against what alternative? Money here is illiquid, operationally demanding, exposed to regulatory change, held on a term-limited right, and denominated in a currency you probably do not spend.
+**You skip the verification.** Every foreign buyer I know of who lost money here saved a few thousand dollars on due diligence first. That is the mechanism, not a coincidence.
 
-Against that risk profile, a return that merely matches a passive index at home is not compensation. It has to beat it clearly, and on a well-bought property it can.
+**You buy a nominee arrangement.** It is void in Indonesian law and now prohibited to facilitate under Perda Bali 4/2026. There is no version of this that ends well.
 
-## What has actually changed
+**You need the money back quickly.** Bali is not liquid. Above USD 750,000, twelve to twenty-four months to sell is normal, and on a leasehold the term runs down throughout.
 
-In roughly one year: 18 business classifications closed to new foreign-owned registration, nominee facilitation criminalised, KBLI renumbered, and a dedicated immigration task force deployed.
+## The returns, honestly
 
-Regulation moves faster here than the market cycle. Anyone underwriting on historical appreciation alone is watching the wrong variable.
+A well-bought, well-run villa in a decent area produces **seven to nine percent net** on capital. Good properties in strong areas with excellent management reach eleven to fourteen.
 
-## The version that works
+The marketing numbers — fourteen, eighteen, twenty-two percent — are gross, before management at fifteen to twenty-five percent, maintenance at ten to fifteen, staff, utilities, licensing, platform commission, tax and realistic vacancy.
 
-Buy the land on verified fundamentals. Treat the rental business as a licensed business with real costs and real competition. Pay a price that works if the last three years do not repeat.
+Seven to nine percent net, in a currency that has held reasonably, on an asset you can use, is a good return by most standards. It is simply not the number on the brochure, and buyers who underwrite to the brochure number are disappointed by an outcome that was actually fine.
 
-That is a narrower set of purchases than the market is selling, and it is the set that has held up.
+## Capital growth
+
+Land in the developed corridors has appreciated substantially over the past decade and in some areas dramatically. Anyone who bought Pererenan or Seseh land five years ago has done very well.
+
+Two caveats. First, on a leasehold you do not capture land appreciation, because you do not own the land — you own a shrinking number of years. Capital growth is a landowner's return, not a lessee's. Second, the corridors that grew are now priced as though they will keep growing, so today's buyer is paying for the growth story rather than discovering it.
+
+If capital growth is the objective, that argues for buying land in an earlier corridor under a structure that captures it, not for buying a finished villa on a lease in a mature one.
+
+## The risks nobody puts in the brochure
+
+Regulatory change, which happens and happens quickly. Bali closed new foreign-owned villa and homestay registration on 22 July 2026, which changed a lot of plans overnight.
+
+Oversupply in specific areas. A great deal of villa stock has been added to Canggu in four years, and a mediocre property no longer fills itself on location alone.
+
+Currency. Your return in rupiah is not your return in AUD, GBP or EUR.
+
+Dependence on tourism, which is dependent on flight capacity, which is dependent on things entirely outside your control.
+
+Term decay, which is the largest cost of leasehold ownership and appears on no statement.
+
+## So, is it worth it?
+
+For a buyer who wants a usable asset in a place they like, with a decent income, who verifies properly and runs it seriously: yes, and comfortably.
+
+For a buyer who wants a passive, hands-off investment returning eighteen percent with no attention: no, and that buyer is the one most of the marketing is aimed at.
+
+The property market here is neither the opportunity it is sold as nor the trap it is sometimes described as. It is an ordinary market with unusual legal mechanics, where the buyers who do the work do well and the ones who do not, do not.
 
 ## Common questions
 
 ### Is Bali property a good investment in 2026?
-Well-located, well-zoned land with a lawful structure still works. Generic rental villas priced on optimistic projections increasingly do not.
+For buyers who secure a long term at a price the income supports and verify properly, yes — seven to nine percent net is a realistic expectation. For buyers underwriting to marketing gross yields, no.
 
-### Can you actually make money in Bali property?
-Yes, through nightly rental on a differentiated licensed property, annual leasing, land appreciation, or building and selling. Each suits a different buyer.
+### What returns can I expect from a Bali villa?
+Seven to nine percent net on a well-run property, and eleven to fourteen on a strong property with excellent management. Marketing figures of fourteen to twenty-two percent are gross.
 
-### Is Bali property risky?
-Yes. Illiquid, term-limited, operationally demanding and exposed to fast regulatory change. Those risks are manageable and they are real.
+### Does Bali property go up in value?
+Land in the developed corridors has appreciated substantially, but on a leasehold you do not capture land appreciation — you hold a shrinking number of years. Capital growth is a landowner's return.
 
-### Should I buy in Bali or somewhere I can own outright?
-If your priority is a secure transferable asset your children inherit cleanly, look at Malaysia, Japan or Europe. If it is yield and lifestyle, Bali, with the verification done properly.
+### What is the biggest risk in Bali property?
+Paying before verification is complete. Regulatory change, oversupply in specific areas and term decay on leaseholds follow.
 
-### What return should I expect?
-Net of vacancy, management, staff, maintenance, tax and refurbishment, well below the gross figures quoted in sales material. Model it from real statements.
+### Is it better to buy or rent in Bali?
+Rent if you are here for under three years or still deciding on an area. Buy if you have a clear use, a verified property and a term the income supports.

@@ -5,63 +5,88 @@ summary: A manager costs a large share of revenue. Self-managing costs your time
 category: rental
 order: 24
 risk: medium
-regulation: Market figures. Verify current pricing directly.
+regulation: Market figures. Employment obligations apply to directly hired staff. Verify current practice.
 applies: Owners deciding how to run the property
-verified: 2026-09-15
+verified: 2026-09-21
 ---
 
-Most owners assume a management company is compulsory. It is not, and the arithmetic is closer than the industry suggests.
+This decision costs or saves fifteen to twenty-five percent of your gross revenue every year, which over a twenty-five year lease is an enormous number. It deserves more thought than it usually gets.
 
-## What a manager actually does
+## What a full-service manager does
 
-Guest communication, check-in and check-out, cleaning coordination, maintenance, supplies, listing management, pricing, and reporting.
+Pricing and calendar management. Platform listings and their maintenance. Guest communication, bookings and problems. Check-in and check-out. Cleaning, laundry and turnover. Pool and garden. Staff scheduling and payroll. Maintenance and repairs. Restocking. Reporting. Often licensing and tax compliance too.
 
-The fee is a percentage of revenue, and the headline percentage is rarely the total. Booking commission, laundry, consumables, marketing, maintenance coordination and contractor markups are frequently billed separately.
+For **fifteen to twenty-five percent of gross revenue**, sometimes more on smaller properties. Some structures add a fixed monthly fee, and some mark up maintenance, which is where the real cost frequently hides.
 
-## The real cost
+## What self-managing actually requires
 
-Ask for a full sample month of actual statements from a comparable property under the same manager. Total everything charged, divide by the revenue, and compare that to the headline percentage.
+Not doing it yourself from another country. It means assembling and running the pieces:
 
-Owners are routinely surprised by the gap.
+**A local point of contact** who handles arrivals, problems, keys and anything physical. This is non-negotiable and it is the hardest part to get right.
 
-## What self-managing requires
+**A cleaning and laundry team**, either employed or contracted per turnover.
 
-| Need | Reality |
-| --- | --- |
-| A trusted local person | Non-negotiable. Someone must physically be there |
-| Guest response | Platforms rank on it. Hours, not days |
-| Cleaning and laundry | Reliable, on turnover timing |
-| Maintenance | A plumber, an electrician, a pool technician you can call |
-| Listing and pricing | Ongoing work, not set and forget |
-| Your presence | At least occasionally, and ideally in the first months |
+**A pool and garden service**, weekly at minimum.
 
-Self-managing from another time zone with nobody local is not self-managing. It is neglect with a login.
+**A maintenance contact** who can be reached and will actually turn up.
 
-## The middle option most people miss
+**You**, doing pricing, listings, guest communication and coordination.
 
-Employ your own villa manager directly rather than contracting a management company. You carry the employment obligations, BPJS at roughly 14 percent and the THR month, and you keep control of the listing, the reviews and the calendar.
+Realistically that is five to fifteen hours a month for a single villa, more in peak, and it does not respect your time zone. Guests message when guests message.
 
-For a single villa with enough revenue to support it, this frequently nets better than a percentage-of-revenue agreement.
+## The money
 
-## The clause that decides everything
+On a villa grossing USD 70,000, a manager at twenty percent costs USD 14,000 a year.
 
-**Who owns the platform listing.** If the manager owns the account, reviews and calendar, changing manager means starting from zero, and that is leverage handed over for nothing.
+Self-managing, you still pay the cleaning team, the pool and garden service and the local contact. That is commonly USD 4,000 to USD 8,000 depending on villa size and how much the local contact does.
 
-Insist the accounts are in your name with the manager granted access. It costs nothing at the start and is close to impossible to recover later.
+So the saving is roughly USD 6,000 to USD 10,000 a year for five to fifteen hours a month of your time. Whether that is a good trade depends entirely on what your time is worth and whether you enjoy it.
+
+## The part that is not about money
+
+A good manager does not just save you time. They **earn more revenue** than you will.
+
+They price dynamically across four seasons, know what comparable villas are actually achieving, respond to enquiries within minutes, maintain review scores, and keep the property in the condition that sustains the rate. A well-managed villa frequently grosses fifteen to twenty-five percent more than the same villa self-managed from abroad.
+
+If that is true for your property, the manager is free. The fee is covered by the revenue difference and you get your time back.
+
+If it is not true — and with a mediocre manager it often is not — you are paying twenty percent for administration.
+
+## The failure mode to watch
+
+The most common outcome in Bali is neither of these. It is a manager who performs adequately at first and then quietly drifts. Occupancy slides from seventy-five to fifty-five percent over two years. Revenue falls. Nobody says anything, because the manager's incentive is a quiet life rather than the marginal booking.
+
+Owners who read the monthly statement never notice, because the statement shows what happened, not what should have happened. Owners who compare achieved rate and occupancy against four comparable villas each quarter catch it in one season.
+
+That quarterly comparison is two hours, four times a year, and it is the highest-return work an owner does regardless of which model they choose.
+
+## Which to choose
+
+**Hire a manager if** you live abroad, own one or two properties, value your time, or are letting nightly. Nightly letting is a hospitality operation and doing it remotely and part-time rarely goes well.
+
+**Self-manage if** you live in Bali or spend substantial time here, have a local contact you genuinely trust, own several properties so the fixed costs spread, or are letting long-term. Long-term rental to a single tenant needs a fraction of the attention and a manager adds much less value.
+
+**The middle option**, which suits a lot of owners: a manager handling operations and guests, with you retaining pricing and listing control. Fees are lower, you keep the lever that most affects revenue, and you still get the local presence.
+
+## If you hire one, contract it properly
+
+Most Bali management agreements are one page and protect the manager. Yours should define the fee and exactly what it covers, whether maintenance is marked up, reporting frequency and content, a performance metric with a review point, who holds the guest relationship and the booking data, notice and termination, and what happens to forward bookings if you leave.
+
+That last one matters. An agreement that lets a departing manager keep or cancel your forward bookings gives them leverage you do not want them to have.
 
 ## Common questions
 
-### Do I need a villa manager in Bali?
-No, but you need someone physically present and responsive. Self-managing remotely with nobody local does not work.
+### How much does villa management cost in Bali?
+Fifteen to twenty-five percent of gross revenue, sometimes more on small properties, with some structures adding fixed fees or marking up maintenance.
 
-### How much do Bali villa managers charge?
-A percentage of revenue, plus items commonly billed separately. Total a real month of statements rather than trusting the headline rate.
+### Can I manage a Bali villa from overseas?
+For long-term rental, reasonably. For nightly letting it is difficult — it is a hospitality operation requiring fast responses across time zones and a trusted local contact for anything physical.
 
-### Can I manage my Bali villa from abroad?
-Only with a trusted local person handling guests, cleaning and maintenance. The admin can be remote; the physical presence cannot.
+### Do villa managers earn back their fee in Bali?
+A good one usually does, through better pricing, faster response times and maintained review scores, which commonly produce fifteen to twenty-five percent more revenue. A mediocre one does not.
 
-### Is it cheaper to employ my own manager?
-Often, for a villa with enough revenue. You take on employment obligations including BPJS and THR, and you keep control of the listing.
+### How do I tell if my villa manager is underperforming?
+Compare your achieved rate and occupancy against four comparable villas' calendars each quarter. Monthly statements show what happened, not what should have.
 
-### Who should own the Airbnb account?
-You. If the manager owns it, replacing them means losing the reviews and ranking you paid to build.
+### What should a Bali villa management agreement include?
+The fee and exact scope, whether maintenance is marked up, reporting content and frequency, a performance metric, notice and termination, and who controls forward bookings on exit.

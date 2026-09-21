@@ -5,62 +5,80 @@ summary: Value the land and the building separately, then check both against wha
 category: rental
 order: 22
 risk: high
-regulation: Market figures. Verify current pricing directly.
+regulation: Market figures. NJOP is a reference point, not a market valuation. Verify current pricing directly.
 applies: Anyone about to make an offer
-verified: 2026-09-13
+verified: 2026-09-21
 ---
 
-Most buyers here value a property by comparing it to other asking prices. In a market where listings sit for months at no cost to the seller, that is comparing fiction to fiction.
+There is no reliable comparable sales database in Bali. No published transaction register, no independent valuation profession of the kind you would rely on elsewhere. You are valuing without the infrastructure most markets take for granted, which means the method matters more.
 
-## The method
+## Why asking prices tell you nothing
 
-**Step 1: value the land.** Establish price per are for comparable, similarly zoned land on the same road, from **transacted** evidence verified by your notary. Multiply by plot size.
+Listed prices in Bali carry a great deal of optimism. Properties sit for six, twelve, eighteen months at numbers nobody will pay, and the listing stays up.
 
-**Step 2: value the building.** Estimate what it would cost to construct today at USD 600 to 1,500 per square metre by specification, then depreciate hard. Tropical wear is fast and a full refurbishment cycle runs roughly every five years.
+Worse, the same property frequently appears at several prices through different agents, because each adds their own margin. Averaging four asking prices for a villa does not give you its value. It gives you four opinions from people paid on the sale.
 
-**Step 3: value the fit-out.** Furniture and soft goods are short-lived here. A four-year-old fit-out is much closer to replacement than to new.
+So: asking prices are the starting point of a negotiation, not evidence of worth.
 
-**Step 4: sanity-check against lawful income.** Only what the property can legally produce, given its licence position. An unlicensed villa's rental income is not a valuation input.
+## Value the land first
 
-Add steps 1 to 3, check against 4. Where the asking price sits far above, ask what justifies the gap.
+Land is the foundation of the number and the part that holds value.
 
-## Leasehold changes everything
+Establish the price per **are** — 100 square metres — for that specific street, not the area. Land prices in Bali vary sharply over short distances, and a parcel two hundred metres away on a better road with better access can be worth substantially more.
 
-A leasehold is a wasting asset. Its value should decline as the term runs down, steeply toward the end, and the extension clause determines how steeply.
+Sources that actually help: a notary who transacts in that area, a local agent you are not buying from, and recent transactions you can verify rather than hear about. NJOP, the government's assessed value, is a floor and a sanity check rather than a market figure, but a transaction priced well below NJOP should prompt questions.
 
-Buyers regularly pay near-freehold prices for leaseholds with a third of the term gone and an extension clause saying "market rate". That combination is the worst value proposition commonly available here.
+Then adjust for what makes a parcel worth more or less: road frontage and access quality, whether it is splittable, the zoning and whether your intended use is permitted, KDB and the buildable area after setbacks, view and elevation, and water and power availability.
 
-## The deductions that are real and quantifiable
+## Then value the building separately
 
-| Issue | Effect on value |
-| --- | --- |
-| Short remaining term | Severe, and non-linear |
-| Weak extension clause | Severe |
-| Missing PBG or SLF | Large, and shrinks the buyer pool |
-| Licence absent or non-transferable | Treat rental income as zero |
-| Fit-out due for refurbishment | Cost of the refurbishment, or more |
-| Narrow access road | Material, affects build cost and guests |
-| Green zoning | Decisive, if you intended to build |
+A building has a replacement cost and an age.
 
-## Why asking prices run high
+Replacement cost is roughly USD 450 to USD 900 per square metre in Bali depending on specification, with high-end finishes above that. That gives you a new-build figure.
 
-Listings cost the seller nothing to maintain, so they drift upward. Agents quote asking prices as comparables because those are the numbers available.
+Then depreciate it. Bali's climate is hard on buildings and the useful life of a villa without significant reinvestment is shorter than buyers assume. A twenty-year-old villa that has not been maintained may be worth close to nothing above land value, because the pool, roof, electrics and aircon all need replacing.
 
-Ask what **transacted** on that street in the last twelve months, and have your notary confirm it against the deeds.
+Inspect properly before assigning a building value. A walkthrough at midday tells you very little about drainage, structure or systems.
+
+## Then apply the term
+
+This is the step that distinguishes Bali from most markets and the one most often skipped.
+
+On a leasehold you are not buying the land and building. You are buying a number of years of use. The value is the income and use available over those years, discounted.
+
+The decline is not linear. A villa with thirty years left has a deep buyer pool. The same villa with eight years left has almost none, and trades far below a simple pro-rata calculation of the remainder. Price the accelerating decline, not a straight line.
+
+And read the extension clause before assigning any value to an extension. A guaranteed extension at a fixed price is worth a great deal. A right of first refusal at a price to be determined is worth very little, and the two are routinely presented identically.
+
+## Then cross-check against income
+
+Whatever the land-plus-building calculation says, test it against what the property can lawfully earn.
+
+Realistic nightly rate for that street, from achieved rates rather than listings. Realistic occupancy for that configuration and area. Less management, maintenance, staff, utilities, licensing, commission and tax. That gives you net income.
+
+If the price implies a net yield well below what comparable properties produce, you are paying for something other than income — a view, a position, a lifestyle — and you should know that you are.
+
+If it implies a net yield well above, something is wrong. Check the term, the licence and the zoning first, because one of them is usually the reason.
+
+## What lowers value more than sellers admit
+
+A short remaining term. A prioritas rather than jaminan extension clause. Missing PBG or SLF. Zoning that does not permit commercial accommodation. No documented access right. A parcel that cannot be split. A building with deferred maintenance. Any dispute, boundary or otherwise. Unpaid PBB.
+
+Every one of these is a legitimate reason to pay less, and every one is discoverable before you offer.
 
 ## Common questions
 
-### How do I know if a Bali villa is overpriced?
-Value the land from transacted comparables, add depreciated replacement cost for the building, and compare. Most asking prices sit well above that total.
+### How do you value property in Bali?
+Value the land per are for the specific street, value the building at depreciated replacement cost, apply the remaining lease term, then cross-check the total against realistic net rental income.
 
-### Do Bali villas appreciate?
-The land can. The building depreciates in this climate. Pricing a ten-year-old villa as though the structure is new confuses the two.
+### Are Bali asking prices realistic?
+Generally not. Properties sit for months at prices nobody will pay, and the same property often appears at several different prices through different agents.
 
-### How much does a leasehold lose per year?
-Not linearly. Decline accelerates as the term shortens because your buyer inherits the expiry, and a weak extension clause accelerates it further.
+### How much does the lease term affect value in Bali?
+Decisively, and not linearly. A villa with eight years left trades far below a pro-rata share of one with thirty, because the buyer pool for a short remainder is very small.
 
-### Are Bali asking prices negotiable?
-Usually, and the negotiation is strongest when built on verified deductions rather than on feel.
+### Is NJOP a good guide to market value?
+No. It is the government's assessed value, useful as a floor and a sanity check, but it does not track market prices, particularly in areas that have appreciated quickly.
 
-### What is the best evidence of value in Bali?
-Transacted prices on the same road, confirmed by your notary against the deeds, not listing prices.
+### What reduces a Bali property's value most?
+A short remaining term, an extension clause that is only a right of first refusal, and missing building permits. All three are checkable before you make an offer.
