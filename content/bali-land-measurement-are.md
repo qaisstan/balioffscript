@@ -5,67 +5,76 @@ summary: Land here is priced per are, which is 100 square metres. Confusing it w
 category: areas
 order: 14
 risk: medium
-regulation: Standard metric land measurement as used in Indonesian conveyancing.
+regulation: Market convention. Verify measured area against the certificate with a surveyor before purchase.
 applies: Anyone comparing land prices here
-verified: 2026-09-06
+verified: 2026-09-21
 ---
 
-This sounds trivial and it is responsible for real mistakes, in both directions.
+Land in Bali is priced per **are**, and buyers arriving with square metres, square feet or acres in their head misjudge everything from plot size to price until they convert properly.
 
 ## The units
 
-| Unit | Equals |
-| --- | --- |
-| 1 are | 100 square metres |
-| 1 hectare | 100 are, or 10,000 square metres |
-| 1 acre | roughly 40.5 are |
-| 1 tumbak or ubin | around 14 square metres, older local usage |
+**1 are = 100 square metres.** The basic unit of land pricing in Bali and across Indonesia.
 
-Land in Bali is quoted **per are**. A plot described as 5 are is 500 square metres. A price of "USD 60,000 per are" on a 5 are plot is USD 300,000, not USD 60,000.
+**1 hektar = 100 are = 10,000 square metres.**
 
-## Where the errors happen
+For conversion: 1 are is about 1,076 square feet, and a hectare is about 2.47 acres.
 
-**Assuming a price is total rather than per are.** The single most common one, and it is off by the number of are in the plot.
+So a "5 are plot" is 500 square metres — roughly 54 square feet short of 5,400 — which is a comfortable villa plot and considerably smaller than most Australians or Americans picture when they hear "half a hectare".
 
-**Confusing are with square metre.** A factor of one hundred.
+## What each size actually supports
 
-**Comparing per-are prices across areas without adjusting for what you get.** Two plots at the same price per are can be worth wildly different amounts depending on zoning, access and shape.
+This is where the number becomes useful, because **KDB** — the building coverage ratio — caps the proportion of the plot you may build on. In a residential zone that is commonly forty to sixty percent, and lower in green zones.
 
-Always restate the number yourself: total price, total square metres, and price per square metre. Do the arithmetic rather than accepting the framing you were given.
+**2 are (200 m²).** A small one or two bedroom with a plunge pool, tightly planned. Common in central Canggu where land is expensive.
 
-## Leasehold is quoted differently
+**3 are (300 m²).** A comfortable two bedroom with a proper pool, or a tight three bedroom.
 
-A leasehold may be quoted as a total for the full term, or per are per year. These are not comparable without knowing the term.
+**5 are (500 m²).** The sweet spot for a three bedroom with a good pool and garden. Enough room to design properly rather than squeeze.
 
-A plot at "USD 3,000 per are per year" for 25 years on 5 are is USD 375,000 across the term. Quoted as a lump sum it might have looked like a different proposition entirely.
+**8 to 10 are (800–1,000 m²).** Four bedrooms with generous outdoor space, or three bedrooms with real privacy and landscaping.
 
-Establish: total price, term in years, what happens at extension and at what cost.
+**Above 10 are.** Estate scale, multiple structures, or a development.
 
-## What to check alongside the number
+Remember that setbacks — road, boundary, river, coastal — come off before KDB is applied to what remains. On a narrow or irregular plot that can remove a surprising amount.
 
-Price per are means nothing without the rest:
+## Why prices are quoted per are
 
-- Zoning designation, which can change value several times over
-- Access road width and whether the right of way is registered
-- Shape and frontage, since awkward plots build badly and sell worse
-- Buildable envelope after KDB, KLB, green area and setbacks
-- Whether the stated area matches the certificate and the ground
+It makes comparison across parcels of different sizes immediate, and it is what everyone in the market uses. Any price quoted to you in another unit is being translated for your benefit, which is fine, but do the per-are conversion yourself so you are comparing like with like.
 
-That last one matters. Have the boundaries walked against the certificate. Stated areas and actual areas do not always agree, and the difference is your money.
+Bear in mind that **price per are is not constant with size**. Small parcels in prime areas often carry a premium per are because they are scarce and accessible to more buyers. Very large parcels sometimes trade at a discount per are because the buyer pool is smaller.
+
+## Leasehold changes the comparison entirely
+
+A leasehold price per are and a freehold price per are are not comparable numbers.
+
+On a lease you are buying a defined number of years. A parcel at a given price per are on a thirty year lease and the same price per are on a twelve year lease are wildly different propositions, and the second is far more expensive in real terms.
+
+**Convert to price per are per year of term** when comparing leaseholds. It is the only way to see what you are actually paying, and it exposes short-term parcels priced as though they were long ones.
+
+## Verify the area
+
+The advertised area and the certificate area differ more often than buyers expect, particularly on parcels informally divided within a family over generations.
+
+**Have it surveyed**, and compare the survey to the certificate and to what is physically fenced. This is one of the most common findings in Bali due diligence and it is a legitimate reason to pay less, or to walk.
+
+Also subtract anything unbuildable before you value it: land inside a coastal or river setback, land that will become an access strip if you split the parcel, and any part in a different zone.
+
+**Price per buildable square metre** is the honest number. Price per are of title is the marketing one.
 
 ## Common questions
 
 ### What is an are in Bali?
-100 square metres. Land here is priced per are, so a 5 are plot is 500 square metres.
+100 square metres. It is the standard unit for pricing land in Bali and across Indonesia.
 
-### How many square metres is one are?
-Exactly 100 square metres. One hectare is 100 are, or 10,000 square metres.
+### How big is 5 are?
+500 square metres, roughly 5,400 square feet. It comfortably supports a three bedroom villa with a good pool and garden.
 
-### How is land priced in Bali?
-Per are for freehold. Leasehold may be quoted as a total for the term or per are per year, which are not comparable without the term.
+### How many are in a hectare?
+100 are, which is 10,000 square metres or about 2.47 acres.
 
-### How do I compare Bali land prices properly?
-Convert everything to price per square metre, then adjust for zoning, access width, shape and buildable envelope. The headline per-are figure alone is not comparable between plots.
+### How do I compare leasehold prices per are?
+Convert to price per are per year of remaining term. A parcel at the same price per are on a twelve year lease is far more expensive than one on thirty years.
 
-### Does the certificate area always match the land?
-Not always. Have the boundaries walked against the certificate before you pay, because the difference between stated and actual area is money.
+### Does the advertised land area match the certificate?
+Frequently not, particularly on parcels informally divided within families. Have it surveyed and compare against the certificate and what is physically fenced.
