@@ -7,64 +7,86 @@ order: 14
 risk: critical
 regulation: Immigration rules change frequently. Verify against the current official source before acting.
 applies: Anyone whose permit is close to expiry
-verified: 2026-09-06
+verified: 2026-09-21
 ---
 
-Overstaying is treated as an immigration offence rather than a billing matter, and the tolerance that once existed has narrowed considerably.
+Overstaying in Indonesia is not a paperwork irregularity. It has a defined cost from the first day and a defined escalation, and the escalation is severe.
 
-## How it escalates
+## The daily fine
 
-| Situation | Consequence |
-| --- | --- |
-| Short overstay | Daily fine, payable on exit |
-| Extended overstay | Detention, deportation, re-entry ban |
-| Deliberate or repeated | Longer ban, harder to reverse |
+From the day after your permit expires, a fine accrues **per day**, per person. Children count separately, which means a family overstaying together accumulates the fine several times over.
 
-The daily fine is the visible part. The re-entry ban is the part that ends plans, because it applies to Indonesia as a whole rather than to Bali, and it lasts years.
+It is paid at the airport on departure, and it must be paid before you leave. There is no arguing it down and there is no process for waiving it in ordinary circumstances.
 
-## Why people overstay
+For a short overstay of a few days, this is the entire consequence. Unpleasant, expensive, and finished.
 
-Almost never deliberately. The common causes are an extension applied for too late, a document rejected at the last moment, a medical problem, or simply miscounting the days.
+## Where it stops being a fine
 
-The last one is more common than it should be. Count from the date stamped on entry, not from when you think you arrived, and treat the expiry date as the last day you may be in the country rather than the day you plan to leave.
+Beyond a threshold measured in weeks rather than days, an overstay stops being treated as an administrative matter and becomes an immigration offence.
 
-## If it has already happened
+At that point the consequences can include **detention**, **deportation**, and a **re-entry ban** of a defined period. Immigration detention in Indonesia is not a formality and the process is not quick.
 
-Do not simply turn up at the airport and hope. Speak to a reputable visa agent or immigration directly, because how the situation is handled affects the outcome.
+The re-entry ban is the part that matters most to anyone with a property, a business or a family here. Being unable to enter Indonesia for a period of years while owning a villa in Bali is a genuinely serious problem, and it is not negotiable once imposed.
 
-A short overstay disclosed and paid is a different matter from a long one discovered at the gate.
+## How people end up here
 
-## The enforcement climate
+Almost never deliberately.
 
-The Dharma Dewata task force has been operational since 15 April 2026 with roughly 100 officers across the main expat areas, and it detained 62 foreign nationals in its first three weeks. Officers also monitor public social media and LinkedIn.
+**Miscounting.** A thirty day visa on arrival means thirty days including the day of arrival. People count from the wrong day and lose one.
 
-That posture applies to status generally, not only to working. Someone living here informally on rolling tourist visas while running a business is exposed on two fronts at once.
+**Assuming an extension is automatic.** It is not. An extension must be applied for and granted, in time, and processing takes days.
 
-## Practical protection
+**Applying too late.** Extension applications have to be lodged before expiry with enough time to process. Lodging on the last day is not applying in time.
 
-- Diarise the expiry the day you arrive, not the week it approaches
-- Start extensions at least a week before expiry, not on the last day
-- Keep your passport and permit documents accessible
-- If you live here, move onto the correct permit rather than cycling visitor visas
-- Do not rely on an agent's assurance without seeing the approval yourself
+**An agent who did not file.** A common and infuriating cause. You paid someone, they did not do it, and the exposure is yours, not theirs. Get confirmation of the actual filing, not a message saying it is handled.
 
-## The bigger point
+**A sponsor relationship ending.** A KITAS is tied to its sponsor. If the employment ends or the sponsor withdraws, the permit position changes and it does not wait for you to notice.
 
-Rolling tourist visas as a way of living here permanently was always a workaround, and it is one that the current enforcement environment is closing. If Bali is your home rather than your holiday, the right answer is the permit that matches what you actually do.
+**Illness or a missed flight**, which does not stop the clock.
+
+## If you are already overstaying
+
+**Do not wait.** The cost increases every day and the threshold where it changes character is fixed.
+
+**Go to immigration, or go to the airport and pay.** For a short overstay the airport is usually the practical route.
+
+**Take advice for a long overstay** before presenting yourself, because the process is different and the outcome can be materially affected by how it is handled.
+
+**Do not attempt to leave without addressing it.** You will be stopped at the airport, and attempting to conceal it makes a fine into something worse.
+
+## How to not be here
+
+**Diarise expiry a month ahead**, not a week.
+
+**Count from arrival day**, and check the actual stamp or e-visa record rather than your memory of what you bought.
+
+**Extend early.** The moment an extension window opens, use it.
+
+**Confirm any agent has actually filed**, with the reference and the receipt, not a reassurance.
+
+**If a sponsor relationship is ending**, sort the permit position before it ends rather than after.
+
+**Keep an exit ready.** If a renewal is uncertain, having a flight out before expiry removes the worst outcome.
+
+## The property connection
+
+For anyone with a villa, a lease or a company here, an overstay is disproportionately expensive relative to the fine, because a re-entry ban separates you from an asset you cannot manage remotely and cannot easily sell from abroad.
+
+That is the real argument for treating immigration dates with more care than they usually get. The fine is the small part.
 
 ## Common questions
 
-### What is the overstay fine in Indonesia?
-A daily fine accruing from the first day of overstay, payable before you can leave. Longer overstays escalate beyond fines.
+### How much is the overstay fine in Indonesia?
+A fixed amount per day, per person, from the day after expiry, payable at the airport before departure. Children are counted separately.
 
-### Can you be deported for overstaying in Bali?
-Yes. Extended overstays lead to detention, deportation and a multi-year ban on re-entering Indonesia.
+### What happens if I overstay more than 60 days in Indonesia?
+Beyond a threshold measured in weeks, an overstay is treated as an immigration offence rather than an administrative matter, with possible detention, deportation and a re-entry ban.
 
-### How long is the Indonesia re-entry ban?
-It varies with the circumstances and the length of the overstay, and it applies to Indonesia as a whole. Assume years rather than months.
+### Can I pay the overstay fine at the airport?
+For short overstays, yes, and it must be paid before you can leave. For long overstays the process is different and warrants advice first.
 
-### What if I overstayed by a few days?
-Usually a fine, paid on exit. Handle it openly rather than hoping it goes unnoticed, and take advice if the number of days is significant.
+### Does the overstay fine apply to children?
+Yes, per person, so a family overstaying together accumulates the fine for each member.
 
-### Does overstaying affect future visa applications?
-Yes. It goes on your immigration record and affects later applications, including for residence permits.
+### What is the most common reason people overstay in Bali?
+Assuming an extension is automatic or leaving the application to the last day, and agents who were paid to file but did not. Always confirm the filing, not the promise.
