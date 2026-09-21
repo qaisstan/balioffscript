@@ -5,63 +5,88 @@ summary: The step that stalls more company formations than any other, and the on
 category: company
 order: 08
 risk: high
-regulation: Bank KYC requirements vary by institution and branch.
+regulation: Bank KYC requirements vary by institution and branch and change frequently. Confirm directly with the bank.
 applies: Anyone forming a PT PMA
-verified: 2026-09-15
+verified: 2026-09-21
 ---
 
-Company formation moves reasonably quickly on paper. The bank account is where timelines slip.
+Opening the company bank account stalls more Indonesian company formations than any other step, and it is the one you cannot do remotely.
 
-## What you need
+## Why it is the bottleneck
 
-| Document | Note |
-| --- | --- |
-| Deed of establishment and ministry approval | The company must legally exist first |
-| NIB | Business identification number from OSS |
-| Company NPWP | Tax registration |
-| Director's passport and KITAS | Requirements vary by bank |
-| Proof of company address | A real, verifiable one |
-| Shareholder documents | Including corporate shareholders |
+Everything else in a PT PMA formation can be handled by professionals working from documents. The bank account cannot.
 
-## Why it stalls
+Indonesian banks apply know-your-customer requirements that, for a foreign-owned company with foreign directors, generally mean the **director attending a branch in person** with original documents.
 
-**Presence.** Most banks want the director physically present to sign. This is the single most common reason a formation that was "nearly done" sits for weeks.
+There is no workaround. A power of attorney does not substitute for it at most institutions, and a consultant cannot open it on your behalf.
 
-**Branch discretion.** Banks differ, and branches within a bank differ more. One branch refuses what another accepts. If the first attempt fails, try elsewhere before concluding it is impossible.
+## What you generally need
 
-**Address verification.** A virtual office address is fine for some banks and a problem for others. Ask before you commit to one.
+**The company documents.** Deed of establishment, ministry approval, NIB, NPWP, domicile documentation, and the articles.
 
-**Foreign shareholders.** Corporate shareholders, especially offshore ones, add documentation and time.
+**Director and commissioner identification.** Passports, and stay permits where applicable.
 
-## Which banks
+**Proof of address**, for the company and frequently for the individuals.
 
-BCA has the best interface and network. Mandiri, BNI and BRI are the large state banks. Permata and CIMB Niaga are often more comfortable with foreign-owned companies.
+**The director present**, in person, at the branch.
 
-For a PT PMA with foreign directors, the international-facing banks generally cause less friction.
+**A specimen signature process**, with the authorised signatories.
 
-## Capital deposit
+Requirements vary between banks and, genuinely, between branches of the same bank. What one branch accepts another may not, and staff turnover changes the answer.
 
-Paid-up capital must actually be deposited, and the bank statement evidencing it is what proves the company is funded. This is a real cash requirement, not a paper one, and it is separate from the investment plan value.
+## What actually goes wrong
 
-## Running it
+**Requirements differ by branch.** Confirm with the specific branch you will attend, not with the bank generally or with a consultant's memory of last year.
 
-Expect more friction than a Western business account. Larger transfers may require supporting documentation. International transfers take longer and cost more. Online banking is good at the major banks but the interface may be Indonesian-first.
+**Document mismatches.** A name spelled differently between the passport and the company deed. An address that does not match across documents. A passport renewed since the company was formed. Banks reject on these rather than querying.
 
-Keep every transfer documented against the contract or invoice it relates to. It matters for tax filings and it matters if anything is questioned later.
+**The director is not in Indonesia.** The most common cause of delay, and entirely foreseeable. Plan the trip into the formation timeline rather than discovering it afterwards.
+
+**Stay permit status.** Some banks are considerably more comfortable with a director holding a KITAS than one on a visit visa, and some will not proceed without one. This is bank policy rather than law, and it varies.
+
+**Risk appetite.** Some banks simply prefer not to onboard foreign-owned companies in certain sectors. A refusal is not always explained and is not always appealable. Having a second bank in mind saves weeks.
+
+## Practical advice
+
+**Choose the bank before you form the company**, and confirm the exact requirements with the specific branch in writing.
+
+**Use a bank with experience of foreign-owned companies.** The larger institutions and branches in areas with established foreign business communities handle this routinely; a small branch may never have done one.
+
+**Bring more documentation than asked for.** Originals, copies, and anything that establishes consistency between records.
+
+**Make the names match exactly** across the passport, the deed, the NPWP and the NIB. Including middle names and their order.
+
+**Allow time.** Even a straightforward opening is not same-day, and account activation, internet banking and card issue follow separately.
+
+**Plan a second visit.** It is common for the first attendance to surface a document requirement that was not mentioned, and the fix requires a return.
+
+## After it is open
+
+**Internet banking and token setup** usually require separate attendance and should be done on the same trip.
+
+**Understand the transaction limits** and the process for large transfers, particularly if you will be moving purchase funds through the account.
+
+**Keep the mandate current.** A change of director requires the bank record to be updated, and a company whose signatory has left is a company that cannot transact.
+
+## Why bother
+
+A company account is required to trade, to pay staff, to receive revenue and to meet tax obligations properly. Running an Indonesian company through a personal account is not a workaround; it creates tax, legal and evidential problems that surface at audit or sale.
+
+If the company holds property, the account is also what makes receiving rental income, paying staff, utilities and PBB workable from abroad.
 
 ## Common questions
 
-### Can a PT PMA open a bank account remotely?
-Usually not. Most banks require the director present in person to sign, which is the main reason formations stall.
+### Can I open an Indonesian company bank account remotely?
+Generally no. Banks require the director to attend a branch in person with original documents, and a power of attorney is not accepted at most institutions.
 
-### Which bank is best for a PT PMA?
-BCA for interface and network, Permata and CIMB Niaga for comfort with foreign-owned companies. Branch attitude varies more than bank policy.
+### What do I need to open a PT PMA bank account?
+Company deed, ministry approval, NIB, NPWP, domicile documents, director and commissioner identification, proof of address, and the director present in person.
 
-### Do I need to deposit the paid-up capital?
-Yes. It must genuinely be deposited, and the bank statement is the evidence the company is funded.
+### Why do Indonesian banks refuse foreign-owned companies?
+Risk appetite varies by institution and sector, and refusals are not always explained or appealable. Have a second bank in mind before you start.
 
-### Can I use a virtual office address?
-Some banks accept it and some refuse. Confirm with the bank before committing to an address provider.
+### Do I need a KITAS to open a company account?
+Not universally, but some banks are considerably more comfortable with a director holding one and some will not proceed without it. This is bank policy rather than law.
 
-### How long does it take to open a company account in Indonesia?
-Days once you are present with complete documents. Weeks or months if you are trying to arrange it from abroad.
+### Why does the account stall a company formation?
+Because it is the only step that cannot be completed by professionals from documents. It requires the director to be physically in Indonesia, which is often not planned for.

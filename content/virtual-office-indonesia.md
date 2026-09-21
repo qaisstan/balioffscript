@@ -5,58 +5,84 @@ summary: Cheap and widely used for company formation, and the point where banks 
 category: company
 order: 11
 risk: medium
-regulation: Indonesian administrative and company regulation. Requirements vary by regency. Confirm locally.
+regulation: OSS registered address requirements; zoning must permit the activity. Virtual offices do not satisfy activities requiring physical premises.
 applies: Anyone forming a PT PMA on a budget
-verified: 2026-09-20
+verified: 2026-09-21
 ---
 
-A virtual office gives your company a registered address and mail handling without renting premises. It is a legitimate and common choice, with specific limits.
+A virtual office solves a specific problem in Indonesian company formation and does not solve the one most Bali property investors actually have.
 
-## Why people use them
+## What the problem is
 
-Company formation requires an address. Renting real premises before the business exists is expensive and often unnecessary, particularly for a holding company or a business whose operations are elsewhere.
+OSS registration requires a **registered address**, and that address must sit in a zone permitting the business activity.
 
-A virtual office solves that at a fraction of the cost.
+Most residential addresses in Bali do not. A villa in a residential zone will not support a commercial registration, which means a foreigner forming a company cannot simply register it at the house they live in.
 
-## Where it stops working
+## What a virtual office provides
 
-**Banking.** Some banks accept a virtual address and some refuse. This is the most common failure point, and it stalls the formation at exactly the step that already causes delays.
+A **commercially zoned registered address**, plus, depending on the package: mail handling, a phone answering service, meeting room access by the hour, and a physical desk when you need one.
 
-**Licensing.** Certain classifications require premises appropriate to the activity. A business that must physically operate somewhere cannot be licensed at a mailbox.
+Cost is modest — generally a few hundred dollars a year for a basic arrangement — and the provider handles the domicile documentation OSS requires.
 
-**Domicile letter.** The provider must be able to supply a valid domicile letter for your intended activity and in the right regency. Not all can.
+For a consulting business, an agency, a software company, a trading company or any activity that does not need physical premises, this is a perfectly ordinary and legitimate solution used by a large number of Indonesian companies.
 
-**Project location.** Licensing follows the **project location**, not company domicile. A villa in Pererenan operated by a company registered at a Denpasar virtual office is still a Bali project needing Bali-compliant zoning and permits for that parcel.
+## What it does not solve
 
-That last point catches property-related companies constantly. The virtual office does not move where your business actually happens.
+**It does not make a property lawfully operable.**
 
-## What to ask before committing
+If your company's activity is accommodation — running villas — the **property itself** has to be appropriately zoned and licensed. A virtual office address in Denpasar does not authorise commercial letting of a villa in a residential zone in Kerobokan.
 
-- Can you provide a domicile letter for my specific KBLI classification?
-- Which banks have opened accounts at this address recently?
-- Is the address in the regency my project actually sits in?
-- What happens at renewal, and what does it cost?
-- Do you handle official correspondence, and how quickly do I get it?
+This confusion is common and expensive. The registered address governs where the company is registered. The property's zoning governs what may lawfully happen at the property. They are separate questions and a virtual office answers only the first.
 
-Get the banking answer with specifics. "Yes, banks accept us" is not the same as naming banks that opened accounts this year.
+Activities requiring physical premises — accommodation, restaurants, retail, manufacturing, clinics — generally cannot rely on a virtual office for the operating location.
 
-## When to take real premises
+## What to check before using one
 
-If the business physically operates somewhere, if the classification requires suitable premises, or if you have already been refused by a bank, the virtual office has done its job and the saving has stopped being a saving.
+**That your KBLI classification permits it.** Some activities require verified physical premises and some licensing authorities will inspect. A virtual office that satisfies OSS may not satisfy a sector regulator.
+
+**That the provider is established.** Your company's registered address is where official correspondence goes — from the tax office, from immigration, from OSS. A provider who closes, moves or fails to forward mail creates real problems, and missed correspondence from the tax office does not become less serious for having been missed.
+
+**That the address is in an appropriate zone** for your activity, confirmed rather than assumed.
+
+**What happens on renewal**, and what notice applies. An address that lapses is an OSS record that no longer matches reality.
+
+**Whether you get physical access** when you need it, for meetings that should not happen in a cafe.
+
+## The bank question
+
+Some banks are comfortable with a virtual office address on a company account application and some are not. It varies by institution and by branch.
+
+Confirm with the specific branch before you rely on it, because discovering it at the account opening — which already requires the director to be physically in Indonesia — costs a trip.
+
+## Where it genuinely helps a property investor
+
+**Forming the company** before you have premises, with the address sorted so OSS registration can proceed.
+
+**Holding a company** whose activity is something other than the accommodation itself — a management company, a consulting entity, a holding structure.
+
+**Keeping a registered presence** while you are not in Indonesia, with mail handled rather than accumulating at an address nobody attends.
+
+## The bigger point
+
+Before any of this matters, confirm your intended activity is actually open. **Bali closed new foreign-owned villa and homestay registration to PMA companies with effect from 22 July 2026.**
+
+A company with a tidy virtual office address, a clean NIB and a KBLI classification that does not permit what you want to do is a company carrying full compliance cost and delivering no commercial benefit.
+
+Get that answer first, in writing, and then worry about the address.
 
 ## Common questions
 
-### Can a PT PMA use a virtual office address?
-Yes, commonly, for formation and registration. The limits are banking, licensing and whether the provider can issue a valid domicile letter.
+### What is a virtual office in Indonesia?
+A commercially zoned registered address with mail handling and usually meeting room access, used to satisfy the OSS registered address requirement for company formation.
 
-### Will a bank open an account for a virtual office company?
-Some will and some refuse. Ask the provider which banks have opened accounts at that address recently.
+### Can I use a virtual office for a PT PMA?
+For service activities that do not require physical premises, yes, and it is widely used. Activities requiring physical premises, including accommodation, generally cannot rely on one.
 
-### Does a virtual office satisfy licensing requirements?
-Not for every classification. Activities requiring suitable premises cannot be licensed at a mailbox.
+### Does a virtual office let me rent out my villa?
+No. The registered address governs where the company is registered; the property's own zoning and licensing govern what may lawfully happen there.
 
-### Does my company address determine where I can operate?
-No. Licensing follows the project location, so a villa's permits depend on its own parcel regardless of company domicile.
+### Will a bank accept a virtual office address?
+Some will and some will not, varying by institution and branch. Confirm with the specific branch before relying on it.
 
-### What is a domicile letter?
-A letter from the local administration confirming the address, frequently required for licensing and banking.
+### What should I check before choosing a virtual office provider?
+That the address suits your KBLI classification, that the provider is established and forwards mail reliably, that the zone is appropriate, and what happens at renewal.
