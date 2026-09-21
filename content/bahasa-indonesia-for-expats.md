@@ -5,60 +5,90 @@ summary: You can live here on English alone. You will pay more, understand less,
 category: living
 order: 24
 risk: low
-regulation: General guidance.
+regulation: General guidance. Language school accreditation matters if a student permit is the objective.
 applies: Anyone living here for more than a season
-verified: 2026-09-06
+verified: 2026-09-21
 ---
 
-English is widely spoken in the tourist and expat areas, which is why so many foreigners live here for years without learning anything. It is also why they keep paying tourist prices.
+Learning Bahasa Indonesia is the highest-return thing a foreign property owner in Bali can do that has nothing to do with property.
 
-## Why it is worth learning
+## It is an unusually learnable language
 
-**Bahasa Indonesia is genuinely easy** by the standards of world languages. No tenses in the European sense, no grammatical gender, no cases, no tones, and it uses the Latin alphabet. Pronunciation is consistent and phonetic.
+**No verb conjugation.** The verb does not change for person or tense. *Saya makan* is I eat, I ate and I will eat, with time supplied by a separate word.
 
-You can reach useful conversational level in months rather than years, which is not true of Thai, Vietnamese or Mandarin.
+**No grammatical gender.** No masculine or feminine nouns.
 
-**Prices change.** The foreigner price and the local price are different, and speaking the language moves you toward the second one. Over years of contractors, staff, markets and services, that is real money.
+**No plurals in the usual sense.** Repetition or a quantity word does the work.
 
-**Everything administrative is in Indonesian.** Contracts, permits, notary documents, tax filings. You will still use professionals, but understanding what you are signing is worth something.
+**No tones**, unlike Thai, Vietnamese or Mandarin.
 
-**Staff relationships.** If you employ people, communicating directly rather than through a manager changes the relationship entirely.
+**Latin script**, and the spelling is genuinely phonetic. What you read is what you say.
 
-## Balinese is different
+It is consistently ranked among the more approachable languages for English speakers, and a few months of real effort produces functional conversation in a way that is simply not true of the alternatives in the region.
 
-Bahasa Indonesia is the national language and what you should learn. **Balinese** is a separate regional language with its own registers, spoken at home and in ceremony across the island.
+## Bahasa Indonesia and Balinese
 
-Nobody expects a foreigner to learn Balinese. A few words are received warmly precisely because it is unexpected.
+**Bahasa Indonesia** is the national language, spoken everywhere, used in all official documents, law and business. This is the one to learn.
 
-## How to learn
+**Basa Bali** is the Balinese language, spoken at home and in ceremony, with speech levels that vary according to the relationship between speakers. Complex, and not necessary.
 
-Private tutors here are inexpensive by Western standards and widely available. An hour or two a week with a tutor, plus using it daily, moves quickly.
+Learning a few Balinese greetings is appreciated. Learning Bahasa Indonesia is useful.
 
-Apps help with vocabulary and are poor at conversation. The bottleneck for most people is not knowing words, it is being willing to use them badly in public.
+## Why it matters commercially
+
+**Every document that governs your property is in Bahasa Indonesia**, and the Indonesian version is the one that binds regardless of any English translation.
+
+You will still get a sworn translation — that is non-negotiable — but the conversation with your notary goes entirely differently when you can follow the Indonesian text rather than relying on someone's summary of it. Being able to read the numbers, the dates and the key terms yourself changes your position.
+
+**Staff management.** A villa manager, housekeeper, gardener and security team who can be spoken to directly rather than through an intermediary is a better-run property. Instructions land, problems surface earlier, and the relationship is different.
+
+**The banjar.** The customary village organisation is the first forum for boundary, access and neighbour disputes, and it operates in Indonesian and Balinese. A foreigner who can participate is treated differently from one who cannot.
+
+**Contractors and trades.** Specifications communicated directly are specifications followed.
+
+**Officials.** Land office, immigration, tax. Being able to follow what is happening rather than being told afterwards is worth a great deal.
+
+**Price.** The foreigner price and the local price exist, and language moves you between them. Not entirely, and noticeably.
+
+## How to learn it
+
+**A course at an accredited institution**, which has a secondary benefit: it can support a **student KITAS**, giving you lawful residency while you study. For someone without an employer, spouse or investor basis who wants to be here legitimately, this is a genuinely underused route.
+
+**Private tutoring**, which is inexpensive by Western standards and the fastest way to progress.
+
+**Apps and self-study** for vocabulary and structure, which work well for a language this regular.
+
+**Using it daily**, which is the actual variable. Bali's problem for learners is that English is widely spoken in the tourist areas, so it is entirely possible to live here for years without learning anything. That requires a deliberate decision to use Indonesian even when English would be easier.
 
 ## What to learn first
 
-Numbers, prices and bargaining. Directions. Food and ordering. Greetings and the polite forms. The vocabulary around your own house: repairs, water, electricity, deliveries.
+Numbers, which you will use constantly and which unlock prices, dates and quantities.
 
-That practical core covers most daily interactions and it is a few weeks of effort.
+Greetings and politeness, which change how you are received immediately.
 
-## The honest trade-off
+The property vocabulary that actually matters: **sewa** (lease), **jual** (sell), **beli** (buy), **tanah** (land), **rumah** (house), **surat** (document, letter), **sertifikat** (certificate), **pajak** (tax), **izin** (permit), **perpanjangan** (extension).
 
-You do not need it to survive here. You need it to stop being a visitor. Foreigners who speak it have a noticeably different relationship with the place, and the ones who do not tend to describe Bali in terms of other foreigners.
+And the two words that decide a lease: **jaminan** (guaranteed) and **prioritas** (priority). You do not need to speak Indonesian to find those two words in a document and know which one you are holding, and knowing that is worth more than most of the rest of this page.
+
+## The honest return
+
+Six months of genuine effort gets you conversational. That changes your daily life here, your relationships with staff and neighbours, and your position in every transaction you enter.
+
+Against the cost of a language course, it is the best value available to a foreign owner in Bali.
 
 ## Common questions
 
-### Do people speak English in Bali?
-Widely in tourist and expat areas, less so outside them and in government offices. You can live here on English alone.
-
 ### Is Bahasa Indonesia hard to learn?
-It is among the easier languages for English speakers: no tenses in the European sense, no gender, no cases, no tones, and a phonetic Latin alphabet.
+It is among the more approachable languages for English speakers — no verb conjugation, no gender, no tones, Latin script and phonetic spelling. A few months of real effort produces functional conversation.
 
-### Should I learn Balinese or Indonesian?
-Indonesian. It is the national language used everywhere. Balinese is a separate regional language and nobody expects foreigners to learn it.
+### Should I learn Indonesian or Balinese?
+Bahasa Indonesia. It is the national language used in all documents, law and business. Balinese is used at home and in ceremony and is considerably more complex.
 
-### How long does it take to learn Indonesian?
-Useful conversational level is achievable in months with a tutor and daily use, which is considerably faster than most Asian languages.
+### Does learning Indonesian help with buying property?
+Substantially. Every binding document is in Indonesian, and following the text yourself rather than relying on a summary changes your position with notaries, contractors and officials.
 
-### Does speaking Indonesian save money in Bali?
-Yes, meaningfully, across contractors, markets, services and staff over years of living here.
+### Can I get residency through a language course in Bali?
+An accredited institution willing to sponsor a student KITAS can provide lawful residency while you study, which is an underused route for people without an employer, spouse or investor basis.
+
+### What Indonesian words matter most for property?
+Sewa, jual, beli, tanah, surat, sertifikat, pajak, izin and perpanjangan — and above all jaminan versus prioritas, which decides what a lease extension clause is actually worth.

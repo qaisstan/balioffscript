@@ -5,70 +5,78 @@ summary: An IDP endorsed for motorcycles covers a visit. If you live here, the l
 category: living
 order: 20
 risk: high
-regulation: Indonesian traffic law. IDP recognition and SIM issuance requirements are set nationally.
+regulation: Licence requirements and validity of foreign permits change. Verify current requirements with the local police before driving.
 applies: Anyone driving or riding here
-verified: 2026-09-06
+verified: 2026-09-21
 ---
 
-Almost every foreigner here rides, and a large share of them are not licensed for what they are riding.
+Driving legally in Bali matters more than most visitors assume, and the reason is insurance rather than the fine.
 
-## The three positions
+## What you need
 
-| Option | Covers you |
-| --- | --- |
-| IDP endorsed for motorcycles, with home licence | Yes, for visitors |
-| Indonesian SIM C | Yes, and it is the right answer for residents |
-| Car-only IDP, riding a scooter | **No** |
-| Nothing | No |
+**As a visitor:** your home country licence **plus a valid international driving permit** with the correct vehicle category endorsed. A car endorsement does not cover a motorcycle, and this catches a very large number of people.
 
-That third row is where most people sit without realising it. An International Driving Permit issued for cars does not cover you on a motorbike, and a large scooter may exceed what your home category permits anyway.
+The international permit must be obtained **in your home country before you travel**. You cannot get one in Indonesia.
 
-## Why it matters more than the fine
+**As a resident with a KITAS or KITAP:** an Indonesian **SIM** — *Surat Izin Mengemudi*. **SIM A** for cars, **SIM C** for motorcycles.
 
-The roadside fine is not the point. Insurance is.
+A SIM is obtained through the local police, generally requiring your passport, stay permit, proof of address such as the SKTT, a medical check, and theory and practical tests. It has a defined validity and must be renewed.
 
-Many travel and health policies exclude motorbike accidents entirely, and most of the rest exclude them unless you hold the correct licence for the engine size. Scooter accidents are the leading cause of serious injury to foreigners in Bali.
+## Why this matters far more than the fine
 
-A standard emergency case costs USD 5,000 to 25,000 without cover, and medical evacuation to Singapore runs USD 55,000 to 100,000. A denied claim turns an accident into a financial catastrophe.
+**Your travel insurance almost certainly excludes accidents where you were not legally licensed for the vehicle.**
 
-Read that clause before you rent a scooter, not after.
+That is the whole point of this page.
 
-## Getting an Indonesian SIM
+Bali's road fatality and injury rate is high, and foreign visitors are disproportionately represented. Scooter accidents involving tourists are routine, and the injuries are frequently serious.
 
-**SIM C** covers motorcycles, **SIM A** covers cars. Application is made locally, requires your passport and stay permit, a health check and a theory and practical test.
+A foreigner riding a scooter without a motorcycle endorsement who has a serious accident may find their policy declines the claim. Medical treatment in Bali, and then a **medical evacuation to Singapore or Australia**, costs tens of thousands of dollars and sometimes considerably more.
 
-For residents this is the sensible route. It is inexpensive, it removes the licensing argument entirely, and it lasts years rather than being tied to a trip.
+That is the exposure. Not a police fine.
 
-Requirements differ for KITAS holders and visitors, and some categories are only open to permit holders. Check the current position locally before you go, and expect the process to take a morning.
+**Read your policy's motorcycle exclusions before you ride.** Many policies exclude motorcycles entirely, or exclude engine sizes above a threshold, or require a licence valid in the country where you are riding. Assuming you are covered is the expensive version.
 
-## Practical safety
+## The practical reality
 
-- A proper full-face or open-face helmet, not the rental shell
-- Cover your skin; most Bali scooter injuries are road rash
-- Avoid unlit roads at night, where edge markings and open drains are hazards
-- Take rain seriously: surfaces go slick within seconds, and painted lines and drain covers are worst
-- Do not ride after drinking, which features in a large share of foreigner accidents
-- Ride defensively at junctions, since right of way here is negotiated rather than assumed
+Scooters are the dominant form of transport in Bali and they are genuinely the fastest way to move around a congested island.
 
-## If you have never ridden
+They are also dangerous. Traffic is heavy and unpredictable, road surfaces are variable, other riders behave unpredictably, and the combination of unfamiliar conditions and a vehicle many visitors have never ridden before produces exactly the outcome you would expect.
 
-Bali is not the place to learn on a busy road. Dense traffic, loose lane discipline and unfamiliar conventions are a poor combination with a first-time rider.
+If you are going to ride: get the licence, wear a proper helmet rather than the token one supplied with the rental, do not ride at night on unlit roads, and do not ride after drinking.
 
-Ride-hailing and drivers are inexpensive. A driver for a full day costs very little measured against the alternative.
+## Police checks
+
+Checks happen, and foreigners riding without a valid licence or helmet are a common target. The consequence is generally a fine, which is the least of your problems.
+
+Keep your documents with you. A copy of your passport and permit rather than the originals is sensible for everyday carry, with the originals kept safely.
+
+## Cars and drivers
+
+A car with a driver is inexpensive by Western standards, comfortable, and removes the whole question. For families, airport transfers and anyone not confident on a scooter, it is the sensible choice and it costs far less than people expect.
+
+You will be in the same traffic as everyone else, which is worth remembering when estimating journey times.
+
+## For a property owner
+
+If you provide a scooter or a car to guests, understand your position. Guests who ride without a valid licence and have an accident create a situation you do not want to be part of, and your insurance position on a vehicle you supplied is worth checking.
+
+Most villa operators avoid supplying vehicles for this reason and instead recommend a local rental operator, which keeps the arrangement between the guest and the operator.
+
+If you employ a driver, the usual employment obligations apply — BPJS, THR, the full labour framework — and the termination provisions that foreign employers consistently underestimate.
 
 ## Common questions
 
-### Do I need a licence to ride a scooter in Bali?
-Yes. Either an International Driving Permit endorsed for motorcycles alongside your home licence, or an Indonesian SIM C. A car-only permit does not cover you.
+### Do I need an international driving permit in Bali?
+As a visitor, yes, alongside your home licence, with the correct vehicle category endorsed. A car endorsement does not cover a motorcycle.
 
-### Can a foreigner get an Indonesian driving licence?
-Yes. SIM C for motorcycles and SIM A for cars, applied for locally with passport, stay permit, a health check and tests. Some categories require a stay permit.
+### Can I get an Indonesian driving licence as a foreigner?
+With a KITAS or KITAP, yes — SIM A for cars and SIM C for motorcycles, obtained through the local police with a medical check and tests.
 
-### Does travel insurance cover scooter accidents in Bali?
-Often not. Many policies exclude motorbike accidents outright, and most others require the correct licence for the engine size. Check that clause specifically.
+### Does my travel insurance cover scooter accidents in Bali?
+Frequently not, if you were not legally licensed for the vehicle. Many policies exclude motorcycles entirely or above an engine size threshold. Read the exclusions before riding.
 
-### What happens if I ride without a licence in Bali?
-Beyond the roadside fine, a denied insurance claim after a serious accident, which is the consequence that actually matters.
+### How dangerous is riding a scooter in Bali?
+Road fatality and injury rates are high and foreign visitors are disproportionately represented. Heavy traffic, variable surfaces and unfamiliar conditions all contribute.
 
-### Is it safe to ride a scooter in Bali?
-It is the main physical risk foreigners face here. It is manageable with a proper helmet, the right licence, and avoiding night riding and rain.
+### Should I provide a scooter to villa guests?
+Most operators avoid it and recommend a local rental company instead, which keeps the arrangement and its liability between the guest and the operator.
