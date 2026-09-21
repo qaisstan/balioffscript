@@ -5,60 +5,82 @@ summary: Meetings, negotiations and site inspections for a foreign company. Not 
 category: visas
 order: 18
 risk: high
-regulation: Indonesian immigration regulation. Categories and requirements change frequently. Verify against the current official source before applying.
+regulation: Immigration rules change frequently. Verify current visa index codes and requirements against the official source.
 applies: Anyone visiting for commercial purposes
-verified: 2026-09-20
+verified: 2026-09-21
 ---
 
-The business visit visa sits between tourism and employment, and the boundary is narrower than most people assume.
+The single entry business visit visa is for a defined trip with a defined commercial purpose, and it sits between a visa on arrival and a work permit.
+
+## What it is
+
+A **visit visa** permitting one entry for a defined period, for business activity that does not amount to work.
+
+It is applied for before travel, generally with a sponsor or inviting party in Indonesia, and it typically offers a longer initial stay than a visa on arrival with the possibility of extension within limits.
 
 ## What it covers
 
-Meetings, contract negotiations, conferences, exhibitions, supplier visits, site inspections and due diligence, performed on behalf of a company established **outside** Indonesia.
+Meetings and negotiations. Contract discussions. Site visits and inspections. Conferences, exhibitions and trade fairs. Supplier and factory visits. Due diligence on an investment or acquisition. Signing documents.
 
-For a property buyer visiting notaries, inspecting land and meeting contractors, this or a visitor visa is generally appropriate.
+The common thread: **representing a business based outside Indonesia**, in activities that involve discussing, assessing and agreeing rather than producing.
 
 ## What it does not cover
 
-Performing work. Delivering services to an Indonesian client. Managing local staff day to day. Taking a role in an Indonesian company. Earning income sourced here.
+Employment, paid or unpaid. Delivering services to Indonesian clients. Installing, commissioning or maintaining equipment. Managing staff. Running operations.
 
-The distinction is between **discussing** business and **doing** it. Attending a meeting about a construction project is covered. Supervising that site as its project manager is not.
+The boundary is not about payment. An unpaid founder running their own Indonesian company's operations is working. A salaried director attending a week of negotiations is not.
 
-## Sponsorship
+## Versus a visa on arrival
 
-Most business visa categories require an Indonesian sponsor: a company inviting you, or an agent acting in that capacity. The sponsor carries responsibility for your compliance while you are here.
+A **visa on arrival** gives thirty days extendable once to sixty, is available to eligible nationalities without prior application, and permits tourism and business meetings.
 
-If you already hold a PT PMA, the company can usually sponsor your own business visits, which is simpler than arranging it through an agent each time.
+For most short commercial trips, a VOA is sufficient and simpler. You can view property, meet a notary, conduct due diligence and sign a lease on one.
 
-## Duration and the trap
+The business visit visa becomes worthwhile when the stay needs to be longer than a VOA allows, when a documented business purpose matters, or when a formal invitation from an Indonesian counterparty is part of the arrangement.
 
-Single entry gives you a defined stay, extendable within limits. The trap is confusing **validity** with **permitted stay**: a visa valid for a year does not mean you may remain for a year.
+There is also a presentational point. Arriving on a tourist visa for a series of formal meetings with lawyers, bankers and government offices is a mismatch between what your permit says and what you are doing. The correct permit removes it.
 
-Track both numbers. People overstay without intending to by reading the wrong one.
+## Versus a multiple entry business visa
 
-## The enforcement context
+Single entry suits **one trip**. Multiple entry suits **repeated trips across a year or more**, with each stay capped at a defined number of days.
 
-Since the Dharma Dewata task force became operational in April 2026, the test applied has been **activity rather than payment**. A business visa is not a workaround for working here.
+If you expect to return more than twice in a year, the multiple entry version is usually the better instrument and it avoids the scrutiny that repeated consecutive entries attract.
 
-Carry evidence of purpose: meeting confirmations, correspondence with an Indonesian counterparty, contracts under negotiation, or documents relating to a property you are buying.
+## Where it catches property investors
 
-## When you need something else
+Buying is fine. Viewing, inspecting, meeting the notary, signing the lease — all comfortably within scope.
 
-Taking a role in a PT PMA needs a work or investor KITAS. Employment by an Indonesian entity needs a work permit. Working remotely for a foreign employer needs the E33G.
+**Operating afterwards is not.** Handling bookings, managing the cleaner and pool service, instructing contractors, dealing with suppliers and making daily operational decisions is work in Indonesia. Owning the asset does not change that, and neither does not being paid a salary.
+
+If you intend to run the property yourself from Indonesia, you need a permit that authorises it. If you engage a manager and act as an owner, a visit visa is appropriate and there is nothing to worry about.
+
+## What the application involves
+
+A sponsor or guarantor in Indonesia in most cases. Supporting correspondence explaining the purpose and the relationship. Passport with sufficient validity. Financial evidence. Onward or return travel.
+
+Requirements and index codes change, so verify the current position rather than following an older checklist.
+
+## The practical test
+
+Write down what you will actually do, hour by hour, for the days you are here.
+
+If that list is meetings, inspections, viewings and signatures, a business visit visa is exactly right.
+
+If it includes producing something, delivering something, or directing people in Indonesia, it is the wrong instrument and you should sort a permit that covers it.
 
 ## Common questions
 
-### Can I attend business meetings in Indonesia on a tourist visa?
-Meetings are generally acceptable, but a business visa is the cleaner instrument where travel is commercial. Neither permits work.
+### What is the Indonesian business visit visa?
+A single entry visit visa permitting business activity that does not amount to work — meetings, negotiations, site visits, conferences and due diligence.
 
-### Do I need a sponsor for an Indonesian business visa?
-Most categories require one, either a company inviting you or an agent. Your own PT PMA can usually sponsor you.
+### Do I need a business visa to buy property in Bali?
+Usually not. A visa on arrival permits viewing property, meeting a notary, conducting due diligence and signing a lease.
 
-### Can I run my Bali business on a business visa?
-No. Managing an operation day to day is work and requires the appropriate KITAS and authorisation.
+### Can I work on an Indonesian business visa?
+No. It covers discussing, assessing and agreeing. Producing, delivering, managing staff or running operations requires a work permit.
 
-### How long can I stay on a business visit visa?
-A defined period, extendable within limits. Validity of the visa and permitted length of stay are different numbers.
+### Single or multiple entry business visa?
+Single entry for one trip. Multiple entry if you expect to return more than twice in a year, which also avoids the scrutiny repeated consecutive entries attract.
 
-### Can I do property due diligence on a business visa?
-Yes. Viewing property, meeting notaries and inspecting sites are not employment.
+### Can I manage my own villa on a business visa?
+No. Operating the property is work regardless of whether you own it or are paid for it. Engage a manager, or obtain a permit that authorises the role.
