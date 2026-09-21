@@ -5,56 +5,86 @@ summary: Extension depends on the qualifying conditions still being met, and the
 category: visas
 order: 23
 risk: high
-regulation: Indonesian immigration regulation. Categories and requirements change frequently. Verify against the current official source before applying.
+regulation: Immigration rules change frequently; retirement permit age, income and accommodation requirements vary. Verify against the current official source.
 applies: Retirees renewing their stay permit
-verified: 2026-09-20
+verified: 2026-09-21
 ---
 
-The retirement permit extends while the basis on which it was granted continues to hold. That sounds obvious and it is where the problems sit.
+The retirement permit is one of the more stable residency routes in Indonesia, and the extension is where holders discover the conditions are ongoing rather than one-off.
 
-## What has to still be true
+## What the permit is
 
-The age requirement, the income or savings evidence, accommodation, and whatever else the current criteria specify. These have been revised more than once, so confirm the present requirements rather than the ones that applied when you first applied.
+A KITAS for applicants **above a minimum age**, meeting **income or pension requirements** and **accommodation requirements**, sponsored through an approved arrangement.
 
-## The condition that quietly changes
+It permits residence. It does not permit work.
 
-**Insurance.** Premiums climb steeply with age, some policies impose entry or renewal age limits, and pre-existing conditions accumulate.
+The age, income and accommodation thresholds are set by regulation and have changed. Verify current requirements rather than relying on older guidance, including anything written more than a year ago.
 
-A retiree who qualified comfortably at 60 can find the same cover materially more expensive at 70, or unavailable from the same provider.
+## The extension
 
-This matters beyond the permit. Routine care in Bali is good and cheap, but complex care is thinner and **medical evacuation to Singapore runs USD 55,000 to 100,000**. Your policy needs evacuation cover of at least USD 100,000 to 250,000, named explicitly.
+Applied for **before expiry**, through the sponsor, with evidence that the qualifying conditions **still hold**.
 
-Check your renewal terms well before you need them, not when the permit is due.
+That last part is what catches people. The income requirement is not a one-time entry test. At each extension you generally need to show the pension or income is still being received at the required level, and that the accommodation arrangement is still in place.
+
+Someone whose pension arrangement changed, whose income fell below the threshold, or who moved out of qualifying accommodation without arranging a substitute has a problem at renewal rather than at the moment the change happened.
 
 ## Start early
 
-A month minimum, more if documents need renewing or legalising. Passport validity, proof of funds, and any insurance documentation all take time to assemble.
+A month to six weeks before expiry, not a week.
 
-## Continuity and KITAP
+Retirement extensions require documentation from third parties — pension providers, banks, property owners — and third parties are slow. Gathering evidence of continued income from a foreign pension fund under a two-week deadline is not a pleasant process.
 
-Consecutive years on an appropriate KITAS build toward **KITAP**, permanent stay, which means fewer renewals and a more stable footing for Hak Pakai ownership.
+Diarise the expiry at issue, and diarise a start date a month before it.
 
-A lapse can reset that count. If permanent stay is the destination, protect the continuity above almost everything else.
+## Where extensions fail
 
-## The property connection
+**Income evidence.** Currency movement can push a fixed foreign pension below a rupiah-denominated threshold without anything changing at your end. Watch the exchange rate as well as the payment.
 
-Hak Pakai, the only route by which a foreigner holds a registered land right in their own name, requires valid residency.
+**Accommodation.** A change of address that was not reflected in the record, or an accommodation arrangement that no longer satisfies the requirement.
 
-If you hold property that way and let the permit lapse, there are consequences to understand rather than discover. Leasehold and company-held property are less exposed, which is one reason buyers uncertain about staying long-term favour those structures.
+**Address record mismatch.** If you moved and did not update the SKTT and the permit record, the inconsistency surfaces here. Systems match strictly and reject rather than query.
+
+**Sponsor problems.** The permit runs through a sponsor, and the sponsor's standing matters.
+
+**An agent who did not file.** Get the filing reference and receipt, not a reassurance.
+
+## Toward KITAP
+
+Continuous holding of a retirement KITAS for a qualifying period can lead to **KITAP**, the permanent stay permit, with longer validity and simpler renewals.
+
+"Continuous" matters. A gap caused by a late extension can reset the clock, which is a further reason to treat renewal dates seriously if permanent status is the objective.
+
+Verify the current qualifying period for the retirement category specifically, as it differs between permit types.
+
+## The work question
+
+A retirement permit does not authorise work, and the boundary is the one that catches retirees with a villa.
+
+Owning a property and receiving rental income from it is not work. **Operating it is.** Handling bookings, managing staff, instructing contractors and making daily operational decisions is work in Indonesia, regardless of the fact that you own the asset and whether anyone pays you.
+
+Engage a manager and be an owner. That keeps the position clean and, frankly, produces a better-run property than a retiree doing it part-time.
+
+## The tax position
+
+Living here on a retirement permit means you are almost certainly an **Indonesian tax resident** — broadly 183 days in a twelve month period, or presence with intent to reside.
+
+That changes your Indonesian-source rental income rate from twenty percent non-resident to ten percent final resident, which is favourable.
+
+It also interacts with your home country. Pensions are treated differently under different tax treaties — some allocate taxing rights to the source country, others to the country of residence, and government pensions are frequently treated differently from private ones. This is worth specific advice, because the treaty position on pension income is one of the areas where a general assumption is most likely to be wrong.
 
 ## Common questions
 
-### How do I extend a retirement KITAS in Indonesia?
-Through your sponsor, before expiry, with evidence that the qualifying conditions still hold. Start at least a month ahead.
+### How do you extend a retirement KITAS in Indonesia?
+Before expiry, through the sponsor, with evidence that the qualifying age, income and accommodation conditions still hold. The requirements are ongoing, not a one-time entry test.
 
-### Do the requirements change?
-They have been revised more than once. Confirm the current criteria rather than relying on what applied at first application.
+### Can I work on a retirement KITAS?
+No. It permits residence only. Receiving rental income is not work; operating the property — bookings, staff, contractors — is.
 
-### What is the hardest part of renewing as a retiree?
-Insurance. Premiums rise with age and some policies impose age limits, so check renewal terms well in advance.
+### What makes retirement KITAS extensions fail?
+Income evidence falling short, often through currency movement against a rupiah-denominated threshold, accommodation changes, address record mismatches, and agents who did not file.
 
-### Does a lapse affect my path to KITAP?
-Yes. A gap in permit history can reset the qualifying period for permanent stay.
+### Can a retirement KITAS lead to KITAP?
+Continuous holding for a qualifying period can, and a gap from a late extension can reset the clock. Verify the current period for the retirement category.
 
-### What happens to my Hak Pakai property if my permit lapses?
-Hak Pakai depends on valid residency. Understand the position before the permit lapses rather than after.
+### Is my pension taxed in Indonesia?
+It depends on the treaty between Indonesia and your home country, and government pensions are frequently treated differently from private ones. Take specific advice rather than assuming.

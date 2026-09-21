@@ -5,64 +5,88 @@ summary: Two different numbers govern it, and confusing them is how people overs
 category: visas
 order: 30
 risk: high
-regulation: Indonesian immigration regulation. Categories and requirements change frequently. Verify against the current official source before applying.
+regulation: Immigration rules change frequently. Verify against the current official source before acting.
 applies: Anyone travelling here repeatedly
-verified: 2026-09-20
+verified: 2026-09-21
 ---
 
-For property buyers making several trips a year, this is usually the right instrument. It is also the one people misread.
+If you come to Indonesia several times a year, the multiple entry visa is the permit that fits, and it is consistently overlooked by people repeatedly buying visas on arrival.
 
-## The two numbers
+## What it is
 
-**Validity period.** How long the visa itself remains usable, often a year or more. You may enter repeatedly during this window.
+A **visit visa valid for an extended period** — commonly one, two or five years depending on the type — permitting **multiple entries** during that validity, with each individual stay limited to a defined number of days.
 
-**Maximum stay per visit.** How long you may remain on any single entry, typically much shorter.
-
-A visa valid for twelve months does **not** mean you may stay twelve months. It means you may keep arriving for twelve months, staying up to the per-visit cap each time.
-
-People read the validity, plan around it, and overstay. Daily fines accrue from the first day, and longer overstays escalate toward detention, deportation and a re-entry ban.
+The critical distinction: the visa's validity is not the length of any single stay. A visa valid for five years with a sixty day per-entry limit does not let you stay for five years. It lets you enter repeatedly, for up to sixty days each time, across five years.
 
 ## The categories
 
-| Type | For |
-| --- | --- |
-| Multiple entry tourist | Repeat leisure travel |
-| Multiple entry business | Meetings, negotiations, site visits for a foreign company |
-| Multiple entry pre-investment | Assessing an investment across several trips |
+**Tourism.** For repeated leisure visits.
 
-None of them permit work, operating a business, or earning Indonesian-source income.
+**Business.** For meetings, negotiations, site visits, conferences and exhibitions — the same scope as a single entry business visit visa, with repeated entries.
 
-## Why it suits property buyers
+**Family visit.** For visiting family in Indonesia.
 
-A serious purchase here takes months: viewings, notary meetings, boundary walks, negotiation, then the deed. Doing that on single-entry visas means applying repeatedly.
+Requirements vary by category and typically include a sponsor or guarantor in Indonesia, financial evidence, and supporting documentation explaining the purpose.
 
-A multiple entry pre-investment or business visa describes the activity accurately and removes the friction.
+## Who it suits
 
-## The border-run problem
+**Property owners who visit several times a year.** This is the obvious case and it is underused. Someone who comes four times a year for two or three weeks is a much better fit for a multiple entry visa than for four separate visas on arrival, and it removes the recurring extension anxiety.
 
-Multiple entry makes leaving and re-entering easy, which tempts people into using it as a way of living here permanently: stay to the cap, fly to Singapore, come back.
+**People doing business across the region** who pass through Indonesia repeatedly.
 
-That pattern is visible and it is exactly what enforcement looks for. Since the Dharma Dewata task force became operational in April 2026, the posture has tightened considerably.
+**Anyone with family here** visiting regularly.
 
-If Bali is your home rather than your trip, the answer is the permit matching what you actually do, not a cycle.
+**People who buy a visa on arrival every few months.** Repeated consecutive VOA use attracts attention, and immigration officers can and do decline entry to people who appear to be living in Indonesia on consecutive tourist visas. A multiple entry visa is the correct instrument for genuine repeat visiting and removes that friction.
 
-## Practical
+## What it does not do
 
-Diarise the per-visit cap on arrival, from the date stamped in your passport. Keep evidence of purpose. Confirm passport validity, which is typically six months and catches people at the second or third entry.
+**It does not permit work.** It is a visit visa. Meetings and inspections yes; producing, delivering, managing staff or running operations no. Owning the villa does not change that.
+
+**It does not make you resident.** It is not a stay permit and it does not lead toward KITAP.
+
+**It does not remove the per-entry limit.** Leaving and immediately re-entering to reset the clock is a pattern immigration recognises, and doing it repeatedly invites the same scrutiny as consecutive VOAs.
+
+## The tax point nobody mentions
+
+A multiple entry visa makes it easy to accumulate days in Indonesia without noticing.
+
+Indonesian tax residence is broadly **183 days within a twelve month period**, or presence with intent to reside. Four visits of forty-five days each is 180 days. A fifth short trip crosses the line.
+
+Crossing it has consequences in both directions: your Indonesian-source rental income rate moves from twenty percent non-resident to ten percent final resident, which is favourable, and you engage the Indonesian tax system properly while your home country's worldwide income rules continue to apply.
+
+**Count your days.** People holding multiple entry visas are the group most likely to become tax resident by accident.
+
+## Practical points
+
+Check the **per-entry limit** and whether it is extendable within Indonesia, which varies by type.
+
+Check whether the validity is counted from issue or first entry.
+
+Keep track of entries and exits. Immigration has the record and you should too.
+
+Confirm the sponsor requirements before applying, as this is the element most likely to delay an application.
+
+## Versus the alternatives
+
+**Against repeated VOAs:** better for anyone visiting more than twice a year, and it avoids the scrutiny that repeated consecutive tourist entries attract.
+
+**Against a KITAS:** a multiple entry visa is far simpler, with no sponsor obligations of the same weight, no post-arrival reporting, no SKTT and no annual extension. It also gives you none of the benefits — no Hak Pakai eligibility, no route to KITAP, no work authorisation.
+
+If you visit, take the multiple entry visa. If you live here, take a KITAS.
 
 ## Common questions
 
-### How long can I stay on an Indonesian multiple entry visa?
-Up to the per-visit maximum on each entry, which is separate from and shorter than the visa's overall validity.
+### How does an Indonesian multiple entry visa work?
+It is valid for an extended period — commonly one, two or five years — permitting repeated entries, with each individual stay limited to a defined number of days.
 
-### Is a multiple entry visa valid for a year?
-The validity can be a year or more, but the permitted stay per visit is much shorter. They are different numbers.
+### Can I stay in Indonesia for the whole validity of a multiple entry visa?
+No. The validity governs how long you may keep entering; each stay is capped at a defined number of days.
 
 ### Can I work on a multiple entry business visa?
-No. It covers meetings and negotiations for a foreign company, not performing work or earning here.
+No. It covers meetings, negotiations, inspections and conferences. Producing, delivering, managing staff or running operations is work and requires a different permit.
 
-### Which multiple entry visa suits a property buyer?
-Business or pre-investment, depending on whether you are assessing an investment or conducting commercial meetings.
+### Is a multiple entry visa better than repeated visas on arrival?
+For anyone visiting more than twice a year, generally yes. Repeated consecutive tourist entries attract scrutiny and can result in entry being declined.
 
-### Can I keep doing border runs?
-The pattern is visible and targeted by enforcement. If you live here, hold the permit matching what you do.
+### Can a multiple entry visa make me an Indonesian tax resident?
+Yes, by accident. Tax residence is broadly 183 days in a twelve month period, and several long visits add up faster than people expect.

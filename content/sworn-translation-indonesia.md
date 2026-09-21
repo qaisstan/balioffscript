@@ -5,63 +5,82 @@ summary: Foreign documents generally need legalisation and a sworn translation b
 category: visas
 order: 28
 risk: medium
-regulation: Indonesian administrative and company regulation. Requirements vary by regency. Confirm locally.
+regulation: Sworn translator (penerjemah tersumpah) appointment requirements; document legalisation and apostille practice. Verify current requirements.
 applies: Anyone submitting foreign documents here
-verified: 2026-09-20
+verified: 2026-09-21
 ---
 
-Almost every process that involves a document issued outside Indonesia runs into this, usually later than it should.
+Every operative document in an Indonesian property transaction is in Bahasa Indonesia, and the Indonesian version governs. A sworn translation is how you know what you are signing.
 
 ## What a sworn translation is
 
-A translation by a translator officially recognised for the purpose, whose work Indonesian authorities accept. It is not the same as a competent translation by a bilingual friend or an agency without that status.
+A translation produced by a **penerjemah tersumpah** — a sworn translator formally appointed and authorised to produce translations that carry legal weight.
 
-## The chain, in order
+It is not the same as a good translation. A fluent bilingual friend, an agent, or a translation app can tell you what a document says. None of those produce a document that an Indonesian authority, a court, an embassy or a notary will accept as an authoritative rendering.
 
-For a document issued abroad, the usual sequence is:
+The distinction matters at exactly the moments it is expensive to discover.
 
-1. **Notarisation** in the issuing country
-2. **Apostille or legalisation** in that country
-3. **Sworn translation** into Indonesian
+## When you need one
 
-Each step depends on the one before it. Start the chain weeks before it is needed, because the foreign steps run on another country's timetable and you cannot accelerate them.
+**Property documents you are signing.** A lease deed, a sale and purchase deed, a power of attorney. You are committing to a contract in a language you probably do not read, and the Indonesian version is the one that governs regardless of any English summary.
 
-## What commonly needs it
+**Foreign documents submitted to Indonesian authorities.** Birth certificates, marriage certificates, police clearances, academic qualifications, company documents — for visa applications, company formation, marriage registration, or land office matters.
 
-- Marriage certificates, for spouse permits and asset separation agreements
-- Birth certificates, for dependent permits and child registration
-- Powers of attorney, for buying property remotely
-- Corporate documents, for foreign shareholders in a PT PMA
-- Police certificates and qualifications, for certain permits
-- Wills and estate documents
+**Indonesian documents submitted abroad.** Certificates, deeds, company documents, court records.
 
-## Where it bites in property
+**Anything going to court.**
 
-A **power of attorney** executed abroad so someone can sign for you at the deed needs the full chain. Arriving at the notary with an unlegalised document means the deed does not happen that day.
+## The chain for foreign documents
 
-A **prenuptial or postnuptial agreement** for a mixed marriage, central to whether an Indonesian spouse can hold freehold cleanly, needs to be properly executed and recognised.
+A foreign document usually needs more than translation before an Indonesian authority will accept it.
 
-For **inheritance**, foreign wills and estate documents need the chain too, and the disposal deadline for a foreign heir holding a title they cannot lawfully hold does not pause while you arrange translations.
+The sequence is typically: the document is **notarised or certified** in its country of origin, then **legalised** — either by apostille where both countries are parties to the Hague Apostille Convention, which now includes Indonesia, or through consular legalisation where they are not — and then **translated by a sworn translator**.
 
-## Practical advice
+Order matters. Translating first and legalising afterwards frequently means doing it twice. Ask the receiving authority what sequence they require before you start, because practice varies and a rejected document costs weeks.
 
-Ask the Indonesian notary or office **exactly** which documents they need and in what form, before you start. Requirements differ between offices and between regencies, and doing the chain twice is expensive.
+## What it costs and how long it takes
 
-Keep certified copies of everything. You will be asked again.
+Modest against what it protects. Pricing is generally per page or per word, with certificates and short documents inexpensive and long contracts more.
+
+A few days for ordinary documents, longer for volume or specialist content.
+
+Against a property transaction where the document commits you to hundreds of thousands of dollars, this is one of the cheapest items in the process and one of the most commonly skipped.
+
+## Reading the translation properly
+
+**Read the Indonesian version's numbers yourself**, even if you cannot read the text. Dates, areas, sums, percentages and terms are legible in any language. A mismatch between the English translation and the Indonesian figures is one of the more common problems in this market, and you can catch it without speaking a word of Indonesian.
+
+**Have your notary walk you through the Indonesian text clause by clause.** That is part of the job, and a notary who will not do it is the wrong notary.
+
+**Look specifically for the clauses that carry the value**: the term, whether the extension is *jaminan* or *prioritas*, whether the deed binds heirs and successors, and whether assignment and sublease are permitted.
+
+## The mistake to avoid
+
+Accepting an agent's English summary as equivalent to the document.
+
+It is not. It is a description of a document written by someone paid on the transaction completing. Where the summary and the Indonesian text differ, the Indonesian text wins and your understanding of what you agreed is irrelevant.
+
+The sworn translation costs a few hundred dollars. Not having one has cost people considerably more.
+
+## Keeping them
+
+File the sworn translation alongside the original deed, somewhere reachable from another country.
+
+Years later, when you sell, when an heir needs to act, or when a dispute arises, having the authoritative translation to hand is the difference between a straightforward process and an expensive one.
 
 ## Common questions
 
 ### What is a sworn translation in Indonesia?
-A translation by an officially recognised translator, which Indonesian authorities accept. An ordinary translation is usually not sufficient.
+A translation produced by a penerjemah tersumpah, a formally appointed sworn translator, which carries legal weight with authorities, courts and notaries.
 
-### Do foreign documents need an apostille for Indonesia?
-Generally they need notarisation and apostille or legalisation in the issuing country, then sworn translation into Indonesian.
+### Do I need a sworn translation to buy property in Bali?
+For any document you are signing, yes. The Indonesian version governs regardless of any English summary, and an agent's informal translation is not a substitute.
 
-### How long does the process take?
-Weeks, because the foreign steps run on another country's timetable. Start well before the document is needed.
+### Does Indonesia accept apostilles?
+Indonesia is a party to the Hague Apostille Convention, so foreign documents from other member states are generally legalised by apostille rather than consular legalisation.
 
-### What property documents need this?
-Powers of attorney for remote signing, prenuptial agreements in mixed marriages, and foreign wills and estate documents.
+### Should I translate or legalise a foreign document first?
+Legalise first in most cases, then translate. Ask the receiving authority for the required sequence before starting, because doing it in the wrong order often means doing it twice.
 
-### Can I use any translator?
-No. It must be a sworn translator recognised for the purpose, or the document may be refused.
+### Which language version of a Bali contract is binding?
+The Indonesian one, always. Read its numbers yourself and have your notary walk you through the text clause by clause.

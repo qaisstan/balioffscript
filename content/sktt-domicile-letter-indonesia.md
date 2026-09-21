@@ -5,62 +5,82 @@ summary: Getting the KITAS is not the end of the process. Local registration is 
 category: visas
 order: 27
 risk: medium
-regulation: Indonesian immigration regulation. Categories and requirements change frequently. Verify against the current official source before applying.
+regulation: Civil registration requirements for foreign residents; SKTT issued by the local civil registry (Dukcapil). Verify current practice.
 applies: Anyone who has just received a KITAS
-verified: 2026-09-20
+verified: 2026-09-21
 ---
 
-Foreigners assume the permit is the finish line. Local registration sits behind it and quietly gates other things.
+The SKTT is one of those documents nobody mentions until you need it, and then you need it for several unrelated things at once.
 
-## SKTT
+## What it is
 
-**Surat Keterangan Tempat Tinggal** is the temporary residence registration, issued by the local civil registry once you hold a KITAS.
+**SKTT** — *Surat Keterangan Tempat Tinggal* — is a certificate of residence issued to a foreign national holding a KITAS, by the local civil registry office (Dukcapil) in the area where you live.
 
-It records you as living at a specific address in a specific area. Think of it as the local half of your immigration status: immigration grants the permit, the local authority records where you actually live.
+It records that you reside at a specific address in a specific district. It is issued after your stay permit, as part of the post-arrival reporting obligations that accompany a KITAS.
 
-## Domicile letter
+## Why it matters
 
-A **surat keterangan domisili** is a letter from the local administration confirming an address, for a person or a company.
+**It is part of your immigration compliance.** Post-arrival registration is an obligation, not an optional step, and failing to complete it is a defect in your position that surfaces at extension.
 
-For a company it is frequently required for licensing and banking. For an individual it comes up in administrative processes where an address must be evidenced.
+**Banks ask for it.** Opening an Indonesian bank account as a foreign resident frequently requires proof of address, and the SKTT is the document that satisfies it.
 
-## Why they matter more than they sound
+**Tax registration.** An NPWP registration as a resident taxpayer requires address documentation, and mismatched or missing address evidence is a common cause of a rejected application under the strict data matching Coretax applies.
 
-These documents gate things:
+**Driving licence.** Obtaining an Indonesian SIM as a foreign resident generally requires proof of residence.
 
-- **Bank account opening** often asks for address evidence
-- **Driving licence** applications may require local registration
-- **Company licensing** can require a domicile letter for the business address
-- **Some permit renewals** expect the registration to be current
-- **Administrative processes** generally run smoother with them in hand
+**Schools, utilities, some contracts.** Anywhere that needs to establish you live where you say you do.
 
-People discover the gap at the point something else is refused, which is the expensive moment.
+**KITAP applications**, which require a documented residential history.
 
-## When you move
+## The related documents
 
-Both are tied to an address. Move house and they need updating, and an address mutation may be required against your permit as well.
+**SKTT** is for KITAS holders, issued by the civil registry.
 
-Foreigners routinely move within Bali and never update anything, then find the paperwork does not match at renewal.
+**SKPPS** or equivalent certificates exist for other permit categories.
 
-## The virtual office question
+**KITAP holders** may obtain a **KTP for foreigners** — an identity card equivalent — which serves a similar function with a longer validity.
 
-Companies using a virtual office should confirm the provider can supply a valid domicile letter for the intended activity and regency. Some can, some cannot, and some banks refuse virtual addresses regardless.
+**Police reporting (STM)** is a separate registration with the police, and whether it applies depends on the area and the current practice.
 
-Ask before committing to an address provider, not after the bank declines you.
+Terminology and practice vary by regency and change, so confirm what your specific area requires rather than assuming.
+
+## Getting one
+
+Applied for at the Dukcapil office covering your address, after the KITAS is issued.
+
+You will generally need the passport, the KITAS, the sponsor's documents, and evidence of the address — a tenancy agreement, a letter from the property owner, or confirmation from the local neighbourhood administration.
+
+That last element catches people renting informally. A verbal arrangement with a landlord who will not provide written confirmation of your address makes this step difficult, which is a practical reason to have a proper written tenancy even for a modest rental.
+
+## Keep the address current
+
+This is the part that goes wrong.
+
+If you move and do not update the record, the inconsistency surfaces later — at a KITAS extension, at a tax registration, at a bank. Systems match strictly and reject rather than query, and a mismatch between the address on your stay permit, your SKTT and your tax record produces a failure rather than a phone call.
+
+Updating is administrative. Not updating is a problem that compounds quietly and appears when you are under a deadline.
+
+## For property owners specifically
+
+If you hold **Hak Pakai**, you hold it on the basis of residency, and your residency documentation is part of that position. Keep it clean.
+
+If you are working toward **KITAP**, documented residential history matters.
+
+And if you intend to open an Indonesian bank account to receive rental income, pay staff and pay PBB — which is considerably easier than running everything from abroad — the SKTT is usually the document standing between you and that account.
 
 ## Common questions
 
-### What is SKTT in Indonesia?
-Surat Keterangan Tempat Tinggal, the temporary residence registration issued by the local civil registry to KITAS holders.
+### What is an SKTT in Indonesia?
+Surat Keterangan Tempat Tinggal, a certificate of residence issued to a KITAS holder by the local civil registry recording that you live at a specific address.
 
-### Do I need a domicile letter?
-Commonly, for company licensing and banking, and for various administrative processes requiring evidence of address.
+### Do I need an SKTT?
+If you hold a KITAS, it is part of your post-arrival reporting obligations, and it is required in practice for bank accounts, tax registration, a driving licence and KITAP applications.
 
-### What happens if I move house?
-Both documents are address-tied and need updating, and an address mutation against your permit may also be required.
+### How do I get an SKTT?
+At the Dukcapil office covering your address, with your passport, KITAS, sponsor documents and evidence of the address such as a written tenancy agreement.
 
-### Can I use a virtual office address?
-Sometimes. Confirm the provider can supply a valid domicile letter for your activity and regency, and check your bank accepts it.
+### What if I move address in Indonesia?
+Update the record. A mismatch between your stay permit, SKTT and tax registration produces rejected applications later, since systems match strictly rather than querying.
 
-### Is SKTT the same as a KITAS?
-No. The KITAS is the immigration permit. SKTT is the local registration of where you live.
+### Is an SKTT the same as a KTP?
+No. SKTT is for KITAS holders. KITAP holders may obtain a KTP for foreigners, an identity card equivalent with longer validity.
