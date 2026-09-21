@@ -1,6 +1,6 @@
 ---
 question: What health insurance do you need in Bali?
-title: Health Insurance in Bali: Evacuation Is the Part That Matters
+title: Health Insurance in Bali: Evacuation Cover Matters
 summary: Good private care exists in the south, and serious cases leave the island. Evacuation cover is the difference between an inconvenience and a catastrophe.
 category: living
 order: 29
