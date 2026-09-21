@@ -1,6 +1,6 @@
 ---
 question: What happens when a Bali lease expires?
-title: When a Bali Lease Expires: The Day the Villa Stops Being Yours
+title: When a Bali Lease Expires: What Actually Happens
 summary: The building passes with the land, your right to be there ends, and whatever you did not negotiate decades earlier is what you get.
 category: ownership
 order: 40
