@@ -5,58 +5,78 @@ summary: Ngurah Rai is the constraint on arrivals, which makes it the constraint
 category: rental
 order: 28
 risk: medium
-regulation: Indicative figures. Confirm against official aviation and tourism statistics.
+regulation: Airline capacity and route data change constantly. Verify current schedules and capacity directly.
 applies: Anyone underwriting rental demand growth
-verified: 2026-09-15
+verified: 2026-09-21
 ---
 
-Every rental projection assumes guests. Guests arrive on aircraft, and aircraft need slots.
+Bali's rental market is a function of how many seats arrive. That is the constraint underneath every occupancy projection and it is almost never in one.
 
-## The constraint
+## Why it matters more than anything else
 
-Ngurah Rai is Bali's only international airport, and it has been operating close to its practical limit at peak times. Expansion has been discussed and worked on for years.
+Bali has **one international airport**. Ngurah Rai is the single gateway for essentially all foreign arrivals, and it has finite capacity in terminal throughput, runway slots and ground handling.
 
-A North Bali airport has been proposed repeatedly across two decades without being delivered. Do not price land on it.
+Every guest in your villa arrived through it. If seat capacity into Denpasar falls, occupancy falls across the entire island regardless of how good your property is, how sharp your pricing is or how well your manager performs.
 
-## Why this matters more than arrivals data
+No amount of operational quality compensates for seats that do not exist.
 
-If seats are the binding constraint, then total visitor nights are capped by capacity rather than by demand.
+## Where the seats come from
 
-Meanwhile villa supply in the main corridors has grown enormously. More rooms competing for a similar pool of guests is exactly the dynamic owners are experiencing as softer rates.
+**Australia** is the largest and most consistent source of capacity, with high-frequency services from Perth, Sydney, Melbourne and Brisbane across full-service and low-cost carriers. Australian capacity is the backbone of the Bali market.
 
-That is the mechanism behind the oversupply. It is not that people stopped coming. It is that the number who can arrive is limited while the number of beds is not.
+**Domestic Indonesian** traffic from Jakarta, Surabaya and elsewhere is very large in volume, though it feeds a different segment from the foreign villa market.
 
-## The second-order effect nobody models
+**Asian regional** — Singapore, Malaysia, Korea, Japan, China, India — is the fastest-moving component and the most sensitive to policy, currency and sentiment.
 
-**Average length of stay has been falling** as Bali shifts toward shorter, higher-frequency trips, particularly from Australia and regional Asia.
+**Europe** is thinner, largely one-stop via Middle East and Asian hubs, with a small number of direct services. European guests stay longer, which partly offsets the lower seat count.
 
-Shorter stays mean more turnovers for the same occupancy: more cleaning, more laundry, more consumables, more wear, more guest communication, for the same revenue.
+## What moves capacity
 
-That is a cost increase hidden inside a demand statistic, and it does not appear in any arrivals chart.
+**Airline route decisions**, made on profitability across a network, with Bali competing against every other destination an airline could deploy an aircraft to.
 
-## What actually changes the ceiling
+**Aircraft availability**, which has been constrained globally.
 
-Airport expansion, new international routes, and larger aircraft on existing routes. All of which are outside your control and slower than construction.
+**Fuel and currency.**
 
-## How to use this
+**Policy** — visa arrangements, entry requirements, bilateral agreements.
 
-Stop underwriting on island-wide arrival growth. It tells you the size of the pool, not your share of it.
+**Sentiment shocks.** Volcanic activity has closed the airport repeatedly, most significantly during the 2017 to 2019 Agung sequence. Security events, natural disasters and health measures all reduce bookings faster than capacity can be withdrawn.
 
-The questions that determine your occupancy are local: how many comparable properties within a kilometre, how many added in the last two years, how many under construction now.
+None of these are within any property owner's control, which is precisely why they belong in a risk assessment rather than being ignored.
+
+## The airport capacity question
+
+Ngurah Rai operates near its designed capacity at peak times, and expansion is constrained by geography — the runway extends into the sea and the site is hemmed in.
+
+Discussion of a **second airport in north Bali** has recurred for many years. Treat it as a long-horizon possibility rather than a plan to underwrite against. If it eventually happens it would materially change the north Bali property market, which is currently the cheapest coastal land on the island precisely because it is remote from the gateway.
+
+Anyone selling north Bali land on the basis of an airport should be asked what stage the project is actually at.
+
+## What an owner should take from this
+
+**It is a systemic risk you cannot diversify away** by choosing a better area. Canggu, the Bukit and Ubud all depend on the same runway.
+
+**Guest mix is partial insurance.** A property that attracts Australians, Europeans, Asian regional travellers and long-stay nomads is less exposed than one dependent on a single source market. The nomad population in particular is less seasonal and less flight-elastic, because they come for months rather than days.
+
+**Watch the Australian schedule specifically.** It is the largest single component and the best leading indicator for the market as a whole.
+
+**Model a bad year.** Bali has had them — volcanic closures, the pandemic. An investment that only works at seventy-five percent occupancy every year is an investment with no margin for the thing that periodically happens here.
+
+**Long-term rental is the hedge.** Resident and long-stay demand does not depend on weekly seat capacity in the same way, which is one more argument for the residential areas and for a hybrid strategy.
 
 ## Common questions
 
-### Is Bali airport at capacity?
-It has been operating close to its practical limit at peak times, which constrains how many visitors can arrive regardless of demand.
+### How does flight capacity affect Bali property?
+Every foreign guest arrives through one airport, so seat capacity sets the ceiling on island-wide occupancy regardless of how well an individual property is run.
 
-### Is a new Bali airport being built?
-A North Bali airport has been proposed repeatedly for decades without delivery. Do not underwrite land on it.
+### Which countries provide the most flights to Bali?
+Australia provides the largest and most consistent international capacity, followed by Asian regional markets. European traffic is thinner and largely one-stop.
 
-### Does more tourism mean better rental yields?
-Not automatically. If arrivals are capacity-constrained while villa supply grows, each property competes for a similar pool of guests.
+### Is Bali getting a second airport?
+A north Bali airport has been discussed for many years. Treat it as a long-horizon possibility rather than something to underwrite an investment against.
 
-### Is average stay length falling in Bali?
-It has been trending down toward shorter, more frequent trips, which raises turnover costs for the same occupancy.
+### What is the biggest systemic risk to Bali rental income?
+Flight capacity, because it cannot be diversified away by choosing a different area. Volcanic activity has closed the airport before and would again.
 
-### What should I model instead of arrivals?
-Local competing supply: how many comparable properties are within a kilometre, and how many are under construction.
+### How do I reduce exposure to flight capacity risk?
+A broad guest mix rather than a single source market, long-stay and nomad demand which is less flight-elastic, and modelling a bad year rather than assuming steady occupancy.
