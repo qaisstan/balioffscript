@@ -5,77 +5,94 @@ summary: Exit is the part nobody plans. Your buyer pool, your remaining lease te
 category: ownership
 order: 13
 risk: high
-regulation: Final transfer tax on disposal; PPAT deed and land office registration.
+regulation: PPh final 2.5 percent on transfer value; PPAT deed and land office registration; lease assignment provisions.
 applies: Anyone who owns and will eventually sell
-verified: 2026-09-06
+verified: 2026-09-21
 ---
 
-Everyone models the purchase. Almost nobody models the exit, which is where the return is actually realised.
+Selling in Bali is harder than buying, and the things that make it hard were decided when you bought.
 
-## Who can buy from you
+## What you are actually selling
 
-This is the question that decides everything, and it is set on the day you buy.
+**A registered right** — Hak Pakai or HGB — transfers by a PPAT deed and is registered at the land office. The buyer pays BPHTB, you pay a final tax of 2.5 percent of the transfer value.
 
-| What you hold | Who can buy it |
-| --- | --- |
-| Leasehold with years remaining | Foreigners, and the shorter the term the smaller the pool |
-| Hak Pakai | Foreigners with residency who meet the value threshold |
-| HGB in a PT PMA | Buyers willing to take on a company, or buy the shares |
-| Freehold via nominee | Nobody safely. The structure is the problem |
+**A leasehold** is assigned, not transferred. A new notarial deed substitutes the buyer as lessee for the remaining term. There is no land office registration because Hak Sewa is not registered, and BPHTB does not apply in the same way.
 
-A leasehold with eight years left has almost no market. A leasehold with twenty-five has a real one. The decay is not linear and it accelerates.
+**A company** can be sold as shares rather than selling the asset. Sometimes cleaner and faster, and it narrows the buyer pool to those willing to take on an Indonesian company with its history.
 
-## What actually sets the price
+## Your buyer pool was fixed at purchase
 
-**Remaining term**, if the title is term-limited, and the quality of the extension clause.
+Under USD 500,000 with a long remaining term in a good area: the deepest part of the market, three to nine months.
 
-**Licence position.** A villa that can lawfully sell nights is a business. One that cannot is a house with a pool. The gap is large.
+USD 500,000 to USD 750,000: six to eighteen months.
 
-**PBG and SLF.** Missing building approvals discount the price and shrink the buyer pool to people willing to take the problem on.
+Above USD 750,000: twelve to twenty-four months, frequently at a discount to asking, because perhaps a dozen buyers exist at that level and they are not all looking this year.
 
-**Age of fit-out.** Tropical wear is fast. A property due its five-year refurbishment sells at the cost of that refurbishment, or below.
+With under twelve years remaining on a lease: very difficult at any sensible price, because the arithmetic stops working for a buyer before it stops working for you.
 
-**Land, always.** Well-zoned land in a good location is what holds value. The building depreciates.
+On a leasehold the term keeps running while the property sits unsold, which compresses the price every month. The wait is a cost that compounds.
 
-## Selling through a company
+## Start with the documents, three months out
 
-If the property sits in a PT PMA you can sell the asset or sell the shares. Selling shares transfers the company, its licences, its history and its liabilities. It can be cleaner for the buyer and is often faster.
+This is where sales die, weeks after a price is agreed.
 
-It also means the buyer inherits any compliance problems, so expect real scrutiny of the company's filings. Keeping the PT PMA properly compliant throughout is worth money at exit, not just peace of mind.
+**The original certificate**, retrieved from wherever it is. A lost certificate takes months to replace and stops a sale dead.
 
-## Tax
+**Land office record matching the certificate** — name, area, boundaries, encumbrances.
 
-The seller normally bears a final transfer tax on the sale value. Who pays what is negotiable in practice and should be explicit in the deed rather than assumed.
+**PBB current**, with receipts. Arrears transfer with the land and a buyer's notary will find them.
 
-Where the property sits in a company, the treatment differs again. Establish the position before you agree a net figure with a buyer.
+**PBG and SLF located.** If the building exists and these do not, regularise before listing or discount for it. Regularising is usually cheaper than the discount a buyer will demand and far cheaper than losing the sale at week six.
 
-## Agents and commission
+**Your own lease read**, specifically the assignment clause. If landowner consent is required, obtain it **in principle before you list**, in writing, with the fee stated. A seller who discovers mid-sale that the landowner wants a fee has already lost the negotiation.
 
-Agent commission here is negotiable and varies widely. Ask what it covers: photography, listing, viewings, buyer qualification, coordination with the notary.
+**Anything outstanding resolved** — boundary disagreements, unpaid contractors, access disputes.
 
-Exclusive mandates are common. If you sign one, cap the term. An agent with an indefinite exclusive and no performance obligation has no urgency.
+## Then the numbers
 
-## What to do a year before
+If it has been rented, buyers will want to see performance, and vague claims lower the price rather than raise it.
 
-- Get the certificate, PBG, SLF and licence documents in order and verified
-- Bring the PT PMA filings fully up to date if it holds the property
-- Do the refurbishment if it is due, because buyers discount more than it costs
-- Assemble twelve months of clean operating statements if it rents
-- Establish the realistic transacted price on your street, not the asking prices
+Two to three years of month-by-month occupancy and revenue, actual operating costs, the management agreement, and tax filings. A seller who produces this credibly commands a meaningfully better price.
+
+If the numbers are poor, either sell on the property and price accordingly, or spend a season fixing the operation first. A year of good numbers is frequently worth more than the year costs.
+
+## Then the presentation
+
+Fix visible defects — cracked tiles, stained grout, failing aircon, a tired pool surface, dead plants. Repaint, which is the highest return per dollar of any work on a Bali villa. Deep clean including the pool and roof. Declutter but leave it furnished, because empty villas photograph badly and read smaller. Fix the garden.
+
+Then **photograph it professionally**, with drone footage. This routinely moves the sale price by more than the entire agent commission and it is the thing sellers most often skip.
+
+## Pricing
+
+Against what comparable properties have actually sold for, not what they are listed at. Asking prices in Bali carry a great deal of optimism.
+
+On a leasehold, the remaining term dominates and the decline accelerates toward the end. Price against the term you have, not what you paid for a longer one.
+
+## Choosing an agent
+
+An exclusive with a good agent and written marketing commitments outperforms an open listing with six agents, because no agent funds photography and advertising a competitor might benefit from, and the property ends up advertised at four different prices, which tells buyers the seller is not serious.
+
+Three months, written marketing commitments with dates, a performance break clause, one agreed price, and commission defined precisely including what happens after the term expires.
+
+## What it costs to leave
+
+The 2.5 percent final tax on a registered transfer, calculated on the higher of price and NJOP. Agent commission at three to five percent. Any landowner consent fee on a lease assignment. Notary fees. And the holding cost — staff, maintenance, utilities, management — while it sits.
+
+Your home country will generally assess the gain as well, with a credit for Indonesian tax. Because the Indonesian rate is low, the balance frequently falls at home. Get advice in both countries before completing.
 
 ## Common questions
 
-### Can a foreigner sell property in Bali?
-Yes, within the same framework that governed the purchase: leasehold assignment, Hak Pakai transfer to a qualifying buyer, or sale of the asset or shares where a PT PMA holds it.
-
-### What tax do you pay when selling property in Indonesia?
-The seller normally bears a final transfer tax on the sale value. The position differs where a company holds the property, so confirm before agreeing a net price.
-
 ### How long does it take to sell a villa in Bali?
-Longer than most owners expect. Well-priced property in Canggu and Seminyak has the deepest buyer pool. Remote areas, short lease terms and unlicensed villas can sit for a year or more.
+Three to nine months under USD 500,000 with a long term, six to eighteen up to USD 750,000, and twelve to twenty-four months above that, often at a discount.
 
-### Does a short lease term hurt resale?
-Severely, and non-linearly. A right with eight years left trades far below half the value of the same property with thirty, because the buyer inherits your expiry problem.
+### What tax do I pay selling property in Bali?
+A final tax of 2.5 percent of the transfer value on a registered transfer, calculated on the higher of price and NJOP. It is charged on the sale value, not the gain.
 
-### Is it better to sell the villa or the company?
-Selling shares transfers licences and history and is often faster, but the buyer inherits liabilities and will scrutinise the filings. Clean compliance throughout is what makes that route available.
+### Why do Bali property sales fall through?
+Documents. A missing original certificate, PBB arrears, no PBG or SLF, a certificate that does not match the land office record, or a lease requiring landowner consent to assign.
+
+### Should I list exclusively or with several agents?
+Exclusively, with a three month term, written marketing commitments and a performance break clause. Open listings get no marketing budget and several conflicting prices.
+
+### Does professional photography actually help sell a Bali villa?
+Yes, and it routinely moves the sale price by more than the entire agent commission. It is the highest-return expenditure in the process.

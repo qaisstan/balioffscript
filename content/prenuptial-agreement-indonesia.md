@@ -5,68 +5,82 @@ summary: Without one, a foreign spouse's interest can contaminate an Indonesian 
 category: ownership
 order: 11
 risk: critical
-regulation: UU 1/1974 on Marriage as amended; Constitutional Court decision 69/PUU-XIII/2015 on postnuptial agreements.
+regulation: UU 1/1974 on Marriage as amended; Constitutional Court decision 69/PUU-XIII/2015 permitting postnuptial agreements.
 applies: Foreigners married to or marrying an Indonesian citizen
-verified: 2026-09-06
+verified: 2026-09-21
 ---
 
-This is the single most important legal document for a foreigner married to an Indonesian citizen who intends to hold property, and it is routinely skipped.
+If you are a foreigner married to an Indonesian citizen, this is the single most important document you will sign in this country, and a very large number of couples do not know it exists until it is too late.
 
-## The problem
+## The mechanism
 
-Under Indonesian marriage law, property acquired during a marriage is treated as joint marital property by default. Both spouses have an interest in it.
+Indonesian marriage law treats assets acquired during a marriage as **joint marital property** by default. Both spouses hold an interest in them.
 
-Hak Milik, Indonesian freehold, may only be held by an Indonesian citizen. Put those two rules together and the difficulty appears immediately: if an Indonesian spouse acquires freehold land during a marriage to a foreigner, the foreign spouse acquires an interest in a title a foreigner cannot lawfully hold.
+Separately, Indonesian land law reserves **Hak Milik**, freehold, to Indonesian citizens.
 
-The consequence is not theoretical. It can force disposal of the land, block the purchase at the notary stage, or surface years later on divorce, death or sale.
+Put those together. An Indonesian citizen married to a foreigner acquires freehold during the marriage. Because marital property is jointly held, the foreign spouse has an interest in it. Because a foreigner cannot hold Hak Milik, that interest is impermissible.
 
-## What the agreement does
+The practical consequence is that the Indonesian spouse's ability to hold and deal with freehold acquired during the marriage is compromised. Land offices and notaries are alert to this, and transactions get refused.
 
-A prenuptial agreement separates the spouses' assets, so that property acquired by the Indonesian spouse is their own rather than joint. That removes the foreign interest and allows the Indonesian spouse to hold freehold normally.
+This surprises couples because nothing about it is intuitive. Nobody did anything wrong. The rules simply interact badly.
 
-It also protects the foreign spouse, by making clear what is theirs and what is not, which matters enormously if the marriage ends.
+## What a prenuptial agreement does
 
-## If you are already married
+A **perjanjian pranikah** separates the estates. Each spouse's assets remain their own, acquired before or during the marriage. There is no joint marital property, so no impermissible foreign interest arises, and the Indonesian spouse can hold freehold in their own right.
 
-Until 2015 the answer was that you were too late. The Constitutional Court decision in 69/PUU-XIII/2015 changed that, and a **postnuptial** agreement separating assets is now possible.
+It is executed before a notary and registered with the civil registry. The registration matters — an unregistered agreement is much weaker against third parties.
 
-It has to be properly executed before a notary and registered with the civil registry and, where relevant, noted so that it is discoverable. An unregistered agreement in a drawer does not do the job.
+## You can still do it after the wedding
 
-If you are already married, already here, and already own or intend to own land, this is the item to deal with before anything else.
+For a long time the agreement had to be made before marriage, which left many couples with no remedy.
 
-## What it does not fix
+The **Constitutional Court decision 69/PUU-XIII/2015** changed that. A **postnuptial agreement** — *perjanjian pasca nikah* — is now possible, made during the marriage, separating the estates from that point.
 
-A prenuptial agreement does not make a foreigner able to hold Hak Milik. Nothing does. It separates the estates so the Indonesian spouse can hold it cleanly in their own name.
+It is not a perfect substitute. It operates from the point it is made and its effect on assets already acquired and on third parties who dealt with the couple before it is more complicated. But it is a genuine remedy and it is used constantly.
 
-It also does not turn a nominee arrangement into a lawful one. A marriage is not a workaround for the ownership rules, and treating a spouse as a convenient title-holder is the same prohibited structure with more at stake.
+If you are already married and have no agreement, this is worth doing now rather than continuing to put it off.
 
-## Inheritance
+## What it does not do
 
-Where a foreign spouse would inherit a title they cannot lawfully hold, Indonesian law generally requires disposal within a set period. That applies to a surviving foreign husband or wife just as it applies to foreign children.
+**It does not let a foreigner own Hak Milik.** It keeps the Indonesian spouse's freehold clean. The foreign spouse still cannot hold freehold, and no document changes that.
 
-Plan for it. A will drafted for your home country does not resolve an Indonesian land title, and families discover this at the worst possible moment.
+**It is not a divorce settlement.** It determines whether property is separate or joint. How assets are divided on divorce is a related but distinct question, and the agreement affects it — which is worth understanding and discussing openly rather than discovering later.
 
-## Practical steps
+**It does not solve inheritance.** A foreign spouse who inherits Hak Milik still faces the disposal rules. Handle inheritance separately, with an Indonesian will.
 
-- Use an Indonesian notary experienced in mixed marriages, not a general practitioner
-- Execute before marriage where possible, or postnuptially where not
-- Register it properly with the civil registry
-- Keep certified copies with your other title documents
-- Revisit it if you acquire land, incorporate a company, or have children
+## The conversation
+
+This is an awkward document to raise, and the awkwardness causes real harm because couples avoid it.
+
+The framing that works, and that happens to be accurate: this is not about distrust, it is about a legal incompatibility between two sets of rules that produces a bad outcome for the Indonesian spouse. Without it, they lose the ability to hold land in their own country. The agreement protects them at least as much as it protects the foreign partner.
+
+## What to do
+
+**Before marrying**, make a prenuptial agreement before an Indonesian notary and register it with the civil registry.
+
+**If already married**, make a postnuptial agreement. Take advice on how it interacts with assets already acquired.
+
+**Use a notary experienced with mixed marriages.** The drafting has to work for both the land law and the marriage law, and a generic template does not.
+
+**Get a sworn translation**, and understand exactly what you are signing.
+
+**Keep the registered agreement** where both of you can reach it, along with the marriage certificate.
+
+**Deal with wills separately.** The agreement sorts ownership during life. Inheritance is its own problem.
 
 ## Common questions
 
-### Do I need a prenup to marry an Indonesian?
-Legally you can marry without one. If either of you intends to hold land, you effectively need one, because joint marital property rules otherwise give a foreign spouse an interest in a title foreigners cannot hold.
+### Do I need a prenup to buy property in Indonesia?
+If you are a foreigner married to an Indonesian citizen and want your spouse to hold freehold cleanly, yes. Without one, joint marital property rules create an impermissible foreign interest.
 
-### Can I get a prenup after marriage in Indonesia?
-Yes. Since Constitutional Court decision 69/PUU-XIII/2015 a postnuptial agreement separating assets is possible. It must be executed before a notary and registered to be effective.
+### Can I make a prenuptial agreement after marriage in Indonesia?
+Yes. Constitutional Court decision 69/PUU-XIII/2015 permits postnuptial agreements made during the marriage, separating the estates from that point.
 
-### Can my Indonesian wife or husband buy land if I am a foreigner?
-Yes, if your assets are separated by a valid prenuptial or postnuptial agreement. Without one, joint marital property rules create a problem at the notary or later.
+### Does a prenup let a foreigner own property in Indonesia?
+No. It keeps the Indonesian spouse's freehold clean. A foreigner still cannot hold Hak Milik under any arrangement.
 
-### What happens to Indonesian property if my Indonesian spouse dies?
-A surviving foreign spouse who inherits a title they cannot lawfully hold generally faces a disposal requirement within a set period. Plan the estate specifically for Indonesian assets.
+### What happens without a prenup in a mixed marriage?
+The Indonesian spouse's ability to hold and deal with freehold acquired during the marriage is compromised, and notaries and land offices refuse transactions on that basis.
 
-### Does a prenup make a nominee arrangement legal?
-No. Separating assets and using someone else as a front for ownership are different things, and marriage does not convert a prohibited structure into a permitted one.
+### Does it need to be registered?
+Yes. An agreement executed before a notary should be registered with the civil registry, because an unregistered agreement is considerably weaker against third parties.

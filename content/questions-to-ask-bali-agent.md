@@ -5,83 +5,112 @@ summary: Most agents will answer what you ask and not much more. These are the q
 category: ownership
 order: 16
 risk: high
-regulation: General guidance. Verify every answer independently through your own notary.
+regulation: No licensing regime for real estate agents in Indonesia. Verify every answer independently through your own notary.
 applies: Anyone viewing property here
-verified: 2026-09-06
+verified: 2026-09-21
 ---
 
-Agents here are not regulated the way they are in most Western markets. There is no licensing body with teeth, no standard disclosure obligation, and commission structures vary widely.
+There is no licensing regime for real estate agents in Indonesia. No professional standards body, no mandatory disclosure, no indemnity regime. Whatever you find out, you find out by asking and then verifying.
 
-That does not make them dishonest. It means the burden of asking is entirely on you.
+Agents here are not generally dishonest. They answer what you ask, and they are paid on the sale, which means the questions you do not ask do not get answered.
 
 ## About the title
 
-- What exactly is the title type, and may I see the certificate?
-- Who is the registered holder, and are they the person selling?
-- How many years remain, and what does the extension clause actually say?
-- Are there registered charges over the land?
-- Is there a spouse, and have they consented?
-- Has this land passed through inheritance, and is that resolved?
+**What exactly is being sold — leasehold, Hak Pakai, or shares in a company holding HGB?** If the answer is "freehold", stop.
 
-## About the land
+**Whose name is on the certificate, and can I see the original?** Not a photocopy or a photograph.
 
-- What is the zoning designation on this specific parcel?
-- What is the buildable envelope after KDB, KLB, setbacks and green area?
-- How wide is the access road, and is the right of way registered?
-- What happens here in wet season?
-- What is the water supply, and what does it cost in full occupancy?
+**Is the person selling the registered owner?** If not, what connects them, and can I see it?
 
-## About the building
+**Is the owner married, and will the spouse consent?**
 
-- Do PBG and SLF exist, and do they describe the building as it stands?
-- Were any extensions approved?
-- When was it built, and when was it last refurbished?
-- What is the electricity capacity?
+**How many years remain?** Exactly, from the deed, not approximately.
 
-## About the income, if it is sold as an investment
+**Is the extension jaminan or prioritas?** Ask it in those words. An agent who does not know the difference is telling you something useful.
 
-- May I see twelve months of actual operating statements, not a projection?
-- What occupancy did it achieve, month by month?
-- Does an operating licence exist, and does it transfer with the sale?
-- What is the full cost base including staff, management and platform commission?
-- Is there a sinking fund, and what does refurbishment cost?
+**Is the extension price fixed now or determined later?**
 
-## About the transaction
+**Does the lease bind heirs and successors, and permit assignment and sublease?**
 
-- Who is the notary, and may I appoint my own?
-- What is the payment schedule, and what conditions attach to each tranche?
-- Is the deposit refundable, and on what defined grounds?
-- Which account do funds go to, and is it in the registered owner's name?
-- What are the total closing costs?
+## About the land and building
+
+**What zone is the parcel in, and does it permit commercial accommodation?** The spatial plan, for that parcel, not the area.
+
+**What are the KDB and KLB, and what is the buildable area after setbacks?**
+
+**Is there a PBG, and does it match the building that exists?**
+
+**Is there an SLF?**
+
+**Is the access road public, or is there a documented right of way?**
+
+**Is the parcel splittable?**
+
+**Has the land been surveyed, and does the area match the certificate?**
+
+## About the money
+
+**What is the price, and what does it include?** Furniture, staff, forward bookings.
+
+**What are the transaction costs and who pays each?**
+
+**Are PBB payments current, and can I see the receipts?**
+
+**Is there an existing lease, tenancy or management agreement?**
+
+**Are there any encumbrances, mortgages or disputes?**
+
+## About the income, if it is rented
+
+**What did it actually gross and net, month by month, for the last two years?** Not a projection, and not an annual figure.
+
+**Can I see the tax filings and bank statements that support that?** If they do not exist, the reported revenue is unverified.
+
+**What licence does it hold to operate, and can I see it?**
+
+**What are the actual operating costs, itemised?**
+
+**Who manages it, on what terms, and does that agreement survive the sale?**
 
 ## About the agent
 
-- Who pays your commission, and how much is it?
-- Do you represent the seller or me?
-- How long has this been listed?
-- Why is the owner selling?
+**Who are you acting for?** In Bali the answer is almost always the seller.
 
-That last set is the one people are shy about. Ask it anyway. An agent paid by the seller is working for the seller, which is fine as long as you know it.
+**How are you paid, and by whom?**
 
-## The tell
+**Is this an exclusive or open listing?**
 
-You are not looking only for the answers. You are looking at whether the agent knows them, whether they will put them in writing, and how they react to being asked.
+**Have you seen the original certificate yourself?**
 
-An agent who produces documents willingly is worth working with. One who deflects toward urgency, other buyers or how long they have been in Bali is answering a different question than the one you asked.
+**Which notary is involved, and who engaged them?**
+
+That last one matters more than any other question on this page. If the answer is "the seller" or "we always use them", engage your own.
+
+## The two questions that reveal most
+
+**"How long do I have for due diligence?"** An answer of one to three weeks is normal and correct. Pressure to move faster is the single most reliable warning sign in this market.
+
+**"Can I have all of that in writing?"** Verbal answers cost nothing to give. A written answer is a representation, and the willingness to put it on paper tells you how confident the answer is.
+
+## Then verify independently
+
+Every answer above is a starting point, not a conclusion. Your own notary checks the certificate at the land office, the zoning against the spatial plan, the permits against the building, and the deed clause by clause.
+
+An agent's answer is information. A notary's written report is evidence. Do not confuse the two.
 
 ## Common questions
 
-### Are property agents regulated in Bali?
-Not in the way they are in most Western markets. There is no effective licensing regime, so verification is your responsibility.
+### Are real estate agents licensed in Bali?
+No. There is no licensing regime for real estate agents in Indonesia, no mandatory disclosure and no professional indemnity regime.
 
-### Who pays the agent commission in Bali?
-Usually the seller, which means the agent acts for the seller. Ask directly, because it defines whose interest is being served.
+### Who does a Bali property agent work for?
+Almost always the seller, who pays the commission. Ask directly, and assume nobody in the transaction is acting solely for you unless you engaged them.
 
-### Should I use a buyer's agent in Bali?
-An adviser paid by you rather than by the seller has an interest aligned with yours. Whichever route you take, keep the notary and the legal review independent.
+### What is the most important question to ask an agent?
+Which notary is involved and who engaged them. If it is the seller's or the agent's, engage your own, because it is the only independent check available.
 
-### What if an agent will not answer my questions?
-Treat it as the answer. Documents that exist can be produced, and reluctance to produce them is information about the deal.
+### How do I check what a villa actually earns?
+Ask for month-by-month gross and net for two years, supported by tax filings and bank statements. Annual figures and projections are not evidence.
 
-### Can I trust an agent's rental projection?
-Treat it as marketing until you have seen twelve months of actual operating statements from a comparable property.
+### What is the biggest warning sign when viewing property in Bali?
+Pressure to move faster than one to three weeks of due diligence. Urgency is the tool used to prevent verification.
