@@ -5,58 +5,80 @@ summary: Extensions are not automatic and the deadlines are unforgiving. The big
 category: visas
 order: 21
 risk: critical
-regulation: Indonesian immigration regulation. Categories and requirements change frequently. Verify against the current official source before applying.
+regulation: Immigration rules and procedures change frequently. Verify against the current official source before acting.
 applies: Anyone holding a KITAS approaching expiry
-verified: 2026-09-20
+verified: 2026-09-21
 ---
 
-Most KITAS problems are not refusals. They are people starting too late.
+A KITAS is a limited stay permit, which means it ends. Extending it is a routine process that goes wrong for predictable reasons.
 
-## The basics
+## The basic mechanics
 
-A KITAS is issued for a defined period and extended while the underlying basis still holds: the job, the company, the marriage, the investment, the retirement status.
+Extension is applied for **before the current permit expires**, through the sponsor that holds it — the employer, the spouse, the institution or the company.
 
-Extension is applied for **before expiry**, through your sponsor. Leave it to the final days and a single missing document becomes an overstay.
+It is granted, not automatic. An application lodged is not a permit extended, and the gap between those two things is where people end up in overstay.
+
+Processing takes time, and the amount varies by permit type, by the completeness of the application and by the immigration office handling it. Lodging on the last available day is not applying in time.
 
 ## Start early
 
-Begin at least a month out, more if any supporting document needs renewing, legalising or translating.
+The practical rule: begin the process **a month to six weeks before expiry**, not a week.
 
-Documents that commonly hold things up: a company's tax filings, an LKPM report that was never submitted, a marriage certificate needing legalisation, a passport with under six months validity.
+That allows for a document that needs correcting, a sponsor who is slow to sign, a biometric appointment that is not available immediately, and the ordinary friction of a system that does not send reminders.
 
-## Your sponsor carries the process
+Diarise the expiry date at booking, and diarise a start date a month earlier.
 
-Whoever sponsors the KITAS applies for the extension. That is your employer, your PT PMA, your spouse, or an agent.
+## What the application generally involves
 
-**This is the dependency people underestimate.** If the sponsoring company has fallen behind on its own compliance, missed LKPM reporting, or had its NIB suspended, your extension is exposed. Company compliance is a personal matter when your residence depends on it.
+The sponsor's documents and a letter supporting the extension. Your passport, with sufficient remaining validity. The current permit. Evidence that the basis for the permit still holds — continued employment, continued marriage, continued study, continued investment.
 
-## What a lapse actually costs
+Biometrics and an office attendance, depending on the permit type and the current procedure.
 
-Beyond the fine and the immediate problem, a gap in your permit history can **reset your qualifying period for KITAP**.
+Then the extension is endorsed and, for some types, the associated reporting is updated.
 
-If you are working toward permanent stay through consecutive years on an appropriate KITAS, a lapse can put you back to the start. People discover this years later when they apply and are told the clock restarted.
+## The reporting that goes with it
 
-If KITAP is the destination, treat continuity as the thing you are protecting.
+A KITAS carries **post-arrival and ongoing reporting obligations**, including registration and an **SKTT** domicile certificate in many cases.
 
-## Changing category
+If you have moved address since the permit was issued and not updated the record, that inconsistency frequently surfaces at extension. Keep the address record current rather than discovering it at renewal.
 
-Moving between KITAS types, from work to investor, or investor to family, is not an extension. It is a new application, and it can also affect your KITAP count.
+## Where extensions fail
 
-Take advice before switching rather than after.
+**The sponsor relationship changed.** A work KITAS is tied to the employment. If you left the job, changed role materially or the company's position changed, the extension is not a formality and may not be available at all. The permit needs to change with the circumstances, not after them.
+
+**The company's compliance is not current.** A sponsoring PT PMA with missed LKPM filings, outstanding tax returns or an inactive NIB has a standing problem, and that problem attaches to the permits it sponsors. This catches people whose own paperwork is perfect.
+
+**Document mismatches.** A name spelled differently between the passport and an earlier record, an address that does not match, a passport renewed since issue leaving two records that do not reconcile. Systems match strictly and reject rather than query.
+
+**An agent who did not file.** Recurring and infuriating. You paid, they did not lodge, and the exposure is yours. Get the actual filing reference and receipt, not a message saying it is in hand.
+
+**Leaving the country mid-process** without the correct re-entry position, which can invalidate the application.
+
+## If the extension will not be granted
+
+Address it before expiry, not after. Options depend on circumstances and may include changing to a different permit type with a different sponsor, or leaving and re-entering on a new permit.
+
+What does not work is waiting to see. Once the permit expires you are in overstay, with a daily fine from day one and an escalation to detention and a re-entry ban past a threshold measured in weeks.
+
+## Toward KITAP
+
+Continuous KITAS holding for a qualifying period is generally what leads to **KITAP**, the permanent stay permit, with longer validity and simpler renewals.
+
+"Continuous" is doing real work in that sentence. A gap caused by a late extension can reset the clock, which is a further reason to treat renewal dates seriously if permanent residence is the objective.
 
 ## Common questions
 
-### How early should I apply to extend a KITAS?
-At least a month before expiry, and earlier if any supporting document needs renewing, legalising or translating.
+### When should I apply to extend a KITAS?
+A month to six weeks before expiry. It is granted rather than automatic, processing takes time, and an application lodged is not a permit extended.
 
-### Who applies for the extension?
-Your sponsor: employer, PT PMA, spouse or agent. You cannot do it independently of them.
+### What happens if my KITAS expires while extending?
+You are in overstay from the day after expiry, with a daily fine and escalation to detention and a re-entry ban past a threshold measured in weeks.
 
-### What happens if my KITAS expires?
-Overstay penalties apply immediately, and a gap can reset your qualifying period for KITAP.
+### Why do KITAS extensions get refused?
+Most often because the sponsor relationship changed, the sponsoring company's filings are not current, or documents do not match across records.
 
-### Does my company's compliance affect my KITAS?
-Yes. If the sponsoring company falls behind on filings or has its NIB suspended, the permit resting on it is exposed.
+### Can I change sponsor when extending a KITAS?
+A permit is tied to its sponsor, so a change of employer or circumstances generally means a new permit rather than an extension. Sort it before the current one expires.
 
-### Can I switch KITAS types at extension?
-Changing category is a new application rather than an extension, and it can affect your path to permanent stay.
+### Does a gap between permits affect KITAP eligibility?
+It can. KITAP generally requires continuous KITAS holding for a qualifying period, and a gap caused by a late extension can reset that clock.

@@ -5,66 +5,82 @@ summary: The route exists, and it rests entirely on the PT PMA staying compliant
 category: visas
 order: 25
 risk: high
-regulation: Indonesian immigration regulation. Categories and requirements change frequently. Verify against the current official source before applying.
+regulation: Immigration rules change frequently; KITAP eligibility periods and investment thresholds vary. Verify against the current official source.
 applies: Shareholders in an Indonesian company
-verified: 2026-09-20
+verified: 2026-09-21
 ---
 
-The investor route to permanent stay is real, and it makes your company's housekeeping a personal matter.
+KITAP — *Kartu Izin Tinggal Tetap* — is Indonesia's permanent stay permit, and the investor route is the one most relevant to someone who has built a business or holds property through a company here.
 
-## The path
+## What KITAP gives you
 
-Consecutive qualifying years holding an investor KITAS, with the underlying shareholding and the company both maintained in good standing, build toward KITAP.
+**Longer validity** than a KITAS, with simpler renewal cycles rather than an annual scramble.
 
-Confirm the current qualifying period, since it has been adjusted.
+**Stability.** A KITAS is tied to a sponsor and to a basis that can change. KITAP is a more settled position, which matters if you have built a life, a business and assets here.
 
-## The dependency that decides it
+**Practical ease.** Banking, contracts, utilities, school enrolments and tax registration are all simpler with permanent status, and the cumulative friction of not having it is larger than people expect.
 
-Your investor KITAS rests on the PT PMA. The PT PMA carries continuous obligations:
+**A clearer route to holding Hak Pakai**, the strongest ownership position available to a foreign individual, which requires residency.
 
-| Obligation | Frequency |
-| --- | --- |
-| LKPM investment activity report | Quarterly for most classifications |
-| Monthly tax filings, including nil returns | Monthly |
-| Corporate income tax return | Annual |
-| Financial statements | Annual |
-| NIB and classifications current | Continuous |
+## The investor route
 
-Miss enough of these and the NIB can be suspended. A suspended NIB stops the company operating, and the permit resting on it is exposed.
+Broadly, it is reached by holding an **investor KITAS** continuously for a qualifying period, on the basis of shareholding in an Indonesian company meeting an investment threshold.
 
-**Years of compliance are what buy KITAP.** A single bad year of filings can cost the continuity you were building.
+Three things to establish currently rather than from older guidance, because all three have moved:
 
-## The classification problem
+**The investment threshold**, which is set by regulation and has changed.
 
-Bali closed 18 low-risk classifications to new foreign-owned registration on 22 July 2026, including villa, homestay, real estate and management consultancy.
+**The qualifying period** of continuous KITAS holding before KITAP becomes available, which varies by category.
 
-If your company was formed to operate one of those, confirm its position rather than assuming. An investor KITAS is granted in connection with a real business, and what the company can lawfully do determines whether that business exists.
+**What the permit actually permits.** An investor permit is granted on the basis of an investment. It is not a general work authorisation, and the scope of what you may personally do in the company is narrower than many holders assume. Holding shares is not authorisation to work.
 
-## Do not let a dormant company drift
+## "Continuous" is doing real work
 
-If the project stalls, the company keeps accruing obligations and penalties. Owners who stop paying attention discover years later that their compliance record, and their residence path, went with it.
+The qualifying period requires **continuous** KITAS holding.
 
-Either stay minimally compliant or close it properly.
+A gap — caused by a late extension, a lapsed sponsor relationship, a period outside the country beyond what the permit allows, or an administrative failure — can reset the clock.
 
-## What it costs
+If KITAP is the objective, treat every renewal date as consequential rather than routine. People lose years to a two-week gap they did not think mattered.
 
-Accounting, monthly and annual filings, LKPM reporting, financial statements and corporate secretarial work are recurring costs. Budget them as a fixed annual line from year one.
+## What the underlying company has to be
 
-A model that omits them is modelling a company that does not comply, which is also modelling a KITAP you do not get.
+This is the part that catches investors whose own paperwork is immaculate.
+
+The permit rests on the company, so the company's standing matters. A PT PMA with **missed LKPM quarterly reports, outstanding tax filings, an inactive NIB or a KBLI classification that no longer matches what it does** is a problem that attaches to the permits it sponsors.
+
+If you are working toward KITAP through an investor route, the company's compliance is part of your immigration position, not a separate administrative chore. Keep it clean from the start rather than cleaning it up under deadline.
+
+## The tax consequence people miss
+
+Holding KITAP and living here means you are almost certainly an **Indonesian tax resident** — broadly, presence of 183 days in a twelve month period, or presence with intent to reside.
+
+That changes your rental income rate from twenty percent non-resident to ten percent final resident on Indonesian-source property income, which is favourable.
+
+It also brings you into the Indonesian system properly, and interacts with your home country's worldwide income rules. Several European jurisdictions apply exit taxation on relocation, and the United States taxes citizens on worldwide income regardless of where they live.
+
+This is worth planning deliberately, ideally before the residency position is established rather than after.
+
+## The alternative routes
+
+KITAP is also reached through **marriage to an Indonesian citizen**, which is the most common path and generally the most straightforward.
+
+And through **employment**, on a work KITAS held continuously for a qualifying period.
+
+The investor route suits someone whose connection to Indonesia is a business or an asset rather than a family or a job.
 
 ## Common questions
 
-### Can an investor get KITAP in Indonesia?
-Yes, through consecutive qualifying years on an investor KITAS with the shareholding and company maintained in good standing.
+### What is KITAP in Indonesia?
+The permanent stay permit, offering longer validity and simpler renewals than a KITAS, with a more settled legal and practical position.
 
-### What happens if my PT PMA misses filings?
-Penalties escalate toward NIB suspension, which stops the company operating and exposes the permit resting on it.
+### Can an investor get permanent residence in Indonesia?
+Yes, generally by holding an investor KITAS continuously for a qualifying period on the basis of a shareholding meeting an investment threshold. Verify current thresholds and periods.
 
-### Does my company need to trade to keep my KITAS?
-It needs to remain compliant. A dormant company still accrues reporting obligations and penalties.
+### Does an investor KITAP let me work in Indonesia?
+It is granted on the basis of an investment rather than as a general work authorisation. Confirm the current scope rather than assuming it permits any role.
 
-### How much does PT PMA compliance cost annually?
-It is a recurring fixed cost covering accounting, filings and reporting, owed whether or not the business earns.
+### Can a gap in my KITAS affect KITAP eligibility?
+Yes. The qualifying period requires continuous holding, and a gap from a late extension or lapsed sponsor relationship can reset the clock.
 
-### Does the July 2026 classification closure affect me?
-If your company was formed for villa, homestay, real estate or management consultancy, confirm its position rather than assuming.
+### Does holding KITAP make me an Indonesian tax resident?
+Living here on a KITAP almost certainly does, through the 183 day test or presence with intent to reside, which changes your rental income rate and interacts with your home country's rules.

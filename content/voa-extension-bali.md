@@ -5,63 +5,82 @@ summary: Thirty days extendable once, done online or through an agent. Apply on 
 category: visas
 order: 22
 risk: high
-regulation: Indonesian immigration regulation. Categories and requirements change frequently. Verify against the current official source before applying.
+regulation: Immigration rules and procedures change frequently. Verify against the current official source before acting.
 applies: Anyone on a visa on arrival
-verified: 2026-09-20
+verified: 2026-09-21
 ---
 
-The extension itself is routine. Almost everything that goes wrong is timing.
+The visa on arrival gives you thirty days and one extension of thirty more. The extension is where most Bali overstay fines originate, and almost all of it is avoidable.
 
 ## What you get
 
-| | |
-| --- | --- |
-| Initial stay | 30 days |
-| Extensions permitted | **One** |
-| Extension length | A further 30 days |
-| Maximum total | 60 days |
+**Thirty days** from and including the day you arrive, **extendable once** for a further thirty. Sixty days total, then you leave.
 
-After that, you leave. There is no second extension, and staying beyond it is overstay with daily fines from the first day.
+There is no second extension. If you want longer than sixty days, you need a different permit, arranged before you arrive.
 
-## How to do it
+## How to extend
 
-**Online**, through the official immigration system, or **through an agent** for a modest fee. Agents handle the paperwork and any biometric or office attendance requirement.
+The application is made **inside Indonesia, before the first thirty days expire**.
 
-For a single extension, an agent is usually worth it. The fee is small against the cost of getting it wrong.
+Depending on current procedure it can be done through the immigration system online, or at an immigration office, and it may require attendance for biometrics and photographs. Procedures have changed repeatedly in recent years, so verify the current process rather than relying on what someone did last year.
 
-## Start at least a week early
+It is **granted, not automatic**. Lodging the application is not the same as holding the extension.
 
-The single most common failure is applying at day 28 or 29, having a document rejected, and running out of runway.
+## The timing rule that matters
 
-Give yourself a week. If something is wrong with your passport validity, your photo, your address details or your onward ticket, you want time to fix it rather than discovering it on the last day.
+Apply **as soon as the window opens**, not when the deadline approaches.
 
-## What you need
+Processing takes days. Immigration offices have queues, appointment availability varies, and public holidays interrupt everything. An application lodged on day twenty-eight leaves no margin for a document that needs correcting or an appointment that is not available until day thirty-two.
 
-Passport with sufficient remaining validity, the VOA receipt, proof of address in Indonesia, and depending on the route, an onward ticket.
+The people who end up paying overstay fines are almost never people who ignored the date. They are people who left it until the date was close.
 
-Passport validity catches people. Requirements are typically six months from entry, and a passport that was fine on arrival can create a problem at extension.
+## Using an agent
 
-## Counting the days
+Very common, generally fine, and the source of a specific recurring failure.
 
-Count from the date **stamped on entry**, not the date you think you arrived and not your flight date. Treat the expiry as the last day you may be in the country, not the day you intend to leave.
+If you use one, **get the actual filing reference and the receipt**, not a reassurance that it is handled. Agents who took payment and did not lodge are a known pattern in Bali, and the exposure falls entirely on you — immigration does not care who you paid.
 
-## When you need something else
+Check the status yourself where the system allows it.
 
-If you intend to stay beyond 60 days, work remotely, run a business, retire here or join family, the VOA is the wrong instrument. The E33G covers remote work for a foreign employer, and investor, family and retirement routes exist for the rest.
+## Count your days correctly
+
+The thirty days **includes your arrival day**. People count from the following day and lose one, which is the single most common cause of a one or two day overstay.
+
+Check the actual stamp in your passport or the e-VOA record rather than your memory of what you bought. If the stamp says something different from what you expected, the stamp is what counts.
+
+## After sixty days
+
+Leave, or hold a different permit.
+
+The pattern of leaving for a few days and returning on a fresh visa on arrival is possible and it attracts attention when repeated. Immigration officers can and do decline entry to people who appear to be living in Indonesia on consecutive tourist visas, and a refusal at the border is a considerably worse outcome than an extension declined at an office.
+
+If you want to be here long term, use a permit designed for it. Second home, golden visa, E33G remote worker, investor, retirement and spouse routes all exist for different circumstances.
+
+## What the extension does not change
+
+The extension gives you more days. It does not give you more permissions.
+
+A visa on arrival, extended or not, permits tourism, visiting, meetings, negotiations and site visits. It does not permit work — including running your own villa operation, managing staff, handling bookings or dealing with suppliers. Extending the stay does not change what you may do during it.
+
+## If you have already overstayed
+
+Go to the airport or immigration and pay. For a short overstay that is the whole process: a fixed daily fine per person, paid before you can leave.
+
+Do not attempt to leave without addressing it. You will be stopped, and concealment turns a fine into something worse.
 
 ## Common questions
 
 ### How many times can you extend a Bali visa on arrival?
-Once, for a further 30 days, giving 60 days in total.
+Once, for a further thirty days, giving sixty days in total. After that you must leave or hold a different permit.
 
-### Can I extend a VOA online?
-Yes, through the official immigration system, or through an agent who handles the paperwork.
+### When should I apply to extend my Bali VOA?
+As soon as the window opens rather than near the deadline. Processing takes days and appointment availability, queues and public holidays all interrupt it.
 
-### When should I apply for the extension?
-At least a week before expiry. Applying on the last day leaves no room if a document is rejected.
+### Does the 30 days include my arrival day?
+Yes, and counting from the following day is the most common cause of a short overstay. Check the stamp or e-VOA record rather than your memory.
 
-### What if I overstay in Bali?
-Daily fines accrue from the first day, escalating toward detention, deportation and a re-entry ban.
+### Can I use an agent to extend my visa in Bali?
+Yes, and get the actual filing reference and receipt rather than a reassurance. Agents who took payment without lodging are a known pattern and the exposure falls on you.
 
-### Can I leave and come back to reset the 60 days?
-A new entry starts a new VOA, but repeated short cycles as a way of living here is exactly what enforcement targets.
+### Can I keep leaving and re-entering Bali on new visas?
+It is possible and it attracts attention when repeated. Immigration can decline entry to people who appear to be living in Indonesia on consecutive tourist visas.
