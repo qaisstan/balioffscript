@@ -5,66 +5,72 @@ summary: Dubai prices rose hard and yields compressed. Some of that capital went
 category: compare
 order: 19
 risk: medium
-regulation: Rules change in every country named. Verify against the current official source.
+regulation: Market observation, September 2026. Verify current pricing and regulatory positions directly.
 applies: Investors following the flow
-verified: 2026-09-15
+verified: 2026-09-21
 ---
 
-The flow is real and the reasoning behind most of it is not.
+This is a story that circulates in Bali agency marketing, and it deserves examining rather than repeating.
 
-## What happened in Dubai
+## The claim
 
-A sustained run in prices after 2021, driven by residency reform, relocation of wealth, and a genuinely attractive tax position. Entry prices rose substantially and the easy yield compressed as they did.
+That capital is rotating out of Dubai into Bali, because Dubai has become expensive, saturated and generic, while Bali offers scarcity, yield and lifestyle.
 
-That is the normal fate of a market that works. The money that arrived early did well, and later money faces a different arithmetic.
+## What is actually true
 
-## Why some of it looks at Bali
+**Dubai prices rose substantially** through the post-2020 cycle, which compresses the yield available to a buyer entering now compared to one who entered earlier.
 
-**Entry price.** A Dubai deposit buys a whole villa here.
+**Dubai supply is enormous.** The delivery pipeline is very large, and historically Dubai has run in cycles with meaningful drawdowns when supply outpaced demand. A buyer's unit competes with thousands of near-identical units and a new tower opens down the road.
 
-**Yield.** On a well-bought, properly licensed property, net yields here can exceed what Dubai now offers, because the cost base is so much lower.
+**Bali's net yields are higher.** Seven to fourteen percent on a well-run villa against low-to-mid single digits net on Dubai residential.
 
-**Lifestyle.** Different product entirely, and for a certain buyer that is the actual driver.
+**Some individual buyers genuinely do both.** People with Dubai residency and Dubai property buying Bali villas is a real and observable pattern, particularly among entrepreneurs and remote business owners.
 
-## Why most of it buys badly
+**Bali's land scarcity is real** in the corridors people want, in a way Dubai's is not.
 
-Buyers arriving from Dubai are used to a regulated market with a functioning registry, real comparables, financing and enforceable title.
+## What is not established
 
-None of that exists here. They apply Dubai habits: trust the agent, trust the projection, move quickly on a good-looking deal.
+**That this is a large-scale capital rotation.** It is an anecdote repeated by people selling Bali property. There is no transaction register in Bali, no published foreign buyer data, and no way to substantiate a claim about flows. Anyone stating it as a fact does not have the data, because the data does not exist.
 
-The specific failures:
+**That the two are substitutes.** They are not. A Dubai apartment is registered freehold in your own name, with no income tax, in a deep liquid market with published transaction data. A Bali villa is an unregistered contract with a running term in an illiquid market. Buyers holding both are generally doing different things with each, not choosing between them.
 
-- Assuming "freehold" means what it means in Dubai. It does not exist for foreigners here
-- Trusting a yield projection instead of twelve months of operating statements
-- Using the seller's notary, because in a regulated market that is fine
-- Not verifying zoning, because in Dubai the developer handled it
-- Paying a deposit before verification
+**That Dubai is in trouble.** Cycles are normal there and the market has absorbed several. A slowdown is not an exodus.
 
-## The honest framing
+## What is actually happening, as far as anyone can tell
 
-Bali is not Dubai at a discount. It is a different market with weaker rights, no registry you can lean on, and a verification burden that falls entirely on the buyer.
+Capital that is **stored** in low-tax, stable jurisdictions — Dubai, Singapore, Hong Kong — gets **deployed** for yield into higher-return markets, including Bali, Thailand and Vietnam.
 
-The yield advantage is real and it is compensation for exactly that.
+That is portfolio allocation, not rotation. The Dubai position does not get sold to fund the Bali one. A yield-seeking slice of a position that already sits somewhere safe gets deployed.
 
-## What a buyer coming from Dubai should do differently
+This explains a genuine feature of the Bali market: it is largely cash and therefore much less interest-rate sensitive than leveraged markets. The money was never borrowed and it came from somewhere that was never producing yield in the first place.
 
-Appoint their own notary. Budget two to three weeks for verification. Model occupancy month by month. Treat the operating licence as a valuation input rather than paperwork. Value land and building separately.
+## Why the story is told anyway
 
-Everything the Dubai system did for them, they now do themselves.
+Because it does useful work for a seller. It implies scarcity, momentum and sophisticated money arriving, all of which create urgency.
+
+Urgency is the most effective tool in Bali property sales, and the most reliable warning sign for a buyer.
+
+## What you should take from it
+
+**Do not buy because other people are buying.** Whether Dubai money is arriving has no bearing on whether the specific lease in front of you has a guaranteed extension clause, whether the zoning permits your use, or whether the income clears the term decay.
+
+**Do compare the markets honestly.** Dubai gives registered freehold, no income tax and liquidity. Bali gives higher net yield, genuine land scarcity and a property you will use. Both are defensible positions and they answer different questions.
+
+**Treat flow claims as marketing** unless someone can show you the data. In a market with no transaction register, nobody can.
 
 ## Common questions
 
-### Why are investors leaving Dubai for Bali?
-Lower entry prices and higher potential net yields after Dubai's run compressed returns, plus lifestyle for some buyers.
+### Is money moving from Dubai to Bali?
+Individual buyers who hold both are a real and observable pattern, but there is no transaction register or foreign buyer data in Bali, so claims about capital flows cannot be substantiated.
 
-### Is Bali better value than Dubai?
-On entry price and yield, often. On title security, regulation and liquidity, no. They are different risk profiles.
+### Is Dubai property oversupplied?
+The delivery pipeline is very large and the market has historically run in cycles with meaningful drawdowns when supply outpaced demand.
 
-### What mistakes do Dubai investors make in Bali?
-Assuming freehold exists, trusting projections, using the seller's professionals, and skipping zoning verification.
+### Are Bali yields better than Dubai?
+Net yields on a well-run Bali villa are substantially higher, at the cost of a far heavier operating burden, no registered ownership and much thinner liquidity.
 
-### Can you get the same ownership in Bali as Dubai?
-No. Dubai offers registered freehold in designated areas. Indonesia offers no ownership to foreigners at all.
+### Should I sell Dubai property to buy in Bali?
+They do different jobs. Dubai stores capital securely with no income tax and real liquidity; Bali produces income from a usable asset with a running term.
 
-### Is the yield difference worth the risk?
-Only if you do the verification yourself. The yield premium is compensation for work the Dubai system did for you automatically.
+### Why do agents talk about Dubai money arriving in Bali?
+Because it implies momentum and scarcity, which creates urgency. Urgency is the most effective sales tool in this market and the most reliable warning sign for a buyer.

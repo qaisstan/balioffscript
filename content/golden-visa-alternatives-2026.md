@@ -5,63 +5,96 @@ summary: Spain closed its golden visa. Portugal removed the property route. The 
 category: compare
 order: 01
 risk: medium
-regulation: Rules in every country named here change. Verify against the current official source before acting.
+regulation: Residency-by-investment programmes change or close frequently. Verify against the current official source before acting.
 applies: Anyone who was planning a European golden visa
-verified: 2026-09-13
+verified: 2026-09-21
 ---
 
-The European property-for-residency era is largely finished. Understanding where it went matters more than mourning it.
+Residency-by-investment through property has been closing across Europe, which is why attention has shifted east.
 
-## What closed, and when
+## What has closed or narrowed
 
-| Country | Status |
-| --- | --- |
-| Spain | Golden visa ended |
-| Portugal | Property route removed; fund and business options remain |
-| Ireland | Investor programme closed |
-| Netherlands | Investor scheme closed |
-| Greece | Still running, thresholds raised sharply in prime areas |
-| Malta | Restructured and heavily scrutinised |
+**Portugal** removed the real estate route from its golden visa programme, ending the option that made it the most popular in Europe. Fund and business investment routes remain.
 
-The pattern is consistent. Programmes were closed or repriced because they were blamed for housing costs, and because the European Commission pressed member states on them.
+**Spain** ended its golden visa programme.
 
-## Where the capital actually moved
+**Ireland** closed its immigrant investor programme.
 
-Three destinations absorbed most of it.
+**The Netherlands** ended its wealthy foreign investor scheme.
 
-**The UAE**, on freehold ownership and a ten-year residency at a defined property value. The most straightforward ownership rights of the three.
+**Greece** substantially raised investment thresholds, with higher minimums in Athens, Thessaloniki, Mykonos and Santorini than elsewhere.
 
-**Southeast Asia**, on cost. Thailand, Malaysia and Indonesia all offer long-stay routes at a fraction of European prices, with far weaker ownership rights.
+**Hungary** reintroduced a guest investor programme, running against the trend.
 
-**The Caribbean and smaller programmes**, which mostly sell citizenship rather than residency and have themselves been tightened under pressure.
+The pattern is clear. European property-linked residency has been closing under pressure over housing affordability, security screening and EU-level criticism of schemes granting Schengen access.
 
-## Indonesia's position
+## Why they closed
 
-Indonesia has a Golden Visa with tiers for individuals and corporate investors, and a Second Home visa based on either a deposit in a state bank or ownership of qualifying property.
+Three reasons, consistently.
 
-The honest framing: these buy **time and simplicity**, not ownership. A Golden Visa holder faces exactly the same restriction as everyone else. No freehold in a foreign name.
+**Housing affordability.** Golden visas were blamed, fairly or not, for pushing prices beyond locals in Lisbon, Porto and elsewhere.
 
-For most property buyers a conventional KITAS achieves the residency they actually need at a fraction of the capital commitment. The Golden Visa earns its place when the capital was going to be committed anyway, or when avoiding sponsorship arrangements has real value.
+**Security and money laundering concerns**, particularly after scrutiny of who was acquiring EU residency and on what funds.
 
-## The question to ask before any of them
+**EU pressure.** Residency in one member state carries Schengen mobility, which made national programmes an EU-wide issue.
 
-What do you actually want? If it is a second passport, this is the wrong category entirely. If it is the right to live somewhere, compare the cheapest permit that achieves it rather than the most prestigious.
+None of those pressures have reduced. Assume further tightening rather than reopening.
 
-Most people overbuy residency because the marketing is aimed at status, not at need.
+## What remains
+
+**Greece**, at higher thresholds.
+
+**Hungary**, reintroduced.
+
+**Malta** and **Cyprus** in modified forms, both having faced significant EU scrutiny.
+
+**The UAE** offers long-term residence visas linked to property investment at defined thresholds, and this has absorbed a substantial share of the demand that used to go to Portugal.
+
+**Thailand** offers the Long Term Resident visa and the Elite programme, neither of which is strictly property-linked but both of which serve the same purpose.
+
+**Malaysia's MM2H**, revised repeatedly with moving thresholds, plus Sarawak's separate programme.
+
+**Indonesia's second home and golden visa** routes, which are newer and where administrative practice is still settling.
+
+## Where Indonesia actually sits
+
+Indonesia's programmes exist and they are used. They are also less mature than the UAE's or Thailand's, with practice around eligibility, processing and renewal still developing.
+
+The important distinction: Indonesia's routes are generally based on **funds, investment or qualifications**, not straightforwardly on buying a property. Buying a villa does not by itself produce residency in the way a Dubai property purchase can.
+
+That matters because a good deal of Bali marketing implies a property purchase brings residency with it. Check the actual requirement for the actual programme rather than the implication.
+
+## The thing worth saying plainly
+
+**Residency and property should be separate decisions.**
+
+A property bought primarily to obtain residency is usually a bad property, because the selection criteria were the threshold and the paperwork rather than the location, the term and the income.
+
+And programmes change. Portugal, Spain and Ireland all closed routes that buyers had built plans around. A property bought to satisfy a programme that subsequently changes leaves you holding the property and not the benefit.
+
+Buy property because the property is good. Obtain residency through whichever route fits your circumstances. Where the two happen to align, that is a bonus rather than a strategy.
+
+## If residency is the actual objective
+
+The UAE and Thailand currently offer the most predictable, well-documented routes for someone who wants long-term residence in a low-tax jurisdiction without running a business.
+
+Indonesia is viable and less certain administratively.
+
+Europe has largely closed, and what remains costs considerably more than it did.
 
 ## Common questions
 
-### Which countries still have golden visas in 2026?
-Greece and the UAE remain among the most used, alongside long-stay investor routes in Thailand, Malaysia and Indonesia. Spain, Ireland and the Netherlands have closed theirs and Portugal removed the property option.
+### Which countries still offer golden visas in 2026?
+Greece at higher thresholds, Hungary reintroduced, Malta and Cyprus in modified forms, plus the UAE, Thailand's LTR and Elite programmes, Malaysia's MM2H and Indonesia's second home and golden visa routes.
 
-### Why did Spain and Portugal end their golden visas?
-Both were blamed for housing affordability pressure in major cities, with additional pressure from the European Commission on investor migration schemes generally.
+### Why did Portugal end its golden visa property route?
+Pressure over housing affordability, security and money laundering concerns, and EU-level criticism of programmes granting Schengen mobility.
 
-### Is the Indonesia Golden Visa worth it?
-It buys longer validity and fewer sponsorship arrangements. It does not unlock any property right a cheaper KITAS would not, so for most buyers it is more capital than the objective requires.
+### Does buying property in Bali give me residency?
+Not by itself. Indonesia's second home and golden visa routes are generally based on funds, investment or qualifications rather than on a property purchase.
 
-### What is the cheapest residency by investment?
-Southeast Asian long-stay routes are dramatically cheaper than European equivalents. The trade-off is ownership rights, which are far weaker.
+### Is the UAE a good golden visa alternative?
+It offers long-term residence linked to property investment at defined thresholds and has absorbed much of the demand that previously went to Portugal.
 
-### Does a golden visa give you citizenship?
-Usually not directly. Most are residency programmes with a long path to naturalisation, if any. Citizenship-by-investment is a separate and much smaller category.
+### Should I buy property to get residency?
+Generally no. A property selected to satisfy a programme threshold is usually a poor property, and programmes change — several closed after buyers had built plans around them.
