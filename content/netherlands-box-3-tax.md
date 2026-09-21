@@ -5,59 +5,80 @@ summary: The Dutch system taxes an assumed return on your assets rather than wha
 category: compare
 order: 04
 risk: high
-regulation: Tax and residency rules change. Verify against the current official source and take advice in both countries.
+regulation: Dutch Box 3 regime is in transition following Supreme Court rulings; a revised system is being legislated. Verify current rules with a Dutch adviser.
 applies: Dutch residents holding property or savings abroad
-verified: 2026-09-13
+verified: 2026-09-21
 ---
 
-Box 3 is the Dutch tax on savings and investments, and it works differently from almost anything else in Europe.
+The Dutch Box 3 regime is the clearest example of a tax that pushes capital offshore, and it is a recurring reason Dutch buyers appear in Bali.
 
-## The mechanism
+## What Box 3 is
 
-Rather than taxing the income an asset produced, Box 3 taxes a **deemed return**: an assumed yield set by the state, applied to the value of your assets, then taxed at a flat rate.
+The Dutch income tax system has three boxes. **Box 3 covers savings and investments** — bank deposits, shares, second properties, and other assets not used as your primary home or business.
 
-The consequence is straightforward and unpopular. In a year when your assets earned nothing, or lost value, you can still owe tax on a gain the state assumed you made.
+The distinctive feature is that, historically, Box 3 taxed a **deemed return** rather than actual income. The tax authority assumed you earned a certain percentage on your assets and taxed that assumed figure, regardless of what you actually earned.
 
-## Why it has been litigated
+If your assets returned less than the assumed rate — or lost value — you were still taxed on the assumption.
 
-The Dutch Supreme Court found that taxing assumed returns well above actual returns breached property rights protections, which forced a long and still-unfinished reform process.
+## Why it became contentious
 
-The direction of travel is toward taxing actual returns, but the transition has been slow and the rules have changed more than once. Anyone in this position should be taking current Dutch advice rather than relying on how it worked two years ago.
+The deemed return was set at levels that, during years of very low interest rates, bore no relationship to what savers actually earned. People with cash in a bank account earning close to nothing were taxed as though they were earning several percent.
 
-## Why it matters for foreign property
+The **Dutch Supreme Court (Hoge Raad) ruled against the regime**, finding that taxing deemed returns substantially above actual returns breached property rights protections. That triggered a compensation and recovery process and a legislative effort to replace the system with one based on actual returns.
 
-Box 3 generally reaches worldwide assets of Dutch residents, including property held abroad. A villa in Bali is not outside the system because it is in Indonesia.
+**The regime is in transition.** A revised system taxing actual returns has been in development, with implementation dates that have moved. Anyone affected should take current Dutch advice rather than relying on any general description, including this one.
 
-What can change the outcome is the double tax treaty between the Netherlands and Indonesia, which allocates taxing rights on immovable property. Income from property is generally taxable where the property is, and relief is then given at home.
+## Why it drives capital offshore
 
-That relief is not automatic. It requires the right documentation, filed correctly.
+Three features, taken together.
 
-## The practical position
+**It taxes assets rather than income.** A property producing nothing still attracts tax.
 
-- Indonesian property income is Indonesian-source and Indonesia has primary taxing rights
-- The Netherlands may still bring the asset into its own calculation as a resident
-- Treaty relief exists but must be claimed properly
-- Moving the asset does not change residence, and residence is what drives Box 3
+**It applies to worldwide assets** for Dutch tax residents, including foreign property.
 
-## What people get wrong
+**There is no debt-free allowance of any size** that shelters a meaningful portfolio, so the tax reaches ordinary savers rather than only the wealthy.
 
-Assuming that because the property is abroad and the income is taxed in Indonesia, there is nothing to report at home. Reporting obligations exist independently of whether tax is ultimately due.
+The rational response for someone with capital is either to move assets into categories treated more favourably, or to change tax residence. Both happen, and the second is why Dutch buyers appear disproportionately in low-tax jurisdictions.
 
-The expensive version of this mistake is discovered years later with penalties attached.
+## What this means for a Bali property
+
+If you are a **Dutch tax resident**, your Bali property is a Box 3 asset. It is reported and it attracts Box 3 treatment, whatever the Indonesian tax position.
+
+The **Indonesia–Netherlands tax treaty** allocates taxing rights on immovable property to the country where the property sits, which generally means Indonesia taxes the rental income first. The Netherlands then applies its own regime with relief under the treaty, and the mechanics of how Box 3 interacts with treaty relief on foreign property are technical and depend on the current state of the regime.
+
+This is genuinely specialist territory. It is not something to work out from a website, and the answer has been moving.
+
+## If you cease to be Dutch tax resident
+
+The calculation changes fundamentally, and this is what a number of Dutch buyers in Bali have done.
+
+Ceasing Dutch tax residence is a substantive question about where you actually live, where your centre of vital interests sits, and what ties you retain. It is not achieved by spending time abroad while keeping a home, a family and a business in the Netherlands.
+
+Dutch exit taxation and the rules on re-establishing residence both matter, and getting this wrong is expensive in a way that dwarfs the tax being avoided.
+
+Take Dutch advice before acting, not after.
+
+## The broader pattern
+
+The Netherlands is not alone. Several European jurisdictions tax wealth, deemed returns or worldwide assets in ways that reach ordinary investors rather than only the very wealthy.
+
+Indonesia does not have a wealth tax. It taxes rental income and transaction values. For someone whose home jurisdiction taxes the existence of assets rather than what they earn, that difference is structural rather than marginal, and it explains a meaningful share of European capital arriving in Southeast Asia.
+
+What it does not do is make the Indonesian property a good investment by itself. The tax position is a reason to look. The lease term, the extension clause and the net income are what decide whether to buy.
 
 ## Common questions
 
-### What is Box 3 in the Netherlands?
-The Dutch tax on savings and investments. It taxes a deemed return on the value of your assets rather than the income they actually generated.
+### What is Box 3 tax in the Netherlands?
+The part of Dutch income tax covering savings and investments, which historically taxed a deemed return on assets rather than actual income earned.
 
-### Does Box 3 apply to property abroad?
-It generally reaches the worldwide assets of Dutch residents, so foreign property can fall within it, subject to treaty relief.
+### Is Box 3 changing?
+Yes. The Dutch Supreme Court ruled against taxing deemed returns substantially above actual returns, and a revised system based on actual returns has been in development with moving implementation dates.
 
-### Is Box 3 being abolished?
-It is being reformed toward taxing actual returns after court rulings against the deemed-return method. The transition has been prolonged, so check the current position.
+### Does Box 3 apply to foreign property?
+For Dutch tax residents, yes. Worldwide assets fall within scope, with treaty relief mechanics depending on the specific treaty and the current state of the regime.
 
-### Do I pay tax twice on a Bali villa as a Dutch resident?
-Generally not. The treaty gives Indonesia primary taxing rights over income from property located there, with relief at home, but the relief must be claimed with correct documentation.
+### Does the Netherlands have a tax treaty with Indonesia?
+Yes, and it generally allocates taxing rights on immovable property to the country where the property is located, meaning Indonesia taxes rental income first.
 
-### Can I avoid Box 3 by buying in Indonesia?
-No. Box 3 follows Dutch tax residence, not the location of the asset.
+### Should I move tax residence to avoid Box 3?
+That is a substantive question about where you actually live and what ties you retain, with exit taxation implications. Take Dutch advice before acting rather than after.

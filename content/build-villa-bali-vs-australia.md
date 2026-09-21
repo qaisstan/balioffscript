@@ -5,62 +5,84 @@ summary: Over 1,500 Australian builders collapsed in a year and buyers lost depo
 category: compare
 order: 15
 risk: high
-regulation: Market figures. Verify current pricing and rules directly.
+regulation: Market figures, September 2026. Construction costs in both countries change; confirm current quotes directly.
 applies: Anyone planning a purchase or a build here
-verified: 2026-09-13
+verified: 2026-09-21
 ---
 
-The comparison comes up constantly with Australian buyers, and both halves of it are real.
+For Australian buyers this is frequently the comparison that triggers the purchase, and it holds up better than most Bali comparisons do.
 
-## The cost gap
+## The headline numbers
 
-| | Bali | Australia |
-| --- | --- | --- |
-| Per square metre | USD 600 to 1,500 | Several times that |
-| Pool, standard | USD 15,000 to 25,000 | Substantially more |
-| Labour | Abundant, low cost | Scarce, expensive |
-| Contractor availability | Good | A genuine constraint |
-| Timeline, standard villa | 9 to 12 months after permits | Often longer |
+**Bali.** Roughly IDR 8M to 11M per square metre for a good rental standard, which is around USD 500 to USD 700. High specification runs USD 700 to USD 950.
 
-At standard specification a 200 square metre villa here is roughly USD 200,000 to 240,000 for the building. The same brief in Sydney or Melbourne is not comparable.
+**Australia.** A quality architect-designed home commonly runs AUD 3,500 to AUD 6,000 per square metre and higher in the major cities, which is roughly USD 2,300 to USD 4,000.
 
-## The Australian problem
+So Bali builds at somewhere between a fifth and a third of Australian cost per square metre, for a standard that in many respects is comparable and in some — stone, timber, joinery, terrazzo — is better.
 
-Builder insolvency has been severe, with over 1,500 construction firms collapsing in a single year and buyers losing deposits on incomplete homes. Combined with a housing shortfall of around 315,000 dwellings, the pressure is structural rather than cyclical.
+That gap is real and it is not an illusion created by cutting corners.
 
-That is what pushes people to look offshore.
+## Why it is so much cheaper
 
-## The Bali problem
+**Labour.** The dominant factor. Skilled trade labour in Bali costs a small fraction of Australian rates, and Australian construction labour costs have risen substantially.
 
-Different, and not smaller.
+**Materials.** Local stone, timber, terrazzo, brick and concrete are excellent and cheap. Imported fittings carry duty and freight and are where Bali costs rise toward Australian levels.
 
-**You do not own the land**, so you are building on a lease, a Hak Pakai, or through a company. The lease must clearly authorise construction and deal with what happens to the building at expiry.
+**Regulatory load.** Australian residential construction carries extensive compliance — energy ratings, certification, insurance, warranty schemes, engineering sign-offs. Bali's requirements are real but considerably lighter.
 
-**Permits are the long pole.** PBG before you start, SLF on completion. Building without PBG risks stop-work orders and, where it breaches zoning or setbacks, demolition.
+**Climate.** No insulation to Australian standards, no heating, no double glazing, no frost or bushfire engineering. A tropical open-plan villa is a simpler building than a sealed, insulated Australian house.
 
-**Supervision is on you.** Owners who manage remotely through photographs sent by the builder find problems at handover that cost more than supervision would have.
+## What Australia gives you that Bali does not
 
-**Exclusions eat the budget.** The per-square-metre rate typically excludes pool, landscaping, furniture, air conditioning, boundary walls, professional fees and utility connections. Add those and a "200,000" villa lands nearer 280,000.
+**You own it.** Freehold land, registered, mortgageable, appreciating, inheritable without a clause in a contract.
 
-## The honest verdict
+**Statutory warranty and insurance.** Australian states have domestic building warranty schemes and licensed builder regimes. A Bali contractor offers whatever your contract says and nothing more.
 
-Building here is genuinely much cheaper and genuinely more exposed. In Australia the risk is that your builder fails. Here the risk is that you built the wrong thing on land you cannot use that way, or paid ahead of progress.
+**Enforceable recourse.** If an Australian builder fails, there are tribunals, insurers and a licensing authority. In Bali, enforcement against a local contractor from abroad is slow and frequently pointless.
 
-Both are survivable with the right structure. Neither is survivable on trust.
+**Certainty of standard.** Australian construction is heavily codified. Bali quality varies enormously between contractors and depends substantially on supervision.
+
+## The supervision point
+
+This is the part Australian buyers most underestimate.
+
+A Bali build supervised closely finishes better and cheaper than one run remotely from Perth. Not marginally — substantially.
+
+The realistic options are to be in Bali for much of the build, or to pay an architect or project manager for genuine site supervision at five to ten percent of construction cost. Buyers who do neither get a building that varies from the drawings in ways they discover at handover, when their leverage is gone.
+
+Budget for supervision as a line item, not an optional extra.
+
+## The whole-project comparison
+
+**Bali.** Land as a lease, perhaps USD 80,000 for a good mid-corridor plot. Build at USD 220,000 for a well-specified three-bedroom with a pool. Plus permits, architect, landscaping, furniture, contingency. Call it USD 350,000 to USD 380,000 all in for a property that earns USD 30,000 to USD 45,000 net a year.
+
+At the end of the lease term, nothing.
+
+**Australia.** Land in any location with comparable amenity, plus a build at three to five times the per-metre rate. Not remotely comparable for the money, producing a gross yield around three to four percent.
+
+At the end of thirty years, an appreciating freehold asset.
+
+## Which is the better decision
+
+They answer different questions.
+
+Building in Australia is buying an asset. Building in Bali is buying thirty years of income and use, funded upfront, which has to pay for itself inside the term.
+
+Both are legitimate. The mistake is comparing the per-square-metre cost, concluding Bali is five times better value, and not noticing that one of the two buildings belongs to someone else at the end.
 
 ## Common questions
 
-### Is it cheaper to build a villa in Bali than a house in Australia?
-Substantially. Construction runs USD 600 to 1,500 per square metre here, a fraction of Australian costs, with better contractor availability.
+### Is it cheaper to build in Bali than Australia?
+Substantially. Bali runs roughly USD 500 to USD 950 per square metre against USD 2,300 to USD 4,000 in Australia, so between a fifth and a third of the cost.
 
-### Can Australians build on land in Bali?
-Yes, on a lease with the owner's written consent to build, on Hak Pakai, or through a PT PMA holding HGB. Not on land owned in your own name.
+### Why is building so cheap in Bali?
+Labour costs a fraction of Australian rates, local materials are cheap and good, the regulatory and certification load is lighter, and a tropical open building is simpler than a sealed insulated one.
 
-### What are the risks of building in Bali?
-Zoning that does not permit the use, missing PBG, paying ahead of progress and no independent supervision. All four are avoidable.
+### Is Bali construction quality good?
+It varies enormously between contractors and depends heavily on supervision. Closely supervised builds finish better and cheaper; remotely managed ones deviate from the drawings.
 
-### How long does a villa take to build in Bali?
-Around nine to twelve months once permits are issued. Permits themselves are the largest variable, and wet season slows external work.
+### What warranty do I get on a Bali build?
+Whatever your contract provides. There is no statutory domestic building warranty scheme or licensed builder regime equivalent to Australia's.
 
-### What does a Bali construction quote leave out?
-Commonly the pool, landscaping, furniture, air conditioning, boundary walls, professional fees, utility connections and contingency.
+### What does a complete Bali villa project cost?
+Roughly USD 350,000 to USD 380,000 for a well-specified three-bedroom with a pool on a leased mid-corridor plot, including permits, architect, landscaping, furniture and contingency.

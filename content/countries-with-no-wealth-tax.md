@@ -5,62 +5,84 @@ summary: Norway, Spain and Switzerland tax what you own. Indonesia taxes what yo
 category: compare
 order: 03
 risk: high
-regulation: Tax and residency rules change. Verify against the current official source and take advice in both countries.
+regulation: Wealth and deemed-return taxes change frequently. Verify against the current official source and take advice in your own jurisdiction.
 applies: Anyone holding significant assets across borders
-verified: 2026-09-13
+verified: 2026-09-21
 ---
 
-A wealth tax charges you annually on assets you already own, whether or not they produced anything. An income tax charges you on what you earned. The distinction sounds academic until you hold an asset for twenty years.
+Wealth taxes are rare, contested, and concentrated in Europe. Understanding where they exist explains a good deal about where capital moves.
 
-## Who charges what
+## What a wealth tax is
 
-| Country | Net wealth tax | Notes |
-| --- | --- | --- |
-| Norway | Yes | Municipal plus state component above a threshold |
-| Spain | Yes | Regional, with a separate solidarity levy on large fortunes |
-| Switzerland | Yes | Cantonal, rates vary widely by canton |
-| France | On property | Real estate wealth tax above a set value |
-| Netherlands | Deemed return | Box 3 taxes an assumed yield on assets |
-| Indonesia | **No** | Income and transactions are taxed; net worth is not |
-| Thailand | No | |
-| UAE | No | No personal income tax either |
-| Singapore | No | Property tax on annual value, but no net wealth tax |
+A tax on the **value of what you own**, charged annually, regardless of the income it produces.
 
-## Why it compounds
+That is different from income tax, which taxes what you earn, and from capital gains tax, which taxes what you realise on a sale. A wealth tax reaches an asset that produces nothing.
 
-A one percent annual wealth tax on a held asset is not one percent once. It is one percent every year, charged regardless of whether the asset paid you anything.
+Some jurisdictions apply something close to it without calling it that — the Dutch **Box 3** regime historically taxed a deemed return on assets, which functions similarly for someone whose actual return is lower.
 
-Over a twenty-year hold that is a material share of the asset, taken in years when it earned nothing as readily as in years when it did. For property specifically, which produces lumpy income and has bad years, that timing mismatch is the painful part.
+## Where they exist
 
-## What Indonesia charges instead
+**Switzerland** levies a cantonal wealth tax on worldwide net assets, at rates that vary considerably by canton. It is long-established and broadly accepted there, and it sits alongside comparatively low income tax rates.
 
-Transaction taxes on the way in and out, an annual land and building tax that is modest by European standards, and income tax on rental revenue.
+**Norway** has a net wealth tax, which has been politically contentious and has been associated with a visible number of wealthy individuals relocating.
 
-That is a fundamentally different shape. You are taxed when value moves or when income arrives, not for the fact of owning.
+**Spain** has a wealth tax administered regionally, with substantial variation between autonomous communities, plus a national-level solidarity levy on large fortunes.
 
-It is not a loophole and it is not a secret. It is simply a different fiscal philosophy, and it is one reason capital from high-wealth-tax jurisdictions keeps appearing in Southeast Asia.
+**France** narrowed its wealth tax to real estate, taxing property holdings above a threshold rather than total net assets.
 
-## The part people get wrong
+**The Netherlands** taxes savings and investments through Box 3, in transition following Supreme Court rulings against the deemed-return approach.
 
-Your tax position follows **you**, not the asset. If you remain tax resident in Norway or Spain, moving money to Indonesia does not remove you from their wealth tax base. Most wealth taxes are levied on worldwide assets of residents.
+Several other jurisdictions have introduced, repealed or debated such taxes, which is the pattern: they are politically volatile and frequently reversed.
 
-Changing where your money is does nothing. Changing where you are tax resident does, and that is a serious decision with exit taxes, tie-breaker tests and a genuine change of life attached.
+## Where they do not
 
-Anyone selling you an offshore structure that supposedly solves this while you keep living at home is selling you a problem.
+**Most of Asia.** Indonesia, Thailand, Malaysia, Singapore, Vietnam, the Philippines and Japan have no general wealth tax.
+
+**The United Arab Emirates**, with no personal income tax either.
+
+**The United States**, at federal level, though it taxes worldwide income of citizens and permanent residents regardless of where they live, which is a stronger constraint for Americans than a wealth tax would be.
+
+**Australia, the UK, Canada and New Zealand** have no wealth tax, though all tax worldwide income of residents and apply capital gains regimes.
+
+**Most of Eastern Europe, Latin America and Africa**, with exceptions.
+
+## Why this matters for Bali
+
+**Indonesia has no wealth tax.** It taxes rental income — ten percent final for a resident individual, twenty percent for a non-resident — and applies a final 2.5 percent on transfer value at disposal. There is an annual land and building tax, PBB, but it is modest and charged on assessed value rather than on net worth.
+
+For someone from a jurisdiction that taxes the existence of assets, holding property in a country that does not is structurally meaningful rather than marginally cheaper.
+
+## The trap in that reasoning
+
+**Your home jurisdiction usually follows you.**
+
+If you remain tax resident in Norway, Spain, Switzerland or the Netherlands, your Bali property is a foreign asset within scope of whatever regime applies at home. Buying in Indonesia does not remove it from your net worth; it changes where the asset sits, not who taxes you.
+
+The only thing that genuinely changes the position is **changing tax residence**, which is a substantive question about where you actually live, where your family and economic interests are, and what ties you retain. It is not achieved by buying a villa and spending some time in it.
+
+Several European jurisdictions also apply **exit taxation** on relocation, and rules on re-establishing residence that catch people who return.
+
+## The honest summary
+
+Indonesia's tax treatment of property is genuinely light by European standards, and that is a legitimate part of why European capital arrives here.
+
+It is not a reason to buy, by itself. The lease term, the extension clause, the zoning and the net income decide whether a Bali property is a good investment. The tax position decides how much of the return you keep, and only if you have properly established where you are resident.
+
+Take advice in your own jurisdiction before assuming an offshore asset is outside its reach. It usually is not.
 
 ## Common questions
 
-### Which countries have a wealth tax in 2026?
-Norway, Spain and Switzerland levy net wealth taxes. France taxes real estate wealth above a threshold. The Netherlands taxes a deemed return on assets rather than actual gains.
+### Which countries have a wealth tax?
+Switzerland, Norway and Spain levy net wealth taxes, France taxes real estate holdings above a threshold, and the Netherlands taxes savings and investments through the Box 3 regime.
 
 ### Does Indonesia have a wealth tax?
-No. Indonesia taxes income and transactions, including an annual land and building tax, but does not levy a tax on net worth.
+No. Indonesia taxes rental income and applies a final tax on transfer value at disposal, plus a modest annual land and building tax charged on assessed value.
 
-### Can I avoid wealth tax by buying property abroad?
-Generally not. Wealth taxes usually apply to the worldwide assets of residents, so the location of the asset does not change the liability. Only a genuine change of tax residence does.
+### Does buying property abroad avoid a wealth tax?
+Not if you remain tax resident in a jurisdiction that taxes worldwide assets. The asset moves; the taxpayer does not.
 
-### Is Dubai tax free?
-The UAE has no personal income tax and no wealth tax. Corporate tax now applies in defined circumstances, so the picture is not as simple as it once was.
+### Do Asian countries have wealth taxes?
+Generally no. Indonesia, Thailand, Malaysia, Singapore, Vietnam, the Philippines and Japan have no general wealth tax.
 
-### Should tax decide where I buy property?
-It should inform the decision, not drive it. An asset bought for tax reasons that produces nothing is still an asset producing nothing.
+### What actually changes my wealth tax position?
+Changing tax residence, which is a substantive question about where you live and what ties you retain, and which may trigger exit taxation in your current jurisdiction.

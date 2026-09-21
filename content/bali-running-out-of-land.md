@@ -5,58 +5,72 @@ summary: Bali is building faster than almost anywhere in Asia and running out of
 category: compare
 order: 08
 risk: medium
-regulation: Verify zoning on the specific parcel through the regional spatial plan.
+regulation: Bali provincial height limit; KDB/KLB by zone; moratorium measures and Perda Bali 4/2026. Verify zoning on the specific parcel.
 applies: Anyone assessing whether prices can hold
-verified: 2026-09-13
+verified: 2026-09-21
 ---
 
-The island is 5,780 square kilometres. Most of it is mountain, protected zone, or agricultural land that cannot host tourism accommodation.
+"Bali is running out of land" is the most-used line in local property marketing. It is partly true, in a specific way that matters, and partly nonsense.
 
-## The two facts that look contradictory
+## The nonsense part
 
-**Construction is enormous.** The Canggu to Pererenan corridor was rice fields in 2019 and is now dense with villas. Supply of the standard three-bedroom pool villa has grown faster than guest nights.
+Bali is an island of roughly 5,780 square kilometres with a population of over four million. It has mountains, forests, agricultural land, three national park areas and vast tracts of the north, west and east that are barely developed.
 
-**Well-zoned coastal land is genuinely finite.** Tourism-zoned parcels near the developed coast cannot be manufactured. Green zone agricultural land is not a substitute, whatever a seller implies.
+There is an enormous amount of land in Bali. Anyone showing you a map of Canggu and saying "the island is full" is showing you four square kilometres.
 
-Both are true because they describe different things. There is a glut of *buildings* in specific corridors and a shortage of *land you can lawfully build tourism accommodation on* near the coast.
+## The true part
 
-## What that means for prices
+What is genuinely scarce is **land that a foreign buyer would actually want**, which is a far narrower category:
 
-Land in scarce, well-zoned locations has held through a full tourism shutdown. That is a real test and it passed.
+Coastal or with an ocean view. In a zone permitting commercial accommodation. Within reach of the amenity that sustains rental demand. With road access, water and sufficient power. And not already built on.
 
-The buildings on that land are a different question. Where two hundred near-identical villas compete in one corridor, nightly rates soften, which compresses yield before it moves land value.
+That set is small and it does not expand. Coastal land cannot be manufactured. Zoning does not loosen on demand. The **fifteen metre height limit** means you cannot build upward to compensate. **KDB** coverage caps mean you cannot build across the whole of what you own.
 
-So the honest position: land scarcity supports prices, building oversupply suppresses returns. Buy accordingly.
+So in the corridors people want, supply really is fixed, and the price behaviour of the last decade reflects that rather than a bubble.
 
-## The constraints nobody prices
+## Where the constraints actually bite
 
-**Water.** Demand has grown far faster than supply, groundwater extraction is regulated, and scrutiny is increasing. A development model assuming unlimited cheap groundwater is not safe over a twenty-five year lease.
+**The height limit.** Around fifteen metres, tied by custom to a coconut palm, generally holding buildings to about three storeys. This is the single most important supply constraint in Bali and it is the reason the island does not look like Phuket or Kuta Beach in Thailand. You cannot add density vertically.
 
-**Roads.** The network was built for a fraction of current traffic. Journey times are now a commercial factor in guest reviews.
+**KDB and KLB.** Coverage and floor area ratios cap what you may build on a plot, commonly leaving forty to sixty percent open in residential zones and far more in green zones.
 
-**Waste.** Infrastructure has not kept pace, and it is visible on beaches in wet season.
+**Green and agricultural zoning.** Extensive, particularly around Ubud, in Tabanan and across the interior. Commercial accommodation is not permitted in those zones, which removes large areas from the buildable set regardless of what they look like.
 
-These are the real limits on how much more of the island can absorb, and they are tightening rather than loosening.
+**Setbacks.** Coastal, river, road and boundary. The river setback in particular catches more Canggu and Pererenan parcels than buyers expect.
 
-## Where it leaves a buyer
+**Water.** On the Bukit especially, limestone geology and inconsistent supply constrain what can actually be developed regardless of what the zoning permits.
 
-The scarcity argument is sound and does not require any Dubai analogy to work. What it does not support is paying a premium for a generic building in an oversupplied corridor on the theory that everything in Bali goes up.
+**Regulatory tightening.** Bali closed new foreign-owned villa and homestay registration to PMA companies on 22 July 2026, and Perda Bali 4/2026 addresses nominee arrangements. Both reduce the effective supply of viable foreign investment.
 
-Verify the parcel, its zoning, its water and its access. Those four decide whether you own scarce land or cheap land that is cheap for a reason.
+## What it means for prices
+
+Land prices in the developed corridors have risen substantially and the scarcity argument is real. But two things temper it.
+
+**The scarcity attaches to land, and most foreigners do not own land.** On a leasehold you hold a shrinking number of years, not an appreciating asset. Land appreciation is the landowner's return. This is the single most misunderstood point in Bali property marketing, which uses the scarcity of land to justify the price of something that is not land.
+
+**Building supply is not scarce.** Villa stock in Canggu has grown substantially in four years. A mediocre villa no longer fills itself on location alone. Land scarcity and villa oversupply are simultaneously true and they pull in opposite directions on your return.
+
+## The corridor keeps moving
+
+The practical response to scarcity in Bali has been geographic. Seminyak filled, so Canggu developed. Canggu filled, so Pererenan. Then Cemagi, Seseh, Kedungu, and now Tabanan.
+
+That movement has been reliable for two decades and shows no sign of stopping, which means "running out" has consistently meant "running out here, at this price" rather than running out in any absolute sense.
+
+For a buyer, that suggests the opportunity is usually one corridor ahead of the marketing, not in the corridor the marketing is about.
 
 ## Common questions
 
-### Is there still land available in Bali?
-Yes, but well-zoned land near the developed coast is genuinely limited. Most remaining cheap land is agricultural green zone, which cannot lawfully host tourism accommodation.
+### Is Bali really running out of land?
+No, in absolute terms. What is genuinely scarce is land that is coastal, correctly zoned, serviced and near rental demand, and that narrow set does not expand.
 
-### Will Bali property prices keep rising?
-Scarce, well-zoned coastal land has a real supply argument behind it. The buildings on it depreciate and face growing competition, so the two should be modelled separately.
+### Why can't Bali build upward?
+A building height limit of around fifteen metres, tied by custom to the height of a coconut palm, generally restricts buildings to about three storeys and is enforced.
 
-### Is Bali overbuilt?
-In the standard three-bedroom villa segment in the main west coast corridors, supply has outgrown demand. That is a yield problem more than a land value problem.
+### Does land scarcity make Bali leasehold a good investment?
+Not directly. Scarcity drives land value, and on a leasehold you hold a shrinking number of years rather than the land. Land appreciation is the landowner's return.
 
-### What limits development in Bali?
-Zoning, water supply, road capacity and waste infrastructure. Water is the constraint tightening fastest and it is regulated.
+### Is Canggu oversupplied with villas?
+Villa supply has grown substantially and a mediocre property no longer fills itself on location alone. Land scarcity and villa oversupply are both true at the same time.
 
-### Is cheap land in Bali a good buy?
-Only if the zoning permits what you intend. Cheap coastal land is usually cheap because it is agricultural, and no amount of construction changes that.
+### Where is land still available in Bali?
+One corridor ahead of the current development wave: Seseh, Kedungu and the Tabanan coast on the west, and the interior Bukit at Pecatu and Ungasan.
