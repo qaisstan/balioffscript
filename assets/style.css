@@ -1310,3 +1310,17 @@ tbody tr:last-child td { border-bottom: 0; }
   .art-rail .toc ol { column-width: 13rem; column-gap: 1.5rem; }
   .rail-cta { display: none; }
 }
+
+/* Questions repeated in the rail. Same list as the block at the foot of the
+   article, in front of the reader the whole way down. */
+.rail-q { padding-top: 1.4rem; border-top: 1px solid var(--rule); }
+.rail-q ul { list-style: none; margin: 0; padding: 0; }
+.rail-q li { margin: 0; border-bottom: 1px solid var(--rule); }
+.rail-q li:last-child { border-bottom: 0; }
+.rail-q a {
+  display: block; padding: 0.5rem 0; font-size: 0.8125rem; line-height: 1.4;
+  color: var(--slate); text-decoration: none;
+}
+.rail-q a:hover { color: var(--seal); }
+.fq { scroll-margin-top: 5.5rem; }
+.fq.hit > summary { color: var(--seal); }

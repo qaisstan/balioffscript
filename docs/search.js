@@ -157,3 +157,24 @@
   }, { passive: true });
   paint();
 })();
+
+// A question in the rail opens its answer rather than dropping the reader at
+// a collapsed row they then have to click a second time.
+(function () {
+  function open(hash) {
+    if (!hash || hash.charAt(0) !== "#") return;
+    var el;
+    try { el = document.getElementById(decodeURIComponent(hash.slice(1))); }
+    catch (e) { return; }
+    if (!el || el.tagName !== "DETAILS") return;
+    el.open = true;
+    el.classList.add("hit");
+    setTimeout(function () { el.classList.remove("hit"); }, 1600);
+  }
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest ? e.target.closest('.rail-q a') : null;
+    if (a) open(a.hash);
+  });
+  window.addEventListener("hashchange", function () { open(location.hash); });
+  open(location.hash);
+})();

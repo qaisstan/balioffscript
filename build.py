@@ -991,6 +991,17 @@ def onward(m, pages):
 </section>"""
 
 
+def rail_questions(faq):
+    """The questions repeated in the rail. People arrive on these pages from a
+    question typed into a search box, and this puts the exact wording in front
+    of them without a scroll, next to the answer they came for."""
+    if not faq:
+        return ""
+    items = "".join(f'<li><a href="#q-{slugify(q)}">{q}</a></li>' for q, _ in faq)
+    return (f'<nav class="rail-q" aria-label="Questions answered on this page">'
+            f'<p class="toc-h">Questions answered</p><ul>{items}</ul></nav>')
+
+
 def rail_cta():
     """The rail follows the reader down the page, so this is the only CTA that
     is on screen the whole way through rather than only at the end."""
@@ -1017,7 +1028,7 @@ def article(m, siblings):
     faq_block = ""
     if faq:
         rows = "".join(
-            f'<details class="fq"><summary>{q}</summary><p>{a}</p></details>'
+            f'<details class="fq" id="q-{slugify(q)}"><summary>{q}</summary><p>{a}</p></details>'
             for q, a in faq
         )
         faq_block = f'<section class="faqs"><h2 id="common-questions">Common questions</h2>{rows}</section>'
@@ -1096,6 +1107,7 @@ def article(m, siblings):
 </div>
 <aside class="art-rail">
 {toc(prose_src, [("common-questions", "Common questions")] if faq else [])}
+{rail_questions(faq)}
 {share_bar(seo_title, path, cls=" sh-rail")}
 {rail_cta()}
 </aside>
