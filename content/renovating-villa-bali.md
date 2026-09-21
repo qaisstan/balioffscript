@@ -5,76 +5,94 @@ summary: Older stock is cheap for a reason. Renovation can be the best value in 
 category: building
 order: 09
 risk: high
-regulation: PBG approval is required for structural changes; SLF follows completion.
+regulation: PBG and SLF requirements apply to structural alteration; KDB and setbacks constrain extension. Verify before starting work.
 applies: Buyers looking at older or tired stock
-verified: 2026-09-06
+verified: 2026-09-21
 ---
 
-A large share of the villa stock in Seminyak, Canggu and Sanur is ten to twenty years old, and tropical wear is fast. Renovation is therefore a real strategy here rather than an edge case.
+A large share of Bali's existing villa stock is ten to twenty years old, which means renovation is part of many purchases whether the buyer planned it or not.
 
-## Why it can work
+## What typically needs doing on older stock
 
-Buying tired stock in a proven location, at a discount that exceeds the cost of putting it right, is one of the few reliable value plays left in the developed corridors where land is scarce.
+**The pool.** Resurfacing, tiling, plumbing and filtration. Bali pools have a finite life and the failure is rarely dramatic — it is a slow decline in the thing that most affects your nightly rate.
 
-You are buying the location and the land, which is the part that holds value, and replacing the part that depreciates.
+**Roof and waterproofing.** The most consequential item and the least visible. Bali rainfall finds every weakness, and water damage compounds.
 
-## The permit trap
+**Electrics.** Older installations frequently lack adequate earthing, safety cutouts and the capacity for multiple aircon units and a pool pump.
 
-This is where renovations go wrong.
+**Aircon.** Units have a working life and older ones cost more to run, cool less and are noisy, which appears in reviews.
 
-Structural change requires PBG approval, and completion requires SLF. If the existing building has neither, or if extensions were built outside the original approval, you are not renovating a compliant building. You are inheriting a compliance problem and adding to it.
+**Drainage**, around the building and across the site. Failure here causes everything else.
 
-Before you buy, establish:
+**Bathrooms**, which date faster than anything and which guests judge.
 
-- Do PBG and SLF exist, and do they describe the building as it currently stands?
-- Were extensions, staff quarters, additional structures or converted spaces approved?
-- Does the building fit inside current KDB, KLB, height limits and setbacks?
-- Is there a verified, costed path to regularising anything that does not?
+**Joinery and timber**, where humidity and termites do their work.
 
-A building inside a setback or breaching the coverage limit cannot be regularised at any price. Documentation gaps usually can. The difference decides whether the project is a bargain or a trap.
+**Kitchen**, where the standard expected by guests has risen considerably.
 
-## What renovation actually costs
+## What it costs
 
-Full renovation frequently lands close to new-build cost per square metre, because you pay to remove before you pay to build, and you work around an existing structure rather than to a clean design.
+Cosmetic refresh — paint, soft furnishings, styling, minor repairs — USD 10,000 to USD 25,000 for a three bedroom, and it is the highest return per dollar available.
 
-Budget separately for:
+A pool resurface and plant replacement is a meaningful standalone cost and almost always worth doing.
 
-| Item | Note |
-| --- | --- |
-| Demolition and disposal | Underestimated, and slower than expected |
-| Structural repair | Damp, termites, corroded reinforcement |
-| Rewiring and replumbing | Usually necessary on older stock |
-| Pool resurfacing and plant | Frequently overdue |
-| Roof | The most common serious defect here |
-| Fit-out and furniture | Short-lived in this climate |
+Full renovation of an older three bedroom, including roof, electrics, bathrooms, pool and kitchen, commonly runs USD 60,000 to USD 150,000 depending on condition and specification.
 
-Add contingency of at least 15 percent. Renovation surprises are more common than new-build surprises, by a wide margin.
+At the upper end of that, compare it honestly with demolishing and rebuilding, which at USD 500 to USD 700 per square metre may produce a better building for a similar number — provided the remaining lease term justifies it.
 
-## Survey before you commit
+## The permit position
 
-Pay someone qualified to inspect: structure, roof, damp, termites, electrical, plumbing, pool plant. This costs very little against the purchase price and routinely changes the offer.
+This is the part that catches people.
 
-Termites and roof failure are the two that most often turn a cosmetic budget into a structural one.
+**Cosmetic work** — paint, fittings, furniture, landscaping — generally does not engage the building permit framework.
 
-## The alternative
+**Structural alteration, extension or change of layout** does. If you are changing the building's footprint, structure or configuration, you are likely in **PBG** territory, and the finished building must match what is approved or the **SLF** fails.
 
-Sometimes the honest answer is demolition and rebuild. If the structure is poor, the layout is wrong, and the permits need regularising anyway, starting again can be cheaper and produces a building you actually want.
+And any extension has to respect **KDB** coverage limits and **setbacks** — road, boundary, river and coastal. A great deal of older Bali stock was built when enforcement was lighter, which means the existing building may already be at or over the limit, leaving no room to extend lawfully.
 
-Run both numbers before committing to the sentimental option.
+Establish this before designing anything. Discovering it after the drawings are done is expensive and discovering it after work has started is worse.
+
+## Renovating on leased land
+
+Two additional questions.
+
+**Does the lease permit it?** An express right to build or alter, at the scale you intend. Many leases are silent, which is not the same as permitting.
+
+**How many years remain?** This is the decisive one. Spending USD 100,000 renovating a property with eleven years left is spending USD 100,000 you will not recover, because the building follows the land at expiry and the remaining income will not cover it.
+
+The working test: can the renovation pay for itself through additional income and use within the remaining term, with a margin? If not, do the cosmetic work and leave the rest.
+
+## How to run it
+
+**Get quotes from three contractors** against a written specification, not against a description.
+
+**Pay against completed work inspected** by your architect or project manager, never ahead of it.
+
+**Hold retention** of five to ten percent through a defects liability period.
+
+**Expect to find more than the survey showed.** Older buildings hide things. A fifteen to twenty percent contingency is realistic, not pessimistic.
+
+**Schedule around the season.** Renovating through peak costs you the year's best revenue. The February and March trough is the obvious window, though it is also the wet season, which slows external work.
+
+## Where the return actually is
+
+In order of return per dollar: **photography** of the finished result, **paint**, **the pool**, **outdoor space and garden**, **bathrooms**, then everything else.
+
+Structural work is necessary rather than profitable. It protects the asset; it does not raise the rate. The visible, photographable improvements are what change what you can charge.
 
 ## Common questions
 
-### Is it cheaper to renovate or rebuild in Bali?
-Full renovation often approaches new-build cost per square metre. Where the structure is poor and permits need regularising anyway, rebuilding can be cheaper and better.
+### How much does it cost to renovate a villa in Bali?
+A cosmetic refresh runs USD 10,000 to USD 25,000 for a three bedroom. A full renovation including roof, electrics, bathrooms, pool and kitchen commonly runs USD 60,000 to USD 150,000.
 
 ### Do I need a permit to renovate in Bali?
-Structural changes require PBG approval, with SLF on completion. Cosmetic work generally does not, but the line is not always where owners assume.
+Cosmetic work generally does not engage the permit framework. Structural alteration, extension or layout change does, and the finished building must match the approved drawings or the SLF fails.
 
-### What should I check before buying a villa to renovate?
-PBG and SLF matching the building as it stands, whether extensions were approved, whether it fits current KDB, KLB and setbacks, and a qualified survey of structure, roof, termites and services.
+### Can I renovate a villa on leased land?
+Only if the lease permits it, and only if the remaining term is long enough for the spend to pay for itself, since the building follows the land at expiry.
 
-### How much should I budget for renovation surprises?
-At least 15 percent contingency, and more on a building over fifteen years old. Roof and termite damage are the common escalations.
+### What gives the best return when renovating a Bali villa?
+Photography of the result, then paint, the pool, outdoor space and garden, then bathrooms. Structural work protects the asset rather than raising the rate.
 
-### Can I renovate a villa without PBG?
-You would be building on an unapproved structure, which compounds the problem and affects insurance, licensing and resale. Establish the regularisation path first.
+### Should I renovate or rebuild in Bali?
+At the upper end of a full renovation, compare honestly with rebuilding at USD 500 to USD 700 per square metre, which may produce a better building for a similar cost where the term justifies it.

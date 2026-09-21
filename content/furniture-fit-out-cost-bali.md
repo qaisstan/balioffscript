@@ -5,70 +5,104 @@ summary: Furniture is cheap and good here. What owners get wrong is how fast it 
 category: building
 order: 10
 risk: medium
-regulation: Market figures. Confirm with local makers directly.
+regulation: Market figures, September 2026. Confirm current pricing with local makers directly.
 applies: Anyone building or refurbishing
-verified: 2026-09-06
+verified: 2026-09-21
 ---
 
-Fit-out is almost never inside the per-square-metre construction rate, and it is a substantial line on its own.
+Furnishing is the most consistently underestimated line in a Bali project, partly because furniture here is cheap and good, which makes people relax about it.
 
-## Why buying locally is the right call
+## What it costs
 
-Bali has a genuine furniture industry. Teak, suar wood, rattan, terrazzo, upholstery and custom joinery are made here at prices well below Europe, Australia or North America, and the styles suit the climate and the guest expectation.
+For a villa furnished to a standard that rents well and photographs properly:
 
-The workshops around Gianyar and along the Denpasar corridor will build to drawing. Custom is normal rather than a luxury, and the lead times are weeks rather than months.
+**One bedroom** — USD 12,000 to USD 20,000.
 
-## Rough budgets
+**Two bedrooms** — USD 18,000 to USD 30,000.
 
-For a three-bedroom villa, furnishing to a standard that competes in the nightly rental market:
+**Three bedrooms** — USD 25,000 to USD 50,000.
 
-| Level | Total, USD |
-| --- | --- |
-| Basic, functional | 15,000 to 25,000 |
-| Good rental standard | 25,000 to 45,000 |
-| High specification | 50,000 and up |
+**Four bedrooms** — USD 35,000 to USD 70,000.
 
-That covers furniture, soft goods, kitchen equipment, outdoor furniture, lighting, art and the hundred small things that make a villa photograph well.
+The ranges are wide because the difference between adequate and excellent is large, and it shows in the photographs, which is what sells the booking.
 
-Guests judge on photographs. Under-furnishing to save USD 10,000 on a property costing hundreds of thousands is a false economy that shows up directly in the nightly rate.
+It is almost never included in a build quote. Check explicitly rather than assuming.
 
-## What wears out, and how fast
+## Where the money goes
 
-This is the part owners underestimate. In this climate:
+**Beds and mattresses.** Do not save here. A bad mattress produces bad reviews faster than anything else in a villa, and reviews drive both ranking and rate.
 
-- **Soft goods** (cushions, upholstery, linen, towels) degrade within one to three years
-- **Outdoor furniture** takes intense UV and rain; two to four years for most
-- **Mattresses** in high-turnover villas need replacing sooner than at home
-- **Timber** moves with humidity; solid wood survives, veneered board does not
-- **Air conditioning units** have a shortened life in salt air
+**Sofas and soft furnishings**, which take the heaviest wear and are the first things to look tired.
 
-Assume a meaningful refresh every two to three years on soft goods, and a full refurbishment cycle around every five.
+**Outdoor furniture**, sun loungers and dining, which is what appears in the photographs and which degrades fastest.
 
-## Specify for the climate
+**Kitchen**, equipped properly for a group who will cook, because that is a genuine differentiator for family and group bookings.
 
-Solid timber over veneer and MDF, which delaminates. Synthetic outdoor fabrics rated for UV. Stainless or powder-coated fittings rather than untreated metal, especially near the coast. Removable, washable covers on everything.
+**Aircon**, at the capacity a rental villa needs rather than the minimum specified.
 
-These decisions cost slightly more once and save repeatedly.
+**Linen and towels**, in sufficient sets to cover turnover — three sets per bed is the working figure — plus replacements, which are a recurring cost rather than a one-off.
 
-## The sinking fund
+**Lighting**, which is underrated and transforms evening photographs.
 
-Because fit-out is a wasting asset here, it belongs in your operating model as an annual provision rather than as a surprise every five years.
+**Art, plants and styling**, which cost little and change how a villa photographs more than another thousand dollars of furniture would.
 
-Owners who do not provision take the refurbishment in a single year and that year reads as a loss. Owners who do simply run a slightly lower yield with no shocks. The second version is the honest number.
+## What is genuinely good value here
+
+**Teak, suar and reclaimed timber.** Locally made furniture in solid timber costs a fraction of imported equivalents and is better. Jepara and local Bali workshops produce excellent work to specification.
+
+**Rattan and natural fibre**, which suits the aesthetic and is inexpensive.
+
+**Stone and terrazzo**, for basins, tables and surfaces.
+
+**Custom joinery.** Having things built to fit costs surprisingly little and looks considerably better than assembled furniture.
+
+**Textiles**, locally woven and printed.
+
+## What to import or buy carefully
+
+**Mattresses.** Quality varies and this is the one item where the cheap option costs you in reviews.
+
+**Appliances**, where reliability matters and local budget options fail early.
+
+**Anything with electronics** in a humid climate.
+
+**Outdoor fabrics**, where UV and mould resistance is what determines whether it lasts two years or six months.
+
+## The lifespan point everyone misses
+
+Furniture in a Bali rental villa does not last the way it would in a house at home.
+
+Humidity, salt near the coast, constant use by guests who are not careful, sun on outdoor pieces, and mould. Soft furnishings look tired in two to three years. Outdoor furniture degrades faster. Timber survives well if treated; anything with foam, fabric or particle board does not.
+
+**Budget replacement as an operating cost**, not a surprise. Roughly ten to fifteen percent of the original fit-out value per year is a working figure for a busy villa, held in the capital reserve.
+
+Cheap furniture is not cheap. It is replaced twice as often and photographs worse throughout.
+
+## Doing it well
+
+**Buy locally, made to specification.** It is cheaper than importing and better than buying off the shelf.
+
+**Get the photography in mind from the start.** A villa is sold by images. Which pieces appear, what colour they are, how the light falls on them and what the outdoor setting looks like determine your rate.
+
+**Do not over-furnish.** Space photographs well. A cluttered room reads smaller.
+
+**Allow time.** Custom work takes weeks and makers are busy. Ordering furniture after the build completes delays your first booking by a month or more, during which the villa costs money and earns nothing.
+
+**Keep spares** of linen, glassware and crockery, because replacing by ones and twos is inefficient and things break constantly.
 
 ## Common questions
 
 ### How much does it cost to furnish a villa in Bali?
-Roughly USD 25,000 to 45,000 for a three-bedroom villa at good rental standard, including soft goods, kitchen, outdoor furniture and lighting.
+Roughly USD 25,000 to USD 50,000 for a three bedroom to a standard that rents and photographs well, with one bedrooms from USD 12,000 and four bedrooms up to USD 70,000.
 
-### Is furniture cheap in Bali?
-Yes. Local teak, rattan and custom joinery are considerably cheaper than in Europe, Australia or North America, and made to suit the climate.
+### Is furniture included in a Bali build quote?
+Almost never. Check explicitly, because it is one of the largest omissions from a construction price.
 
-### Is furniture included in a Bali construction quote?
-Usually not. Fit-out, furniture, landscaping and pool are commonly excluded from a per-square-metre building rate. Ask for the exclusions in writing.
+### How long does furniture last in a Bali villa?
+Soft furnishings look tired in two to three years and outdoor pieces degrade faster, because of humidity, salt, sun and constant guest use. Budget ten to fifteen percent of fit-out value per year for replacement.
 
-### How long does villa furniture last in Bali?
-Soft goods one to three years, outdoor furniture two to four, with a full refurbishment cycle around every five. Humidity, salt and UV shorten everything.
+### What furniture is good value in Bali?
+Locally made solid timber, rattan, stone and terrazzo, and custom joinery built to fit. Mattresses, appliances and outdoor fabrics are where quality matters most.
 
-### Should I ship furniture to Bali?
-No, in almost all cases. Imported furniture built for a temperate climate deteriorates here, and local equivalents are cheaper and better suited.
+### Does furniture affect rental income?
+Substantially, because the photographs sell the booking and a poor mattress produces reviews that damage both ranking and rate.
