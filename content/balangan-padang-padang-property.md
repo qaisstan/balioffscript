@@ -5,55 +5,82 @@ summary: Two of the best beaches on the Bukit, both constrained by access, water
 category: areas
 order: 31
 risk: high
-regulation: Coastal setback rules under Indonesian spatial planning law; PBG and SLF requirements.
+regulation: Coastal setback (sempadan pantai) rules; PBG and SLF requirements; Badung regency spatial planning.
 applies: Buyers looking at this area specifically
-verified: 2026-09-15
+verified: 2026-09-21
 ---
 
-Balangan and Padang Padang sit on the Bukit's west coast either side of Bingin, and both are cove beaches reached by steps or narrow roads.
+Balangan and Padang Padang are among the best beaches in Bali and two of the more difficult places to buy well.
 
 ## What they are
 
-**Balangan** is a long white sand beach below a low cliff, with warungs on the sand and a left-hand reef break. Slightly more accessible than its neighbours.
+**Balangan** is a long white sand beach below a limestone cliff on the western Bukit, with a left-hand reef break and a row of warungs along the sand. Wider and less crowded than most of the peninsula's beaches.
 
-**Padang Padang** is a small cove reached through a gap in the rock, famous well beyond surfing. The main break is expert-only; the beach is tiny and fills quickly.
+**Padang Padang** sits south of it, a small cove reached through a gap in the rock, with one of the most famous waves in Indonesia just offshore. The beach itself is tiny and gets very busy.
 
-## The opportunity and the constraint
+Both sit below clifftops carrying residential land with ocean views, and behind that the interior Bukit at Pecatu.
 
-Land with genuine ocean outlook on this coast is finite, and that scarcity is real. It is also the most regulated land in Bali right now.
+The guest is surf-led, loyal and repeat-heavy, booking around swell rather than school holidays.
 
-Enforcement against structures built inside coastal setbacks without proper permits has been active on this stretch, and it has affected businesses that had operated for years. Long occupation does not create a right where the setback applies, and a structure inside a setback cannot be regularised at any price.
+## The setback issue
 
-If you look at anything on or near the cliff or the sand:
+This is the first thing to establish and the reason the area carries more risk than its appeal suggests.
 
-- Establish the exact setback at that point before anything else
-- Confirm PBG and SLF exist and describe the structure as it stands
-- Check whether any part sits inside the setback
-- Assume enforcement continues rather than relaxes
+The **sempadan pantai**, the coastal setback measured from the high water line, restricts building within a defined distance. Along this stretch of the Bukit, a meaningful amount of what exists on and near the cliff was built without the required permits and inside that setback.
 
-## The practical constraints
+Enforcement has tightened, and **demolition action against unpermitted cliff structures has taken place nearby at Bingin**. That is a realised outcome, not a theoretical risk.
 
-Access is steep and often partly on foot. Parking is scarce. Water is the Bukit's defining problem: limestone holds little accessible groundwater and many properties rely on trucked supply, which is a recurring cost that rises in dry season.
+So: a property on or into the cliff here is high risk unless you can see a valid PBG and SLF matching the structure that exists, plus confirmation from the regency that it sits outside the setback, verified by a notary you engaged. A property on the plateau set back from the edge is a much more ordinary proposition.
 
-Construction on cliff terrain is expensive and slow.
+Marketing does not always make clear which category is being offered. Establish it before anything else.
 
-## Where the sensible money goes
+## Access
 
-Land set back from the cliff, correctly zoned and permitted, within minutes of the break. It earns less per night than a clifftop position and it is not at risk of being a demolition story.
+The second constraint, and it is underrated.
+
+Both beaches are reached by steep paths and steps. Padang Padang's access is through a narrow gap in the rock. Neither is suitable for anyone with mobility limitations, and guests arriving with luggage discover this.
+
+The roads serving the residential land above are narrow in places, and several parcels are reached by lanes where a documented right of way matters. Confirm any access right is in the certificate rather than merely used.
+
+## Water
+
+The Bukit is limestone. Groundwater is deep, boreholes are expensive and uncertain, and mains supply is inconsistent. Many properties here run on trucked water, which is a real recurring cost and a genuine operational risk in peak season when demand spikes across the peninsula at once.
+
+Establish the source, the annual cost and the peak-season behaviour in writing before buying. A villa with a pool, several bathrooms and no reliable water is a liability whatever it looks like.
+
+## The market
+
+Clifftop land with a genuine unobstructed ocean view is among the scarcest asset class in Bali and very little trades.
+
+The price gradient inland is steep. A hundred metres back from the view line, land prices fall sharply, and the Pecatu interior is a fraction of the clifftop with the same few minutes to the beach.
+
+That gradient makes "how much is the view worth" a concrete question. The view commands a large rate premium and holds resale value better than anything else in Bali. It also costs more per square metre than income alone justifies, which means you are partly buying scarcity.
+
+## Rental performance
+
+Strong for view properties, and shaped by swell rather than holidays. Repeat and direct booking rates are high, which is valuable because it moves revenue off platforms charging fifteen to twenty percent.
+
+Counter-seasonal to the mainstream Bali calendar, which is useful if you understand it and misleading if you underwrite with Canggu comparables.
+
+No nomad long-stay demand, so the quiet months are genuinely quiet.
+
+## What to check here specifically
+
+Setback position for the exact parcel, from the regency. PBG and SLF matching the existing structure. Water source, cost and peak-season reliability, in writing. Documented access rights. Power capacity. And view protection — an outlook over land somebody else owns and has not yet built on is not protected, so establish who owns it and what their zoning permits.
 
 ## Common questions
 
-### Can foreigners buy property at Balangan?
-Under the same rules as anywhere in Indonesia: leasehold, Hak Pakai with residency, or HGB through a PT PMA.
+### Is it safe to buy near Padang Padang or Balangan?
+On the plateau with valid permits, yes, subject to the usual checks. On or into the cliff, only with PBG and SLF matching the structure and confirmation it sits outside the coastal setback.
 
-### Why were beach structures demolished on the Bukit?
-Enforcement against buildings inside coastal setbacks without proper permits. Occupation over time does not create a right where the setback applies.
+### Have there been demolitions on the Bukit?
+Yes. Enforcement against structures built without permits inside the coastal setback has resulted in demolition action nearby at Bingin.
 
-### Is Padang Padang good for investment?
-The scarcity is genuine and so is the regulatory risk. Verify the setback and permits before any money moves.
+### What is the water situation at Balangan?
+Limestone geology means deep groundwater, expensive and uncertain boreholes and inconsistent mains supply. Many properties run on trucked water, which is a recurring cost and a peak-season risk.
 
-### Is there water on the Bukit?
-It is the binding constraint. Limestone holds little groundwater and trucked supply is common, at real monthly cost.
+### Is a Bukit ocean view worth the premium?
+It commands the highest rate premium in Bali and holds resale value best, but it costs more per square metre than income alone justifies and the view must be legally protected to be reliable.
 
-### Is Balangan better than Bingin?
-Balangan is more accessible with a longer beach. Bingin is tighter and more dramatic. Both carry the same setback and water questions.
+### Where is better value near these beaches?
+The Pecatu interior, a hundred metres to a kilometre back from the view line, where land is a fraction of clifftop prices with the same few minutes to the beach.

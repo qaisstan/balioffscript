@@ -5,68 +5,92 @@ summary: Rice terraces, Mount Agung, almost no tourism infrastructure, and price
 category: areas
 order: 16
 risk: high
-regulation: Verify zoning on the specific parcel through the regional spatial plan.
+regulation: Karangasem regency spatial planning; volcanic hazard zoning around Mount Agung. Verify the specific parcel.
 applies: Buyers prioritising quiet and price over rental demand
-verified: 2026-09-06
+verified: 2026-09-21
 ---
 
-East Bali covers Karangasem regency and the Sidemen valley: terraced rice, river gorges, Mount Agung dominating the skyline, and a pace that has not changed much.
+Sidemen and the surrounding valleys are what people mean when they say Bali used to be like this. That is genuinely true, and it is also the commercial problem.
 
-## What is there
+## What it is
 
-**Sidemen** is the valley that draws most foreign interest: dramatic terraces, a handful of boutique properties, and genuine quiet twenty minutes from anywhere commercial.
+A river valley running south from Mount Agung, terraced rice fields on steep slopes, small villages, a handful of well-regarded small hotels, and very little else.
 
-**Amed** on the northeast coast is a diving area with black sand beaches and a small, established foreign community.
+Karangasem regency more broadly covers the eastern side of the island, including Amlapura, the Agung foothills and the coast at Amed and Candidasa.
 
-**Candidasa** is an older, faded resort area with reasonable infrastructure and low prices.
+Ninety minutes to two hours from the airport. Sixty to ninety minutes from Ubud. That distance is the defining fact about the area commercially.
 
-**Around Mount Agung**, the villages are agricultural and largely untouched by tourism.
+## The market
 
-## The price
+Land here is a fraction of south Bali prices — in some parcels an order of magnitude cheaper than Canggu. Plots are large, views are exceptional, and there is abundant supply.
 
-Land here is a fraction of the south, and often below Tabanan. For the money you would spend on a small Canggu plot you can buy something with a view of a volcano and a valley.
+Lease terms available are long, and building costs are the same as anywhere in Bali, which means the land discount flows almost entirely to your benefit on a build.
 
-That is the appeal, and it is real.
+Very little finished stock exists that a foreign buyer would want. This is a land and build market.
 
-## The honest limitation
+## Rental performance
 
-Rental demand is thin and seasonal. Guests who come to Sidemen come for a few nights of quiet as part of a wider trip, not for a two-week villa holiday.
+Thin. That is the honest position and no amount of enthusiasm changes it.
 
-The drive from the airport is around two hours. Amenities are limited: no international schools, limited medical, few restaurants outside the boutique properties.
+The guest is someone seeking quiet, landscape and authenticity, often for a few nights as part of a longer Bali trip. There is real demand and it is growing, but the volume is a small fraction of the south and the season is short.
 
-Underwrite rental income conservatively or not at all. If your case depends on nightly yield, this is the wrong part of the island.
+Occupancy that would be poor in Canggu is normal here. Nightly rates for an exceptional property with a view can be surprisingly good, because the small supply of genuinely good stock faces little competition, but filling the calendar is the constraint rather than the rate.
 
-## Volcanic risk
+There is no nomad market, no long-stay foreign resident base of any size, and no walkable amenity.
 
-Mount Agung is active. The 2017 and 2018 eruptions closed the airport repeatedly and caused evacuations within the exclusion zone.
+If income is the objective, this is not the area. If income is a bonus on a property you want for yourself, the numbers can work.
 
-That risk is manageable and mostly affects the immediate slopes, but it belongs in the assessment: insurance treatment, evacuation zones, and the effect on tourism when it happens.
+## The volcano question
 
-## What to check
+Mount Agung is an active volcano and the 2017 to 2019 eruption sequence closed the airport repeatedly and emptied the east of visitors for an extended period.
 
-- Zoning, since almost everything here is agricultural
-- Access road width and condition, which varies enormously
-- Water supply, generally better than the south but parcel-specific
-- Distance to the exclusion zones around Agung
-- Realistic drive times to the airport and to a hospital
+Hazard zones are mapped around the volcano and building within them is restricted. Establish where the parcel sits relative to those zones before buying — this is specific, checkable information and it is not always volunteered.
+
+Insurance in the east is more expensive and harder to place than in the south, and some policies exclude volcanic events. Read the exclusions rather than assuming cover.
+
+This is not a reason to avoid the east. It is a reason to know exactly what you are taking on.
+
+## What to check here specifically
+
+**Volcanic hazard zoning** for the parcel.
+
+**Zoning generally.** Much of the east is agricultural, and commercial accommodation is not permitted in a green zone.
+
+**Access.** Roads in the valleys are narrow, steep and sometimes unsurfaced. Construction logistics are harder and more expensive than they look, and a guest arriving in a rental car on a wet day may not make it.
+
+**Water.** Generally better than the Bukit, and still worth confirming source and reliability.
+
+**Power capacity**, which is frequently limited and expensive to upgrade this far out.
+
+**Slope stability**, on terraced land. Building on a rice terrace involves retaining and foundation work that materially changes the budget.
+
+**Landslide history** for the specific slope, which locals will know and no document will tell you.
 
 ## Who it suits
 
-People buying a home, a retreat or a small boutique operation, with a long horizon and no need for liquidity. It does not suit anyone modelling yield or expecting to sell quickly.
+Buyers who want land, space, a view and quiet, at a price that makes the purchase a small part of their total position, and who are not relying on rental income.
+
+Anyone building a personal home rather than an investment.
+
+Long-horizon buyers taking a ten to twenty year view on the east developing, with capital they do not need working in the meantime.
+
+## Who it does not
+
+Anyone who needs yield. Anyone who needs liquidity — the resale market here is very thin and a sale can take years.
 
 ## Common questions
 
-### Is East Bali a good place to buy?
-For quiet, views and price, yes. For rental yield and liquidity, no. It is a lifestyle purchase rather than an investment play.
+### Is East Bali a good investment?
+As a lifestyle purchase at a low price, it can be. As a yield investment it is not — rental demand is a small fraction of the south and the resale market is very thin.
 
-### How far is Sidemen from the airport?
-Roughly two hours depending on traffic, and longer during peak times or in heavy rain.
+### How cheap is land in Sidemen?
+A fraction of south Bali prices, in some parcels an order of magnitude cheaper than Canggu, with large plots and long available lease terms.
 
-### Is it safe to buy near Mount Agung?
-The volcano is active and eruptions have caused evacuations and airport closures. Risk is concentrated on the slopes; check exclusion zones and insurance treatment for the specific location.
+### Is it safe to build near Mount Agung?
+Hazard zones are mapped and building within them is restricted. Establish where the parcel sits relative to those zones, and check whether insurance excludes volcanic events.
 
-### Is there rental demand in Sidemen?
-Limited and seasonal, oriented to short stays within a wider itinerary rather than long villa holidays.
+### Does East Bali have rental demand?
+Thin and seasonal. Guests seeking quiet and landscape, usually for a few nights within a longer trip. Good properties can achieve strong rates but filling the calendar is the constraint.
 
-### How much is land in East Bali?
-A fraction of the southern corridors, frequently below Tabanan. Zoning is the main constraint, since most of it is agricultural.
+### What should I check before buying in Sidemen?
+Volcanic hazard zoning, general zoning since much of the area is agricultural, road access and construction logistics, power capacity, slope stability and landslide history for the specific slope.
