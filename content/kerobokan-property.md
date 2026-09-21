@@ -5,72 +5,86 @@ summary: Between Seminyak and Canggu, with real local infrastructure and prices 
 category: areas
 order: 20
 risk: medium
-regulation: Verify zoning on the specific parcel through the regional spatial plan.
+regulation: Badung regency spatial planning. Verify zoning on the specific parcel.
 applies: Buyers looking at this area specifically
-verified: 2026-09-13
+verified: 2026-09-21
 ---
 
-Kerobokan is where a lot of Bali's actual functioning happens: hardware shops, warungs, clinics, furniture workshops and the roads that connect the tourist areas to each other.
+Kerobokan is the least glamorous area in south Bali's foreign property market and one of the most practical. It is where people who live here actually live.
 
-## What it is
+## What Kerobokan is
 
-A working Balinese area with foreign residents layered over it, rather than a resort strip. Petitenget at its southern edge is effectively Seminyak. The northern end runs toward Canggu.
+A large, genuinely Indonesian district running inland from the Seminyak–Canggu coastal strip. Traditional markets, hardware shops, local warungs, schools, clinics, workshops and the infrastructure that serves the tourist areas around it.
 
-Prices drop noticeably the further you get from Petitenget and the main roads.
+Foreign residential development is scattered through it rather than concentrated, and it varies enormously street to street. Some pockets are indistinguishable from Umalas. Others are entirely local.
 
-## Why it works for some buyers
+No beach. Five to fifteen minutes from Seminyak, ten to twenty-five from Canggu, depending entirely on traffic.
 
-**Price.** You are paying for location without paying for beachfront.
+## The market
 
-**Access.** Genuinely central. Seminyak, Canggu, the airport and Denpasar are all reachable without crossing the island.
+Meaningfully cheaper than Seminyak, Berawa or Batu Bolong, and this is the entire argument. You are paying for a location that is close to everything and on top of nothing.
 
-**Services.** Everything practical is here, which matters more for a resident than for a guest.
+Plot sizes are often generous, and there is still land that trades. Lease terms available at a given budget are longer than in the coastal strip, frequently by a decade or more.
 
-**Rental.** Long-stay demand is solid. Nightly demand exists but competes against properties that can offer a walkable beach.
+Stock ranges from older local houses on large plots to newer purpose-built villas. Quality is inconsistent and the variation is wider than in areas with a more uniform development history.
 
-## What to check
+## Rental performance
 
-- Which end. Petitenget prices and northern Kerobokan prices are different markets
-- Noise. Main roads here carry heavy traffic including trucks
-- Zoning, which varies sharply across the area
-- Drainage on the lower streets
-- Whether the lane takes construction access
+This is where Kerobokan divides opinion.
 
-## The honest read
+**Short-term nightly letting** underperforms the coastal areas. Guests booking a Bali villa holiday want a beach or a walkable strip, and Kerobokan offers neither. Nightly rates sit below Seminyak and Canggu for an equivalent property, and occupancy is lower.
 
-Kerobokan is not a destination and does not pretend to be. It is where you buy when you want proximity to three places at once and are not paying for a view.
+**Long-term rental** is strong. Residents, staff, people working in Bali, families wanting space near schools. Demand is steady, year-round, and far less seasonal than the tourist market.
 
-For a resident, that is a strong proposition. For a nightly rental investor, it is a harder sell than the beach corridors and the numbers should reflect that.
+The honest position is that Kerobokan is a long-term rental area that some people try to run as a short-term one. Run it as what it is and the numbers work well: lower gross, much lower operating cost, minimal management burden, and a calendar that does not collapse in February.
 
-## The sub-areas that matter
+## The value argument
 
-**Petitenget** at the southern edge is effectively Seminyak: beach clubs, restaurants and Seminyak pricing.
+At USD 200,000, Kerobokan offers a three-bedroom villa on a good plot with twenty-five years or more remaining. The same budget in Berawa buys a smaller property with perhaps fifteen.
 
-**Umalas** to the north is quieter, more residential and family-oriented.
+If you are optimising for total return over the years you actually hold, that gap is decisive. Berawa's higher rate does not recover ten years of term.
 
-**Central Kerobokan** along the main roads is commercial and dense, with the lowest prices and the most traffic.
+Where the argument weakens is resale. Kerobokan's buyer pool is thinner than the coastal strip's, and a leasehold that is hard to sell is worth less than one that is easy to sell. Factor a longer sale period into the plan.
 
-**Western Kerobokan** toward Canggu picks up some of that corridor's demand without its prices.
+## Who it suits
 
-## What it is genuinely good for
+Buyers wanting the most house, the most land and the most term for their money within reach of everything.
 
-Long-stay rental to residents rather than tourists. The tenant pool here is people who live in Bali and work here, which is steadier and far less seasonal than nightly guests.
+Owner-occupiers and long-stay residents. Kerobokan is genuinely practical to live in, with real shops, real services and prices that are not tourist prices.
 
-That produces lower headline rates and considerably better occupancy across a year, which for an absentee owner is frequently the better arithmetic.
+Anyone running a long-term rental strategy who wants a predictable calendar and low workload.
+
+## Who it does not
+
+Anyone targeting peak nightly rates and holiday occupancy.
+
+Anyone who wants a uniform, predictable neighbourhood. Kerobokan varies street to street more than anywhere else in south Bali, and the street matters more than the area.
+
+## What to check here specifically
+
+**The street, not the area.** Walk it at different times. A parcel two hundred metres from a good one can be beside a workshop, a mosque, a busy junction or a night market. This is the single most important local check.
+
+**Zoning for the exact parcel.** Kerobokan's zoning is mixed and includes green, residential and commercial in close proximity. A villa in a zone that does not permit commercial accommodation is a liability if letting is the plan.
+
+**Drainage and flooding**, which varies substantially and is street-specific.
+
+**Access width.** Many Kerobokan lanes are narrow, which affects construction logistics and guest arrival.
+
+**Building condition** on older stock, with a proper inspection.
 
 ## Common questions
 
-### Is Kerobokan a good place to live in Bali?
-For central access, real services and lower prices than Seminyak, yes. It is a working area rather than a scenic one.
+### Is Kerobokan a good area to buy property in Bali?
+For value, plot size and lease term within reach of Seminyak and Canggu, yes. It underperforms for short-term holiday letting because it has no beach and no walkable strip.
 
-### How much is property in Kerobokan?
-Below Seminyak and Canggu, with Petitenget at the top of the range and the northern and inland sections considerably cheaper.
+### Is Kerobokan cheaper than Seminyak?
+Meaningfully. The same budget typically buys more land, more house and ten or more additional years of lease term.
 
-### Is Kerobokan safe?
-It is an ordinary Balinese residential and commercial area. The usual Bali risk applies: traffic rather than crime.
+### Is Kerobokan good for rental income?
+For long-term rental, yes — demand from residents and families is steady and year-round. For nightly holiday letting it sits below the coastal areas on both rate and occupancy.
 
-### Can you rent out property in Kerobokan?
-Long-stay demand is good. Nightly rental is harder because guests comparing options will usually pick a walkable beach location.
+### What is the main risk buying in Kerobokan?
+Street-level variation. The area changes character over short distances, and zoning is mixed, so both must be checked for the specific parcel rather than the district.
 
-### How far is Kerobokan from Seminyak?
-Petitenget is effectively Seminyak. The northern end is 10 to 20 minutes depending on traffic.
+### How long does it take to sell in Kerobokan?
+Longer than the coastal strip, because the buyer pool is thinner. Build a longer sale period into the plan, particularly on a leasehold where the term runs down while you wait.

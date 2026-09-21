@@ -5,63 +5,88 @@ summary: The interior Bukit, minutes from the famous breaks, at a fraction of cl
 category: areas
 order: 27
 risk: high
-regulation: Verify zoning on the specific parcel through the regional spatial plan.
+regulation: Badung regency spatial planning; water supply constraints on the Bukit. Verify zoning on the specific parcel.
 applies: Buyers looking at this area specifically
-verified: 2026-09-13
+verified: 2026-09-21
 ---
 
-Pecatu and Ungasan are the inland villages on the Bukit peninsula, behind the cliffs that get all the attention.
+The Bukit's clifftop positions are among the most expensive land in Bali. Pecatu and Ungasan sit a few minutes inland from them at a fraction of the price, and for a lot of buyers that is the better trade.
 
-## The price difference
+## What they are
 
-Clifftop and ocean-view land on the Bukit commands the highest premiums in Bali. Move a few hundred metres inland and the number falls dramatically for land that is minutes from the same breaks.
+**Pecatu** covers the interior of the peninsula behind Uluwatu, including the golf course development and a spread of residential land running toward Padang Padang and Bingin. Limestone, scrub, and increasingly villa clusters.
 
-That gap is the entire opportunity here, and it is real. It is also entirely explained: you are buying access, not outlook.
+**Ungasan** sits to the east, above Melasti and Karma beaches, with the same interior character and a run of large resorts along the southern cliffs.
 
-## What you get
+Both are five to fifteen minutes from the famous breaks and beaches, and both are essentially car-dependent. There is no walkable strip here in the Canggu sense, though small clusters of cafes and warungs have grown up along the main roads.
 
-| | Cliff | Pecatu / Ungasan interior |
-| --- | --- | --- |
-| Price per are | Highest on the island | Fraction of it |
-| View | Ocean, unrepeatable | Limestone scrub, occasional distant sea |
-| Nightly rate | Island top tier | Ordinary |
-| Guest demand | View-driven, strong | Depends on the property, not the plot |
-| Water | Hard | Hard |
-| Access | Often difficult | Better |
+## The market
 
-## The water problem is the same
+Land is substantially cheaper than clifftop Uluwatu or Bingin, and there is considerably more of it. The Bukit's interior is the largest supply of genuinely developable land remaining in south Bali.
 
-The Bukit is limestone: porous, elevated and thin on accessible groundwater. Inland or on the cliff, the supply question is identical, and many properties rely on trucked water.
+Plot sizes are generous by south Bali standards. That matters for what you can build: a large plot with a KDB coverage limit still leaves room for a proper pool, garden and privacy, which on a tight Canggu plot it does not.
 
-Ask how the property is supplied, what it costs monthly with the villa full in dry season, and what happens in a dry year. It is the question sellers here answer least convincingly.
+Lease terms are longer at a given budget than anywhere in the Canggu corridor. Building here is a genuine option rather than a theoretical one.
 
-## The realistic strategy
+## Rental performance
 
-Interior Bukit rewards buyers who will build something people want to stay in regardless of the plot's outlook: a distinctive design, a good pool, genuine space, close to a named break.
+Good and improving, with a distinct guest profile.
 
-It punishes buyers who assume Bukit proximity alone produces Bukit rates. It does not. The view produces the rates.
+Surf travellers drive a large share of it, and their season follows swell rather than school holidays, which means they fill different weeks than the Australian family market. Repeat and direct booking rates in Bukit surf properties are unusually high.
 
-## What to verify
+The family market at Ungasan and Pecatu has grown substantially, drawn by larger villas, quieter surroundings and proximity to the southern beaches.
 
-- Water supply and its real monthly cost
-- Access road width for construction
-- Zoning on the parcel
-- Actual drive time to Uluwatu, Bingin and Padang Padang
-- Distance to a supermarket and a clinic, which is longer than people expect
+What you do not get is the nomad long-stay demand that fills Canggu's quiet months, because there is no walkable working infrastructure. Occupancy here is more seasonal than Canggu's as a result.
+
+A view, where you have one, is the largest single rate multiplier available in Bali. Interior plots with a genuine ocean outlook from elevation command a significant premium over those without, and they are worth seeking out.
+
+## The water problem
+
+This is the Bukit's defining constraint and the thing buyers most often fail to investigate.
+
+The peninsula is limestone. Groundwater is deep, boreholes are expensive and not always successful, and mains supply is inconsistent across the area. Many properties run on trucked water, which is a real recurring cost and a real operational risk in peak season when demand spikes.
+
+Before buying land or a villa here, establish exactly where the water comes from, what it costs annually, and what happens in August when everyone needs it at once. A villa with a pool, multiple bathrooms and no reliable water supply is a liability regardless of how it looks.
+
+## Who it suits
+
+Buyers who want land, space and a long term, and are willing to build or to be a few minutes from the beach.
+
+Anyone targeting the surf market, which is loyal, repeat-heavy and less seasonal than it looks.
+
+Buyers with the budget to secure elevation and a view, which is where the Bukit's rate premium lives.
+
+## Who it does not
+
+Anyone who wants walkability, nomad long-stay demand, or a property that fills itself in February.
+
+Anyone unwilling to do the water diligence properly.
+
+## What to check here specifically
+
+**Water supply**, in detail, in writing. Source, reliability, annual cost, peak-season behaviour.
+
+**Access roads.** Many interior Bukit parcels are reached by unsurfaced or partially surfaced lanes, and a right of way that exists in practice but not in the certificate is a serious problem.
+
+**Power capacity.** Upgrading PLN supply for a villa with multiple aircon units and a pool pump takes time and money out here.
+
+**Zoning for the exact parcel**, including whether commercial accommodation is permitted.
+
+**View protection.** An outlook over land somebody else owns and has not yet built on is not protected. Establish what is between you and the water, and who owns it.
 
 ## Common questions
 
 ### Is Pecatu cheaper than Uluwatu?
-Considerably, for interior land without the ocean outlook. Cliff and view plots are a different market entirely.
+Substantially. Interior Bukit land trades at a fraction of clifftop prices, with larger plots and longer lease terms available at the same budget.
 
-### Is Ungasan a good place to invest?
-For buyers building something differentiated near the surf, yes. Interior land does not achieve clifftop nightly rates on proximity alone.
+### Is the Bukit a good place to invest in Bali?
+It has the largest remaining supply of developable land in south Bali, strong surf and family demand, and the biggest view premium on the island. The constraint is water and the seasonality is sharper than Canggu's.
 
-### Is there water on the Bukit?
-It is the defining constraint. Limestone holds little accessible groundwater and many properties rely on trucked supply.
+### What is the water situation on the Bukit?
+The peninsula is limestone with deep groundwater, boreholes are expensive and uncertain, and mains supply is inconsistent. Many properties run on trucked water, which is a recurring cost and a peak-season risk.
 
-### How far is Pecatu from Uluwatu beach?
-Minutes by scooter, depending on exactly where. The interior villages sit close to the main breaks.
+### Is Ungasan or Pecatu better?
+Ungasan sits above the southern beaches with more resort presence; Pecatu is more central to the famous breaks and the golf development. Both trade on the same interior-Bukit value argument.
 
-### Is the Bukit good for families?
-It is quiet and spacious with excellent surf, but schools, hospitals and supermarkets are all a long drive away.
+### Does a view matter that much on the Bukit?
+It is the largest single rate multiplier in Bali. Elevated plots with a genuine ocean outlook command a significant premium, and view protection should be verified rather than assumed.

@@ -5,65 +5,78 @@ summary: The most established foreign market on the island. Highest density, hig
 category: areas
 order: 11
 risk: medium
-regulation: Verify zoning on the specific parcel through the regional spatial plan.
+regulation: Badung regency spatial planning. Verify zoning on the specific parcel.
 applies: Buyers wanting a mature, liquid market
-verified: 2026-09-06
+verified: 2026-09-21
 ---
 
-Seminyak is what Canggu is becoming. It was the expatriate and tourism centre before Canggu had a paved road, and it is now effectively built out.
+Seminyak was the first part of Bali to develop a genuine international property market, and it remains the most mature. That maturity is both the argument for buying here and the argument against.
 
-## What that means for a buyer
+## What Seminyak is now
 
-**No land.** Vacant plots are rare and priced accordingly. Almost everything transacting is an existing building, frequently one that needs work.
+Dense, built out, and commercial. The strip from Jalan Kayu Aya through Petitenget carries the island's deepest concentration of established restaurants, beach clubs, hotels and retail. Oberoi, Petitenget and Seminyak proper run continuously into one another.
 
-**Deep demand.** Restaurants, beach clubs, hotels and shopping are all here at density. Guests who want to walk to dinner choose Seminyak over Pererenan every time.
+There is essentially no undeveloped land left. What trades is existing buildings, and redevelopment means demolishing something to build something else.
 
-**The deepest resale market on the island.** If you need to exit, buyers exist here in a way they do not further north or west. That liquidity is worth real money and is consistently underweighted.
+The guest is older and higher-spending than Canggu's, with shorter average stays. A large share comes from Australia and the Asian regional markets — Singapore, Malaysia, Korea, Japan — who want walkable dining, reliable service and a beach within a few minutes.
 
-**Mature stock.** Much of the villa inventory is ten to twenty years old. Tropical wear is fast, so a large share of what you see needs refurbishment priced in.
+## The market
 
-## Prices
+Land prices here are among the highest in Bali and the supply is fixed. When a parcel does trade it is usually privately and at a number that does not appear in any listing.
 
-Among the highest on the island per are, with beachside and Petitenget commanding the strongest premium. The gap between a walkable location and one requiring a scooter is large and it is justified by nightly rate.
+Most transactions are existing villas, many of them ten to twenty years old. The generation built during Seminyak's first boom is now at the age where pools, roofs, electrics and aircon all need work simultaneously. A villa that looks fine at a viewing may be a renovation project priced as a finished house.
 
-Much of the stock is leasehold with years already run. Remaining term is the first number to establish, before the photographs.
+Lease terms are frequently mid-range, because a lot of the stock was leased for thirty years a decade or more ago. Remaining term varies enormously between apparently similar properties on the same street, and it is the first thing to establish.
+
+## Rental performance
+
+Strong, stable, and less volatile than Canggu. Occupancy holds better through shoulder season because the guest base is less trend-driven, and the February trough is shallower than in areas depending on a narrower demand type.
+
+Nightly rates at the upper end are among the highest on the island for well-presented three and four bedroom villas with proper service.
+
+The competition is the hotel supply. Seminyak has more high-quality hotel and resort rooms than anywhere else in Bali outside Nusa Dua, which means a one or two bedroom villa here competes directly with well-run hotels on price and convenience. The villa product that wins is the one hotels cannot match: space, privacy, a proper pool, and enough bedrooms to suit a group.
 
 ## Who it suits
 
-Buyers who want an operating asset in a proven location rather than a bet on a corridor developing. Buyers who value being able to sell. Buyers targeting guests who want walkability, restaurants and nightlife rather than rice fields.
+Buyers who want a liquid asset. Seminyak has the deepest resale pool in Bali after Canggu, which on a leasehold is worth real money — a property you can sell in six months rather than eighteen is a materially different asset.
+
+Buyers who will use the property themselves and value walkability. It is one of the few parts of Bali where you can genuinely live without a scooter.
+
+Buyers who want predictable rather than exciting. Seminyak's numbers are steady. Nobody is going to make an outsized capital return here; the growth happened.
 
 ## Who it does not
 
-Anyone looking for land at entry prices, anyone wanting quiet, and anyone whose thesis depends on the area appreciating from an early stage. Seminyak's appreciation already happened.
+Anyone chasing appreciation. The repricing that made early Seminyak buyers money is finished, and the area is built out. Growth now comes from rate rather than land value.
 
-## What to check
+Anyone on a budget under USD 300,000, who will find the same money buys considerably more term and more space in Pererenan, Umalas or on the Bukit.
 
-- Remaining lease term and the quality of the extension clause, since much of the stock is leasehold and well through it
-- Age of the building and when the last refurbishment happened
-- PBG and SLF, particularly on older properties and any extension
-- Whether an operating licence exists and transfers
-- Parking, which is genuinely scarce and affects guest reviews
-- Flood behaviour on the lower streets in wet season
+Anyone who wants to build. There is nothing to build on.
 
-## Seminyak versus Canggu
+## What to check here specifically
 
-Seminyak is older, denser, more expensive and more walkable, with an established restaurant scene and an older guest. Canggu is younger, cheaper per are, more competitive on new supply, and heavier on traffic.
+**Remaining lease term**, before anything about the building. The spread on this street to street is wide and it dominates the value.
 
-For rate and liquidity, Seminyak. For land and upside, further north.
+**Building condition properly**, with an inspection rather than a walkthrough. Pool structure, roof, electrics, drainage and aircon on twenty-year-old stock are where the money goes.
+
+**Zoning for the exact parcel.** Seminyak's mix of commercial and residential zoning is not uniform along the main roads, and a commercial operation in a residential zone is a liability.
+
+**Licensing status** if you intend to let nightly, given the restriction Bali placed on new foreign-owned villa and homestay registration on 22 July 2026.
+
+**Access and parking.** Several Seminyak streets are narrow, one-way or congested to a degree that affects guest experience and shows up in reviews.
 
 ## Common questions
 
-### Is Seminyak a good place to buy property in Bali?
-For an operating asset in a proven location with the deepest resale market on the island, yes. For land at entry prices or early-stage upside, no.
+### Is Seminyak a good investment in 2026?
+It is a mature, liquid market with stable rental performance and the deepest resale pool after Canggu. It is not where capital appreciation is happening, because the area is built out and the repricing already occurred.
 
-### How much is property in Seminyak?
-Among the highest per are in Bali, with beachside and Petitenget strongest. Verify against recent transacted prices on the same street rather than asking prices.
+### Is Seminyak or Canggu better for property investment?
+Seminyak for stability, walkability and resale liquidity. Canggu for a broader guest mix and steadier year-round occupancy. Neither offers much land.
 
-### Is Seminyak better than Canggu?
-Different. Seminyak is mature, walkable and liquid with higher entry prices. Canggu has more land, more new supply, more competition and worse traffic.
+### How much does property cost in Seminyak?
+Among the highest in Bali. Land rarely trades and does so privately. Most transactions are existing villas, frequently ten to twenty years old.
 
-### Is there still land available in Seminyak?
-Very little, and it is priced accordingly. Almost all transactions are existing buildings.
+### What kind of villa performs best in Seminyak?
+Three and four bedrooms with a proper pool and good service, which is what hotels cannot match. Smaller units compete directly against a large supply of high-quality hotel rooms.
 
-### Is Seminyak stock mostly leasehold?
-A large share of it, and often well into the term. Establish remaining years and the extension clause before anything else.
+### What is the main risk buying in Seminyak?
+Buying ageing housing stock at finished-villa prices with an unexamined remaining lease term. Both are common and both are checkable before you commit.

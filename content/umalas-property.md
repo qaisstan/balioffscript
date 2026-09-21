@@ -5,61 +5,78 @@ summary: Sandwiched between Canggu and Seminyak, quieter than both, with rice fi
 category: areas
 order: 19
 risk: medium
-regulation: Verify zoning on the specific parcel through the regional spatial plan.
+regulation: Badung regency spatial planning. Verify zoning on the specific parcel.
 applies: Buyers looking at this area specifically
-verified: 2026-09-13
+verified: 2026-09-21
 ---
 
-Umalas sits inland between Kerobokan and Canggu. No beach of its own, which is exactly why it costs less and feels calmer than either neighbour.
+Umalas is the area buyers discover second. They come for Canggu or Seminyak, find both louder and more expensive than expected, and someone points them inland.
 
-## What it is
+## What Umalas is
 
-Low-rise villas along narrow lanes, with pockets of rice field still uncleared. A concentration of long-stay foreign residents rather than short-stay tourists, several international schools within a short drive, and a noticeably older demographic than Berawa.
+A low-density residential area running inland from Kerobokan, bounded loosely by the Canggu shortcut to the north and Seminyak's edge to the south. Rice fields still sit between the villa clusters, which is unusual this close to the coast and is a large part of the appeal.
 
-It has spas, gyms, good cafes and almost no nightlife. That is the entire proposition.
+It has real residential infrastructure: an international school, clinics, supermarkets, gyms, stables, and a set of cafes and restaurants that serve residents rather than tourists. This is a place people live rather than visit, and the character follows from that.
 
-## The investment case
+No beach. Five to fifteen minutes to Seminyak or Canggu depending on traffic, which in practice means longer than the map suggests.
 
-| Factor | Position |
-| --- | --- |
-| Entry price | Below Canggu and Seminyak, above Tabanan |
-| Rental demand | Long-stay and monthly, thinner on nightly |
-| Guest type | Families, remote workers, returning residents |
-| Traffic | Lighter than Canggu, worsening |
-| Beach | 10 to 15 minutes to Berawa or Batu Bolong |
-| Resale | Moderate. Shallower than Canggu, deeper than inland |
+## The market
 
-Umalas rewards annual leasing more than nightly rental. A villa here competes poorly against a Batu Bolong property for a three-night booking and competes well for a family taking six months.
+Land is cheaper than Berawa, Batu Bolong or Seminyak, and more available, because Umalas is not built out. Pockets of genuine development land remain, which is increasingly rare this close to the coast.
 
-## What to check
+Stock is a mix of older family villas on generous plots and newer builds. Plot sizes here are typically larger than in Canggu, which matters: KDB caps the proportion of your land you may build on, so a bigger plot supports a bigger house and a bigger pool without compromise.
 
-- Lane width. Umalas lanes are narrow and some cannot take a concrete truck, which affects both building cost and guest access
-- Zoning on the parcel. Rice field pockets are frequently green zone
-- Flooding. The low-lying sections take water in wet season
-- Neighbouring land. A rice field view here is often a plot already sold
-- Distance to the school your children would attend, driven at 8am
+Lease terms available are generally longer than in the prime coastal strip at the same budget, which is the central commercial argument for the area.
+
+## Rental performance
+
+Good, with a different guest profile to the coast.
+
+**Long-term and monthly rentals** are Umalas's strength. Families on a year in Bali, people working here, and anyone who wants space and quiet over walkable nightlife. The international school anchors genuine year-round demand that does not exist in the same way in Canggu.
+
+**Short-term** performs reasonably but not exceptionally. Guests booking a villa holiday generally want to be walkable to something or on the beach. Umalas is neither, so the nightly rate sits below the coastal strip.
+
+The result is an area that suits a long-term rental strategy better than a nightly one. Lower gross, considerably lower operating cost and workload, and a much more predictable calendar. For a lot of owners that is the better business.
 
 ## Who it suits
 
-Families who want space and calm within reach of Canggu. Long-stay residents. Investors targeting monthly and annual leases rather than nightly turnover.
+Buyers who want space, a bigger plot, a longer lease term and a quieter property, and who are content with a long-term rental yield rather than chasing peak nightly rates.
+
+Owner-occupiers with families. The school, the clinics and the residential character make this one of the most practical places to actually live in south Bali.
+
+Buyers priced out of Canggu who want to stay in the same catchment. Umalas is ten minutes from Berawa and a fraction of the land price.
 
 ## Who it does not
 
-Anyone underwriting peak nightly rates, anyone who wants to walk to a beach, and anyone whose thesis depends on the area appreciating like the coast did.
+Anyone optimising for nightly rate and peak-season occupancy. The guest for that is at the beach.
+
+Anyone who wants to walk to dinner and the ocean. You will drive.
+
+## What to check here specifically
+
+**Zoning.** Umalas contains significant green and agricultural zoning among the residential, and the boundaries are not obvious from the street. A parcel that looks like every other villa plot may sit in a zone where commercial accommodation is not permitted. Check the spatial plan for the exact parcel, always.
+
+**Flooding and drainage.** Parts of Umalas sit low and several streets flood in heavy rain. Ask specifically about the street, not the area.
+
+**Access road width and condition.** Some Umalas lanes are narrow and poorly surfaced, which affects both guest experience and construction logistics.
+
+**River setback**, if the parcel is near a waterway. The sempadan sungai catches more parcels here than buyers expect and is strictly applied.
+
+**Realistic drive times** at peak, not off-peak. The Umalas-to-Seminyak run at 6pm is not the same journey as at 11am.
 
 ## Common questions
 
-### Is Umalas a good area in Bali?
-For calm, space and proximity to Canggu and Seminyak without their prices or noise, yes. For nightly rental yield, it is weaker than the beach corridors.
-
-### How much is property in Umalas?
-Below Canggu and Seminyak and above inland Tabanan. Prices vary sharply by lane width and whether the parcel is tourism or green zoned.
-
-### Is Umalas good for families?
-It is one of the more family-oriented areas on the west side, with schools nearby, lighter traffic and a long-stay resident community.
-
-### How far is Umalas from the beach?
-Roughly 10 to 15 minutes to Berawa or Batu Bolong, depending on the hour.
+### Is Umalas a good area to invest in Bali?
+It offers larger plots, longer lease terms and lower land prices than the coastal strip, and it suits a long-term rental strategy better than a nightly one.
 
 ### Is Umalas better than Canggu?
-Different. Umalas is quieter and cheaper with weaker nightly demand. Canggu has the deeper rental and resale market and the worse traffic.
+For space, term, price and quiet living, yes. For nightly rental rates, walkability and peak occupancy, no. They serve different strategies.
+
+### Does Umalas have good rental demand?
+Strong long-term and monthly demand anchored by the international school and residents. Short-term demand is decent but below the coastal strip, because guests want a beach or walkable dining.
+
+### What is the main risk buying in Umalas?
+Zoning. The area contains significant green and agricultural zoning among the residential, and the boundaries are not obvious from the street.
+
+### Does Umalas flood?
+Parts of it do. Several streets sit low and flood in heavy rain, so ask about the specific street rather than the area.
