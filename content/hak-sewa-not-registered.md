@@ -5,60 +5,86 @@ summary: Hak Sewa appears on no certificate and in no government register. Your 
 category: ownership
 order: 04
 risk: critical
-regulation: Indonesian civil law on lease; PPAT deed execution. Hak Sewa is not registered at BPN.
+regulation: Indonesian civil law on lease; Basic Agrarian Law on registered land rights. Hak Sewa is not registered at BPN.
 applies: Anyone relying on a lease rather than a title
-verified: 2026-09-16
+verified: 2026-09-21
 ---
 
-Foreign buyers assume that because a notary was involved, the lease sits in a register somewhere. It does not, and that single fact reshapes the diligence.
+This is the single most important technical fact about Bali property for foreign buyers, and almost nobody explains it before the deposit.
 
-## What is and is not registered
+## The fact
 
-**Registered at BPN**, the national land agency: Hak Milik, HGB, Hak Pakai. These appear on certificates, and the land office record is the authority on who holds them.
+**Hak Sewa is not registered at the land office.** It does not appear on the land certificate. There is no government record that you hold an interest in that parcel.
 
-**Not registered**: Hak Sewa. A lease does not appear on the land certificate, does not create an entry at BPN, and cannot be looked up by a third party.
+Compare that to Hak Milik, HGB and Hak Pakai, all of which are registered rights recorded at BPN and shown on a certificate.
 
-Your protection is the notarised deed executed before a PPAT, and nothing else.
+Your lease exists as a notarial deed. That document, and the notary's record of it, is the entirety of the evidence that you have any interest in the land.
 
-## What follows from that
+## What follows from it
 
-**You cannot verify a lease by checking a register.** You verify the *land* at BPN, then verify the *lease* by reading the deed.
+**No bank will lend against it.** A lender needs registered collateral it can enforce against. There is none, which is the main reason Bali is a cash market and why most buyers fund from abroad.
 
-**A later buyer of the freehold may not discover you.** Because the lease is not noted on the certificate, someone purchasing the land does not automatically learn a lease exists. This is why the lease must bind successors explicitly, and why some buyers insist on a notation being made.
+**A title search will not show you.** Anyone inspecting the certificate — a prospective buyer of the land, a creditor, a court — sees the landowner and no trace of your interest. You are invisible to the register.
 
-**Two leases can be granted over the same land.** Rare, but nothing in a register prevents it. The protection is the notary's own checks and the landowner's honesty.
+**A subsequent purchaser of the land is not automatically bound.** If the landowner sells the land, whether the new owner has to honour your lease depends on whether the deed binds successors and whether you can enforce it. This is drafting, not registration.
 
-**Your remedy is contractual.** If the landowner breaches, you sue on a contract. You do not have a registered right to assert against the world.
+**You cannot rely on the register to protect you.** In a registered system, registration itself is your protection. Here it is the contract, which means the contract has to do all the work.
 
-## What to do about it
+## How this changes your verification
 
-- Verify the **land** at the land office through your own notary: who holds it, what type, any charges
-- Confirm the person granting the lease is the registered owner
-- Get spousal and heir consent where the land is marital or inherited
-- Have the deed executed before a PPAT, in Indonesian, with your own notary present
-- Bind heirs, successors and any future owner explicitly
-- Ask your notary whether a notation on the certificate is possible in your case
-- Keep the original deed somewhere safe and know where it is
+In a registered system you check the register and the register is the answer. Here you have to check three separate things.
 
-## Why leases are still used
+**The land itself, at the land office.** The certificate, the registered owner, the area, the boundaries and any registered encumbrance. This establishes that the person leasing to you owns what they say they own and that nothing registered sits ahead of you.
 
-Because they need no residency, no company, no capital threshold and no minimum value. For a defined-period home, well drafted, a lease is a legitimate instrument used by serious buyers.
+**The counterparty.** That the person signing is the registered owner or holds a valid, current power of attorney, and that a married landowner's spouse consents.
 
-Knowing it is contractual rather than registered is not a reason to avoid it. It is the reason the drafting is the entire product.
+**The deed itself**, in detail, because it is your only protection. Term, extension mechanism, assignment, sublease, right to build, succession, remedies.
+
+And then a fourth, informal one: **ask locally**. The banjar will know about disputes, competing claims and history that no document search will surface.
+
+## What has to be in the deed because it cannot be in a register
+
+**Binding on heirs and successors**, so that a change of landowner does not end your position.
+
+**A guaranteed extension** — jaminan, not prioritas — with a stated term and a fixed price or published formula.
+
+**A right to assign and sublease**, without which you have no exit and no income.
+
+**An express right to build**, with an obligation on the landowner to sign permit applications within a defined time, and a power of attorney so you are not dependent on their cooperation.
+
+**Ownership of improvements** during the term, and what happens to them at expiry.
+
+**Full payment of the whole term recorded**, so no later claim of arrears is possible.
+
+**Named remedies.** Specific performance and a defined compensation figure if the landowner obstructs, sells or refuses.
+
+Every one of those exists because there is no register doing the job for you.
+
+## Where to keep the document
+
+The original deed, with the notary. A certified copy, with you, somewhere reachable from another country. A sworn translation alongside it.
+
+If you cannot produce the deed years later, you have a problem that is genuinely difficult to solve, because there is no register to fall back on. Buyers underestimate this and then discover it when they try to sell.
+
+## Is this a reason not to buy leasehold?
+
+No. Most foreign-held property in Bali is leasehold and most of it is fine. It is the fastest and cheapest lawful route into the market and it is used by serious buyers constantly.
+
+It is a reason to treat the drafting as the product rather than a formality, to engage your own notary rather than the agent's, and to spend a few thousand dollars having the deed reviewed properly. In a system with no register protecting you, that review is the protection.
 
 ## Common questions
 
-### Is Hak Sewa registered at BPN?
-No. A lease does not appear on the land certificate or in the national land register. The notarised deed is your protection.
+### Is a Bali lease registered at the land office?
+No. Hak Sewa is a contractual right, not a registered land right, so it appears on no certificate and in no BPN record.
 
-### How do I verify a Bali leasehold?
-Verify the land at the land office, confirm the grantor is the registered owner, then have your own notary read the deed itself.
+### Can I mortgage a Bali leasehold?
+No. There is no registered interest for a lender to take security over, which is why Bali is largely a cash market.
 
-### Can someone buy the land my lease is on?
-Yes. Because the lease is not on the certificate, a purchaser may not discover it, which is why successor-binding language matters.
+### What happens if the landowner sells the land?
+Whether the new owner must honour your lease depends on whether the deed binds successors and whether you can enforce it. Registration will not help you, because there is none.
 
-### What is a PPAT?
-The official authorised to execute land deeds. A Bali lease should be executed before one, in Indonesian.
+### How do I prove I hold a Bali leasehold?
+Through the notarial deed and the notary's record of it. Keep a certified copy and a sworn translation somewhere reachable from another country.
 
-### Is leasehold safe in Bali?
-It is lawful and widely used. Its safety comes entirely from the drafting and from the landowner's title being sound.
+### Does this mean leasehold is unsafe in Bali?
+It means the drafting is the entire protection. Most leaseholds are fine; the ones that fail are almost always the ones where nobody independent read the deed.
