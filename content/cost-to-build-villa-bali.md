@@ -5,84 +5,98 @@ summary: Quotes run from IDR 6M to 15M per square metre. The spread is specifica
 category: building
 order: 01
 risk: high
-regulation: Market figures. Confirm current quotes with contractors and quantity surveyors directly.
+regulation: Market figures, September 2026. Confirm current quotes with contractors and quantity surveyors directly.
 applies: Anyone building rather than buying
-verified: 2026-09-06
+verified: 2026-09-21
 ---
 
-Construction here is quoted per square metre of built area, and the range is enormous. Understanding what moves a quote from one end to the other is the difference between a budget that holds and one that runs 40 percent over.
+Building in Bali is one of the few genuine advantages available to a foreign buyer. You get a new property, a full term from the start, a specification you chose, and no developer margin. The catch is that the quoted price and the finished cost are different numbers, and the gap is predictable.
 
-## The tiers, honestly
+## The per square metre ranges
 
-| Tier | Per m2, USD | Per m2, IDR | What it buys |
-| --- | --- | --- | --- |
-| Basic local | 600 to 850 | 9M to 13M | Local materials, simple finishes, minimal joinery |
-| Standard | 1,000 to 1,200 | 15M to 19M | Good local materials, modern finishes, decent fittings |
-| Premium | 1,200 to 1,500 | 19M to 24M | Imported fixtures, custom joinery, better systems |
-| Luxury | 1,500 and up | 24M and up | Fully bespoke, architect-led, imported throughout |
+Roughly, September 2026, for the building itself:
 
-A 200 square metre villa at standard specification is therefore roughly USD 200,000 to 240,000 for the building alone. The same footprint at luxury specification passes USD 300,000 without difficulty.
+**IDR 6M to 8M per m²** — basic. Local specification, simple structure, standard finishes. Adequate for a modest property, will not command a premium nightly rate.
 
-## What the quoted rate usually excludes
+**IDR 8M to 11M per m²** — good standard. Where most well-specified rental villas land. Decent finishes, proper waterproofing, reasonable joinery, competent mechanical and electrical.
 
-This is where budgets break. A per-square-metre figure typically covers the structure and basic finishes. It frequently excludes:
+**IDR 11M to 15M per m²** — high specification. Better materials, custom joinery, architectural detailing, quality fittings.
 
-- The pool, which is its own contract and its own USD 15,000 to 50,000
-- Landscaping and the garden, routinely underestimated
-- Furniture, fit-out and soft goods
-- Air conditioning units, water heating, water filtration
-- Boundary walls, gates and driveway
-- Professional fees for architect, engineer and permits
-- Utility connections, which on remote plots can be substantial
-- Contingency
+**Above IDR 15M per m²** — luxury and bespoke, with no real ceiling.
 
-Add these and a "USD 200,000" villa lands nearer USD 280,000. Ask explicitly, item by item, what is in and what is out. A contractor who will not itemise is telling you something.
+In USD, that is roughly USD 380 to 500 at the low end, USD 500 to 700 for a good standard, and USD 700 to 950 for high specification. Currency moves, so treat the rupiah figure as primary.
 
-## What actually moves the number
+## What the quote usually excludes
 
-**Site access.** A plot reached by a lane too narrow for a concrete truck adds cost to every single delivery. This is checked before you buy the land, not after.
+This is where budgets break, and the omissions are consistent.
 
-**Ground conditions.** Sloping sites, soft ground and river-adjacent plots need engineering that flat, stable land does not.
+**The pool.** Frequently quoted separately. A standard pool with proper filtration, tiling and deck runs a meaningful sum on its own, and pool cost per square metre is higher than building cost per square metre.
 
-**Design complexity.** Straight walls and simple roof geometry are cheap. Curves, cantilevers, double-height voids and infinity edges are not.
+**Landscaping.** A Bali villa sells on its garden. Mature planting, hardscaping, lighting and irrigation is a real line item, not an afterthought.
 
-**Imported versus local.** Local hardwood, terrazzo and local stone are good and inexpensive. Imported taps, European appliances and specified glazing multiply quickly.
+**Furniture and fit-out.** Almost never in a build quote. USD 25,000 to USD 50,000 for a three-bedroom to a standard that rents well.
 
-**Who manages it.** A contractor managing themselves has no incentive to control your cost.
+**Kitchen and bathroom fittings** above a basic allowance. Check what the allowance actually is, because it is often minimal.
 
-## Contract structure
+**Aircon**, sometimes, and at the capacity a rental villa needs rather than the minimum.
 
-**Fixed price** transfers overrun risk to the builder, and invites arguments about whether something was in the specification. It works only where the specification is genuinely complete before signing.
+**Water and power connection or upgrade.** PLN capacity for multiple aircon units and a pool pump often needs upgrading, which takes time and money. Water may need a bore, a tank system or a trucking arrangement.
 
-**Cost plus** gives transparency and removes the incentive to cut corners, but the ceiling is yours. It suits experienced owners with real supervision.
+**Permits.** PBG application, drawings, structural calculations, consultant fees.
 
-Whichever you choose, tie payments to **inspected milestones**, never to dates. Paying ahead of progress is the single most reliable way to lose money on a Bali build. A contractor holding your money and behind on your project has every reason to move to the next site.
+**Architect and supervision**, at five to ten percent of construction cost for a full service.
 
-## Independent supervision is not optional
+**Site works.** Clearing, levelling, retaining walls, access. On a sloped Bukit plot this can be very significant.
 
-Appoint someone whose only job is representing you: an independent project manager or quantity surveyor, paid by you, inspecting before each payment is released.
+**Contingency.** Ten to fifteen percent, and you will use it.
 
-Owners who supervise from abroad through photographs sent by the builder consistently find problems at handover that cost more to remedy than supervision would have cost across the whole project.
+A build quoted at USD 200,000 for the structure commonly finishes at USD 280,000 to USD 320,000 all in. That is not a contractor being dishonest. It is a quote for what was asked about.
+
+## What drives the cost
+
+**Site conditions.** Flat, accessible land is cheap to build on. Sloped land with poor access costs substantially more in retaining, foundations and logistics.
+
+**Structural complexity.** An efficient structural grid versus an inefficient one is commonly ten to fifteen percent of the build, which is why the architect pays for themselves.
+
+**Imported versus local materials.** Local stone, timber and terrazzo are excellent and cheap. Imported fittings carry duty and freight.
+
+**Your presence.** Builds supervised closely cost less and finish better than builds run remotely. This is the least glamorous factor and one of the largest.
 
 ## Timeline
 
-A straightforward villa takes the better part of a year once permits are in hand. Permits themselves are the largest variable, and wet season slows external work from roughly November to March.
+Six to twelve months for a straightforward villa once permits are in hand. Permits themselves vary by regency and by the completeness of the submission.
 
-Budget longer than you are told, and do not commit to a booking calendar against an optimistic completion date.
+Add the pauses: Nyepi stops everything island-wide, and village ceremonies stop work locally, sometimes for several days. Rainy season slows groundwork and pours. A programme that assumes continuous work will overrun, and that is not the contractor's fault.
+
+Eighteen to twenty-four months from land purchase to first guest is a realistic overall expectation for a considered project.
+
+## How to contract it
+
+**Fixed price against a full specification** is safest, and it requires the specification to actually be complete. A fixed price against vague drawings becomes a variations argument.
+
+**Cost plus** works with a contractor you trust and close supervision, and it exposes you to overrun.
+
+Either way: **pay against completed work inspected by your architect or project manager**, never ahead of it. Retention of five to ten percent held until defects are cleared after handover. A written defects liability period. And a schedule tied to verified milestones, not calendar dates.
+
+## Is building worth it?
+
+On a project above roughly USD 300,000, usually yes. You typically save fifteen to twenty-five percent against buying the equivalent finished, you start with a full thirty year term rather than a remainder, and the property is built to a standard you chose.
+
+It costs you twelve to twenty-four months, real attention, permit risk and the genuine possibility of a ten to twenty percent overrun. Below USD 300,000 those are harder to absorb.
 
 ## Common questions
 
-### How much does it cost to build a villa in Bali per square meter?
-Roughly IDR 6M to 15M per square metre depending on specification, which is about USD 600 to 1,500. Standard quality sits around USD 1,000 to 1,200 per square metre.
+### How much does it cost to build a villa in Bali per square metre?
+Roughly IDR 6M to 8M for basic, 8M to 11M for a good rental standard, and 11M to 15M for high specification, before pool, landscaping, furniture and site works.
 
-### How much is a 3 bedroom villa in Bali to build?
-A typical three-bedroom villa of 200 to 250 square metres at standard specification runs USD 200,000 to 300,000 for the building, before pool, landscaping, furniture and fees. Add roughly 30 to 40 percent for those.
-
-### Is it cheaper to build or buy in Bali?
-Building is usually cheaper per square metre and gets you exactly what you want. Buying is faster, carries no construction risk, and lets you see what you are getting. Building only wins if you have the time and supervision to do it properly.
-
-### What is not included in a Bali construction quote?
-Commonly the pool, landscaping, furniture, air conditioning, water systems, boundary walls, professional fees, utility connections and contingency. Ask for the exclusions list in writing.
+### What is not included in a Bali build quote?
+Commonly the pool, landscaping, furniture, permits, architect fees, water and power upgrades, site works and contingency. The finished cost is typically forty to sixty percent above the structure quote.
 
 ### How long does it take to build a villa in Bali?
-Around nine to twelve months for a straightforward villa once PBG is issued. Permits, wet season and material delays are what push projects past a year.
+Six to twelve months for a straightforward villa once permits are in hand, and eighteen to twenty-four months from land purchase to first guest.
+
+### Is it cheaper to build or buy in Bali?
+Building typically saves fifteen to twenty-five percent against the equivalent finished property and starts with a full term, at the cost of time, attention and overrun risk.
+
+### How should I pay a Bali contractor?
+Against completed work inspected by your architect or project manager, never ahead of it, with five to ten percent retention held until defects are cleared after handover.

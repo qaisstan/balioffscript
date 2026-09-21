@@ -5,56 +5,82 @@ summary: Renders are free. What separates a developer worth paying is what they 
 category: building
 order: 12
 risk: critical
-regulation: Market figures. Verify current pricing and rules directly.
-applies: Anyone planning a purchase here
-verified: 2026-09-13
+regulation: No developer licensing or bonding regime in Indonesia. Verify independently through your own notary.
+applies: Anyone buying off-plan or commissioning a build
+verified: 2026-09-21
 ---
 
-Off-plan is the highest-risk configuration in this market, and the developer is most of that risk.
+There is no developer licensing regime in Indonesia, no bonding requirement, and no statutory deposit protection scheme. A developer is whoever says they are one, and the barrier to entry is a website and a render.
 
-## What to verify, in order
+That means the assessment is entirely yours.
 
-**One: what have they completed?** Not launched, not sold out. Completed and handed over. Visit it. Walk it. If the answer is "this is our first project," you are funding a learning curve.
+## Start with what they have finished
 
-**Two: who is the legal entity?** Many projects sit in a special purpose company formed for that project, with no assets beyond the project itself. If it fails, your contractual remedy is against an empty shell.
+Not what they are building. What is done, handed over and occupied.
 
-Ask for the company documents. Check who the shareholders and directors are, and whether the same people stand behind the completed projects they showed you.
+**Visit two or three completed projects**, ideally a few years old. New buildings look fine. A three-year-old building in Bali's climate tells you everything about the waterproofing, the drainage, the joinery, the pool structure and the quality of what went in behind the walls.
 
-**Three: does the land title exist, held by them, now?** Not "under acquisition." A developer selling units on land they have not secured is selling you their financing risk.
+**Talk to owners.** Not the ones the developer introduces. Find them yourself — through the property manager, through a neighbour, through the listing. Ask what was late, what was different from the drawings, what broke in year one, and how the developer responded.
 
-**Four: has PBG been issued for the design being sold?** If not, what is being marketed may not be what can lawfully be built.
+That conversation is worth more than every other check combined, and it is the one buyers skip because it feels awkward.
 
-**Five: what do previous buyers say?** Not the testimonials the developer selects. Find buyers from a completed project yourself and ask what slipped and how it was handled.
+## Then the corporate position
 
-## The payment structure is the real protection
+**What entity are you actually contracting with?** A PT PMA, a local PT, or an individual? Look at the actual name on the contract, not the brand on the website.
 
-Tie every tranche to an **independently inspected milestone**, verified by someone you appointed and pay. Not the developer's project manager, not photographs.
+**Does that entity hold anything?** Many Bali developers contract through a special purpose company with no assets. If it fails, there is nothing to enforce against, and the people behind it continue under a new name.
 
-Front-loaded schedules transfer your leverage at the start. Once they hold most of the money, your ability to compel completion is whatever the contract gives you against a company that may hold nothing.
+**How long has it existed, and what has it delivered under this name?** A developer who has rebranded between projects is telling you something.
 
-## Guaranteed returns
+**Are its filings current?** A PT PMA with missed LKPM reports and outstanding tax filings is not being run carefully, and that carelessness will show up in your build.
 
-Ask who is guaranteeing them and what that entity holds. A yield guarantee from a project company with no other assets is worth what the company is worth when you call on it.
+## Then the project itself
 
-## The questions that end conversations
+**Is the PBG issued or applied for?** If applied for, your money is funding land acquisition and permitting. This is the most important single fact and it is frequently blurred.
 
-"May I see the land certificate and the PBG?" "Which completed project can I visit?" "Can I speak to a buyer you did not choose?" "Can payments follow inspected milestones?"
+**Who owns the land, on what title, for how long?** If the project sits on leasehold, what happens to your unit at expiry and is the term long enough for a resale to be possible?
 
-A serious developer answers all four without hesitation. The reaction tells you more than the answers.
+**Does the zoning permit what is being built, and what it will be used for?** A residential zone does not support commercial accommodation.
+
+**Do the drawings match the permit?** Buildings that deviate from approved drawings fail at SLF, and SLF is what makes a building lawfully occupiable and saleable.
+
+## Then the money
+
+**What happens if construction stops?** There is no statutory protection, so whatever exists is contractual. Escrow, a bank guarantee, staged release against independent inspection — or nothing, which is the common answer. Get it in writing.
+
+**What is the payment schedule tied to?** Insist on verified construction milestones inspected by someone you appointed, not calendar dates and not the developer's own sign-off.
+
+**What is retained past handover, and for how long?** Five to ten percent held through a defects liability period is reasonable and normal.
+
+**What is the late delivery penalty, and is it enforceable in practice?**
+
+## The warning signs
+
+A schedule front-loaded toward early payments. A PBG "in process". A refusal to name completed projects or introduce past buyers. A projected yield presented as gross without saying so. A rental programme described in marketing but absent from the contract. Pressure to sign at a launch event. A contract only in English, or an Indonesian version that differs from the English summary. An entity you cannot find any trading history for.
+
+Any one of these is a reason to slow down. Two together is a reason to walk.
+
+## The alternative worth considering
+
+Buy the land yourself and engage an architect and a contractor directly.
+
+You capture the developer's margin, you own the land right from the start, you control the specification, and every payment buys work you can inspect. The cost is your time and attention, and you take on permit and contractor risk directly rather than paying someone to carry it.
+
+For anyone building above roughly USD 300,000, this is frequently both cheaper and safer than buying off-plan from a developer whose track record you cannot verify.
 
 ## Common questions
 
-### How do I check if a Bali developer is legitimate?
-Visit a completed project, verify the land title is held by the contracting entity now, confirm PBG exists for the design sold, and check who stands behind the company.
+### Are developers licensed in Indonesia?
+No. There is no developer licensing regime, no bonding requirement and no statutory deposit protection scheme, so the assessment falls entirely on the buyer.
 
-### Is off-plan safe in Bali?
-It is the highest-risk route available here. It works when the developer is established, land and permits are verified, and payments follow inspected progress.
+### How do I check a Bali developer's track record?
+Visit two or three completed projects that are a few years old, and find past buyers yourself rather than through the developer. Ask what was late, what differed from the drawings and how they responded.
 
-### What if the developer does not finish?
-Your remedy is whatever the contract gives you against that entity. If it is a special purpose company with no assets, that may be nothing.
+### What entity should I check before buying off-plan?
+The entity named on the contract, not the brand on the website. Many projects contract through a special purpose company holding no assets, leaving nothing to enforce against.
 
-### Should I trust a guaranteed rental return?
-Only as far as the guarantor's balance sheet. Ask what the guaranteeing entity actually holds.
+### What protects my money if a Bali development stops?
+Nothing statutory. Any protection is contractual — escrow, a bank guarantee, or staged release against independent inspection — and frequently there is none. Get the mechanism in writing.
 
-### What payment structure protects a buyer?
-Tranches tied to construction milestones inspected by someone you appointed, never dates, and never front-loaded.
+### Should I buy off-plan or build it myself in Bali?
+Above roughly USD 300,000, building yourself is often cheaper and safer: you capture the developer's margin and every payment buys work you can inspect.

@@ -5,71 +5,102 @@ summary: The last moment you have leverage is before you accept the building. Af
 category: building
 order: 14
 risk: high
-regulation: PBG and SLF requirements; contractor warranty terms.
+regulation: PBG and SLF requirements; contractor warranty and retention terms.
 applies: Anyone taking delivery of a new or renovated villa
-verified: 2026-09-15
+verified: 2026-09-21
 ---
 
-Handover is a commercial moment, not a ceremony. Treat it accordingly.
+Handover is the point at which your position changes completely. Before you sign, the contractor needs something from you. After you sign, you need something from them.
 
-## Before the day
+Treat it accordingly, and do not let a completion date, a booking or a flight rush it.
 
-- Retention should be held. If your contract has no retention, you have already given away your leverage
-- Bring your independent surveyor or project manager, not just the builder
-- Have the approved drawings and specification with you
-- Have SLF in hand or a written date for it
+## Before you attend
 
-## Structure and envelope
+**Bring your architect or an independent surveyor.** If you have used one through the build, this is the visit they exist for. If you have not, engage one now. A few hundred dollars against a USD 300,000 building is not a decision.
 
-Roof, including from inside the ceiling void. Signs of water ingress at every junction. Wall cracks beyond hairline. Floor levels and drainage falls on terraces, which should run away from the building. Render and paint on the weather side.
+**Bring the drawings and the specification**, and check the building against them rather than against your memory of what was promised.
 
-## Water
+**Allow a full day.** Handover done in an hour is handover not done.
 
-Every tap, hot and cold, at pressure. Every drain, filled and released. Shower falls. Toilet flush and refill. Check under every sink after running it. Pool pump, filtration, lights and the balance tank if there is an infinity edge.
+**Go at different times if you can**, including after rain and in the evening. Drainage and noise both reveal themselves on a schedule.
 
-Run the whole house at once and see what the pressure does.
+## The documents
 
-## Electrical
+**PBG**, issued, matching the building that exists.
 
-Every socket, every switch, every light. RCD tripping correctly. Electrical capacity sufficient for the villa running fully: air conditioning across all bedrooms plus pool pump plus kitchen. Undersized capacity is common and expensive to upgrade later.
+**SLF**, the certificate of fitness. Without it the building is not lawfully occupiable and it is significantly harder to sell.
 
-Air conditioning units: cooling, draining, and no water marks below them.
+**As-built drawings**, showing what was actually constructed including anything that changed during the build.
 
-## Joinery and finishes
+**Service locations** — where the water lines, electrical runs and drainage actually go. You will need this the first time something fails, and reconstructing it later is expensive.
 
-Every door and window opening, closing and locking. Cupboard doors aligned. Insect screens. Tiling and stone for lippage and hollow sounds. Silicone lines.
+**Warranties** for equipment, waterproofing and the structure, with their terms and durations.
 
-In this climate, check timber for movement already visible at handover. If it has moved in the first months, it will keep moving.
+**Manuals and certificates** for pumps, filtration, aircon, water heating, solar and anything else installed.
 
-## Documents
+**Keys**, all of them, and a schedule of who else holds copies.
 
-| Item | Why |
-| --- | --- |
-| SLF | Certifies the building is fit for use, and insurance may depend on it |
-| As-built drawings | You need them for every future repair |
-| Warranties | Structure, waterproofing, pool plant, appliances, separately |
-| Equipment manuals | Pool, pumps, air conditioning |
-| Contractor contacts | Named people for each trade |
+## Water, which is where Bali buildings fail
 
-## The snagging list
+**Run every tap, shower and toilet.** Check pressure at the highest point of the building, which is where it fails.
 
-Write it, photograph everything, date it, have the builder sign it, and agree a completion date with retention held against it.
+**Test the hot water** everywhere, from cold.
 
-Verbal agreement to fix things after final payment is how snags become your problem.
+**Check the water source**, capacity and pressure. If the property runs on a bore or trucked supply, see the tank, understand the volume and establish the resupply arrangement.
+
+**Flood the shower trays and wet areas** and leave them. Come back and look at the ceiling below.
+
+**Check the pool**: structure, tiling, filtration, pump, skimmers, lighting, and whether the water level holds overnight.
+
+**Inspect drainage.** Roof, terraces, garden. If it has not rained, run hoses. Bali rainfall is not gentle and inadequate drainage is the most expensive defect to fix after the fact.
+
+## Electrical and mechanical
+
+**Every socket, switch and light**, individually.
+
+**PLN capacity**, against what the property actually draws with all aircon running and the pool pump on. Undersized supply is common and upgrading takes time.
+
+**Every aircon unit**, cooling properly, draining properly, quiet.
+
+**Earthing and safety cutouts**, tested.
+
+**Internet**, at the speed contracted, in every room you care about.
+
+**Gas**, if installed, with its connections checked.
+
+## Fabric and finish
+
+Walls, ceilings and floors for cracks, unevenness and staining. Every door and window opening, closing and locking properly and sealing against rain. Joinery — drawers, hinges, alignment. Tiling and grout. Paint, in daylight. External render and roof condition. Termite treatment evidence, which matters more here than most places.
+
+## The defects list
+
+**Write everything down, photograph it, and date it.** Give it to the contractor in writing and keep a copy signed or acknowledged.
+
+**Agree a timeframe** for each item and what happens if they are not fixed.
+
+**Do not release the retention.** Five to ten percent held through a defects liability period is normal, and it is the only leverage that survives handover. A contractor with nothing outstanding has no reason to return.
+
+**Do not sign an unconditional acceptance** while defects remain. Sign subject to the list.
+
+## After handover
+
+Keep the defects list live and follow it. Revisit after the first heavy rain, which will find anything drainage-related. Check again at the end of the defects liability period before releasing retention.
+
+And file everything — permits, drawings, warranties, manuals, the defects list — somewhere reachable from another country. A buyer years from now will ask for it, and so will you the first time something breaks.
 
 ## Common questions
 
-### What is retention in a building contract?
-A percentage of the contract held back until defects are fixed after handover. Without it you have no leverage at the end.
+### What should I check at villa handover in Bali?
+Documents including PBG, SLF and as-built drawings, then water pressure and drainage, pool structure and filtration, electrical capacity and every fitting, then fabric and finish, with everything recorded in a written defects list.
 
-### What is SLF and do I need it at handover?
-Sertifikat Laik Fungsi certifies the completed building is fit for use. Insurance and operating licences can depend on it.
+### What is an SLF and do I need one?
+The certificate of fitness for occupancy, issued after inspection. Without it the building is not lawfully occupiable and it is materially harder to sell.
 
-### How long is a builder's warranty in Bali?
-It varies by contract and by element, so get structure, waterproofing and plant warranted separately and in writing.
+### How much should I hold back at handover?
+Five to ten percent as retention through a defects liability period. It is the only leverage that survives handover.
 
-### What defects are most common in Bali villas?
-Water ingress at roof junctions, drainage falls running the wrong way, undersized electrical capacity and timber movement.
+### What fails most often in new Bali villas?
+Water and drainage. Inadequate roof and terrace drainage, failed waterproofing in wet areas, and undersized water or electrical supply.
 
-### Should I pay the final instalment at handover?
-Not in full. Hold retention against a signed, dated snagging list with an agreed completion date.
+### Should I bring someone to a villa handover?
+Yes. Your architect or an independent surveyor, with the drawings and specification, and allow a full day rather than an hour.

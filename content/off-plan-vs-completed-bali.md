@@ -5,66 +5,94 @@ summary: Off-plan promises a discount and delivers construction risk, counterpar
 category: building
 order: 13
 risk: critical
-regulation: PBG and SLF requirements; developer contracting.
+regulation: PBG and SLF requirements; developer contracting; no statutory deposit protection scheme in Indonesia.
 applies: Anyone weighing a development launch against existing stock
-verified: 2026-09-15
+verified: 2026-09-21
 ---
 
-The discount on off-plan is real. So is everything you are accepting in exchange for it.
+Off-plan is the most aggressively marketed product in Bali and the one where the most foreign money has been lost. That does not make it always wrong. It makes it something to evaluate rather than accept.
 
-## The comparison
+## What off-plan actually is
 
-| | Off-plan | Completed |
-| --- | --- | --- |
-| Price | Lower, staged payments | Higher, paid at transfer |
-| What you inspect | Renders and a show unit | The actual building |
-| Construction risk | Yours | None |
-| Counterparty risk | High. Often a project-only company | Limited to the seller's title |
-| Permits | May not be issued yet | Verifiable now, PBG and SLF |
-| Income | Starts years away | Starts immediately |
-| Specification | What the contract says, if enforced | What you can see and touch |
-| Exit if things go wrong | A claim against an entity that may hold nothing | Sell the asset |
+You pay in instalments across construction for a building that does not yet exist, against a company you cannot easily enforce against, in a jurisdiction where **there is no statutory deposit protection scheme** of the kind that exists in the UK, Australia or much of Europe.
 
-## The structural problem with off-plan here
+If the build stops, your money is in a hole in the ground. There is no lender's interest protecting it, no escrow requirement by law, and no regulator whose job it is to make you whole.
 
-Many projects sit in a special purpose company formed for that project alone, with no assets beyond the project. If it fails, your contractual remedy runs against an empty shell.
+That is the risk. Everything else is detail.
 
-Front-loaded payment schedules make this worse, because once the developer holds most of your money your ability to compel completion is whatever the contract gives you.
+## What it offers
 
-## If you buy off-plan anyway
+**A lower price** than the equivalent finished property, typically ten to twenty-five percent.
 
-- Verify the **land title exists and is held by the contracting entity now**, not "under acquisition"
-- Confirm **PBG has been issued** for the design being sold
-- Visit a project they have **completed and handed over**, not launched
-- Speak to a buyer from that project you found yourself
-- Tie every payment to an **independently inspected milestone**, verified by someone you appointed
-- Treat any guaranteed return as worth exactly what the guaranteeing entity holds
+**Staged payments**, which spreads the capital requirement across a construction period.
 
-## The case for completed
+**A new building** with a full term from the start and no accumulated maintenance.
 
-You can see it, survey it, check its permits against the building as it stands, look at twelve months of actual operating statements, and know precisely what you are buying.
+**Some specification input**, sometimes, on finishes and layout.
 
-You pay a premium for that. In a market where verification is the whole job and nothing protects you by default, that premium is usually money well spent.
+Those are real. The question is whether the discount compensates for the risk, and whether the discount is even real once you account for what the developer's projection omitted.
 
-## Where off-plan genuinely works
+## The projections
 
-An established developer with completed projects you can walk through, land and permits verified, payments following inspected progress, and a discount that actually compensates for the remaining risk.
+Off-plan in the USD 150,000 to USD 250,000 range is where the most aggressive yield projections in Bali live.
 
-That combination exists. It is rarer than the marketing suggests.
+A developer can build a two-bedroom unit in a complex for a cost that makes a USD 180,000 sale price very profitable, and the buyer at that level is usually buying their first Bali property with no local reference points.
+
+The quoted yield is almost always **gross**, before management at fifteen to twenty-five percent, maintenance, staff, utilities, licensing, platform commission, tax and realistic vacancy. Net is commonly half the headline, sometimes less.
+
+Check the projected nightly rate against what comparable finished units **on that street actually achieve**, from their availability calendars over six to eight weeks. Not against what the developer says the area achieves.
+
+## What to verify before paying anything
+
+**Is the PBG issued, or applied for?** If the answer is "in process", you are funding land acquisition and permitting, not construction. This is the single most important question.
+
+**Who holds the land, on what title, for how long?** If it is leasehold, what happens to your unit when the lease ends, and is the term long enough for your unit to be worth anything at resale?
+
+**What happens to your money if the build stops?** Ask for the actual mechanism, not reassurance. Escrow, a bank guarantee, a staged release against inspection — or nothing, which is the usual answer.
+
+**What has this developer finished?** Visit two or three completed projects, ideally a few years old so you can see how they have aged. Talk to owners who bought from them. This is the whole assessment and most buyers skip it.
+
+**Is the rental programme contractual or a brochure promise?** A projected return in a marketing deck is not an obligation.
+
+**What entity will operate the rentals, under what KBLI classification, and is that classification currently open?** Bali closed new foreign-owned villa and homestay registration on 22 July 2026.
+
+**What is the penalty for late delivery, and is it enforceable?**
+
+## How to structure payments if you proceed
+
+Tie every stage to a **verified construction milestone inspected by someone you appointed** — your own architect or surveyor — not to a calendar date and not to the developer's own certification.
+
+Keep as much as possible at the end. A payment schedule front-loaded toward the early stages transfers your risk to the developer's benefit.
+
+Retain five to ten percent past handover against defects.
+
+## Completed property
+
+Costs more and it exists. You can inspect the building, check the PBG and SLF against what stands there, see the finish quality, walk the street at different times, and verify the actual rental performance from real accounts rather than a projection.
+
+The risks are ordinary and checkable: remaining term, building condition, zoning, permits, licensing. Every one of them is discoverable in a fortnight.
+
+## Which I would choose
+
+For most first-time buyers in Bali, **completed**. The discount on off-plan does not compensate for construction and counterparty risk when you have no local reference points and no ability to supervise.
+
+Off-plan is defensible when the developer has a verifiable finished track record you inspected yourself, the PBG is issued, payments are tied to inspected milestones, and you can afford for it to go wrong.
+
+The third option, and frequently the best: **buy the land and build it yourself**. You capture the developer's margin, control the specification, start with a full term, and your money buys work you can inspect rather than a promise.
 
 ## Common questions
 
-### Is off-plan cheaper in Bali?
-The headline price is lower and payments are staged, but you are accepting construction, permit and counterparty risk in exchange.
+### Is off-plan property safe in Bali?
+There is no statutory deposit protection scheme in Indonesia, so if construction stops your money has no legal protection. It can work with a verified developer, an issued PBG and payments tied to inspected milestones.
 
-### What is the biggest risk buying off-plan in Bali?
-The developer failing to complete when the contracting entity is a project-only company with no other assets.
+### What discount should off-plan give in Bali?
+Typically ten to twenty-five percent against the equivalent finished property, which is the compensation being offered for construction and counterparty risk.
 
-### How do I protect myself buying off-plan?
-Verify the land title and PBG before any deposit, visit a completed project, and tie payments to milestones inspected by someone you appointed.
+### What should I check before buying off-plan in Bali?
+Whether the PBG is issued rather than applied for, who holds the land and for how long, what protects your money if the build stops, and what the developer has actually finished.
 
-### Should I buy a completed villa instead?
-For most buyers, yes. You can inspect the building, verify its permits and see real operating figures rather than a projection.
+### Are off-plan rental projections accurate in Bali?
+They are usually gross yields before management, maintenance, tax, licensing and vacancy, and net commonly lands at half the headline. Check the projected nightly rate against what comparable finished units actually achieve.
 
-### Are guaranteed rental returns safe?
-Only as far as the guarantor's balance sheet. Ask what the guaranteeing entity actually holds.
+### Is it better to buy off-plan or build yourself in Bali?
+Building yourself captures the developer's margin, gives you control of specification and a full term, and means your money buys work you can inspect. It requires time and supervision.
