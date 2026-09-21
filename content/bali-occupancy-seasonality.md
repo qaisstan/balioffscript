@@ -5,68 +5,92 @@ summary: Peak months fill themselves. The annual number is decided in the should
 category: rental
 order: 15
 risk: high
-regulation: Market observation. Occupancy varies by area, segment and listing maturity.
+regulation: Market observation, September 2026. Occupancy varies by area, property size, listing maturity and management quality.
 applies: Anyone modelling rental income
-verified: 2026-09-06
+verified: 2026-09-21
 ---
 
-Occupancy is the single most sensitive input in any Bali yield model, and the one most often borrowed from somebody else's property.
+Occupancy is the number that decides whether a Bali investment works, and it is the number most commonly overstated in the projection that justified the price.
 
-## The shape of the year
+## Realistic figures
 
-| Period | Demand |
-| --- | --- |
-| July to August | Peak. Rates and occupancy both highest |
-| December to early January | Strong, holiday driven |
-| April to June | Good shoulder, dry and pleasant |
-| September to October | Good shoulder |
-| November, February, March | Weakest. Wet season, thin demand |
+**Seventy to eighty percent** for a well-run, well-located one to three bedroom villa in a strong area with competent management and good photography.
 
-The peak fills itself. Anyone can sell July. The annual figure is decided by what happens in February, and that is precisely the month sales material does not discuss.
+**Sixty to seventy percent** for larger properties of four bedrooms and above, which serve a lumpier, more seasonal demand pool.
 
-## The new listing problem
+**Fifty to sixty percent** for an average property, a weaker location, or mediocre management.
 
-A brand new listing does not achieve area-average occupancy. It has no reviews, no ranking, and no repeat guests. Platforms surface established listings ahead of new ones.
+**Below fifty percent** for a new listing in its first six months, for a property with poor photography, or for one in an area without year-round demand.
 
-Expect a materially weaker first year while reviews accumulate. Owners who modelled year one at stabilised occupancy are the ones who run out of working capital in month eight.
+A projection quoting eighty-five percent or more is describing an exceptional property or, far more often, using an aspirational number to make the yield arithmetic work.
 
-## What drives it beyond season
+## The four seasons
 
-**Differentiation.** In a corridor with two hundred near-identical three-bedroom pool villas, the ones that fill are the ones that are not identical. A view, a size the market is not building, a genuinely distinct design.
+**Peak.** July, August, and roughly 20 December to 5 January. Demand exceeds supply. A decent property fills at almost any price, minimum stays extend to three to five nights, and you should be near capacity.
 
-**Photography.** Guests book from images. Professional photography is among the highest-return spend on the whole property.
+**High.** May, June, September, early October. Strong demand, occupancy in the eighties for a well-run property.
 
-**Reviews.** Ranking follows them, bookings follow ranking, and the first ten matter disproportionately.
+**Base.** March, April, mid-October, November.
 
-**Location within the area.** Walkability to a beach or a cafe strip beats being 400 metres further out by more than the price difference suggests.
+**Low.** Late January and February, the rainy season trough. This is where the year is won or lost.
 
-**Price discipline.** Discounting to fill February trains the algorithm and your returning guests to expect that rate.
+## The months that actually decide the year
 
-## How to model it honestly
+Owners focus on peak. Peak takes care of itself.
 
-Take the area's stabilised occupancy, month by month rather than annually. Reduce year one substantially. Apply your realistic rate by month rather than a blended annual figure.
+The annual number is set in **February, March, November and early December**. These are the months where a well-priced, well-marketed property runs at sixty-five percent and an averagely-run one runs at thirty-five.
 
-Then calculate break-even occupancy: annual fixed costs divided by net contribution per booked night. If break-even is close to your projection, the property has no margin for a bad year, and bad years happen.
+That thirty-point gap across four months is roughly ten points of annual occupancy, which on a USD 70,000 gross is USD 7,000 — more than most owners' entire management fee.
 
-## What to ask a seller
+The lever is long stays, monthly rates and the nomad market, which is why areas with walkable working infrastructure hold up through the trough and areas without it do not.
 
-Twelve consecutive months of actual operating statements from the property itself, or from a genuinely comparable one. Not an average, not a projection, not a screenshot of a good month.
+## How area changes the shape
 
-If nobody will produce one, that is the information.
+**Canggu and Pererenan** have the broadest guest mix and therefore the steadiest year. Nomads fill the quiet months while holidaymakers fill the peaks.
+
+**The Bukit** is surf-driven, so the season follows swell rather than school holidays. Higher peaks, deeper troughs, and weeks that fill when Canggu's do not. Underwriting a Bukit property with Canggu comparables gets both the level and the timing wrong.
+
+**Seminyak** has an older, shorter-stay guest and a shallower February trough, competing against substantial hotel supply.
+
+**Ubud** runs on wellness and retreat demand booked through programmes as much as platforms, with a strong May-to-September European season and longer average stays.
+
+**Sanur and Nusa Dua** have the steadiest year-round occupancy on the island at lower peak rates.
+
+**Emerging corridors** — Seseh, Kedungu, the west coast — have real but thinner demand and much deeper troughs, because there is no resident or nomad base.
+
+## Listing maturity
+
+A new listing does not perform like an established one.
+
+Platform ranking rewards booking history and review volume. A villa with two reviews sits below a comparable villa with a hundred and forty, regardless of quality.
+
+Expect six to twelve months to reach a property's sustainable occupancy. Model year one at a discount to your steady-state assumption, because the alternative is a first year that looks like a failure when it is actually normal.
+
+## Where to get real numbers
+
+Not from a projection, and not from listed rates.
+
+Watch four or five comparable villas' **availability calendars over six to eight weeks** and record which dates fill and at what price. That is the only reliable source available to you and it is genuinely predictive.
+
+Do it for properties on the same street, with the same bedroom count, in the same price band. Area averages are not useful at this level of decision.
+
+## What moves your occupancy
+
+Photography, which is the cheapest fix and the one most rarely redone. Pricing across four seasons rather than one annual rate. Response time to enquiries. Review scores, which slide quietly as maintenance is deferred. Minimum stay settings tuned by season. And direct booking to returning guests, which in surf areas and Ubud is a larger share of the market than owners assume.
 
 ## Common questions
 
-### What is average villa occupancy in Bali?
-It varies enormously by area, segment and listing maturity, and averages hide that the top listings take a disproportionate share of bookings. Model month by month rather than using an annual average.
+### What occupancy is realistic for a Bali villa?
+Seventy to eighty percent for a well-run smaller property in a strong area, sixty to seventy for larger villas, and fifty to sixty for an average property or weaker location.
 
-### When is high season in Bali?
-July and August, with a second peak over the December and New Year holidays.
+### When is Bali's low season?
+Late January and February are the rainy season trough, with rates fifteen to twenty-five percent below base. February, March and November are where the annual number is decided.
 
-### What is the worst month for Bali rentals?
-February and the surrounding wet season months are typically weakest, along with November.
+### Which months are peak in Bali?
+July, August, and roughly 20 December to 5 January, when rates run forty to seventy percent above base and a decent property fills at almost any price.
 
-### How long before a new Bali villa listing performs?
-Expect a materially weaker first year while reviews and ranking build. Model year one well below stabilised occupancy.
+### How long until a new Bali listing performs?
+Six to twelve months to reach sustainable occupancy, because platform ranking rewards booking history and review volume. Model year one at a discount.
 
-### What occupancy do I need to break even?
-Divide annual fixed costs by the net revenue a booked night produces after commission and cleaning. That number, not the projected yield, tells you how much room for error you have.
+### How do I find real occupancy data for Bali?
+Watch four or five comparable villas' availability calendars over six to eight weeks and record which dates fill at what price. Listed rates and projections are not evidence.

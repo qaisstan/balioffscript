@@ -5,60 +5,80 @@ summary: In the standard three-bedroom pool villa segment, yes. That is a yield 
 category: rental
 order: 26
 risk: high
-regulation: Market figures. Verify current pricing directly.
+regulation: Market observation, September 2026. Verify current occupancy and rate data against comparable properties directly.
 applies: Anyone buying into the west coast corridor
-verified: 2026-09-15
+verified: 2026-09-21
 ---
 
-The question gets answered badly in both directions. Here is what the supply situation actually is.
+The honest answer is that Canggu is oversupplied with a particular kind of villa and not oversupplied with good ones. That distinction is the whole subject.
 
-## What happened
+## What has happened
 
-Between roughly 2021 and 2026 an enormous volume of villa construction landed in the Canggu and Pererenan corridor. Pererenan was rice fields in 2019.
+A very large volume of villa stock has been added across Canggu — Berawa, Batu Bolong, Echo Beach, and north into Pererenan — over roughly four years.
 
-Guest nights grew. Available villa nights grew faster.
+Much of it is similar: two and three bedroom units, similar layouts, similar finishes, similar pools, built to a similar specification by developers targeting the same buyer with the same yield projection.
 
-## Where the oversupply actually is
+The result is a market where a guest searching for a three-bedroom villa with a pool in Canggu has hundreds of near-identical options, and chooses on price, photographs and reviews.
 
-**The standard three-bedroom pool villa.** Open plan living, black and wood finish, rice field or garden outlook, priced in the same band. When two hundred functionally identical properties list in one corridor, they compete on price because nothing separates them.
+## What the evidence actually shows
 
-That is the segment under pressure, and it is most of what is being built and sold.
+**Occupancy in Berawa and Batu Bolong remains strong.** The demand has grown too — nomads, Australians, Europeans, surf travellers and families — and Canggu's guest mix is the broadest in Bali, which is why its occupancy is the steadiest.
 
-## Where it is not
+**But the average has diverged from the top.** Five years ago a decent villa in a good Canggu street filled itself. Now a decent villa competes with fifty similar ones, and the ones that fill are the ones with better photography, sharper pricing, faster response times and higher review scores.
 
-Differentiated property. An unrepeatable outlook, a plot size the market is not building, a walkable position, a four or five bedroom layout in a market saturated with threes.
+The gap between a well-run property and an averagely-run one in the same street has widened substantially. That is what oversupply looks like in practice: not empty villas everywhere, but a market where being adequate is no longer enough.
 
-Those fill. The pressure is on sameness, not on Canggu.
+## What is genuinely scarce
 
-## Yield first, value later
+**Walkable positions.** Batu Bolong's strip is short and built out. A villa a guest can leave on foot to reach breakfast, the beach and dinner has no meaningful competition.
 
-Oversupply shows up as softer nightly rates and higher vacancy. That compresses yield immediately.
+**Large, well-designed properties.** Most of the new stock is two and three bedrooms on small plots. Four and five bedroom villas with proper pools and gardens are much thinner on the ground.
 
-It moves property values only for properties whose price was set by yield in the first place, which is exactly the generic segment. Well-zoned land in the corridor has held, because land scarcity and building oversupply are different facts.
+**Anything with a genuine view.** Rice field or ocean, protected.
 
-## What it means for a buyer
+**Long lease terms in prime positions.** These barely trade.
 
-- Do not pay a premium for the generic product at prices set when it was scarce
-- Underwrite occupancy month by month and reduce year one hard
-- Calculate break-even occupancy and check how much room for error it leaves
-- Favour properties that are not one of hundreds
-- Remember Canggu still has the deepest rental demand and the only reliable resale market on the island
+**Properties with the licensing actually in order**, which is an increasingly commercial distinction rather than just a legal one.
 
-That last point is why "Canggu is finished" is wrong. Liquidity is worth real money, and it exists here in a way it does not in Tabanan.
+## What this means for a buyer
+
+**Do not buy the generic product.** A standard three-bedroom in a complex of similar units, bought on a projection, is exactly what the market has too much of.
+
+**Buy what is scarce**, or build it. Walkability, view, plot size, design, term.
+
+**Underwrite on street-level comparables**, from availability calendars over six to eight weeks, not on what the area achieves. The spread within a single street is now wider than the spread between areas.
+
+**Assume management determines the outcome.** In an oversupplied segment, operational quality is the whole difference, and a manager who quietly drifts costs you twenty percentage points of occupancy over two years.
+
+## What it means for an owner
+
+Your competition got better and more numerous. Three things respond to that.
+
+**Photography**, which is the cheapest and highest-return fix available and is the thing most owners have never redone since listing.
+
+**Pricing across four seasons**, not one annual rate. The annual number is decided in February, March and November, not August.
+
+**Review scores**, which drive ranking and rate, and which slide quietly when maintenance is deferred.
+
+## Where the corridor is going
+
+The development wave has moved north — Pererenan, Cemagi, Seseh, and into Tabanan — because that is where land is available and cheaper.
+
+That relieves some pressure on Canggu and creates the same dynamic one corridor up in a few years. It also means buyers optimising for return at mid-range budgets are increasingly better served north of Canggu, where the same money buys ten more years of term.
 
 ## Common questions
 
-### Is Canggu a bad investment now?
-No, but the generic three-bedroom pool villa in Canggu at 2022 pricing is. The area still has the deepest demand and the best resale market.
+### Is Canggu oversupplied with villas?
+It is oversupplied with generic two and three bedroom villas, and not oversupplied with walkable, large, well-designed or view properties. Occupancy overall remains strong.
 
-### Are Canggu villa prices falling?
-Rates and occupancy in the oversupplied segment have softened. Well-zoned land has held. Those are different numbers.
+### Is Canggu still a good place to invest?
+For a property that is scarce in some respect — walkability, view, size, design, a long term — yes. For a standard unit bought on a projection, it is the most competitive segment in Bali.
 
-### Should I buy in Pererenan instead?
-It has the same oversupply dynamic one stage earlier, with more land and lower prices. The trade is thinner current demand.
+### What occupancy should I expect in Canggu?
+Seventy to eighty percent for a well-run smaller property, sixty to seventy for larger ones, and fifty to sixty for an average property with average management.
 
-### How do I avoid the oversupplied segment?
-Buy something that cannot be replicated a kilometre inland: an outlook, a plot size, or a walkable position.
+### Why do some Canggu villas struggle?
+Because being adequate no longer differentiates. Photography, pricing discipline, response times and review scores now separate the properties that fill from the ones that do not.
 
-### Does oversupply affect land value in Bali?
-Less than it affects yield. Land scarcity and building oversupply are separate facts and should be modelled separately.
+### Should I buy in Canggu or further north?
+At mid-range budgets, further north usually. The same money buys around ten more years of lease term, which outweighs the occupancy premium.

@@ -5,68 +5,82 @@ summary: Land in well-zoned coastal locations is holding. The standardised villa
 category: rental
 order: 12
 risk: high
-regulation: Market observation. Regulatory positions as at BPS 7/2025, Bali PMA closure 22 July 2026, Perda Bali 4/2026.
+regulation: Market observation, September 2026. Regulatory positions: BPS 7/2025 (KBLI 2025); Bali PMA villa/homestay closure 22 July 2026; Perda Bali 4/2026.
 applies: Anyone deciding whether to buy now
-verified: 2026-09-06
+verified: 2026-09-21
 ---
 
-There are two markets here behaving differently, and most commentary confuses them.
+The short version: land in well-zoned coastal locations is holding and rising. The standardised villa rental business built on top of it is where the pressure actually is. Those two things are frequently confused.
 
-## Land versus the business on it
+## Land
 
-**Land** in tourism-zoned coastal locations is genuinely scarce. It cannot be manufactured, and it came through a complete tourism shutdown in 2020 and 2021 with prime locations intact. That scarcity is real and it supports price.
+Prices in the developed corridors have continued to rise, and the reasons are structural rather than sentiment.
 
-**The nightly rental villa business** depends on guest nights, achievable rates, licensing and competition. All four have moved against new entrants.
+Supply of land that a foreign buyer wants — coastal or with a view, correctly zoned, serviced, near amenity — is genuinely fixed. The **fifteen metre height limit** prevents vertical expansion. **KDB** coverage caps limit what can be built on a plot. Extensive green and agricultural zoning removes large areas from the buildable set.
 
-Calling the whole island overheated misses that the stress is concentrated in the second market.
+The development wave has responded geographically rather than by intensifying: Seminyak filled, then Canggu, then Pererenan, now Cemagi, Seseh, Kedungu and into Tabanan. That pattern has held for two decades and shows no sign of stopping.
 
-## What is actually happening to supply
+So the scarcity story is real. The complication is that most foreigners hold leaseholds, and **a leasehold does not capture land appreciation**. You hold a shrinking number of years. Land appreciation is the landowner's return, and marketing that uses land scarcity to justify the price of a lease is describing someone else's asset.
 
-Construction of the standard three-bedroom pool villa has run ahead of guest night growth in the main corridors. Pererenan and Cemagi in particular were rice fields in 2019 and are now dense with near-identical product.
+## The villa rental business
 
-When two hundred functionally identical villas list in the same window, they compete on price, because nothing else separates them. That shows up first as softer nightly rates and higher vacancy, which is a yield problem before it is a valuation problem.
+This is where the actual pressure sits.
 
-Differentiated property still performs. Generic property increasingly does not.
+Canggu has absorbed a very large volume of new villa stock over four years. A mediocre villa no longer fills itself on location alone, and the gap between well-run and averagely-run properties in the same street has widened substantially.
 
-## The regulatory variable
+What that means practically: management, pricing discipline, photography and review scores now determine outcomes to a degree they did not five years ago. The area still performs. The average property in it performs less well than the area's reputation implies.
 
-In roughly one year: 18 business classifications closed to new foreign-owned registration, facilitating nominee land arrangements criminalised, KBLI renumbered with a migration deadline, and a dedicated immigration task force deployed that detained 62 foreign nationals in its first three weeks.
+Projections built on area-level comparables rather than what the specific street actually achieves are the most common error being made right now.
 
-Regulation moves faster here than the market cycle does, and it can strand a business model in a quarter. Anyone underwriting Bali purely on historical appreciation is watching the wrong variable.
+## Regulation, which moved materially
 
-## The 2021 stress test
+**Bali closed new foreign-owned villa and homestay registration to PMA companies with effect from 22 July 2026.** This is the single most consequential change for foreign investors in this market, and it invalidated a lot of plans overnight. Anyone structuring a PT PMA to operate short-let accommodation has to confirm the classification is currently available before the structure means anything.
 
-The useful precedent already happened. Tourism stopped, income stopped, and a genuine distressed window opened where leaseholds and operating villas traded well below prior pricing.
+**Perda Bali 4/2026** prohibits facilitating nominee arrangements, adding regulatory exposure to a structure that was already void in law.
 
-Prime land came through it. Overleveraged operators did not. That is a fairly precise map of where the risk sits.
+**KBLI 2025 (BPS 7/2025)** reclassified business activities, which matters for what any company may lawfully do.
 
-## What this means practically
+**Coretax** has tightened tax administration materially, with strict data matching that rejects rather than queries.
 
-- Buy land on verified fundamentals: zoning, access, title, remaining term
-- Treat rental income as a licensed business with real costs and real competition
-- Do not pay a price that only works if the last three years repeat
-- Assume the regulatory environment continues tightening rather than loosening
-- Favour properties that are not one of two hundred identical listings
+The direction across all four is one way. Anyone planning on the basis that enforcement stays light is planning against the trend.
 
-## Where the opportunity is
+## Demand
 
-Areas ahead of demand rather than at the peak of it, bought at prices that reflect that. Properties with something unrepeatable: a view, a plot size, a location that cannot be replicated a kilometre inland.
+Tourism volumes have been strong, and Bali's guest mix remains broad — Australian families and groups, European long-stayers, Asian regional short-breaks, digital nomads and surf travellers.
 
-And, unglamorously, properly licensed properties bought from owners who cannot demonstrate the licence and therefore cannot defend the price.
+The nomad population is a genuine structural feature now, not a phase, and it is what keeps Canggu and Pererenan occupancy stable through the months that would otherwise be quiet.
+
+The dependency worth watching is **flight capacity**. Bali's demand is a function of seats, and seat capacity is outside any owner's control.
+
+## What this means for a buyer
+
+**Term beats postcode under about USD 300,000.** Ten extra years of lease in Pererenan will out-earn a higher rate on a fifteen-year remainder in Berawa. That has become more true as land prices in the prime corridors have risen.
+
+**Buy the operation, not the area.** The area's reputation is priced in. The gap between good and bad management is not.
+
+**Verify the licensing position specifically**, given the July 2026 change. Do not accept "it can be arranged".
+
+**Model a slow exit.** Above USD 750,000 the buyer pool is a dozen people and sales commonly take twelve to twenty-four months while a leasehold term runs down.
+
+## What I would not conclude
+
+That the market is in trouble. It is not. Land is scarce, demand is strong and the fundamentals hold.
+
+What has changed is that the easy version — buy anything in Canggu, let it, collect — has stopped working, and the market now rewards people who do the arithmetic and run the property properly.
 
 ## Common questions
 
-### Are Bali property prices going down in 2026?
-Land in scarce, well-zoned coastal locations has held. Nightly rates in oversupplied villa pockets have softened, which compresses yields before it moves prices.
+### Is the Bali property market slowing in 2026?
+Land in well-zoned coastal locations is holding and rising. The pressure is on the standardised villa rental business, where supply growth means a mediocre property no longer fills itself.
 
 ### Is Bali oversupplied with villas?
-In the standard three-bedroom pool villa segment in the main west coast corridors, supply has grown faster than demand. Differentiated properties are less affected.
+Canggu has absorbed a large volume of new stock, and the gap between well-run and averagely-run properties has widened substantially. Land scarcity and villa oversupply are both true simultaneously.
 
-### Is now a good time to buy in Bali?
-It is a good time to buy land you have verified at a price justified by fundamentals. It is a poor time to pay a premium for generic rental product priced on an optimistic projection.
+### What regulation changed in Bali in 2026?
+Bali closed new foreign-owned villa and homestay registration to PMA companies on 22 July 2026, Perda Bali 4/2026 prohibits facilitating nominee arrangements, and Coretax tightened tax administration.
 
-### What is the biggest risk in Bali property right now?
-Regulatory change, then oversupply in the rental segment. A licensing change can strand a business model faster than any price cycle.
+### Does land scarcity help a leasehold buyer?
+Not directly. A leasehold is a shrinking number of years, not the land, so appreciation accrues to the landowner rather than to you.
 
-### Will Bali property keep appreciating?
-Scarce well-zoned land has a real supply argument behind it. The buildings on it depreciate, and the rental businesses they house face growing competition. Those are different questions and should be modelled separately.
+### What is the biggest risk in the Bali market right now?
+Underwriting to area-level comparables rather than what the specific street achieves, and assuming the licensing position can be arranged after purchase.
