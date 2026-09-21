@@ -5,76 +5,80 @@ summary: The same national rules apply, but the market is apartments, tenants ar
 category: compare
 order: 16
 risk: medium
-regulation: Basic Agrarian Law; Hak Pakai residency and minimum value conditions.
+regulation: Basic Agrarian Law; strata title (Hak Milik atas Satuan Rumah Susun) value thresholds for foreigners. Verify current thresholds directly.
 applies: Buyers considering Indonesia beyond Bali
-verified: 2026-09-13
+verified: 2026-09-21
 ---
 
-Almost every foreign buyer looking at Indonesia looks at Bali. Jakarta is the country's actual economy, and it works completely differently.
+Jakarta rarely appears on a foreign buyer's list, which is interesting given it is Indonesia's economic centre and subject to the same national ownership rules as Bali.
 
-## What a foreigner can hold
+## The rules are the same
 
-The same framework as everywhere in Indonesia. No Hak Milik. In practice, for Jakarta, that means **strata-titled apartments under Hak Pakai** for those who qualify on residency and minimum value, or property held through a PT PMA.
+Jakarta is in Indonesia, so the Basic Agrarian Law applies exactly as it does in Bali. **No Hak Milik for foreigners.** The routes are leasehold, **Hak Pakai** with residency, or **HGB** through a PT PMA.
 
-Apartments are the realistic instrument here. Landed housing is effectively a local market.
+What differs is the product. Jakarta's foreign-accessible stock is overwhelmingly **apartments**, held through strata title — *Hak Milik atas Satuan Rumah Susun* — which is available to foreigners above a minimum value threshold that varies by region and property type.
 
-## How it differs from Bali
+That makes Jakarta more comparable to Bangkok or Manila than to Bali. You are buying a unit in a tower, not a villa with land.
 
-| | Jakarta | Bali |
-| --- | --- | --- |
-| Stock | High-rise apartments | Villas and land |
-| Tenant | Corporate expatriates, professionals | Tourists, long-stay foreigners |
-| Demand driver | Employment and business | Tourism |
-| Seasonality | Minimal | Severe |
-| Yields | Moderate, steadier | Higher headline, more volatile |
-| Supply | Substantial oversupply in segments | Corridor-specific oversupply |
-| Liquidity | Deeper local buyer pool | Foreign buyer pool |
+## What the market looks like
 
-The critical difference: Jakarta has a **domestic** buyer and tenant market. Bali's depends on foreigners arriving.
+Jakarta apartment supply is **substantial**, and has been for years. Large numbers of units have been delivered into a market where the middle class predominantly prefers landed housing, which means condominium demand is narrower than the pipeline assumed.
 
-That makes Jakarta less exciting and less fragile.
+The consequence has been weak price growth in many submarkets and real competition for tenants. Gross yields are commonly quoted in the mid single digits and net is lower after service charges.
 
-## The honest assessment
+This is a long-term, tenant-driven, capital-growth-dependent market. It is not an income market in the way Bali is.
 
-Jakarta apartment oversupply has been a persistent feature in several segments, and yields reflect it. It is not a market that rewards buying the newest tower on a launch discount.
+## The capital city question
 
-What it does offer is corporate tenancy, no tourism seasonality, and an economy that exists independently of whether people want a holiday.
+Indonesia has been developing **Nusantara** in East Kalimantan as a new capital. The programme has faced funding and timeline pressure and its eventual scale remains uncertain.
 
-## Who should look at it
+For a Jakarta property buyer the relevant point is not whether Nusantara succeeds fully but that government function is intended to move, which affects demand in specific Jakarta submarkets that exist to serve it. That is a real uncertainty on a ten to twenty year view and it is not priced consistently.
 
-Anyone whose interest in Indonesia is economic rather than lifestyle, and who wants income that does not depend on a booking calendar.
+## Versus Bali
 
-Anyone who wants a villa, a pool and a life should not be looking at Jakarta at all, and mostly is not.
+**Product.** Jakarta gives you an apartment. Bali gives you a villa with land through a lease. Different asset classes.
 
-## Where foreigners actually buy
+**Demand driver.** Jakarta is domestic economic growth, urbanisation and corporate tenancy. Bali is international tourism. Neither is obviously safer; they are exposed to different things.
 
-**SCBD and Sudirman** hold the corporate towers and the highest-value apartments, with tenants from banking, energy and multinationals.
+**Yield.** Bali nets considerably more on a well-run villa.
 
-**Kuningan** covers the embassy district and much of the established expatriate rental market.
+**Use.** Very few foreign buyers want to spend time in Jakarta. Most Bali buyers use their property.
 
-**Menteng** is the old colonial residential quarter, largely landed housing and largely a local market.
+**Exit.** Jakarta's apartment market has volume but also heavy supply, which means selling at a good price into a market with competing new stock is harder than it sounds.
 
-**Kelapa Gading and Pantai Indah Kapuk** in the north are newer, cheaper and more domestic.
+**Traffic and liveability.** Jakarta is a very large, congested city with serious flooding and air quality issues. That is the honest picture and it affects both tenant demand and resale.
 
-## What the tenant market is
+## Who buys Jakarta
 
-Corporate lets, frequently through company housing budgets, on annual or multi-year terms. That is a fundamentally different relationship from a nightly guest: longer, more predictable, and negotiated by someone professional.
+Mostly Indonesians, and foreign buyers with a business reason to be there — expatriate executives, companies housing staff, and investors taking a long domestic growth position.
 
-It also means demand tracks the Indonesian economy and foreign corporate presence rather than tourism, which is the entire argument for looking at Jakarta at all.
+It is a legitimate market with real fundamentals. It is simply not competing for the buyer who is looking at Bali, and the two are rarely genuine alternatives.
+
+## What to check
+
+The strata title value threshold for foreign ownership, which varies and should be confirmed currently.
+
+The building's management, sinking fund and service charge history, which determine what the unit is worth in a decade more than the finish does.
+
+Supply in the specific submarket, which is the dominant risk.
+
+Developer track record, since a large share of transactions are off-plan.
+
+Flooding history for the specific location, which in parts of Jakarta is material.
 
 ## Common questions
 
-### Can foreigners buy an apartment in Jakarta?
-Yes, strata-titled apartments under Hak Pakai subject to residency and minimum value requirements, or through a PT PMA.
+### Can foreigners buy property in Jakarta?
+Under the same national rules as anywhere in Indonesia: no Hak Milik, but strata title over an apartment above a minimum value threshold, Hak Pakai with residency, or HGB through a PT PMA.
 
-### Is Jakarta property a good investment?
-It offers steadier corporate demand and no tourism seasonality, against persistent oversupply in some apartment segments. It is an income play, not a growth story.
+### Are Jakarta apartment yields good?
+Gross yields are commonly mid single digits with lower net after service charges, and substantial supply in several submarkets has weighed on both rents and prices.
 
-### Can foreigners buy a house in Jakarta?
-Landed housing is effectively closed in practice. Apartments are the realistic route.
+### Is Jakarta or Bali better for property investment?
+They are different asset classes serving different buyers. Bali produces higher net income from a usable villa; Jakarta is a long-term domestic growth position in an apartment.
 
-### Is Jakarta or Bali better for investment?
-Jakarta for stability and domestic demand. Bali for yield and lifestyle, with more volatility and a foreign-dependent market.
+### Does the new capital affect Jakarta property?
+Government function is intended to move to Nusantara, which affects demand in submarkets that exist to serve it. The programme's eventual scale remains uncertain.
 
-### Do you need residency to buy in Jakarta?
-For Hak Pakai in your own name, yes. A PT PMA route does not require personal residency.
+### What is the main risk buying in Jakarta?
+Supply. Large volumes of condominium stock have been delivered into a market where the domestic middle class largely prefers landed housing.

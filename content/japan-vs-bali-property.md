@@ -5,56 +5,86 @@ summary: Japan lets any foreigner own land outright with no restriction. Bali le
 category: compare
 order: 09
 risk: medium
-regulation: Rules change in every country named. Verify against the current official source before acting.
+regulation: Japanese property law permits foreign freehold without residency. Tax and acquisition rules change; verify against the current official source.
 applies: Anyone comparing markets before buying
-verified: 2026-09-13
+verified: 2026-09-21
 ---
 
-Japan is the cleanest counter-example to everything people assume about Asian property.
+Japan is the most open major property market in Asia for foreigners, and comparing it to Bali is instructive precisely because the two are opposites.
 
-## Japan has no nationality restriction
+## What Japan permits
 
-A foreigner can buy land and buildings in Japan outright, freehold, registered in their own name, with no residency requirement, no quota and no minimum value. You do not even need a visa to buy.
+**Full freehold ownership of land and buildings, by anyone, regardless of nationality or residency.** No quota, no minimum value, no approval, no company structure required. You can buy a house in Japan on a tourist visa and own it outright forever.
 
-That is a stronger position than Thailand, the Philippines, Vietnam, Malaysia or Indonesia offer.
+There is no equivalent anywhere in Southeast Asia. It makes Japan structurally the strongest ownership position available to a foreign buyer in the region by a very large margin.
 
-## So why is the money not all going there?
+## Why the rules are that open
 
-**Buildings depreciate to almost nothing.** Japanese houses are widely treated as wasting assets with a functional life measured in decades. Value sits in the land, and outside the major cities land has been flat or falling for a generation.
+Japan has a shrinking, ageing population and an enormous stock of housing. The *akiya* problem — millions of abandoned homes, concentrated in rural areas — is a genuine policy concern.
 
-**Demographics.** A shrinking, ageing population means fewer households, and a well-documented stock of abandoned homes.
+A country with too much housing and too few people has no reason to restrict foreign buyers. A country with scarce land, a growing tourism economy and strong cultural attachment to land, which describes Indonesia, has every reason to.
 
-**Rental yields outside the big cities are thin**, and tourism-driven short-term letting faces its own licensing regime.
+That asymmetry explains the entire difference and it is not going to reverse.
 
-**Operating a property remotely is hard** without language and local management.
+## What that means for the asset
 
-So you get perfect title on an asset that may not appreciate and may not pay much.
+**Japanese buildings depreciate.** Wooden houses are commonly treated as having a useful life of around twenty-two years for tax purposes, and market behaviour broadly follows. Outside central Tokyo, Osaka and a few other markets, a house is a depreciating asset sitting on land that may or may not appreciate.
 
-## What Bali offers instead
+This is the opposite of the Anglo-Australian instinct that a house appreciates. In much of Japan it does not, and the land is where any value sits.
 
-No ownership, a 30-year term, and a verification burden that falls entirely on you. Against that: tourism demand that recovered past pre-pandemic levels, build costs of USD 600 to 1,500 per square metre, low operating costs, and genuinely scarce well-zoned coastal land.
+**Bali is the reverse.** The land appreciates strongly and you cannot own it. The building depreciates and you can, for a term.
 
-The trade is legal certainty for cash flow.
+## Yield
 
-## The lesson
+**Japan.** Gross yields in central Tokyo are low, commonly in the low single digits. Regional cities and older stock offer higher gross yields, sometimes considerably higher, with correspondingly higher vacancy risk, depreciation and management difficulty.
 
-Ownership rights are one variable and people treat them as the only one. Japan proves that perfect title on a depreciating asset in a shrinking market is not automatically better than a limited right on a scarce one with real demand.
+Niseko and a few resort markets behave differently, with genuine international demand and short-let economics closer to Bali's.
 
-That does not make Bali safe. It means the question is not "can I own it" but "what will this be worth, and who can buy it from me, in year twenty-five."
+**Bali.** Seven to nine percent net on a well-run villa, eleven to fourteen on a strong one, with a much heavier operating burden.
+
+Bali wins on income. Japan wins on certainty of tenure.
+
+## Costs and friction
+
+Japan has meaningful acquisition costs — acquisition tax, registration tax, stamp duty and agency fees — plus annual fixed asset tax and city planning tax. Total acquisition friction is commonly quoted around six to eight percent.
+
+Bali's titled transfer friction is roughly seven percent including BPHTB, and a leasehold avoids the BPHTB element entirely.
+
+Broadly comparable. Neither is cheap.
+
+## Management
+
+Japan is easier. Professional property management is mature, standardised and reliable. Systems work. Contractors turn up.
+
+Bali requires active involvement, a manager you trust and a quarterly review, and the gap between good and bad management is enormous.
+
+## Residency
+
+Owning property in Japan confers no residency rights at all. There is no property-linked visa.
+
+Indonesia has second home and golden visa routes, newer and with administrative practice still settling, but they exist.
+
+## Which suits which buyer
+
+**Japan** if you want permanent, registered, unrestricted ownership in a stable legal system with reliable management, and you accept low yields and a depreciating building.
+
+**Bali** if you want income and use from a property in a place you want to be, and you accept a term rather than a title.
+
+The clearest way to put it: Japan sells you certainty and Bali sells you yield. Very few buyers want both enough to split the difference, and the ones who try usually end up with neither.
 
 ## Common questions
 
 ### Can foreigners buy property in Japan?
-Yes, freehold land and buildings, with no nationality restriction, no quota and no residency requirement.
+Yes, full freehold ownership of land and buildings, with no restriction on nationality or residency, no quota and no minimum value.
 
-### Does buying property in Japan give residency?
-No. Property ownership and immigration status are entirely separate there, unlike several investor-visa markets.
+### Do you need a visa to buy property in Japan?
+No. You can purchase on a tourist visa, and owning property confers no residency rights in return.
 
-### Why do Japanese houses lose value?
-Buildings are treated as depreciating assets with a limited functional life, so value concentrates in land. Outside major cities that land has been flat or declining.
+### Why is Japan so open to foreign buyers?
+A shrinking population and an enormous surplus housing stock, including millions of abandoned homes, give Japan no reason to restrict foreign purchase.
 
-### Is Japan or Bali better for property investment?
-Japan for title security. Bali for yield and demand. If you want a secure asset, Japan. If you want income, Bali, provided you verify everything.
+### Are Japanese property yields good?
+Central Tokyo yields are low, in the low single digits. Regional cities and older stock offer more, with higher vacancy and depreciation risk. Bali nets considerably more.
 
-### Where else in Asia can foreigners own land?
-Malaysia, with state approval and minimum values. Almost everywhere else in Southeast Asia reserves land for nationals.
+### Does a house in Japan appreciate?
+Generally not. Buildings are treated as depreciating, with wooden houses commonly assigned around a twenty-two year useful life, and value sits in the land.

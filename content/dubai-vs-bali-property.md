@@ -5,65 +5,86 @@ summary: Dubai gives you freehold and no income tax. Bali gives you 30 years and
 category: compare
 order: 05
 risk: medium
-regulation: Tax and residency rules change. Verify against the current official source and take advice in both countries.
+regulation: Tax and residency rules change in both jurisdictions. Verify against the current official source and take advice in both countries.
 applies: Investors weighing the two most-compared markets
-verified: 2026-09-13
+verified: 2026-09-21
 ---
 
-These two get compared constantly because they attract the same money for opposite reasons.
+These are the two markets foreign capital compares most often, and the comparison is genuinely close once you strip out the marketing on both sides.
 
-## The core difference
+## What you actually own
 
-| | Dubai | Bali |
-| --- | --- | --- |
-| Foreign ownership | Freehold in designated areas | None. Lease, Hak Pakai or HGB |
-| Term | Perpetual | 30 years, extendable |
-| Personal income tax | None | Applies to Indonesian-source income |
-| Residency | Tied to property value | Several routes, property not required |
-| Rental demand | Corporate, long-stay, tourism | Tourism, heavily seasonal |
-| Build cost | High | USD 600 to 1,500 per m2 |
-| Cost of living | High | Low |
-| Market maturity | Deep, regulated, transparent | Thin, informal, harder to verify |
+**Dubai.** Freehold, in designated areas, registered in your own name at the Dubai Land Department, with a title deed. This is real ownership with no term attached, available to any foreign national. Structurally it is the strongest position of the two by a wide margin.
+
+**Bali.** No freehold for foreigners under any structure. Leasehold, Hak Pakai with residency, or HGB through a PT PMA. A leasehold is a contract, not a registered right, with a term that runs down.
+
+If ownership security is the only criterion, this is not a close comparison. Dubai wins outright.
 
 ## What $300,000 buys
 
-In Dubai, a modest apartment in a good area, held freehold, in a regulated market with a functioning land registry, real financing and real comparables.
+**Dubai.** A one or two bedroom apartment in a decent building in an established community — Dubai Marina, JVC, Business Bay, depending on the specification. Freehold, registered, with a service charge and a building committee.
 
-In Bali, a villa on leased land with a pool, in a market where you must verify everything yourself and where the same money buys considerably more physical space and lifestyle.
+**Bali.** A three or four bedroom villa with a private pool on a twenty-five to thirty year lease in Pererenan, Umalas, Kerobokan or the Bukit. Standalone, no service charge, no committee, and you control everything.
 
-One is an asset. The other is a business with a house attached.
+Very different products for the same money. One is a unit you own forever; the other is a house you control for a defined period.
 
-## The honest case for Dubai
+## Yield
 
-Better title, better regulation, better financing, better liquidity, no income tax, and a government that has spent decades deliberately courting exactly this capital. If your priority is a secure, transferable asset, Dubai wins on every structural measure.
+**Dubai** gross yields on residential are commonly quoted in the mid to high single digits, with net lower after service charges, which are substantial and rise. Short-let in Dubai is a real market with strong seasonality inverted from Bali's — winter is peak.
 
-## The honest case for Bali
+**Bali** gross yields run higher and net lands around seven to nine percent on a well-run villa, eleven to fourteen on a strong one with excellent management. The operating burden is considerably heavier: staff, pool, garden, guest management, licensing.
 
-Far lower entry and operating costs, genuinely scarce well-zoned coastal land, tourism demand that recovered past pre-pandemic levels, and a life a lot of people actively want rather than tolerate.
+Bali generally wins on net yield. Dubai wins on effort per dollar returned.
 
-Also: yields on a well-bought, properly licensed villa can exceed Dubai's, because the cost base is so much lower.
+## Tax
 
-## What decides it
+**Dubai.** No personal income tax and no tax on rental income for individuals. A transfer fee applies on purchase. Corporate tax exists for businesses above a threshold but does not reach individual residential rental in the ordinary case.
 
-**Do you want to be there?** Dubai is a financial decision that happens to involve a building. Bali is usually a life decision that happens to involve an asset. People who get this backwards are unhappy in both.
+**Bali.** Rental income taxed at ten percent final for a resident individual and twenty percent for a non-resident, plus a regional accommodation tax the platforms do not collect for you. Disposal attracts a final tax of 2.5 percent of transfer value.
 
-**How long is the hold?** A 30-year lease with a weak extension clause is a wasting asset. Freehold is not. Over a twenty-five year horizon that gap is the whole argument.
+Dubai wins on tax, clearly. What neither eliminates is your home country's position: if you are tax resident in Australia, the UK or most of Europe, worldwide income rules apply regardless of where the property sits.
 
-**Can you tolerate verification risk?** Dubai's registry answers most questions. In Bali you appoint your own notary and check everything, because nobody else will.
+## Liquidity and exit
+
+**Dubai** is a deep, transparent, high-volume market with published transaction data, professional agency and real comparables. Property sells, and you can find out what things are worth.
+
+**Bali** has no transaction register, no valuation profession, and a thin buyer pool above USD 750,000 where sales commonly take twelve to twenty-four months. On a leasehold the term runs down while it sits.
+
+Dubai wins on liquidity by a large margin, and this is underrated by buyers focused on entry price.
+
+## Supply
+
+**Dubai** builds. Supply pipelines are enormous and the market has historically run in cycles with meaningful drawdowns. Your unit competes with thousands of near-identical units, and a new tower opens down the road.
+
+**Bali** has fixed land, a building height limit of around fifteen metres, KDB coverage caps and real zoning constraints. Coastal land cannot be manufactured. That scarcity is genuine and it is Bali's strongest structural argument.
+
+## Residency
+
+**Dubai** has clear, well-established property-linked visa routes at defined investment thresholds, widely used and predictable.
+
+**Bali** has second home and golden visa routes that are newer, with administrative practice still settling, and they are not straightforwardly property-linked in the same way.
+
+## Which one
+
+**For a passive, registered, liquid asset with no tax and minimal effort:** Dubai. It is the better investment product and it is not close.
+
+**For a property you will use, that produces higher net income, in a place you want to spend time, with genuine land scarcity behind it:** Bali.
+
+The buyers who do best in Bali are not choosing it over Dubai as a pure investment. They are choosing a usable asset in a place they like that also earns. Framed that way it is a good decision. Framed as a pure yield play against Dubai, it is harder to defend.
 
 ## Common questions
 
 ### Is Dubai or Bali better for property investment?
-Dubai for title security, regulation and liquidity. Bali for entry cost, operating cost and rental yield on a well-bought property. They suit different objectives.
+Dubai for registered freehold, liquidity and no income tax. Bali for higher net yield, genuine land scarcity and a property you will actually use.
 
 ### Can foreigners own freehold in Dubai?
-Yes, in designated freehold areas, with perpetual ownership registered in your name. Indonesia offers no equivalent.
+Yes, in designated freehold areas, registered in your own name at the Dubai Land Department with a title deed and no term attached.
 
-### Is Dubai tax free for property investors?
-There is no personal income tax on rental income, though fees and corporate tax rules can apply depending on structure. Indonesia taxes rental income as local-source income.
+### Are yields higher in Dubai or Bali?
+Net yields are generally higher in Bali on a well-run villa, at seven to fourteen percent, but with a far heavier operating burden than a Dubai apartment.
 
-### Why do people still buy in Bali if they cannot own?
-Lower cost base, stronger tourism-driven yields, scarce coastal land and lifestyle. They are trading legal certainty for cash flow and a place they want to be.
+### Is there tax on rental income in Dubai?
+There is no personal income tax on individual rental income in Dubai. Your home country's worldwide income rules may still apply.
 
-### Which has better rental yields?
-Headline yields in Bali are often higher because costs are lower, but they are frequently quoted gross and sometimes on unlicensed operations. Compare net, after licensing, management and vacancy.
+### Which is easier to sell, Dubai or Bali property?
+Dubai, substantially. It has published transaction data, professional agency and deep volume. Bali has no transaction register and sales above USD 750,000 commonly take twelve to twenty-four months.

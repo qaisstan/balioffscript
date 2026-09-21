@@ -5,61 +5,90 @@ summary: Spectacular, genuinely early, and separated from Bali by a decade of in
 category: compare
 order: 17
 risk: high
-regulation: National rules apply identically; verify zoning and title locally with a notary you appointed.
+regulation: East Nusa Tenggara spatial planning; Komodo National Park regulation affects Labuan Bajo. Verify the specific parcel directly.
 applies: Buyers looking beyond Bali
-verified: 2026-09-15
+verified: 2026-09-21
 ---
 
-Both get pitched as the next Bali. Both are worth understanding on their own terms rather than through that comparison.
-
-## Sumba
-
-An island east of Bali, roughly twice the size, with a fraction of the population and almost no tourism infrastructure. Wild coastline, megalithic villages, a living traditional culture and one globally famous luxury resort that anchors the island's reputation.
-
-Genuinely beautiful and genuinely remote. Flights are limited, roads are poor, and medical facilities are basic.
+These are the two Indonesian frontier markets that get mentioned most often, and they are genuinely different propositions from each other.
 
 ## Labuan Bajo
 
-The gateway town to Komodo National Park on western Flores. Tourism here is real and growing, driven by liveaboard diving and Komodo day trips, and the government has designated it a priority destination with airport and infrastructure investment.
+A town on the western tip of Flores, and the gateway to **Komodo National Park**.
 
-More developed than Sumba, considerably less than Bali.
+**What it has.** A designated priority tourism destination with sustained government investment. An upgraded airport. A harbour serving liveaboard and day-trip boats to Komodo, Padar and the surrounding dive sites. Genuinely world-class diving and some of the most photographed landscape in Indonesia.
 
-## The comparison that matters
+**What drives demand.** Almost entirely the national park. People come to see Komodo dragons, dive, and sail. That is a strong and specific draw, and it is also a single point of dependency.
 
-| | Bali | Labuan Bajo | Sumba |
-| --- | --- | --- | --- |
-| Flight connections | Extensive international | Domestic, growing | Limited |
-| Tourism volume | Millions | Meaningful, growing | Very small |
-| Infrastructure | Strained but present | Developing | Minimal |
-| Medical | Good routine | Basic | Basic |
-| Build cost | Low | Higher, logistics | Much higher, logistics |
-| Resale pool | Deep | Thin | Almost none |
+**The regulatory risk is concentrated.** Komodo National Park has been subject to significant regulatory intervention, including proposed and implemented changes to access, pricing and visitor management. Any material restriction on park access affects Labuan Bajo's entire economy, and by extension your property.
+
+**Product.** Mostly hospitality — small hotels, dive operations, boats — rather than villa rentals. The market is commercial more than residential.
+
+**Land** is cheap by Bali standards and rising, with development concentrated along the coast and the hills above the harbour.
+
+## Sumba
+
+A large, dry, sparsely populated island south of Flores, with a distinct culture, megalithic traditions and dramatic empty coastline.
+
+**What it has.** Exceptional landscape. A handful of very high-end resorts, of which Nihi Sumba is the best known and has done more for the island's profile than anything else. Extraordinary surf on the southwest coast.
+
+**What it does not have.** Tourism infrastructure at any scale, an established foreign buyer market, reliable services, or meaningful rental demand outside the luxury resort segment.
+
+**The economics.** Sumba works as an ultra-high-end destination or as a very long-horizon land position. The middle — a normal villa rental business — does not currently exist in a form that supports an investment.
+
+**Water** is a serious constraint on much of the island, which is markedly drier than Bali or Flores.
+
+## What both share
+
+**The same ownership rules.** East Nusa Tenggara is in Indonesia. No freehold for foreigners, leasehold or Hak Pakai or HGB, exactly as in Bali.
+
+**Different administration.** Provincial and regency spatial planning is entirely separate from Bali's. Permit processes are less familiar to most practitioners and take longer.
+
+**Thin professional infrastructure.** Fewer notaries experienced with foreign buyers, fewer surveyors, fewer contractors capable of delivering to the standard a foreign-funded build expects. This raises both cost and risk on a build.
+
+**Land title complexity.** Customary and family landholding patterns in eastern Indonesia are frequently less formalised than in Bali, which means title verification is harder and the risk of a seller not holding what they claim is higher. This is the single biggest practical risk in both markets.
+
+**Very thin liquidity.** The buyer pool is small and a sale can take years.
 
 ## The honest position
 
-The ownership rules are identical: no freehold for foreigners anywhere in Indonesia. What differs is everything commercial.
+Both are land bets with a long horizon and real execution risk. Neither produces income at a level that carries an investment today.
 
-Building costs more because materials ship in. Operating costs more because skilled staff are scarcer. Demand is smaller and more seasonal. And the exit is the real problem, because the pool of people who want to buy on Sumba and can lawfully do so is very small.
+Labuan Bajo has the clearer demand driver and the greater concentration of regulatory risk. Sumba has the greater scarcity and the thinner everything else.
 
-## Who this suits
+If you are buying either, buy with capital you do not need working, buy land rather than a building, do the title work with unusual care, and assume ten years rather than three.
 
-Operators with capital they do not need, who will be present, running something themselves, on a ten-year view.
+Anyone presenting either as a yield investment comparable to Bali is either mistaken or selling.
 
-It does not suit passive investors, and the "next Bali" framing is what gets people into trouble. Bali took fifty years and an airport.
+## What to check
+
+Title, harder than anywhere. Customary landholding, family divisions, and whether the seller holds what they claim. Engage a notary with genuine local experience.
+
+Zoning under the relevant regency plan, including agricultural classification.
+
+For Labuan Bajo, national park regulation and any proposed changes to access or visitor management.
+
+Water availability, especially in Sumba.
+
+Power capacity and reliability.
+
+Access roads and whether rights of way are documented.
+
+Realistic build costs including the premium for bringing materials and skilled trades from further afield.
 
 ## Common questions
 
-### Can foreigners buy property in Sumba or Labuan Bajo?
-Yes, under the same national framework as Bali: leasehold, Hak Pakai with residency, or HGB through a PT PMA.
+### Is Sumba a good property investment?
+As a very long-horizon land position with capital you do not need working, possibly. There is no meaningful villa rental market outside the luxury resort segment.
 
-### Is Labuan Bajo a good investment?
-It has real, growing tourism and government infrastructure priority. It also has thin resale and higher build and operating costs than Bali.
+### Is Labuan Bajo worth investing in?
+It has a genuine demand driver in Komodo National Park and sustained government investment, with the risk that park access regulation has been subject to significant intervention.
 
-### Is Sumba the next Bali?
-No, and the framing is unhelpful. It has a fraction of the flight connectivity, infrastructure and demand, and no clear path to closing that in the near term.
+### Can foreigners buy property in Flores or Sumba?
+Under the same Indonesian rules as Bali: no freehold, with leasehold, Hak Pakai with residency, or HGB through a company.
 
-### Is it more expensive to build outside Bali?
-Considerably. Materials and skilled labour ship in, which raises cost and lengthens timelines.
+### What is the biggest risk in frontier Indonesian markets?
+Title. Customary and family landholding patterns are often less formalised than in Bali, so verifying that a seller holds what they claim is harder and more important.
 
-### What is the biggest risk in frontier Indonesian property?
-The exit. Very few buyers want these locations and can lawfully purchase, so plan to hold.
+### Do these markets produce rental income?
+Not at a level that carries an investment today. Both are land positions with long horizons rather than income properties.

@@ -5,57 +5,82 @@ summary: Vietnam grants foreigners 50 years on an apartment. Indonesia grants 30
 category: compare
 order: 10
 risk: high
-regulation: Rules change in every country named. Verify against the current official source before acting.
+regulation: Vietnamese Law on Housing and Land Law; foreign ownership terms and project quotas change. Verify against the current official source.
 applies: Anyone comparing markets before buying
-verified: 2026-09-13
+verified: 2026-09-21
 ---
 
-Vietnam is frequently pitched as the next big Southeast Asian market. The ownership rules are the part that gets glossed over.
+Vietnam is the Southeast Asian market most often compared to Indonesia on growth, and its ownership rules sit somewhere between Thailand's and Indonesia's.
 
-## What a foreigner can hold
+## What foreigners can hold
 
-Apartments in approved developments, subject to a quota on foreign ownership within each building and within a given area. Land itself remains under state ownership, with use rights allocated.
+**Land is owned by the state.** Nobody in Vietnam holds freehold land, including Vietnamese citizens. What exists are **land use rights**, granted for terms, and the difference between citizens and foreigners is the length and conditions of those rights.
 
-The headline figure is **50 years**, renewable in principle. That renewal is the weak point: it is less clearly defined than Indonesia's statutory extension paths for HGB and Hak Pakai, and considerably less certain than a Thai condominium freehold.
+**Foreigners may own apartments and houses** in eligible commercial housing projects, for a term commonly stated as **fifty years**, renewable subject to approval.
 
-## Vietnam against Indonesia
+**Quotas apply.** A foreign buyer cannot simply buy any unit. There are limits on the proportion of units in a building and the proportion of houses in a ward that may be foreign-owned, and once a project hits its quota, no further foreign purchases are permitted there.
 
-| | Vietnam | Indonesia |
-| --- | --- | --- |
-| Land | State-owned, use rights allocated | Reserved for citizens |
-| Foreign holding | Apartments, quota limited | Hak Pakai, lease, HGB via company |
-| Term | 50 years | 30 years, extendable |
-| Renewal | Permitted, less defined | Statutory extension paths exist |
-| Tourism demand | Growing, domestic-heavy | Mature, international |
-| Build cost | Low | Low |
+**Only eligible projects qualify.** Older buildings, projects in restricted areas, and land near sites of defence or security significance are excluded.
 
-Fifty years sounds better than thirty until you ask what happens at the end, and in Vietnam that answer is thinner.
+## The renewal question
 
-## The practical differences
+The fifty year term is renewable "subject to approval". That phrasing is doing a lot of work and it is the central uncertainty in Vietnamese foreign ownership.
 
-Vietnam's market is less oriented to foreign short-term rental operators. Enforcement of short-term letting in apartment buildings has been restrictive in the major cities.
+The framework is relatively young. A large cohort of foreign-owned units has not yet reached renewal, which means there is limited practical precedent for how renewals will be handled at scale, on what terms, and at what cost.
 
-Indonesia's tourism economy is deeper, more international, and better set up for the villa rental model, which is what most foreign buyers here are actually buying.
+Buyers should treat this the way I would treat an Indonesian lease with a prioritas extension clause: assume you hold the initial term, and treat the renewal as an upside rather than a certainty.
 
-Vietnam is a growth story. Bali is an income story.
+## Versus Indonesia
 
-## What to check if you go there anyway
+**Registration.** A Vietnamese foreign ownership certificate — the "pink book" — is a registered document. An Indonesian leasehold is registered nowhere. Vietnam's instrument is structurally stronger.
 
-The building's remaining foreign quota, whether the developer has the right approvals, the exact expiry and what the renewal procedure is on paper, and whether short-term letting is permitted in that building at all.
+**Term.** Fifty years in Vietnam against twenty-five to thirty per Indonesian lease term, though Indonesian practice reaches similar totals through agreed extensions.
+
+**Quota.** Vietnam restricts how much foreigners can hold in a building or ward. Indonesia has no equivalent quota on leaseholds.
+
+**Product.** Vietnam's foreign-accessible stock is overwhelmingly apartments in developments. Indonesia's is standalone villas with land. These suit very different buyers.
+
+**Yield.** Vietnamese residential gross yields in Hanoi and Ho Chi Minh City are commonly in the low to mid single digits, which is considerably below what a well-run Bali villa nets. Vietnam is a capital growth market; Bali is an income market.
+
+**Exit.** Selling a foreign-owned Vietnamese unit means selling to another foreigner within the quota, or to a Vietnamese buyer, with the term reduced by however long you held it. That is a narrower pool than it first appears.
+
+## What Vietnam has going for it
+
+A large, young, urbanising population. Sustained manufacturing investment. Genuine economic growth. Infrastructure being built at pace.
+
+Those are real structural drivers of long-term property demand, and they are stronger in Vietnam than in Bali, whose demand is tourism-dependent and therefore more exposed to flight capacity, sentiment and regulation.
+
+## What to be careful about
+
+**Buy only in eligible projects** with confirmed foreign quota remaining. Verify the quota position in writing before paying anything.
+
+**Off-plan is the dominant product** and carries the same counterparty risk as anywhere, without a strong statutory deposit protection regime.
+
+**Developer quality varies enormously.** The gap between the best Vietnamese developers and the rest is very wide, and the paperwork on a weak project can take years to issue.
+
+**The pink book can be slow.** Foreign ownership certificates have been delayed on some projects for extended periods, during which you have paid but hold no registered document.
+
+## Which suits which buyer
+
+**Vietnam** for a capital growth position in a genuinely growing economy, in an apartment, accepting a fifty year term with an uncertain renewal and a modest yield.
+
+**Bali** for income from a property you will use, accepting a shorter term, no registration, and dependence on tourism.
+
+They are not substitutes and buyers choosing between them are usually optimising for different things without having said so.
 
 ## Common questions
 
-### Can foreigners own land in Vietnam?
-No. Land is state-owned with use rights allocated. Foreigners can hold apartments within quota limits.
+### Can foreigners buy property in Vietnam?
+Yes, apartments and houses in eligible commercial housing projects, for a term commonly stated as fifty years, subject to quotas on foreign ownership in each building and ward.
 
-### How long can a foreigner own property in Vietnam?
-Typically 50 years, renewable in principle, with a renewal process less clearly defined than Indonesia's statutory extension paths.
-
-### Is Vietnam better than Bali for property?
-Vietnam is a growth bet with a longer nominal term. Bali has deeper international tourism demand and a market built around foreign-operated villa rental.
-
-### Can you do Airbnb in Vietnam?
-Short-term letting in apartment buildings has faced restrictive enforcement in major cities. Check the specific building and current rules.
+### Do foreigners own land in Vietnam?
+No, and neither do Vietnamese citizens. Land is state-owned and everyone holds land use rights, with foreigners on shorter terms and tighter conditions.
 
 ### What happens after 50 years in Vietnam?
-Renewal is permitted in principle but the process is less defined than in Indonesia. Treat the end of term as a real risk rather than a formality.
+The term is renewable subject to approval. The framework is young and there is limited practical precedent at scale, so treat renewal as upside rather than certainty.
+
+### Is Vietnam or Bali better for property investment?
+Vietnam for capital growth in a genuinely growing economy, at low yields, in apartments. Bali for income from a usable villa, at higher yields, with a weaker ownership position.
+
+### What is the pink book in Vietnam?
+The certificate evidencing ownership and land use rights. For foreign buyers it can be significantly delayed on some projects, leaving you paid up but without a registered document.

@@ -5,58 +5,82 @@ summary: Malaysia lets foreigners own freehold above state minimums and ties a l
 category: compare
 order: 11
 risk: medium
-regulation: Rules change in every country named. Verify against the current official source before acting.
+regulation: MM2H requirements have changed repeatedly and vary by tier and state. Verify against the current official source before acting.
 applies: Anyone comparing markets before buying
-verified: 2026-09-13
+verified: 2026-09-21
 ---
 
-Malaysia is the Southeast Asian outlier that most Bali buyers have never seriously looked at.
+Malaysia is the most open market in Southeast Asia for foreign property ownership, and it is systematically overlooked by buyers looking at Bali.
 
-## What Malaysia allows
+## What Malaysia permits
 
-Foreigners can own property **freehold**, in their own name, subject to state-level minimum purchase values and state approval. That is genuine ownership of land and building, not a lease or a right of use.
+**Freehold ownership of landed property and apartments, by foreigners, in their own name.** Actual land, actual title, no term.
 
-Malaysia My Second Home (MM2H) is the long-stay programme. It has been repeatedly restructured with higher financial thresholds and tiered categories, so anyone considering it should check the current tier requirements rather than older summaries.
+Two conditions apply. **Minimum purchase price thresholds** set by each state, which vary considerably and are generally higher in Kuala Lumpur, Selangor and Penang than elsewhere. And **state consent** for certain property types, particularly landed residential.
 
-## Against Indonesia
+Some categories are restricted — Malay reserved land, low and medium cost housing, and properties on agricultural land in some states.
 
-| | Malaysia | Indonesia |
-| --- | --- | --- |
-| Land ownership | Yes, above state minimums | No |
-| Visa route | MM2H, property often required | Several, property not required |
-| Term | Freehold or long leasehold | 30 years, extendable |
-| Tourism demand | Moderate, domestic-heavy | Strong, international |
-| Cost of living | Low | Low |
-| English | Widely spoken | Widely spoken in expat areas |
-| Healthcare | Strong private sector | Good routine, thin complex |
+Within those limits, this is genuine registered freehold ownership of land by a foreigner, which is available almost nowhere else in the region.
 
-## The real trade
+## MM2H
 
-Malaysia gives you the thing Bali cannot: a title you own and can pass on without a disposal deadline.
+**Malaysia My Second Home** is a long-term residence programme, and it is not a straightforward comparison because the requirements have changed repeatedly.
 
-What it does not give you is Bali's tourism engine. Villa rental demand in Malaysia is a fraction of Bali's, so the same money buys a more secure asset that earns considerably less.
+The programme has been suspended, revised, tiered and revised again over recent years, with financial requirements moving substantially. There are now multiple tiers with different thresholds, and **Sarawak operates its own separate programme** with different and generally more accessible conditions.
 
-There is also the state minimum purchase value, which in the popular states is high enough to push you well above what the same lifestyle costs here.
+Anyone comparing MM2H to Indonesian residency routes needs to check the current requirements rather than relying on anything written more than a year ago, including this page. The direction of travel has been toward higher thresholds.
 
-## Who should look at Malaysia
+**Important point that catches people:** MM2H is a residence programme, not a work permit. It does not permit employment in Malaysia.
 
-Anyone whose priority is owning something outright, passing it to children without a forced sale, and living somewhere cheap with good healthcare and English.
+## Versus Bali
 
-Anyone whose priority is rental yield should look at Bali and accept the weaker rights, or look at Thailand for a middle position.
+**Ownership.** Malaysia gives you freehold land in your own name. Indonesia gives you a contract with a term. This is not close.
+
+**Price entry.** Malaysia's minimum purchase thresholds mean you cannot buy cheaply. Bali has no minimum for a leasehold, so entry is lower.
+
+**Yield.** Malaysian residential gross yields, particularly in Kuala Lumpur, are commonly modest, with significant condominium supply in some submarkets. A well-run Bali villa nets substantially more.
+
+**Capital growth.** Malaysian residential has been relatively flat in real terms in several major submarkets for an extended period. Bali land in developed corridors has appreciated strongly, though on a leasehold you do not capture that.
+
+**Lifestyle.** Very different. Kuala Lumpur is a functioning large city with excellent infrastructure, international schools and healthcare. Penang has a strong expatriate community and lower costs. Langkawi and Borneo offer something closer to island living.
+
+Bali offers something Malaysia does not, which is a specific concentration of creative and entrepreneurial foreigners and a tourism economy that supports short-let income at scale.
+
+**Language and administration.** English is widely used in Malaysian law, business and daily life. Property transactions are conducted in a common law system that Australian and British buyers find immediately familiar. Indonesia's civil law system with Bahasa-governed documents is considerably less navigable.
+
+## The honest comparison
+
+If someone's objective is **to own something securely in Southeast Asia and live there**, Malaysia is the better answer and most people do not consider it.
+
+If the objective is **short-let income from a villa in a place with strong tourism demand**, Bali is the better answer, and the ownership weakness is the price.
+
+The mistake is treating them as the same decision. They are not competing for the same buyer, and people comparing them usually have not articulated which one they actually are.
+
+## What to check in Malaysia
+
+The state minimum purchase threshold for the specific property type and location, which varies considerably.
+
+Whether state consent is required and how long it takes.
+
+Whether the land is freehold or leasehold — Malaysia has both, and a leasehold with a short remaining term carries the same decay problem as Bali.
+
+Strata management quality and sinking fund for apartments.
+
+Supply in the specific submarket, which in parts of Kuala Lumpur is substantial.
 
 ## Common questions
 
-### Can foreigners buy property in Malaysia?
-Yes, freehold, subject to state minimum purchase values and state approval. It is one of the few Asian markets allowing genuine foreign land ownership.
+### Can foreigners own freehold property in Malaysia?
+Yes, landed property and apartments in their own name, subject to state minimum purchase price thresholds and, for some property types, state consent.
 
-### What is MM2H?
-Malaysia My Second Home, the long-stay visa programme. It has been restructured several times with higher thresholds and tiers, so verify the current requirements.
+### Does MM2H let me work in Malaysia?
+No. It is a long-term residence programme, not a work permit, and it does not authorise employment.
 
-### Do you need to buy property for MM2H?
-Property purchase features in the requirements for some tiers. Check the current structure, as it has changed repeatedly.
+### Is Malaysia or Bali better for property?
+Malaysia for secure freehold ownership and a familiar common law system. Bali for short-let income from a villa, accepting a contractual term rather than a title.
 
-### Is Malaysia or Bali better for retirement?
-Malaysia for ownership security and healthcare depth. Bali for climate, community and cost. Malaysia is the safer asset, Bali the stronger lifestyle pull for many.
+### Are Malaysian property yields good?
+Generally modest, particularly in Kuala Lumpur where condominium supply in some submarkets is substantial. Well-run Bali villas net considerably more.
 
-### Why do more people buy in Bali than Malaysia?
-Tourism demand, rental yields and the size of the existing foreign community. Malaysia offers better title and much thinner short-term rental economics.
+### Have MM2H requirements changed?
+Repeatedly. The programme has been suspended, revised and tiered, with financial thresholds moving substantially, and Sarawak runs its own separate programme. Check the current position rather than older guidance.
