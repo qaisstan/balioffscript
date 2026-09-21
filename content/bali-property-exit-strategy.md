@@ -5,68 +5,84 @@ summary: Your buyer pool is decided on the day you purchase, not the day you lis
 category: rental
 order: 29
 risk: critical
-regulation: Final transfer tax on disposal; PPAT deed and registration.
+regulation: Final transfer tax on disposal at 2.5 percent; PPAT deed and registration; lease assignment provisions.
 applies: Anyone buying who will eventually sell
-verified: 2026-09-15
+verified: 2026-09-21
 ---
 
-Everyone models the entry. The exit is where the return is actually realised, and it is set by decisions made at purchase.
+A return is not realised until the money is back. In Bali, getting it back is the hardest part of the transaction and the part nobody models.
 
-## Who can buy this from you?
+## Your buyer pool is set at purchase
 
-| What you hold | Your future buyer |
-| --- | --- |
-| Leasehold, long term remaining | Foreigners. The pool shrinks as the term runs |
-| Leasehold, short term remaining | Almost nobody |
-| Hak Pakai | Foreigners with residency meeting the value threshold |
-| HGB in a PT PMA | Buyers willing to take on a company, or buy its shares |
-| Freehold via nominee | Nobody safely |
+The day you buy, you determine who can buy it from you.
 
-This is the single most important thing you decide at purchase and the one least considered.
+A **USD 250,000 three-bedroom in Pererenan on a long lease** has hundreds of plausible buyers at any moment. It is the most traded product in Bali.
 
-## The four things that shrink your buyer pool
+A **USD 900,000 five-bedroom** has perhaps a dozen, and they are not all looking this year.
 
-**A short remaining term.** Value decays non-linearly. Eight years left trades far below half of thirty, because your buyer inherits the expiry.
+A **USD 400,000 villa with eleven years remaining** has almost nobody, because the arithmetic only works at a price the seller will not accept.
 
-**A weak extension clause.** "Market rate" is the landowner's option, and a sophisticated buyer prices it as a defect.
+A **property with no PBG, or in a zone that does not permit letting**, is unsaleable to anyone doing due diligence, which means it is saleable only to someone who is not.
 
-**Missing PBG or SLF.** Affects insurance, financing, licensing and resale simultaneously.
+None of that changes between purchase and sale. It is fixed on day one, and it is the single most predictable thing about your eventual exit.
 
-**A licence that does not transfer.** Removes the income that justifies your price.
+## How long it actually takes
 
-## The cash market problem
+Under USD 500,000 with a long term in a good area: three to nine months.
 
-Foreigners cannot realistically get local financing, so your buyer must have cash. That thins the pool permanently and makes pricing less forgiving.
+USD 500,000 to USD 750,000: six to eighteen months.
 
-It also means distress does not show up as forced sales, so price discovery is slow and asking prices drift above transacted levels.
+Above USD 750,000: twelve to twenty-four months, frequently at a discount to asking.
 
-## What to do a year before selling
+On a leasehold, the term runs down for every month of that. A villa that takes eighteen months to sell is a villa that lost eighteen months of term while it sat, which compresses the price further. The wait is not neutral; it is a cost that compounds.
 
-- Get certificate, PBG, SLF and licence documents verified and in order
-- Bring PT PMA filings fully current if a company holds it
-- Do the refurbishment if it is due, because buyers discount more than it costs
-- Assemble twelve months of clean operating statements
-- Establish realistic transacted prices on your street, not asking prices
+## The four exits
 
-## Selling the company instead of the asset
+**Sell the remaining lease.** The normal route. Requires the deed to permit assignment, and where landowner consent is needed, that consent has a price set at the moment you have a buyer waiting. Sort this out before you list, not during.
 
-Where a PT PMA holds the property, selling shares transfers the company, its licences and its history. It can be faster and cleaner for a buyer, particularly given classifications closed to new foreign registration in July 2026.
+**Sell the company.** If the property is held in a PT PMA, you can sell the shares rather than the asset. That can be cleaner and faster for the right buyer, and it narrows the pool to buyers willing to take on an Indonesian company with its history and liabilities. Get the accounts clean well in advance.
 
-The buyer inherits liabilities, so expect real scrutiny of filings. Clean compliance throughout is what makes this route available and it is worth money.
+**Run it to expiry.** A legitimate plan on a shorter lease bought cheaply, provided the income repays the capital with a margin inside the term. Nobody buys it from you and you never need them to. This is underrated and it requires the purchase price to be right.
+
+**Extend and keep.** Only available if the extension is a guaranteed one at a price fixed now. A right of first refusal at a price set later is not an exit plan.
+
+## What makes a property sell
+
+A long remaining term. A guaranteed extension clause. PBG and SLF in order. Zoning that permits what the property is being used for. A documented access right. Verifiable trading accounts if it has been rented. An assignment clause that does not require anyone's permission. Professional photography.
+
+The first three do more work than everything else. A buyer's notary checks them first, and a failure at that stage ends the sale regardless of how good the villa is.
+
+## What to do at purchase
+
+Buy the term you will need plus the time it takes to sell. If you want a ten year hold, buy twenty-five years, not fifteen. Selling with seven years left is close to impossible at a sensible price.
+
+Buy in a price band with depth. Under USD 400,000 in a good area is the most liquid part of the Bali market by a wide margin.
+
+Get the assignment clause right, with no consent requirement or a defined, capped fee.
+
+Get the extension clause right, jaminan not prioritas.
+
+Keep the paperwork from day one — the deed, permits, PBB receipts, tax filings, accounts. A seller who can produce a complete file transacts faster and at a better price than one who cannot, and assembling it years later is genuinely difficult.
+
+## The costs of leaving
+
+The 2.5 percent final tax on a registered transfer. Agent commission at three to five percent. Any landowner consent fee. Notary fees. And the holding cost of a property that is not selling while it still needs staff, maintenance, utilities and management.
+
+Model those against your projected sale price, not your hoped-for one, and use a slow sale rather than a fast one. If the numbers only work on a quick exit at asking, they do not work.
 
 ## Common questions
 
-### How hard is it to sell property in Bali?
-Harder than most buyers expect. Canggu and Seminyak have the deepest pools. Short terms, missing permits and remote areas can sit for a year or more.
+### How long does it take to sell property in Bali?
+Three to nine months under USD 500,000 with a long term, six to eighteen months up to USD 750,000, and twelve to twenty-four months above that, often at a discount.
 
-### What hurts resale value most in Bali?
-A short remaining term, then a weak extension clause, then missing PBG and SLF, then a non-transferable licence.
+### What makes a Bali property hard to sell?
+A short remaining lease term, an extension clause that is only a right of first refusal, missing PBG or SLF, zoning that does not permit the use, and a price band above USD 750,000 where few buyers exist.
 
-### Should I sell the villa or the company?
-Selling shares transfers licences and history and can be faster, but only if the company's compliance record is clean.
+### Can I sell a Bali leasehold before it expires?
+Yes, by assigning the remaining term, provided the deed permits assignment. Where landowner consent is required, agree the fee before you list rather than when you have a buyer.
 
-### Do I pay tax when selling in Bali?
-The seller normally bears a final transfer tax on the sale value. Confirm the position where a company holds the property.
+### Should I sell the property or the company?
+If it is held in a PT PMA, selling the shares can be faster and cleaner for the right buyer, but it narrows the pool to those willing to take on the company's history. Clean accounts well in advance.
 
-### When should I start preparing to sell?
-A year ahead. Documents, filings, refurbishment and operating statements all take time to put right.
+### How much lease term should I buy if I plan a ten year hold?
+Around twenty-five years. Selling with seven years remaining is close to impossible at a sensible price, so you need the hold period plus the sale period plus a remainder the buyer wants.
