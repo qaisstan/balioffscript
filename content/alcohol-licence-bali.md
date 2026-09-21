@@ -5,63 +5,84 @@ summary: Serving alcohol commercially is separately licensed from your accommoda
 category: rental
 order: 32
 risk: high
-regulation: Indonesian licensing and administrative regulation. Requirements vary by regency. Confirm locally.
+regulation: Indonesian alcohol licensing is tiered by classification and administered with regional involvement. Verify current requirements directly.
 applies: Anyone running a villa, café or venue serving alcohol
-verified: 2026-09-20
+verified: 2026-09-21
 ---
 
-Owners assume that if the property is licensed for accommodation, everything happening inside it is covered. It is not.
+Alcohol licensing in Indonesia is more restrictive than most foreign operators expect, and it is a recurring reason Bali food and beverage businesses operate outside the rules.
 
-## Two separate permissions
+## The framework
 
-**Accommodation licensing** covers selling nights. **Selling alcohol** is its own regulated activity with its own permit.
+Indonesia classifies alcoholic beverages by strength into categories — broadly beer, wine and spirits — and licences are **tiered accordingly**. A permit covering lower-strength categories does not cover spirits.
 
-A villa that provides a stocked minibar and charges for it, or a property running a bar, is engaged in the second activity whether or not it holds the first.
+Licences distinguish between **selling for consumption on the premises** and **selling for consumption elsewhere**, and between **distribution, wholesale and retail**. A restaurant licence is not a bottle shop licence.
 
-## The classification layer
+Administration involves both national trade regulation and regional authorities, and Bali's position reflects its tourism economy, which is why availability here differs from much of Indonesia.
 
-Alcohol sale sits within Indonesia's licensing system with its own classification, and permits differ by alcohol category and by the type of premises.
+## Who can hold one
 
-That means the permit a beach club holds is not the permit a small café needs, and neither is automatically what a villa requires.
+The licence sits with a **business entity** holding the appropriate **KBLI classification** — a restaurant, bar, hotel or beverage retail classification as applicable.
 
-## Where villa owners get caught
+For a foreign investor that generally means a **PT PMA**, with the capital requirements, annual filings and compliance load that carries, and with the classification confirmed as open to foreign ownership for that activity.
 
-**The stocked minibar.** Provided free as hospitality is one thing. Charged for is a sale.
+A licence is tied to a **specific premises**. It does not travel with the operator to a new location, and a change of premises means a new application.
 
-**Events.** Weddings and private parties where alcohol is supplied as part of a paid package.
+## Why villa owners should care
 
-**In-villa bar service.** Staff serving drinks as a charged service.
+Two specific situations.
 
-The practical fix for many small operators is to not sell alcohol at all: let guests buy their own, or have a licensed supplier handle it. That removes the exposure entirely.
+**Providing alcohol to guests.** A villa that stocks a minibar and charges for it, or sells drinks, is selling alcohol. Providing a complimentary welcome bottle is a different matter from running a paid bar, and the distinction is worth understanding before you set up a tariff.
 
-## Enforcement context
+The practical position most villa operators take is to allow guests to bring their own and to provide glassware and ice rather than selling, which sidesteps the question entirely.
 
-Regional authorities can issue warnings, suspend operations and close premises directly. The cost is not the penalty, it is a property carrying its full staff and maintenance base while shut.
+**A villa with a bar or restaurant attached.** If your property includes a commercial food and beverage operation open to non-residents, that is a licensed activity in its own right with its own requirements.
 
-Given the direction of regulation since Perda Bali 4/2026 and the July 2026 classification closures, assume scrutiny increases rather than relaxes.
+## Why so many operate without one
 
-## What to verify
+The licensing is genuinely restrictive, the process is slow, and enforcement has historically been inconsistent. A substantial number of small Bali venues serve alcohol without full authorisation.
 
-- Does the business hold a valid alcohol permit for its category and premises?
-- Does it cover the specific activity, retail, on-premises consumption, or events?
-- Is the NIB active with the right classification?
-- If you are buying a venue, does the permit transfer, or sit in an entity not in the sale?
+Three consequences follow, and they are the same pattern as unlicensed accommodation.
 
-That last question applies exactly as it does to accommodation licences. A permit in a company that is not part of the deal is not yours.
+**The exposure is continuous.** It does not go away and it materialises at a bad moment — a complaint, a licence review, a dispute, an incident.
+
+**The business is unsaleable** to any buyer conducting proper due diligence, which means the value you built is not realisable at exit.
+
+**It compromises everything else.** A business operating outside one regulatory framework is more visible to every other one, and the tax position is usually connected.
+
+## What to check if you are buying a venue
+
+Whether a licence exists, what category it covers, and whether it is current.
+
+Whether it is tied to the premises you are buying and whether it transfers, or whether a new application is required.
+
+Whether the entity holding it is the entity you are acquiring.
+
+Whether the KBLI classification supports the activity and remains open to foreign ownership.
+
+Whether the premises zoning permits food and beverage operation at all.
+
+Ask for the documents rather than a description of them, and have your own notary verify rather than the seller's.
+
+## The wider regulatory direction
+
+Bali has been tightening across several fronts — **Perda Bali 4/2026** on nominee arrangements, the closure of new foreign-owned villa and homestay registration to PMA companies on **22 July 2026**, and materially stricter tax administration under Coretax.
+
+The direction is consistent. Building a business on the assumption that enforcement stays light is planning against the trend, and the gap between compliant and non-compliant operations shows up sharply the moment you try to sell.
 
 ## Common questions
 
 ### Do I need a licence to serve alcohol in Bali?
-Yes. Selling alcohol is separately regulated from accommodation licensing and needs its own permit.
+Yes. Alcohol licensing is tiered by beverage category and distinguishes on-premises consumption from retail sale, held by a business entity with the appropriate KBLI classification.
 
-### Can my villa sell drinks to guests?
-Charging for alcohol is a sale and requires the appropriate permit. Many small operators avoid it entirely.
+### Can a villa sell drinks to guests?
+Selling alcohol is a licensed activity. Most villa operators avoid the question by allowing guests to bring their own and providing glassware and ice rather than charging.
 
-### Does my accommodation licence cover alcohol?
-No. They are separate permissions covering different activities.
+### Can a foreigner hold an alcohol licence in Indonesia?
+Through a PT PMA with the appropriate KBLI classification, subject to that classification being open to foreign ownership and the capital and compliance requirements that follow.
 
-### What happens if a venue sells alcohol without a licence?
-Authorities can warn, suspend operations and close the premises, which stops all revenue while costs continue.
+### Does an alcohol licence transfer with a business sale?
+It is tied to specific premises and a specific entity. Confirm whether it transfers with what you are acquiring or whether a new application is required.
 
-### Does an alcohol licence transfer when I buy a venue?
-Not automatically. Confirm whether it transfers or sits in an entity outside the sale.
+### What happens if a Bali venue operates without a licence?
+The exposure is continuous and materialises at a complaint, review or incident, and the business is unsaleable to any buyer conducting proper due diligence.

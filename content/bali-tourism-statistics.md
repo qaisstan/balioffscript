@@ -5,76 +5,76 @@ summary: Arrivals have recovered past pre-pandemic levels. Villa supply has grow
 category: rental
 order: 16
 risk: medium
-regulation: Figures are indicative. Confirm against BPS Bali and official tourism statistics.
+regulation: Tourism data from BPS and provincial sources. Figures change; verify against the current official release.
 applies: Anyone underwriting rental demand
-verified: 2026-09-06
+verified: 2026-09-21
 ---
 
-Visitor numbers are the input everyone quotes and almost nobody uses correctly.
+Tourism numbers are the foundation under every Bali rental projection, and they are quoted more often than they are understood.
 
-## The recovery
+## What the headline number is and is not
 
-Tourism collapsed to effectively nothing in 2020 and 2021. It recovered through 2022 and 2023 and has since passed pre-pandemic levels, with foreign arrivals running in the millions annually alongside a very large domestic market.
+Arrival figures — published by **BPS**, Indonesia's statistics agency, and provincial sources — count **foreign arrivals at Ngurah Rai**, not villa guests.
 
-The headline story is genuinely positive. The useful question is what it means for a specific property.
+That total includes day visitors, people transiting, business travellers, returning residents, long-stay expatriates and people staying in hotels, hostels, resorts and with family.
 
-## Why more arrivals has not meant better yields
+Villa guests are a subset of a subset. A ten percent rise in arrivals does not translate to a ten percent rise in villa demand, and it certainly does not translate to a ten percent rise in your occupancy.
 
-Because accommodation supply grew faster.
+Anyone using a national arrivals figure to justify a property-level yield projection is making an argument the data does not support.
 
-Between 2021 and 2026, an enormous volume of villa construction happened in the Canggu and Pererenan corridor, much of it the same three-bedroom pool villa. Guest nights rose. Available villa nights rose faster.
+## What the composition actually tells you
 
-That is the entire explanation for why owners report softer rates against a backdrop of record arrivals. The market grew; your slice of it got thinner.
+**Australia** has consistently been the largest single source market for foreign arrivals, and its seasonality — school holidays, late June through July, late September, December and January — is the dominant rhythm in south Bali.
 
-## Where the visitors come from
+**Domestic Indonesian tourism** is very large in volume and feeds a different segment: different price points, different accommodation, different areas. It is a meaningful part of Bali's economy and a small part of the foreign villa market.
 
-Australia has historically been the largest single source market, with India, China, Singapore, Malaysia, South Korea, the UK, Russia and Europe all significant. The mix shifts, and it matters:
+**Asian regional markets** — Singapore, Malaysia, Korea, Japan, China, India — are the fastest-moving component and the most sensitive to policy, currency and sentiment.
 
-- Australian visitors skew toward shorter, higher-frequency trips
-- European visitors stay longer, often through the dry season
-- Regional Asian markets are more sensitive to flight capacity and pricing
+**Europe** contributes fewer arrivals with longer average stays, concentrated in the May to September window.
 
-A property positioned for one market is exposed to that market's currency, flight routes and economic conditions.
+Composition matters more than the total. A market whose growth comes from day visitors and short-stay regional travellers produces different villa demand from one whose growth comes from European long-stayers.
 
-## Domestic tourism
+## The numbers to actually watch
 
-Often overlooked and substantial. Indonesian visitors from Jakarta and Surabaya fill weekends and holidays with a different pattern from foreign guests, and they are less sensitive to international disruption.
+**Average length of stay.** Total arrivals rising while average stay falls can mean flat or falling total bed-nights. This is the figure that connects most directly to occupancy and it is rarely quoted in marketing.
 
-Properties that appeal only to Western guests forgo that.
+**Accommodation supply growth**, against arrivals growth. If villa and hotel supply is growing faster than nights demanded, occupancy falls across the market regardless of what the arrivals headline says. This is what has been happening in parts of Canggu.
 
-## How to use the numbers
+**Seat capacity into Denpasar.** Arrivals cannot exceed seats. Capacity is the actual constraint and it is more forward-looking than arrivals data, which is historical.
 
-Not as reassurance. Arrivals tell you the size of the pool, not your share of it.
+**Source market mix**, because it determines when your quiet weeks are.
 
-The questions that matter are: how many comparable properties compete within a kilometre, how many were added in the last two years, and how many are under construction now. That ratio, not the arrivals figure, determines your occupancy.
+## The shocks are part of the record
 
-## Flight capacity is the real constraint
+Bali's arrivals history includes genuine collapses: the 2002 and 2005 bombings, the 2017 to 2019 Agung volcanic sequence which closed the airport repeatedly, and the pandemic.
 
-Arrivals are limited by seats, and seats are limited by Ngurah Rai's capacity. The airport has been operating close to its practical limit at peak times, and expansion work has been under discussion for years.
+Recovery in each case took time and the market's structure changed afterwards.
 
-That matters more than it sounds. If capacity is the binding constraint on arrivals, then adding villa supply into a fixed number of visitors produces exactly the dynamic owners have been experiencing: more rooms competing for a similar pool of guests.
+This is not a reason to avoid Bali. It is a reason to **model a bad year**. An investment that only works at seventy-five percent occupancy every year has no margin for an event that has happened several times within living memory.
 
-A North Bali airport has been proposed repeatedly and not delivered. Do not underwrite on it.
+## How to use data properly at a property level
 
-## Length of stay is falling
+Honestly: national arrivals data is close to useless for deciding whether a specific villa is a good investment.
 
-Average length of stay has been trending down as Bali has shifted toward shorter, higher-frequency trips, particularly from Australia and regional Asia.
+What is useful is **street-level evidence**: four or five comparable properties' availability calendars watched over six to eight weeks, recording which dates fill and at what price.
 
-Shorter stays mean more turnovers for the same occupancy, which means more cleaning, more laundry, more consumables and more wear for the same revenue. That is a cost story hidden inside a demand story, and it does not appear in an arrivals chart.
+That tells you what a property like yours, in the street you are considering, actually achieves. National figures tell you about a country.
+
+The two most common errors in Bali projections are using arrivals growth to imply property-level demand growth, and using area-level comparables where street-level ones differ substantially.
 
 ## Common questions
 
-### How many tourists visit Bali per year?
-Foreign arrivals run in the millions annually and have recovered past pre-pandemic levels, alongside a very large domestic market. Check BPS Bali for current figures.
+### How many tourists visit Bali each year?
+Foreign arrivals are published by BPS and provincial sources. The figure counts arrivals at the airport, including day visitors, transit passengers, business travellers and hotel guests, not villa guests specifically.
 
-### Where do most tourists in Bali come from?
-Australia has historically been the largest single source market, with India, China, Singapore, Malaysia, South Korea, Russia and Europe all significant.
+### Do tourism statistics predict villa occupancy?
+Poorly. Villa guests are a small subset of arrivals, and supply growth, average length of stay and source market mix all affect occupancy more than the headline figure.
 
-### Has Bali tourism recovered from COVID?
-Yes, arrivals have passed pre-pandemic levels. Accommodation supply grew faster, which is why rates and occupancy have not recovered proportionally for every owner.
+### Which country sends the most tourists to Bali?
+Australia has consistently been the largest single foreign source market, and its school holiday calendar sets the seasonal rhythm in south Bali.
 
-### Does high tourism mean good rental yields in Bali?
-Not automatically. Yield depends on your share of demand, which is set by local competing supply rather than by island-wide arrivals.
+### What tourism numbers actually matter to an owner?
+Average length of stay, accommodation supply growth against arrivals growth, seat capacity into Denpasar, and source market mix.
 
-### Should I target domestic or foreign guests?
-Domestic tourism is substantial, fills different periods, and is less exposed to international disruption. Ignoring it narrows your market unnecessarily.
+### How should I estimate occupancy for a specific villa?
+By watching four or five comparable properties' availability calendars over six to eight weeks and recording which dates fill at what price. National data cannot answer a street-level question.
