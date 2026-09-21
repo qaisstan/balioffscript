@@ -5,64 +5,88 @@ summary: The first three months are the holiday. Months four to twelve are the o
 category: living
 order: 28
 risk: medium
-regulation: General guidance based on common expatriate experience.
+regulation: General guidance. Immigration, tax and cost figures change; verify current requirements before acting.
 applies: Anyone in the planning stage
-verified: 2026-09-15
+verified: 2026-09-21
 ---
 
-Almost everyone arrives with the same expectations and hits the same sequence.
+Most of what goes wrong for people moving to Bali is a gap between an expectation formed on holiday and what living here is actually like. The gap is predictable.
 
-## The arc most people follow
+## What holidays do not show you
 
-**Months 1 to 3.** Everything works. It is cheap, warm, and the life you imagined. This is the holiday continuing and it tells you nothing.
+**Traffic**, because on holiday you are not commuting. Journeys a map says take twenty minutes take an hour at peak, and it is worsening.
 
-**Months 4 to 6.** Administration arrives. Visa renewal, a bank account you cannot open, a landlord dispute, a scooter accident or a near one, and your first wet season. The novelty stops carrying you.
+**The wet season**, if you visited in July. December to March is genuinely different — heavy rain, humidity, mould, flooded streets, waste on the beaches, and fewer people around.
 
-**Months 7 to 12.** You either build a real life here or you start counting. Friends from month two have left. The social circle has to be rebuilt, and it will need rebuilding again.
+**Administration.** Visas, permits, reporting, tax, bank accounts, driving licences, utilities. Everything takes longer than you expect and is rarely completed in one visit.
 
-## What people underestimate
+**The cost of doing things properly.** Legal residency, tax compliance, insurance, healthcare cover, proper staff arrangements. Living here lawfully costs meaningfully more than living here casually, and the difference is what people underestimate.
 
-**Wet season.** November to March. Not constant rain, but persistent humidity, flooded roads, mould, and an island that empties out. Anyone deciding to move should visit in February before committing.
+**Healthcare.** Good private facilities exist in the south. Serious cases are evacuated to Singapore or Australia, and **medical evacuation insurance is not optional**. Check what your policy actually covers and what it excludes, particularly motorcycle accidents.
 
-**Administrative friction.** Nothing is one step. Permits, banking, utilities, imports. This does not improve with familiarity; you simply stop being surprised.
+**The transience.** The foreign community turns over constantly. People you become close to leave. That is a real and frequently unanticipated part of the experience.
 
-**Healthcare depth.** Routine care is good and cheap. Serious care is thin, and medical evacuation to Singapore runs USD 55,000 to 100,000.
+## What is genuinely good
 
-**The transience.** The areas with the liveliest social scenes have the highest turnover. You will rebuild your friendships repeatedly.
+Cost of living is lower than Australia, Western Europe or North America, materially so if you live somewhat locally rather than entirely in the foreign economy.
 
-**Visa reality.** Rolling tourist visas as a way of living here stopped being viable in April 2026. Living here properly means holding the permit matching what you actually do.
+The climate, the landscape, the ocean.
 
-## What people overestimate
+A large, genuinely entrepreneurial and creative foreign community, particularly around Canggu and Ubud, which is unusual and is a real asset if that is your world.
 
-How cheap it is once you live properly. A comfortable single life runs USD 1,800 to 2,500 a month, a couple USD 2,500 to 3,500, and a family with international school USD 4,000 to 6,500.
+Domestic help, childcare and services are affordable in a way they are not at home, which changes daily life substantially for families.
 
-How fast they will feel settled. A year is the realistic answer.
+Indonesian culture and Balinese community life, which is extraordinary and which you will engage with more meaningfully if you learn some of the language.
 
-## What actually predicts staying
+## The things people get wrong
 
-Foreign income that does not depend on being here. The correct permit. Insurance with evacuation cover. A reason to be here beyond escaping somewhere else.
+**Working on a tourist visa.** Running a business, managing staff, or providing services to Indonesian clients is work, regardless of who pays you. Enforcement has tightened and the exposure is continuous. Use the permit that matches what you actually do — E33G for remote work, a work KITAS for employment, investor for a shareholding.
 
-People who solve those four tend to stay. People who improvise them tend to leave inside two years.
+**Buying too fast.** Arriving, falling in love with an area on a second visit, and buying within weeks. The buyers who do badly here are overwhelmingly the ones who bought early, in the area they holidayed in, from the first agent they met.
 
-## The test worth doing
+**Rent for six to twelve months first.** Live in two or three areas. Find out which one you like at 7am on a Tuesday in February rather than at sunset in August.
 
-Three months, in wet season, living rather than holidaying. Cook, commute, deal with something bureaucratic, get through a week of rain.
+**Ignoring the tax position.** Spending 183 days here makes you an Indonesian tax resident, which interacts with your home country's worldwide income rules. Work it out deliberately rather than discovering it.
 
-If the answer is still yes in February, it is probably yes.
+**Assuming things work like home.** No conveyancer acting solely for you, no title insurance, no transaction register, no professional indemnity regime, and no freehold available to you. Most of your protection at home comes from institutions that do not exist here.
+
+**Not engaging with the community.** The banjar, the customary village organisation, matters. Participating in community obligations is not optional politeness; it is how things get resolved when something goes wrong.
+
+## A realistic sequence
+
+**Visit properly**, including in the wet season.
+
+**Rent for six to twelve months**, in more than one area.
+
+**Sort residency** on the basis of what you will actually do.
+
+**Get the tax position right** in both countries, before you commit capital.
+
+**Then buy**, with your own notary, having verified everything.
+
+People who follow that sequence do well. People who compress it are the ones who end up on the wrong permit, in the wrong area, with a lease nobody independent read.
+
+## The honest summary
+
+Bali works very well for people who arrive with realistic expectations, sort their legal position properly, and treat it as somewhere to live rather than an extended holiday.
+
+It works badly for people who expect a permanent version of a two-week trip.
+
+The place is not the variable. The preparation is.
 
 ## Common questions
 
-### How long do most expats stay in Bali?
-Many leave within two or three years, commonly over visas, healthcare and the transience of the social circle.
+### What do people get wrong about moving to Bali?
+Expecting a permanent version of a holiday. Traffic, the wet season, administration and the cost of living here lawfully are all invisible on a two-week trip.
 
-### What is the hardest part of living in Bali?
-Administrative friction and how often people leave. The weather and the cost are the easy parts.
+### Should I rent before buying in Bali?
+Yes, for six to twelve months, in more than one area. Most buyers who do badly bought within weeks of arriving, in the area they holidayed in.
 
-### Should I visit before moving to Bali?
-Yes, and in wet season. It is the only honest test of the place.
+### Can I work remotely from Bali on a tourist visa?
+No. Remote work for a foreign employer is what the E33G KITAS authorises. Running a business or managing staff here requires a permit that covers it.
 
-### How much does it cost to live in Bali?
-Roughly USD 1,800 to 2,500 a month for a comfortable single life, USD 4,000 to 6,500 for a family with school fees.
+### Is healthcare good in Bali?
+Good private facilities exist in the south, but serious cases are evacuated to Singapore or Australia. Medical evacuation insurance is essential, and check the motorcycle exclusions.
 
-### Can I move to Bali on a tourist visa?
-Not lawfully as a way of living here, and enforcement since April 2026 has made that clear. Hold the permit matching what you do.
+### How long before I become an Indonesian tax resident?
+Broadly 183 days within a twelve month period, or presence with intent to reside, which interacts with your home country's worldwide income rules.
