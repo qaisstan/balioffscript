@@ -124,3 +124,36 @@
     });
   });
 })();
+
+// Table of contents follows the reader. Reading a rect on a throttled scroll
+// is cheaper here than an observer per heading, and it keeps the last section
+// highlighted once the reader is past every heading.
+(function () {
+  var links = Array.prototype.slice.call(
+    document.querySelectorAll(".art-rail .toc a")
+  );
+  if (!links.length) return;
+
+  var heads = links.map(function (a) {
+    try {
+      return document.getElementById(decodeURIComponent(a.hash.slice(1)));
+    } catch (e) { return null; }
+  });
+
+  var queued = false;
+  function paint() {
+    queued = false;
+    var cur = 0;
+    for (var n = 0; n < heads.length; n++) {
+      if (heads[n] && heads[n].getBoundingClientRect().top <= 140) cur = n;
+    }
+    links.forEach(function (a, n) {
+      if (n === cur) { a.classList.add("on"); } else { a.classList.remove("on"); }
+    });
+  }
+
+  window.addEventListener("scroll", function () {
+    if (!queued) { queued = true; requestAnimationFrame(paint); }
+  }, { passive: true });
+  paint();
+})();

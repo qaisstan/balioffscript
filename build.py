@@ -178,7 +178,7 @@ NAV_GROUPS = [
     ("Owning",    ["ownership", "building"]),
     ("Moving",    ["visas", "living"]),
     ("Business",  ["company", "tax"]),
-    ("Investing", ["rental", "areas"]),
+    ("Investing", ["rental", "areas", "compare"]),
 ]
 
 # Populated in main() so nav() can list each section's pages.
@@ -219,6 +219,8 @@ def md(text):
     """Minimal markdown. Enough for this site, deliberately small."""
     html, lines = [], text.split("\n")
     in_ul = in_table = False
+    ids = [uid for _, _, uid in heading_map(text)]
+    ids.reverse()   # popped in document order
 
     def close():
         nonlocal in_ul, in_table
@@ -273,12 +275,12 @@ def md(text):
         if s.startswith("### "):
             close()
             t = inline(s[4:])
-            html.append(f'<h3 id="{slugify(s[4:])}">{t}</h3>')
+            html.append(f'<h3 id="{ids.pop() if ids else slugify(s[4:])}">{t}</h3>')
             continue
         if s.startswith("## "):
             close()
             t = inline(s[3:])
-            html.append(f'<h2 id="{slugify(s[3:])}">{t}</h2>')
+            html.append(f'<h2 id="{ids.pop() if ids else slugify(s[3:])}">{t}</h2>')
             continue
         close()
         html.append(f"<p>{inline(s)}</p>")
@@ -475,15 +477,36 @@ def slugify(t):
     return re.sub(r"[\s_]+", "-", t)[:60]
 
 
+def heading_map(text):
+    """Every ## and ### in document order, each with a unique id. Two headings
+    worded the same would otherwise share an id, which is invalid HTML and
+    sends both contents links to the first one."""
+    out, seen = [], {}
+    for line in text.split("\n"):
+        s = line.strip()
+        if s.startswith("### "):
+            lvl, t = 3, s[4:].strip()
+        elif s.startswith("## "):
+            lvl, t = 2, s[3:].strip()
+        else:
+            continue
+        base = slugify(t)
+        seen[base] = seen.get(base, 0) + 1
+        out.append((lvl, t, base if seen[base] == 1 else f"{base}-{seen[base]}"))
+    return out
+
+
 def headings(body):
     """H2s only. The table of contents is for scanning, not for every subhead."""
-    return [(slugify(l[3:].strip()), l[3:].strip())
-            for l in body.split("\n") if l.startswith("## ")]
+    return [(uid, t) for lvl, t, uid in heading_map(body) if lvl == 2]
 
 
-def toc(body):
-    hs = headings(body)
-    if len(hs) < 4:
+def toc(body, extra=()):
+    """Contents list for the rail. Three headings is enough to be worth one;
+    below that it is furniture. `extra` appends sections that live outside the
+    markdown body, such as the questions block."""
+    hs = headings(body) + list(extra)
+    if len(hs) < 3:
         return ""
     items = "".join(f'<li><a href="#{i}">{t}</a></li>' for i, t in hs)
     return (f'<nav class="toc" aria-label="On this page">'
@@ -511,32 +534,142 @@ def extract_faq(body):
 
 
 # Terms that earn an internal link the first time they appear in a body.
+#
+# Order matters: the list is walked top down, so a specific term has to sit
+# above the general one that contains it ("investor KITAS" before "KITAS").
+# One link per term per article, first occurrence only, text nodes only.
 LINK_TERMS = [
+    # title and the deal itself
     ("nominee arrangement", "/ownership/nominee-structure-bali/"),
+    ("nominee structure", "/ownership/nominee-structure-bali/"),
     ("Hak Pakai", "/ownership/hak-pakai-explained/"),
-    ("leasehold", "/ownership/hgb-vs-leasehold-bali/"),
+    ("Hak Sewa", "/ownership/hak-sewa-leasehold-bali/"),
+    ("Hak Milik", "/ownership/shm-shgb-shp-certificate-types/"),
+    ("HGB", "/ownership/hgb-vs-leasehold-bali/"),
+    ("extension clause", "/ownership/leasehold-extension-clause/"),
+    ("leasehold", "/ownership/leasehold-vs-freehold-bali/"),
+    ("freehold", "/ownership/leasehold-vs-freehold-bali/"),
+    ("due diligence", "/ownership/bali-due-diligence-timeline/"),
+    ("notary", "/ownership/notary-ppat-bali/"),
+    ("PPAT", "/ownership/notary-ppat-bali/"),
+    ("power of attorney", "/ownership/power-of-attorney-indonesia/"),
+    ("prenuptial agreement", "/ownership/prenuptial-agreement-indonesia/"),
+    ("inheritance", "/ownership/wills-inheritance-indonesia/"),
+    ("land certificate", "/ownership/shm-shgb-shp-certificate-types/"),
+    ("hidden costs", "/ownership/bali-hidden-costs-buying/"),
+    ("property scams", "/ownership/bali-property-scams/"),
+    ("buying process", "/ownership/buying-process-bali-step-by-step/"),
+
+    # building and permits
     ("KDB", "/building/kdb-klb-bali/"),
+    ("KLB", "/building/kdb-klb-bali/"),
     ("zoning", "/building/bali-zoning-colours/"),
     ("PBG", "/building/pbg-slf-building-permits/"),
+    ("SLF", "/building/pbg-slf-building-permits/"),
+    ("cost to build", "/building/cost-to-build-villa-bali/"),
+    ("off-plan", "/building/off-plan-villa-bali-risk/"),
+    ("handover", "/building/villa-handover-checklist/"),
+    ("developer", "/building/how-to-choose-bali-developer/"),
+
+    # company
     ("PT PMA", "/company/pt-pma-capital-2026/"),
-    ("BPHTB", "/tax/bali-property-taxes/"),
+    ("KBLI", "/company/pt-pma-kbli-closure-bali/"),
+    ("NIB", "/company/oss-nib-indonesia/"),
+    ("OSS", "/company/oss-nib-indonesia/"),
+    ("virtual office", "/company/virtual-office-indonesia/"),
+    ("work permit", "/company/work-permit-foreign-director/"),
+
+    # tax
+    ("BPHTB", "/tax/bphtb-transfer-tax-bali/"),
+    ("PBB", "/tax/pbb-annual-property-tax/"),
+    ("rental income tax", "/tax/rental-income-tax-bali/"),
+    ("capital gains", "/tax/capital-gains-tax-indonesia-property/"),
+    ("double tax treaty", "/tax/double-tax-treaty-indonesia/"),
+    ("NPWP", "/tax/npwp-how-to-get/"),
     ("tax resident", "/tax/npwp-tax-residency/"),
+
+    # running it
+    ("break-even occupancy", "/rental/bali-villa-break-even-occupancy/"),
     ("occupancy", "/rental/bali-villa-break-even-occupancy/"),
+    ("net yield", "/rental/gross-vs-net-yield-bali/"),
+    ("gross yield", "/rental/gross-vs-net-yield-bali/"),
+    ("villa manager", "/rental/self-manage-vs-villa-manager/"),
+    ("management agreement", "/rental/villa-management-agreement-bali/"),
+    ("running costs", "/rental/bali-villa-running-costs/"),
+    ("exit strategy", "/rental/bali-property-exit-strategy/"),
+    ("Airbnb", "/rental/airbnb-bali-rules/"),
+    ("villa insurance", "/rental/bali-villa-insurance/"),
+
+    # visas
+    ("investor KITAS", "/visas/investor-kitas-e28a/"),
     ("Second Home", "/visas/second-home-visa-indonesia/"),
+    ("golden visa", "/visas/golden-visa-indonesia/"),
+    ("visa on arrival", "/visas/visa-on-arrival-bali/"),
+    ("E33G", "/visas/e33g-remote-worker-kitas/"),
+    ("overstay", "/visas/overstay-indonesia/"),
+    ("KITAP", "/visas/kitap-itap-indonesia/"),
+    ("KITAS", "/visas/kitas-bali-guide/"),
+
+    # living
     ("cost of living", "/living/cost-of-living-bali/"),
+    ("international schools", "/living/international-schools-bali/"),
     ("school fees", "/living/international-schools-bali/"),
     ("medical evacuation", "/living/healthcare-in-bali/"),
+    ("healthcare", "/living/healthcare-in-bali/"),
+
+    # places
+    ("the Bukit", "/areas/uluwatu-bukit-property/"),
+    ("Uluwatu", "/areas/uluwatu-bukit-property/"),
+    ("Canggu", "/areas/canggu-berawa-property/"),
+    ("Pererenan", "/areas/pererenan-cemagi-property/"),
+    ("Seminyak", "/areas/seminyak-property/"),
+    ("Umalas", "/areas/umalas-property/"),
+    ("Ubud", "/areas/ubud-gianyar-property/"),
+    ("Sanur", "/areas/sanur-denpasar-property/"),
+    ("Jimbaran", "/areas/jimbaran-property/"),
+    ("Nusa Penida", "/areas/nusa-penida-property/"),
+    ("Tabanan", "/areas/tabanan-west-coast-property/"),
+    ("Lombok", "/areas/lombok-property-foreigners/"),
 ]
+
+# A ceiling per article. Past roughly a dozen the links stop helping a reader
+# and start reading as keyword stuffing, which is the opposite of the point.
+MAX_AUTOLINKS = 12
+
+
+NO_LINK = {"a", "h1", "h2", "h3", "h4", "h5", "h6", "code", "th", "svg"}
 
 
 def autolink(html, self_path):
-    """One link per term, first occurrence only, never inside an existing
-    anchor, heading or code span."""
+    """One link per term, first occurrence only, and only in text. Walks the
+    markup tag by tag so a term inside an attribute, an existing anchor, a
+    heading, a table header or an inline SVG is left alone."""
+    added = 0
     for term, target in LINK_TERMS:
+        if added >= MAX_AUTOLINKS:
+            break
         if target == self_path or f'href="{BASE}{target}"' in html:
             continue
-        pat = re.compile(r"(?<![\w/>-])(" + re.escape(term) + r")(?![\w<]|[^<]*</a>)", re.I)
-        html, n = pat.subn(rf'<a href="{BASE}{target}">\1</a>', html, count=1)
+        pat = re.compile(r"(?<![\w-])(" + re.escape(term) + r")(?![\w-])", re.I)
+        parts = re.split(r"(<[^>]+>)", html)
+        depth = 0
+        for i, part in enumerate(parts):
+            if part[:1] == "<":
+                tag = re.match(r"</?\s*([a-zA-Z0-9]+)", part)
+                if tag and tag.group(1).lower() in NO_LINK:
+                    if part[:2] == "</":
+                        depth = max(0, depth - 1)
+                    elif not part.rstrip().endswith("/>"):
+                        depth += 1
+                continue
+            if depth or not part.strip():
+                continue
+            linked, n = pat.subn(rf'<a href="{BASE}{target}">\1</a>', part, count=1)
+            if n:
+                parts[i] = linked
+                html = "".join(parts)
+                added += 1
+                break
     return html
 
 
@@ -654,6 +787,7 @@ def nav(active=""):
         ("What I&rsquo;d check first", "/check/", "The intake list for a live deal"),
         ("Due diligence checklist", "/checklist/", "Print it and take it to viewings"),
         ("About", "/about/", "Who writes this, and why"),
+        ("Every answer", "/all/", "The full index, all of it on one page"),
     ]
     trows = "".join(
         f'<a class="nd-row" href="{BASE}{href}"><span class="nd-row-h">{t}</span>'
@@ -682,6 +816,7 @@ def footer(extra=""):
 <div class="foot-links">
 <a class="ig-link" href="{BASE}/opportunities/">{form_logo("ig ig-sm")}<span>Find the right one</span></a>
 <a class="ig-link" href="{INSTAGRAM}" rel="me">{ig_logo("ig ig-sm")}<span>@balioffscript</span></a>
+<a href="{BASE}/all/">Every answer</a>
 <a href="{BASE}/calculator/">ROI calculator</a>
 <a href="{BASE}/about/">About</a>
 <a href="{BASE}/check/">What I'd check first</a>
@@ -804,7 +939,7 @@ def next_up(m, pages):
 
 
 
-def share_bar(title, path):
+def share_bar(title, path, cls=""):
     """Share row on every article. Native sheet on a phone, explicit networks
     on desktop, and a copy-link fallback that always works."""
     from urllib.parse import quote
@@ -821,7 +956,7 @@ def share_bar(title, path):
         return (f'<a class="sh-b sh-{cls}" href="{href}" target="_blank" rel="noopener" '
                 f'aria-label="Share on {label}">'
                 f'<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">{ico[key]}</svg></a>')
-    return f"""<div class="sh" data-url="{url}" data-title="{title}">
+    return f"""<div class="sh{cls}" data-url="{url}" data-title="{title}">
 <span class="sh-l">Share</span>
 {a("wa", f"https://wa.me/?text={t}%20{u}", "WhatsApp", "wa")}
 {a("li", f"https://www.linkedin.com/sharing/share-offsite/?url={u}", "LinkedIn", "li")}
@@ -856,6 +991,15 @@ def onward(m, pages):
 </section>"""
 
 
+def rail_cta():
+    """The rail follows the reader down the page, so this is the only CTA that
+    is on screen the whole way through rather than only at the end."""
+    return (f'<div class="rail-cta"><p>Not sure how this applies to the place '
+            f'you are looking at?</p>'
+            f'<a href="{BASE}/opportunities/">{wa_logo("ig ig-sm")}'
+            f'<span>Ask {AUTHOR}</span></a></div>')
+
+
 def article(m, siblings):
     cat_name = CATEGORIES[m["category"]][0]
     path = f'/{m["category"]}/{m["slug"]}/'
@@ -863,7 +1007,12 @@ def article(m, siblings):
     updated = m.get("verified", str(date.today()))
     faq = extract_faq(m["body"])
 
-    body_html = autolink(md(m["body"]), path)
+    # The questions are lifted out into their own block below, so strip the
+    # source section or the page carries the whole FAQ twice, under two
+    # elements sharing one id.
+    prose_src = re.sub(r"^## Common questions\s*$.*?(?=^## |\Z)", "",
+                       m["body"], flags=re.M | re.S) if faq else m["body"]
+    body_html = autolink(md(prose_src.rstrip()), path)
 
     faq_block = ""
     if faq:
@@ -936,14 +1085,21 @@ def article(m, siblings):
 <span>Updated <time datetime="{updated}">{updated}</time></span>
 <span>{read_time(m["body"])} min read</span>
 </div>
-{toc(m["body"])}
+<div class="art-grid">
+<div class="art-main">
 <div class="prose">{body_html}</div>
 {faq_block}
 {map_widget(focus=m["slug"], compact=True) if m["category"] == "areas" and any(a["slug"] == m["slug"] for a in MAP_AREAS) else ""}
 {reel(m.get("reel", ""))}
 {cta()}
-{share_bar(seo_title, path)}
 {onward(m, ALL_PAGES)}
+</div>
+<aside class="art-rail">
+{toc(prose_src, [("common-questions", "Common questions")] if faq else [])}
+{share_bar(seo_title, path, cls=" sh-rail")}
+{rail_cta()}
+</aside>
+</div>
 </main>
 {footer(f'<script src="{BASE}/map.js" defer></script>') if m["category"] == "areas" else footer()}"""
 
