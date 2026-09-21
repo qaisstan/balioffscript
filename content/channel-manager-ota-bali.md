@@ -1,6 +1,6 @@
 ---
 question: Which platforms should a Bali villa list on?
-title: Listing a Bali Villa: Platforms, Channels and Double Bookings
+title: Bali Villa Listings: Platforms and Double Bookings
 summary: More listings means more exposure and one calendar to keep in sync. Getting that wrong in August is the most expensive administrative error available.
 category: rental
 order: 47
