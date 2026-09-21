@@ -5,62 +5,78 @@ summary: Land and building are separable in Indonesian law. Whether your villa r
 category: ownership
 order: 06
 risk: critical
-regulation: Indonesian civil law on lease; PPAT deed execution. Hak Sewa is not registered at BPN.
+regulation: Indonesian civil law on lease and accession; PPAT deed execution. Hak Sewa is not registered at BPN.
 applies: Anyone building on leased land
-verified: 2026-09-16
+verified: 2026-09-21
 ---
 
-You paid for the building. The land is someone else's. What happens to your villa in year thirty is a contractual question, and silence favours the landowner.
+You lease land for thirty years and spend USD 250,000 building a villa on it. In year thirty, who owns the villa?
 
-## The legal position
+The default answer is: the landowner. And most leases do nothing to change it.
 
-Indonesian law treats land and buildings as separable. A building can be owned by someone other than the landholder. That is precisely what makes leasehold development possible.
+## The default position
 
-But separability is a starting point, not an answer. What actually governs your villa at expiry is what your lease says.
+Indonesian law separates land rights from building rights — they are distinct, which is exactly why HGB, a building right over land held by someone else, exists as a category.
 
-## The three possible outcomes
+But in the absence of a provision to the contrary, a building erected on leased land is generally treated as passing with the land when the lease ends. Your thirty years of use ends and the structure stays.
 
-| Clause | What happens at expiry |
-| --- | --- |
-| Building reverts to landowner | You hand over the villa. Common, and often unstated |
-| You may remove the building | Usually worthless in practice. You cannot move a villa |
-| Landowner compensates you | Rare, and only as good as the valuation mechanism |
+This is not a trap or a scandal. It is the ordinary operation of a lease, and it is why leasehold is priced below other routes. The problem is that buyers fund a build believing they own a villa, when what they own is thirty years of using one.
 
-Most Bali leases land in the first row, sometimes by express clause and sometimes by silence.
+## What it means for the arithmetic
 
-## Why it changes your numbers from day one
+A leasehold villa is a **wasting asset** and the building is part of what wastes.
 
-If the building reverts, your villa is a depreciating asset with a hard end date. The last years of the lease are years in which you maintain something you are about to give away.
+If you build for USD 250,000 on a thirty year lease, the building has to earn its cost back within thirty years along with everything else. It has no residual value to you at the end. There is no asset to sell in year thirty-one.
 
-That should be in the model from the first year, not discovered in the twenty-eighth. It also means the economics of a major refurbishment in year twenty-two are completely different from year five.
+That changes the underwriting completely. The calculation is not "what will this villa be worth in thirty years". It is "what will this villa earn me over thirty years, and does that exceed what I put in".
 
-## What to negotiate
+It is also why the **extension clause** is worth more than the build quality. An extension converts a building you were about to lose into a building you keep using. That is the single largest value event in the life of a Bali leasehold, and whether it happens is decided by wording agreed decades earlier.
 
-- State expressly what happens to the building at expiry
-- If it reverts, say so plainly so it is priced rather than assumed
-- If compensation applies, define **how** it is valued and **when** it is paid
-- Tie the building question to the extension clause, because a guaranteed extension makes reversion a distant problem rather than a near one
-- Confirm who insures the building and who benefits from the policy
+## What to write into the lease
 
-## The practical reality
+**Ownership of improvements during the term.** State that buildings and improvements erected by the lessee remain the lessee's property during the lease. This matters for insurance, for financing conversations, and for establishing what you are assigning if you sell.
 
-Most owners solve this not by negotiating reversion but by securing a **jaminan perpanjangan**, a guaranteed extension. If the lease reliably runs to around eighty years, the building question becomes academic for your ownership period.
+**What happens at expiry.** Three options, in descending order of preference.
 
-That is why the extension clause matters more than almost anything else in the document.
+The building becomes the landowner's, with **compensation** on a stated basis — an agreed valuation mechanism, or a formula.
+
+The lessee has a **right to remove** the building or its materials. Rarely practical for a villa, but it can be a negotiating lever.
+
+The building passes without compensation, which is the default, and should be reflected in the price you pay.
+
+**An express right to build**, describing what you intend, with an obligation on the landowner to sign every permit application within a defined time and a power of attorney so you are not dependent on their cooperation at each step.
+
+**Insurance and risk** during the term. Who insures, for what, and who receives the proceeds if the building is damaged.
+
+## The PBG sits in the landowner's name
+
+A related and separate problem. The building approval on leased land is generally applied for by or with the consent of the party holding the land right — the landowner, not you.
+
+So even during the term, the permit for your building is in someone else's name. The lease must oblige them to cooperate on every application, renewal and variation. Without that obligation, a landowner who becomes difficult mid-build holds close to absolute leverage.
+
+## What to check before you build
+
+Whether the lease grants an express right to build at the scale you intend. Whether it obliges the landowner to sign permit applications. Whether there is a power of attorney. Whether improvements are stated to be yours during the term. What happens at expiry and whether compensation applies. Whether the extension clause is a guaranteed extension or merely a right of first refusal. And how many years actually remain, because a build on a fifteen year remainder rarely makes sense at any quality.
+
+## The honest framing
+
+None of this means you should not build on leased land. Most foreign-funded building in Bali happens exactly this way and most of it is fine.
+
+It means you should underwrite it as what it is: a defined period of use, funded up front, that has to pay for itself inside the term. Buyers who understand that build sensibly and do well. Buyers who think they are building an asset for their children are the ones who are surprised.
 
 ## Common questions
 
-### Do I own the villa I build on leased land in Bali?
-You can own the building separately from the land, but what happens to it at expiry depends on the lease. Many leases have it revert to the landowner.
+### Who owns a villa built on leased land in Bali?
+By default the landowner, once the lease expires, because a building generally passes with the land unless the contract provides otherwise.
 
-### Can I take the building with me at the end of a lease?
-A removal right is common in drafting and close to worthless in practice. You cannot relocate a villa.
+### Can I get compensation for my building at the end of a Bali lease?
+Only if the lease provides for it. Negotiate a stated compensation basis or an agreed valuation mechanism before signing, because the default is no compensation.
 
-### Do I get compensated when the lease ends?
-Only if the lease says so and defines how the value is calculated and paid. Most do not.
+### Is it worth building on leased land in Bali?
+Yes, if the term is long enough for the build to pay for itself through income and use. It is not an asset with residual value at expiry, so it has to earn its cost within the term.
 
-### How do I protect the building I paid for?
-Secure a guaranteed extension so the end date is far away, and state the reversion position expressly so it is priced.
+### Whose name is the building permit in on leased land?
+Generally the landowner's, because the PBG is applied for by or with the consent of the party holding the land right. The lease must oblige them to sign every application.
 
-### Does the building revert automatically?
-Where the lease is silent, the practical outcome usually favours the landowner. Do not rely on silence.
+### What should the lease say about improvements?
+That buildings erected by the lessee remain the lessee's property during the term, what happens at expiry and on what compensation basis, plus an express right to build and an obligation on the landowner to sign permit applications.

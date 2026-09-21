@@ -7,63 +7,76 @@ order: 07
 risk: critical
 regulation: Indonesian civil law on lease; PPAT deed execution. Hak Sewa is not registered at BPN.
 applies: Anyone who will eventually sell a leasehold
-verified: 2026-09-16
+verified: 2026-09-21
 ---
 
-You will sell this one day. The lease decides whether that is straightforward or an expensive negotiation with a third party.
+Everyone buying a leasehold intends to sell it eventually, or to pass it on. Almost nobody checks whether they are permitted to.
 
 ## What assignment means
 
-Selling a leasehold is not selling land. It is transferring your rights under the lease to a new party, which is an **assignment**.
+Selling a leasehold is not selling property. It is **assigning your contractual rights** under the lease to someone else for the remaining term.
 
-Whether you can do it, and on what terms, is set by the lease itself.
+That distinction runs through everything. There is no title to transfer, because Hak Sewa is not registered. There is no land office registration to complete. What happens is a new deed substituting the buyer for you as lessee, executed before a notary.
 
-## The clauses that decide your exit
+And because it is a contract, whether you may assign it at all is determined by the contract.
 
-| Clause | Effect |
-| --- | --- |
-| Freely assignable | You sell without the landowner's involvement. Best case |
-| Assignable with consent, not to be unreasonably withheld | Workable. The qualifier matters |
-| Assignable with consent | The landowner can simply refuse |
-| Assignment fee payable | A percentage of your sale price to a third party |
-| Silent | Argument at the worst possible moment |
+## The three positions a lease can take
 
-An unqualified consent requirement hands the landowner a veto over your exit. Combined with a fee, it means they take a share of a gain they did not create.
+**Freely assignable.** You may transfer without the landowner's consent, usually with an obligation to notify. This is what you want and it is the minority position.
 
-## What to insist on at purchase
+**Assignable with consent, not to be unreasonably withheld.** Workable, provided "unreasonably" is defined and there is a remedy if consent is refused. Without those, the qualifier means very little in practice.
 
-- Assignment permitted, with consent **not to be unreasonably withheld**
-- Any assignment fee stated as a **fixed figure or capped percentage**, not open
-- A defined time limit for the landowner to respond to a consent request
-- Confirmation that the new party inherits the **same extension rights** you hold
+**Assignable only with consent, at the landowner's discretion.** Your exit is controlled by someone else. If they want a fee, they set it, and they set it at the moment you have a buyer waiting and a completion date agreed.
 
-That last point is the one people miss. If your buyer does not inherit the extension clause on the same terms, they are buying a shorter asset than you think you are selling, and they will price it that way.
+Many Bali leases are silent on the point entirely, which is the worst version, because it leaves the question open exactly when you least want it open.
 
-## The practical effect on value
+## The consent fee problem
 
-A leasehold that is freely assignable, with guaranteed extension rights that pass to the buyer, has a real market.
+Where consent is required, the landowner has leverage at precisely the moment you are least able to resist. You have a buyer. The buyer has a timetable. Your alternative to paying is losing the sale.
 
-A leasehold requiring unqualified consent, with an uncapped fee, and extension rights that may not transfer, has a much smaller one. The discount is not sentiment, it is the buyer pricing the friction they inherit.
+Consent fees demanded at that point can be substantial, and there is nothing unusual about the demand. It is the predictable consequence of a clause that gave them the right.
 
-## Before you sell
+If your lease requires consent, obtain it **in principle before you list**, in writing, with the fee stated. A seller who starts marketing without doing this has given away their negotiating position before the first viewing.
 
-Read the assignment clause before you list, not after you have a buyer. Approach the landowner early if consent is needed. Have the deed, the extension documentation and any permits ready.
+## What a good assignment clause says
 
-Nothing kills a Bali sale faster than discovering at the deed stage that a third party has to agree and has not been asked.
+An express right to assign, sublease and mortgage the leasehold interest. If consent is required, a statement that it shall not be unreasonably withheld, with a definition of what is reasonable and a deemed-consent provision if the landowner does not respond within a defined period. A stated administrative fee, or none, rather than a figure set later. And an obligation that the landowner execute the documents an assignment requires, within a defined time.
+
+Also: the right to **sublease**, separately. Without it you cannot rent the property out, which removes your income as well as your exit.
+
+## What a buyer of your lease will check
+
+The same things you should have checked. The remaining term. Whether the extension clause is jaminan or prioritas. Whether the lease binds the current landowner, who may not be the landowner you signed with. Whether the building is covered by the lease or reverts. PBG and SLF. Zoning and licensing.
+
+If any of those are weak, your buyer pool shrinks and the price falls. Which is why these are purchase-time questions, not sale-time questions.
+
+## Practical mechanics
+
+The assignment is executed as a notarial deed, ideally before the same notary who holds the original lease, or one with the full file.
+
+The buyer pays you; you assign the remaining term. Because Hak Sewa is not a registered right, BPHTB does not apply as it would on a titled transfer, and the tax treatment of what you receive depends on your residency and how the consideration is characterised. That characterisation is genuinely technical and worth advice before terms are agreed rather than after.
+
+Both the landowner's consent, where required, and the original lease documentation need to be available. A seller who cannot produce the original deed will struggle, and "the notary has it somewhere" is not the same as having it.
+
+## What to do now if you already own one
+
+Read your lease. Find the assignment clause. If it requires consent, approach the landowner while you are not selling — that is when you have the most leverage and they have the least reason to price it — and try to agree the position in writing.
+
+If the lease is silent, seek a written side agreement confirming assignment is permitted and on what terms. A landowner with no immediate incentive to obstruct will often agree to something reasonable. The same landowner, approached three days before your completion date, will not.
 
 ## Common questions
 
-### Can you sell a leasehold in Bali?
-Yes, by assigning your rights, subject to whatever the lease says about consent and fees.
+### Can you sell a leasehold villa in Bali?
+Only if the lease permits assignment. Many require the landowner's consent, and some are silent, which leaves the question open at the worst possible moment.
 
-### Does the landowner have to approve the sale?
-Only if the lease requires consent. An unqualified consent clause effectively gives them a veto over your exit.
+### What is a consent fee on a Bali lease?
+A payment a landowner may demand for approving an assignment where the lease requires their consent. The amount is set at the point you have a buyer waiting, which is why it should be agreed in advance.
 
-### Is there a fee to transfer a Bali lease?
-Some leases impose one. It should be a fixed figure or a capped percentage, agreed at purchase rather than at sale.
+### Do I pay BPHTB when selling a Bali leasehold?
+No, because BPHTB applies to the acquisition of a registered right and a leasehold assignment is not one. The tax treatment of what you receive depends on residency and characterisation.
 
-### Does my buyer get the same extension rights?
-Only if the lease says the rights pass on assignment. Confirm it, because it materially changes what you are selling.
+### What should an assignment clause say?
+An express right to assign, sublease and mortgage, consent not to be unreasonably withheld with a defined standard, a deemed-consent period, a stated fee rather than one set later, and an obligation on the landowner to execute the documents.
 
-### What makes a leasehold hard to sell?
-Unqualified consent requirements, uncapped assignment fees, a short remaining term and extension rights that do not transfer.
+### What if my existing lease is silent on assignment?
+Approach the landowner now, while you are not selling, and seek a written side agreement. Leverage disappears entirely once you have a buyer and a date.
