@@ -5,64 +5,86 @@ summary: Feel does not move a seller. Verified defects do. Every item below is a
 category: rental
 order: 23
 risk: high
-regulation: Market figures. Verify current pricing directly.
+regulation: Market figures. Verify current pricing directly through your own notary.
 applies: Anyone at the offer stage
-verified: 2026-09-13
+verified: 2026-09-21
 ---
 
-Negotiation here is not haggling. It is presenting verified findings and letting them price themselves.
+Negotiation in Bali is not a haggle. It is the process of converting what due diligence found into a price, and buyers who have not done the diligence have nothing to negotiate with.
 
-## What actually moves price
+## Why asking prices are soft
 
-**Remaining term.** If the lease has years run, the value has already fallen. Bring the arithmetic.
+Bali has no published transaction register and no independent valuation profession. Sellers price on what they hope, what a neighbour claims to have achieved, and what an agent told them to list at.
 
-**The extension clause.** "Market rate" is a defect. Price it as one.
+Properties sit for six, twelve, eighteen months at numbers nobody will pay. Above USD 750,000 the buyer pool is a dozen people and most listings eventually sell at a discount.
 
-**Missing PBG or SLF.** Quantify the regularisation cost, or treat the building as unpermitted and price land plus depreciated structure.
+So the asking price is an opening position, and treating it as a valuation is the first mistake.
 
-**No transferable licence.** Rental income becomes zero in your model. This is the largest single deduction available and sellers resist it hardest, because the income is what justifies their price.
+## What actually moves the price
 
-**Refurbishment due.** Tropical fit-out has a five-year cycle. If it is due, that is a cost you are inheriting.
+Every one of these is a verified fact with a cost attached, which is what makes it negotiable rather than an opinion.
 
-**Access road width.** Affects build cost, guest experience and resale.
+**A short remaining term.** The single largest lever. Value declines with the term and accelerates near the end, because the buyer pool for a short remainder collapses. Price against the years you get, not the years the seller paid for.
 
-**Time on market.** Public information if you ask. A property listed eleven months has already told you something.
+**A prioritas rather than jaminan extension clause.** If the extension is only a right of first refusal at a price set later, you are buying the initial term and nothing more. That is a large number and it is defensible.
 
-## What does not move price
+**Missing PBG or SLF.** Get a quote for regularising it and take it off the price. Where the zoning means it cannot be regularised, that is not a discount, it is a reason to walk.
 
-Telling a seller it is too expensive. Comparing to asking prices elsewhere. Enthusiasm. Deadlines you invented.
+**Zoning that does not permit the intended use.** Same.
 
-## The structural advantage you have
+**Deferred maintenance.** Pool resurfacing, roof, rewiring, aircon replacement, drainage. Get quotes from local contractors and present them. A twenty-year-old villa that has not been maintained is a renovation project priced as a house.
 
-This is a **cash market**. Foreigners cannot realistically get local financing, so your buyer pool at exit is cash buyers, and so is theirs.
+**No documented access right.** A right of way used in practice but absent from the certificate is a real defect.
 
-That means a verified, ready, funded buyer is genuinely scarce, and being obviously able to complete is leverage. Say it plainly and early.
+**Unpaid PBB.** Arrears transfer with the land. Deduct them.
 
-## On manufactured urgency
+**A parcel that cannot be split**, where your plan needed it to be.
 
-Another buyer is looking. The price rises Monday. The owner needs to close this week.
+**Weak or unverifiable trading figures.** A seller who cannot produce two years of month-by-month revenue with tax filings and bank statements behind it has not proved the income, and the price should reflect an unproven number.
 
-Land listed for eight months does not become urgent because you walked onto it. If a seller will not allow time for standard verification, the verification is the reason.
+**An existing management agreement you do not want**, with a notice period and a cost to exit.
 
-Walking away is the only real leverage anyone has in any negotiation, and in this market it is available constantly because there is always another plot.
+## What does not move the price
 
-## Structure the payment, not just the price
+That you like it. That you are a cash buyer, mostly — almost everyone is here. That you can complete quickly; a seller with no deadline does not value speed. That the market is "cooling", asserted without evidence. And an aggressive low offer with no reasoning behind it, which in Bali generally ends the conversation rather than starting it.
 
-Even at an agreed price, condition each tranche on a verification milestone that has actually been met, with refund terms in writing. A seller who agrees the price but refuses conditional payment is telling you where the problem is.
+## The mechanics
+
+**Do the diligence first.** You cannot negotiate defects you have not found. This is why the one to three week verification window matters commercially as well as legally.
+
+**Make the offer in writing**, itemised. "USD 340,000, being the asking price less USD 18,000 for the pool and roof quoted at X, less USD 12,000 for the PBG regularisation quoted at Y, less PBB arrears of Z." That is very hard to argue with and very easy to accept.
+
+**Attach the evidence.** Contractor quotes, the notary's findings, the PBB statement.
+
+**Be willing to walk, genuinely.** It is the only leverage that exists in a market with no financing contingency, no cooling-off period and no standard contract.
+
+**Do not fall in love before the diligence.** Buyers who decide emotionally then verify have already conceded.
+
+## On deposits
+
+If you pay one, keep it small, have it held by **your own notary** rather than the agent or seller, and make it refundable in writing against defined conditions — specifically, anything due diligence discloses.
+
+A deposit paid to an agent's personal account against no written conditions is the most common way money disappears in this market, and it also destroys your negotiating position, because walking away now costs you something.
+
+## On urgency
+
+There is always another buyer and always a deadline. Almost always there is not.
+
+A seller who will not allow one to three weeks for verification has told you that verification would find something. That is not a negotiating obstacle, it is the answer.
 
 ## Common questions
 
-### Can you negotiate property prices in Bali?
-Yes, and the strongest negotiation is built on verified defects rather than on opinion about price.
+### How much can you negotiate off a Bali property price?
+It depends entirely on what due diligence finds. Asking prices are soft, but the discount comes from verified defects with quotes attached, not from haggling.
 
-### How much below asking do Bali properties sell for?
-It varies enormously because asking prices drift upward at no cost to sellers. Work from transacted evidence rather than a percentage rule.
+### What is the strongest negotiating point in Bali?
+A short remaining lease term, or an extension clause that is only a right of first refusal. Both materially reduce what you are actually buying.
 
-### What is the biggest negotiating lever in Bali?
-A missing or non-transferable operating licence, because it removes the rental income that justifies the asking price.
+### Should I make a low offer in Bali?
+An itemised offer supported by contractor quotes and notary findings works. An unsupported low offer generally ends the conversation rather than opening it.
 
-### Should I use an agent to negotiate?
-An agent paid by the seller is negotiating for the seller. If you want representation, pay for it yourself.
+### Do cash buyers get a better price in Bali?
+Rarely, because almost everyone is a cash buyer here. There is no financing chain to fall through, so speed and certainty carry less weight than elsewhere.
 
-### Is it rude to negotiate hard in Bali?
-Negotiating is normal. Losing your temper is not, and it damages your standing in a way that is hard to repair.
+### Who should hold my deposit in Bali?
+Your own notary, not the agent or the seller, and it should be refundable in writing against anything due diligence discloses.

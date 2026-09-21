@@ -5,64 +5,72 @@ summary: A developer gives you a new building and a company that may hold nothin
 category: rental
 order: 27
 risk: high
-regulation: Market figures. Verify current pricing directly.
+regulation: No developer licensing or deposit protection in Indonesia; PBG and SLF requirements.
 applies: Anyone comparing a project launch against a resale
-verified: 2026-09-15
+verified: 2026-09-21
 ---
 
-The risks are different in kind, not just in degree.
+These are two different transactions with two different risk profiles, and the checks that protect you in one do not protect you in the other.
 
 ## Buying from a developer
 
-**What you get.** A new or near-new building, modern specification, sometimes a management arrangement and a yield projection.
+**What you get.** A new or nearly new building, a full lease term from the start, no accumulated maintenance, modern specification, and often a payment schedule spread across construction.
 
-**What you carry.** Construction risk if it is off-plan. Counterparty risk, because many projects sit in a company formed for that project with no other assets. Specification risk, because what is delivered is what the contract says, not what the render showed.
+**What you take on.** Counterparty risk. You are contracting with a company, frequently a special purpose vehicle holding little or nothing, in a country with **no developer licensing regime and no statutory deposit protection scheme**. If the project stops, there is generally nothing to enforce against.
 
-**What to verify.** The land title held by the contracting entity now. PBG issued for the design sold. A completed project you can visit. Payments tied to inspected milestones.
+**What to verify.** Whether the PBG is issued or merely applied for. What the developer has actually finished, inspected by you, with past buyers found independently. Who holds the land, on what title, for how long. What happens to your money if construction stops, in writing. Whether the rental programme is contractual or marketing. And whether the operating entity's KBLI classification is currently available, given Bali closed new foreign-owned villa and homestay registration on 22 July 2026.
 
 ## Buying from a private owner
 
-**What you get.** An existing building you can survey, real operating history if it rents, permits you can check against what is standing, and a price that is usually more negotiable.
+**What you get.** A building that exists and can be inspected. A verifiable rental history, if it has been let. A title history you can trace at the land office. A seller with a personal interest in completing, who is usually more flexible on price and terms than a developer with a price list.
 
-**What you carry.** Title history risk: inheritance, spousal consent, boundaries, charges. Building condition risk. And whatever the previous owner did without permits.
+**What you take on.** The property's accumulated past. An older building with deferred maintenance. A title that may have passed through informal family divisions. A lease with clauses drafted years ago that may not bind successors or permit assignment. Permits that may not match what was built after a renovation nobody declared.
 
-**What to verify.** Certificate at the land office. Registered holder and consents. Zoning. Boundaries walked. PBG and SLF matching the building including extensions. Whether the operating licence transfers.
+**What to verify.** The certificate at the land office, directly. That the seller is the registered owner, with spousal consent if married. The remaining term and the extension mechanism. PBG and SLF against the building that physically exists. Encumbrances, existing leases and management agreements. Building condition, with a proper inspection rather than a walkthrough. PBB receipts. Access rights.
 
-## The asymmetry that matters
+## The core difference
 
-With a private owner, the problems are **discoverable now**. Everything wrong with the title and the building exists today and a proper two to three week diligence finds it.
+With a developer you are assessing **a counterparty and a promise**. With a private owner you are assessing **an asset and its history**.
 
-With an off-plan developer, the main risk is in the future and no amount of diligence eliminates it. You are betting on performance.
+The private owner risk is almost entirely discoverable in a fortnight by a competent notary and a surveyor. The developer risk is not — you can check everything available and the project can still stop, because the outcome depends on a company's future conduct rather than on facts that already exist.
 
-That is why the premium for completed property is usually money well spent.
+That asymmetry is why, for most first-time buyers in Bali with no local reference points, **completed property from a private owner is the safer transaction**, even at a higher price.
 
-## Where a developer is the better choice
+## Price
 
-An established developer with handed-over projects you can walk through, verified land and permits, a realistic timeline, and payments following inspected progress.
+Developers price to a list, with a margin built in and marketing behind it. Discounts exist at launch and for early stages, and they are compensation for risk rather than a bargain.
 
-That combination is genuinely safer than an unpermitted private villa with a tangled title.
+Private sellers price on hope and negotiate on evidence. A resale with a documented defect list is where the real discounts in this market are found.
 
-## The question that separates them
+## Rental performance
 
-Ask a developer: which project can I visit that you finished, and can I speak to a buyer from it that you did not choose?
+A developer's projection is a projection. It has never been tested, it is usually gross, and it frequently uses area comparables rather than street comparables.
 
-Ask a private owner: may I see the certificate, the PBG, the SLF and twelve months of operating statements?
+A private owner's history, if properly evidenced with two years of month-by-month figures, tax filings and bank statements, is the closest thing to a fact available in this market.
 
-The reaction to both questions tells you more than the answers.
+If the owner cannot produce that evidence, treat the claimed income as unproven and price the property on what it is rather than on what it earns.
+
+## The third option
+
+Buy land from a private owner and build it yourself with an architect and contractor you engaged.
+
+You capture the developer's margin, you hold the land right from the start with a full term, you control the specification, and every payment buys work you can inspect. You take on permit and contractor risk directly, and you spend twelve to twenty-four months and real attention.
+
+Above roughly USD 300,000, this is frequently both cheaper and safer than either alternative.
 
 ## Common questions
 
-### Is it safer to buy from a developer in Bali?
-Only if they are established with completed projects. A project-only company with no assets is riskier than a private seller with a clean title.
-
-### What are the advantages of buying from a private owner?
-You can inspect the building, verify permits against what stands, see real operating figures and usually negotiate harder.
-
-### What should I ask a Bali developer?
-For the land certificate, the PBG for the design being sold, a completed project to visit, and a buyer from it they did not select.
+### Is it safer to buy from a developer or a private seller in Bali?
+Usually a private seller with a completed property, because the risks are discoverable in advance. Developer risk depends on a company's future conduct, which no amount of checking eliminates.
 
 ### Do developers in Bali offer better prices?
-Off-plan is priced lower, but the discount is compensation for construction and counterparty risk rather than a bargain.
+Launch discounts exist but they are compensation for construction and counterparty risk. The larger real discounts in this market come from resales with documented defects.
 
-### Which is better for a first purchase?
-Usually a completed property from a private owner, because the risks are discoverable during diligence rather than sitting in the future.
+### What is the main risk buying from a private owner in Bali?
+The property's history: informal title divisions, an old lease that does not bind successors or permit assignment, permits that do not match a later renovation, and deferred maintenance.
+
+### Can I trust a developer's rental projection?
+It is untested, usually gross rather than net, and frequently built on area comparables rather than what units on that specific street actually achieve.
+
+### What should I ask a private seller for?
+The original certificate, two years of month-by-month revenue with tax filings and bank statements, PBG and SLF, current PBB receipts, and any existing lease or management agreement.
