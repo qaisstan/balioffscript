@@ -5,58 +5,90 @@ summary: Moving land from a citizen's freehold to a right a foreigner or a compa
 category: ownership
 order: 26
 risk: critical
-regulation: Basic Agrarian Law; PP 18/2021; PPAT and land office procedure.
+regulation: Basic Agrarian Law; PP 18/2021 on land rights; PPAT and land office (BPN) conversion procedure. Verify current practice.
 applies: Anyone buying land currently held as SHM
-verified: 2026-09-15
+verified: 2026-09-21
 ---
 
-Most land a foreigner looks at is currently SHM, Indonesian freehold. You cannot hold that. So the transaction usually involves a conversion.
+Most Bali land is held by Indonesian citizens as **SHM** — Hak Milik, freehold. A foreigner cannot hold that. So if you are acquiring a registered right rather than a lease, the title has to change form first, and the gap between agreeing that and completing it is where money gets stuck.
 
-## The two common conversions
+## What the conversion is
 
-**SHM to SHGB.** Freehold converted to a right to build, held by an Indonesian legal entity such as your PT PMA. Standard when a company is acquiring land to develop or operate.
+Moving land from a citizen's freehold into a right that a foreigner or a foreign-investment company can lawfully hold.
 
-**SHM to Hak Pakai (SHP).** Freehold converted to a right of use held by a qualifying foreigner personally. Requires valid residency and meeting the minimum value conditions.
+**SHM to SHGB** — Hak Milik to Hak Guna Bangunan, a building right with a defined term, which is what a PT PMA holds.
 
-Both are established procedures handled by a PPAT and registered at the land office.
+**SHM to SHP** — Hak Milik to Hak Pakai, a right of use, which a foreigner with a KITAS or KITAP can hold subject to a minimum property value.
 
-## Where it goes wrong
+Both are ordinary procedures. Notaries and land offices do them regularly. They are not exotic and they are not a workaround.
 
-**Paying in full against a promise.** Buyers transfer the purchase price on the understanding that conversion will follow, then hold a receipt while the process stalls.
+## Why the sequencing is the whole problem
 
-The certificate in the correct name is the product. Until it is issued, you hold a contract, not a title.
+The seller holds SHM. You cannot hold SHM. So the land must be converted, and conversion is applied for by the **current registered holder** — the seller — because they are the party with the right to convert.
 
-**Assuming eligibility.** Hak Pakai requires residency and a qualifying property value. If you do not meet both, the conversion you agreed cannot complete.
+That means, in the ordinary sequence, the seller applies for conversion of land they are about to sell, and you are relying on them to complete a process they have limited incentive to expedite once your money is committed.
 
-**Underlying title problems.** Conversion does not fix a defective title. Inheritance not resolved, boundaries disputed, charges registered, a spouse who never consented. These surface during conversion and stop it.
+Get the sequence wrong and you have paid for a conversion that has not happened, on land you do not hold, held by someone who now has your money.
 
-**Girik land.** Unregistered land must first be registered before anything else, which is a longer process that can surface competing family claims.
+## How to structure it safely
 
-## How to structure the payment
+**Do not pay the full price before conversion is complete and the new certificate has issued in the correct name.**
 
-Tie tranches to the conversion milestones: verification complete, deed executed, application lodged, certificate issued in your name. Final payment on the last one.
+The workable structures:
 
-A seller who will not accept that structure is asking you to carry the entire risk of their own title.
+**Conditional purchase deed**, executed before your notary, under which the transaction completes only on issue of the converted certificate, with a defined long-stop date and a defined remedy if it is not met.
 
-## Timing and cost
+**Funds held by your notary** rather than released to the seller, with written release conditions tied to the certificate issuing.
 
-Weeks to months depending on the land office and the complexity. Budget it into your schedule rather than assuming completion on deed signing.
+**Staged payment** against verified milestones — application lodged, approval issued, certificate issued — rather than against dates.
 
-Costs sit alongside the roughly 7 to 8 percent total transaction burden: buyer duty around 5 percent, notary and PPAT fees, and independent legal review.
+Whichever you use, your own notary drafts it and holds the money. The seller's notary holding your funds against a process the seller controls is not a structure, it is a hope.
+
+## What can go wrong
+
+**The conversion is refused or restricted.** Zoning, land classification, minimum plot requirements, or the land's status may not support the target right. Establish this **before** committing, not during.
+
+**Agricultural land.** Converting land classified agricultural to a right supporting a building carries its own process and is not always available. A very large amount of land in Bali is classified this way, including land with villas on it.
+
+**Timing.** Conversions take months, and they take longer where the land office record does not match the certificate, where the parcel has been informally divided within a family, or where any encumbrance exists.
+
+**The seller's circumstances change.** They die, divorce, borrow against the land, or simply stop cooperating. A transaction that depends on a counterparty's continued goodwill for six months is a transaction with a hole in it. This is exactly what the conditional structure and the notary-held funds protect against.
+
+**Value thresholds.** Hak Pakai carries a minimum property value that varies by region and property type. Land that falls below it does not support the right.
+
+## Why many buyers take a lease instead
+
+A leasehold requires no conversion. The landowner keeps SHM, you take a contractual right over it, and the transaction completes in weeks rather than months.
+
+That is a genuine advantage and it is a large part of why leasehold dominates the foreign market here. It also gets you a weaker instrument — unregistered, unmortgageable, with a running term.
+
+The conversion route gives you a registered right on a certificate. It costs time, money and execution risk to get there.
+
+## What to check before you start
+
+That the target right is actually available for that parcel — zoning, classification and value threshold.
+
+That the seller is the registered holder with authority to apply, with spousal consent if married.
+
+That no encumbrance blocks it.
+
+What the realistic timeline is from the notary who will handle it, in writing.
+
+What happens, in the contract, if it takes twice as long or does not happen at all.
 
 ## Common questions
 
-### Can SHM be converted to SHGB?
-Yes. It is a normal procedure when land passes from an individual to a company, handled by a PPAT and registered at the land office.
+### Can a foreigner buy SHM land in Bali?
+No. Hak Milik is reserved to Indonesian citizens. Land must be converted to Hak Guna Bangunan or Hak Pakai for a foreigner or a foreign-investment company to hold a registered right.
 
-### Can a foreigner convert SHM to Hak Pakai?
-Yes, if they hold valid residency and the property meets the minimum value conditions. Both must be satisfied.
+### Who applies for the title conversion?
+The current registered holder — the seller — because they hold the right being converted. That is why the payment structure matters so much.
 
-### How long does title conversion take in Indonesia?
-Weeks to months depending on the land office and whether the underlying title is clean.
+### How long does a title conversion take in Indonesia?
+Months, and longer where the land office record does not match the certificate, where the parcel was informally divided, or where an encumbrance exists.
 
-### Should I pay before conversion completes?
-No. Tie payments to conversion milestones, with the final tranche on the certificate being issued in your name.
+### Should I pay before the conversion completes?
+No. Use a conditional purchase deed with funds held by your own notary, released against issue of the converted certificate, with a long-stop date and a remedy.
 
-### Does conversion fix a defective title?
-No. Unresolved inheritance, disputed boundaries or missing spousal consent will surface during conversion and stop it.
+### Can agricultural land be converted?
+It carries its own process and is not always available. A large amount of Bali land is classified agricultural, including land with villas on it, so establish this before committing.

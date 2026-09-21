@@ -5,62 +5,80 @@ summary: Nobody owns the beach. Understanding what those beachfront businesses a
 category: ownership
 order: 21
 risk: high
-regulation: Coastal setback rules under Indonesian spatial planning law. Confirm the applicable distance for the specific parcel.
+regulation: Coastal border zone (sempadan pantai) rules; foreshore is state land; regional spatial planning. Verify the specific parcel.
 applies: Anyone planning a purchase or a build here
-verified: 2026-09-13
+verified: 2026-09-21
 ---
 
-Coastline in Indonesia is not private property. So the obvious question is what every beach club and beachfront villa is actually sitting on.
+Beachfront is the most misunderstood category in Bali property, because what is being sold and what buyers think they are buying are not the same thing.
 
-## The rule
+## Nobody owns the beach
 
-The shoreline and the area seaward of it are state controlled. There is also a coastal border zone, a setback measured from the high water line, within which construction is restricted.
+The **foreshore in Indonesia is state land**. No private party holds title to the beach itself, no Indonesian citizen, no company, and certainly no foreigner.
 
-So a property marketed as beachfront is not selling you the beach. It is selling you land behind the setback, with access.
+A property described as beachfront is land **adjacent to** the beach. The beach in front of it belongs to the state and the public has access to it.
 
-## What beachfront businesses hold
+This surprises buyers from markets where a beachfront title runs to the high water mark. Here it does not, and it never will.
 
-A land right on the parcel behind the boundary, plus permits for what they operate, plus in some cases specific authorisations for structures or activity closer to the water.
+## The setback removes part of what you buy
 
-A beach club with loungers on the sand is generally operating under permission, not ownership. That permission is a licence position, and licence positions can change.
+The **sempadan pantai** — the coastal border zone — is a setback measured from the high water line within which building is restricted or prohibited. Its width varies by regency and by the specific spatial plan.
 
-## Why this matters to a buyer
+So a beachfront parcel includes a strip you hold and cannot build on. On a shallow plot that strip can be most of the land.
 
-**The setback reduces your buildable envelope**, sometimes dramatically, on exactly the parcels that cost the most per are.
+The advertised area and the **buildable** area are different numbers, and price is almost always quoted against the first. Establish the setback for the specific parcel from the regency, and calculate the price per buildable square metre rather than per square metre of title.
 
-**Beachfront premiums are partly for access and view**, not ownership of the sand. That is a legitimate premium, but it is not what most buyers think they are paying for.
+## Enforcement is real
 
-**Erosion and coastal change** affect where the boundary sits. A setback measured from a shoreline that moves is not a fixed line.
+This is not a dormant rule.
 
-**Enforcement has tightened** on structures built inside setbacks, in Bali and nationally.
+Along the Bukit, structures built without permits inside the coastal setback have been subject to **demolition action**, notably at Bingin. That is a realised outcome affecting actual buildings, not a theoretical regulatory risk.
 
-## What to verify on any coastal parcel
+The implication for a buyer is absolute. A coastal property without a valid PBG and SLF matching the structure that exists, and without confirmation it sits outside the setback, is not a discounted opportunity. It is an asset that can be removed.
 
-- The exact setback that applies at that location
-- The buildable envelope after setback, KDB, KLB and green area
-- Whether existing structures sit inside the setback, and whether they are permitted
-- Access rights to the beach, registered rather than customary
-- What the parcel looks like in wet season, and how the shoreline has moved
+## The other coastal constraints
 
-## The pattern worth noticing
+**Erosion.** Several stretches of Bali's south and west coast have lost land. A parcel surveyed five years ago may not be the parcel on the ground today. Ask what the boundary was and what it is.
 
-The most expensive land on the island is frequently the most constrained. Buyers pay a premium per are and then discover the buildable footprint is a fraction of the parcel.
+**Salt.** Maintenance costs in a coastal environment are materially higher. Metal fixings, electrical fittings, aircon units, pool equipment and joinery all fail faster. Budget above the normal ten to fifteen percent of gross.
 
-Establish the envelope before you value the land, not after.
+**Insurance.** More expensive and harder to place near the coast, and policies vary in what they exclude. Read the exclusions rather than assuming cover.
+
+**Access.** Coastal parcels frequently have awkward access, and a right of way that exists in practice but not in the certificate is a serious problem.
+
+**Zoning.** Coastal zoning is more restrictive than inland and tourism classification is not automatic. A parcel you cannot lawfully operate commercially is a different asset from the one you thought you were buying.
+
+## What "beachfront" often actually means
+
+Second or third row, with a view over land somebody else owns.
+
+That view is not protected. If the owner of the parcel in front builds within their rights, your beachfront property becomes a property near a beach with a view of a wall.
+
+Establish what lies between you and the water, who owns it, and what their zoning permits. This is checkable and it is checked far less often than it should be.
+
+## Is it worth it
+
+The scarcity argument is the strongest available in Bali property — coastal land genuinely cannot be manufactured, and the height limit prevents building more of it vertically.
+
+Against that: the setback removes part of what you buy, maintenance and insurance cost more, erosion is a real risk on parts of the coast, and the buyer pool at the resulting price is small.
+
+My own view is that **Bukit clifftop positions with a protected ocean view are the better version of the same trade**. You get the scarcity and the rate premium without the setback problem and without the salt.
+
+If it must be sand, the west coast corridor from Seseh through Kedungu into Tabanan is where the arithmetic still works. Canggu and Seminyak beachfront are priced for buyers who are not optimising for return.
 
 ## Common questions
 
-### Can foreigners own beachfront property in Bali?
-Under the same rules as any land here: lease, Hak Pakai or HGB via a company. The beach itself is not owned by anyone privately.
+### Can you own beachfront property in Bali?
+You can hold land adjacent to the beach through the usual foreign routes. The beach itself is state land and cannot be owned by anyone.
 
-### Who owns the beaches in Indonesia?
-The state. The shoreline and seaward area are public, with a coastal setback restricting construction landward of the high water line.
+### What is the sempadan pantai?
+The coastal border zone measured from the high water line within which building is restricted. Its width varies by regency and must be checked for the specific parcel.
 
-### How do beach clubs operate on the sand then?
-Through permits and authorisations for their activity and structures, not through ownership of the beach.
+### Have beachfront buildings been demolished in Bali?
+Yes. Structures built without permits inside the coastal setback have been subject to demolition action, notably along the Bukit at Bingin.
 
-### What is the coastal setback in Bali?
-A restricted zone measured from the high water line. The exact distance depends on the location and the applicable spatial plan, so confirm it for the parcel.
+### Is beachfront land a good investment in Bali?
+The scarcity is genuine, but the setback reduces buildable area, salt-air maintenance and insurance cost more, erosion is a risk in places, and the resale pool is small.
 
-### Is beachfront land worth the premium?
-It carries genuine scarcity and view value, but the buildable envelope after setbacks is often much smaller than the plot size suggests. Check the envelope first.
+### How do I check a beachfront parcel's real buildable area?
+Obtain the setback for that specific parcel from the regency spatial plan and have the notary confirm the certificate boundary. Advertised area routinely includes unbuildable land.

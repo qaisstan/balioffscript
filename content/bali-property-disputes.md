@@ -5,74 +5,88 @@ summary: Litigation here is slow, expensive and uncertain for foreigners. Almost
 category: ownership
 order: 20
 risk: critical
-regulation: Indonesian civil procedure; arbitration under BANI where contractually agreed.
+regulation: Indonesian civil procedure; customary (adat) dispute resolution; enforcement of foreign judgments is limited. Take Indonesian legal advice.
 applies: Anyone signing a contract here
-verified: 2026-09-06
+verified: 2026-09-21
 ---
 
-The honest position: your protection is the contract and the diligence, not the courts.
+Property disputes in Bali follow a small number of patterns, and the most useful thing to understand is how hard they are to win rather than how they arise.
+
+## The common disputes
+
+**Boundary.** The land you were shown, fenced and built on does not match the certificate. Extremely common on parcels informally divided within a family over generations, where the physical arrangement and the paper record diverged decades ago.
+
+**Competing claims to the land.** A family member, a former owner, or someone with an inheritance claim asserts a right. The certificate is real; the seller's exclusive entitlement was not.
+
+**Access.** A right of way used for years that exists in practice and not in any document, blocked when a neighbour sells or a relationship sours.
+
+**Landowner obstruction on a lease.** Refusing to sign permit applications, refusing consent to assign, or asserting the lease does not bind them after acquiring the land.
+
+**Extension refusal**, where the clause was *prioritas* rather than *jaminan* and the landowner is now pricing it at the point your alternative is abandoning a building.
+
+**Contractor disputes.** Work not to specification, overruns, abandonment mid-build.
+
+**Management disputes.** A manager who holds the guest relationship, the booking data and the forward reservations, and uses them as leverage.
 
 ## Why litigation is a poor remedy
 
-Indonesian civil proceedings are slow, frequently running years through first instance and appeals. They are conducted in Indonesian. Enforcement of a judgment against a counterparty with no traceable assets achieves nothing.
+**Time.** Indonesian civil litigation is slow, with appeals extending matters by years.
 
-For a foreigner, add distance, language and the cost of local counsel across a multi-year process.
+**Cost**, relative to what is usually in dispute.
 
-None of that means the system does not work. It means litigation is an expensive last resort rather than a backstop you can rely on when structuring a deal.
+**Language and system.** Proceedings are in Bahasa Indonesia under a civil law system. You will be entirely dependent on your lawyer's account of what is happening.
 
-## Where disputes actually come from
+**Enforcement.** Winning and collecting are different things. A judgment against a party with no reachable assets is a document.
 
-| Source | Prevention |
-| --- | --- |
-| Deposit paid before diligence | Written refund conditions tied to defined checks |
-| Seller not the registered owner | Land office verification through your own notary |
-| Boundary disagreement | Walk the boundaries against the certificate |
-| Unregistered access rights | Confirm the right of way is registered |
-| Extension clause dispute | Fix term, price, notice and successors in the lease |
-| Developer non-completion | Payments tied to inspected milestones |
-| Nominee breakdown | Do not use one |
+**Foreign judgments are generally not directly enforceable** in Indonesia, so a decision obtained at home does not solve an Indonesian problem.
 
-Every row is cheaper to prevent than to argue.
+**Unregistered interests.** If your lease is Hak Sewa, it is not registered anywhere. You are asserting a contractual right, which is a weaker starting position than asserting a registered one.
 
-## Arbitration
+## What actually resolves disputes here
 
-Commercial contracts here frequently specify arbitration, often under BANI, the Indonesian national arbitration board. It is generally faster and more predictable than the courts, and awards are enforceable.
+**The banjar.** The customary village organisation is the first and often the most effective forum for a neighbour, boundary or access dispute. It is informal, fast by comparison, and its outcomes carry real social weight locally.
 
-If you are signing a substantial construction or joint venture contract, the dispute resolution clause is worth negotiating rather than accepting as boilerplate. Specify the forum, the language, the seat and the governing law.
+A foreigner with a good relationship with the banjar is in a substantially stronger position than one without. That relationship is built before there is a problem, by participating in community obligations rather than ignoring them.
 
-## Foreign judgments
+**Negotiation with a credible alternative.** Most disputes settle. What you settle at depends on whether the other side believes you will proceed.
 
-A judgment from a foreign court is generally not directly enforceable in Indonesia. A contract governed by English or Australian law, litigated abroad, may produce a judgment you cannot enforce against Indonesian assets.
+**Mediation**, formal or otherwise, which Indonesian civil procedure encourages.
 
-That is an argument for arbitration with an Indonesian seat, or for structuring so the counterparty has assets you can actually reach.
+## The realistic conclusion
 
-## Nominee arrangements have no remedy
+**Disputes in Bali are prevented, not won.**
 
-Worth stating separately. Where the arrangement exists to circumvent the ownership rules, the supporting documents are not enforceable, because their purpose is the problem.
+Every dispute on the list above is the visible consequence of a check not done or a clause not included:
 
-There is no dispute resolution route that fixes this. The registered owner is the owner.
+Boundary disputes come from not walking the parcel with a surveyor against the certificate. Competing claims come from not verifying the seller's entitlement at the land office. Access disputes come from not confirming the right of way is documented. Landowner obstruction comes from a lease with no obligation to cooperate and no named remedy. Extension refusal comes from *prioritas* rather than *jaminan*. Contractor disputes come from paying ahead of inspected work and holding no retention. Management disputes come from a one-page agreement that gave away control of the booking data.
 
-## What to do instead
+Each of those is a fortnight of work and a few thousand dollars at purchase. None of them is recoverable afterwards for anything like that.
 
-- Verify before paying, every time
-- Use your own notary and your own legal review
-- Condition every payment on a milestone that has been met
-- Negotiate the dispute clause on substantial contracts
-- Deal with counterparties who have assets and reputations to protect
+## If you are already in one
+
+**Get Indonesian legal advice** from someone you engaged, not from the agent or the counterparty's notary.
+
+**Assemble the documents** — deed, certificate, permits, payment records, correspondence. Your position is only as good as what you can evidence.
+
+**Try the banjar first** for anything local, neighbourly or boundary-related.
+
+**Assess enforceability before you spend.** Ask specifically: if I win, what do I collect, and from whom?
+
+**Consider settling.** In a system this slow, a poor settlement now frequently beats a good judgment in four years, and experienced advisers will tell you so.
 
 ## Common questions
 
-### Can a foreigner sue in Indonesian courts?
-Yes, but proceedings are slow, conducted in Indonesian, and enforcement depends on the counterparty having reachable assets.
-
-### Is arbitration better than court in Indonesia?
-For commercial disputes, generally yes. BANI arbitration is usually faster and more predictable, and awards are enforceable. Specify it in the contract.
+### How are property disputes resolved in Bali?
+Most effectively through the banjar, the customary village organisation, for boundary, access and neighbour matters, and through negotiation or mediation. Litigation is slow and enforcement is uncertain.
 
 ### Can I enforce a foreign judgment in Indonesia?
-Generally not directly. This is a reason to arbitrate with an Indonesian seat rather than litigate abroad.
+Generally not directly. A judgment obtained in your home country does not solve an Indonesian problem, which is why the dispute has to be handled here.
 
-### What can I do if a nominee refuses to transfer my land?
-Practically very little. The arrangement exists to circumvent a prohibition, which is why the supporting documents have not reliably protected buyers.
+### What is the most common property dispute in Bali?
+Boundary disputes, on parcels informally divided within families over generations where the physical arrangement and the certificate diverged long ago.
 
-### How do I protect myself in a Bali property deal?
-Verify before paying, use independent professionals, tie payments to inspected milestones, and put refund conditions in writing.
+### How long does Indonesian property litigation take?
+Slow, with appeals extending matters by years, conducted in Bahasa Indonesia under a civil law system you will experience entirely through your lawyer.
+
+### How do I avoid property disputes in Bali?
+Walk the boundary with a surveyor against the certificate, verify the seller's entitlement at the land office, document access rights, and get the lease clauses on cooperation, extension, assignment and remedies right before signing.
