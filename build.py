@@ -87,6 +87,9 @@ CATEGORIES = {
     "areas": ("Areas", "Land prices, demand and constraints, area by area."),
     "living": ("Living Here", "Whether Bali works as a place to live, and where the market goes next."),
     "compare": ("Bali vs The World", "What foreigners can own, pay and keep in Bali against Dubai, Thailand, Portugal, Japan and the rest."),
+    "travel": ("Bali Travel", "When to come, what it costs, how to move around, and what nobody tells you before the first trip."),
+    "places": ("Where to Go", "Every part of Bali worth your time, what it is actually like, and who each one suits."),
+    "islands": ("Islands & Indonesia", "Nusa, the Gilis, Lombok, Komodo, Java and the rest of the country, and how to reach them."),
 }
 
 # Category landing pages were thin — a heading and a list of cards. They are
@@ -168,6 +171,28 @@ CATEGORY_SEO = {
         "sacred-site buffers. Tabanan has the clearest appreciation story and the hardest "
         "route to a commercial accommodation licence. These pages cover what each area "
         "costs and the specific constraint that breaks deals there."),
+    "travel": (
+        "Bali travel guide 2026: the practical version",
+        "Everything that decides whether a trip to Bali works: when to come and what the "
+        "weather actually does, what a day costs at each budget, how to get between the "
+        "south and the north without losing half a day to traffic, the tourist levy, the "
+        "health and safety questions people are too embarrassed to ask, and the temple "
+        "etiquette that locals notice. Written by someone who lives here year round, not "
+        "someone who came for ten days and wrote it up."),
+    "places": (
+        "Where to go in Bali, and who each place suits",
+        "Bali is not one destination. Canggu, Ubud, Uluwatu, Sanur, Amed and Munduk are six "
+        "different holidays, and picking the wrong one is the most common way a first trip "
+        "disappoints. These pages cover what each area is actually like now, what it costs, "
+        "how far it really is from everywhere else, and the beaches, temples, waterfalls and "
+        "itineraries that earn the drive."),
+    "islands": (
+        "Nusa Penida, the Gilis, Lombok and beyond",
+        "The islands around Bali, and the rest of Indonesia most visitors never see. How to "
+        "reach Nusa Penida and what a day trip really involves, which Gili suits which "
+        "traveller, Lombok and Rinjani, Komodo from Labuan Bajo, Flores, Sumba, Raja Ampat, "
+        "and the Java overland route through Bromo and Ijen. Boats, flights, seasons and the "
+        "honest version of each."),
 }
 
 
@@ -179,6 +204,7 @@ NAV_GROUPS = [
     ("Moving",    ["visas", "living"]),
     ("Business",  ["company", "tax"]),
     ("Investing", ["rental", "areas", "compare"]),
+    ("Visiting",  ["travel", "places", "islands"]),
 ]
 
 # Populated in main() so nav() can list each section's pages.
@@ -539,6 +565,31 @@ def extract_faq(body):
 # above the general one that contains it ("investor KITAS" before "KITAS").
 # One link per term per article, first occurrence only, text nodes only.
 LINK_TERMS = [
+    # travel and the islands (specific first)
+    ("Nusa Penida", "/islands/nusa-penida-guide/"),
+    ("Nusa Lembongan", "/islands/nusa-lembongan-guide/"),
+    ("Nusa Ceningan", "/islands/nusa-ceningan-guide/"),
+    ("Gili Trawangan", "/islands/gili-trawangan-guide/"),
+    ("Gili Islands", "/islands/gili-islands-which-one/"),
+    ("Mount Rinjani", "/islands/mount-rinjani-trek/"),
+    ("Mount Batur", "/places/mount-batur-sunrise-trek/"),
+    ("Labuan Bajo", "/islands/komodo-labuan-bajo-guide/"),
+    ("Raja Ampat", "/islands/raja-ampat-guide/"),
+    ("Menjangan", "/islands/menjangan-pemuteran-guide/"),
+    ("Borobudur", "/islands/yogyakarta-borobudur-guide/"),
+    ("Jatiluwih", "/places/bali-rice-terraces/"),
+    ("Tegalalang", "/places/bali-rice-terraces/"),
+    ("rice terraces", "/places/bali-rice-terraces/"),
+    ("rip current", "/travel/bali-beach-safety/"),
+    ("tourist levy", "/travel/bali-tourist-levy/"),
+    ("Nyepi", "/travel/nyepi-bali/"),
+    ("Galungan", "/travel/bali-ceremonies-calendar/"),
+    ("temple etiquette", "/travel/bali-temple-etiquette/"),
+    ("wet season", "/travel/bali-rainy-season-truth/"),
+    ("dry season", "/travel/bali-weather-month-by-month/"),
+    ("private driver", "/travel/private-driver-bali/"),
+    ("scooter", "/travel/renting-a-scooter-bali/"),
+    ("Bali belly", "/travel/bali-belly-health/"),
     # title and the deal itself
     ("nominee arrangement", "/ownership/nominee-structure-bali/"),
     ("nominee structure", "/ownership/nominee-structure-bali/"),

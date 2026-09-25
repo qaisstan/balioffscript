@@ -1,92 +1,77 @@
 ---
 question: When is the best time to visit Bali?
-title: Best Time to Visit Bali 2026: Season by Season
-summary: Dry season is easier and busier. Wet season is cheaper, quieter, and the only honest time to inspect a property you intend to buy.
+title: Best Time to Visit Bali: Month by Month
+summary: Dry season runs April to October and wet season November to March. Which is right depends on whether you are here to surf, dive, save money, avoid crowds or inspect a plot.
 category: living
 order: 21
 risk: low
 regulation: Seasonal patterns and rates change. Verify current pricing and conditions directly.
 applies: Visitors, and buyers planning a diligence trip
-verified: 2026-09-21
+verified: 2026-09-25
 ---
 
-There is a difference between the best time to visit Bali and the best time to buy in it, and both are worth knowing.
+Bali has two seasons and about six different right answers, depending on what you came for.
 
-## The seasons
+## The two seasons, plainly
 
-**Dry season, roughly April to October.** Less rain, lower humidity, offshore winds on the Bukit producing the island's headline surf. This is the high season and the reason most people come.
+**Dry season runs roughly April to October.** Less rain, lower humidity, steadier offshore winds on the west coast. **Wet season runs roughly November to March**, with the heaviest rain usually in January and February.
 
-**Wet season, roughly November to March.** Heavy afternoon downpours rather than all-day rain, higher humidity, greener landscape, and offshore winds on the west coast instead. Fewer people.
+Neither season is what northern Europeans expect from the words. Bali sits eight degrees south of the equator, so the temperature barely moves all year: high twenties to low thirties Celsius in the day, low twenties at night, every month. What changes is humidity, rain and sea conditions, not warmth.
 
-## The best times to visit
+## If you want the classic version
 
-**May, June and September** are the sweet spot. Dry season conditions without the July-August crowds or the peak pricing. Occupancy is high but not saturated, and everything is open.
+**May, June and September** are the best weeks of the year on balance. The rain has stopped, the humidity has dropped, the sea is clear, and the crowds of July and August have either not arrived or have gone home. Accommodation costs less than peak. If someone asks me for one month, I say June.
 
-**July and August** are peak. Excellent weather, the most people, and the highest prices. If you are coming with family in school holidays this is your window and you will pay for it.
+## If you are coming to surf
 
-**Late December to early January** is the other peak — busy, expensive and booked far ahead.
+The west coast — Canggu, Uluwatu, Balangan, Bingin, Padang Padang — works best in dry season, when the trade winds blow offshore there. That is the season everyone knows.
 
-**February** is the quietest month and the wettest. Prices are at their lowest, the island is green, and if you can tolerate afternoon rain you will have a very different and much cheaper experience.
+The east coast is the opposite. **Nusa Dua, Sanur, Keramas and Serangan come alive in wet season**, when the same winds that ruin the west blow offshore on the east. A January trip is not a wasted surf trip. It is a different set of waves and a much emptier line-up.
 
-**March, April, October and November** are shoulder. Reasonable weather, moderate prices, and the most relaxed version of Bali.
+## If you are coming to dive
 
-## The best time to actually see it properly
+Visibility around Nusa Penida and Menjangan is generally better in dry season. **Mola mola, the oceanic sunfish, are most commonly seen around Nusa Penida between roughly July and October**, when cold upwellings push them shallow. Manta rays at Manta Point are a year-round sighting, with no season that guarantees them.
 
-If you are considering buying, **come in February**.
+## If you want to spend less
 
-The high season shows you Bali at its most flattering. February shows you the drainage, the flooding, the humidity, the mould, the waste that rivers carry onto the west coast beaches, and how empty the quiet months actually are.
+**February is the cheapest month**, followed by late January and early March. It rains, but not in the way people imagine — see [what wet season is actually like](/travel/bali-rainy-season-truth/). Villas that cost 400 dollars a night in August go for half that, restaurants take bookings on the day, and the roads move.
 
-That is the version of the island you need to have seen before committing capital, and almost nobody does.
+## The weeks to avoid, and why
 
-Then come again in July, so you have seen both. A property that works in February and August works.
+- **Mid-July to late August.** European and Australian school holidays overlap. Canggu and Seminyak are full, the traffic doubles, and villa rates peak.
+- **Christmas to the first week of January.** The most expensive fortnight of the year, and wet.
+- **Chinese New Year and the surrounding week**, which moves each year.
+- **Ramadan's final week and the Idul Fitri holiday**, when domestic travel across Indonesia peaks and ferries and flights fill. The dates shift about eleven days earlier each year.
 
-## Why this matters for an owner
+## The one date that overrides everything
 
-The seasons are not just a visitor consideration. They are your revenue model.
+**Nyepi**, the Balinese day of silence, shuts the entire island for 24 hours. The airport closes. No vehicles, no flights, no leaving your accommodation, no lights at night. It falls in March in most years and the date moves.
 
-**Peak** — July, August, and roughly 20 December to 5 January. Rates run forty to seventy percent above base and a decent property fills at almost any price.
+This is not a nuisance to plan around so much as a decision to make deliberately. Some people find it the most memorable day of their trip. Others find themselves locked inside a hotel room for a day they had budgeted for Uluwatu. Read [what Nyepi actually involves](/travel/nyepi-bali/) before you book flights near it.
 
-**High** — May, June, September, early October. Strong demand, occupancy in the eighties for a well-run property.
+## What the season does not change
 
-**Base** — March, April, mid-October, November.
+Traffic is bad all year. The south is busy all year. Prices for land and villas do not soften in February. And rain in Bali is not a day ruined: it usually arrives hard in the afternoon, lasts an hour or two, and leaves the evening clear.
 
-**Low** — late January and February, at fifteen to twenty-five percent below base.
+## If you are coming to look at property
 
-The annual number is decided in **February, March and November**, not August. Peak takes care of itself; the trough is where a well-priced, well-marketed property separates from an averagely-run one by thirty percentage points of occupancy.
+Then the calculation inverts. **February tells you more about a plot than August ever will.** You see where the water goes, whether the access road floods, whether the neighbour's runoff crosses the land, and how the build handles three hours of hard rain.
 
-That is why areas with walkable working infrastructure and a nomad population hold up through the quiet months, and areas without it do not.
-
-## The surf calendar, which runs differently
-
-**The Bukit** — Uluwatu, Padang Padang, Bingin, Balangan — works best April to October on dry season trade winds.
-
-**The west coast** — Canggu, Echo Beach, Seseh — works best November to March, when winds blow offshore there.
-
-So surf travellers fill weeks that the mainstream holiday market does not, and a Bukit property and a Canggu property have genuinely different quiet periods. Underwriting one with the other's comparables gets both the level and the timing wrong.
-
-## Practical points for a buying trip
-
-Allow **two to three weeks minimum** if you are seriously looking. One to three weeks is the due diligence window on a clean title, and you want to be present for at least part of it.
-
-Avoid arriving during **Nyepi**, when the island shuts down completely for a day and nothing can be done.
-
-Check when **Galungan and Kuningan** fall, since offices, notaries and contractors all observe them.
-
-Drive the routes you care about **at peak**, not at eleven in the morning.
+Buyers who only ever view in dry season find all of that out after they have signed. If the trip is a diligence trip rather than a holiday, come in the wet and take the discount on the villa while you are at it. See [the due diligence timeline](/ownership/bali-due-diligence-timeline/) and [what to check first](/check/).
 
 ## Common questions
 
-### When is the best time to visit Bali?
-May, June and September offer dry season conditions without peak crowds or pricing. July and August have the best weather, the most people and the highest prices.
+### What is the rainiest month in Bali?
+January and February are the wettest, with the highest number of rain days and the heaviest downpours. It still does not rain all day, most days.
 
-### When is the rainy season in Bali?
-Roughly November to March, with heavy afternoon downpours rather than all-day rain, higher humidity and a much greener landscape.
+### Is Bali good in wet season?
+Yes, for a different trip. Prices drop, the island empties, the east-coast surf turns on, and the landscape is at its greenest. You lose some beach days and the sea can be murkier on the west side.
 
-### When should I visit Bali if I am thinking of buying?
-February, because it shows you drainage, flooding, humidity and how quiet the low season actually is. Then again in July, so you have seen both.
+### What is the cheapest time to visit Bali?
+February, then late January and early March. Expect discounts of 30 to 50 per cent on villas compared with August for the same property.
 
-### Which months are quietest in Bali?
-Late January and February are the quietest and wettest, with the lowest prices and a very different experience.
+### When is Bali least crowded?
+February, and the first three weeks of December before the Christmas wave lands. Early May is also quieter than its weather deserves.
 
-### Does surf season match holiday season in Bali?
-No. The Bukit works April to October and the west coast November to March, so surf travellers fill weeks the mainstream holiday market does not.
+### How many days do you need in Bali?
+Ten days is the point at which you can see two or three areas without spending the trip in a car. Seven works if you pick two bases. Anything under five, stay in one place.
