@@ -903,9 +903,11 @@ CONTENT_I18N = os.path.join(ROOT, "content_i18n")
 
 def live_langs():
     """A language shows up in links only once its section has pages."""
+    import langs as L
+
     def ok(code):
         d = os.path.join(CONTENT_I18N, code)
-        return code == "en" or (os.path.isdir(d) and any(f.endswith(".md") for f in os.listdir(d)))
+        return code == "en" or (code in L.READY and os.path.isdir(d) and any(f.endswith(".md") for f in os.listdir(d)))
     return [x for x in LANG_NAMES if ok(x[0])]
 
 

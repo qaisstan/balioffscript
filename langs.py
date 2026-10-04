@@ -197,6 +197,10 @@ UI = {
 
 ORDER = ["fr", "de", "nl", "sv", "no"]
 
+# A language is published only when it is finished: every page written to full
+# depth, its kit PDF printed. Add the code here at that point, not before.
+READY = {"fr"}
+
 
 def pages_for(B, lang):
     d = os.path.join(SRC, lang)
@@ -211,7 +215,7 @@ def pages_for(B, lang):
 
 
 def live(B):
-    return [l for l in ORDER if pages_for(B, l)]
+    return [l for l in ORDER if l in READY and pages_for(B, l)]
 
 
 def alternates(B, paths):
