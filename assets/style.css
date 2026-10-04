@@ -1436,3 +1436,26 @@ body.kitdoc { background: #fff; }
   .kd-cta { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 }
 .foot-langs { padding-block: 0 1.25rem; }
+
+/* Kit with photos: cover and chapter banners from Kai's own footage. */
+.kit-cover { background-size: cover; background-position: center; color: #fff; }
+.kit-cover .kc-k { color: rgba(255,255,255,.8); }
+.kit-cover .kc-t { color: #fff; margin-top: auto; }
+.kit-cover .kc-r { flex: 0 0 auto; border-color: rgba(255,255,255,.35); margin: 0.45rem 0; }
+.kit-cover .kc-l { color: #ffb4ad; }
+.kit-cover .kc-by { color: rgba(255,255,255,.75); }
+.kit-strip { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem; margin: 1.5rem 0; max-width: 46rem; }
+.kit-strip img { width: 100%; height: 9rem; object-fit: cover; display: block; }
+@media (max-width: 40rem) { .kit-strip img { height: 6rem; } }
+.kd-cover { background-size: cover; background-position: center; justify-content: flex-end; padding-bottom: 4rem; }
+.kd-cover .kd-sub { color: #e6e9ee; }
+.kd-ph { margin: 2.6rem 0 0; }
+.kd-ph img { width: 100%; height: 62mm; object-fit: cover; display: block; }
+.kd-ph + h2 { margin-top: 1rem; border-top: 0; padding-top: 0; }
+@media print {
+  .kd-cover { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .kd-ph { break-before: page; margin-top: 0; }
+  .kd-ph:first-child { break-before: auto; }
+  .kd-ph + h2 { break-before: avoid; }
+  .kd-body h2 { break-before: auto; }
+}

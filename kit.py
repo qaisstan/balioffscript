@@ -168,6 +168,15 @@ LANDING = {"en": "/buyers-kit/", "fr": "/fr/guide-acheteur/", "de": "/de/kaeufer
            "nl": "/nl/kopersgids/", "sv": "/sv/kopguide/", "no": "/no/kjoperguide/"}
 
 
+# Stills from Kai's own Bali footage (assets/kit/<TOKEN>/img/), so there is no
+# licensing question. One banner above each chapter of the kit, in this order.
+PHOTOS = ["villa", "land", "rice", "view", "beach", "sunset", "waterfall"]
+
+
+def img_url(B, name):
+    return f"{B.BASE}/kit/{TOKEN}/img/{name}.jpg"
+
+
 def pdf_url(B, lang):
     return f"{B.BASE}/kit/{TOKEN}/bali-buyers-kit-{lang}.pdf"
 
@@ -187,7 +196,8 @@ def cfg(B, lang):
 def cover(lang, small=False):
     """The PDF's cover drawn in HTML, so the box shows what you get."""
     u = UI[lang]
-    return (f'<div class="kit-cover{" kit-cover-s" if small else ""}" aria-hidden="true">'
+    return (f'<div class="kit-cover{" kit-cover-s" if small else ""}" aria-hidden="true" '
+            f'style="background-image:linear-gradient(180deg,rgba(22,25,29,.15) 0%,rgba(22,25,29,.85) 62%),url(/kit/{TOKEN}/img/cover.jpg)">'
             f'<span class="kc-k">Bali Off Script</span>'
             f'<span class="kc-t">{u["title"]}</span>'
             f'<span class="kc-r"></span>'
@@ -263,6 +273,7 @@ def landing(B, lang="en", head_fn=None, nav_html="", footer_html=""):
 <p class="eyebrow">{u["kicker"]}</p>
 <h1>{u["land_h"]}</h1>
 <p class="standfirst">{u["land_p"]}</p>
+<div class="kit-strip" aria-hidden="true">{"".join(f'<img src="{img_url(B, n)}" alt="" loading="lazy" width="700" height="434">' for n in ["villa", "view", "rice"])}</div>
 <div class="prose"><ul>{pts}</ul></div>
 {box(B, lang, "landing")}
 </main>
@@ -275,6 +286,10 @@ def doc_page(B, lang):
     u = UI[lang]
     wa = f"https://wa.me/{B.LEAD_WHATSAPP}?text=" + quote(DOC_WA[lang])
     body = B.md(meta["body"])
+    parts = body.split("<h2 ")
+    body = parts[0] + "".join(
+        f'<figure class="kd-ph"><img src="{img_url(B, PHOTOS[i % len(PHOTOS)])}" alt=""></figure><h2 ' + part
+        for i, part in enumerate(parts[1:]))
     return f"""<!DOCTYPE html>
 <html lang="{lang}">
 <head>
@@ -286,7 +301,7 @@ def doc_page(B, lang):
 <link rel="stylesheet" href="{B.BASE}/style.css">
 </head>
 <body class="kitdoc">
-<section class="kd-cover">
+<section class="kd-cover" style="background-image:linear-gradient(180deg,rgba(22,25,29,0) 0%,rgba(22,25,29,.1) 40%,rgba(22,25,29,.88) 78%),url({img_url(B, 'cover')})">
 <p class="kd-brand">Bali Off Script</p>
 <h1 class="kd-title">{meta.get("title", u["title"])}</h1>
 <p class="kd-sub">{meta.get("subtitle", "")}</p>

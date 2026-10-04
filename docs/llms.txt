@@ -527,3 +527,4 @@ Nusa, the Gilis, Lombok, Komodo, Java and the rest of the country, and how to re
 ## Other languages
 
 - [Français](https://balioffscript.com/fr/)
+- [Deutsch](https://balioffscript.com/de/)
