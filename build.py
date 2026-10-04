@@ -1540,7 +1540,12 @@ def home(pages):
                             "PT PMA", "Indonesian visas", "Land zoning"]},
         ],
     })
-    return f"""{head("Bali Property for Foreigners: Straight Answers", "What a Bali property certificate actually gives you, what you can legally build and rent on the land, and what a deal returns once every real cost is counted.", "/")}
+    import langs as L
+    me = sys.modules[__name__]
+    home_alts = L.alternates(me, {"en": "/", **{l: f"/{l}/" for l in L.live(me)}}) if L.live(me) else ""
+    home_head = head("Bali Property for Foreigners: Straight Answers", "What a Bali property certificate actually gives you, what you can legally build and rent on the land, and what a deal returns once every real cost is counted.", "/")
+    home_head = home_head.replace("</head>", home_alts.lstrip("\n") + "\n</head>", 1) if home_alts else home_head
+    return f"""{home_head}
 <script type="application/ld+json">{site_schema}</script>
 {nav()}
 <main>
@@ -2127,7 +2132,11 @@ def main():
     write("/disclaimer/", simple("disclaimer", "Disclaimer", DISCLAIMER))
     write("/checklist/", simple("checklist", "Due diligence checklist", CHECKLIST))
     me = sys.modules[__name__]
-    write(K.LANDING["en"], K.landing(me, "en", head_fn=head, nav_html=nav(), footer_html=footer()))
+    import langs as L
+    kit_alts = L.alternates(me, {"en": K.LANDING["en"], **{l: K.LANDING[l] for l in L.live(me)}}) if L.live(me) else ""
+    write(K.LANDING["en"], K.landing(me, "en",
+          head_fn=lambda t, d, pth: head(t, d, pth).replace("</head>", kit_alts.lstrip("\n") + "\n</head>", 1) if kit_alts else head(t, d, pth),
+          nav_html=nav(), footer_html=footer()))
     for lang in K.LANGS:
         if os.path.exists(os.path.join(K.KIT_SRC, f"{lang}.md")):
             write(f"/kit/{K.TOKEN}/{lang}/", K.doc_page(me, lang))

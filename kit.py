@@ -63,7 +63,7 @@ UI = {
     wa_msg="Bonjour Kai, je suis {name}. Je viens de recevoir le guide de l'acheteur à Bali.{extra} Tu peux m'aider ?",
     wa_budget=" Mon budget : {budget}.", wa_time=" Calendrier : {time}.",
     id_done="Merci. Le guide est ci-dessous.",
-    land_title="Guide gratuit : acheter une villa à Bali sans se tromper (PDF)",
+    land_title="Guide gratuit : acheter une villa à Bali sans erreur (PDF)",
     land_desc="PDF gratuit : documents, 20 questions, 12 clauses du bail, 15 signaux d'alerte dont le prête-nom, et une grille de rendement net pour acheter à Bali.",
     land_h="Vérifie un bien à Bali comme je le fais, avant de signer.",
     land_p="La plupart des achats à Bali ne ratent pas sur le prix. Ils ratent parce qu'un maillon de la chaîne n'a jamais été vérifié : le titre, le propriétaire, le zonage, la licence. Ce guide, c'est l'ordre dans lequel je les vérifie.",

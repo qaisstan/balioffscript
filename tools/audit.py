@@ -57,7 +57,7 @@ for url, html in pages.items():
         card = re.search(r'/og/([\w-]+)\.jpg', html)
         if not card or not os.path.exists(os.path.join(OUT, "og", card.group(1) + ".jpg")):
             problems["missing og card"].append(url)
-        if "/opportunities/" not in html: problems["no CTA"].append(url)
+        if "/opportunities/" not in html and not re.search(r"/(fr|de|nl|sv|no)/(contact|kontakt)/", html): problems["no CTA"].append(url)
 for k, v in problems.items():
     print(f"\n{k}: {len(v)}")
     for x in v[:12]: print("  ", x)
