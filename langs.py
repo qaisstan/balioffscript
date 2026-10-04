@@ -18,6 +18,7 @@ import re
 from datetime import date
 
 import kit as K
+import photos as PH
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(ROOT, "content_i18n")
@@ -338,6 +339,7 @@ def article(B, lang, m, pages):
     faq = extract_faq(m["body"], u["faq_h"])
     prose_src = re.sub(rf"^## {re.escape(u['faq_h'])}\s*$.*?(?=^## |\Z)", "", m["body"], flags=re.M | re.S) if faq else m["body"]
     body_html = B.md(prose_src.rstrip())
+    hero, body_html = PH.decorate(m["slug"], m["group"], body_html)
     top, rest = B.split_for_kit(body_html)
     kitb = K.box(B, lang, "article")
     prose = (f'<div class="prose">{top}</div>{kitb}<div class="prose">{rest}</div>' if rest
@@ -398,6 +400,7 @@ def article(B, lang, m, pages):
 </div>
 <div class="art-grid">
 <div class="art-main">
+{hero}
 {prose}
 {faq_block}
 {cta(B, lang)}
@@ -419,11 +422,12 @@ def home(B, lang, pages, alts):
     u = UI[lang]
     path = f"/{lang}/"
     secs = ""
+    used = set()
     for key, name, blurb in u["groups"]:
         ps = [p for p in pages if p["group"] == key]
         if not ps:
             continue
-        cards = "".join(f'<li class="card"><a href="{B.BASE}/{lang}/{p["slug"]}/"><h3>{p["question"]}</h3><p>{p["summary"]}</p></a></li>' for p in ps)
+        cards = "".join(f'<li class="card"><a href="{B.BASE}/{lang}/{p["slug"]}/">{B.card_img(p["slug"], p["group"], used)}<h3>{p["question"]}</h3><p>{p["summary"]}</p></a></li>' for p in ps)
         secs += f'<section class="wrap" id="{key}"><h2 class="sec-h">{name}</h2><p class="standfirst">{blurb}</p><ul class="cards">{cards}</ul></section>'
     schema = json.dumps({"@context": "https://schema.org", "@graph": [
         {"@type": "CollectionPage", "name": u["home_title"], "description": u["home_desc"], "url": B.SITE_URL + path,

@@ -168,13 +168,21 @@ LANDING = {"en": "/buyers-kit/", "fr": "/fr/guide-acheteur/", "de": "/de/kaeufer
            "nl": "/nl/kopersgids/", "sv": "/sv/kopguide/", "no": "/no/kjoperguide/"}
 
 
-# Stills from Kai's own Bali footage (assets/kit/<TOKEN>/img/), so there is no
-# licensing question. One banner above each chapter of the kit, in this order.
-PHOTOS = ["villa", "land", "rice", "view", "beach", "sunset", "waterfall"]
+# Free-licence Unsplash photos (photos.py). Cover, then one banner above each
+# chapter of the kit, in this order.
+import photos as PH
+
+COVER = "1555400038-63f5ba517a47"
+PHOTOS = ["1562916829-98da73155eef", "1569271532860-dd35503aaf1f", "1544644181-1484b3fdfc62",
+          "1566987827585-6c556cc32848", "1513415756790-2ac1db1297d0", "1694967832949-09984640b143",
+          "1561009226-7a820d647a40", "1646928229117-08e84cde1692", "1555865138-193ba536d7e0"]
 
 
-def img_url(B, name):
-    return f"{B.BASE}/kit/{TOKEN}/img/{name}.jpg"
+def img_url(B, name, w=1100, h=600):
+    """JPEG on purpose: Chrome re-encodes WebP/AVIF losslessly into the PDF,
+    which turned a 2 MB kit into 25 MB."""
+    pid = COVER if name == "cover" else name
+    return f"{PH.CDN}{pid}?w={w}&h={h}&fit=crop&crop=entropy&fm=jpg&q=62"
 
 
 def pdf_url(B, lang):
@@ -197,7 +205,7 @@ def cover(lang, small=False):
     """The PDF's cover drawn in HTML, so the box shows what you get."""
     u = UI[lang]
     return (f'<div class="kit-cover{" kit-cover-s" if small else ""}" aria-hidden="true" '
-            f'style="background-image:linear-gradient(180deg,rgba(22,25,29,.15) 0%,rgba(22,25,29,.85) 62%),url(/kit/{TOKEN}/img/cover.jpg)">'
+            f'style="background-image:linear-gradient(180deg,rgba(22,25,29,.05) 0%,rgba(22,25,29,.85) 64%),url({PH.url(COVER, 400, 560)})">'
             f'<span class="kc-k">Bali Off Script</span>'
             f'<span class="kc-t">{u["title"]}</span>'
             f'<span class="kc-r"></span>'
@@ -273,7 +281,7 @@ def landing(B, lang="en", head_fn=None, nav_html="", footer_html=""):
 <p class="eyebrow">{u["kicker"]}</p>
 <h1>{u["land_h"]}</h1>
 <p class="standfirst">{u["land_p"]}</p>
-<div class="kit-strip" aria-hidden="true">{"".join(f'<img src="{img_url(B, n)}" alt="" loading="lazy" width="700" height="434">' for n in ["villa", "view", "rice"])}</div>
+<div class="kit-strip" aria-hidden="true">{"".join(f'<img src="{PH.url(n, 700, 438)}" alt="Bali" loading="lazy" width="700" height="438">' for n in PHOTOS[:3])}</div>
 <div class="prose"><ul>{pts}</ul></div>
 {box(B, lang, "landing")}
 </main>
@@ -288,7 +296,7 @@ def doc_page(B, lang):
     body = B.md(meta["body"])
     parts = body.split("<h2 ")
     body = parts[0] + "".join(
-        f'<figure class="kd-ph"><img src="{img_url(B, PHOTOS[i % len(PHOTOS)])}" alt=""></figure><h2 ' + part
+        f'<figure class="kd-ph"><img src="{img_url(B, PHOTOS[i % len(PHOTOS)])}" alt="Bali"></figure><h2 ' + part
         for i, part in enumerate(parts[1:]))
     return f"""<!DOCTYPE html>
 <html lang="{lang}">
@@ -301,7 +309,7 @@ def doc_page(B, lang):
 <link rel="stylesheet" href="{B.BASE}/style.css">
 </head>
 <body class="kitdoc">
-<section class="kd-cover" style="background-image:linear-gradient(180deg,rgba(22,25,29,0) 0%,rgba(22,25,29,.1) 40%,rgba(22,25,29,.88) 78%),url({img_url(B, 'cover')})">
+<section class="kd-cover" style="background-image:linear-gradient(180deg,rgba(22,25,29,0) 0%,rgba(22,25,29,.1) 40%,rgba(22,25,29,.88) 78%),url({img_url(B, 'cover', 1000, 1414)})">
 <p class="kd-brand">Bali Off Script</p>
 <h1 class="kd-title">{meta.get("title", u["title"])}</h1>
 <p class="kd-sub">{meta.get("subtitle", "")}</p>

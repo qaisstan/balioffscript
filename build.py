@@ -19,6 +19,7 @@ import sys
 from datetime import date
 
 import kit as K
+import photos as PH
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 CONTENT = os.path.join(ROOT, "content")
@@ -1136,6 +1137,7 @@ def article(m, siblings):
     prose_src = re.sub(r"^## Common questions\s*$.*?(?=^## |\Z)", "",
                        m["body"], flags=re.M | re.S) if faq else m["body"]
     body_html = autolink(md(prose_src.rstrip()), path)
+    hero, body_html = PH.decorate(m["slug"], m["category"], body_html)
 
     if m["category"] in KIT_MID:
         top, rest = split_for_kit(body_html)
@@ -1217,6 +1219,7 @@ def article(m, siblings):
 </div>
 <div class="art-grid">
 <div class="art-main">
+{hero}
 {prose_with_kit}
 {faq_block}
 {map_widget(focus=m["slug"], compact=True) if m["category"] == "areas" and any(a["slug"] == m["slug"] for a in MAP_AREAS) else ""}
@@ -1236,11 +1239,25 @@ def article(m, siblings):
 {footer(f'<script src="{BASE}/map.js" defer></script>') if m["category"] == "areas" else footer()}"""
 
 
+def card_img(slug, cat, used=None):
+    """Thumbnail for a card. Pass the same `used` set for every card on a page
+    so neighbouring cards never repeat a picture."""
+    options = PH.pick(slug, cat, 12)
+    pid, alt = options[0]
+    if used is not None:
+        pid, alt = next(((p, a) for p, a in options if p not in used), options[0])
+        used.add(pid)
+    return (f'<img class="card-img" src="{PH.url(pid, 640, 400)}" width="640" height="400" '
+            f'alt="{alt}" loading="lazy" decoding="async">')
+
+
 def category(key, pages):
     name, blurb = CATEGORIES[key]
+    used = set()
     items = "".join(
         f"""<li class="card">
 <a href="{BASE}/{key}/{p['slug']}/">
+{card_img(p["slug"], key, used)}
 <h3>{p["question"]}</h3>
 <p>{p["summary"]}</p>
 </a></li>"""
@@ -1270,6 +1287,7 @@ def category(key, pages):
 <p class="eyebrow">Section</p>
 <h1>{seo_title}</h1>
 <p class="standfirst">{blurb}</p>
+{PH.figure(*PH.pick("section-" + key, key, 1)[0], cls="art-hero", eager=True)}
 <div class="prose section-intro"><p>{intro}</p>
 {DIAGRAMS[CATEGORY_DIAGRAM[key]]() if CATEGORY_DIAGRAM.get(key) else ""}</div>
 {map_widget() if key == "areas" else ""}
@@ -1506,8 +1524,10 @@ def home(pages):
 </a>"""
         for k, v in CATEGORIES.items()
     )
+    used = set()
     recent = "".join(
         f"""<li class="card"><a href="{BASE}/{p['category']}/{p['slug']}/">
+{card_img(p["slug"], p["category"], used)}
 <h3>{p["question"]}</h3><p>{p["summary"]}</p></a></li>"""
         for p in pages[:6]
     )

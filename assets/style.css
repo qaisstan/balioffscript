@@ -1459,3 +1459,12 @@ body.kitdoc { background: #fff; }
   .kd-ph + h2 { break-before: avoid; }
   .kd-body h2 { break-before: auto; }
 }
+
+/* Photos: hero, in-article pictures, card thumbnails (photos.py). */
+.art-hero { margin: 0 0 2rem; max-width: 46rem; }
+.art-hero img, .art-ph img { width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; display: block; background: var(--paper-2); }
+.art-ph { margin: 2.25rem 0 0.5rem; max-width: var(--measure); }
+.section .art-hero { margin-top: 1.5rem; }
+.card-img { width: calc(100% + 3rem); max-width: none; height: auto; aspect-ratio: 16 / 10; object-fit: cover; display: block; margin: -1.5rem -1.5rem 1.1rem; background: var(--paper-2); }
+.card a:hover .card-img { opacity: .92; }
+@media (max-width: 40rem) { .art-hero { margin-inline: -1rem; max-width: none; } }
