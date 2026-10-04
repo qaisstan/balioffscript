@@ -15,7 +15,10 @@ import json
 import os
 import re
 import shutil
+import sys
 from datetime import date
+
+import kit as K
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 CONTENT = os.path.join(ROOT, "content")
@@ -41,7 +44,11 @@ DOMAIN = "balioffscript.com"
 BASE = "" if DOMAIN else "/balioffscript"
 SITE_URL = f"https://{DOMAIN}" if DOMAIN else f"https://qaisstan.github.io{BASE}"
 
-INSTAGRAM = "https://www.instagram.com/balioffscript/"
+# The @balioffscript Instagram was hacked (Sept 2026), so nothing links to it.
+# Profiles listed here become schema sameAs and footer links. Add one only when
+# it is live and in Kai's control.
+SAME_AS = []
+SAME = {"sameAs": SAME_AS} if SAME_AS else {}
 
 # WhatsApp. wa.me wants the number with no plus, spaces or dashes.
 WHATSAPP_NUMBER = "6285878052692"
@@ -71,7 +78,7 @@ GA4_ID = "G-9LMCFLT4XX"
 GSC_VERIFY = ""
 
 AUTHOR = "Kai"
-AUTHOR_ROLE = "Bali property adviser"
+AUTHOR_ROLE = "Strategic Investment Adviser"
 # Drop the file in assets/ under this name. If it isn't there, the portrait is
 # simply skipped rather than rendering a broken image on all 27 pages.
 AUTHOR_PHOTO = "kai.jpg"
@@ -833,6 +840,7 @@ def nav(active=""):
         )
 
     tools = [
+        ("Free Buyer's Kit", "/buyers-kit/", "The checklist, questions, lease clauses and red flags, as a PDF"),
         ("Return calculator", "/calculator/", "What a property really returns after every cost"),
         ("Area map", "/areas/#map", "What governs each area, regency by regency"),
         ("What I&rsquo;d check first", "/check/", "The intake list for a live deal"),
@@ -866,7 +874,7 @@ def footer(extra=""):
 </div>
 <div class="foot-links">
 <a class="ig-link" href="{BASE}/opportunities/">{form_logo("ig ig-sm")}<span>Find the right one</span></a>
-<a class="ig-link" href="{INSTAGRAM}" rel="me">{ig_logo("ig ig-sm")}<span>@balioffscript</span></a>
+<a href="{BASE}/buyers-kit/">Free Buyer's Kit</a>
 <a href="{BASE}/all/">Every answer</a>
 <a href="{BASE}/calculator/">ROI calculator</a>
 <a href="{BASE}/about/">About</a>
@@ -878,10 +886,35 @@ def footer(extra=""):
 <div class="wrap foot-legal">
 <p>General information, not legal or tax advice. Indonesian regulations change often and are applied inconsistently between regencies. Verify anything here with a licensed Indonesian notary, lawyer or tax consultant before you act on it.</p>
 </div>
-<script src="{BASE}/search.js" defer></script>{extra}
+<div class="wrap foot-langs"><nav class="langs" aria-label="Languages">{lang_links("en")}</nav></div>
+<script src="{BASE}/search.js" defer></script><script src="{BASE}/kit.js" defer></script>{extra}
 </footer>
 </body>
 </html>"""
+
+
+# Language sections (langs.py). Listed in the footer of every page.
+LANG_NAMES = [("en", "English", "/"), ("fr", "Français", "/fr/"), ("de", "Deutsch", "/de/"),
+              ("nl", "Nederlands", "/nl/"), ("sv", "Svenska", "/sv/"), ("no", "Norsk", "/no/")]
+
+
+CONTENT_I18N = os.path.join(ROOT, "content_i18n")
+
+
+def live_langs():
+    """A language shows up in links only once its section has pages."""
+    def ok(code):
+        d = os.path.join(CONTENT_I18N, code)
+        return code == "en" or (os.path.isdir(d) and any(f.endswith(".md") for f in os.listdir(d)))
+    return [x for x in LANG_NAMES if ok(x[0])]
+
+
+def lang_links(current):
+    out = []
+    for code, name, href in live_langs():
+        on = ' class="on"' if code == current else ""
+        out.append(f'<a href="{BASE}{href}" hreflang="{code}" lang="{code}"{on}>{name}</a>')
+    return "".join(out)
 
 
 def reel(url):
@@ -967,6 +1000,32 @@ def cta(kicker="Want me to find you the right one?",
 <a class="btn btn-wa" href="{BASE}/opportunities/">{wa_logo()}<span>{btn}</span></a>
 </div>
 </section>"""
+
+
+def kit_box(where="", lang="en"):
+    """The Buyer's Kit opt-in (kit.py). One per page, always id="kit"."""
+    return K.box(sys.modules[__name__], lang, where)
+
+
+def kit_mini(lang="en"):
+    return K.mini(sys.modules[__name__], lang)
+
+
+# Buyer intent sections get the kit in the middle of the article, where the
+# reader is most engaged. Travel pages get it at the end.
+KIT_MID = {"ownership", "building", "visas", "company", "tax", "rental", "areas", "living", "compare"}
+
+
+def split_for_kit(html):
+    """Cut the article before its third h2 (or second, on short pieces)."""
+    pos = [m.start() for m in re.finditer(r"<h2 ", html)]
+    if len(pos) >= 3:
+        cut = pos[2]
+    elif len(pos) == 2:
+        cut = pos[1]
+    else:
+        return html, ""
+    return html[:cut], html[cut:]
 
 
 # ---------------------------------------------------------------- pages
@@ -1076,6 +1135,13 @@ def article(m, siblings):
                        m["body"], flags=re.M | re.S) if faq else m["body"]
     body_html = autolink(md(prose_src.rstrip()), path)
 
+    if m["category"] in KIT_MID:
+        top, rest = split_for_kit(body_html)
+        prose_with_kit = (f'<div class="prose">{top}</div>{kit_box(m["category"])}<div class="prose">{rest}</div>'
+                          if rest else f'<div class="prose">{body_html}</div>{kit_box(m["category"])}')
+    else:
+        prose_with_kit = f'<div class="prose">{body_html}</div>{kit_box(m["category"])}'
+
     faq_block = ""
     if faq:
         rows = "".join(
@@ -1111,7 +1177,7 @@ def article(m, siblings):
                 "isAccessibleForFree": True,
                 "wordCount": len(re.sub(r"[^\w\s]", " ", m["body"]).split()),
                 "author": {"@type": "Person", "name": AUTHOR, "jobTitle": AUTHOR_ROLE,
-                           "url": SITE_URL + "/about/", "sameAs": [INSTAGRAM]},
+                           "url": SITE_URL + "/about/", **SAME},
                 "publisher": {"@type": "Organization", "name": SITE_NAME, "url": SITE_URL,
                               "logo": {"@type": "ImageObject",
                                        "url": f"{SITE_URL}/icon-512.png"}},
@@ -1149,7 +1215,7 @@ def article(m, siblings):
 </div>
 <div class="art-grid">
 <div class="art-main">
-<div class="prose">{body_html}</div>
+{prose_with_kit}
 {faq_block}
 {map_widget(focus=m["slug"], compact=True) if m["category"] == "areas" and any(a["slug"] == m["slug"] for a in MAP_AREAS) else ""}
 {reel(m.get("reel", ""))}
@@ -1159,6 +1225,7 @@ def article(m, siblings):
 <aside class="art-rail">
 {toc(prose_src, [("common-questions", "Common questions")] if faq else [])}
 {rail_questions(faq)}
+{kit_mini()}
 {share_bar(seo_title, path, cls=" sh-rail")}
 {rail_cta()}
 </aside>
@@ -1206,6 +1273,7 @@ def category(key, pages):
 {map_widget() if key == "areas" else ""}
 <h2 class="sec-h">Every answer in this section</h2>
 <ul class="cards">{items}</ul>
+{kit_box("section-" + key)}
 {cta()}
 {share_bar(seo_title, f"/{key}/")}
 </main>
@@ -1245,65 +1313,114 @@ CHECK_ITEMS = [
 ]
 
 
+ABOUT_FAQ = [
+    ("Who is Kai from Bali Off Script?",
+     "Kai is a strategic investment adviser based in Bali. He helps foreign buyers and investors check "
+     "villas, land and off-plan projects before they sign: the land certificate, the owner, the zoning, "
+     "the lease, the rental licence and the real return after costs."),
+    ("Is Bali Off Script a real estate agency?",
+     "No. Bali Off Script is an independent guide to buying, building and living in Bali, written by Kai. "
+     "Kai works in Bali property, so he is not a neutral party, and he says so. He will still tell you "
+     "when a deal is not worth doing."),
+    ("Can a foreigner buy a villa in Bali?",
+     "Yes, but not as freehold. Foreigners can hold a leasehold, Hak Pakai with residency, or HGB through "
+     "a PT PMA company. Nominee arrangements are void. Kai helps buyers pick the structure that fits what "
+     "they actually want to do with the property."),
+    ("What does a first conversation with Kai cost?",
+     "Nothing. Send the location, the title type, the zoning you were told and any permits you were shown, "
+     "and Kai will tell you which link in the chain he would check first."),
+    ("Which languages does Bali Off Script cover?",
+     "The site has guides in English, French, German, Dutch, Swedish and Norwegian, written for how buyers "
+     "from each country think about Bali. Kai replies on WhatsApp in English or Swedish."),
+    ("Which areas of Bali does Kai cover?",
+     "All of Bali and the islands around it: Canggu, Berawa, Pererenan, Seminyak, Umalas, Uluwatu and the "
+     "Bukit, Sanur, Ubud, Tabanan, Nusa Penida, Lombok and the Gilis. Rules and enforcement differ by "
+     "regency, so the area changes the answer."),
+]
+
+
 def about_page():
     """The entity page. Search engines and answer engines both need one place
     that states plainly who publishes this and what they do, otherwise a
     'who is X' question has nothing to resolve against."""
-    desc = ("Written by Kai, a property adviser based in Bali. Straight answers on "
-            "buying, building and renting here, across Bali and the surrounding islands.")
+    desc = ("Kai is a strategic investment adviser in Bali. He helps foreign buyers check villas, land "
+            "and off-plan deals before they sign: title, zoning, lease, licence and real return.")
+    n_pages = len(ALL_PAGES)
+    faq_entities = [{"@type": "Question", "name": q,
+                     "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in ABOUT_FAQ]
     schema = json.dumps({
         "@context": "https://schema.org",
         "@graph": [
-            {"@type": "AboutPage", "url": f"{SITE_URL}/about/", "name": f"About {SITE_NAME}",
-             "description": desc, "inLanguage": "en"},
+            {"@type": "AboutPage", "url": f"{SITE_URL}/about/", "name": f"About {AUTHOR}, {SITE_NAME}",
+             "description": desc, "inLanguage": "en", "mainEntity": {"@id": f"{SITE_URL}/#kai"}},
             {"@type": "Person", "@id": f"{SITE_URL}/#kai", "name": AUTHOR,
              "jobTitle": AUTHOR_ROLE, "url": f"{SITE_URL}/about/",
-             "image": f"{SITE_URL}/{AUTHOR_PHOTO}", "sameAs": [INSTAGRAM],
-             "worksFor": {"@type": "Organization", "name": SITE_NAME, "url": SITE_URL},
+             "image": f"{SITE_URL}/{AUTHOR_PHOTO}", **SAME,
+             "description": desc,
+             "worksFor": {"@id": f"{SITE_URL}/#org"},
              "homeLocation": {"@type": "Place", "name": "Bali, Indonesia"},
-             "knowsAbout": ["Indonesian property law", "Bali real estate", "Leasehold",
-                            "Hak Pakai", "HGB", "PT PMA", "Indonesian visas",
-                            "Zoning and RDTR", "PBG and SLF permits"]},
-            {"@type": "Organization", "@id": f"{SITE_URL}/#org", "name": SITE_NAME,
-             "url": SITE_URL, "logo": f"{SITE_URL}/icon-512.png",
-             "description": TAGLINE, "sameAs": [INSTAGRAM],
+             "knowsLanguage": ["en", "sv"],
+             "knowsAbout": ["Bali property investment", "Buying a villa in Bali as a foreigner",
+                            "Indonesian property law", "Leasehold in Bali", "Hak Pakai", "HGB",
+                            "PT PMA", "Nominee arrangements", "Due diligence in Bali",
+                            "Bali zoning and RDTR", "PBG and SLF permits", "Villa rental licensing",
+                            "Bali rental yields", "Off-plan villas in Bali", "Second Home visa",
+                            "Investor KITAS", "Canggu", "Uluwatu", "Ubud", "Sanur", "Lombok"]},
+            {"@type": "ProfessionalService", "@id": f"{SITE_URL}/#org", "name": SITE_NAME,
+             "url": SITE_URL, "logo": f"{SITE_URL}/icon-512.png", "image": f"{SITE_URL}/icon-512.png",
+             "description": TAGLINE, **SAME,
              "founder": {"@id": f"{SITE_URL}/#kai"},
-             "areaServed": {"@type": "Place", "name": "Bali, Indonesia"}},
+             "serviceType": "Strategic investment advice for foreign property buyers in Bali",
+             "areaServed": [{"@type": "Place", "name": "Bali, Indonesia"},
+                            {"@type": "Place", "name": "Lombok, Indonesia"},
+                            {"@type": "Place", "name": "Nusa Penida, Indonesia"}],
+             "availableLanguage": ["English", "French", "German", "Dutch", "Swedish", "Norwegian"]},
+            {"@type": "FAQPage", "mainEntity": faq_entities},
         ],
     })
-    return f"""{head(f"About {SITE_NAME}, who writes this", desc, "/about/")}
+    faq_rows = "".join(
+        f'<details class="fq" id="q-{slugify(q)}"><summary>{q}</summary><p>{a}</p></details>'
+        for q, a in ABOUT_FAQ)
+    langs = "".join(f'<li><a href="{BASE}{href}" hreflang="{code}">{name}</a></li>'
+                    for code, name, href in live_langs() if code != "en")
+    return f"""{head(f"{AUTHOR}, Strategic Investment Adviser for Bali Property", desc, "/about/")}
 <script type="application/ld+json">{schema}</script>
 {nav()}
 <main class="wrap article">
 <p class="eyebrow">About</p>
-<h1>Who writes this</h1>
-<p class="standfirst">{desc}</p>
+<h1>Kai, strategic investment adviser for buyers in Bali</h1>
+<p class="standfirst">I help foreigners decide whether a villa, a plot of land or an off-plan project in Bali is worth their money, and how to hold it legally, before they sign anything.</p>
 
 <div class="who who-about">
 {portrait("who-photo")}
 <div>
 <h2 class="who-h">{AUTHOR}</h2>
-<p class="who-b">{AUTHOR_ROLE}, based in Bali. I advise foreign buyers on property here. What can actually be owned, what can legally be built and rented, and which structures fall apart when someone looks at them properly.</p>
-<a class="ig-link who-ig" href="{INSTAGRAM}" rel="me">{ig_logo("ig")}<span>@balioffscript</span></a>
+<p class="who-b">{AUTHOR_ROLE}, based in Bali. I work with foreign buyers and investors on property here: what can actually be owned, what can legally be built and rented, what a deal returns once every cost is counted, and which structures fall apart when someone looks at them properly.</p>
 </div>
 </div>
 
 <div class="prose">
-<h2>What I do</h2>
-<p>I advise foreign buyers and investors on property across Bali and the surrounding islands, Nusa Penida, Lombok, the Gilis, and further east where clients are looking. The work covers the whole arc of a project, not one slice of it:</p>
+<h2>What I help with</h2>
 <ul>
-<li><strong>Land and property acquisition</strong>. What can actually be held, under which right, and what the certificate really says</li>
-<li><strong>Due diligence</strong>. Title, zoning, permits, and the licensing position underneath the sale</li>
-<li><strong>Development and construction projects</strong>. What is buildable on a plot once KDB, KLB and setbacks are applied, and what the permit sequence actually costs in time</li>
-<li><strong>Structuring</strong>, leasehold, Hak Pakai or a company-held right, and which one fits the intended use rather than the one that closes fastest</li>
-<li><strong>Investment analysis</strong>. What a project returns after the costs that get left out of the projection</li>
+<li><strong>Buying a villa in Bali as a foreigner.</strong> Leasehold, Hak Pakai with residency, or HGB through a PT PMA, and which one fits what you actually want to do with the property</li>
+<li><strong>Land and title due diligence.</strong> The certificate (SHM, SHGB or Hak Pakai), the BPN check, the owner and the heirs, the access road and the boundaries</li>
+<li><strong>Zoning and permits.</strong> The RDTR zone colour, KDB and KLB, setbacks, PBG building approval and SLF, and how long each really takes in each regency</li>
+<li><strong>Off-plan villas and developers.</strong> Whether the developer controls the land, how payments are tied to construction, and what happens if a project stops</li>
+<li><strong>Rental yields and licensing.</strong> Net rather than gross returns, management and platform costs, and whether a villa may legally take paying guests at all</li>
+<li><strong>Where to buy.</strong> Canggu, Berawa, Pererenan, Seminyak, Umalas, Uluwatu and the Bukit, Sanur, Ubud, Tabanan, Nusa Penida and Lombok, and the rule that breaks deals in each</li>
+<li><strong>Residency linked to property.</strong> The Second Home visa, investor KITAS and the permits that decide which title you can hold</li>
+<li><strong>Exit planning.</strong> Selling the remaining years of a lease, extensions, and what the property is worth with ten years left instead of twenty-five</li>
 </ul>
-<p>Different islands are not interchangeable. Spatial rules, permit timelines and enforcement all vary by regency and province, and an assumption carried from Canggu to Lombok is a common and expensive mistake.</p>
+<p>Different islands are not interchangeable. Spatial rules, permit timelines and enforcement vary by regency and province, and an assumption carried from Canggu to Lombok is a common and expensive mistake.</p>
+
+<h2>Who I work with</h2>
+<p>Buyers from Australia, the UK, the US, Singapore and across Europe. Many of them compare Bali with what they know from home: Spain and Portugal, Mauritius and Dubai, Thailand and Mallorca. So the site also has guides written for buyers from specific countries, in their own language:</p>
+<ul>{langs}</ul>
 
 <h2>Why this site exists</h2>
 <p>Most Bali property information is published by people selling Bali property. That is not a conspiracy, it is an incentive, and it means the honest answers to the hardest questions tend not to get written down.</p>
 <p>Foreigners cannot own freehold land in Indonesia. Nominee arrangements, still the most commonly sold structure on the island, have been void since 1960 and criminal in Bali since February 2026. Advertised rental yields are gross figures that ignore platform commission, regional tax, management, staffing and, on a lease, the fact that the asset expires. None of that is secret. It is simply inconvenient to the sale.</p>
-<p>This site publishes it anyway.</p>
+<p>This site publishes it anyway. There are {n_pages} answers here, each with the regulation it relies on and the date it was last checked. The videos that started Bali Off Script reached more than 1.7 million views in a single month, most of them from people asking the questions these pages answer.</p>
 
 <h2>How to judge whether I am any use</h2>
 <p>Not by testimonials, which anyone can write. By whether the reasoning holds up when you check it:</p>
@@ -1314,18 +1431,21 @@ def about_page():
 <li>Where a figure is commonly cited but subject to revision, it is presented that way rather than as settled fact</li>
 <li>Nothing here is framed as a workaround for foreign ownership restrictions</li>
 </ul>
-<p>The <a href="{BASE}/calculator/">return calculator</a> is the clearest example. It is built to show what a property actually returns after every cost, including the lease amortisation that turns an advertised 12% into something very different. An adviser trying to sell you a villa would not publish that tool.</p>
+<p>The <a href="{BASE}/calculator/">return calculator</a> is the clearest example. It shows what a property actually returns after every cost, including the lease amortisation that turns an advertised 12% into something very different. Someone only trying to sell you a villa would not publish that tool.</p>
 
 <h2>How I work</h2>
-<p>Send me a deal and I will tell you which link in the chain breaks first, the zoning, the licence, the lease term, or the numbers. The <a href="{BASE}/check/">intake list is here</a>. A first look costs you nothing.</p>
+<p>Send me a deal and I will tell you which link in the chain breaks first: the zoning, the licence, the lease term or the numbers. The <a href="{BASE}/check/">intake list is here</a>, and the <a href="{BASE}/buyers-kit/">Buyer's Kit</a> is the full checklist I use. A first look costs you nothing.</p>
 <p>The most useful thing I can tell someone is often &ldquo;not this one&rdquo;. A deal that cannot survive being checked properly is not a deal worth doing, whoever is selling it.</p>
 
 <h2>What this is not</h2>
-<p>It is not legal advice, tax advice, or financial advice, and reading it does not create an adviser relationship. Indonesian regulations change often and are administered inconsistently between regencies and between individual offices. Before you sign anything or transfer any money, verify it with your own licensed Indonesian notary or PPAT, your own lawyer, and your own registered tax consultant, not the seller's. The <a href="{BASE}/disclaimer/">full disclaimer is here</a>.</p>
+<p>It is not legal advice, tax advice or financial advice, and reading it does not create an adviser relationship. I am not a notary, a lawyer or a tax consultant. Indonesian regulations change often and are administered inconsistently between regencies and between individual offices. Before you sign anything or transfer any money, verify it with your own licensed Indonesian notary or PPAT, your own lawyer and your own registered tax consultant, not the seller's. The <a href="{BASE}/disclaimer/">full disclaimer is here</a>.</p>
 <p>I work in Bali property, which is how I know what goes wrong. That also means I am not a neutral party, so check what I tell you against your own notary, lawyer and tax consultant, exactly as you would with anyone else in this market.</p>
 </div>
 
-{share_bar(f"About {SITE_NAME}", "/about/")}
+<section class="faqs"><h2 id="common-questions">Common questions</h2>{faq_rows}</section>
+
+{kit_box("about")}
+{share_bar(f"About {AUTHOR}, {SITE_NAME}", "/about/")}
 {cta("Got a specific situation?",
      "Send me the details. Location, title type, zoning, and whatever permits you've been shown. I'll tell you what I'd check first.",
      "Message me on WhatsApp")}
@@ -1366,6 +1486,7 @@ def check_page():
 <p>None of those are visible in a photograph of a villa.</p>
 </div>
 
+{kit_box("check")}
 {share_bar("What I'd check first before you buy", "/check/")}
 {cta("Want me to look at the numbers with you?",
      "Location, title type, zoning, and any permits you've been shown. I'll tell you which link in the chain breaks, and what it would take to fix it. ",
@@ -1399,7 +1520,7 @@ def home(pages):
             {"@type": "ProfessionalService", "@id": f"{SITE_URL}/#org",
              "name": SITE_NAME, "url": SITE_URL, "description": TAGLINE,
              "logo": f"{SITE_URL}/icon-512.png", "image": f"{SITE_URL}/icon-512.png",
-             "sameAs": [INSTAGRAM],
+             **SAME,
              "founder": {"@id": f"{SITE_URL}/#kai"},
              "areaServed": [{"@type": "Place", "name": "Bali, Indonesia"},
                             {"@type": "Place", "name": "Lombok, Indonesia"},
@@ -1412,7 +1533,7 @@ def home(pages):
              "priceRange": "$$"},
             {"@type": "Person", "@id": f"{SITE_URL}/#kai",
              "name": AUTHOR, "jobTitle": AUTHOR_ROLE,
-             "url": SITE_URL + "/about/", "sameAs": [INSTAGRAM],
+             "url": SITE_URL + "/about/", **SAME,
              "image": f"{SITE_URL}/{AUTHOR_PHOTO}",
              "worksFor": {"@id": f"{SITE_URL}/#org"},
              "knowsAbout": ["Indonesian property law", "Bali real estate",
@@ -1439,7 +1560,7 @@ def home(pages):
 </div>
 <div class="hero-fig">
 <img src="{BASE}/kai-hero.jpg" width="726" height="969" alt="{AUTHOR}, {AUTHOR_ROLE}" fetchpriority="high">
-<figcaption class="hero-cap"><span>{AUTHOR}</span>Property adviser</figcaption>
+<figcaption class="hero-cap"><span>{AUTHOR}</span>{AUTHOR_ROLE}</figcaption>
 </div>
 </section>
 <section class="wrap tool-wrap" id="tool">
@@ -1457,6 +1578,7 @@ def home(pages):
 <section class="wrap">
 <h2 class="sec-h">Start here</h2>
 <ul class="cards">{recent}</ul>
+{kit_box("home")}
 </section>
 
 <section class="wrap who-wrap">
@@ -1466,7 +1588,6 @@ def home(pages):
 <h2 class="who-h">I'm {AUTHOR}.</h2>
 <p class="who-b">I advise on property in Bali, and I'm on the ground here. This site exists because the honest answers to these questions are not what gets published. The market runs on optimism, and buyers find out afterwards. Everything here carries the regulation it comes from and the date I last checked it.</p>
 <p class="who-b">If you're looking at something specific, send it to me. I'll tell you what I'd check first.</p>
-<a class="ig-link who-ig" href="{INSTAGRAM}" rel="me">{ig_logo("ig")}<span>@balioffscript</span></a>
 </div>
 </div>
 </section>
@@ -1634,7 +1755,8 @@ MAP_AREAS = [
 # Add or reorder by editing this list. Paste the shortcode from the URL:
 # instagram.com/balioffscript/reel/DZggWgDPwoV/  ->  "DZggWgDPwoV"
 # Order here is the order on the page. Put the strongest first.
-REELS = [
+REELS = []  # emptied 4 Oct 2026: the reels live on the hacked account
+_OLD_REELS = [
     "DcDDNqXxTdx", "DbPebwERD-W", "DbAUMTsxs5D", "Db90Tkgvx4l",
     "Db65NkhPtHo", "Db2Yy1ox5sO", "DaRfEbhvymR", "DZggWgDPwoV",
     "DZM-yYrvpOq", "DZLuTzVvHEa", "DYqa-PGPUZd", "DY6ApqbPkl2",
@@ -1940,7 +2062,7 @@ def opportunities_page():
 <div class="ld-tick"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5.5 5.5L20 7"/></svg></div>
 <h2>Thank you.</h2>
 <p>I will personally contact you, get to know what you're actually looking for, and see whether there's a Bali opportunity worth putting in front of you.</p>
-<p class="ld-sign">Kindly, {AUTHOR}<span>MOST TRUSTED BALI PROPERTY ADVISER</span></p>
+<p class="ld-sign">Kindly, {AUTHOR}<span>{AUTHOR_ROLE.upper()}</span></p>
 <div id="ld-fallback" hidden><a href="#" target="_blank" rel="noopener">Send it to me on WhatsApp</a></div>
 </div>
 
@@ -1960,6 +2082,7 @@ def simple(slug, title, body):
 <main class="wrap article">
 <h1>{title}</h1>
 <div class="prose">{md(body)}</div>
+{kit_box(slug)}
 {cta()}
 {share_bar(title, f"/{slug}/")}
 </main>
@@ -2003,6 +2126,15 @@ def main():
     write("/opportunities/", opportunities_page())
     write("/disclaimer/", simple("disclaimer", "Disclaimer", DISCLAIMER))
     write("/checklist/", simple("checklist", "Due diligence checklist", CHECKLIST))
+    me = sys.modules[__name__]
+    write(K.LANDING["en"], K.landing(me, "en", head_fn=head, nav_html=nav(), footer_html=footer()))
+    for lang in K.LANGS:
+        if os.path.exists(os.path.join(K.KIT_SRC, f"{lang}.md")):
+            write(f"/kit/{K.TOKEN}/{lang}/", K.doc_page(me, lang))
+
+    # Language sections: their own pages, written for each market (langs.py).
+    import langs as L
+    lang_urls = L.build(me)
 
     index = [{
         "t": p["question"],
@@ -2014,13 +2146,14 @@ def main():
     open(os.path.join(OUT, "search-index.json"), "w", encoding="utf-8").write(json.dumps(index))
 
     urls = ["/", "/about/", "/all/", "/calculator/", "/check/", "/search/", "/opportunities/",
-            "/checklist/", "/disclaimer/"] + [f"/{k}/" for k in CATEGORIES] + \
-           [f'/{p["category"]}/{p["slug"]}/' for p in pages]
+            "/checklist/", "/disclaimer/", K.LANDING["en"]] + [f"/{k}/" for k in CATEGORIES] + \
+           [f'/{p["category"]}/{p["slug"]}/' for p in pages] + [u for u, _ in lang_urls]
 
     # lastmod is how Google decides what is worth recrawling. Articles carry
     # their own verified date; everything else moves when the build does.
     today = __import__("datetime").date.today().isoformat()
     mod = {f'/{p["category"]}/{p["slug"]}/': p.get("verified", today) for p in pages}
+    mod.update({u: d for u, d in lang_urls})
 
     sm = "".join(
         f"<url><loc>{SITE_URL}{u}</loc><lastmod>{mod.get(u, today)}</lastmod></url>"
@@ -2037,6 +2170,8 @@ def main():
         robots += f"User-agent: {a}\nAllow: /\n\n"
     robots += f"Sitemap: {SITE_URL}/sitemap.xml\n"
     open(os.path.join(OUT, "robots.txt"), "w", encoding="utf-8").write(robots)
+
+    write_llms(pages, lang_urls)
 
     # Web app manifest, so the favicon set is used on home screens too.
     open(os.path.join(OUT, "site.webmanifest"), "w", encoding="utf-8").write(json.dumps({
@@ -2060,11 +2195,40 @@ def main():
     for f in os.listdir(ASSETS):
         src, dst = os.path.join(ASSETS, f), os.path.join(OUT, f)
         if os.path.isdir(src):
-            shutil.copytree(src, dst)          # reel thumbnails live in a folder
+            shutil.copytree(src, dst, dirs_exist_ok=True)   # reels/, kit/
         else:
             shutil.copy(src, dst)
 
     print(f"Built {len(pages)} answers + {len(CATEGORIES)} sections into docs/")
+
+
+def write_llms(pages, lang_urls):
+    """llms.txt: a plain map of the site for answer engines (ChatGPT, Claude,
+    Perplexity). AI assistants already send more visitors than Google does."""
+    lines = [f"# {SITE_NAME}", "",
+             f"> {TAGLINE} Written by {AUTHOR}, {AUTHOR_ROLE}, based in Bali. Every answer names the "
+             "regulation it relies on and the date it was last checked. General information, not legal "
+             "or tax advice.", "",
+             "Foreigners cannot hold freehold (Hak Milik) in Indonesia. The lawful routes are leasehold, "
+             "Hak Pakai with residency, and HGB through a PT PMA. Advertised Bali villa yields are gross; "
+             "the site shows the net figure after platform, management, staff, tax and lease amortisation.", "",
+             "## Start here", "",
+             f"- [Can foreigners own property in Bali?]({SITE_URL}/ownership/)",
+             f"- [The Bali Buyer's Kit, free due diligence checklist]({SITE_URL}{K.LANDING['en']})",
+             f"- [Return calculator]({SITE_URL}/calculator/)",
+             f"- [About {AUTHOR}]({SITE_URL}/about/)", ""]
+    for k, (name, blurb) in CATEGORIES.items():
+        lines += [f"## {name}", "", blurb, ""]
+        for p in [q for q in pages if q["category"] == k]:
+            lines.append(f'- [{p["question"]}]({SITE_URL}/{k}/{p["slug"]}/): {p["summary"]}')
+        lines.append("")
+    if lang_urls:
+        lines += ["## Other languages", ""]
+        for code, name, href in live_langs():
+            if code != "en":
+                lines.append(f"- [{name}]({SITE_URL}{href})")
+        lines.append("")
+    open(os.path.join(OUT, "llms.txt"), "w", encoding="utf-8").write("\n".join(lines))
 
 
 DISCLAIMER = """

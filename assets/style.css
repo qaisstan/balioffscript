@@ -1324,3 +1324,115 @@ tbody tr:last-child td { border-bottom: 0; }
 .rail-q a:hover { color: var(--seal); }
 .fq { scroll-margin-top: 5.5rem; }
 .fq.hit > summary { color: var(--seal); }
+
+/* ---------------------------------------------------------------- Buyer's Kit
+   The lead magnet. Dark block like the CTA, with the PDF's cover drawn in CSS
+   beside the form so people see what they get before they type anything. */
+.kit { max-width: 46rem; margin: 2.75rem 0; background: var(--ink); color: var(--paper); }
+.kit-in { display: grid; grid-template-columns: 9.5rem 1fr; gap: 1.75rem; padding: 2rem; align-items: start; }
+.kit-cover {
+  position: relative; display: flex; flex-direction: column; aspect-ratio: 0.72;
+  background: var(--paper); color: var(--ink); padding: 0.9rem 0.8rem;
+  box-shadow: 6px 8px 0 rgba(255,255,255,0.08), 0 14px 30px rgba(0,0,0,0.35);
+  transform: rotate(-2.5deg); margin-top: 0.4rem;
+}
+.kit-cover::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 5px; background: var(--seal); }
+.kc-k { font-family: var(--mono); font-size: 0.5rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--slate); }
+.kc-t { font-family: var(--display); font-size: 1.02rem; line-height: 1.15; margin-top: 0.5rem; }
+.kc-r { flex: 1; border-bottom: 1px solid var(--rule-2); margin-bottom: 0.45rem; }
+.kc-l { font-family: var(--mono); font-size: 0.55rem; color: var(--seal); letter-spacing: 0.05em; }
+.kc-by { font-family: var(--mono); font-size: 0.5rem; color: var(--slate); margin-top: 0.2rem; text-transform: uppercase; }
+.kit-k { font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: #e0a39e; margin: 0 0 0.35rem; }
+.kit-h { font-family: var(--display); font-size: 1.6rem; line-height: 1.15; margin: 0 0 0.6rem; color: var(--paper); }
+.kit-p { color: #c3c9d2; font-size: 0.9375rem; margin: 0 0 0.8rem; }
+.kit-pts { list-style: none; padding: 0; margin: 0 0 1.2rem; display: grid; gap: 0.3rem; }
+.kit-pts li { font-size: 0.875rem; color: #dfe3e8; padding-left: 1.3rem; position: relative; }
+.kit-pts li::before { content: "✓"; position: absolute; left: 0; color: #8fd3b0; font-weight: 700; }
+.kit-f { display: grid; gap: 0.55rem; position: relative; }
+.kit-f input, .kit-f select {
+  font: inherit; font-size: 1rem; padding: 0.75rem 0.85rem; border: 1px solid #3a414b;
+  background: #1f2329; color: var(--paper); border-radius: 0; width: 100%; min-width: 0;
+}
+.kit-f input::placeholder { color: #8b94a1; }
+.kit-f input:focus, .kit-f select:focus { outline: 2px solid #e0a39e; outline-offset: -1px; }
+.kit-tel { display: grid; grid-template-columns: 6.6rem 1fr; gap: 0.55rem; }
+.kit-btn, .kit-dl, .kit-wa {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.55rem;
+  font: inherit; font-size: 1rem; font-weight: 700; letter-spacing: 0.01em; cursor: pointer;
+  background: var(--seal); color: #fff; border: 0; padding: 0.9rem 1.2rem; text-decoration: none;
+}
+.kit-btn:hover, .kit-dl:hover { background: #fff; color: var(--ink); }
+.kit-err { color: #ffb4ad; font-size: 0.875rem; margin: 0; min-height: 0; }
+.kit-err:empty { display: none; }
+.kit-fine { color: #8b94a1; font-size: 0.78rem; margin: 0.15rem 0 0; }
+.kit-done { animation: fadeIn .3s ease; }
+.kit-dh { font-family: var(--display); font-size: 1.5rem; margin: 0 0 0.8rem; color: var(--paper); }
+.kit-dl { width: 100%; }
+.kit-mailed { color: #c3c9d2; font-size: 0.875rem; margin: 0.6rem 0 0; }
+.kit-q { margin-top: 1.4rem; border-top: 1px solid #343a43; padding-top: 1.1rem; }
+.kit-qh { color: var(--paper); font-weight: 500; margin: 0 0 0.6rem; }
+.kit-ql { font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.06em; text-transform: uppercase; color: #8b94a1; margin: 0.7rem 0 0.35rem; }
+.kit-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.kit-chip {
+  font: inherit; font-size: 0.8125rem; padding: 0.45rem 0.7rem; cursor: pointer;
+  background: transparent; color: #dfe3e8; border: 1px solid #4a525d;
+}
+.kit-chip:hover { border-color: #dfe3e8; }
+.kit-chip.sel { background: var(--paper); color: var(--ink); border-color: var(--paper); }
+.kit-wa { width: 100%; margin-top: 1rem; background: #1fa855; }
+.kit-wa:hover { background: #fff; color: var(--ink); }
+.kit-id { color: #c3c9d2; margin: 0.8rem 0 0; }
+.kit[hidden], .kit-done[hidden], .kit-f[hidden], .kit-q[hidden], .kit-id[hidden], .kit-mailed[hidden] { display: none; }
+@media (max-width: 40rem) {
+  .kit { margin-inline: -1rem; }
+  .kit-in { grid-template-columns: 1fr; padding: 1.5rem 1rem; gap: 1rem; }
+  .kit-cover { width: 6.5rem; transform: rotate(-3deg); }
+  .kit-h { font-size: 1.4rem; }
+}
+
+/* Rail pointer to the box. */
+.kit-mini {
+  display: flex; gap: 0.8rem; align-items: center; margin-top: 1.25rem; padding: 0.8rem;
+  background: var(--ink); color: var(--paper); text-decoration: none;
+}
+.kit-mini .kit-cover-s { width: 3.2rem; padding: 0.35rem; transform: rotate(-3deg); margin: 0; box-shadow: none; }
+.kit-cover-s .kc-k, .kit-cover-s .kc-l, .kit-cover-s .kc-by { display: none; }
+.kit-cover-s .kc-t { font-size: 0.42rem; margin: 0; }
+.kit-mini b { display: block; font-size: 0.875rem; font-weight: 700; }
+.kit-mini em { display: block; font-style: normal; font-size: 0.75rem; color: #e0a39e; margin-top: 0.15rem; }
+.kit-mini:hover em { color: #fff; }
+
+/* Language switcher in the footer and masthead. */
+.langs { display: flex; flex-wrap: wrap; gap: 0.35rem 0.9rem; font-size: 0.8125rem; }
+.langs a { color: var(--slate); text-decoration: none; }
+.langs a:hover, .langs a.on { color: var(--ink); text-decoration: underline; }
+.lang-bar { border-bottom: 1px solid var(--rule); background: var(--paper-2); }
+.lang-bar .wrap { display: flex; justify-content: flex-end; padding-block: 0.35rem; }
+
+/* ---------------------------------------------------------------- kit document
+   The printable PDF. Chrome prints this page to A4. */
+body.kitdoc { background: #fff; }
+.kd-cover {
+  min-height: 92vh; display: flex; flex-direction: column; justify-content: center;
+  padding: 3rem 3.2rem; background: var(--ink); color: var(--paper); position: relative;
+}
+.kd-cover::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 14px; background: var(--seal); }
+.kd-brand { font-family: var(--mono); letter-spacing: 0.1em; text-transform: uppercase; color: #e0a39e; font-size: 0.85rem; }
+.kd-title { font-family: var(--display); font-size: 3.2rem; line-height: 1.05; margin: 1rem 0 1.2rem; color: var(--paper); }
+.kd-sub { font-size: 1.15rem; color: #c3c9d2; max-width: 30rem; }
+.kd-by { margin-top: 3rem; font-family: var(--mono); font-size: 0.85rem; color: #8b94a1; line-height: 1.6; }
+.kd-body { max-width: 46rem; margin: 0 auto; padding: 2.5rem 2rem 4rem; }
+.kd-body h2 { margin-top: 2.6rem; padding-top: 1rem; border-top: 3px solid var(--ink); }
+.kd-body table { font-size: 0.82rem; }
+.kd-cta { margin-top: 2.5rem; padding: 1rem 1.2rem; background: var(--ink); color: var(--paper); font-weight: 700; }
+.kd-cta a { color: var(--paper); }
+@media print {
+  @page { size: A4; margin: 14mm 13mm; }
+  .kd-cover { min-height: 262mm; break-after: page; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .kd-body { padding: 0; max-width: none; }
+  .kd-body h2 { break-before: page; margin-top: 0; }
+  .kd-body h2:first-child { break-before: auto; }
+  .kd-body tr, .kd-body li, .kd-body .callout { break-inside: avoid; }
+  .kd-cta { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
+.foot-langs { padding-block: 0 1.25rem; }

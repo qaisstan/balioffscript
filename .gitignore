@@ -1,2 +1,5 @@
 .DS_Store
 .indexnow-key
+data/
+data-kw.log
+__pycache__/

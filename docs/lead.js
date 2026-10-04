@@ -9,6 +9,9 @@
   if (!form) return;
 
   var ENDPOINT = form.dataset.endpoint || "";
+  // Translations for the language sections. English is the fallback.
+  var T = {};
+  try { T = JSON.parse(form.dataset.t || "{}"); } catch (e) {}
   var WA = form.dataset.wa || "";
   var steps = Array.prototype.slice.call(form.querySelectorAll(".ld-step"));
   var bar = document.getElementById("ld-bar");
@@ -63,7 +66,7 @@
       o.setAttribute("aria-label", c[2] + " +" + c[1]);
       sel.appendChild(o);
     });
-    sel.value = "+61";
+    sel.value = T.dial || "+61";
     sel.addEventListener("change", function () { dialTouched = true; });
   }
 
@@ -101,17 +104,17 @@
     var name = step.dataset.field;
     if (name === "name") {
       var v = form.elements.name.value.trim();
-      if (v.length < 2) { err(step, "Please enter your name."); return false; }
-      if (v.length > 80) { err(step, "That name is too long."); return false; }
+      if (v.length < 2) { err(step, T.e_name || "Please enter your name."); return false; }
+      if (v.length > 80) { err(step, T.e_name_long || "That name is too long."); return false; }
     }
     if (name === "phone") {
       var digits = form.elements.phone.value.replace(/[^0-9]/g, "");
-      if (digits.length < 6) { err(step, "Please enter a valid number."); return false; }
-      if (digits.length > 15) { err(step, "That number is too long."); return false; }
+      if (digits.length < 6) { err(step, T.e_phone || "Please enter a valid number."); return false; }
+      if (digits.length > 15) { err(step, T.e_phone_long || "That number is too long."); return false; }
       // Email is optional, but a typo in one that was filled in is worth catching.
       var mail = form.elements.email.value.trim();
       if (mail && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(mail)) {
-        err(step, "That email doesn't look right."); return false;
+        err(step, T.e_email || "That email doesn't look right."); return false;
       }
     }
     err(step, "");
@@ -189,6 +192,11 @@
     var first = (d.name.split(/\s+/)[0] || d.name).trim();
     first = first.charAt(0).toUpperCase() + first.slice(1);
 
+    if (T.msg) {
+      var text = T.msg.replace("{name}", first).replace("{budget}", d.budget).replace("{when}", d.timeline);
+      return "https://wa.me/" + WA + "?text=" + encodeURIComponent(text);
+    }
+
     var budget = d.budget === "Still working it out"
       ? "I'm still working out my budget"
       : "My budget is around " + d.budget;
@@ -214,7 +222,9 @@
       hp: form.elements.company.value,
       ms: Date.now() - loaded,
       ref: document.referrer.slice(0, 200),
-      page: location.href.slice(0, 200)
+      page: location.href.slice(0, 200),
+      lang: T.lang || "en",
+      type: "form"
     };
   }
 
