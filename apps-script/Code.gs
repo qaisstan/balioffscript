@@ -1,12 +1,13 @@
 /**
  * Bali Off Script — lead form receiver.
  *
- * Deployed as a web app, this only ever APPENDS a row. It has no doGet and it
- * returns nothing readable, so the public /exec URL sitting in the page source
- * cannot be used to read anyone's submission. Worst case someone posts junk
- * rows, which the honeypot and timing checks below already filter.
+ * Deployed as a web app. doPost only ever APPENDS a row. doGet returns leads
+ * ONLY with the private read key, which lives in this project's Script
+ * properties (READ_KEY), never in this file: the repo is public. Without the
+ * key the /exec URL in the page source returns nothing readable. Worst case
+ * someone posts junk rows, which the honeypot and timing checks filter.
  *
- * Setup lives in README.md.
+ * Setup and the one-minute update steps live in README.md.
  */
 
 // The spreadsheet to write into, taken from its URL:
@@ -19,8 +20,9 @@ var SHEET_ID = "1JK3pIfbNCpXfZIN3Z55F8c45Ad1jfURdkn11JsYSCb8";
 // Where the "New lead" alert goes. Leave "" to switch alerts off.
 var NOTIFY = "hello@qaisstanikzai.com";
 
-// New columns go at the end so older rows keep lining up.
-var HEADERS = ["Received", "Name", "Phone", "Email", "Budget", "Timeline", "Source", "Page", "Type", "Language", "Interest"];
+// The sheet's first seven columns are what the original version wrote. New
+// columns go AFTER them so every older row keeps lining up under its header.
+var HEADERS = ["Received", "Name", "Phone", "Budget", "Timeline", "Source", "Page", "Email", "Type", "Language", "Interest"];
 var TYPES = {form: "Opportunities form", kit: "Guide download", "kit-qualify": "Guide download + budget"};
 
 
@@ -39,17 +41,17 @@ function doPost(e) {
     if (!name || !phone) return ok();
 
     var row = [
-      new Date(),
-      name,
-      phone,
-      clean(d.email, 120),
-      clean(d.budget, 40),
-      clean(d.timeline, 40),
-      clean(d.ref, 200),
-      clean(d.page, 200),
-      TYPES[d.type] || clean(d.type, 40) || "Opportunities form",
-      clean(d.lang, 8),
-      clean(d.interest, 80)
+      new Date(),                                                   // 0 Received
+      name,                                                         // 1 Name
+      phone,                                                        // 2 Phone
+      clean(d.budget, 40),                                          // 3 Budget
+      clean(d.timeline, 40),                                        // 4 Timeline
+      clean(d.ref, 200),                                            // 5 Source
+      clean(d.page, 200),                                           // 6 Page
+      clean(d.email, 120),                                          // 7 Email
+      TYPES[d.type] || clean(d.type, 40) || "Opportunities form",   // 8 Type
+      clean(d.lang, 8),                                             // 9 Language
+      clean(d.interest, 80)                                         // 10 Interest
     ];
 
     // Write and notify independently. If the sheet is unreachable the email
@@ -93,17 +95,17 @@ function notify(row, wrote) {
     MailApp.sendEmail({
       to: NOTIFY,
       subject: (wrote ? "" : "(SHEET FAILED) ") + row[8] + ": " + row[1] +
-               (row[10] ? " — " + row[10] : "") + (row[4] ? " — " + row[4] : "") + (row[9] ? " [" + row[9].toUpperCase() + "]" : ""),
+               (row[10] ? " — " + row[10] : "") + (row[3] ? " — " + row[3] : "") + (row[9] ? " [" + row[9].toUpperCase() + "]" : ""),
       body: [
         "Name:      " + row[1],
         "Phone:     " + row[2],
-        "Email:     " + (row[3] || "not given"),
-        "Budget:    " + row[4],
-        "Timeline:  " + row[5],
+        "Email:     " + (row[7] || "not given"),
+        "Budget:    " + (row[3] || "-"),
+        "Timeline:  " + (row[4] || "-"),
         "Looking for: " + (row[10] || "-"),
         "Language:  " + (row[9] || "-"),
         "",
-        "Came from: " + (row[6] || "direct"),
+        "Came from: " + (row[5] || "direct"),
         "",
         "https://docs.google.com/spreadsheets/d/" + SHEET_ID + "/edit"
       ].join("\n")
@@ -127,6 +129,30 @@ function write(row) {
   sheet.getRange(1, 1, 1, HEADERS.length).setFontWeight("bold");
   sheet.appendRow(row);
   return true;
+}
+
+
+/**
+ * The Studio (Kai's local app) reads leads with the private key:
+ *   GET <exec url>?key=READ_KEY&days=90
+ * Without the right key this returns the same empty {ok:true} as everything else.
+ */
+function doGet(e) {
+  var key = PropertiesService.getScriptProperties().getProperty("READ_KEY");
+  var p = (e && e.parameter) || {};
+  if (!key || key.length < 24 || p.key !== key) return ok();
+  var days = Math.min(Math.max(parseInt(p.days, 10) || 90, 1), 730);
+  var since = new Date(Date.now() - days * 864e5);
+  var sheet = SpreadsheetApp.openById(SHEET_ID).getSheetByName("Leads");
+  var values = sheet ? sheet.getDataRange().getValues() : [];
+  var head = values.shift() || HEADERS;
+  var rows = values.filter(function (r) { return r[0] instanceof Date && r[0] >= since; }).map(function (r) {
+    var o = {};
+    head.forEach(function (h, i) { o[String(h || ("col" + i)).toLowerCase()] = r[i] instanceof Date ? r[i].toISOString() : r[i]; });
+    return o;
+  });
+  return ContentService.createTextOutput(JSON.stringify({ ok: true, leads: rows }))
+    .setMimeType(ContentService.MimeType.JSON);
 }
 
 

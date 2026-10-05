@@ -110,21 +110,20 @@ whatever text you set, no script change needed.
 
 ---
 
-## Update, 5 Oct 2026: Type, Language and Interest columns
+## Update, 6 Oct 2026: new columns + leads in the Studio (do this once, about 2 minutes)
 
-The site already sends these three fields. The old script ignored them. Interest was squeezed into the Page column after a `|`.
+What changes:
+- Three new columns at the END of the Leads tab: **Email**, **Type** (Opportunities form / Guide download / Guide download + budget), **Language**, **Interest**. Your existing rows stay exactly where they are. (The 5 Oct draft put Email in the middle, which would have shifted the old rows. It was never deployed; this version fixes it.)
+- Email alerts show the same details.
+- The Studio app can read your leads with a private key, so they show up in the app and the learning.
 
-The new `Code.gs` adds three columns at the end of the Leads tab:
-- **Type:** Opportunities form, Guide download, or Guide download + budget.
-- **Language:** en, fr, de, nl, sv or no.
-- **Interest:** land, finished villa, off-plan, or moving.
-
-Your email alerts show the same details. Old rows stay as they are.
-
-To switch it on, keeping the same URL so nothing on the site changes:
+Steps, keeping the same URL so nothing on the site changes:
 
 1. Open the sheet. Go to **Extensions → Apps Script**.
 2. Replace everything in `Code.gs` with the new file and save.
-3. Go to **Deploy → Manage deployments**, click the pencil, set **Version: New version**, then **Deploy**.
+3. Left sidebar: **Project Settings** (the gear) → **Script Properties** → **Add script property**.
+   Name: `READ_KEY`. Value: the key from the Studio (Settings → Website leads → Copy key). Save.
+4. **Deploy → Manage deployments**, click the pencil, set **Version: New version**, then **Deploy**.
 
 Never use "New deployment" for an update. That creates a new URL, and the site would keep posting to the old one.
+The key never goes in Code.gs: this repository is public.
