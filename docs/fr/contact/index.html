@@ -33,19 +33,28 @@
 </head>
 <body class="lead-body">
 <main class="lead">
+<div class="lead-bg" aria-hidden="true" style="background-image:url(https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=1600&h=1000&fit=crop&crop=entropy&auto=format&q=70)"></div>
+<header class="lead-head">
+<img class="lead-photo" src="/kai.jpg" width="96" height="96" loading="lazy" alt="Kai, Strategic Investment Adviser">
+<div><p class="lead-brand">Bali Off Script</p><p class="lead-who">Kai, Conseiller en investissement stratégique</p></div>
+</header>
 <div class="lead-card">
 <div class="ld-top"><p class="ld-count" id="ld-count"></p></div>
 <div class="ld-track"><span id="ld-bar"></span></div>
 <div class="ld-body">
 <h1 class="sr-only">Trouver le bon bien à Bali</h1>
 <p class="sr-only" id="ld-live" aria-live="polite"></p>
-<form id="lead" data-endpoint="https://script.google.com/macros/s/AKfycbxAyaSDxww9Kv7MsjpynwgXlTFcy4jmv-EwanKppMD2Slm-eQDw8QDlDf9_8VTaheI4PA/exec" data-wa="46700081414" data-t='{"lang": "fr", "dial": "+33", "msg": "Bonjour Kai, je suis {name}. Je viens de remplir le formulaire sur ton site. Budget : {budget}. Calendrier : {when}. Au plaisir d&#39;échanger.", "e_name": "Indique ton prénom.", "e_name_long": "Ce nom est trop long.", "e_phone": "Indique un numéro valide.", "e_phone_long": "Ce numéro est trop long.", "e_email": "Cet e-mail ne semble pas correct."}' novalidate>
+<form id="lead" data-endpoint="https://script.google.com/macros/s/AKfycbxAyaSDxww9Kv7MsjpynwgXlTFcy4jmv-EwanKppMD2Slm-eQDw8QDlDf9_8VTaheI4PA/exec" data-wa="46700081414" data-t='{"lang": "fr", "dial": "+33", "msg": "Bonjour Kai, je suis {name}. Je viens de remplir le formulaire sur ton site. Je cherche : {interest}. Budget : {budget}. Calendrier : {when}. Au plaisir d&#39;échanger.", "e_name": "Indique ton prénom.", "e_name_long": "Ce nom est trop long.", "e_phone": "Indique un numéro valide.", "e_phone_long": "Ce numéro est trop long.", "e_email": "Cet e-mail ne semble pas correct."}' novalidate>
 <input type="text" name="company" class="ld-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
-<input type="hidden" name="budget"><input type="hidden" name="timeline">
-<div class="ld-step on">
-<h2>Je t'aide à trouver le bon investissement à Bali.</h2>
-<p class="ld-sub">Quatre questions, dix secondes. Ensuite je regarde ce qui correspond vraiment à ton budget et à ton calendrier, et je reviens vers toi moi-même.</p>
-<div class="ld-acts"><button type="button" class="ld-btn" data-next>C'est parti</button><span class="ld-hint">10 SECONDES</span></div>
+<input type="hidden" name="budget"><input type="hidden" name="timeline"><input type="hidden" name="interest">
+<div class="ld-step on" data-field="interest">
+<h2>Que cherches-tu à Bali ?</h2>
+<p class="ld-sub">Quatre questions rapides. Ensuite je regarde ce qui te correspond vraiment, et je reviens vers toi moi-même sur WhatsApp.</p>
+<div class="ld-opts"><button type="button" class="ld-opt" data-value="Un terrain pour construire" aria-pressed="false"><b>A</b><span>Un terrain pour construire</span></button>
+<button type="button" class="ld-opt" data-value="Une villa terminée pour y vivre ou la louer" aria-pressed="false"><b>B</b><span>Une villa terminée pour y vivre ou la louer</span></button>
+<button type="button" class="ld-opt" data-value="Une villa sur plan comme investissement" aria-pressed="false"><b>C</b><span>Une villa sur plan comme investissement</span></button>
+<button type="button" class="ld-opt" data-value="M'installer : location, visa, déménagement" aria-pressed="false"><b>D</b><span>M'installer : location, visa, déménagement</span></button>
+<a class="ld-opt ld-opt-kit" href="/fr/guide-acheteur/#kit"><b>E</b><span>Juste le guide gratuit de l'acheteur (PDF)</span></a></div>
 </div>
 <div class="ld-step" data-field="name">
 <h2>D'abord, comment tu t'appelles ?</h2><p class="ld-sub">Pour savoir à qui je parle.</p>
@@ -81,6 +90,7 @@
 </form>
 </div>
 </div>
+<nav class="lead-more"><a href="/fr/">Lire tous les guides</a></nav>
 </main>
 <script src="/lead.js" defer></script>
 </body>

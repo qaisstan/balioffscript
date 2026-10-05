@@ -2016,6 +2016,12 @@ def opportunities_page():
         ("A", "Ready now"), ("B", "Within 3 months"), ("C", "3 to 6 months"),
         ("D", "6 months or more"), ("E", "Just researching"),
     ])
+    interest = opts("interest", [
+        ("A", "Land to build on"), ("B", "A finished villa to live in or rent out"),
+        ("C", "An off-plan villa as an investment"), ("D", "A place to live: renting, visa, moving"),
+    ])
+    kit_opt = (f'<a class="ld-opt ld-opt-kit" href="{BASE}{K.LANDING["en"]}#kit">'
+               f'<b>E</b><span>Just the free Buyer\'s Kit (PDF)</span></a>')
 
     return f"""{head(
         "Find the Right Bali Opportunity",
@@ -2023,6 +2029,11 @@ def opportunities_page():
         "property opportunities that actually fit. Takes about ten seconds.",
         "/opportunities/", body_class="lead-body")}
 <main class="lead">
+<div class="lead-bg" aria-hidden="true" style="background-image:url({PH.url("1555400038-63f5ba517a47", 1600, 1000)})"></div>
+<header class="lead-head">
+{portrait("lead-photo")}
+<div><p class="lead-brand">Bali Off Script</p><p class="lead-who">{AUTHOR}, {AUTHOR_ROLE}</p></div>
+</header>
 <div class="lead-card">
 
 <div class="ld-top">
@@ -2036,15 +2047,13 @@ def opportunities_page():
 <form id="lead" data-endpoint="{LEAD_ENDPOINT}" data-wa="{LEAD_WHATSAPP}" novalidate>
 
 <input type="text" name="company" class="ld-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
-<input type="hidden" name="budget"><input type="hidden" name="timeline">
+<input type="hidden" name="budget"><input type="hidden" name="timeline"><input type="hidden" name="interest">
 
-<div class="ld-step on">
-<h2>Let me help you find the right opportunity in Bali.</h2>
-<p class="ld-sub">Four questions, about ten seconds. Then I look at what actually fits your budget and your timing, and I come back to you myself.</p>
-<div class="ld-acts">
-<button type="button" class="ld-btn" data-next>Let's go</button>
-<span class="ld-hint">10 SECONDS</span>
-</div>
+<div class="ld-step on" data-field="interest">
+<h2>What are you looking for in Bali?</h2>
+<p class="ld-sub">Four quick questions. Then I look at what actually fits, and I come back to you myself on WhatsApp.</p>
+<div class="ld-opts">{interest}
+{kit_opt}</div>
 </div>
 
 <div class="ld-step" data-field="name">
@@ -2097,6 +2106,10 @@ def opportunities_page():
 </div>
 
 </div>
+<nav class="lead-more" aria-label="More">
+<a href="{BASE}/">Read {len(ALL_PAGES)} straight answers on Bali property</a>
+<a href="{BASE}/about/">About Kai</a>
+</nav>
 </main>
 <script src="{BASE}/lead.js" defer></script>
 </body>

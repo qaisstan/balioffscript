@@ -32,6 +32,11 @@
 </head>
 <body class="lead-body">
 <main class="lead">
+<div class="lead-bg" aria-hidden="true" style="background-image:url(https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=1600&h=1000&fit=crop&crop=entropy&auto=format&q=70)"></div>
+<header class="lead-head">
+<img class="lead-photo" src="/kai.jpg" width="96" height="96" loading="lazy" alt="Kai, Strategic Investment Adviser">
+<div><p class="lead-brand">Bali Off Script</p><p class="lead-who">Kai, Strategic Investment Adviser</p></div>
+</header>
 <div class="lead-card">
 
 <div class="ld-top">
@@ -45,15 +50,16 @@
 <form id="lead" data-endpoint="https://script.google.com/macros/s/AKfycbxAyaSDxww9Kv7MsjpynwgXlTFcy4jmv-EwanKppMD2Slm-eQDw8QDlDf9_8VTaheI4PA/exec" data-wa="46700081414" novalidate>
 
 <input type="text" name="company" class="ld-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
-<input type="hidden" name="budget"><input type="hidden" name="timeline">
+<input type="hidden" name="budget"><input type="hidden" name="timeline"><input type="hidden" name="interest">
 
-<div class="ld-step on">
-<h2>Let me help you find the right opportunity in Bali.</h2>
-<p class="ld-sub">Four questions, about ten seconds. Then I look at what actually fits your budget and your timing, and I come back to you myself.</p>
-<div class="ld-acts">
-<button type="button" class="ld-btn" data-next>Let's go</button>
-<span class="ld-hint">10 SECONDS</span>
-</div>
+<div class="ld-step on" data-field="interest">
+<h2>What are you looking for in Bali?</h2>
+<p class="ld-sub">Four quick questions. Then I look at what actually fits, and I come back to you myself on WhatsApp.</p>
+<div class="ld-opts"><button type="button" class="ld-opt" data-value="Land to build on" aria-pressed="false"><b>A</b><span>Land to build on</span></button>
+<button type="button" class="ld-opt" data-value="A finished villa to live in or rent out" aria-pressed="false"><b>B</b><span>A finished villa to live in or rent out</span></button>
+<button type="button" class="ld-opt" data-value="An off-plan villa as an investment" aria-pressed="false"><b>C</b><span>An off-plan villa as an investment</span></button>
+<button type="button" class="ld-opt" data-value="A place to live: renting, visa, moving" aria-pressed="false"><b>D</b><span>A place to live: renting, visa, moving</span></button>
+<a class="ld-opt ld-opt-kit" href="/buyers-kit/#kit"><b>E</b><span>Just the free Buyer's Kit (PDF)</span></a></div>
 </div>
 
 <div class="ld-step" data-field="name">
@@ -114,6 +120,10 @@
 </div>
 
 </div>
+<nav class="lead-more" aria-label="More">
+<a href="/">Read 453 straight answers on Bali property</a>
+<a href="/about/">About Kai</a>
+</nav>
 </main>
 <script src="/lead.js" defer></script>
 </body>

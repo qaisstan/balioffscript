@@ -193,7 +193,8 @@
     first = first.charAt(0).toUpperCase() + first.slice(1);
 
     if (T.msg) {
-      var text = T.msg.replace("{name}", first).replace("{budget}", d.budget).replace("{when}", d.timeline);
+      var text = T.msg.replace("{name}", first).replace("{budget}", d.budget).replace("{when}", d.timeline)
+                      .replace("{interest}", d.interest || "");
       return "https://wa.me/" + WA + "?text=" + encodeURIComponent(text);
     }
 
@@ -203,7 +204,8 @@
 
     var when = WHEN[d.timeline] || ("I'm looking to invest " + d.timeline);
 
-    var text = "Hi Kai, I'm " + first + ". I just filled in the form on your site. "
+    var looking = d.interest ? "I'm looking for " + d.interest.charAt(0).toLowerCase() + d.interest.slice(1) + ". " : "";
+    var text = "Hi Kai, I'm " + first + ". I just filled in the form on your site. " + looking
              + budget + " and " + when + ". Happy to connect.";
 
     return "https://wa.me/" + WA + "?text=" + encodeURIComponent(text);
@@ -217,12 +219,13 @@
       email: form.elements.email.value.trim().slice(0, 120),
       budget: form.elements.budget.value,
       timeline: form.elements.timeline.value,
+      interest: form.elements.interest ? form.elements.interest.value : "",
       // Bot checks. A real person leaves the honeypot empty and takes more
       // than a couple of seconds to read four questions.
       hp: form.elements.company.value,
       ms: Date.now() - loaded,
       ref: document.referrer.slice(0, 200),
-      page: location.href.slice(0, 200),
+      page: (location.href.split("#")[0] + (form.elements.interest && form.elements.interest.value ? " | " + form.elements.interest.value : "")).slice(0, 200),
       lang: T.lang || "en",
       type: "form"
     };
