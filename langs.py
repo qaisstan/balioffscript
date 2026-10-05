@@ -69,7 +69,7 @@ UI = {
     groups=[("kaufen", "Kaufen und Eigentum", "Leasehold, Strohmann-Modell, Hak Pakai, PT PMA und was im Zertifikat wirklich steht."),
             ("geld", "Rendite und Steuern", "Netto-Rendite, Steuern in Indonesien und zu Hause, Finanzierung und Nebenkosten."),
             ("leben", "Auswandern und Visum", "Visum, Rente, Krankenversicherung, Abmeldung und Alltag."),
-            ("vergleich", "Bali im Vergleich", "Bali gegen Mallorca, Thailand, Dubai und Portugal."),
+            ("vergleich", "Bali im Vergleich", "Bali gegen Mallorca, Thailand, Dubai und Deutschland."),
             ("regionen", "Wo kaufen", "Canggu, Uluwatu, Ubud, Sanur und der Rest, mit den echten Fallstricken.")],
     faq_h="Häufige Fragen", toc_h="Auf dieser Seite", q_h="Beantwortete Fragen",
     by="Von", updated="Aktualisiert am", min_read="Min. Lesezeit", share="Teilen",
@@ -104,7 +104,7 @@ UI = {
     groups=[("kopen", "Kopen en eigendom", "Leasehold, stroman, Hak Pakai, PT PMA en wat er echt op het certificaat staat."),
             ("geld", "Rendement en belasting", "Netto rendement, belasting in Indonesië en thuis, financiering en kosten koper."),
             ("wonen", "Emigreren en visum", "Visum, AOW en pensioen, zorgverzekering, uitschrijven en dagelijks leven."),
-            ("vergelijk", "Bali vergeleken", "Bali tegenover Spanje, Curaçao, Thailand en Portugal."),
+            ("vergelijk", "Bali vergeleken", "Bali tegenover Spanje, Curaçao, Thailand en Nederland."),
             ("gebieden", "Waar kopen", "Canggu, Uluwatu, Ubud, Sanur en de rest, met de echte valkuilen.")],
     faq_h="Veelgestelde vragen", toc_h="Op deze pagina", q_h="Beantwoorde vragen",
     by="Door", updated="Bijgewerkt op", min_read="min lezen", share="Delen",
@@ -174,7 +174,7 @@ UI = {
     groups=[("kjope", "Kjøpe og eie", "Leasehold, stråmenn, Hak Pakai, PT PMA og hva som faktisk står i hjemmelsdokumentet."),
             ("penger", "Avkastning og skatt", "Nettoavkastning, skatt i Indonesia og i Norge, finansiering og kostnader."),
             ("flytte", "Flytte og visum", "Visum, pensjon, forsikring, utvandring og hverdag."),
-            ("sammenlign", "Bali sammenlignet", "Bali mot Spania, Thailand, Portugal og Dubai."),
+            ("sammenlign", "Bali sammenlignet", "Bali mot Spania, Thailand og Dubai."),
             ("omrader", "Hvor kjøpe", "Canggu, Uluwatu, Ubud, Sanur og resten, med de virkelige fallgruvene.")],
     faq_h="Vanlige spørsmål", toc_h="På denne siden", q_h="Spørsmål som besvares",
     by="Av", updated="Oppdatert", min_read="min lesing", share="Del",
@@ -205,7 +205,7 @@ ORDER = ["fr", "de", "nl", "sv", "no"]
 
 # A language is published only when it is finished: every page written to full
 # depth, its kit PDF printed. Add the code here at that point, not before.
-READY = {"fr", "de", "nl", "sv"}
+READY = {"fr", "de", "nl", "sv", "no"}
 
 
 def pages_for(B, lang):

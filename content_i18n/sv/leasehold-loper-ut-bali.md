@@ -61,9 +61,9 @@ Peter köpte 2006 en villa i Seminyak med 30 års arrende, förlängning „efte
 
 Med en förlängning till fast pris från 2006 hade han betalat dåtidens pris plus inflation, och sålt villan till marknadspris.
 
-## Leasehold är inte tomträtt
+## Tomträtt, men med slutdatum
 
-Många svenskar läser „leasehold" och tänker på tomträtt. Det är fel jämförelse. En tomträtt i Sverige löper i princip för evigt så länge avgälden betalas, och du äger byggnaden. Ett leasehold på Bali har ett slutdatum. När det kommer går mark **och** byggnad tillbaka till markägaren, om inte avtalet säger något annat.
+Tomträtt är den närmaste svenska jämförelsen, med en avgörande skillnad. En tomträtt i Sverige löper i princip för evigt så länge avgälden betalas, och du äger byggnaden. Ett leasehold på Bali har ett slutdatum. När det kommer går mark **och** byggnad tillbaka till markägaren, om inte avtalet säger något annat.
 
 Det liknar inte heller en bostadsrätt. En bostadsrätt kan du sälja vidare utan att tiden tar slut. Ett leasehold blir kortare för varje år du äger det.
 
@@ -100,7 +100,7 @@ Det beror på avtal och läge. Står priset fast betalar du det; annars förhand
 Med ett leasehold utan säker förlängning ja, eftersom köpare köper färre år. Se [leasehold på Bali](/sv/leasehold-bali/).
 
 ### Är leasehold på Bali som tomträtt i Sverige?
-Nej. En tomträtt löper i princip för evigt; ett leasehold har ett slutdatum när mark och byggnad går tillbaka till markägaren.
+Delvis, men en tomträtt löper i princip för evigt. Ett leasehold har ett slutdatum när mark och byggnad går tillbaka till markägaren.
 
 ### Går det att sälja ett leasehold med få år kvar?
 Ja, men köparna blir få när mindre än tio år återstår, och priset sjunker snabbare.
