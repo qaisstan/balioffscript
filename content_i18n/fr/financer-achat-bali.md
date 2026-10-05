@@ -7,23 +7,29 @@ order: 5
 verified: 2026-10-04
 ---
 
-« Emprunter pour investir à Bali » est une des recherches les plus fréquentes des Français. La réponse est moins simple qu'en France, parce que la villa de Bali ne peut pratiquement pas servir de garantie.
+« Emprunter pour investir à Bali » est une des recherches les plus fréquentes des Français. On comprend pourquoi : en France, l'immobilier se finance à crédit, et l'effet de levier est la base de tout investissement locatif. La réponse est moins simple à Bali, parce que la villa ne peut pratiquement pas servir de garantie.
 
 ## Pourquoi les banques ne financent pas un leasehold
 
-Un bail à Bali n'est pas une garantie que les banques aiment. Il perd de la valeur chaque année, il n'est pas une propriété, et une banque française ne peut pas saisir un bail indonésien facilement. Les banques indonésiennes, elles, prêtent très rarement à des étrangers pour ce type de bien.
+Un bail à Bali n'est pas une garantie que les banques aiment, pour trois raisons :
+
+- **il perd de la valeur chaque année**, à mesure que les années restantes diminuent ;
+- **il n'est pas une propriété**, et une banque française ne peut pas saisir facilement un bail indonésien ;
+- **les banques indonésiennes prêtent très rarement à des étrangers** pour ce type de bien, et quasiment jamais sur un leasehold.
 
 Résultat : la grande majorité des acheteurs étrangers paient **comptant**, en une ou plusieurs fois.
 
 ## Les options réalistes
 
-**1. Le cash.** Le plus simple, le plus sûr. Tu ne dépends pas des loyers pour rembourser quoi que ce soit.
+**1. Le cash.** Le plus simple, le plus sûr. Tu ne dépends pas des loyers pour rembourser quoi que ce soit, tu négocies mieux, et tu dors tranquille pendant la saison des pluies quand l'occupation baisse.
 
-**2. Un crédit en France garanti par un bien français.** Tu hypothèques ta résidence principale ou un bien locatif, ou tu fais un prêt sur ton patrimoine financier. La banque prête sur la valeur de ton bien français, pas sur la villa. Le risque : si la villa ne loue pas, c'est ton bien en France qui garantit le prêt.
+**2. Un crédit en France garanti par un bien français.** Tu hypothèques ta résidence principale ou un bien locatif, ou tu empruntes sur ton patrimoine financier (prêt lombard sur une assurance-vie ou un portefeuille). La banque prête sur la valeur de ton bien français, pas sur la villa. Le risque : si la villa ne loue pas, c'est ton bien en France qui garantit le prêt. Et ta banque voudra savoir à quoi sert l'argent.
 
-**3. Le plan de paiement du promoteur.** Pour un achat sur plan, tu paies en plusieurs fois pendant la construction. Ce n'est pas un crédit : c'est un échelonnement, et ton argent finance le chantier. Voir [acheter sur plan à Bali](/fr/acheter-sur-plan-bali/).
+**3. Le plan de paiement du promoteur.** Pour un achat sur plan, tu paies en plusieurs fois pendant la construction. Ce n'est pas un crédit : c'est un échelonnement, et ton argent finance le chantier. Certains promoteurs proposent un étalement après livraison, avec des intérêts. Lis les conditions de défaut : que se passe-t-il si tu rates une échéance ? Voir [acheter sur plan à Bali](/fr/acheter-sur-plan-bali/).
 
 **4. Un prêt personnel.** Possible pour de petits montants, cher, et rarement raisonnable pour un investissement dont le rendement net tourne autour de 4 à 6 %.
+
+**5. L'achat à plusieurs.** Des amis ou une famille qui achètent ensemble. Possible avec un bail co-signé ou une société, mais il faut un pacte écrit : qui décide, qui paie quoi, comment on sort, ce qui se passe en cas de décès ou de désaccord.
 
 ## Et la SCI ?
 
@@ -31,13 +37,30 @@ La SCI est un outil français, pensé pour détenir de l'immobilier en France. U
 
 ## Le calcul à faire avant d'emprunter
 
-Si tu empruntes à 4 % pour un investissement qui rapporte 5,5 % net avant impôt, et dont le bail se consomme d'environ 4 % par an, tu perds de l'argent chaque année, sauf plus-value. Fais le calcul complet avec [le rendement locatif réel](/fr/rendement-locatif-bali/).
+Si tu empruntes à 4 % pour un investissement qui rapporte 5,5 % net avant impôt, et dont le bail se consomme d'environ 4 % par an, tu perds de l'argent chaque année, sauf plus-value.
+
+| Hypothèse | Montant annuel |
+| --- | --- |
+| Villa en bail 25 ans | 300 000 $ |
+| Net avant impôt (5,5 %) | 16 404 $ |
+| Intérêts d'un emprunt de 200 000 $ à 4 % | -8 000 $ |
+| Bail consommé (300 000 $ / 25) | -12 000 $ |
+| **Résultat réel** | **-3 596 $** |
+
+Et ce calcul ne compte ni le remboursement du capital, ni les impôts. Fais le calcul complet avec [le rendement locatif réel](/fr/rendement-locatif-bali/).
 
 > À Bali, l'effet de levier joue souvent à l'envers : tu paies des intérêts sur un actif qui s'use.
 
-## Le change
+## Le change, le risque qu'on oublie
 
-Les villas se vendent en dollars ou en roupies. Tes loyers aussi. Si l'euro baisse face au dollar, ta villa vaut plus en euros, et l'inverse. Si tu rembourses un crédit en euros avec des loyers en roupies, tu prends un risque de change en plus.
+Les villas se vendent en dollars ou en roupies. Tes loyers aussi. Si l'euro baisse face au dollar, ta villa vaut plus en euros, et l'inverse. Si tu rembourses un crédit en euros avec des loyers en roupies, tu prends un risque de change en plus, qui peut effacer le rendement d'une année en quelques mois.
+
+## Comment payer concrètement
+
+- Virement depuis ton compte français vers le compte du vendeur ou un séquestre notarié, jamais en espèces.
+- Compare les frais de ta banque avec un service de transfert spécialisé : sur 250 000 €, l'écart peut dépasser plusieurs milliers d'euros.
+- Garde toutes les preuves : elles servent à la revente, à l'administration fiscale française et indonésienne, et à la banque si elle demande l'origine des fonds.
+- Déclare tout compte ouvert en Indonésie (formulaire 3916).
 
 ## Questions fréquentes
 
@@ -52,3 +75,9 @@ Rarement utile. Elle complique la fiscalité sans résoudre les questions de str
 
 ### Est-il raisonnable d'emprunter pour investir à Bali ?
 Seulement si tu peux rembourser sans les loyers, et si le calcul reste positif une fois le bail consommé et les intérêts payés.
+
+### Peut-on acheter à plusieurs à Bali ?
+Oui, avec un bail co-signé ou une société, et un pacte écrit entre acheteurs. C'est la sortie (revente, décès, désaccord) qu'il faut écrire en premier.
+
+### Les promoteurs proposent-ils des facilités de paiement ?
+Souvent, surtout sur plan. Ce n'est pas un crédit bancaire : vérifie les pénalités en cas de retard de paiement et ce qui se passe si le chantier s'arrête.
