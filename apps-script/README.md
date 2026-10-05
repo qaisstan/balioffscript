@@ -107,3 +107,24 @@ You lose the sheet row. You do not lose the lead.
 Budget brackets and timeline options are in `build.py`, in
 `opportunities_page()`. Edit the lists, rebuild, push. The sheet picks up
 whatever text you set, no script change needed.
+
+---
+
+## Update, 5 Oct 2026: Type, Language and Interest columns
+
+The site already sends these three fields. The old script ignored them. Interest was squeezed into the Page column after a `|`.
+
+The new `Code.gs` adds three columns at the end of the Leads tab:
+- **Type:** Opportunities form, Guide download, or Guide download + budget.
+- **Language:** en, fr, de, nl, sv or no.
+- **Interest:** land, finished villa, off-plan, or moving.
+
+Your email alerts show the same details. Old rows stay as they are.
+
+To switch it on, keeping the same URL so nothing on the site changes:
+
+1. Open the sheet. Go to **Extensions → Apps Script**.
+2. Replace everything in `Code.gs` with the new file and save.
+3. Go to **Deploy → Manage deployments**, click the pencil, set **Version: New version**, then **Deploy**.
+
+Never use "New deployment" for an update. That creates a new URL, and the site would keep posting to the old one.

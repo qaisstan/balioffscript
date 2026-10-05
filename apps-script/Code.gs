@@ -19,7 +19,9 @@ var SHEET_ID = "1JK3pIfbNCpXfZIN3Z55F8c45Ad1jfURdkn11JsYSCb8";
 // Where the "New lead" alert goes. Leave "" to switch alerts off.
 var NOTIFY = "hello@qaisstanikzai.com";
 
-var HEADERS = ["Received", "Name", "Phone", "Email", "Budget", "Timeline", "Source", "Page"];
+// New columns go at the end so older rows keep lining up.
+var HEADERS = ["Received", "Name", "Phone", "Email", "Budget", "Timeline", "Source", "Page", "Type", "Language", "Interest"];
+var TYPES = {form: "Opportunities form", kit: "Guide download", "kit-qualify": "Guide download + budget"};
 
 
 function doPost(e) {
@@ -44,7 +46,10 @@ function doPost(e) {
       clean(d.budget, 40),
       clean(d.timeline, 40),
       clean(d.ref, 200),
-      clean(d.page, 200)
+      clean(d.page, 200),
+      TYPES[d.type] || clean(d.type, 40) || "Opportunities form",
+      clean(d.lang, 8),
+      clean(d.interest, 80)
     ];
 
     // Write and notify independently. If the sheet is unreachable the email
@@ -87,13 +92,16 @@ function notify(row, wrote) {
   try {
     MailApp.sendEmail({
       to: NOTIFY,
-      subject: (wrote ? "New lead: " : "New lead (SHEET FAILED): ") + row[1] + " — " + row[4],
+      subject: (wrote ? "" : "(SHEET FAILED) ") + row[8] + ": " + row[1] +
+               (row[10] ? " — " + row[10] : "") + (row[4] ? " — " + row[4] : "") + (row[9] ? " [" + row[9].toUpperCase() + "]" : ""),
       body: [
         "Name:      " + row[1],
         "Phone:     " + row[2],
         "Email:     " + (row[3] || "not given"),
         "Budget:    " + row[4],
         "Timeline:  " + row[5],
+        "Looking for: " + (row[10] || "-"),
+        "Language:  " + (row[9] || "-"),
         "",
         "Came from: " + (row[6] || "direct"),
         "",
@@ -112,9 +120,11 @@ function write(row) {
 
   if (sheet.getLastRow() === 0) {
     sheet.appendRow(HEADERS);
-    sheet.getRange(1, 1, 1, HEADERS.length).setFontWeight("bold");
     sheet.setFrozenRows(1);
+  } else if (sheet.getRange(1, HEADERS.length).getValue() !== HEADERS[HEADERS.length - 1]) {
+    sheet.getRange(1, 1, 1, HEADERS.length).setValues([HEADERS]);  // add the new column names once
   }
+  sheet.getRange(1, 1, 1, HEADERS.length).setFontWeight("bold");
   sheet.appendRow(row);
   return true;
 }
@@ -137,6 +147,7 @@ function testLead() {
     timeline: "Within 3 months",
     ms: 9000,
     ref: "manual test",
-    page: "https://balioffscript.com/opportunities/"
+    page: "https://balioffscript.com/opportunities/",
+    type: "form", lang: "en", interest: "A finished villa to live in or rent out"
   }) } });
 }
