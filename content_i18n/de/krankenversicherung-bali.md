@@ -53,6 +53,18 @@ Die Prämien hängen von Alter, Leistungsumfang, Selbstbehalt und Vorerkrankunge
 
 Mehrere Langzeitvisa, etwa das Rentnervisum und das Silver-Hair-Visum, verlangen einen Versicherungsnachweis. Ihre Police muss also nicht nur Sie schützen, sondern auch die Anforderungen der Einwanderungsbehörde erfüllen. Siehe [Langzeitvisum Bali](/de/bali-visum-langzeit/).
 
+## Der Wechsel ohne Lücke
+
+1. Wählen Sie die Auslandsversicherung vor der Abreise und lassen Sie sie am Tag Ihrer Abmeldung beginnen.
+2. Kündigen Sie die deutsche Versicherung erst, wenn die neue bestätigt ist.
+3. Legen Sie Ihre Krankenakte digital ab, wenn möglich auf Englisch.
+4. Suchen Sie sich auf Bali eine feste Klinik und einen Hausarzt, bevor Sie sie brauchen.
+5. Speichern Sie die Notfallnummern Ihres Versicherers im Telefon.
+
+## Wenn Sie zurückkehren
+
+Kehren Sie nach Deutschland zurück und nehmen eine versicherungspflichtige Beschäftigung auf, kommen Sie in der Regel wieder in die gesetzliche Krankenversicherung. Für Rentner und Selbstständige ist die Rückkehr komplizierter, besonders in die Krankenversicherung der Rentner, für die bestimmte Vorversicherungszeiten zählen. Lassen Sie sich vor dem Wegzug beraten, wenn eine Rückkehr wahrscheinlich ist.
+
 ## Häufige Fragen
 
 ### Bleibe ich auf Bali gesetzlich krankenversichert?
@@ -69,3 +81,9 @@ Für Alltägliches gut, für schwere Fälle wird oft nach Singapur oder Jakarta 
 
 ### Muss ich für das Visum eine Versicherung nachweisen?
 Für mehrere Langzeitvisa ja, etwa für das Rentner- und das Silver-Hair-Visum.
+
+### Komme ich nach einer Rückkehr wieder in die gesetzliche Krankenversicherung?
+Mit einer versicherungspflichtigen Beschäftigung in der Regel ja. Für Rentner und Selbstständige gelten strengere Voraussetzungen.
+
+### Was kostet eine Auslandskrankenversicherung für Bali?
+Für junge Erwachsene mit Selbstbehalt oft einige hundert Euro im Jahr, für über 60-Jährige mehrere tausend Euro.

@@ -58,6 +58,20 @@ Villen werden in Dollar oder Rupiah verkauft, Mieten auch. Fällt der Euro gegen
 - Bewahren Sie alle Nachweise auf: Sie brauchen sie beim Verkauf, gegenüber den Steuerbehörden in beiden Ländern und gegenüber Ihrer Bank zur Mittelherkunft.
 - Zahlungen ins Ausland über 12.500 Euro müssen der Bundesbank gemeldet werden (AWV-Meldepflicht). Fragen Sie Ihre Bank, wie das bei Ihnen läuft.
 
+## Die Optionen im Überblick
+
+| Option | Vorteil | Risiko |
+| --- | --- | --- |
+| Eigenkapital | Keine Zinsen, keine Abhängigkeit von Mieten | Kapital steckt in einem Wert, der sich verbraucht |
+| Grundschuld auf deutsche Immobilie | Günstige Zinsen möglich | Ihre deutsche Immobilie haftet |
+| Lombardkredit auf Depot | Schnell, flexibel | Nachschusspflicht, wenn Kurse fallen |
+| Zahlungsplan des Entwicklers | Verteilung über die Bauzeit | Sie finanzieren das Baurisiko |
+| Gemeinsam kaufen | Weniger Kapital pro Person | Konflikte ohne gute Vereinbarung |
+
+## Ein Beispiel: Martin und Claudia
+
+Sie haben 150.000 Euro freien Beleihungsspielraum auf ihr Haus in Freiburg und überlegen, damit eine Villa in Pererenan zu kaufen. Ihr Berater rechnet: Die Villa bringt netto vor Steuern etwa 5,5 %, die Pacht verbraucht sich jedes Jahr, und ihr Haus haftet. Nach Zinsen und Pachtverzehr bleibt wenig. Sie entscheiden sich für eine kleinere Villa, teils mit Ersparnissen, teils mit Kredit, und eine Pacht über 30 Jahre mit bezifferter Verlängerung.
+
 ## Häufige Fragen
 
 ### Finanziert eine deutsche Bank eine Villa auf Bali?
@@ -74,3 +88,6 @@ Ja, mit gemeinsam unterschriebener Pacht oder einer Firma, und einer schriftlich
 
 ### Bieten Entwickler Ratenzahlung an?
 Oft, vor allem bei Off-Plan. Das ist kein Bankkredit: Prüfen Sie die Folgen bei Zahlungsverzug und was passiert, wenn der Bau stoppt.
+
+### Kann ich meine Altersvorsorge für Bali beleihen?
+Je nach Produkt sind Riester-, Rürup- und betriebliche Verträge gebunden. Freie Depots können über einen Lombardkredit beliehen werden, mit Kursrisiko.

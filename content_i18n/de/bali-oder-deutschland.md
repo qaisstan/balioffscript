@@ -54,6 +54,14 @@ Keins von beiden ist „das richtige“. Sie beantworten zwei verschiedene Frage
 
 Die eigentliche Frage ist nicht die Rendite. Sie lautet: Wie viel bekommen Sie zurück, bevor die Pacht endet, und an wen verkaufen Sie die Restjahre? Hält die Antwort, kann Bali Sinn ergeben, vor allem wenn Sie einen Teil des Jahres dort leben wollen. Suchen Sie Vermögen für die nächste Generation, bleibt Deutschland einfacher. Viele Anleger machen beides: das Vermögen in Deutschland, das Lebensprojekt auf Bali. Siehe [In Bali investieren](/de/in-bali-investieren/).
 
+## Warum Bali nicht der Ersatz ist
+
+Wer in Deutschland verkauft, weil die Rendite sinkt, und auf Bali kauft, weil die Rendite höher aussieht, vergleicht oft brutto mit netto. Auf Bali bleibt von 14 % brutto nach Kosten und Pachtverzehr oft nur ein kleiner Teil. Es ist ein anderes Produkt: ein Lebensstil-Objekt mit touristischen Einnahmen, kein Ersatz für eine vermietete Wohnung in Leipzig.
+
+## Wann beides nebeneinander passt
+
+Viele Anleger halten Vermögen in Deutschland und kaufen auf Bali für das Leben, das sie dort wollen, mit den Mieten als Beitrag zu den Kosten. Das funktioniert, solange beides mit den richtigen Erwartungen gekauft wird.
+
 ## Häufige Fragen
 
 ### Ist eine Immobilie auf Bali rentabler als in Deutschland?
@@ -70,3 +78,6 @@ Selten eine gute Idee, ohne vorher auf Bali gelebt zu haben. Ein Jahr zur Miete 
 
 ### Gibt es auf Bali eine Abschreibung wie die AfA?
 Für Ihre deutsche Steuer hängt das von Ihrer Situation und dem Abkommen ab. Wirtschaftlich sollten Sie den Pachtverzehr wie eine Abschreibung behandeln.
+
+### Lohnt es sich, eine deutsche Mietwohnung zu verkaufen, um auf Bali zu kaufen?
+Selten, ohne vorher auf Bali gelebt zu haben. Vergleichen Sie netto, nach Pachtverzehr und Verwaltung, nicht die Bruttozahlen.

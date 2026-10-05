@@ -48,6 +48,20 @@ Anders sind die Fragen, die Sie von zu Hause mitnehmen: Steuern, Rente, Krankenv
 
 > Auf Bali sind Sie einfach Ausländer. Zu Hause sind Sie weiter Österreicher oder Schweizer, mit allem, was dazugehört.
 
+## Die Unterschiede auf einen Blick
+
+| Thema | Deutschland | Österreich | Schweiz |
+| --- | --- | --- | --- |
+| DBA mit Indonesien | Ja | Ja | Ja |
+| Erbschaftsteuer | Ja, weltweit bei Inlandsbezug | Keine seit 2008 | Kantonal, Nachkommen oft befreit |
+| Vermögenssteuer | Nein | Nein | Ja, kantonal |
+| Staatliche Rente ins Ausland | Ja, mit Lebensbescheinigung | Ja, mit Lebensbestätigung | AHV ja, mit Lebensbescheinigung |
+| Krankenversicherung nach Wegzug | Gesetzliche endet in der Regel | Gesetzliche endet in der Regel | Grundversicherung endet in der Regel |
+
+## Ein Beispiel aus Zürich
+
+Sandra, 58, aus Zürich, will einen Teil des Jahres auf Bali leben und den Rest vermieten. Sie bleibt in der Schweiz steuerlich ansässig. Ihre Bali-Pacht taucht in der Steuererklärung als ausländisches Vermögen auf, die Mieteinnahmen werden für den Steuersatz berücksichtigt, und ihr Kanton bewertet die Pacht für die Vermögenssteuer. Ihr Berater rät ihr, Kaufvertrag, Restlaufzeit und indonesische Steuerquittungen jedes Jahr sauber abzulegen.
+
 ## Häufige Fragen
 
 ### Können Österreicher oder Schweizer auf Bali Land kaufen?
@@ -64,3 +78,9 @@ Grundsätzlich ja, mit regelmäßiger Lebensbescheinigung. Klären Sie die Detai
 
 ### Bleibe ich als Schweizer auf Bali grundversichert?
 In der Regel nicht nach einem dauerhaften Wegzug. Eine private internationale Versicherung ist die übliche Lösung.
+
+### Muss ich als Schweizer meine Bali-Pacht in der Vermögenssteuer angeben?
+In der Regel ja, als ausländisches Vermögen. Wie sie bewertet wird, klären Sie mit Ihrem Berater und Kanton.
+
+### Wird meine österreichische Pension nach Bali gezahlt?
+Grundsätzlich ja, mit regelmäßiger Lebensbestätigung. Klären Sie die Besteuerung nach dem Wegzug vorab.

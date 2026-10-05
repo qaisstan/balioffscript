@@ -56,6 +56,18 @@ Ein Teil der in Dubai ansässigen Investoren diversifiziert nach Bali: Sie behal
 
 > Dubai ist eine Kapitalanlage. Bali ist ein Projekt. Beides kann funktionieren, aber nicht mit derselben Methode.
 
+## Leben statt investieren: der Alltag
+
+**Klima.** Dubai ist von Juni bis September extrem heiß, das Leben spielt sich drinnen ab. Bali ist das ganze Jahr tropisch warm, mit Regenzeit von November bis März.
+
+**Lebenshaltungskosten.** Dubai liegt auf westlichem Niveau, oft darüber. Auf Bali sind Miete, Essen und Hilfe im Haushalt deutlich günstiger.
+
+**Gemeinschaft.** Beide haben große deutschsprachige Gemeinschaften, in Dubai eher Angestellte und Unternehmer, auf Bali eher Remote-Arbeiter, Kreative und Rentner.
+
+## Ein Beispiel: Kai und Jana
+
+Kai und Jana leben in Dubai, zahlen dort keine Einkommensteuer und wollen ihr Geld streuen. Sie kaufen keine weitere Wohnung in der Marina, sondern eine Villa mit zwei Schlafzimmern in Pererenan als Leasehold über 28 Jahre, mit bezifferter Verlängerung. Sie verbringen dort den Dubai-Sommer und vermieten den Rest. Die Rendite ist bescheiden, aber die Villa gibt ihnen, was Dubai nicht hat: drei Monate draußen leben.
+
 ## Häufige Fragen
 
 ### Können Ausländer in Dubai Immobilien kaufen?
@@ -72,3 +84,9 @@ Wenn Sie in Deutschland unbeschränkt steuerpflichtig sind, müssen Sie sie hier
 
 ### Ist Off-Plan in Dubai sicherer als auf Bali?
 Ja: In Dubai laufen Off-Plan-Zahlungen über regulierte Treuhandkonten. Auf Bali hängt der Schutz an Ihrem Vertrag. Siehe [Off-Plan auf Bali kaufen](/de/off-plan-bali/).
+
+### Kann man in Dubai und auf Bali gleichzeitig leben?
+Viele pendeln: Dubai als steuerliche Basis, Bali für die heißen Monate. Klären Sie die steuerliche Ansässigkeit und das indonesische Visum.
+
+### Ist Bali oder Dubai günstiger zum Leben?
+Bali ist bei Miete, Essen und Personal deutlich günstiger. Dubai liegt auf westlichem Niveau.

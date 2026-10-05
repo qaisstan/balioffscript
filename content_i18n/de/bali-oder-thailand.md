@@ -49,6 +49,24 @@ Bali ist eine hinduistische Insel mit Zeremonien, täglichen Opfergaben und eine
 
 > Die richtige Wahl hängt weniger vom Land ab als von der Frage: Wollen Sie besitzen, leben oder vermieten?
 
+## Der Alltag im Vergleich
+
+**Verkehr.** In Bangkok gibt es U-Bahn und Skytrain; auf Bali sind Sie auf Roller oder Fahrer angewiesen, und im Süden dauern 20 Kilometer zur Rushhour schnell anderthalb Stunden.
+
+**Gesundheit.** Bangkok hat Privatkliniken von internationalem Rang. Auf Bali ist die Alltagsversorgung gut, schwere Fälle gehen oft nach Singapur oder Jakarta.
+
+**Kultur.** Bali ist hinduistisch, mit täglichen Opfergaben und Zeremonien, die Ihr Leben wirklich berühren: gesperrte Straßen für Prozessionen, Nyepi, an dem die ganze Insel einen Tag stillsteht. Thailand ist buddhistisch und städtischer.
+
+## Die Kosten nebeneinander
+
+| Posten | Thailand | Bali |
+| --- | --- | --- |
+| Miete Wohnung oder kleine Villa | Ähnlich, außerhalb Bangkoks oft günstiger | Höher in Canggu und Seminyak |
+| Lokales Essen | Sehr günstig | Sehr günstig |
+| Importware | Teuer | Teuer |
+| Internationale Schule | Breites Angebot, deutsche Schule in Bangkok | Breites Angebot im Süden |
+| Krankenversicherung | Nötig | Nötig |
+
 ## Häufige Fragen
 
 ### Dürfen Ausländer in Thailand Immobilien kaufen?
@@ -65,3 +83,9 @@ Beide haben internationale Schulen. Thailand hat eine deutsche Schule in Bangkok
 
 ### Wo investiert man besser in eine Villa?
 Bali für die Pool-Villa in der Kurzzeitvermietung, wenn Zonierung und Lizenz stimmen. Thailand für eine Eigentumswohnung.
+
+### Wo ist die medizinische Versorgung besser, Bali oder Thailand?
+Für komplexe Fälle hat Bangkok mit internationalen Privatkliniken einen Vorsprung. Auf Bali ist die Alltagsversorgung gut.
+
+### Wo leben mehr Deutsche, Bali oder Thailand?
+In Thailand gibt es seit Jahrzehnten eine große deutsche Gemeinschaft, besonders in Pattaya, Hua Hin und Phuket. Auf Bali wächst sie.

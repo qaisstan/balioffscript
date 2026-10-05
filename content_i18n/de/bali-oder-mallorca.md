@@ -68,6 +68,18 @@ Für Deutsche ist Mallorca die klassische Ferienimmobilie: zwei Flugstunden, Eig
 
 Den Preis einer Villa auf Bali mit dem einer Finca auf Mallorca vergleichen, als würde man dasselbe kaufen. Ein Eigentum und eine Pacht vergleicht man nicht direkt. Vergleichen Sie lieber die **Kosten pro Nutzungsjahr**, die **Nettorendite** nach allen Kosten und **was Sie in zehn Jahren verkaufen können**. Siehe [Rendite einer Bali-Villa](/de/rendite-bali-villa/).
 
+## Zwei Käufer, zwei Entscheidungen
+
+**Petra und Michael, 58 und 61, aus Düsseldorf**, wollen einen Ort für mehrere kurze Aufenthalte im Jahr und später zum Überwintern. Sie kaufen eine Wohnung im Südwesten Mallorcas: zwei Flugstunden, Eigentum, spanische Hypothek möglich, europäische Gesundheitsversorgung in der Nähe.
+
+**Tobias, 36, Remote-Entwickler aus Berlin**, will einige Monate im Jahr in den Tropen arbeiten und den Rest vermieten. Er kauft eine Villa mit zwei Schlafzimmern in Pererenan als Leasehold über 28 Jahre mit bezifferter Verlängerung. Er akzeptiert, Jahre statt Land zu kaufen, weil ihm die Villa ein Leben gibt, das Mallorca ihm nicht geben würde.
+
+Beides ist schlüssig. Schief geht es, wenn man Bali mit den Erwartungen an Mallorca kauft.
+
+## Steuern: beide Immobilien gehören in die Erklärung
+
+Wohnen Sie in Deutschland, müssen Sie Mieteinnahmen aus Spanien wie aus Indonesien angeben; die Doppelbesteuerungsabkommen regeln, wie die doppelte Besteuerung vermieden wird. In Spanien zahlen Sie als Nichtresident zusätzlich lokale Steuern. Siehe [Steuern auf Bali-Mieteinnahmen](/de/steuern-bali-deutschland/).
+
 ## Häufige Fragen
 
 ### Können Deutsche auf Mallorca Eigentum kaufen?
@@ -84,3 +96,9 @@ Brutto oft auf Bali, dank ganzjähriger Nachfrage. Netto muss man auf Bali den P
 
 ### Was ist besser für die Rente?
 Mallorca für Nähe und EU-Krankenversicherung, Bali für niedrigere Lebenshaltungskosten. Siehe [Als Rentner nach Bali](/de/auswandern-bali-rentner/).
+
+### Wo ist die Ferienvermietung einfacher, Mallorca oder Bali?
+Beide regulieren streng. Auf Mallorca sind neue Lizenzen in vielen Gemeinden schwer zu bekommen; auf Bali entscheiden Zonierung und Lizenz.
+
+### Brauche ich für Bali eine andere Krankenversicherung als für Mallorca?
+Für Urlaube reicht oft eine Reiseversicherung. Für einen Wohnsitz auf Bali brauchen Sie eine Auslandskrankenversicherung; in Spanien gelten als EU-Bürger andere Regeln.
