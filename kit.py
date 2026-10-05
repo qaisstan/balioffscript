@@ -223,7 +223,7 @@ def box(B, lang="en", where=""):
     tim = "".join(f'<button type="button" class="kit-chip" data-k="timeline" data-v="{t}">{t}</button>' for t in u["times"])
     mailed = f'<p class="kit-mailed">{u["mailed"]}</p>' if EMAIL_ON else ""
     first_wa = B.wa_logo("ig")
-    return f"""<section class="kit" id="kit{'-' + where if where else ''}" data-cfg='{json.dumps(c).replace("'", "&#39;")}'>
+    return f"""<section class="kit" id="kit" data-cfg='{json.dumps(c).replace("'", "&#39;")}'>
 <div class="kit-in">
 {cover(lang)}
 <div class="kit-body">
