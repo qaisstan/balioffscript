@@ -1577,7 +1577,7 @@ def home(pages):
 <p class="hero-sub">What a certificate actually gives you. What you can legally build and rent on the land. What a deal returns once every real cost is counted.</p>
 <p class="hero-note">Eyes on the ground in Bali. Message me before you sign anything.</p>
 <div class="hero-acts">
-<a class="lnk lnk-solid" href="#tool">Work out the real return</a>
+<a class="lnk lnk-solid" href="{BASE}/calculator/">Work out the real return</a>
 <a class="lnk lnk-wa" href="{BASE}/opportunities/">{form_logo("ig")}<span>Find the right one</span></a>
 </div>
 <form class="hero-search" action="{BASE}/search/">
@@ -1590,23 +1590,16 @@ def home(pages):
 <figcaption class="hero-cap"><span>{AUTHOR}</span>{AUTHOR_ROLE}</figcaption>
 </div>
 </section>
-<section class="wrap tool-wrap" id="tool">
-<div class="tool-head">
-<p class="proof-k">Start here</p>
-<h2 class="tool-h">Put the deal through this before you believe the yield.</h2>
-<p class="tool-b">Advertised Bali yields are gross, before platform commission, the 10% PB1, management, staff, refurbishment and tax. On a lease there is one more deduction nobody shows you: the premium, amortised over the years you actually get. Change any figure and every number and chart below updates.</p>
-</div>
-{calc_widget()}
-</section>
-
-{reel_strip()}
-
-
 <section class="wrap">
 <h2 class="sec-h">Start here</h2>
 <ul class="cards">{recent}</ul>
 {kit_box("home")}
 </section>
+
+<section class="wrap calc-teaser"><a class="teaser" href="{BASE}/calculator/"><span class="proof-k">Return calculator</span>
+<b>What a Bali property really returns after every cost</b><span class="teaser-go">Open the calculator →</span></a></section>
+
+{reel_strip()}
 
 <section class="wrap who-wrap">
 <div class="who">
@@ -1621,7 +1614,7 @@ def home(pages):
 
 <section class="wrap">{share_bar(SITE_NAME, "/")}{cta()}</section>
 </main>
-{footer(f'<script src="{BASE}/calc.js" defer></script><script src="{BASE}/reels.js" defer></script>')}"""
+{footer(f'<script src="{BASE}/reels.js" defer></script>')}"""
 
 
 def field(fid, label, val, info="", step="1", cls=""):

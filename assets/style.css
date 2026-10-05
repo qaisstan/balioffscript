@@ -1487,3 +1487,12 @@ body.kitdoc { background: #fff; }
 .lead-more a:hover { border-bottom-color: #fff; }
 .ld-opt-kit { text-decoration: none; border-style: dashed; }
 .ld-opt-kit span::after { content: " →"; }
+
+/* Home: the calculator lives on its own page; the home page links to it with one compact card. */
+.calc-teaser { padding-block: 0.5rem 0; }
+.teaser { display: grid; gap: 0.35rem; padding: 1.25rem 1.5rem; background: var(--paper-2); border-left: 3px solid var(--accent);
+  color: var(--ink); text-decoration: none; }
+.teaser b { font-family: var(--display); font-size: 1.3rem; line-height: 1.2; font-weight: 600; }
+.teaser .proof-k { margin: 0; }
+.teaser-go { font-size: 0.875rem; color: var(--accent); font-weight: 600; }
+.teaser:hover .teaser-go { text-decoration: underline; }
