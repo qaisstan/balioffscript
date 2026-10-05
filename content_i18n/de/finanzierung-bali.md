@@ -1,6 +1,6 @@
 ---
 question: Kann man eine Villa auf Bali finanzieren?
-title: Bali-Immobilie finanzieren: Kredit, Beleihung oder Eigenkapital
+title: Bali-Immobilie finanzieren: Kredit oder Eigenkapital
 summary: Indonesische Banken finanzieren Ausländern praktisch keinen Leasehold. Die meisten Deutschen zahlen mit Eigenkapital oder beleihen eine Immobilie in Deutschland. Beides hat Risiken, die Sie vorher rechnen sollten.
 group: geld
 order: 5

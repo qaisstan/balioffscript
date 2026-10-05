@@ -1,6 +1,6 @@
 ---
 question: Bali oder Thailand: Wo auswandern, wo investieren?
-title: Bali oder Thailand: Auswandern, Rente und Immobilie im Vergleich
+title: Bali oder Thailand: Auswandern, Rente, Immobilie
 summary: In Thailand dürfen Ausländer eine Eigentumswohnung besitzen, aber kein Land. Auf Bali weder das eine noch das andere. Thailand ist für Rentner einfacher, Bali hat die stärkere Villen-Nachfrage und eine eigene Kultur.
 group: vergleich
 order: 1

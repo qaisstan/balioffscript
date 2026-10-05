@@ -1,6 +1,6 @@
 ---
 question: Muss man auf Bali Steuern zahlen, wenn man auswandert?
-title: Steuern beim Auswandern nach Bali: 183 Tage, Abmeldung, Wegzug
+title: Steuern beim Auswandern nach Bali: 183 Tage, Wegzug
 summary: Wer mehr als 183 Tage in Indonesien lebt, wird dort steuerlich ansässig. In Deutschland endet die unbeschränkte Steuerpflicht nur, wenn Sie Wohnsitz und gewöhnlichen Aufenthalt wirklich aufgeben. Mieten und Renten aus Deutschland bleiben oft hier steuerpflichtig.
 group: leben
 order: 5

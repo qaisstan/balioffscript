@@ -84,7 +84,7 @@ UI = {
     legal="Allgemeine Information, keine Rechts-, Steuer- oder Finanzberatung. Indonesische Vorschriften ändern sich oft und werden je nach Regierungsbezirk unterschiedlich angewendet. Prüfen Sie alles mit Ihrem eigenen Notar (PPAT), Anwalt und Steuerberater, in Indonesien und zu Hause.",
     role="Strategic Investment Adviser",
     f=dict(interest_h="Was suchen Sie auf Bali?", interest_sub="Vier kurze Fragen. Danach schaue ich, was wirklich passt, und melde mich selbst per WhatsApp.", interests=["Ein Grundstück zum Bauen", "Eine fertige Villa zum Wohnen oder Vermieten", "Eine Off-Plan-Villa als Kapitalanlage", "Auswandern: Miete, Visum, Umzug"], kit_opt="Nur den kostenlosen Käuferleitfaden (PDF)", more_site="Alle Ratgeber lesen", msg_interest="Ich suche: {interest}. ",
-           title="Die passende Immobilie auf Bali finden", desc="Nennen Sie mir Budget und Zeitrahmen, ich melde mich persönlich mit Bali-Objekten, die wirklich passen.",
+           title="Die passende Immobilie auf Bali finden", desc="Nennen Sie mir Budget und Zeitrahmen, ich melde mich persönlich mit Grundstücken, Villen und Projekten auf Bali, die wirklich passen.",
            intro_h="Ich helfe Ihnen, das passende Investment auf Bali zu finden.", intro_sub="Vier Fragen, zehn Sekunden. Danach schaue ich, was wirklich zu Ihrem Budget und Zeitrahmen passt, und melde mich selbst.",
            go="Los geht's", hint="10 SEKUNDEN", name_h="Zuerst: Wie heißen Sie?", name_sub="Damit ich weiß, mit wem ich spreche.", name_ph="Vor- und Nachname",
            phone_h="Unter welcher Nummer erreiche ich Sie am besten?", phone_sub="Ich schreibe Ihnen direkt. Die Nummer wird nie weitergegeben oder verkauft.", phone_ph="Telefonnummer", email_ph="E-Mail (optional)",
@@ -119,7 +119,7 @@ UI = {
     legal="Algemene informatie, geen juridisch, fiscaal of financieel advies. Indonesische regels veranderen vaak en worden per regentschap anders toegepast. Controleer alles met je eigen notaris (PPAT), advocaat en belastingadviseur, in Indonesië en thuis.",
     role="Strategisch investeringsadviseur",
     f=dict(interest_h="Wat zoek je op Bali?", interest_sub="Vier korte vragen. Daarna kijk ik wat echt past, en kom ik zelf bij je terug via WhatsApp.", interests=["Grond om op te bouwen", "Een kant-en-klare villa om te wonen of te verhuren", "Een villa op tekening als belegging", "Wonen: huren, visum, verhuizen"], kit_opt="Alleen de gratis kopersgids (pdf)", more_site="Alle gidsen lezen", msg_interest="Ik zoek: {interest}. ",
-           title="De juiste woning op Bali vinden", desc="Vertel me je budget en planning, dan kom ik persoonlijk bij je terug met kansen op Bali die echt passen.",
+           title="De juiste woning op Bali vinden", desc="Vertel me je budget en planning, dan kom ik persoonlijk bij je terug met grond, villa's en projecten op Bali die echt bij je passen.",
            intro_h="Ik help je de juiste investering op Bali te vinden.", intro_sub="Vier vragen, tien seconden. Daarna kijk ik wat echt past bij je budget en planning, en kom ik zelf bij je terug.",
            go="Starten", hint="10 SECONDEN", name_h="Eerst: hoe heet je?", name_sub="Zodat ik weet met wie ik praat.", name_ph="Voor- en achternaam",
            phone_h="Op welk nummer kan ik je het best bereiken?", phone_sub="Ik stuur je zelf een bericht. Nooit gedeeld of verkocht.", phone_ph="Telefoonnummer", email_ph="E-mail (optioneel)",
@@ -154,7 +154,7 @@ UI = {
     legal="Allmän information, inte juridisk, skattemässig eller finansiell rådgivning. Indonesiska regler ändras ofta och tillämpas olika mellan regionerna. Kontrollera allt med din egen notarie (PPAT), advokat och skatterådgivare, i Indonesien och i Sverige.",
     role="Strategisk investeringsrådgivare",
     f=dict(interest_h="Vad letar du efter på Bali?", interest_sub="Fyra snabba frågor. Sedan tittar jag på vad som faktiskt passar, och hör av mig själv på WhatsApp.", interests=["Mark att bygga på", "En färdig villa att bo i eller hyra ut", "En villa på ritning som investering", "Flytta hit: hyra, visum, flytt"], kit_opt="Bara den gratis köparguiden (pdf)", more_site="Läs alla guider", msg_interest="Jag letar efter: {interest}. ",
-           title="Hitta rätt fastighet på Bali", desc="Berätta din budget och tidsplan så hör jag av mig personligen med möjligheter på Bali som faktiskt passar.",
+           title="Hitta rätt fastighet på Bali", desc="Berätta din budget och tidsplan så hör jag av mig personligen med mark, villor och projekt på Bali som faktiskt passar dig.",
            intro_h="Jag hjälper dig hitta rätt investering på Bali.", intro_sub="Fyra frågor, tio sekunder. Sedan tittar jag på vad som faktiskt passar din budget och tidsplan, och hör av mig själv.",
            go="Kör", hint="10 SEKUNDER", name_h="Först, vad heter du?", name_sub="Så jag vet vem jag pratar med.", name_ph="För- och efternamn",
            phone_h="Vilket nummer når jag dig bäst på?", phone_sub="Jag skriver till dig direkt. Delas aldrig, säljs aldrig.", phone_ph="Telefonnummer", email_ph="E-post (valfritt)",
@@ -189,7 +189,7 @@ UI = {
     legal="Generell informasjon, ikke juridisk, skattemessig eller finansiell rådgivning. Indonesiske regler endres ofte og praktiseres ulikt mellom regionene. Sjekk alt med din egen notar (PPAT), advokat og skatterådgiver, i Indonesia og i Norge.",
     role="Strategisk investeringsrådgiver",
     f=dict(interest_h="Hva ser du etter på Bali?", interest_sub="Fire raske spørsmål. Så ser jeg på hva som faktisk passer, og tar kontakt selv på WhatsApp.", interests=["Tomt å bygge på", "En ferdig villa å bo i eller leie ut", "En villa på tegning som investering", "Flytte hit: leie, visum, flytting"], kit_opt="Bare den gratis kjøperguiden (pdf)", more_site="Les alle guidene", msg_interest="Jeg ser etter: {interest}. ",
-           title="Finn riktig eiendom på Bali", desc="Fortell meg budsjett og tidsplan, så tar jeg kontakt personlig med muligheter på Bali som faktisk passer.",
+           title="Finn riktig eiendom på Bali", desc="Fortell meg budsjett og tidsplan, så tar jeg kontakt personlig med tomter, villaer og prosjekter på Bali som faktisk passer deg.",
            intro_h="Jeg hjelper deg å finne riktig investering på Bali.", intro_sub="Fire spørsmål, ti sekunder. Så ser jeg på hva som faktisk passer budsjettet og tidsplanen din, og tar kontakt selv.",
            go="Kjør", hint="10 SEKUNDER", name_h="Først, hva heter du?", name_sub="Så jeg vet hvem jeg snakker med.", name_ph="For- og etternavn",
            phone_h="Hvilket nummer når jeg deg best på?", phone_sub="Jeg skriver til deg direkte. Deles aldri, selges aldri.", phone_ph="Telefonnummer", email_ph="E-post (valgfritt)",
@@ -205,7 +205,7 @@ ORDER = ["fr", "de", "nl", "sv", "no"]
 
 # A language is published only when it is finished: every page written to full
 # depth, its kit PDF printed. Add the code here at that point, not before.
-READY = {"fr", "de", "nl"}
+READY = {"fr", "de", "nl", "sv"}
 
 
 def pages_for(B, lang):

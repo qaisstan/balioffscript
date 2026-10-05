@@ -1,6 +1,6 @@
 ---
 question: Kun je een villa op Bali financieren?
-title: Villa op Bali financieren: hypotheek, overwaarde of eigen geld
+title: Villa op Bali financieren: hypotheek of eigen geld
 summary: Indonesische banken financieren een leasehold voor buitenlanders vrijwel nooit. De meeste Nederlanders betalen met eigen geld of gebruiken de overwaarde van hun huis in Nederland. Beide hebben risico's die je vooraf moet doorrekenen.
 group: geld
 order: 5

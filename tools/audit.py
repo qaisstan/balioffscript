@@ -10,7 +10,9 @@ for dirpath, _, files in os.walk(OUT):
             p = os.path.join(dirpath, f)
             url = "/" + os.path.relpath(p, OUT).replace("index.html", "")
             url = url.rstrip("/") + "/" if not url.endswith(".html") else url
-            pages[url.replace("//", "/")] = open(p, encoding="utf-8").read()
+            html = open(p, encoding="utf-8").read()
+            if 'content="noindex' in html: continue  # private pages (kit downloads) are meant to be hidden
+            pages[url.replace("//", "/")] = html
 print(f"{len(pages)} html pages")
 problems = collections.defaultdict(list)
 ids = {}

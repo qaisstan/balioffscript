@@ -1,6 +1,6 @@
 ---
 question: Wat gebeurt er met je villa op Bali bij overlijden?
-title: Erfenis en je villa op Bali: leasehold, erfgenamen, erfbelasting
+title: Erfenis en je villa op Bali: leasehold en erfbelasting
 summary: Een goed geschreven leasehold gaat met de resterende jaren over op je erfgenamen. Een stromangrond gaat over op de erfgenamen van je stroman. En Nederland kan erfbelasting heffen, ook over vermogen op Bali.
 group: kopen
 order: 8
