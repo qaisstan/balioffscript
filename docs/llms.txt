@@ -178,7 +178,7 @@ Transaction taxes, rental income tax, NPWP and what actually gets enforced.
 
 Zone colours, permits, the moratorium, and what it costs to build.
 
-- [What do Bali's zoning colours mean, and how do you check properly?](https://balioffscript.com/building/bali-zoning-colours/): Pink lets you rent. Yellow does not. Green gets demolished. Check it yourself before you pay anything.
+- [What do Bali's zoning colours mean, and how do you check properly?](https://balioffscript.com/building/bali-zoning-colours/): Pink zone allows villa rental licences, yellow is residential only, red is commercial, green bans villas. How to check a plot's zone yourself before you pay.
 - [How much does it cost to build a villa in Bali?](https://balioffscript.com/building/cost-to-build-villa-bali/): Quotes run from IDR 6M to 15M per square metre. The spread is specification, and the number you are shown usually excludes the things that break the budget.
 - [What happens if you buy a villa built without a PBG?](https://balioffscript.com/building/pbg-slf-building-permits/): No licence, no legal rental, and exposure to sealing or demolition. It is more common than the market admits.
 - [How much does a swimming pool cost in Bali?](https://balioffscript.com/building/swimming-pool-cost-bali/): A standard villa pool costs USD 15,000 to 25,000 to build and roughly USD 100 to 200 a month to run before anything breaks. The full breakdown.
