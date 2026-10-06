@@ -88,7 +88,7 @@
 
       var indo = isIndonesian(digits);
       lead = {
-        type: "kit", lang: cfg.lang, where: cfg.where || "",
+        type: "kit", lang: cfg.lang, where: cfg.where || "", interest: (cfg.guide || "Buyer's Kit").slice(0, 80),
         name: name.slice(0, 80),
         phone: (sel.value + " " + form.elements.phone.value.trim()).slice(0, 40),
         email: email.slice(0, 120),

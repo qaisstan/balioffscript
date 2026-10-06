@@ -1496,3 +1496,13 @@ body.kitdoc { background: #fff; }
 .teaser .proof-k { margin: 0; }
 .teaser-go { font-size: 0.875rem; color: var(--accent); font-weight: 600; }
 .teaser:hover .teaser-go { text-decoration: underline; }
+
+/* bridge from holiday pages to the property side */
+.bridge { max-width: var(--measure); margin: -1.25rem 0 2rem; padding: 0.85rem 1.1rem; border-left: 4px solid var(--seal); background: var(--paper-2); border-radius: 0 10px 10px 0; font-size: 0.95rem; line-height: 1.5; }
+.bridge a { color: var(--seal); font-weight: 600; }
+/* free guides index */
+.gd-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1rem; margin: 1.5rem 0 3rem; }
+.gd-card { display: grid; gap: 0.4rem; padding: 1.2rem 1.25rem; border: 1px solid var(--rule); border-radius: 12px; text-decoration: none; color: var(--ink); background: #fff; }
+.gd-card b { font-family: "Fraunces", Georgia, serif; font-size: 1.15rem; font-weight: 600; }
+.gd-card span { color: var(--slate); font-size: 0.92rem; line-height: 1.45; }
+.gd-card:hover { border-color: var(--seal); }

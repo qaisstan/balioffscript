@@ -876,6 +876,7 @@ def footer(extra=""):
 <div class="foot-links">
 <a class="ig-link" href="{BASE}/opportunities/">{form_logo("ig ig-sm")}<span>Find the right one</span></a>
 <a href="{BASE}/buyers-kit/">Free Buyer's Kit</a>
+<a href="{BASE}/guides/">Free guides</a>
 <a href="{BASE}/all/">Every answer</a>
 <a href="{BASE}/calculator/">ROI calculator</a>
 <a href="{BASE}/about/">About</a>
@@ -1007,8 +1008,23 @@ def cta(kicker="Want me to find you the right one?",
 
 
 def kit_box(where="", lang="en"):
-    """The Buyer's Kit opt-in (kit.py). One per page, always id="kit"."""
-    return K.box(sys.modules[__name__], lang, where)
+    """The opt-in (kit.py). One per page, always id="kit". English pages on a buyer topic offer
+    that topic's guide (guides.py); everything else offers the Buyer's Kit."""
+    import guides as G
+    return K.box(sys.modules[__name__], lang, where, G.for_category(where) if lang == "en" else None)
+
+
+# Travel and places pages bring holiday readers (ChatGPT sends many). A short bridge at the top
+# shows them the property side before they leave.
+BRIDGE = {"travel", "places", "islands"}
+
+
+def bridge(cat):
+    if cat not in BRIDGE:
+        return ""
+    return (f'<aside class="bridge"><b>Falling for Bali?</b> Foreigners can\'t own land here, but there are '
+            f'three legal ways to own a villa. <a href="{BASE}/ownership/">See how it works</a> or '
+            f'<a href="#kit">get the free Buyer\'s Kit</a>.</aside>')
 
 
 def kit_mini(lang="en"):
@@ -1213,6 +1229,7 @@ def article(m, siblings):
 </nav>
 <h1>{m["question"]}</h1>
 <p class="standfirst">{m["summary"]}</p>
+{bridge(m["category"])}
 <div class="byline">
 <span>By {AUTHOR}, {AUTHOR_ROLE}</span>
 <span>Updated <time datetime="{updated}">{updated}</time></span>
@@ -2170,6 +2187,11 @@ def main():
     for lang in K.LANGS:
         if os.path.exists(os.path.join(K.KIT_SRC, f"{lang}.md")):
             write(f"/kit/{K.TOKEN}/{lang}/", K.doc_page(me, lang))
+    import guides as G
+    for gk, g in G.GUIDES.items():
+        write(G.doc_path(gk), G.doc_page(me, gk, pages))
+        write(g["path"], G.landing(me, gk, head, nav(), footer(), K.box(me, "en", "landing-" + gk, gk)))
+    write("/guides/", G.index_page(me, head, nav(), footer()))
 
     # Language sections: their own pages, written for each market (langs.py).
     import langs as L
@@ -2185,7 +2207,8 @@ def main():
     open(os.path.join(OUT, "search-index.json"), "w", encoding="utf-8").write(json.dumps(index))
 
     urls = ["/", "/about/", "/all/", "/calculator/", "/check/", "/search/", "/opportunities/",
-            "/checklist/", "/disclaimer/", "/privacy/", K.LANDING["en"]] + [f"/{k}/" for k in CATEGORIES] + \
+            "/checklist/", "/disclaimer/", "/privacy/", K.LANDING["en"], "/guides/"] + \
+           [g["path"] for g in __import__("guides").GUIDES.values()] + [f"/{k}/" for k in CATEGORIES] + \
            [f'/{p["category"]}/{p["slug"]}/' for p in pages] + [u for u, _ in lang_urls]
 
     # lastmod is how Google decides what is worth recrawling. Articles carry

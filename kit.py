@@ -201,23 +201,28 @@ def cfg(B, lang):
             "wa_msg": u["wa_msg"], "wa_budget": u["wa_budget"], "wa_time": u["wa_time"]}
 
 
-def cover(lang, small=False):
+def cover(lang, small=False, title=None, line=None):
     """The PDF's cover drawn in HTML, so the box shows what you get."""
-    u = UI[lang]
+    u = dict(UI[lang], **({"title": title} if title else {}))
     return (f'<div class="kit-cover{" kit-cover-s" if small else ""}" aria-hidden="true" '
             f'style="background-image:linear-gradient(180deg,rgba(22,25,29,.05) 0%,rgba(22,25,29,.85) 64%),url({PH.url(COVER, 400, 560)})">'
             f'<span class="kc-k">Bali Off Script</span>'
             f'<span class="kc-t">{u["title"]}</span>'
             f'<span class="kc-r"></span>'
-            f'<span class="kc-l">{" · ".join(["9", "20", "12", "15"])}</span>'
+            f'<span class="kc-l">{line or " · ".join(["9", "20", "12", "15"])}</span>'
             f'<span class="kc-by">Kai</span></div>')
 
 
-def box(B, lang="en", where=""):
-    """The opt-in. `where` lands in the sheet so we know which spot converts."""
-    u = UI[lang]
+def box(B, lang="en", where="", guide=None):
+    """The opt-in. `where` lands in the sheet so we know which spot converts. With `guide`
+    (guides.py) it offers that topic guide instead of the Buyer's Kit, same form and flow."""
+    import guides as G
+    u = G.ui(guide) if guide else UI[lang]
     c = cfg(B, lang)
     c["where"] = where
+    if guide:
+        c["pdf"] = G.pdf_url(B, guide)
+        c["guide"] = u["title"]
     pts = "".join(f"<li>{p}</li>" for p in u["points"][:4])
     bud = "".join(f'<button type="button" class="kit-chip" data-k="budget" data-v="{b}">{b}</button>' for b in u["budgets"])
     tim = "".join(f'<button type="button" class="kit-chip" data-k="timeline" data-v="{t}">{t}</button>' for t in u["times"])
@@ -225,7 +230,7 @@ def box(B, lang="en", where=""):
     first_wa = B.wa_logo("ig")
     return f"""<section class="kit" id="kit" data-cfg='{json.dumps(c).replace("'", "&#39;")}'>
 <div class="kit-in">
-{cover(lang)}
+{cover(lang, title=u["title"] if guide else None, line="Free PDF" if guide else None)}
 <div class="kit-body">
 <p class="kit-k">{u["kicker"]}</p>
 <h2 class="kit-h">{u["title"]}</h2>
@@ -242,7 +247,7 @@ def box(B, lang="en", where=""):
 </form>
 <div class="kit-done" hidden>
 <p class="kit-dh">{u["done_h"]}</p>
-<a class="kit-dl" href="{pdf_url(B, lang)}" target="_blank" rel="noopener" download>{B.form_logo("ig")}<span>{u["dl"]}</span></a>
+<a class="kit-dl" href="{c["pdf"]}" target="_blank" rel="noopener" download>{B.form_logo("ig")}<span>{u["dl"]}</span></a>
 {mailed}
 <div class="kit-q">
 <p class="kit-qh">{u["q_h"]}</p>
