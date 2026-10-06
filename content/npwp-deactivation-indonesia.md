@@ -1,7 +1,7 @@
 ---
 question: How do you close an Indonesian tax registration?
-title: Closing or Deactivating an NPWP in Indonesia
-summary: A tax number with filing obligations and nobody filing accrues penalties quietly. Leaving is not the same as closing.
+title: How to Close an NPWP in Indonesia (Tax Number) 2026
+summary: Leaving Indonesia does not close your tax number. An NPWP with nobody filing quietly builds up penalties. How to deactivate it properly before you go.
 category: tax
 order: 20
 risk: medium

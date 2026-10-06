@@ -1,7 +1,7 @@
 ---
 question: How much is electricity in Bali?
-title: Electricity Cost in Bali 2026: PLN Tariffs and Villa Bills
-summary: Air conditioning and the pool pump are the bill. A three-bedroom villa running hard costs far more than owners budget from a residential baseline.
+title: Electricity Cost in Bali 2026: What a Villa Really Pays
+summary: Aircon and the pool pump are most of a Bali villa's power bill. How PLN tariffs work, and why a three-bedroom villa costs far more than a home baseline.
 category: living
 order: 18
 risk: medium

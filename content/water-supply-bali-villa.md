@@ -1,7 +1,7 @@
 ---
 question: Where does a Bali villa get its water?
-title: Water Supply for a Bali Villa 2026: PDAM, Wells, Trucking
-summary: Piped supply does not reach everywhere, wells need permits, and on the Bukit water is a genuine operating cost rather than a detail.
+title: Water Supply for a Bali Villa: PDAM, Wells, Trucking
+summary: Piped PDAM water does not reach everywhere, wells need permits, and on the Bukit water is a real operating cost. How to secure supply before you buy.
 category: building
 order: 08
 risk: high

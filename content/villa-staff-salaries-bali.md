@@ -1,7 +1,7 @@
 ---
 question: What do villa staff cost in Bali?
-title: Bali Villa Staff Costs 2026: Salaries, BPJS and THR
-summary: Base salaries are low. The employer obligations on top of them, BPJS and the mandatory annual bonus, are what owners forget to budget.
+title: Villa Staff Salaries in Bali 2026: Wages, BPJS, THR
+summary: Wages must meet the regency minimum wage (UMK). On top come BPJS insurance and THR, a mandatory extra month's salary each year. Budget all three.
 category: rental
 order: 10
 risk: medium

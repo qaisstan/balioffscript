@@ -1,7 +1,7 @@
 ---
 question: What is a yayasan and can a foreigner run one?
-title: Yayasan (Indonesian Foundation) 2026: Structure and Limits
-summary: The non-profit vehicle behind most schools, clinics and NGOs here. It cannot distribute profit, and using one to hold a business is a known trap.
+title: What Is a Yayasan? Indonesian Foundation Explained
+summary: A yayasan is Indonesia's non-profit foundation, used for schools, clinics and NGOs. It cannot distribute profit, so using one to hold a business is a trap.
 category: company
 order: 13
 risk: high

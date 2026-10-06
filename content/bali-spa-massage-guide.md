@@ -1,7 +1,7 @@
 ---
 question: How much is a massage in Bali?
-title: Massage and Spas in Bali: Prices and Types
-summary: A good hour-long Balinese massage costs 100,000 to 250,000 rupiah at a local spa and five times that in a resort. What the traditional treatments actually are.
+title: How Much Is a Massage in Bali? 2026 Spa Prices
+summary: An hour-long Balinese massage costs 100,000 to 250,000 rupiah at a local spa and about five times that at a resort. What each treatment actually is.
 category: places
 order: 39
 risk: none

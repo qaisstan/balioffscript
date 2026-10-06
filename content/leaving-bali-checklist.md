@@ -1,7 +1,7 @@
 ---
 question: What do you need to do before leaving Bali?
-title: Leaving Bali: The Checklist Nobody Gives You
-summary: Obligations do not leave with you. A permit left open, a company still filing and a property with no one authorised to act all become expensive later.
+title: Leaving Bali: The Checklist Before You Go (2026)
+summary: Obligations do not leave with you. A permit left open, a company still filing or a property with nobody authorised to act gets expensive later.
 category: living
 order: 35
 risk: high

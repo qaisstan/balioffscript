@@ -1,6 +1,7 @@
 ---
 question: What are KDB and KLB, and why do they decide your project?
-summary: Zoning tells you if you can build. KDB and KLB tell you how much. A plot can be perfectly legal and still economically pointless.
+title: KDB and KLB in Bali: How Much You Can Build (2026)
+summary: KDB is the share of a plot you may cover, KLB the total floor area allowed. At 10% KDB a 500 m² plot gives a 50 m² footprint, so check both before buying.
 category: building
 order: 03
 risk: high

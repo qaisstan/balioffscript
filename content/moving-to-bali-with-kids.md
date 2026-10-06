@@ -1,7 +1,7 @@
 ---
 question: What is it like moving to Bali with children?
-title: Moving to Bali With Kids: Schools, Costs, Reality
-summary: Families live in a completely different Bali to everyone else, and it costs roughly three times as much.
+title: Moving to Bali With Kids 2026: Schools, Costs, Reality
+summary: Families live in a different Bali to everyone else, and it costs roughly three times as much. Schools, costs and what to plan before you move.
 category: living
 order: 14
 risk: info

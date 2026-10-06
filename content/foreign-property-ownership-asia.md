@@ -1,7 +1,7 @@
 ---
 question: Where in Asia can foreigners actually own property?
-title: Foreign Property Ownership in Asia 2026: Country by Country
-summary: Almost nowhere lets a foreigner own land. What separates these markets is what you get instead, and how long you keep it.
+title: Which Asian Countries Let Foreigners Own Land? (2026)
+summary: Almost none let a foreigner own land outright. What separates the markets is what you get instead and how long you keep it, country by country.
 category: compare
 order: 02
 risk: high

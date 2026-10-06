@@ -1,7 +1,7 @@
 ---
 question: Can a foreigner open a bank account in Indonesia?
-title: Opening a Bank Account in Indonesia as a Foreigner 2026
-summary: With a KITAS it is straightforward. Without one it is mostly not possible, and the workarounds sold to tourists carry real risk.
+title: Can a Foreigner Open a Bank Account in Indonesia?
+summary: With a KITAS it is straightforward. Without one it is mostly not possible, and the workarounds sold to tourists carry real risk. What you need.
 category: living
 order: 15
 risk: medium

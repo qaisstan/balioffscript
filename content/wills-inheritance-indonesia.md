@@ -1,7 +1,7 @@
 ---
 question: What happens to your Bali property when you die?
-title: Wills and Inheritance in Indonesia 2026 for Foreigners
-summary: A home country will does not settle an Indonesian land title, and heirs who cannot lawfully hold it face a disposal deadline.
+title: Wills and Inheritance in Indonesia for Foreigners
+summary: A will from home does not settle an Indonesian land title. Heirs who cannot lawfully hold the right face a deadline to dispose of it. How to plan ahead.
 category: ownership
 order: 12
 risk: critical

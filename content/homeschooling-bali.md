@@ -1,7 +1,7 @@
 ---
 question: Can you homeschool in Bali?
-title: Homeschooling and Alternative Education in Bali
-summary: A large community does it, the legal position for foreign children runs through immigration rather than education, and the practical question is accreditation.
+title: Homeschooling in Bali 2026: Is It Legal? How It Works
+summary: A large community homeschools in Bali. For foreign children the legal position runs through immigration, and the practical question is accreditation.
 category: living
 order: 37
 risk: medium

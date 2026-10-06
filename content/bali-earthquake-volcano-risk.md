@@ -1,7 +1,7 @@
 ---
 question: How risky are earthquakes and volcanoes in Bali?
-title: Bali Earthquake and Volcano Risk: What Buyers Should Know
-summary: Bali sits on an active margin. It rarely affects daily life and it should affect how you build, insure and choose a location.
+title: Bali Earthquake and Volcano Risk for Buyers (2026)
+summary: Bali sits on an active plate margin. It rarely affects daily life, but it should shape how you build, how you insure and where you buy.
 category: living
 order: 23
 risk: medium

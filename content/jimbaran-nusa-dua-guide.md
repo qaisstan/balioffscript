@@ -1,7 +1,7 @@
 ---
 question: Should you stay in Jimbaran or Nusa Dua?
-title: Jimbaran and Nusa Dua: Calm Bays and Resorts
-summary: Two sheltered-water areas near the airport with very different characters: seafood on the sand in a working fishing bay, or a manicured resort enclave with a toll road.
+title: Jimbaran vs Nusa Dua: Which Is Better? (2026)
+summary: Jimbaran is a working fishing bay with seafood on the sand. Nusa Dua is a manicured resort enclave, 25 to 40 minutes from the airport by toll road.
 category: places
 order: 07
 risk: none

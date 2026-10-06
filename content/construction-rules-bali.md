@@ -1,7 +1,7 @@
 ---
 question: What are the building rules in Bali?
-title: Bali Building Rules: Height, Setback, KDB and Custom
-summary: Height limits, setbacks, coverage ratios and local custom all constrain what you can build, and the customary rules are not written in the spatial plan.
+title: Bali Building Rules: 15 m Height Limit, Setbacks, KDB
+summary: Bali limits buildings to about 15 metres, the height of a coconut palm. Setbacks, coverage ratios and village custom then decide what you can build.
 category: building
 order: 16
 risk: high

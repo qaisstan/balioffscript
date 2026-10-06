@@ -1,7 +1,7 @@
 ---
 question: How does a power of attorney work in Indonesia?
-title: Power of Attorney in Indonesia 2026: Uses and Limits
-summary: Useful for transacting from abroad, and routinely misused as the paperwork propping up an unlawful nominee arrangement.
+title: Power of Attorney in Indonesia (Surat Kuasa) 2026
+summary: A notarial power of attorney (surat kuasa) lets someone act for you while you are abroad. It cannot authorise what the law forbids, nominee deals included.
 category: ownership
 order: 19
 risk: high

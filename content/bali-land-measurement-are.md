@@ -1,7 +1,7 @@
 ---
 question: What is an are of land in Bali?
-title: Bali Land Measurement 2026: Are, Hectare and Price Per m2
-summary: Land here is priced per are, which is 100 square metres. Confusing it with a square metre or an acre is an expensive arithmetic error.
+title: What Is an Are in Bali? 1 Are = 100 m² (2026 Guide)
+summary: 1 are = 100 square metres, about 1,076 square feet, and 1 hectare = 100 are. Bali land is priced per are, so convert before you compare any listing.
 category: areas
 order: 14
 risk: medium

@@ -1,6 +1,7 @@
 ---
 question: Can a PT PMA still get a villa rental licence in Bali?
-summary: No. Bali closed the villa and homestay classifications to new foreign-owned companies in July 2026. Two routes remain open.
+title: Can a PT PMA Get a Villa Licence in Bali? (July 2026)
+summary: No. Bali closed the villa and homestay classifications to new foreign-owned companies in July 2026. Two routes remain open, and here is how each works.
 category: company
 order: 03
 risk: critical

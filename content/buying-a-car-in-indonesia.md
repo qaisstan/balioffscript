@@ -1,7 +1,7 @@
 ---
 question: Can a foreigner buy a car in Indonesia?
-title: Buying a Car or Scooter in Indonesia as a Foreigner
-summary: Registration needs a KITAS or a local arrangement, and the arrangement people use to avoid that is the same pattern that fails elsewhere.
+title: Can a Foreigner Buy a Car in Indonesia? (2026)
+summary: Yes with a KITAS: registration needs one. The common workaround of registering in a local's name is the same pattern that fails with property.
 category: living
 order: 32
 risk: medium

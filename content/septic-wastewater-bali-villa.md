@@ -1,7 +1,7 @@
 ---
 question: How does wastewater work in a Bali villa?
-title: Septic Systems and Wastewater for a Bali Villa
-summary: There is no mains sewer across most of Bali. Every villa treats its own wastewater, and a failed system is the worst problem a rental property can have.
+title: Septic Tanks and Sewage in Bali: What a Villa Needs
+summary: Most of Bali has no mains sewer, so every villa treats its own wastewater. A failed septic system is the worst problem a rental villa can have.
 category: building
 order: 21
 risk: high

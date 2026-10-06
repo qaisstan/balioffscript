@@ -1,7 +1,7 @@
 ---
 question: What are the property laws in Bali?
-title: Bali Property Law 2026: Every Rule for Foreigners
-summary: One national framework, one regional layer, and six rules that decide everything a foreign buyer can and cannot do.
+title: Bali Property Law 2026: Every Rule Foreigners Need
+summary: One national framework, one regional layer and six rules that decide everything a foreign buyer can and cannot do in Bali, explained plainly.
 category: ownership
 order: 02
 risk: critical

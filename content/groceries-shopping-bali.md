@@ -1,7 +1,7 @@
 ---
 question: Where do you shop for food in Bali?
-title: Groceries and Shopping in Bali: What Things Cost
-summary: Local produce is cheap, imported goods are not, and the gap between the two is most of the difference in anyone's cost of living here.
+title: Bali Grocery Prices 2026: Local vs Imported Costs
+summary: Local produce, rice, eggs, chicken and fish cost a fraction of Western prices. Imported cheese, beef, wine and branded goods cost more than at home.
 category: living
 order: 40
 risk: info

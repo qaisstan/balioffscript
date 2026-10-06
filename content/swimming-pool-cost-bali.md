@@ -1,7 +1,7 @@
 ---
 question: How much does a swimming pool cost in Bali?
-title: Swimming Pool Cost in Bali 2026: Build and Running Costs
-summary: A standard villa pool runs USD 15,000 to 25,000 to build. The part owners underestimate is what it costs every month after that.
+title: Swimming Pool Cost in Bali 2026: Build and Running
+summary: A standard villa pool costs USD 15,000 to 25,000 to build and roughly USD 100 to 200 a month to run before anything breaks. The full breakdown.
 category: building
 order: 02
 risk: medium
