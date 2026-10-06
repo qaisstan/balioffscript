@@ -4,6 +4,19 @@
 // to Kai. Indonesian numbers get the download only: no WhatsApp handoff.
 
 (function () {
+  // Default country code from the visitor's own time zone, so nobody gets labelled Australian by
+  // accident. Indonesian time zones keep the page default: most visitors in Bali are travellers.
+  function guessDial(fallback) {
+    var TZ = {"Pacific/Auckland":"+64","Europe/London":"+44","Europe/Dublin":"+353","Europe/Lisbon":"+351","Europe/Madrid":"+34","Europe/Paris":"+33","Europe/Berlin":"+49","Europe/Amsterdam":"+31","Europe/Brussels":"+32","Europe/Zurich":"+41","Europe/Vienna":"+43","Europe/Stockholm":"+46","Europe/Oslo":"+47","Europe/Copenhagen":"+45","Europe/Helsinki":"+358","Europe/Rome":"+39","Europe/Warsaw":"+48","Europe/Prague":"+420","Europe/Moscow":"+7","Europe/Kiev":"+380","Europe/Kyiv":"+380","Europe/Istanbul":"+90","Europe/Athens":"+30","Europe/Bucharest":"+40","Europe/Budapest":"+36","Europe/Zagreb":"+385","Europe/Tallinn":"+372","Europe/Riga":"+371","Europe/Vilnius":"+370","Europe/Luxembourg":"+352","Europe/Malta":"+356","Atlantic/Reykjavik":"+354","Asia/Nicosia":"+357","Asia/Dubai":"+971","Asia/Riyadh":"+966","Asia/Qatar":"+974","Asia/Jerusalem":"+972","Africa/Johannesburg":"+27","Asia/Kolkata":"+91","Asia/Calcutta":"+91","Asia/Shanghai":"+86","Asia/Hong_Kong":"+852","Asia/Taipei":"+886","Asia/Tokyo":"+81","Asia/Seoul":"+82","Asia/Kuala_Lumpur":"+60","Asia/Singapore":"+65","Asia/Bangkok":"+66","Asia/Manila":"+63","Asia/Ho_Chi_Minh":"+84","Africa/Cairo":"+20","Africa/Lagos":"+234","Africa/Nairobi":"+254","America/Sao_Paulo":"+55","America/Mexico_City":"+52","America/Argentina/Buenos_Aires":"+54","America/Santiago":"+56","America/Bogota":"+57"};
+    try {
+      var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || "";
+      if (TZ[tz]) return TZ[tz];
+      if (tz.indexOf("Australia/") === 0) return "+61";
+      if (tz.indexOf("America/") === 0) return "+1";
+    } catch (e) {}
+    return fallback;
+  }
+
   var DIAL = [
     ["🇦🇺", "61"], ["🇬🇧", "44"], ["🇺🇸", "1"], ["🇩🇪", "49"], ["🇳🇱", "31"], ["🇫🇷", "33"],
     ["🇸🇪", "46"], ["🇳🇴", "47"], ["🇩🇰", "45"], ["🇫🇮", "358"], ["🇧🇪", "32"], ["🇨🇭", "41"],
@@ -48,7 +61,7 @@
       o.textContent = c[0] + " +" + c[1];
       sel.appendChild(o);
     });
-    sel.value = cfg.dial || "+61";
+    sel.value = guessDial(cfg.dial || "+61");
     sel.addEventListener("change", function () { dialTouched = true; });
 
     function fail(msg, field) {
