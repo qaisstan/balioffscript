@@ -882,6 +882,7 @@ def footer(extra=""):
 <a href="{BASE}/check/">What I'd check first</a>
 <a href="{BASE}/checklist/">Due diligence checklist</a>
 <a href="{BASE}/disclaimer/">Disclaimer</a>
+<a href="{BASE}/privacy/">Privacy</a>
 </div>
 </div>
 <div class="wrap foot-legal">
@@ -2158,6 +2159,7 @@ def main():
     write("/search/", search_page())
     write("/opportunities/", opportunities_page())
     write("/disclaimer/", simple("disclaimer", "Disclaimer", DISCLAIMER))
+    write("/privacy/", simple("privacy", "Privacy policy", PRIVACY))
     write("/checklist/", simple("checklist", "Due diligence checklist", CHECKLIST))
     me = sys.modules[__name__]
     import langs as L
@@ -2183,7 +2185,7 @@ def main():
     open(os.path.join(OUT, "search-index.json"), "w", encoding="utf-8").write(json.dumps(index))
 
     urls = ["/", "/about/", "/all/", "/calculator/", "/check/", "/search/", "/opportunities/",
-            "/checklist/", "/disclaimer/", K.LANDING["en"]] + [f"/{k}/" for k in CATEGORIES] + \
+            "/checklist/", "/disclaimer/", "/privacy/", K.LANDING["en"]] + [f"/{k}/" for k in CATEGORIES] + \
            [f'/{p["category"]}/{p["slug"]}/' for p in pages] + [u for u, _ in lang_urls]
 
     # lastmod is how Google decides what is worth recrawling. Articles carry
@@ -2276,6 +2278,32 @@ Indonesian regulations change frequently and are applied inconsistently between 
 Before you sign anything, transfer any money, or rely on any structure described here, verify it with a licensed Indonesian notary or PPAT, an Indonesian lawyer, and a registered tax consultant. Engage your own, not the seller's.
 
 Treat every figure here as a starting point for your own checking rather than a current fact. Indonesian thresholds, rates and requirements are revised regularly.
+"""
+
+PRIVACY = """
+Last updated: 6 October 2026.
+
+This page explains what Bali Off Script collects, why, and what happens to it.
+
+## What we collect
+
+**When you fill in a form** (the buyer's kit or the opportunities form) we receive what you type: your name, phone number and, if you give them, your email, budget, timeline, what you are looking for and your language. We use it only to reply to you and to send what you asked for.
+
+**When you visit the site** we use Google Analytics to count visits and see which pages are read. It uses cookies and does not tell us who you are.
+
+## Where it is kept
+
+Form answers are stored in a private Google Sheet and sent as an email alert to us. Nobody else has access. We do not sell, rent or share your details with anyone, and we do not use them for advertising.
+
+You can ask us at any time to see, correct or delete what we hold about you.
+
+## Our own tools and Google data
+
+We run an internal tool, called Bali Off Script, to manage our own YouTube channel and read our own Google Analytics. It signs in with Google only on our own accounts, to upload our videos and read our statistics. That data stays on our own computer, is never shared or sold, and is not used to train AI models. Our use of information received from Google APIs follows the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements.
+
+## Contact
+
+For anything about your data, email truston.agency@gmail.com.
 """
 
 CHECKLIST = """
