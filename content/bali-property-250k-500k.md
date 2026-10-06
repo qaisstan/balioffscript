@@ -54,6 +54,9 @@ Title and term verified at the land office, not from a copy the agent hands you.
 
 I have seen every one of these fail on properties in this price band. The money at risk justifies doing all of it properly.
 
+
+Above this bracket, see [what USD 500,000 to 1 million buys](/rental/bali-property-500k-1m/).
+
 ## Common questions
 
 ### Is $400,000 enough for a good villa in Bali?
