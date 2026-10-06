@@ -890,7 +890,7 @@ def footer(extra=""):
 <p>General information, not legal or tax advice. Indonesian regulations change often and are applied inconsistently between regencies. Verify anything here with a licensed Indonesian notary, lawyer or tax consultant before you act on it.</p>
 </div>
 <div class="wrap foot-langs"><nav class="langs" aria-label="Languages">{lang_links("en")}</nav></div>
-<script src="{BASE}/search.js" defer></script><script src="{BASE}/kit.js" defer></script>{extra}
+<script src="{BASE}/search.js" defer></script><script src="{BASE}/kit.js" defer></script><script src="{BASE}/dialpicker.js" defer></script>{extra}
 </footer>
 </body>
 </html>"""
@@ -2122,7 +2122,7 @@ def opportunities_page():
 <a href="{BASE}/about/">About Kai</a>
 </nav>
 </main>
-<script src="{BASE}/lead.js" defer></script>
+<script src="{BASE}/lead.js" defer></script><script src="{BASE}/dialpicker.js" defer></script>
 </body>
 </html>"""
 

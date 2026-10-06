@@ -1506,3 +1506,20 @@ body.kitdoc { background: #fff; }
 .gd-card b { font-family: "Fraunces", Georgia, serif; font-size: 1.15rem; font-weight: 600; }
 .gd-card span { color: var(--slate); font-size: 0.92rem; line-height: 1.45; }
 .gd-card:hover { border-color: var(--seal); }
+
+/* searchable country code picker (dialpicker.js) */
+.dp { position: relative; min-width: 0; }
+.dp-native { position: absolute; opacity: 0; pointer-events: none; width: 1px; height: 1px; }
+.dp-btn { width: 100%; height: 100%; min-height: 2.9rem; font: inherit; font-size: .95rem; text-align: left; padding: .7rem .6rem;
+  border: 1px solid var(--rule-2); border-radius: 3px; background: var(--paper); color: var(--ink); cursor: pointer; white-space: nowrap; }
+.dp-btn::after { content: "▾"; float: right; color: var(--slate); margin-left: .25rem; }
+.dp-pop { position: absolute; z-index: 50; top: calc(100% + 4px); left: 0; width: min(18rem, 86vw); background: #fff;
+  border: 1px solid var(--rule-2); border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,.15); padding: .5rem; }
+.dp-q { width: 100%; font: inherit; font-size: 1rem; padding: .6rem .7rem; border: 1px solid var(--rule-2); border-radius: 6px; margin-bottom: .4rem; }
+.dp-list { list-style: none; margin: 0; padding: 0; max-height: 15rem; overflow-y: auto; }
+.dp-list li { display: grid; grid-template-columns: 1.6rem 1fr auto; gap: .4rem; align-items: center; padding: .55rem .5rem; border-radius: 5px; cursor: pointer; font-size: .95rem; color: var(--ink); }
+.dp-list li b { font-weight: 500; }
+.dp-list li i { font-style: normal; color: var(--slate); font-variant-numeric: tabular-nums; }
+.dp-list li:hover, .dp-list li.on { background: var(--paper-2); }
+.dp-none { color: var(--slate); cursor: default; }
+.dp-pop .dp-q, .kit-f .dp-pop .dp-q { background: #fff; color: var(--ink); border: 1px solid var(--rule-2); }

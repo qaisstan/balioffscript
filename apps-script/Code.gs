@@ -65,6 +65,7 @@ function doPost(e) {
     }
 
     notify(row, wrote);
+    sendGuide(d, row);
     return ok();
 
   } catch (err) {
@@ -414,4 +415,75 @@ function stylePipeline(ss, n) {
   if (leads) leads.setTabColor(C.verify);
   ss.setActiveSheet(p);
   ss.moveActiveSheet(1);
+}
+
+
+
+/* ------------------------------------------------------------------------
+ * The free guide by email, automatically, the moment a lead comes in.
+ * Only when the person gave an email, and never to an Indonesian number
+ * (+62, 0062, or a local 08 number): Kai's rule. Protected against abuse:
+ * one guide per address per 7 days, at most 40 a day.
+ * ---------------------------------------------------------------------- */
+var SITE = "https://balioffscript.com";
+var KIT_PDF = SITE + "/kit/k7q4m2/";
+var TOPIC_PDF = {
+  "The Bali Villa Build Guide": "bali-build-guide.pdf",
+  "Owning Property in Bali as a Foreigner": "bali-own-guide.pdf",
+  "The Bali Rental Income Guide": "bali-rent-guide.pdf",
+  "Where to Buy in Bali: Area by Area": "bali-areas-guide.pdf",
+  "Moving to Bali: Visas, Living and Buying": "bali-move-guide.pdf"
+};
+var MAIL = {
+  en: { s: "Your {g}", h: "Hi {n},", a: "Here is your {g}:", b: "Download it here", c: "Are you looking at something specific in Bali, or still exploring? Reply with the area and your budget and I'll tell you what I would check first.", k: "The Bali Buyer's Kit" },
+  fr: { s: "Ton guide : {g}", h: "Bonjour {n},", a: "Voici ton guide, {g} :", b: "Le télécharger ici", c: "Tu regardes déjà quelque chose de précis à Bali, ou tu te renseignes encore ? Réponds-moi avec la zone et ton budget, et je te dis ce que je vérifierais en premier.", k: "Le guide de l'acheteur à Bali" },
+  de: { s: "Dein Leitfaden: {g}", h: "Hallo {n},", a: "Hier ist dein Leitfaden, {g}:", b: "Hier herunterladen", c: "Schaust du dir schon etwas Bestimmtes auf Bali an, oder informierst du dich noch? Schreib mir die Gegend und dein Budget, dann sage ich dir, was ich zuerst prüfen würde.", k: "Der Bali-Käuferleitfaden" },
+  nl: { s: "Je gids: {g}", h: "Hoi {n},", a: "Hier is je gids, {g}:", b: "Hier downloaden", c: "Kijk je al naar iets specifieks op Bali, of oriënteer je je nog? Stuur me het gebied en je budget, dan vertel ik wat ik als eerste zou controleren.", k: "De Bali-kopersgids" },
+  sv: { s: "Din guide: {g}", h: "Hej {n},", a: "Här är din guide, {g}:", b: "Ladda ner den här", c: "Tittar du redan på något särskilt på Bali, eller undersöker du fortfarande? Svara med område och budget så säger jag vad jag skulle kontrollera först.", k: "Köparguiden för Bali" },
+  no: { s: "Guiden din: {g}", h: "Hei {n},", a: "Her er guiden din, {g}:", b: "Last den ned her", c: "Ser du allerede på noe bestemt på Bali, eller undersøker du fortsatt? Svar med område og budsjett, så sier jeg hva jeg ville sjekket først.", k: "Kjøperguiden for Bali" }
+};
+
+function isIndonesian(phone) {
+  var raw = String(phone || "").replace(/^'/, "").trim();
+  var d = raw.replace(/[^0-9]/g, "");
+  if (/^\+?\s*62/.test(raw) || /^0062/.test(d) || (raw.charAt(0) !== "+" && /^08/.test(d))) return true;
+  // an Indonesian mobile typed under the form's default code, e.g. "+61 0812 3456 7890"
+  var nat = raw.replace(/^\+\d{1,3}\s*/, "").replace(/[^0-9]/g, "");
+  return /^08[1-9]/.test(nat) && nat.length >= 11;
+}
+
+function sendGuide(d, row) {
+  try {
+    var email = String(row[7] || "").replace(/^'/, "").trim().toLowerCase();
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) return;
+    if (isIndonesian(row[2])) return;
+
+    var props = PropertiesService.getScriptProperties();
+    var key = "g:" + email, now = Date.now();
+    var last = Number(props.getProperty(key) || 0);
+    if (now - last < 7 * 864e5) return;                              // one per address per week
+    var day = "n:" + Utilities.formatDate(new Date(), "Asia/Makassar", "yyyy-MM-dd");
+    var count = Number(props.getProperty(day) || 0);
+    if (count >= 40) return;                                         // daily cap
+
+    var lang = MAIL[String(row[9] || "en").toLowerCase()] ? String(row[9]).toLowerCase() : "en";
+    var m = MAIL[lang];
+    var topic = TOPIC_PDF[String(row[10] || "")];
+    var guide = topic ? String(row[10]) : m.k;
+    var pdf = topic ? KIT_PDF + topic : KIT_PDF + "bali-buyers-kit-" + lang + ".pdf";
+    var name = String(row[1] || "").replace(/^'/, "").split(" ")[0] || "";
+    var f = function (t) { return t.replace("{g}", guide).replace("{n}", name); };
+
+    var text = [f(m.h), "", f(m.a), pdf, "", m.c, "", "Kai", "Bali Off Script · balioffscript.com"].join("\n");
+    var html = '<div style="font-family:Arial,sans-serif;font-size:15px;line-height:1.55;color:#16191d">' +
+      "<p>" + f(m.h) + "</p><p>" + f(m.a) + '</p><p><a href="' + pdf + '" style="display:inline-block;background:#8a2c26;color:#fff;' +
+      'padding:12px 18px;border-radius:6px;text-decoration:none;font-weight:bold">' + m.b + "</a></p><p>" + m.c + "</p>" +
+      '<p>Kai<br><span style="color:#4c545e">Bali Off Script · <a href="' + SITE + '" style="color:#4c545e">balioffscript.com</a></span></p></div>';
+
+    MailApp.sendEmail({ to: email, subject: f(m.s), body: text, htmlBody: html, name: "Kai | Bali Off Script", replyTo: NOTIFY });
+    props.setProperty(key, String(now));
+    props.setProperty(day, String(count + 1));
+  } catch (err) {
+    console.error("guide email failed", err);                       // never let this lose the lead
+  }
 }
