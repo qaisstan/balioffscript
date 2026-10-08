@@ -12,6 +12,8 @@ verified: 2026-10-06
 
 The pros and cons of buying a villa in Bali, without the sales layer. Both lists are real. Which one wins depends on what you buy and what you check, not on Bali itself.
 
+This is the quick list. The full analysis, with returns, costs and how to buy, is in the [Bali property investment guide](/rental/how-to-invest-in-bali-property/).
+
 ## The pros
 
 **Demand is real and growing.** Nearly 7 million foreign arrivals in 2025, up almost 10 percent, and the airport is expanding from roughly 24 to 32 million passengers a year. People keep coming.

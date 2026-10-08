@@ -1523,3 +1523,10 @@ body.kitdoc { background: #fff; }
 .dp-list li:hover, .dp-list li.on { background: var(--paper-2); }
 .dp-none { color: var(--slate); cursor: default; }
 .dp-pop .dp-q, .kit-f .dp-pop .dp-q { background: #fff; color: var(--ink); border: 1px solid var(--rule-2); }
+
+/* Start here: the money pages, in every property article and hub */
+.key-guides { max-width: var(--measure); margin: 2rem 0; padding: 1rem 1.2rem 1.1rem; border: 1px solid var(--rule, #e5e0d6); border-left: 4px solid var(--seal); background: var(--paper-2); border-radius: 0 12px 12px 0; }
+.key-guides .kg-h { margin: 0 0 .5rem; font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; font-weight: 700; color: var(--seal); }
+.key-guides ul { margin: 0; padding: 0; list-style: none; display: grid; gap: .35rem; }
+.key-guides li a { color: inherit; font-weight: 600; text-decoration: none; border-bottom: 1px solid currentColor; }
+.key-guides li a:hover { color: var(--seal); }

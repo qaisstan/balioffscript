@@ -1,100 +1,173 @@
 ---
-question: What yield does a Bali villa actually produce?
-title: Bali Villa Rental Yields: The Real Numbers
-summary: Gross yields get advertised at 8–15%. Net, after everything, is usually 4–6%. Here is where the difference goes.
+question: What rental yield and ROI does a Bali villa really make?
+title: Bali Villa Rental Yield & ROI 2026: The Real Net Numbers
+summary: Advertised Bali yields are 8 to 15 percent gross. Net, after every cost, average stock makes 4 to 6 percent and a well-run villa 7 to 9. Here is where the difference goes, a worked example, and how a lease and a licence change the answer.
 category: rental
 order: 01
 risk: high
-regulation: UU 18/2025 (Tourism Law); KBLI 55193; licensing deadline 31 Mar 2026
-applies: Anyone underwriting a rental purchase
-verified: 2026-08-13
+regulation: Permenpar No. 6/2025 (rental listings need a verified NIB, deadline 31 March 2026); KBLI 2025 accommodation classifications; Bali closure of villa and homestay classifications to new PT PMA, 22 July 2026; PB1 regional accommodation tax 10 percent.
+applies: Anyone reading a Bali rental projection or underwriting a villa purchase
+verified: 2026-10-08
 ---
 
-## The advertised number and the real one
+A Bali villa's rental yield is the most misquoted number in the market. Almost every figure you are shown is **gross**: a year of bookings divided by the price. It is not wrong arithmetic. It is just not a return.
 
-Island-wide, occupancy averages around 64–66% with an ADR near USD 90–95. A typical two-bedroom villa grosses roughly USD 20,000–22,700 a year.
+Here is the real answer, every deduction between the advertised figure and your bank account, a worked example you can check line by line, and the two things that change the result more than any nightly rate: the lease and the licence.
 
-Prime, well-managed villas reach 70–85% occupancy. Generic Canggu stock tracks 38–55%, and supply grew around 29% in 2025, which is compressing rates.
+## The short answer
 
-Operating costs consume **40–50% of gross** on a short-term rental villa.
+| | Typical figure |
+| --- | --- |
+| Advertised gross yield | 8 to 15 percent |
+| Net yield, average stock | 4 to 6 percent |
+| Net yield, well bought and well run | 7 to 9 percent |
+| Net yield, the best villas in the best spots, run excellently | up to the low teens |
+| Island-wide occupancy | around 64 to 66 percent |
+| Island-wide average nightly rate | around USD 90 to 95 |
+| Prime, well-managed occupancy | 70 to 85 percent |
+| Generic Canggu stock | 38 to 55 percent |
+| Running costs | 40 to 50 percent of gross |
 
-## Where the gross goes
+And on a leasehold, one more line: **the yearly cost of the term.** On a USD 300,000 villa with 25 years, that is about USD 12,000 a year before anything else.
 
-- **Management: 12–25%** of revenue depending on tier. Full-service including staff can reach 35%.
-- **OTA commission:** Airbnb's host-only fee sits around 15.5% since October 2025. Charged separately, on top of management.
-- **Staff:** villa staff, pool, garden. Continuous, not seasonal.
-- **Utilities, maintenance, replacements**, and a sinking fund you will need whether or not you budgeted one.
-- **Tax:** 10% final for a resident individual, plus 10% PB1 regional accommodation tax.
+## Gross vs net yield: where the money goes
 
-Run that through and 8–15% gross becomes **4–6% net** on average stock, 8–13% on genuinely prime and well-run.
+Everything between the booking and your account, in the order it leaves:
 
-## Leasehold amortisation
+**Platform commission.** Airbnb's host-only fee sits around 15.5 percent, charged on top of management. Other channels take a similar cut.
 
-The number almost nobody subtracts. If you paid USD 300,000 for a 25-year lease, you are consuming USD 12,000 of capital every year. A "7% net yield" on that villa is not 7%.
+**PB1, the 10 percent regional accommodation tax.** Collected from the guest and paid to the regency. Projections often show it as revenue. It was never yours.
 
-Freehold-equivalent structures appreciate. A lease runs down. Both can be good investments, but only one of them can be modelled as if the asset still exists at the end.
+**Management: 12 to 25 percent** depending on the tier, and up to 35 percent for full service with staff. Check whether it is charged on gross bookings or on what is left after commission. On a busy villa the difference is thousands a year.
 
-## Licensing, which is now the binding constraint
+**Staff, utilities, pool and garden.** A fixed monthly base that [does not fall when the villa is empty](/rental/bali-villa-running-costs/).
 
-To rent legally you need an **NIB**, a villa licence under **KBLI 55193** via a PT PMA, plus **PBG** and **SLF**.
+**Maintenance and replacements.** Humidity, salt air and sun shorten the life of everything. Pumps, air conditioning, timber, fabric.
 
-**Pondok Wisata (KBLI 55130) is restricted to Indonesian citizens.** It is not available to you, whatever an agent says.
+**A capital reserve.** Furniture, soft goods, paint, pool equipment and air conditioning need replacing on roughly a five-year cycle. Provision it every year, or take the whole hit in one year that looks like a loss.
 
-Under UU 18/2025, every short-term rental listed on a booking platform must be licensed by **31 March 2026** or face delisting.
+**Insurance.** Building, contents and liability.
 
-## Guaranteed returns
+**Income tax.** For a resident individual, rental income is taxed at a 10 percent final rate. Check how your own home country taxes it too. See [rental income tax](/tax/rental-income-tax-bali/).
 
-Treat any "guaranteed 15% ROI" villa scheme as a claim requiring proof. The guarantee is only as good as the company behind it, those companies are typically thinly capitalised, and the guarantee period usually expires precisely when the building starts needing capital expenditure.
+**The lease.** Not a cash cost, an economic one, and on a short lease the largest item of all.
 
-Ask for audited occupancy on existing units, not projections. If the answer is a brochure, you have your answer.
+Put together, running costs take **40 to 50 percent of gross** on a short-term rental villa before income tax. The full list is in [the cost of owning a villa in Bali](/rental/cost-of-owning-villa-bali/).
 
-> Underwrite on net, after tax, after management, after amortisation, at realistic occupancy rather than peak. If it still works, it is a real investment.
+## A worked example you can check
 
-## Licensing is a valuation input, not paperwork
+A two-bedroom villa bought for **USD 300,000** on a **25-year lease**, renting at **USD 150 a night** with **65 percent occupancy** across the whole year:
+
+| Line | USD per year | Yield on the price |
+| --- | --- | --- |
+| Bookings: 150 x 365 nights x 65% | 35,588 | **11.9%** (the advertised number) |
+| Running costs at 45% of gross | minus 16,014 | |
+| Income tax, 10% of gross | minus 3,559 | |
+| What reaches you | **16,015** | **5.3%** (the real net yield) |
+| The lease running down: 300,000 / 25 years | minus 12,000 | |
+| Your economic return | **4,015** | **1.3%** |
+
+Same villa, same bookings. Three very different numbers, and only the last one describes what happens to your money over the lease. That is why the [extension clause](/ownership/leasehold-extension-clause/) and the remaining term matter more than the nightly rate.
+
+## What changes the result most
+
+Net yield before the lease, on the same USD 300,000 villa, using the same costs:
+
+| Nightly rate | 55% occupancy | 65% occupancy | 75% occupancy |
+| --- | --- | --- | --- |
+| USD 120 | 3.6% | 4.3% | 4.9% |
+| USD 150 | 4.5% | 5.3% | 6.2% |
+| USD 200 | 6.0% | 7.1% | 8.2% |
+
+Two lessons. First, rate and occupancy decide most of the outcome, and both depend on the villa, the street, the photos and the manager more than on the area. Second, ten points of occupancy you assumed but do not get takes about one point off your yield. Assume less than the seller does.
+
+## The lease: the cost nobody puts in the projection
+
+Every title a foreigner can hold runs for a fixed term. When a lease ends, the land and the building generally [go back to the landowner](/ownership/land-rights-expiry-bali/).
+
+| Price | 25-year lease | 30-year lease |
+| --- | --- | --- |
+| USD 200,000 | about 8,000 a year | about 6,700 a year |
+| USD 300,000 | about 12,000 a year | about 10,000 a year |
+| USD 500,000 | about 20,000 a year | about 16,700 a year |
+
+A **guaranteed, priced extension** reduces this a lot. A clause that only gives you a "priority" to extend at a price set later does not. See [leasehold vs freehold in Bali](/ownership/leasehold-vs-freehold-bali/) for the difference.
+
+## The licence: whether the income can exist at all
 
 A villa that can lawfully sell nights and a villa that cannot are different assets, and the gap between them is most of the price.
 
-Yet rental licensing is routinely presented as an administrative step to be handled after purchase. It is not. It determines whether the income in the projection can legally exist.
+**The listing rule.** Under Permenpar No. 6/2025, every accommodation on Airbnb, Booking.com and the rest needed a verified business number (NIB) with the correct classification by **31 March 2026**. The Ministry of Tourism has been auditing listings with Badung and Gianyar, and missing licences, environmental permits or land-use approvals get listings pulled.
 
-## What has changed
+**There are two lawful ways to run a villa as a rental:**
 
-On 22 July 2026 Bali closed 18 low-risk business classifications to new PT PMA registration. Four of them were the codes this market was built on: villa, homestay, real estate and management consultancy.
+- **The lease route.** You lease the land in your own name. The plot needs its zoning approval (PKKPR), the building needs its PBG and SLF, and the homestay licence (**Pondok Wisata**) is held by the **Indonesian landowner**, not by you. A management company operates the rental and pays the income out. No company of your own is needed.
+- **The company route.** A PT PMA holding HGB, with its own villa licence. Full control, more cost and compliance. On **22 July 2026** Bali closed the villa and homestay classifications to **new** foreign-owned companies. Existing licensed companies are not cancelled, but a new project on this route must be structured carefully. See [the KBLI closure](/company/pt-pma-kbli-closure-bali/).
 
-The closure does not cancel existing licensed companies and it does not stop a foreigner holding land. It stops a **new** foreign-owned company registering those activities, which changes how any new project must be structured on the operating side.
+**Enforcement is real.** Satellite mapping is used to find planning violations, mostly in Canggu and Ubud, and properties with clean zoning, PBG and SLF now sell at a premium over ones without. A closed villa still has all its fixed costs and no income, which is the worst position this asset can be in.
 
-## The questions to ask before you buy
+**How to price it:** if the licence is missing or does not transfer, value the villa on land plus depreciated building, with the rental income at zero until a lawful path is verified and costed. Income you cannot lawfully earn is not income.
+
+## Guaranteed returns
+
+Treat any "guaranteed 12 percent ROI" scheme as a claim that needs proof. The guarantee is only as good as the company behind it, those companies are usually thinly capitalised, and the guarantee period tends to end exactly when the building starts needing capital spending. Ask for audited occupancy on units that already exist. If the answer is a brochure, you have your answer.
+
+## How to read any projection
+
+Ask four questions before you believe a number:
+
+1. **Is it gross or net?** If they say net, ask which costs are included. Most "net" figures still leave out the reserve and the lease.
+2. **What occupancy does it assume, across the whole year?** Peak-season occupancy applied to twelve months describes a year that does not exist.
+3. **Is the lease counted?** If not, the figure cannot be compared with a freehold return anywhere else.
+4. **Is nightly rental legal on this plot, run by this operator?** If not, the projection describes a business that cannot run.
+
+Then ask for the **last twelve months of real statements** from a genuinely similar villa: same area, same bedrooms, same age. Put them in the [ROI calculator](/calculator/), add your own vacancy and every cost above, and decide on that number.
+
+Most projections are not invented. They are real numbers arranged optimistically: the high-season rate across twelve months, the area's average occupancy instead of a new listing's, the headline management fee without the extras, and no reserve because the refurbishment is five years away and the projection covers three. Each choice is defensible. Stacked, they produce a number that has never happened.
+
+## Where yields are strongest
+
+Nightly rates are highest on the Uluwatu clifftop and in Canggu. Occupancy is steadiest in Sanur and in the walkable parts of Canggu. Once vacancy, management and maintenance come off, the real yield is often closer between areas than the marketing suggests, and the property and its manager matter more. See [the best areas to invest in Bali](/areas/best-areas-to-invest-bali/), [occupancy and seasonality](/rental/bali-occupancy-seasonality/), [how bedroom count changes income](/rental/bedrooms-vs-rental-income-bali/) and [break-even occupancy](/rental/bali-villa-break-even-occupancy/).
+
+If nightly rental is not possible on a plot, long-term rental is the usual fallback, with lower income and much lower costs. See [long-term vs short-term rental](/rental/long-term-rental-bali-investment/).
+
+## Questions to ask before you buy
 
 - Is there a licence, and does it cover **this** building at **this** address?
-- Is the NIB active on OSS, not suspended or revoked?
-- Have the codes migrated to KBLI 2025?
-- Does the registered activity honestly describe how the property is actually run?
-- Does the licence transfer with the sale, or does it belong to an entity that is not part of the deal?
-- Do PBG and SLF exist for the building the licence supposedly covers?
+- Is the NIB active on the government OSS system, not suspended or revoked?
+- Does the registered activity honestly describe how the villa is run?
+- Does the licence transfer with the sale, or does it belong to a company that is not part of the deal?
+- Do PBG and SLF exist for the building the licence covers?
+- What did the villa actually earn in the last twelve months, in statements, not projections?
+- How many years are left on the lease, and is the extension guaranteed and priced?
 
-That last pair matters more than buyers expect. An operating licence rests on a building that is lawfully approved and certified. Without PBG and SLF, the licence is exposed regardless of what the certificate says.
-
-## The enforcement position
-
-Regional authorities can issue warnings, suspend operations and close premises directly. The financial damage is not the penalty, it is a property sitting closed while its fixed costs continue.
-
-An owner in that position has a villa with a full cost base and no revenue, which is the worst configuration this asset can be in.
-
-## How to price it
-
-If the licence is absent or non-transferable, the villa should be valued on land plus depreciated building, with the rental income treated as zero until the path to a lawful licence is verified and costed.
-
-Sellers will argue the point. The argument to hold is simple: income you cannot lawfully earn is not income, and you are being asked to pay for it today.
+For the wider picture, including structure, budget and exit, read the [Bali property investment guide](/rental/how-to-invest-in-bali-property/).
 
 ## Common questions
 
-### Do you need a licence to rent a villa in Bali?
-Yes. Nightly accommodation is a licensed business activity. Renting without the correct permit is an enforcement risk that has become materially more real, not a technicality.
+### What is the ROI on Bali property?
+On a rented villa, 4 to 6 percent net on average stock and 7 to 9 percent on a well-bought, well-run villa, before counting the lease. On a 25-year lease, subtract about 4 percent of the price a year for the term running down, unless a guaranteed extension is in place.
 
-### What happens if your villa is not licensed?
-Regional authorities can issue warnings, suspend operations and close premises. The financial consequence is not the fine, it is a property that produces nothing while it sits closed.
+### What is a good rental yield in Bali?
+A net yield of 7 to 9 percent after every cost and tax is good. Advertised yields of 12 to 15 percent are almost always gross, before commission, the 10 percent accommodation tax, management, running costs and income tax.
 
-### How does licensing affect your return?
-An unlicensed villa should be valued on the income it can lawfully produce, which may be zero for nightly rental. Any yield figure quoted without a licence attached is hypothetical.
+### What is the average occupancy rate for villas in Bali?
+Around 64 to 66 percent across the island, with prime, well-managed villas at 70 to 85 percent and generic stock in crowded parts of Canggu at 38 to 55 percent.
 
-### Can you rent a villa long-term without a licence?
-Long-term leasing sits under different rules than nightly accommodation, and the economics are different too. It is often the fallback when the nightly licence is unavailable.
+### What is the difference between gross and net yield?
+Gross yield divides a year of bookings by the price and stops. Net yield subtracts everything it costs to earn those bookings, including commission, tax, management, staff, maintenance and a reserve. Only net yield is money you keep.
+
+### How much can a villa in Bali earn per year?
+A typical two-bedroom villa grosses roughly USD 20,000 to 22,700 a year at island-average occupancy. After running costs of 40 to 50 percent and income tax, about half or less reaches the owner.
+
+### Are guaranteed rental returns in Bali real?
+A guarantee is only as strong as the company giving it. Ask for audited occupancy on existing units and check the company's capital. Many guarantees end when the building starts needing major spending.
+
+### Do you need a licence to rent out a villa in Bali?
+Yes. Since 31 March 2026, listings on booking platforms need a verified business number with the right classification. On the lease route the homestay licence is held by the Indonesian landowner and a management company runs the rental.
+
+### How does a leasehold affect the return?
+The lease loses value every year because the land and building go back to the owner at the end. On a USD 300,000 villa with 25 years that is about USD 12,000 a year, which can turn a 5 percent net yield into close to 1 percent.
+
+### What is the rental yield for holiday rentals in Indonesia?
+Bali dominates Indonesia's holiday rental market, and the same pattern applies: high gross figures, 4 to 6 percent net on average stock, and more for well-run villas in strong locations.

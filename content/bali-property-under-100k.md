@@ -1,6 +1,6 @@
 ---
-question: What can you buy in Bali under $100,000?
-title: Bali Property Under $100,000: What That Budget Really Buys
+question: What can you buy in Bali for under $100,000?
+title: Bali Villas and Land Under $100k (2026): What You Can Buy
 summary: Under a hundred thousand you are buying land, a short lease, or a small off-plan unit. Each of those is a different risk, and only one of them is usually worth it.
 category: rental
 order: 33

@@ -111,7 +111,7 @@ CATEGORY_SEO = {
         "Malaysia, Portugal and Spain on the only four questions that matter: what you can own, "
         "what it costs to get in, what you are taxed on, and what you are left holding at the end."),
     "ownership": (
-        "Can foreigners own property in Bali?",
+        "Bali property ownership for foreigners: every guide",
         "Foreigners cannot hold Hak Milik, Indonesian freehold, under any structure, "
         "including through a company or a spouse. Three lawful routes exist instead: a "
         "leasehold contract, Hak Pakai registered in your own name if you hold residency, "
@@ -155,7 +155,7 @@ CATEGORY_SEO = {
         "3 to 6 months in Denpasar to 10 to 12 months in Badung for an existing "
         "unpermitted structure. Setbacks come off before any of it."),
     "rental": (
-        "Bali villa rental yields and licensing",
+        "Bali rental, ROI and management: every guide",
         "Advertised yields are gross. After platform commission, the 10% regional tax, "
         "management fees, staffing, refurbishment and income tax, an advertised 12% "
         "commonly lands between 4% and 6%, and on a leasehold, amortising the premium "
@@ -172,7 +172,7 @@ CATEGORY_SEO = {
         "site: specific, dated, and unwilling to sell you a version of the island that "
         "does not exist."),
     "areas": (
-        "Where to buy in Bali, area by area",
+        "Bali property areas: prices and demand, area by area",
         "Canggu has the liquidity and the strictest enforcement. The Bukit has the highest "
         "nightly rates and the setback rules that produced the 2025 Bingin demolitions. "
         "Sanur has the fastest permits on the island. Ubud has small buildable ratios and "
@@ -573,6 +573,22 @@ def extract_faq(body):
 # above the general one that contains it ("investor KITAS" before "KITAS").
 # One link per term per article, first occurrence only, text nodes only.
 LINK_TERMS = [
+    # the three money pages and the areas page come first, so they always get
+    # a link when the term appears (the list stops at MAX_AUTOLINKS)
+    ("Bali property investment", "/rental/how-to-invest-in-bali-property/"),
+    ("property investment", "/rental/how-to-invest-in-bali-property/"),
+    ("invest in Bali", "/rental/how-to-invest-in-bali-property/"),
+    ("investing in Bali", "/rental/how-to-invest-in-bali-property/"),
+    ("good investment", "/rental/how-to-invest-in-bali-property/"),
+    ("rental yields", "/rental/villa-rental-licensing-roi/"),
+    ("rental yield", "/rental/villa-rental-licensing-roi/"),
+    ("net yield", "/rental/villa-rental-licensing-roi/"),
+    ("gross yield", "/rental/villa-rental-licensing-roi/"),
+    ("ROI", "/rental/villa-rental-licensing-roi/"),
+    ("leasehold vs freehold", "/ownership/leasehold-vs-freehold-bali/"),
+    ("best areas", "/areas/best-areas-to-invest-bali/"),
+    ("where to buy", "/areas/best-areas-to-invest-bali/"),
+
     # travel and the islands (specific first)
     ("Nusa Penida", "/islands/nusa-penida-guide/"),
     ("Nusa Lembongan", "/islands/nusa-lembongan-guide/"),
@@ -602,7 +618,7 @@ LINK_TERMS = [
     ("nominee arrangement", "/ownership/nominee-structure-bali/"),
     ("nominee structure", "/ownership/nominee-structure-bali/"),
     ("Hak Pakai", "/ownership/hak-pakai-explained/"),
-    ("Hak Sewa", "/ownership/hak-sewa-leasehold-bali/"),
+    ("Hak Sewa", "/ownership/leasehold-vs-freehold-bali/"),
     ("Hak Milik", "/ownership/shm-shgb-shp-certificate-types/"),
     ("HGB", "/ownership/hgb-vs-leasehold-bali/"),
     ("extension clause", "/ownership/leasehold-extension-clause/"),
@@ -650,8 +666,6 @@ LINK_TERMS = [
     # running it
     ("break-even occupancy", "/rental/bali-villa-break-even-occupancy/"),
     ("occupancy", "/rental/bali-villa-break-even-occupancy/"),
-    ("net yield", "/rental/gross-vs-net-yield-bali/"),
-    ("gross yield", "/rental/gross-vs-net-yield-bali/"),
     ("villa manager", "/rental/self-manage-vs-villa-manager/"),
     ("management agreement", "/rental/villa-management-agreement-bali/"),
     ("running costs", "/rental/bali-villa-running-costs/"),
@@ -690,6 +704,40 @@ LINK_TERMS = [
     ("Tabanan", "/areas/tabanan-west-coast-property/"),
     ("Lombok", "/areas/lombok-property-foreigners/"),
 ]
+
+# Pages merged into a stronger one. The old address keeps working: it is written
+# as a redirect page (canonical + instant refresh), left out of the sitemap.
+REDIRECTS = {
+    "/rental/is-bali-villa-good-investment/": "/rental/how-to-invest-in-bali-property/",
+    "/rental/is-bali-property-worth-it/": "/rental/how-to-invest-in-bali-property/",
+    "/rental/gross-vs-net-yield-bali/": "/rental/villa-rental-licensing-roi/",
+    "/ownership/hak-sewa-leasehold-bali/": "/ownership/leasehold-vs-freehold-bali/",
+    "/areas/where-to-buy-bali/": "/areas/best-areas-to-invest-bali/",
+}
+
+
+def redirect_page(new):
+    url = f"{SITE_URL}{new}"
+    return (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Moved</title>'
+            f'<link rel="canonical" href="{url}"><meta http-equiv="refresh" content="0; url={BASE}{new}">'
+            f'<script>location.replace("{BASE}{new}" + location.hash)</script></head>'
+            f'<body><p>This page has moved: <a href="{BASE}{new}">{url}</a></p></body></html>')
+
+
+# The pages every property article points to, with the words people search.
+KEY_GUIDES = [
+    ("/rental/how-to-invest-in-bali-property/", "Bali property investment: the complete guide"),
+    ("/rental/villa-rental-licensing-roi/", "Bali villa rental yield and ROI: the real numbers"),
+    ("/ownership/leasehold-vs-freehold-bali/", "Leasehold vs freehold in Bali: what foreigners can own"),
+    ("/areas/best-areas-to-invest-bali/", "Best areas to invest in Bali"),
+]
+KEY_CATS = {"rental", "ownership", "areas", "building", "company", "tax", "compare"}
+
+
+def key_guides(path=""):
+    links = "".join(f'<li><a href="{BASE}{u}">{t}</a></li>' for u, t in KEY_GUIDES if u != path)
+    return f'<aside class="key-guides"><p class="kg-h">Start here</p><ul>{links}</ul></aside>'
+
 
 # A ceiling per article. Past roughly a dozen the links stop helping a reader
 # and start reading as keyword stuffing, which is the opposite of the point.
@@ -878,6 +926,9 @@ def footer(extra=""):
 <a href="{BASE}/buyers-kit/">Free Buyer's Kit</a>
 <a href="{BASE}/guides/">Free guides</a>
 <a href="{BASE}/all/">Every answer</a>
+<a href="{BASE}/rental/how-to-invest-in-bali-property/">Bali property investment</a>
+<a href="{BASE}/rental/villa-rental-licensing-roi/">Bali rental yields</a>
+<a href="{BASE}/ownership/leasehold-vs-freehold-bali/">Leasehold vs freehold</a>
 <a href="{BASE}/calculator/">ROI calculator</a>
 <a href="{BASE}/about/">About</a>
 <a href="{BASE}/check/">What I'd check first</a>
@@ -1242,6 +1293,7 @@ def article(m, siblings):
 {faq_block}
 {map_widget(focus=m["slug"], compact=True) if m["category"] == "areas" and any(a["slug"] == m["slug"] for a in MAP_AREAS) else ""}
 {reel(m.get("reel", ""))}
+{key_guides(path) if m["category"] in KEY_CATS else ""}
 {cta()}
 {onward(m, ALL_PAGES)}
 </div>
@@ -1309,6 +1361,7 @@ def category(key, pages):
 <div class="prose section-intro"><p>{intro}</p>
 {DIAGRAMS[CATEGORY_DIAGRAM[key]]() if CATEGORY_DIAGRAM.get(key) else ""}</div>
 {map_widget() if key == "areas" else ""}
+{key_guides() if key in ("rental", "ownership", "areas") else ""}
 <h2 class="sec-h">Every answer in this section</h2>
 <ul class="cards">{items}</ul>
 {kit_box("section-" + key)}
@@ -1759,7 +1812,7 @@ MAP_AREAS = [
     dict(id="seminyak", n="Seminyak &amp; Umalas", x=322, y=314, r="Badung",
          price="Near the ceiling", pbg="5–6 months",
          watch="Mature market, stable cashflow, modest appreciation",
-         slug="where-to-buy-bali", url="/areas/where-to-buy-bali/"),
+         slug="seminyak-property", url="/areas/seminyak-property/"),
     dict(id="uluwatu", n="Uluwatu &amp; the Bukit", x=287, y=372, r="Badung",
          price="USD 25–60k / are", pbg="5–6 months",
          watch="Cliff and beach setbacks. Bingin was demolished in 2025",
@@ -1970,7 +2023,7 @@ def calc_widget():
 
 
 def calculator():
-    return f"""{head("Bali property ROI calculator", CALC_DESC, "/calculator/")}
+    return f"""{head("Bali Villa ROI Calculator: Net Yield After Every Cost", CALC_DESC, "/calculator/")}
 {nav()}
 <main class="wrap calc-page">
 <p class="eyebrow">Tool</p>
@@ -2167,6 +2220,12 @@ def main():
     for k in CATEGORIES:
         cat_pages = [p for p in pages if p["category"] == k]
         write(f"/{k}/", category(k, cat_pages))
+
+    live = {f'/{p["category"]}/{p["slug"]}/' for p in pages}
+    for old, new in REDIRECTS.items():
+        assert old not in live, f"{old} is both a page and a redirect"
+        assert new in live, f"redirect target {new} does not exist"
+        write(old, redirect_page(new))
 
     write("/", home(pages))
     write("/calculator/", calculator())

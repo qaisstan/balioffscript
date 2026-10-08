@@ -1,6 +1,6 @@
 ---
-question: What is the difference between an agent and a manager in Bali?
-title: Agents, Managers and Who Actually Works for You in Bali
+question: Villa rental agency, property manager or sales agent: who does what in Bali?
+title: Villa Rental Agency vs Property Manager vs Sales Agent in Bali
 summary: An agent sells and is paid on the transaction. A manager operates and is paid on revenue. Neither is your adviser unless you engaged them as one.
 category: rental
 order: 50

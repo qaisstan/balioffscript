@@ -1,6 +1,6 @@
 ---
 question: Should you manage your Bali villa yourself?
-title: Self-Managing a Bali Villa 2026 vs Hiring a Manager
+title: Manage Your Bali Villa Yourself or Hire a Villa Manager? (2026)
 summary: A manager costs a large share of revenue. Self-managing costs your time and requires someone local you trust. Both are real options.
 category: rental
 order: 24

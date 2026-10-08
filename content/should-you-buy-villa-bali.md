@@ -14,6 +14,8 @@ Should you buy a villa in Bali? It is the question I get asked more than any oth
 
 Here is the test I walk buyers through before we look at a single property.
 
+For the full picture, from structures and returns to costs, areas and risks, read the [Bali property investment guide](/rental/how-to-invest-in-bali-property/). This page is the short test.
+
 ## The short answer
 
 Buy a villa in Bali if all of these are true:
@@ -57,9 +59,9 @@ Do not buy if you need the money back within a few years, if the deal only works
 
 ## If the answer is yes
 
-Start with the area and the structure, not the villa. Read [where to actually buy](/areas/where-to-buy-bali/), decide between [leasehold and Hak Pakai](/ownership/leasehold-vs-freehold-bali/), and follow the [buying process step by step](/ownership/buying-process-bali-step-by-step/). Then put the seller's own numbers through the [return calculator](/calculator/) and see what survives.
+Start with the area and the structure, not the villa. Read [where to actually buy](/areas/best-areas-to-invest-bali/), decide between [leasehold and Hak Pakai](/ownership/leasehold-vs-freehold-bali/), and follow the [buying process step by step](/ownership/buying-process-bali-step-by-step/). Then put the seller's own numbers through the [return calculator](/calculator/) and see what survives.
 
-For the investment maths in detail, read [is a Bali villa a good investment](/rental/is-bali-villa-good-investment/) and [is Bali property worth it](/rental/is-bali-property-worth-it/). The [pros and cons](/ownership/pros-cons-buying-villa-bali/) are listed side by side too.
+For the investment maths in detail, read [is a Bali villa a good investment](/rental/how-to-invest-in-bali-property/) and [is Bali property worth it](/rental/how-to-invest-in-bali-property/). The [pros and cons](/ownership/pros-cons-buying-villa-bali/) are listed side by side too.
 
 If the answer is not yet, renting for a year first is a perfectly good decision. See [rent or buy in Bali](/living/rent-or-buy-bali/).
 
