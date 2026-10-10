@@ -47,6 +47,12 @@ GUIDES = {
                  path="/guides/moving-to-bali/", land_title="Moving to Bali: free visa and living guide (PDF)",
                  land_desc="Free PDF: visas, cost of living and what to settle before buying property in Bali."),
 }
+GUIDES["compare"] = dict(cats=["compare"], title="Bali vs Dubai vs Thailand vs Vietnam",
+                        sub="What you own, what $300,000 buys, the yield and the tax. Four markets, one honest table.",
+                        pitch="The four markets buyers compare most, side by side: what a foreigner can own, what the same money buys, net yields, tax on rental income and how easy it is to sell.",
+                        points=["What you can own in each country", "What $300,000 buys", "Net yield and tax on rent", "Who should pick which market"],
+                        path="/guides/bali-vs-dubai-thailand/", land_title="Bali vs Dubai vs Thailand property: free comparison guide (PDF)",
+                        land_desc="Free PDF: Bali, Dubai, Thailand and Vietnam compared for foreign property buyers: ownership, price, yield and tax.")
 BY_CAT = {c: k for k, g in GUIDES.items() for c in g["cats"]}
 
 

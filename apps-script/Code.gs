@@ -432,7 +432,8 @@ var TOPIC_PDF = {
   "Owning Property in Bali as a Foreigner": "bali-own-guide.pdf",
   "The Bali Rental Income Guide": "bali-rent-guide.pdf",
   "Where to Buy in Bali: Area by Area": "bali-areas-guide.pdf",
-  "Moving to Bali: Visas, Living and Buying": "bali-move-guide.pdf"
+  "Moving to Bali: Visas, Living and Buying": "bali-move-guide.pdf",
+  "Bali vs Dubai vs Thailand vs Vietnam": "bali-compare-guide.pdf"
 };
 var MAIL = {
   en: { s: "Your {g}", h: "Hi {n},", a: "Here is your {g}:", b: "Download it here", c: "Are you looking at something specific in Bali, or still exploring? Reply with the area and your budget and I'll tell you what I would check first.", k: "The Bali Buyer's Kit" },

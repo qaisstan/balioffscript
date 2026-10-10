@@ -24,7 +24,8 @@ def main(base, only=None):
     os.makedirs(out_dir, exist_ok=True)
     jobs = [(f"bali-buyers-kit-{lang}.pdf", f"/kit/{K.TOKEN}/{lang}/") for lang in K.LANGS
             if os.path.exists(os.path.join(K.KIT_SRC, f"{lang}.md"))]
-    jobs += [(f"bali-{k}-guide.pdf", G.doc_path(k)) for k in G.GUIDES]   # the topic guides
+    # The topic guides are no longer printed from their pages: since 10 Oct 2026 they are the short visual
+    # guides made by tools/short_guides.py (Kai: short, with pictures). Printing them here would overwrite those.
     for name, path in jobs:
         if only and only not in name:
             continue
