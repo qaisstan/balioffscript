@@ -2077,20 +2077,27 @@ def opportunities_page():
         ("D", "$500k and above"), ("E", "Still working it out"),
     ])
     timeline = opts("timeline", [
-        ("A", "Ready now"), ("B", "Within 3 months"), ("C", "3 to 6 months"),
-        ("D", "6 months or more"), ("E", "Just researching"),
+        ("A", "Ready now"), ("B", "Within 1 month"), ("C", "Within 3 months"),
+        ("D", "3 to 6 months"), ("E", "6 months or more"),
     ])
     interest = opts("interest", [
         ("A", "Land to build on"), ("B", "A finished villa to live in or rent out"),
         ("C", "An off-plan villa as an investment"), ("D", "A place to live: renting, visa, moving"),
     ])
-    kit_opt = (f'<a class="ld-opt ld-opt-kit" href="{BASE}{K.LANDING["en"]}#kit">'
-               f'<b>E</b><span>Just the free Buyer\'s Kit (PDF)</span></a>')
+    import guides as G
+    def book(href, title, pid):
+        img = f"{PH.CDN}{pid}?w=420&h=600&fit=crop&crop=entropy&fm=jpg&q=60"
+        return (f'<div class="slot"><a class="lg-item book" href="{href}" style="--img:url(\'{img}\')" aria-label="{title}, free guide">'
+                f'<span class="book-tag">Free guide</span><span class="book-foot"><b>{title}</b>'
+                f'<span class="book-brand">Bali Off Script</span></span></a></div>')
+    guides = "\n".join(book(f"{BASE}{g['path']}", g["title"], K.PHOTOS[n % len(K.PHOTOS)])
+                       for n, g in enumerate(G.GUIDES.values()))
+    guides += "\n" + book(f"{BASE}{K.LANDING['en']}", K.UI["en"]["title"], K.COVER)
 
     return f"""{head(
-        "Find the Right Bali Opportunity",
-        "Tell me your budget and timeline and I will personally come back to you with Bali "
-        "property opportunities that actually fit. Takes about ten seconds.",
+        "The Best Bali Opportunities Right Now",
+        "Land and villas checked on the ground in Bali. Answer a few quick questions and Kai sends you "
+        "the ones that fit, on WhatsApp. Plus free guides on buying, building and renting.",
         "/opportunities/", body_class="lead-body")}
 <main class="lead">
 <div class="lead-bg" aria-hidden="true" style="background-image:url({PH.url("1555400038-63f5ba517a47", 1600, 1000)})"></div>
@@ -2106,23 +2113,37 @@ def opportunities_page():
 <div class="ld-track"><span id="ld-bar"></span></div>
 
 <div class="ld-body">
-<h1 class="sr-only">Find the right property opportunity in Bali</h1>
 <p class="sr-only" id="ld-live" aria-live="polite"></p>
 <form id="lead" data-endpoint="{LEAD_ENDPOINT}" data-wa="{LEAD_WHATSAPP}" novalidate>
 
 <input type="text" name="company" class="ld-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
 <input type="hidden" name="budget"><input type="hidden" name="timeline"><input type="hidden" name="interest">
 
-<div class="ld-step on" data-field="interest">
-<h2>What are you looking for in Bali?</h2>
-<p class="ld-sub">Four quick questions. Then I look at what actually fits, and I come back to you myself on WhatsApp.</p>
-<div class="ld-opts">{interest}
-{kit_opt}</div>
+<div class="ld-step on ld-start" data-field="start">
+<h1>The best opportunities in Bali right now</h1>
+<p class="ld-sub">Land and villas I've checked on the ground. Tell me your timing and budget, and I send you the ones that fit.</p>
+<button type="button" class="ld-btn ld-go" data-next>Show me what's available</button>
+</div>
+
+<div class="ld-step" data-field="timeline">
+<h2>When do you want to buy?</h2>
+<p class="ld-sub">Good deals go fast. Your timing decides which ones I send you.</p>
+<div class="ld-opts">{timeline}</div>
+</div>
+
+<div class="ld-step" data-field="budget">
+<h2>What budget are you working with?</h2>
+<p class="ld-sub">A rough bracket is fine.</p>
+<div class="ld-opts">{budget}</div>
+</div>
+
+<div class="ld-step" data-field="interest">
+<h2>What are you looking for?</h2>
+<div class="ld-opts">{interest}</div>
 </div>
 
 <div class="ld-step" data-field="name">
-<h2>First, what's your name?</h2>
-<p class="ld-sub">So I know who I'm talking to.</p>
+<h2>Where should I send them? First, your name.</h2>
 <input type="text" name="name" autocomplete="name" autocapitalize="words" spellcheck="false" placeholder="Your full name" maxlength="80" enterkeyhint="next">
 <p class="ld-err"></p>
 <div class="ld-acts">
@@ -2132,8 +2153,8 @@ def opportunities_page():
 </div>
 
 <div class="ld-step" data-field="phone">
-<h2>What's the best number to reach you on?</h2>
-<p class="ld-sub">I use this to message you directly. It is never shared, sold or added to a list.</p>
+<h2>And your WhatsApp number?</h2>
+<p class="ld-sub">I message you myself. Never shared.</p>
 <div class="ld-tel">
 <select id="ld-dial" aria-label="Country code" autocomplete="tel-country-code"></select>
 <input type="tel" name="phone" autocomplete="tel-national" inputmode="tel" placeholder="Phone number" maxlength="20" enterkeyhint="next">
@@ -2146,22 +2167,10 @@ def opportunities_page():
 </div>
 </div>
 
-<div class="ld-step" data-field="budget">
-<h2>What budget are you working with?</h2>
-<p class="ld-sub">A rough bracket is fine. It decides which areas and which title types are actually realistic for you.</p>
-<div class="ld-opts">{budget}</div>
-</div>
-
-<div class="ld-step" data-field="timeline">
-<h2>When are you able to invest?</h2>
-<p class="ld-sub">Some deals take months to come together. Others are gone in weeks. Your timing decides which ones are worth showing you.</p>
-<div class="ld-opts">{timeline}</div>
-</div>
-
 <div class="ld-step ld-done">
 <div class="ld-tick"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5.5 5.5L20 7"/></svg></div>
 <h2>Thank you.</h2>
-<p>I will personally contact you, get to know what you're actually looking for, and see whether there's a Bali opportunity worth putting in front of you.</p>
+<p>I'll go through what's available right now and message you on WhatsApp myself.</p>
 <p class="ld-sign">Kindly, {AUTHOR}<span>{AUTHOR_ROLE.upper()}</span></p>
 <div id="ld-fallback" hidden><a href="#" target="_blank" rel="noopener">Send it to me on WhatsApp</a></div>
 </div>
@@ -2170,12 +2179,20 @@ def opportunities_page():
 </div>
 
 </div>
+<section class="lead-guides" aria-label="Free guides">
+<h2>Free guides</h2>
+<p>Tap a book. Short, honest, made for your phone.</p>
+<div class="lg-list">
+{guides}
+</div>
+</section>
 <nav class="lead-more" aria-label="More">
 <a href="{BASE}/">Read {len(ALL_PAGES)} straight answers on Bali property</a>
 <a href="{BASE}/about/">About Kai</a>
 </nav>
 </main>
 <script src="{BASE}/lead.js" defer></script><script src="{BASE}/dialpicker.js" defer></script>
+<script>(function(){{var q=location.search;if(!q)return;document.querySelectorAll(".lg-item").forEach(function(a){{a.href+=q;}});}})();</script>
 </body>
 </html>"""
 

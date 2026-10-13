@@ -246,7 +246,7 @@ function setupCrm() {
 
   // Grade (same rule as the Studio): Hot = $250k+ and buying within 3 months
   var big = '((D2:D="$250k to $500k")+(D2:D="$500k and above"))';
-  var fast = '((LOWER(E2:E)="ready now")+(LOWER(E2:E)="within 3 months"))';
+  var fast = '((LOWER(E2:E)="ready now")+(LOWER(E2:E)="within 1 month")+(LOWER(E2:E)="within 3 months"))';
   var mid = '(LOWER(E2:E)="3 to 6 months")';
   sh.getRange(1, n + 1).setFormula('={"Grade";ARRAYFORMULA(IF(A2:A="",,IF(' + big + '*' + fast + ',"🔥 Hot",IF(' + big +
     '+(D2:D="$100k to $250k")*(' + fast + '+' + mid + '),"Warm","Nurture"))))}');
