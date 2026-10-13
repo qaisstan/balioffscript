@@ -2113,7 +2113,7 @@ def opportunities_page():
 
 <div class="ld-body">
 <p class="sr-only" id="ld-live" aria-live="polite"></p>
-<form id="lead" data-endpoint="{LEAD_ENDPOINT}" data-wa="{LEAD_WHATSAPP}" novalidate>
+<form id="lead" autocomplete="on" data-endpoint="{LEAD_ENDPOINT}" data-wa="{LEAD_WHATSAPP}" novalidate>
 
 <input type="text" name="company" class="ld-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
 <input type="hidden" name="budget"><input type="hidden" name="timeline"><input type="hidden" name="interest">
@@ -2140,19 +2140,21 @@ def opportunities_page():
 <div class="ld-opts">{interest}</div>
 </div>
 
-<div class="ld-step" data-field="contact">
+<div class="ld-step ld-contact" data-field="contact">
 <h2>Where should I send them?</h2>
-<input type="text" name="name" autocomplete="name" autocapitalize="words" spellcheck="false" placeholder="Full name" maxlength="80" enterkeyhint="next">
+<p class="ld-sub">Straight to your WhatsApp, from me. Private, never shared.</p>
+<div class="fld"><label for="ld-name">Full name</label>
+<input id="ld-name" type="text" name="name" autocomplete="name" autocapitalize="words" spellcheck="false" maxlength="80" enterkeyhint="next"></div>
+<div class="fld"><label for="ld-phone">WhatsApp number</label>
 <div class="ld-tel">
 <select id="ld-dial" aria-label="Country code" autocomplete="tel-country-code"></select>
-<input type="tel" name="phone" autocomplete="tel-national" inputmode="tel" placeholder="WhatsApp" maxlength="20" enterkeyhint="next">
-</div>
-<input type="email" name="email" class="ld-email" autocomplete="email" inputmode="email" spellcheck="false" placeholder="Email" maxlength="120" enterkeyhint="send">
+<input id="ld-phone" type="tel" name="phone" autocomplete="tel" inputmode="tel" maxlength="20" enterkeyhint="next">
+</div></div>
+<div class="fld"><label for="ld-email">Email</label>
+<input id="ld-email" type="email" name="email" autocomplete="email" inputmode="email" spellcheck="false" maxlength="120" enterkeyhint="send"></div>
 <p class="ld-err"></p>
-<div class="ld-acts">
-<button type="button" class="ld-btn ghost" data-back>Back</button>
-<button type="button" class="ld-btn" data-next>Continue</button>
-</div>
+<button type="button" class="ld-btn ld-send" data-next>Send me the opportunities</button>
+<button type="button" class="ld-btn ghost ld-back" data-back>Back</button>
 </div>
 
 <div class="ld-step ld-done">

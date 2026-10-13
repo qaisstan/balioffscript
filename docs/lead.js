@@ -91,8 +91,8 @@
 
     // Neither the intro nor the thank-you screen counts as a question.
     var total = steps.length - 2;
-    // Front-loaded: the first question already shows half done, the last one nearly done.
-    var pct = i > total ? 100 : i > 0 ? 100 - 50 * Math.pow(0.55, i - 1) : 0;
+    // Starts past a third, ends just short of full: feels quick without looking finished.
+    var pct = i > total ? 100 : i > 0 ? 38 + 50 * (i - 1) / Math.max(total - 1, 1) : 0;
     if (bar) bar.style.width = pct.toFixed(0) + "%";
     if (count) count.textContent = i > 0 && i <= total ? i + " of " + total : "";
 
@@ -241,7 +241,9 @@
     var dial = sel ? sel.value : "";
     return {
       name: form.elements.name.value.trim().slice(0, 80),
-      phone: (dial + " " + form.elements.phone.value.trim()).slice(0, 40),
+      // Autofill can put the whole international number in the field; then the picker is ignored.
+      phone: (/^\s*(\+|00)/.test(form.elements.phone.value) ? form.elements.phone.value.trim()
+              : dial + " " + form.elements.phone.value.trim()).slice(0, 40),
       email: form.elements.email.value.trim().slice(0, 120),
       budget: form.elements.budget.value,
       timeline: form.elements.timeline.value,
