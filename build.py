@@ -2081,8 +2081,9 @@ def opportunities_page():
         ("D", "3 to 6 months"), ("E", "6 months or more"),
     ])
     interest = opts("interest", [
-        ("A", "Land to build on"), ("B", "A finished villa to live in or rent out"),
-        ("C", "An off-plan villa as an investment"), ("D", "A place to live: renting, visa, moving"),
+        ("A", "Finished villa or apartment to live in or rent out"),
+        ("B", "Off-plan villa or apartment as an investment"),
+        ("C", "Not sure yet, show me the best ones"),
     ])
     import guides as G
     def book(href, title, pid):
@@ -2107,9 +2108,7 @@ def opportunities_page():
 </header>
 <div class="lead-card">
 
-<div class="ld-top">
-<p class="ld-count" id="ld-count"></p>
-</div>
+<div class="ld-top"></div>
 <div class="ld-track"><span id="ld-bar"></span></div>
 
 <div class="ld-body">
@@ -2141,24 +2140,14 @@ def opportunities_page():
 <div class="ld-opts">{interest}</div>
 </div>
 
-<div class="ld-step" data-field="name">
-<h2>Where should I send them? First, your name.</h2>
-<input type="text" name="name" autocomplete="name" autocapitalize="words" spellcheck="false" placeholder="Your full name" maxlength="80" enterkeyhint="next">
-<p class="ld-err"></p>
-<div class="ld-acts">
-<button type="button" class="ld-btn ghost" data-back>Back</button>
-<button type="button" class="ld-btn" data-next>Continue</button>
-</div>
-</div>
-
-<div class="ld-step" data-field="phone">
-<h2>And your WhatsApp number?</h2>
-<p class="ld-sub">I message you myself. Never shared.</p>
+<div class="ld-step" data-field="contact">
+<h2>Where should I send them?</h2>
+<input type="text" name="name" autocomplete="name" autocapitalize="words" spellcheck="false" placeholder="Full name" maxlength="80" enterkeyhint="next">
 <div class="ld-tel">
 <select id="ld-dial" aria-label="Country code" autocomplete="tel-country-code"></select>
-<input type="tel" name="phone" autocomplete="tel-national" inputmode="tel" placeholder="Phone number" maxlength="20" enterkeyhint="next">
+<input type="tel" name="phone" autocomplete="tel-national" inputmode="tel" placeholder="WhatsApp" maxlength="20" enterkeyhint="next">
 </div>
-<input type="email" name="email" class="ld-email" autocomplete="email" inputmode="email" spellcheck="false" placeholder="Email (optional)" maxlength="120" enterkeyhint="next">
+<input type="email" name="email" class="ld-email" autocomplete="email" inputmode="email" spellcheck="false" placeholder="Email" maxlength="120" enterkeyhint="send">
 <p class="ld-err"></p>
 <div class="ld-acts">
 <button type="button" class="ld-btn ghost" data-back>Back</button>

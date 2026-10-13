@@ -91,7 +91,8 @@
 
     // Neither the intro nor the thank-you screen counts as a question.
     var total = steps.length - 2;
-    var pct = Math.min(i / total, 1) * 100;
+    // Front-loaded: the first question already shows half done, the last one nearly done.
+    var pct = i > total ? 100 : i > 0 ? 100 - 50 * Math.pow(0.55, i - 1) : 0;
     if (bar) bar.style.width = pct.toFixed(0) + "%";
     if (count) count.textContent = i > 0 && i <= total ? i + " of " + total : "";
 
@@ -120,6 +121,13 @@
       var v = form.elements.name.value.trim();
       if (v.length < 2) { err(step, T.e_name || "Please enter your name."); return false; }
       if (v.length > 80) { err(step, T.e_name_long || "That name is too long."); return false; }
+    }
+    if (name === "contact") {
+      var nm = form.elements.name.value.trim(), dg = form.elements.phone.value.replace(/[^0-9]/g, ""),
+          em = form.elements.email.value.trim();
+      if (nm.length < 2) { err(step, T.e_name || "Please enter your name."); form.elements.name.focus(); return false; }
+      if (dg.length < 6 || dg.length > 15) { err(step, T.e_phone || "Please enter a valid number."); form.elements.phone.focus(); return false; }
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(em)) { err(step, T.e_email || "Please enter a valid email."); form.elements.email.focus(); return false; }
     }
     if (name === "phone") {
       var digits = form.elements.phone.value.replace(/[^0-9]/g, "");
@@ -173,6 +181,10 @@
     e.preventDefault();
     var step = steps[i];
     if (step.querySelector("input:not([type=hidden])")) {
+      // Several fields on one step: Enter moves to the next one first.
+      var ins = Array.prototype.slice.call(step.querySelectorAll("input:not([type=hidden])"));
+      var at = ins.indexOf(e.target);
+      if (at > -1 && at < ins.length - 1) { ins[at + 1].focus(); return; }
       if (!valid(step)) return;
       if (i === steps.length - 2) { submit(); } else { show(i + 1); }
     }
