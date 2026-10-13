@@ -1486,7 +1486,8 @@ body.kitdoc { background: #fff; }
 .lead-more a { color: #fff; font-size: .9rem; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,.5); padding-bottom: 1px; }
 .lead-more a:hover { border-bottom-color: #fff; }
 .ld-start h1 { font-family: var(--display); font-size: clamp(1.7rem, 7vw, 2.3rem); line-height: 1.08; margin: 0 0 .6rem; }
-.ld-go { width: 100%; margin-top: 1rem; font-size: 1.05rem; padding-block: 1rem; }
+.ld-start h1 .hl { background: linear-gradient(90deg, #c4512f, #e39a2d); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.ld-go { width: 100%; margin-top: .4rem; font-size: 1.05rem; padding-block: 1rem; }
 .ld-go::after { content: " \2192"; }
 .lead-guides { width: 100%; max-width: 34rem; color: #fff; margin-top: .75rem; }
 .lead-guides h2 { font-family: var(--display); font-size: 1.4rem; margin: 0 0 .2rem; color: #fff; }
