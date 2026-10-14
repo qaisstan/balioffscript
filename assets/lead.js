@@ -306,7 +306,7 @@
 
     // Decided before anything async runs. window.open is only permitted inside
     // the click that triggered it, so the handoff cannot wait for the network.
-    var link = isIndonesian() ? "" : waLink(d);
+    var link = waLink(d);           // Kai, 14 Oct 2026: everyone, Indonesian numbers too, can WhatsApp him
 
     send(d, link);
     done();

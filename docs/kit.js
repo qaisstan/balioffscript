@@ -99,7 +99,7 @@
       if (digits.length < 6 || digits.length > 15) return fail(cfg.e_phone, form.elements.phone);
       errEl.textContent = "";
 
-      var indo = isIndonesian(digits);
+      var indo = false;               // Kai, 14 Oct 2026: everyone gets the WhatsApp button, Indonesian numbers too
       lead = {
         type: "kit", lang: cfg.lang, where: cfg.where || "", interest: (cfg.guide || "Buyer's Kit").slice(0, 80),
         name: name.slice(0, 80),

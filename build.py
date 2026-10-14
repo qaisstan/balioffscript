@@ -56,7 +56,7 @@ WHATSAPP_NUMBER = "6285878052692"
 
 # Where lead-form handoffs go. Foreign leads are bounced straight into WhatsApp
 # with their answers pre-written; Indonesian numbers deliberately are not.
-LEAD_WHATSAPP = "46700081414"
+LEAD_WHATSAPP = "447441340188"   # Kai, 14 Oct 2026: UK WhatsApp number for every lead
 WHATSAPP_TEXT = "Hi Kai, I need your help with a property in Bali."
 
 # ---- Lead form ----
