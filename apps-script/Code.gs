@@ -30,6 +30,9 @@ function doPost(e) {
   try {
     var d = JSON.parse((e && e.postData && e.postData.contents) || "{}");
 
+    // The Studio on Kai's Mac pushes an analytics snapshot for the CRM (Crm.gs). Same key as the read below.
+    if (d.type === "analytics") return saveAnalytics(d);
+
     // Honeypot: the field is invisible to people and irresistible to bots.
     if (d.hp) return ok();
 
@@ -142,6 +145,10 @@ function write(row) {
 function doGet(e) {
   var key = PropertiesService.getScriptProperties().getProperty("READ_KEY");
   var p = (e && e.parameter) || {};
+  if (!p.key) {                       // Kai's private CRM (Crm.gs): only his own Google login gets the page
+    var page = crmPage();
+    if (page) return page;
+  }
   if (!key || key.length < 24 || p.key !== key) return ok();
   var days = Math.min(Math.max(parseInt(p.days, 10) || 90, 1), 730);
   var since = new Date(Date.now() - days * 864e5);

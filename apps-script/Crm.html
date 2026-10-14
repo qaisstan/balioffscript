@@ -1,0 +1,121 @@
+<!doctype html>
+<html><head><base target="_top"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root{--ink:#16191d;--mut:#6b7280;--line:#e7e3da;--bg:#f7f5f0;--card:#fff;--go:#1d5240;--wa:#1fa855;--warn:#b45309}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+header{position:sticky;top:0;background:var(--ink);color:#fff;padding:12px 16px 0;z-index:5}
+header h1{font-size:17px;margin:0 0 10px;font-weight:700}
+nav{display:flex;gap:4px;overflow-x:auto}nav button{flex:1;background:none;border:0;color:#cfd3da;padding:9px 6px 11px;font:600 14px inherit;border-bottom:3px solid transparent;white-space:nowrap}
+nav button.on{color:#fff;border-color:#f5b041}
+main{padding:14px 14px 80px;max-width:720px;margin:0 auto}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin:0 0 10px}
+.row{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.sp{flex:1}
+.name{font-weight:700;font-size:16px}.mut{color:var(--mut);font-size:13px}.tag{font-size:11px;font-weight:700;padding:2px 8px;border-radius:99px;background:#eef2ef;color:var(--go)}
+.tag.coco{background:#fdf2e3;color:var(--warn)}.tag.no{background:#f3f4f6;color:var(--mut)}.tag.due{background:#fde8e8;color:#b42318}
+button,.btn{font:600 14px inherit;border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:10px;padding:9px 12px;cursor:pointer;text-decoration:none;display:inline-block}
+.wa{background:var(--wa);border-color:var(--wa);color:#fff}.go{background:var(--go);border-color:var(--go);color:#fff}
+input,select,textarea{font:15px inherit;width:100%;padding:10px 11px;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--ink)}
+textarea{min-height:70px}label{font-size:12px;color:var(--mut);display:block;margin:8px 0 3px}
+.notes{white-space:pre-wrap;font-size:13px;color:#374151;background:#fafaf7;border-radius:10px;padding:8px 10px;margin-top:8px;max-height:150px;overflow:auto}
+h2{font-size:15px;margin:18px 2px 8px;color:var(--mut);text-transform:uppercase;letter-spacing:.04em}
+.empty{color:var(--mut);text-align:center;padding:30px 10px}
+table{width:100%;border-collapse:collapse;font-size:13px}td,th{padding:6px 4px;border-bottom:1px solid var(--line);text-align:left}td.n{text-align:right;white-space:nowrap}
+.big{font-size:24px;font-weight:800}.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+#toast{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);background:var(--ink);color:#fff;padding:9px 14px;border-radius:10px;font-size:14px;display:none}
+</style></head><body>
+<header><h1>Bali CRM</h1><nav id="tabs">
+<button data-t="today" class="on">Today</button><button data-t="meet">Meetings</button><button data-t="leads">Website leads</button><button data-t="msgs">Messages</button><button data-t="stats">Stats</button>
+</nav></header>
+<main id="main"><div class="empty">Loading…</div></main>
+<div id="toast"></div>
+<script>
+var D = null, T = "today", OPEN = {};
+function $(s){return document.querySelector(s)}
+function esc(t){return String(t==null?"":t).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/"/g,"&quot;")}
+function toast(t){var e=$("#toast");e.textContent=t;e.style.display="block";setTimeout(function(){e.style.display="none"},1800)}
+function run(fn){var a=[].slice.call(arguments,1);return new Promise(function(ok,no){google.script.run.withSuccessHandler(ok).withFailureHandler(function(e){toast("Error: "+e.message);no(e)})[fn].apply(null,a)})}
+function digits(p){var d=String(p||"").replace(/[^0-9]/g,"");if(/^0\d/.test(d))d="62"+d.slice(1);return d}
+function first(n){n=String(n||"").trim().split(/\s+/)[0]||"";return n.charAt(0).toUpperCase()+n.slice(1)}
+function wa(phone,text){return "https://wa.me/"+digits(phone)+(text?"?text="+encodeURIComponent(text):"")}
+function fill(t,m){return String(t||"").replace(/\{name\}/g,first(m.Name||m.name))}
+function fmt(d){if(!d)return"";var x=new Date(d+"T12:00:00");return x.toLocaleDateString("en-GB",{day:"numeric",month:"short"})}
+function kindOf(m){return m["Next type"]==="Follow-up"?"Follow-up":"Vibe"}
+function msgSel(id,kind){var l=D.messages.filter(function(m){return (m.Kind||"Vibe")===kind}).concat(D.messages.filter(function(m){return (m.Kind||"Vibe")!==kind}));return '<select id="ms-'+id+'">'+l.map(function(m){return '<option value="'+esc(m.Id)+'">'+esc((m.Kind||"Vibe")+": "+m.Title)+'</option>'}).join("")+'</select>'}
+function msgById(id){return D.messages.filter(function(m){return m.Id===id})[0]||D.messages[0]||{Title:"",Text:""}}
+
+function meetingCard(m, today){
+  var due=m.Status==="Following up"&&m["Next follow-up"]&&m["Next follow-up"]<=D.today;
+  var tags='<span class="tag'+(m.Source==="Coco"?" coco":"")+'">'+esc(m.Source)+'</span>'+(m.Status==="Not interested"?' <span class="tag no">Not interested</span>':due?' <span class="tag due">Due</span>':'');
+  var h='<div class="card"><div class="row"><span class="name">'+esc(m.Name)+'</span>'+tags+'<span class="sp"></span><span class="mut">met '+fmt(m["Meeting date"])+'</span></div>';
+  h+='<div class="mut">'+(m.Status==="Following up"?'Next: '+kindOf(m).toLowerCase()+', '+fmt(m["Next follow-up"]):'No follow-ups')+(m["Last contact"]?' · last sent '+fmt(m["Last contact"]):'')+'</div>';
+  if(m.Status==="Following up"){
+    h+='<label>'+(kindOf(m)==="Vibe"?"Vibe: send a Bali b-roll right after the text":"Follow-up: ask about their plans")+'</label>'+msgSel(m.Id,kindOf(m))+'<div class="row" style="margin-top:8px"><a class="btn wa" href="#" data-wa="'+esc(m.Id)+'">WhatsApp</a><button class="go" data-sent="'+esc(m.Id)+'">Sent ✓</button>'+(today?'':'<span class="sp"></span><button data-more="'+esc(m.Id)+'">'+(OPEN[m.Id]?"Less":"More")+'</button>')+'</div>';
+  } else if(!today){ h+='<div class="row" style="margin-top:8px"><span class="sp"></span><button data-more="'+esc(m.Id)+'">'+(OPEN[m.Id]?"Less":"More")+'</button></div>'; }
+  if(today||OPEN[m.Id]){
+    h+='<label>Add a note</label><textarea id="nt-'+esc(m.Id)+'" placeholder="What did you talk about?"></textarea>';
+    h+='<div class="row" style="margin-top:8px"><button data-note="'+esc(m.Id)+'">Save note</button>';
+    if(!today) h+='<button data-status="'+esc(m.Id)+'">'+(m.Status==="Following up"?"Not interested":"Follow up again")+'</button><span class="sp"></span><input type="date" id="nx-'+esc(m.Id)+'" value="'+esc(m["Next follow-up"])+'" style="width:auto"><button data-next="'+esc(m.Id)+'">Set date</button>';
+    h+='</div>'+(m.Notes?'<div class="notes">'+esc(m.Notes)+'</div>':'');
+  }
+  return h+'</div>';
+}
+
+var VIEW={
+ today:function(){
+  var due=D.meetings.filter(function(m){return m.Status==="Following up"&&m["Next follow-up"]&&m["Next follow-up"]<=D.today});
+  var soon=D.meetings.filter(function(m){return m.Status==="Following up"&&m["Next follow-up"]>D.today}).sort(function(a,b){return a["Next follow-up"]<b["Next follow-up"]?-1:1}).slice(0,8);
+  return '<h2>Follow up today ('+due.length+')</h2>'+(due.length?due.map(function(m){return meetingCard(m,true)}).join(""):'<div class="card empty">Nobody is due today. Nice.</div>')+
+   (soon.length?'<h2>Coming up</h2>'+soon.map(function(m){return '<div class="card row"><span class="name" style="font-size:15px">'+esc(m.Name)+'</span><span class="tag'+(m.Source==="Coco"?" coco":"")+'">'+esc(m.Source)+'</span><span class="sp"></span><span class="mut">'+fmt(m["Next follow-up"])+'</span></div>'}).join(""):"");
+ },
+ meet:function(){
+  var h='<div class="card"><div class="name" style="margin-bottom:4px">Meeting done? Add them</div><label>Name</label><input id="a-name"><label>WhatsApp number</label><input id="a-phone" inputmode="tel" placeholder="+44 7…"><div class="grid"><div><label>Whose lead</label><select id="a-src"><option>Mine</option><option>Coco</option></select></div><div><label>Meeting date</label><input type="date" id="a-date" value="'+D.today+'"></div></div><label>Note</label><textarea id="a-note" placeholder="What they want, budget, timing…"></textarea><div class="row" style="margin-top:10px"><span class="sp"></span><button class="go" id="a-save">Save</button></div></div>';
+  var act=D.meetings.filter(function(m){return m.Status==="Following up"}),off=D.meetings.filter(function(m){return m.Status!=="Following up"});
+  ["Mine","Coco"].forEach(function(s){var l=act.filter(function(m){return m.Source===s});h+='<h2>'+(s==="Mine"?"My leads":"Coco leads")+' ('+l.length+')</h2>'+(l.length?l.map(function(m){return meetingCard(m,false)}).join(""):'<div class="card empty">None yet.</div>')});
+  if(off.length)h+='<h2>Not interested ('+off.length+')</h2>'+off.map(function(m){return meetingCard(m,false)}).join("");
+  return h;
+ },
+ leads:function(){
+  var met={};D.meetings.forEach(function(m){met[digits(m.Phone)]=1});
+  if(!D.leads.length)return '<div class="card empty">No website leads in the last 120 days.</div>';
+  return D.leads.map(function(l){var guide=/Guide/i.test(l.type||"");var moved=met[digits(l.phone)];
+   var msg=guide?"Hi "+first(l.name)+", it's Kai from Bali Off Script. I saw you downloaded "+(l.interest||"the guide")+". What are you looking for in Bali?":"Hi "+first(l.name)+", it's Kai from Bali Off Script. Thanks for leaving your details on my site. When is a good time for a quick call?";
+   return '<div class="card"><div class="row"><span class="name">'+esc(l.name)+'</span><span class="tag'+(guide?" no":"")+'">'+(guide?"Guide":"Opportunities")+'</span><span class="sp"></span><span class="mut">'+fmt(l.received)+'</span></div><div class="mut">'+esc([l.interest,l.timeline,l.budget].filter(String).join(" · "))+'</div><div class="row" style="margin-top:8px"><a class="btn wa" href="'+wa(l.phone,msg)+'" target="_blank">WhatsApp</a><span class="sp"></span>'+(moved?'<span class="tag">In meetings</span>':'<button data-move="'+l.row+'">Meeting done →</button>')+'</div></div>'}).join("");
+ },
+ msgs:function(){
+  var kinds=function(id,k){return '<label>Type</label><select id="mk-'+id+'"><option'+(k!=="Follow-up"?" selected":"")+'>Vibe</option><option'+(k==="Follow-up"?" selected":"")+'>Follow-up</option></select>'};
+  return '<div class="mut" style="margin:0 2px 10px">Two a week per person: a Vibe (a Bali b-roll, I\'m here) and a Follow-up (their plans). {name} becomes their first name. Send the b-roll video in WhatsApp right after the text.</div>'+D.messages.map(function(m){return '<div class="card">'+kinds(esc(m.Id),m.Kind)+'<label>Title</label><input id="mt-'+esc(m.Id)+'" value="'+esc(m.Title)+'"><label>Text</label><textarea id="mx-'+esc(m.Id)+'">'+esc(m.Text)+'</textarea><div class="row" style="margin-top:8px"><button data-mdel="'+esc(m.Id)+'">Delete</button><span class="sp"></span><button class="go" data-msave="'+esc(m.Id)+'">Save</button></div></div>'}).join("")+
+   '<div class="card"><div class="name">New message</div>'+kinds("new","Vibe")+'<label>Title</label><input id="mt-new"><label>Text</label><textarea id="mx-new" placeholder="Hi {name}! …"></textarea><div class="row" style="margin-top:8px"><span class="sp"></span><button class="go" data-msave="new">Add</button></div></div>';
+ },
+ stats:function(){
+  var A=D.analytics, wk=function(n){var t=new Date(D.today+"T12:00:00").getTime();return D.leads.filter(function(l){var d=new Date(l.received+"T12:00:00").getTime();return d>t-7*864e5*(n+1)&&d<=t-7*864e5*n}).length};
+  var h='<div class="grid"><div class="card"><div class="mut">Website leads this week</div><div class="big">'+wk(0)+'</div><div class="mut">last week '+wk(1)+'</div></div><div class="card"><div class="mut">Following up</div><div class="big">'+D.meetings.filter(function(m){return m.Status==="Following up"}).length+'</div><div class="mut">'+D.meetings.length+' meetings in total</div></div></div>';
+  if(!A)return h+'<div class="card empty">Instagram numbers appear here after the Studio sends its first update.</div>';
+  h+='<div class="mut" style="margin:6px 2px">Instagram, updated '+esc(A.updated||"")+'</div>';
+  (A.accounts||[]).forEach(function(a){
+    h+='<h2>@'+esc(a.username)+'</h2><div class="grid"><div class="card"><div class="mut">Followers</div><div class="big">'+(a.followers||0).toLocaleString()+'</div></div><div class="card"><div class="mut">Views, last 7 days</div><div class="big">'+(a.views7||0).toLocaleString()+'</div></div></div>';
+    h+='<div class="card"><table><tr><th>Reel</th><th class="n">Views</th><th class="n">Shares</th><th class="n">Saves</th></tr>'+(a.reels||[]).map(function(r){return '<tr><td><a href="'+esc(r.link)+'" target="_blank">'+esc(r.title)+'</a><div class="mut">'+esc(r.posted)+'</div></td><td class="n">'+(r.views||0).toLocaleString()+'</td><td class="n">'+(r.shares||0)+'</td><td class="n">'+(r.saved||0)+'</td></tr>'}).join("")+'</table></div>';
+  });
+  return h;
+ }
+};
+
+function render(){$("#main").innerHTML=VIEW[T]();}
+function load(){run("crmLoad").then(function(d){D=d;render()})}
+function act(p){return p.then(function(d){D=d;render();toast("Saved")})}
+
+$("#tabs").addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;T=b.dataset.t;[].forEach.call(document.querySelectorAll("nav button"),function(x){x.classList.toggle("on",x===b)});render();scrollTo(0,0)});
+document.addEventListener("click",function(e){
+  var t=e.target,id;
+  if((id=t.dataset.wa)){e.preventDefault();var m=D.meetings.filter(function(x){return x.Id===id})[0];var msg=msgById($("#ms-"+id).value);window.open(wa(m.Phone,fill(msg.Text,m)),"_blank");return}
+  if((id=t.dataset.sent)){var title=msgById(($("#ms-"+id)||{}).value).Title;act(run("crmSent",id,title));return}
+  if((id=t.dataset.more)){OPEN[id]=!OPEN[id];render();return}
+  if((id=t.dataset.note)){var v=$("#nt-"+id).value.trim();if(!v)return toast("Write a note first");act(run("crmUpdate",id,{note:v}));return}
+  if((id=t.dataset.status)){var m2=D.meetings.filter(function(x){return x.Id===id})[0];act(run("crmUpdate",id,{status:m2.Status==="Following up"?"Not interested":"Following up"}));return}
+  if((id=t.dataset.next)){act(run("crmUpdate",id,{next:$("#nx-"+id).value}));return}
+  if((id=t.dataset.move)){act(run("crmMoveLead",Number(id)));return}
+  if((id=t.dataset.msave)){var ti=$("#mt-"+id).value.trim(),tx=$("#mx-"+id).value.trim();if(!ti||!tx)return toast("Title and text, please");act(run("crmSaveMessage",{id:id==="new"?"":id,title:ti,text:tx,kind:$("#mk-"+id).value}));return}
+  if((id=t.dataset.mdel)){if(t.dataset.sure){act(run("crmDeleteMessage",id))}else{t.dataset.sure=1;t.textContent="Tap again to delete"}return}
+  if(t.id==="a-save"){var n=$("#a-name").value.trim(),p=$("#a-phone").value.trim();if(!n||digits(p).length<7)return toast("Name and WhatsApp number, please");act(run("crmAddMeeting",{name:n,phone:p,source:$("#a-src").value,date:$("#a-date").value,note:$("#a-note").value.trim()}))}
+});
+load();
+</script></body></html>
