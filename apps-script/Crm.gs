@@ -17,7 +17,7 @@ var DAY = 864e5;
 
 function crmPage() {
   if (String(Session.getActiveUser().getEmail() || "").toLowerCase() !== OWNER) return null;
-  return HtmlService.createHtmlOutputFromFile("Crm")
+  return HtmlService.createHtmlOutputFromFile("CrmPage")
     .setTitle("Bali CRM")
     .addMetaTag("viewport", "width=device-width, initial-scale=1, maximum-scale=1");
 }
