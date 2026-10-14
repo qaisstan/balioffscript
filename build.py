@@ -2258,6 +2258,14 @@ def main():
         write(G.doc_path(gk), G.doc_page(me, gk, pages))
         write(g["path"], G.landing(me, gk, head, nav(), footer(), K.box(me, "en", "landing-" + gk, gk)))
     write("/guides/", G.index_page(me, head, nav(), footer()))
+    # Kai's private CRM lives in his Google account (apps-script/Crm.gs); this short address just forwards there.
+    # The CRM itself only opens for his own Google login.
+    crm = ("https://script.google.com/a/macros/qaisstanikzai.com/s/"
+           "AKfycbyMe5OvkpSlQUbgxtiuG4LcNzGQnVBTkUUzMXlLegHmOeBhzFhFjrcmdUzZVVfGDzDawQ/exec")
+    write("/crm/", f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>CRM</title>
+<meta http-equiv="refresh" content="0;url={crm}"><script>location.replace("{crm}")</script></head>
+<body style="font-family:sans-serif;padding:24px"><a href="{crm}">Open the CRM</a></body></html>""")
 
     # Language sections: their own pages, written for each market (langs.py).
     import langs as L
