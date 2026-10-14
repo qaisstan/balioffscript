@@ -43,7 +43,7 @@ UI = {
     wa="Send it to me on WhatsApp", wa_alt="Or message me on WhatsApp",
     wa_msg="Hi Kai, I'm {name}. I just got the Bali Buyer's Kit.{extra} Could you help me?",
     wa_budget=" Budget: {budget}.", wa_time=" Timing: {time}.",
-    id_done="Thank you. Download the kit below.",
+    id_done="Thank you. Message me on WhatsApp below and I'll help you directly.",
     land_title="The Bali Buyer's Kit: free due diligence checklist (PDF)",
     land_desc="Free PDF: the documents, 20 questions, 12 lease clauses, 15 red flags and a net yield worksheet to check a Bali villa or land deal before you sign.",
     land_h="Check a Bali property the way I do, before you sign.",

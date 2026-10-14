@@ -99,7 +99,7 @@
       if (digits.length < 6 || digits.length > 15) return fail(cfg.e_phone, form.elements.phone);
       errEl.textContent = "";
 
-      var indo = false;               // Kai, 14 Oct 2026: everyone gets the WhatsApp button, Indonesian numbers too
+      var indo = isIndonesian(digits);  // Indonesian numbers: no email (Kai, 14 Oct 2026), but they still get WhatsApp
       lead = {
         type: "kit", lang: cfg.lang, where: cfg.where || "", interest: (cfg.guide || "Buyer's Kit").slice(0, 80),
         name: name.slice(0, 80),
@@ -116,12 +116,10 @@
       form.hidden = true;
       done.hidden = false;
       if (indo) {
-        box.querySelector(".kit-q").hidden = true;
         var m = box.querySelector(".kit-mailed"); if (m) m.hidden = true;
         box.querySelector(".kit-id").hidden = false;
-      } else {
-        box.querySelector(".kit-wa").href = waHref();
       }
+      box.querySelector(".kit-wa").href = waHref();
       if (window.gtag) {
         gtag("event", "generate_lead", { event_category: "kit", event_label: "kit-" + cfg.lang + "-" + (cfg.where || "") });
       }

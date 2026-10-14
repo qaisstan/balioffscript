@@ -459,6 +459,7 @@ function sendGuide(d, row) {
     if (!/^kit/.test(String(d.type || ""))) return;
     var email = String(row[7] || "").replace(/^'/, "").trim().toLowerCase();
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) return;
+    if (isIndonesian(row[2])) return;                                // Kai, 14 Oct 2026: never email Indonesian numbers
 
     var props = PropertiesService.getScriptProperties();
     var key = "g:" + email, now = Date.now();
@@ -476,11 +477,14 @@ function sendGuide(d, row) {
     var name = String(row[1] || "").replace(/^'/, "").split(" ")[0] || "";
     var f = function (t) { return t.replace("{g}", guide).replace("{n}", name); };
 
-    var text = [f(m.h), "", f(m.a), pdf, "", m.c, "", "Kai", "Bali Off Script · balioffscript.com"].join("\n");
+    var text = [f(m.h), "", f(m.a), pdf, "", m.c, "", "Kai", "Property Advisor, Bali Off Script", "WhatsApp: +44 7441 340188",
+                "balioffscript.com"].join("\n");
     var html = '<div style="font-family:Arial,sans-serif;font-size:15px;line-height:1.55;color:#16191d">' +
       "<p>" + f(m.h) + "</p><p>" + f(m.a) + '</p><p><a href="' + pdf + '" style="display:inline-block;background:#8a2c26;color:#fff;' +
       'padding:12px 18px;border-radius:6px;text-decoration:none;font-weight:bold">' + m.b + "</a></p><p>" + m.c + "</p>" +
-      '<p>Kai<br><span style="color:#4c545e">Bali Off Script · <a href="' + SITE + '" style="color:#4c545e">balioffscript.com</a></span></p></div>';
+      '<p style="margin-top:22px"><strong>Kai</strong><br><span style="color:#4c545e">Property Advisor, Bali Off Script<br>' +
+      'WhatsApp: <a href="https://wa.me/447441340188" style="color:#4c545e">+44 7441 340188</a><br>' +
+      '<a href="' + SITE + '" style="color:#4c545e">balioffscript.com</a></span></p></div>';
 
     // the PDF goes in the email itself; the button stays as a backup
     var files = [];
