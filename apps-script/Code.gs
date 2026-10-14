@@ -436,7 +436,7 @@ var TOPIC_PDF = {
   "Bali vs Dubai vs Thailand vs Vietnam": "bali-compare-guide.pdf"
 };
 var MAIL = {
-  en: { s: "Your {g}", h: "Hi {n},", a: "Here is your {g}:", b: "Download it here", c: "Are you looking at something specific in Bali, or still exploring? Reply with the area and your budget and I'll tell you what I would check first.", k: "The Bali Buyer's Kit" },
+  en: { s: "Your {g}", h: "Hi {n},", a: "Here is your {g}. It's attached to this email, and you can also open it here:", b: "Open the guide", c: "Are you looking at something specific in Bali, or still exploring? Reply with the area and your budget and I'll tell you what I would check first.", k: "The Bali Buyer's Kit" },
   fr: { s: "Ton guide : {g}", h: "Bonjour {n},", a: "Voici ton guide, {g} :", b: "Le télécharger ici", c: "Tu regardes déjà quelque chose de précis à Bali, ou tu te renseignes encore ? Réponds-moi avec la zone et ton budget, et je te dis ce que je vérifierais en premier.", k: "Le guide de l'acheteur à Bali" },
   de: { s: "Dein Leitfaden: {g}", h: "Hallo {n},", a: "Hier ist dein Leitfaden, {g}:", b: "Hier herunterladen", c: "Schaust du dir schon etwas Bestimmtes auf Bali an, oder informierst du dich noch? Schreib mir die Gegend und dein Budget, dann sage ich dir, was ich zuerst prüfen würde.", k: "Der Bali-Käuferleitfaden" },
   nl: { s: "Je gids: {g}", h: "Hoi {n},", a: "Hier is je gids, {g}:", b: "Hier downloaden", c: "Kijk je al naar iets specifieks op Bali, of oriënteer je je nog? Stuur me het gebied en je budget, dan vertel ik wat ik als eerste zou controleren.", k: "De Bali-kopersgids" },
@@ -455,9 +455,10 @@ function isIndonesian(phone) {
 
 function sendGuide(d, row) {
   try {
+    // Kai, 14 Oct 2026: only people who asked for a guide get one. Opportunities leads go to Kai, not a PDF.
+    if (!/^kit/.test(String(d.type || ""))) return;
     var email = String(row[7] || "").replace(/^'/, "").trim().toLowerCase();
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) return;
-    if (isIndonesian(row[2])) return;
 
     var props = PropertiesService.getScriptProperties();
     var key = "g:" + email, now = Date.now();
@@ -481,7 +482,14 @@ function sendGuide(d, row) {
       'padding:12px 18px;border-radius:6px;text-decoration:none;font-weight:bold">' + m.b + "</a></p><p>" + m.c + "</p>" +
       '<p>Kai<br><span style="color:#4c545e">Bali Off Script · <a href="' + SITE + '" style="color:#4c545e">balioffscript.com</a></span></p></div>';
 
-    MailApp.sendEmail({ to: email, subject: f(m.s), body: text, htmlBody: html, name: "Kai | Bali Off Script", replyTo: NOTIFY });
+    // the PDF goes in the email itself; the button stays as a backup
+    var files = [];
+    try {
+      var res = UrlFetchApp.fetch(pdf, { muteHttpExceptions: true });
+      if (res.getResponseCode() === 200) files.push(res.getBlob().setName(pdf.split("/").pop()));
+    } catch (e2) {}
+    MailApp.sendEmail({ to: email, subject: f(m.s), body: text, htmlBody: html, name: "Kai | Bali Off Script", replyTo: NOTIFY,
+                        attachments: files });
     props.setProperty(key, String(now));
     props.setProperty(day, String(count + 1));
   } catch (err) {

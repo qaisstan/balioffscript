@@ -21,8 +21,9 @@ KIT_SRC = os.path.join(ROOT, "kit")
 # already sent, so leave it.
 TOKEN = "k7q4m2"
 
-# Flip to True once the new apps-script/Code.gs is deployed (it emails the kit).
-# Until then the page only promises what it delivers: the instant download.
+# Flip to True once the new apps-script/Code.gs is deployed (it emails the kit with the PDF attached).
+# True: no download on the page, the guide only arrives by email (Kai, 14 Oct 2026).
+# False: the page only promises what it delivers: the instant download.
 EMAIL_ON = False
 
 LANGS = ["en", "fr", "de", "nl", "sv", "no"]
@@ -35,7 +36,7 @@ UI = {
     name="First name", email="Email", phone="WhatsApp number", btn="Send me the kit",
     fine="Free. Your details stay with me, never sold or shared.",
     e_name="Please enter your name.", e_email="Please enter a valid email.", e_phone="Please enter a valid WhatsApp number.",
-    done_h="It's yours.", dl="Download the kit (PDF)", mailed="A copy is on its way to your inbox too.",
+    done_h="It's yours.", dl="Download the kit (PDF)", mailed="It's on its way to your inbox now, with the PDF attached. Check spam if it isn't there in a minute.",
     q_h="Looking at something specific? Two taps and I'll know how to help.",
     q_b="Budget", budgets=["Under $100k", "$100k to $250k", "$250k to $500k", "$500k and above", "Still working it out"],
     q_t="Timing", times=["Ready now", "Within 3 months", "3 to 6 months", "6 months or more", "Just researching"],
@@ -247,7 +248,7 @@ def box(B, lang="en", where="", guide=None):
 </form>
 <div class="kit-done" hidden>
 <p class="kit-dh">{u["done_h"]}</p>
-<a class="kit-dl" href="{c["pdf"]}" target="_blank" rel="noopener" download>{B.form_logo("ig")}<span>{u["dl"]}</span></a>
+{"" if EMAIL_ON else f'<a class="kit-dl" href="{c["pdf"]}" target="_blank" rel="noopener" download>{B.form_logo("ig")}<span>{u["dl"]}</span></a>'}
 {mailed}
 <div class="kit-q">
 <p class="kit-qh">{u["q_h"]}</p>
