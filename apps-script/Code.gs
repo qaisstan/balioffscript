@@ -66,6 +66,7 @@ function doPost(e) {
 
     notify(row, wrote);
     sendGuide(d, row);
+    sendHello(d, row);
     return ok();
 
   } catch (err) {
@@ -499,5 +500,52 @@ function sendGuide(d, row) {
     props.setProperty(day, String(count + 1));
   } catch (err) {
     console.error("guide email failed", err);                       // never let this lose the lead
+  }
+}
+
+
+// Kai, 14 Oct 2026: people who ask for opportunities (not a guide) get one short, personal email from Kai
+// that repeats what they picked and asks one question, so they reply. Never to Indonesian numbers.
+var HELLO_WANT = {
+  "Finished villa or apartment to live in or rent out": ["a finished villa or apartment to live in or rent out", "Is it mainly for you to live in, or to rent out?"],
+  "Off-plan villa or apartment as an investment": ["an off-plan villa or apartment as an investment", "Is it mainly for rental income, or for growth when you sell later?"],
+  "Not sure yet, show me the best ones": ["", "What matters most to you: rental income, a place to live, or long-term growth?"]
+};
+var HELLO_WHEN = {
+  "Ready now": "and you're ready to go now", "Within 1 month": "within the next month",
+  "Within 3 months": "within the next 3 months", "3 to 6 months": "in the next 3 to 6 months",
+  "6 months or more": "in 6 months or more"
+};
+
+function sendHello(d, row) {
+  try {
+    if (String(d.type || "") !== "form") return;
+    var email = String(row[7] || "").replace(/^'/, "").trim().toLowerCase();
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) return;
+    if (isIndonesian(row[2])) return;
+    var props = PropertiesService.getScriptProperties();
+    var key = "h:" + email, now = Date.now();
+    if (now - Number(props.getProperty(key) || 0) < 7 * 864e5) return;   // one per address per week
+
+    var name = String(row[1] || "").replace(/^'/, "").split(" ")[0] || "";
+    name = name.charAt(0).toUpperCase() + name.slice(1);
+    var want = HELLO_WANT[String(d.interest || "")] || ["", HELLO_WANT["Not sure yet, show me the best ones"][1]];
+    var when = HELLO_WHEN[String(d.timeline || "")] || "";
+    var saw = want[0] ? "I saw you're looking for " + want[0] + (when ? ", " + when : "") + "."
+                      : "I saw you're still working out what fits you best" + (when ? ", " + when : "") + ".";
+    var lines = ["Hi " + name + ",", "", "Thanks for leaving your details. " + saw, "",
+                 "Quick question so I only send you what fits: " + want[1], "",
+                 "Just reply here, or message me on WhatsApp if that's easier."];
+    var sig = ["Kai", "Property Advisor", "WhatsApp: +44 7441 340188", "balioffscript.com"];
+    var html = '<div style="font-family:Arial,sans-serif;font-size:15px;line-height:1.55;color:#16191d">' +
+      lines.filter(function (l) { return l; }).map(function (l) { return "<p>" + l + "</p>"; }).join("") +
+      '<p style="margin-top:22px"><strong>Kai</strong><br><span style="color:#4c545e">Property Advisor<br>' +
+      'WhatsApp: <a href="https://wa.me/447441340188" style="color:#4c545e">+44 7441 340188</a><br>' +
+      '<a href="' + SITE + '" style="color:#4c545e">balioffscript.com</a></span></p></div>';
+    MailApp.sendEmail({ to: email, subject: "Quick question about Bali", body: lines.concat(["", ""], sig).join("\n"),
+                        htmlBody: html, name: "Kai | Bali Off Script", replyTo: NOTIFY });
+    props.setProperty(key, String(now));
+  } catch (err) {
+    console.error("hello email failed", err);                       // never let this lose the lead
   }
 }
