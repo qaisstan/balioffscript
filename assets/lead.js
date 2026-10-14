@@ -208,6 +208,7 @@
 
   var WHEN = {
     "Ready now": "I'm ready to invest now",
+    "Within 1 month": "I'm looking to invest within 1 month",
     "Within 3 months": "I'm looking to invest within 3 months",
     "3 to 6 months": "I'm looking to invest in 3 to 6 months",
     "6 months or more": "I'm looking to invest in 6 months or more",
@@ -230,7 +231,12 @@
 
     var when = WHEN[d.timeline] || ("I'm looking to invest " + d.timeline);
 
-    var looking = d.interest ? "I'm looking for " + d.interest.charAt(0).toLowerCase() + d.interest.slice(1) + ". " : "";
+    var WANT = {
+      "Finished villa or apartment to live in or rent out": "I'm looking for a finished villa or apartment to live in or rent out. ",
+      "Off-plan villa or apartment as an investment": "I'm looking for an off-plan villa or apartment as an investment. ",
+      "Not sure yet, show me the best ones": "I'm not sure yet what fits me best. "
+    };
+    var looking = d.interest ? (WANT[d.interest] || "I'm looking for " + d.interest.charAt(0).toLowerCase() + d.interest.slice(1) + ". ") : "";
     var text = "Hi Kai, I'm " + first + ". I just filled in the form on your site. " + looking
              + budget + " and " + when + ". Happy to connect.";
 
