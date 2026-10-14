@@ -436,7 +436,7 @@ var TOPIC_PDF = {
   "Bali vs Dubai vs Thailand vs Vietnam": "bali-compare-guide.pdf"
 };
 var MAIL = {
-  en: { s: "Your {g}", h: "Hi {n},", a: "Here is your {g}. It's attached to this email, and you can also open it here:", b: "Open the guide", c: "Are you looking at something specific in Bali, or still exploring? Reply with the area and your budget and I'll tell you what I would check first.", k: "The Bali Buyer's Kit" },
+  en: { s: "{g}, as promised", h: "Hi {n},", a: "Here's {g}. It's attached to this email, and you can also open it here:", b: "Open the guide", c: "Are you looking at something specific in Bali, or still exploring? Reply with the area and your budget and I'll tell you what I would check first.", k: "The Bali Buyer's Kit" },
   fr: { s: "Ton guide : {g}", h: "Bonjour {n},", a: "Voici ton guide, {g} :", b: "Le télécharger ici", c: "Tu regardes déjà quelque chose de précis à Bali, ou tu te renseignes encore ? Réponds-moi avec la zone et ton budget, et je te dis ce que je vérifierais en premier.", k: "Le guide de l'acheteur à Bali" },
   de: { s: "Dein Leitfaden: {g}", h: "Hallo {n},", a: "Hier ist dein Leitfaden, {g}:", b: "Hier herunterladen", c: "Schaust du dir schon etwas Bestimmtes auf Bali an, oder informierst du dich noch? Schreib mir die Gegend und dein Budget, dann sage ich dir, was ich zuerst prüfen würde.", k: "Der Bali-Käuferleitfaden" },
   nl: { s: "Je gids: {g}", h: "Hoi {n},", a: "Hier is je gids, {g}:", b: "Hier downloaden", c: "Kijk je al naar iets specifieks op Bali, of oriënteer je je nog? Stuur me het gebied en je budget, dan vertel ik wat ik als eerste zou controleren.", k: "De Bali-kopersgids" },

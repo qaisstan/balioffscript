@@ -24,7 +24,7 @@ TOKEN = "k7q4m2"
 # Flip to True once the new apps-script/Code.gs is deployed (it emails the kit with the PDF attached).
 # True: no download on the page, the guide only arrives by email (Kai, 14 Oct 2026).
 # False: the page only promises what it delivers: the instant download.
-EMAIL_ON = False
+EMAIL_ON = True    # 14 Oct 2026: deployed and tested, the guide arrives by email with the PDF attached
 
 LANGS = ["en", "fr", "de", "nl", "sv", "no"]
 
