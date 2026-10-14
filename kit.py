@@ -323,7 +323,7 @@ def doc_page(B, lang):
 </section>
 <main class="kd-body prose">
 {body}
-<p class="kd-cta"><a href="{wa}">WhatsApp: +46 70 008 14 14</a> · <a href="{B.SITE_URL}/">balioffscript.com</a></p>
+<p class="kd-cta"><a href="{wa}">WhatsApp: +44 7441 340188</a> · <a href="{B.SITE_URL}/">balioffscript.com</a></p>
 </main>
 </body>
 </html>"""

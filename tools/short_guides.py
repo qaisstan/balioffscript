@@ -20,7 +20,7 @@ import kit as K      # noqa: E402
 OUT_HTML = os.path.join(HERE, "short_guides_out")
 OUT_PDF = os.path.join(ROOT, "assets", "kit", K.TOKEN)      # build.py copies this into docs/; we copy too
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-WA = "https://wa.me/46700081414?text=" + "Hi%20Kai%2C%20I%20read%20your%20guide.%20I%27m%20looking%20at%20"
+WA = "https://wa.me/447441340188?text=" + "Hi%20Kai%2C%20I%20read%20your%20guide.%20I%27m%20looking%20at%20"
 
 
 def img(pool, i=0, w=900, h=560):
@@ -129,7 +129,7 @@ def help_page(topic_line, wa_topic):
                    ("I find the right property or project", "Built, off-plan or land to build on. I look at all of them, so you see the honest options."),
                    ("I check everything before you pay", "Certificate, zoning, permits, the lease clauses and the seller."),
                    ("I stay with you to the notary", "Questions answered straight, in plain words, until the keys are yours.")])
-            + f'<a class="cta" href="{WA}{wa_topic}">Message me on WhatsApp</a>'
+            + f'<a class="cta" href="{WA}{wa_topic}">WhatsApp me: +44 7441 340188</a>'
             '<p class="small">Tell me the area, your budget and your timing, and I\'ll tell you what I would check first. '
             'This guide is general information, not legal or tax advice. Rules change: verify with your own notary before you sign.</p>')
     return page(body, "dark")

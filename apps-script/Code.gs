@@ -435,13 +435,13 @@ var TOPIC_PDF = {
   "Moving to Bali: Visas, Living and Buying": "bali-move-guide.pdf",
   "Bali vs Dubai vs Thailand vs Vietnam": "bali-compare-guide.pdf"
 };
-var MAIL = {
-  en: { s: "{g}, as promised", h: "Hi {n},", a: "Here's {g}. It's attached to this email, and you can also open it here:", b: "Open the guide", c: "Are you looking at something specific in Bali, or still exploring? Reply with the area and your budget and I'll tell you what I would check first.", k: "The Bali Buyer's Kit" },
-  fr: { s: "Ton guide : {g}", h: "Bonjour {n},", a: "Voici ton guide, {g} :", b: "Le télécharger ici", c: "Tu regardes déjà quelque chose de précis à Bali, ou tu te renseignes encore ? Réponds-moi avec la zone et ton budget, et je te dis ce que je vérifierais en premier.", k: "Le guide de l'acheteur à Bali" },
-  de: { s: "Dein Leitfaden: {g}", h: "Hallo {n},", a: "Hier ist dein Leitfaden, {g}:", b: "Hier herunterladen", c: "Schaust du dir schon etwas Bestimmtes auf Bali an, oder informierst du dich noch? Schreib mir die Gegend und dein Budget, dann sage ich dir, was ich zuerst prüfen würde.", k: "Der Bali-Käuferleitfaden" },
-  nl: { s: "Je gids: {g}", h: "Hoi {n},", a: "Hier is je gids, {g}:", b: "Hier downloaden", c: "Kijk je al naar iets specifieks op Bali, of oriënteer je je nog? Stuur me het gebied en je budget, dan vertel ik wat ik als eerste zou controleren.", k: "De Bali-kopersgids" },
-  sv: { s: "Din guide: {g}", h: "Hej {n},", a: "Här är din guide, {g}:", b: "Ladda ner den här", c: "Tittar du redan på något särskilt på Bali, eller undersöker du fortfarande? Svara med område och budget så säger jag vad jag skulle kontrollera först.", k: "Köparguiden för Bali" },
-  no: { s: "Guiden din: {g}", h: "Hei {n},", a: "Her er guiden din, {g}:", b: "Last den ned her", c: "Ser du allerede på noe bestemt på Bali, eller undersøker du fortsatt? Svar med område og budsjett, så sier jeg hva jeg ville sjekket først.", k: "Kjøperguiden for Bali" }
+var MAIL = {   // Kai, 14 Oct 2026: short and personal, the PDF attached, no button
+  en: { s: "{g}, as you asked", h: "Hi {n},", a: "Here's {g} you asked for. It's attached to this email.", c: "Are you looking at something specific in Bali, or still exploring? Reply with the area and your budget and I'll tell you what I'd check first.", k: "The Bali Buyer's Kit" },
+  fr: { s: "{g}, comme demandé", h: "Bonjour {n},", a: "Voici {g}, comme tu l'as demandé. Il est en pièce jointe.", c: "Tu regardes déjà quelque chose de précis à Bali, ou tu te renseignes encore ? Réponds-moi avec la zone et ton budget, et je te dis ce que je vérifierais en premier.", k: "Le guide de l'acheteur à Bali" },
+  de: { s: "{g}, wie gewünscht", h: "Hallo {n},", a: "Hier ist {g}, wie gewünscht. Du findest ihn im Anhang.", c: "Schaust du dir schon etwas Bestimmtes auf Bali an, oder informierst du dich noch? Schreib mir die Gegend und dein Budget, dann sage ich dir, was ich zuerst prüfen würde.", k: "Der Bali-Käuferleitfaden" },
+  nl: { s: "{g}, zoals gevraagd", h: "Hoi {n},", a: "Hier is {g}, zoals gevraagd. Je vindt hem in de bijlage.", c: "Kijk je al naar iets specifieks op Bali, of oriënteer je je nog? Stuur me het gebied en je budget, dan vertel ik wat ik als eerste zou controleren.", k: "De Bali-kopersgids" },
+  sv: { s: "{g}, som du bad om", h: "Hej {n},", a: "Här är {g} som du bad om. Den ligger som bilaga.", c: "Tittar du redan på något särskilt på Bali, eller undersöker du fortfarande? Svara med område och budget så säger jag vad jag skulle kontrollera först.", k: "Köparguiden för Bali" },
+  no: { s: "{g}, som du ba om", h: "Hei {n},", a: "Her er {g} som du ba om. Den ligger som vedlegg.", c: "Ser du allerede på noe bestemt på Bali, eller undersøker du fortsatt? Svar med område og budsjett, så sier jeg hva jeg ville sjekket først.", k: "Kjøperguiden for Bali" }
 };
 
 function isIndonesian(phone) {
@@ -477,21 +477,22 @@ function sendGuide(d, row) {
     var name = String(row[1] || "").replace(/^'/, "").split(" ")[0] || "";
     var f = function (t) { return t.replace("{g}", guide).replace("{n}", name); };
 
-    var text = [f(m.h), "", f(m.a), pdf, "", m.c, "", "Kai", "Property Advisor, Bali Off Script", "WhatsApp: +44 7441 340188",
-                "balioffscript.com"].join("\n");
-    var html = '<div style="font-family:Arial,sans-serif;font-size:15px;line-height:1.55;color:#16191d">' +
-      "<p>" + f(m.h) + "</p><p>" + f(m.a) + '</p><p><a href="' + pdf + '" style="display:inline-block;background:#8a2c26;color:#fff;' +
-      'padding:12px 18px;border-radius:6px;text-decoration:none;font-weight:bold">' + m.b + "</a></p><p>" + m.c + "</p>" +
-      '<p style="margin-top:22px"><strong>Kai</strong><br><span style="color:#4c545e">Property Advisor, Bali Off Script<br>' +
-      'WhatsApp: <a href="https://wa.me/447441340188" style="color:#4c545e">+44 7441 340188</a><br>' +
-      '<a href="' + SITE + '" style="color:#4c545e">balioffscript.com</a></span></p></div>';
-
-    // the PDF goes in the email itself; the button stays as a backup
+    // the PDF goes in the email itself; a plain link only if attaching failed
     var files = [];
     try {
       var res = UrlFetchApp.fetch(pdf, { muteHttpExceptions: true });
       if (res.getResponseCode() === 200) files.push(res.getBlob().setName(pdf.split("/").pop()));
     } catch (e2) {}
+    var body = files.length ? [f(m.a)] : [f(m.a).split(". ")[0] + ":", pdf];
+    var sig = ["Kai", "Property Advisor", "WhatsApp: +44 7441 340188", "balioffscript.com"];
+    var text = [f(m.h), ""].concat(body, ["", m.c, ""], sig).join("\n");
+    var html = '<div style="font-family:Arial,sans-serif;font-size:15px;line-height:1.55;color:#16191d">' +
+      "<p>" + f(m.h) + "</p><p>" + body.map(function (l) { return /^https?:/.test(l) ? '<a href="' + l + '">' + l + "</a>" : l; }).join("<br>") +
+      "</p><p>" + m.c + "</p>" +
+      '<p style="margin-top:22px"><strong>Kai</strong><br><span style="color:#4c545e">Property Advisor<br>' +
+      'WhatsApp: <a href="https://wa.me/447441340188" style="color:#4c545e">+44 7441 340188</a><br>' +
+      '<a href="' + SITE + '" style="color:#4c545e">balioffscript.com</a></span></p></div>';
+
     MailApp.sendEmail({ to: email, subject: f(m.s), body: text, htmlBody: html, name: "Kai | Bali Off Script", replyTo: NOTIFY,
                         attachments: files });
     props.setProperty(key, String(now));
