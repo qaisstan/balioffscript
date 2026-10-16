@@ -14,7 +14,7 @@ Australians are the largest single group of foreign buyers in Bali and the large
 
 ## Why the flow is so strong
 
-**Proximity.** Six hours from Perth, roughly seven from Sydney or Melbourne. Closer than half of Australia is to the other half, and with enough flight capacity that it is a weekend option.
+**Proximity.** Under four hours from Perth, around six from Sydney or Melbourne. Closer than half of Australia is to the other half, and with enough flight capacity that it is a weekend option.
 
 **Price.** What USD 300,000 buys in Bali against what it buys in Sydney, Melbourne or Byron is not a close comparison. A four-bedroom villa with a pool in a good Bali area costs less than a modest apartment in most Australian capitals.
 
