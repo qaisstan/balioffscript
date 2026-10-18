@@ -892,6 +892,7 @@ def nav(active=""):
         ("Free Buyer's Kit", "/buyers-kit/", "The checklist, questions, lease clauses and red flags, as a PDF"),
         ("Return calculator", "/calculator/", "What a property really returns after every cost"),
         ("Area map", "/areas/#map", "What governs each area, regency by regency"),
+        ("Check my deal", "/deal-check/", "Send me the deal before you sign"),
         ("What I&rsquo;d check first", "/check/", "The intake list for a live deal"),
         ("Due diligence checklist", "/checklist/", "Print it and take it to viewings"),
         ("About", "/about/", "Who writes this, and why"),
@@ -1434,8 +1435,8 @@ def about_page():
     """The entity page. Search engines and answer engines both need one place
     that states plainly who publishes this and what they do, otherwise a
     'who is X' question has nothing to resolve against."""
-    desc = ("Kai is a strategic investment adviser in Bali. He helps foreign buyers check villas, land "
-            "and off-plan deals before they sign: title, zoning, lease, licence and real return.")
+    desc = ("Kai is an investment adviser in Bali. He checks villas, land and off-plan deals for foreign "
+            "buyers before they sign: title, zoning, lease, permits and return.")
     n_pages = len(ALL_PAGES)
     faq_entities = [{"@type": "Question", "name": q,
                      "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in ABOUT_FAQ]
@@ -1581,7 +1582,7 @@ def check_page():
 {share_bar("What I'd check first before you buy", "/check/")}
 {cta("Want me to look at the numbers with you?",
      "Location, title type, zoning, and any permits you've been shown. I'll tell you which link in the chain breaks, and what it would take to fix it. ",
-     "Message me on WhatsApp")}
+     "Message me on WhatsApp").replace(f'href="{BASE}/opportunities/"', f'href="{BASE}/deal-check/"')}
 </main>
 {footer()}"""
 
@@ -2098,7 +2099,7 @@ def opportunities_page():
     return f"""{head(
         "The Best Bali Opportunities Right Now",
         "Land and villas checked on the ground in Bali. Answer a few quick questions and Kai sends you "
-        "the ones that fit, on WhatsApp. Plus free guides on buying, building and renting.",
+        "the ones that fit on WhatsApp, plus free buying guides.",
         "/opportunities/", body_class="lead-body")}
 <main class="lead">
 <div class="lead-bg" aria-hidden="true" style="background-image:url({PH.url("1555400038-63f5ba517a47", 1600, 1000)})"></div>
@@ -2187,6 +2188,81 @@ def opportunities_page():
 </html>"""
 
 
+DEAL_CHECK_ITEMS = [
+    ("The land and the owner", "Who really owns it, checked at the land office, and whether anything is registered against it."),
+    ("Everyone who has to sign", "Spouse, heirs, co-owners. A sale one of them never agreed to can be undone."),
+    ("The lease", "How many years you really get, and whether the extension is written down with a price."),
+    ("Zoning and use", "Whether you can live there, rent it out, or build what you are being sold."),
+    ("Permits", "Building permit and certificate of use for what is actually standing, not just the plans."),
+    ("The road in", "A legal right of way, wide enough for a car and a builder's truck."),
+    ("The contract and payments", "Both language versions, the handover date, late penalties and who holds your money."),
+    ("The numbers", "What is really left each year after every cost, against the price and the years you get."),
+]
+DEAL_CHECK_FAQ = [
+    ("How much does a deal check cost?",
+     "It depends on the deal. A villa lease is a different job from land with a company behind it. Message me what "
+     "you are looking at and I tell you the price on WhatsApp before I start, so there are no surprises."),
+    ("Do I still need a notary or a lawyer?",
+     "Yes. I am not a lawyer and I do not replace your notary. I am the second pair of eyes before you get there, so "
+     "you walk in knowing what to ask for."),
+    ("What if the deal is fine?",
+     "Then you sign knowing it is fine, and often with a better clause or price, because you know what to ask for."),
+    ("What do I need to send?",
+     "Whatever you have: the listing, the certificate or a photo of it, the draft lease or contract, any permits you "
+     "were shown, and the price. If you have nothing yet, the listing link is enough to start."),
+]
+
+
+def deal_check_page():
+    """Kai, 18 Oct 2026: the advisory. People about to buy send him the deal on WhatsApp; he quotes the price there.
+    The Buyer's Kit, the guides, the checklist, /check/ and the Instagram 'DM me CHECK' reels all point here."""
+    from urllib.parse import quote
+    title = "Bali Deal Check: Before You Sign"
+    desc = ("Send Kai the Bali villa, land or off-plan deal you are about to sign. He checks the land, owner, lease, "
+            "zoning, permits, contract and numbers.")
+    wa = f"https://wa.me/{LEAD_WHATSAPP}?text=" + quote("Hi Kai, I'd like you to check a Bali deal before I sign. Here's what I'm looking at: ")
+    items = "".join(f"<li><strong>{h}.</strong> {t}</li>" for h, t in DEAL_CHECK_ITEMS)
+    faq = "".join(f"<h3>{q}</h3><p>{a}</p>" for q, a in DEAL_CHECK_FAQ)
+    schema = json.dumps({"@context": "https://schema.org", "@graph": [
+        {"@type": "Service", "name": "Bali Deal Check", "serviceType": "Property due diligence review",
+         "provider": {"@type": "Person", "name": AUTHOR, "jobTitle": AUTHOR_ROLE, "url": SITE_URL + "/about/"},
+         "areaServed": {"@type": "Place", "name": "Bali, Indonesia"}, "url": SITE_URL + "/deal-check/", "description": desc},
+        {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}}
+                                            for q, a in DEAL_CHECK_FAQ]}]}, ensure_ascii=False).replace("</", "<\\/")
+    page_head = head(title, desc, "/deal-check/").replace("</head>", f'<script type="application/ld+json">{schema}</script>\n</head>', 1)
+    end_cta = cta("Looking at something right now?",
+                  "Send me the listing and the documents you have. I'll tell you on WhatsApp what I'd check and what it "
+                  "costs, before I start.", "Send me your deal").replace(f'href="{BASE}/opportunities/"', f'href="{wa}"')
+    return f"""{page_head}
+{nav()}
+<main class="wrap article">
+<p class="eyebrow">Before you sign</p>
+<h1>Send me the deal before you sign</h1>
+<p class="standfirst">I go through it like it is my own money, and tell you straight: worth it, walk away, or what to fix first.</p>
+<p><a class="btn btn-wa" href="{wa}">{wa_logo()}<span>Send me your deal on WhatsApp</span></a></p>
+
+<div class="prose">
+<h2>What I check</h2>
+</div>
+<section class="chk"><ul class="chk-list">{items}</ul></section>
+
+<div class="prose">
+<h2>How it works</h2>
+<ol>
+<li><strong>Message me on WhatsApp</strong> with the listing and whatever documents you have.</li>
+<li><strong>I tell you what it takes and what it costs</strong> before I start. Nothing is charged until you say yes.</li>
+<li><strong>You get a straight answer</strong>: what is solid, what breaks, and exactly what to ask the seller, developer or notary.</li>
+</ol>
+<p>Most bad Bali deals do not fail on price. They fail because one link in the chain was never checked: the owner, the lease, the zoning or the permits. None of that shows in a photo of a villa.</p>
+<h2>Questions</h2>
+{faq}
+</div>
+
+{end_cta}
+</main>
+{footer()}"""
+
+
 def simple(slug, title, body):
     return f"""{head(title, meta_desc(title, body), f"/{slug}/")}
 {nav()}
@@ -2202,10 +2278,40 @@ def simple(slug, title, body):
 
 # ---------------------------------------------------------------- run
 
+LANG_HOME = {"fr": "Français", "de": "Deutsch", "nl": "Nederlands", "sv": "Svenska", "no": "Norsk", "es": "Español"}
+
+
+def auto_schema(path, html):
+    """SEO audit, 18 Oct 2026: every indexable page carries structured data. Pages that don't write their own
+    (calculator, check, opportunities, guides index, checklist, legal and contact pages) get a WebPage + breadcrumb."""
+    if "application/ld+json" in html or "</head>" not in html or re.search(r'name="robots" content="noindex', html):
+        return html
+    import html as _h
+    t = re.search(r"<title>(.*?)</title>", html, re.S)
+    d = re.search(r'<meta name="description" content="(.*?)"', html)
+    lang = (re.search(r'<html[^>]*\blang="([a-zA-Z-]+)"', html) or [None, "en"])[1]
+    name = _h.unescape(t.group(1)).split(" | ")[0].strip() if t else SITE_NAME
+    url = SITE_URL + path
+    parts = [p for p in path.strip("/").split("/") if p]
+    crumbs = [{"@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/"}]
+    for i, p in enumerate(parts):
+        label = name if i == len(parts) - 1 else LANG_HOME.get(p, p.replace("-", " ").capitalize())
+        crumbs.append({"@type": "ListItem", "position": i + 2, "name": label, "item": SITE_URL + "/" + "/".join(parts[:i + 1]) + "/"})
+    graph = [{"@type": "WebPage", "@id": url, "url": url, "name": name, "inLanguage": lang,
+              "description": _h.unescape(d.group(1)) if d else "",
+              "isPartOf": {"@type": "WebSite", "name": SITE_NAME, "url": SITE_URL + "/"}},
+             {"@type": "BreadcrumbList", "itemListElement": crumbs}]
+    if path == "/calculator/":
+        graph.append({"@type": "WebApplication", "name": name, "url": url, "applicationCategory": "FinanceApplication",
+                      "operatingSystem": "Any", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}})
+    data = json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False).replace("</", "<\\/")
+    return html.replace("</head>", f'<script type="application/ld+json">{data}</script>\n</head>', 1)
+
+
 def write(path, html):
     full = os.path.join(OUT, path.strip("/"), "index.html") if path != "/" else os.path.join(OUT, "index.html")
     os.makedirs(os.path.dirname(full), exist_ok=True)
-    open(full, "w", encoding="utf-8").write(html)
+    open(full, "w", encoding="utf-8").write(auto_schema(path, html))
 
 
 def main():
@@ -2238,6 +2344,7 @@ def main():
     write("/calculator/", calculator())
     write("/about/", about_page())
     write("/check/", check_page())
+    write("/deal-check/", deal_check_page())
     write("/all/", all_page(pages))
     write("/search/", search_page())
     write("/opportunities/", opportunities_page())
@@ -2281,7 +2388,7 @@ def main():
     open(os.path.join(OUT, "search-index.json"), "w", encoding="utf-8").write(json.dumps(index))
 
     urls = ["/", "/about/", "/all/", "/calculator/", "/check/", "/search/", "/opportunities/",
-            "/checklist/", "/disclaimer/", "/privacy/", K.LANDING["en"], "/guides/"] + \
+            "/checklist/", "/disclaimer/", "/privacy/", "/deal-check/", K.LANDING["en"], "/guides/"] + \
            [g["path"] for g in __import__("guides").GUIDES.values()] + [f"/{k}/" for k in CATEGORIES] + \
            [f'/{p["category"]}/{p["slug"]}/' for p in pages] + [u for u, _ in lang_urls]
 

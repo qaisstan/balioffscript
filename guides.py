@@ -123,8 +123,8 @@ def doc_page(B, key, pages):
 <div class="gd-how"><p><b>How to use this guide.</b> Every question buyers ask me about this topic, each with the short answer. The link under each one opens the full answer with the sources. Rules change: check the date on the page, and verify anything before you sign with your own notary, lawyer and tax consultant.</p></div>
 {"".join(sections)}
 <h2>Want a second pair of eyes?</h2>
-<p>I look at deals before people sign: the documents, the zoning, the lease and the numbers. Message me with what you are looking at.</p>
-<p class="kd-cta"><a href="{wa}">WhatsApp Kai</a> · <a href="{B.SITE_URL}/">balioffscript.com</a></p>
+<p>I look at deals before people sign: the documents, the zoning, the lease and the numbers. Message me with what you are looking at, and I tell you what it takes and what it costs before I start.</p>
+<p class="kd-cta"><a href="{wa}">WhatsApp Kai</a> · <a href="{B.SITE_URL}/deal-check/">How the deal check works</a></p>
 </main>
 </body>
 </html>"""

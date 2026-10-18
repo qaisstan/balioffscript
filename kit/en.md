@@ -172,6 +172,8 @@ What each area costs and the constraint that breaks deals there. Land prices are
 
 If you are looking at a specific property, send it to me before you sign anything: the location, the title type, the zoning you were told and any permits you were shown. I will tell you which link in the chain breaks first, and what it would take to fix it.
 
+**Send me your deal on WhatsApp: [+44 7441 340188](https://wa.me/447441340188?text=Hi%20Kai%2C%20I%27d%20like%20you%20to%20check%20a%20Bali%20deal%20before%20I%20sign.).** I tell you what it takes and what it costs before I start. How it works: [balioffscript.com/deal-check](https://balioffscript.com/deal-check/).
+
 The most useful thing I can tell someone is often "not this one". A deal that cannot survive being checked properly is not a deal worth doing, whoever is selling it.
 
 Kai
