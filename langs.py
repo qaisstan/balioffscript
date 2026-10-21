@@ -201,6 +201,30 @@ UI = {
            msg="Hei Kai, jeg heter {name}. Jeg fylte nettopp ut skjemaet på siden din. Budsjett: {budget}. Når: {when}. Snakkes!")),
 }
 
+# Kai, 21 Oct 2026: the free deal check, high on every page, in the reader's own language (see build.deal_box).
+DEAL = {
+    "fr": dict(k="Vérification gratuite.",
+               b="Tu regardes une villa, un terrain ou un projet ? Envoie-le-moi avant de signer : titre, bail, zonage, vrai rendement.",
+               btn="Vérifier mon bien sur WhatsApp",
+               msg="Bonjour Kai, je lis ta page « {t} ». Peux-tu vérifier un bien à Bali pour moi ? Voici ce que je regarde : "),
+    "de": dict(k="Kostenloser Check.",
+               b="Sie haben eine Villa, ein Grundstück oder ein Projekt im Blick? Schicken Sie es mir, bevor Sie unterschreiben: Zertifikat, Pacht, Zonierung, echte Rendite.",
+               btn="Objekt per WhatsApp prüfen lassen",
+               msg="Hallo Kai, ich lese gerade Ihre Seite „{t}“. Können Sie ein Objekt auf Bali für mich prüfen? Das schaue ich mir an: "),
+    "nl": dict(k="Gratis check.",
+               b="Kijk je naar een villa, grond of een project? Stuur het me voordat je tekent: certificaat, lease, bestemming, echt rendement.",
+               btn="Laat je deal checken via WhatsApp",
+               msg="Hoi Kai, ik lees je pagina „{t}”. Kun je een deal op Bali voor me checken? Dit is waar ik naar kijk: "),
+    "sv": dict(k="Gratis koll.",
+               b="Tittar du på en villa, en tomt eller ett projekt? Skicka det till mig innan du skriver på: certifikat, lease, zon, verklig avkastning.",
+               btn="Låt mig kolla affären på WhatsApp",
+               msg="Hej Kai, jag läser din sida ”{t}”. Kan du kolla ett objekt på Bali åt mig? Det här tittar jag på: "),
+    "no": dict(k="Gratis sjekk.",
+               b="Ser du på en villa, en tomt eller et prosjekt? Send det til meg før du signerer: sertifikat, leie, regulering, reell avkastning.",
+               btn="Få avtalen sjekket på WhatsApp",
+               msg="Hei Kai, jeg leser siden din «{t}». Kan du sjekke et objekt på Bali for meg? Dette ser jeg på: "),
+}
+
 ORDER = ["fr", "de", "nl", "sv", "no"]
 
 # A language is published only when it is finished: every page written to full
@@ -403,6 +427,7 @@ def article(B, lang, m, pages):
 <span>{u["updated"]} <time datetime="{updated}">{updated}</time></span>
 <span>{B.read_time(m["body"])} {u["min_read"]}</span>
 </div>
+{B.deal_box(m["group"], m["question"], path, kicker=DEAL[lang]["k"], line=DEAL[lang]["b"], btn=DEAL[lang]["btn"], msg=DEAL[lang]["msg"].format(t=m["question"])) if lang in DEAL else ""}
 <div class="art-grid">
 <div class="art-main">
 {hero}

@@ -1579,3 +1579,17 @@ body.kitdoc { background: #fff; }
 .key-guides ul { margin: 0; padding: 0; list-style: none; display: grid; gap: .35rem; }
 .key-guides li a { color: inherit; font-weight: 600; text-decoration: none; border-bottom: 1px solid currentColor; }
 .key-guides li a:hover { color: var(--seal); }
+
+/* Free deal check (Kai, 21 Oct 2026): one line high on every buyer page, straight to WhatsApp. */
+.dealbox { display: flex; align-items: center; gap: 1rem; margin: 1.25rem 0 1.5rem; padding: 0.9rem 1rem;
+  background: var(--paper-2); border: 1px solid var(--rule); border-left: 4px solid #1f7a4d; border-radius: 10px; }
+.dealbox-t { flex: 1; min-width: 0; font-size: 0.95rem; line-height: 1.45; color: var(--ink); }
+.dealbox-t b { color: #1f7a4d; }
+.dealbox-btn { display: inline-flex; align-items: center; gap: 0.5rem; white-space: nowrap; padding: 0.6rem 0.95rem;
+  background: #1f7a4d; color: #fff; border-radius: 999px; font-weight: 600; font-size: 0.9rem; text-decoration: none; }
+.dealbox-btn:hover { background: #17603c; color: #fff; }
+.dealbox-btn svg { fill: currentColor; width: 18px; height: 18px; }
+@media (max-width: 640px) {
+  .dealbox { flex-direction: column; align-items: stretch; }
+  .dealbox-btn { justify-content: center; white-space: normal; text-align: center; }
+}

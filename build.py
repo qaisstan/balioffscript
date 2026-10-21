@@ -1079,6 +1079,36 @@ def bridge(cat):
             f'<a href="#kit">get the free Buyer\'s Kit</a>.</aside>')
 
 
+# Kai, 21 Oct 2026: the free deal check, high on every buyer page. The reader sends the villa, plot or project before
+# signing; that conversation is where Kai's advisory (or a better project) comes in. Straight to WhatsApp, with the page in
+# the message so Kai knows what they were reading, and a GA event so we can see which pages make conversations.
+DEAL_CHECK = {
+    "ownership": "Looking at a lease, a certificate or a nominee setup? Send it to me before you sign.",
+    "company": "Setting up a PT PMA to buy or rent? Send me the plan before you pay anyone.",
+    "tax": "Not sure what a deal will really cost you in tax? Send it to me before you sign.",
+    "visas": "Planning to buy and live here? Send me the property before you sign.",
+    "building": "Planning to build? Send me the plot before you pay. Zoning and access first.",
+    "rental": "Got a villa with promised returns? Send me the numbers. I'll tell you what they leave out.",
+    "areas": "Found a villa or plot in this area? Send me the listing before you sign.",
+    "living": "Thinking about buying here one day? Send me any listing. I'll tell you honestly if it's worth it.",
+    "compare": "Comparing Bali with somewhere else? Send me the Bali deal you're looking at.",
+}
+
+
+def deal_box(cat, title, path, kicker=None, line=None, btn="Free deal check on WhatsApp", msg=None):
+    if cat not in DEAL_CHECK and line is None:
+        return ""
+    from urllib.parse import quote
+    msg = msg or f"Hi Kai, I'm reading your page \"{title}\". Can you check a Bali deal for me? Here's what I'm looking at: "
+    href = f"https://wa.me/{LEAD_WHATSAPP}?text={quote(msg)}"
+    track = ("if(window.gtag)gtag('event','generate_lead',{event_category:'dealcheck',event_label:'" +
+             path.replace("'", "") + "'})")
+    return (f'<aside class="dealbox"><div class="dealbox-t"><b>{kicker or "Free deal check."}</b> '
+            f'{line or DEAL_CHECK[cat]}</div>'
+            f'<a class="dealbox-btn" href="{href}" target="_blank" rel="noopener" onclick="{track}">'
+            f'{wa_logo("ig ig-sm")}<span>{btn}</span></a></aside>')
+
+
 def kit_mini(lang="en"):
     return K.mini(sys.modules[__name__], lang)
 
@@ -1287,6 +1317,7 @@ def article(m, siblings):
 <span>Updated <time datetime="{updated}">{updated}</time></span>
 <span>{read_time(m["body"])} min read</span>
 </div>
+{deal_box(m["category"], m["question"], path)}
 <div class="art-grid">
 <div class="art-main">
 {hero}
