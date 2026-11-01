@@ -2329,7 +2329,7 @@ PP_STEPS = [
     ("15-minute call", "We look at your project, your prices and your papers."),
     ("Setup", "You send your material and connect your ad account. We check the papers."),
     ("Ads live", "We build the ads and the whole funnel around your project."),
-    ("Buyers", "We answer, qualify, call and close. Site visits with you. Numbers every week."),
+    ("Buyers", "We answer, qualify, meet and close, online or on site. Numbers every week."),
 ]
 
 PP_FAQ = [
@@ -2341,8 +2341,18 @@ PP_FAQ = [
     ("Do you work with builders?", "Yes. We bring you people who have land, or are buying it, and want to build."),
     ("What does it cost?", "A monthly fee, your ad budget and commission when a unit sells. The exact numbers "
                            "depend on your project, so we go through them on the call."),
+    ("What are your own buyers?", "People who find us on Instagram, not through your ads. We send the ones who fit "
+                                  "your project to you, at no extra fee and the same commission."),
     ("Will you send our buyers to other projects?", "No. Only if a buyer says no to yours and you agree in writing. "
                                                     "Then you earn 1% of that sale."),
+]
+
+PP_JOURNEY = [
+    ("Ads", "Made from your renders and footage"),
+    ("Leads", "Answered fast, in their time zone"),
+    ("Qualifying", "Budget, timing and cash checked"),
+    ("Meetings", "Online, or on site when they fly in"),
+    ("Closing", "Through to reservation and deposit"),
 ]
 
 PP_CSS = """
@@ -2364,10 +2374,6 @@ body.pp{background:#fbfaf7;color:#121417;font-family:'Public Sans',-apple-system
 .pp-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.1);border-radius:16px;overflow:hidden;margin-top:3.5rem;max-width:760px}
 .pp-stats div{background:#16191d;padding:1.3rem 1.4rem}.pp-stats b{display:block;font-family:Fraunces,serif;font-size:2rem;font-weight:600;color:#fff}
 .pp-stats span{font-size:.88rem;color:#9aa0a6}
-.pp-chain{background:#16191d;color:#fff;padding:26px 0;border-top:1px solid rgba(255,255,255,.06)}
-.pp-chain .pp-w{display:flex;flex-wrap:wrap;align-items:center;gap:.55rem}
-.pp-chain p{margin:0 1rem 0 0;font-family:'IBM Plex Mono',monospace;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:#c9a96e}
-.pp-chain i{font-style:normal;color:#5d646b}.pp-chain b{font-weight:600;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:999px;padding:.45rem .9rem;font-size:.92rem}
 .pp-sec{padding:96px 0}.pp-sec.alt{background:#f2f0ea}
 .pp-h2{font-family:Fraunces,serif;font-weight:600;font-size:clamp(2rem,3.6vw,2.9rem);line-height:1.1;letter-spacing:-.015em;margin:0 0 .8rem;color:#121417}
 .pp-lead{font-size:1.15rem;line-height:1.55;color:#4c545e;max-width:40rem;margin:0 0 3rem}
@@ -2417,8 +2423,26 @@ body.pp{background:#fbfaf7;color:#121417;font-family:'Public Sans',-apple-system
 .pp-end p{margin:0 0 1.5rem;color:#c8ccd1;font-size:1.1rem}
 .pp-foot{background:#0d0f11;color:#7d838a;font-size:.85rem;padding:26px 0 90px}.pp-foot a{color:#c8ccd1}
 .pp-dock{display:none}
-@media (max-width:900px){.pp-grid,.igc-row,.pp-pay{grid-template-columns:1fr}.pp-steps{grid-template-columns:1fr 1fr}.igc{max-width:440px}}
-@media (max-width:620px){.pp-hero{padding:64px 0 60px}.pp-sec,.pp-end{padding:64px 0}.pp-steps{grid-template-columns:1fr}
+.pp-jr{background:#16191d;color:#fff;padding:56px 0 64px;border-top:1px solid rgba(255,255,255,.06)}
+.pp-jr ol{list-style:none;margin:1.6rem 0 0;padding:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));position:relative}
+.pp-jr ol:before{content:"";position:absolute;left:10%;right:10%;top:25px;height:2px;background:linear-gradient(90deg,#c9a96e,#1f7a4d)}
+.pp-jr li{display:flex;flex-direction:column;align-items:center;text-align:center;padding:0 .6rem;position:relative}
+.pp-jr .dot{width:52px;height:52px;flex:0 0 52px;border-radius:50%;background:#121417;border:2px solid #c9a96e;color:#c9a96e;font-family:Fraunces,serif;font-weight:600;font-size:1.25rem;display:flex;align-items:center;justify-content:center;margin-bottom:.9rem;position:relative;z-index:1}
+.pp-jr li:last-child .dot{background:#1f7a4d;border-color:#1f7a4d;color:#fff;box-shadow:0 0 0 6px rgba(31,122,77,.18)}
+.pp-jr b{display:block;font-size:1.1rem;color:#fff}.pp-jr span{display:block;color:#9aa0a6;font-size:.9rem;line-height:1.4;margin-top:.3rem}
+.pp-bonus{background:#121417;color:#fff;border-radius:24px;padding:3rem 2.6rem;position:relative;overflow:hidden;border:1px solid #2a2e33}
+.pp-bonus:after{content:"";position:absolute;right:-120px;top:-120px;width:360px;height:360px;border-radius:50%;background:radial-gradient(circle,rgba(201,169,110,.22),transparent 70%)}
+.pp-bonus h2{font-family:Fraunces,serif;font-weight:600;font-size:clamp(1.9rem,3.4vw,2.7rem);line-height:1.1;margin:0 0 1rem;color:#fff;max-width:20ch}
+.pp-bonus>p{color:#c8ccd1;font-size:1.12rem;line-height:1.6;max-width:40rem;margin:0 0 2rem}
+.pp-brow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:rgba(255,255,255,.1);border-radius:16px;overflow:hidden;position:relative;z-index:1}
+.pp-brow div{background:#1a1d21;padding:1.2rem 1.3rem}.pp-brow b{display:block;font-family:Fraunces,serif;font-size:1.35rem;font-weight:600;color:#c9a96e}
+.pp-brow span{color:#b9bec4;font-size:.92rem}
+@media (max-width:900px){.pp-grid,.igc-row,.pp-pay,.pp-brow{grid-template-columns:1fr}.pp-steps{grid-template-columns:1fr 1fr}.igc{max-width:440px}}
+@media (max-width:620px){.pp-jr ol{grid-template-columns:1fr;gap:1.1rem}
+.pp-jr ol:before{left:25px;right:auto;top:26px;bottom:26px;width:2px;height:auto;background:linear-gradient(180deg,#c9a96e,#1f7a4d)}
+.pp-jr li{flex-direction:row;text-align:left;gap:1rem;padding:0}.pp-jr .dot{margin:0}.pp-jr span{margin-top:.1rem}
+.pp-bonus{padding:2.2rem 1.4rem}
+.pp-hero{padding:64px 0 60px}.pp-sec,.pp-end{padding:64px 0}.pp-steps{grid-template-columns:1fr}
 .pp-stats{grid-template-columns:1fr}.pp-stats div{padding:1rem 1.2rem}.pp-bar .pp-btn.sm span{display:none}
 .pp-dock{display:block;position:fixed;left:0;right:0;bottom:0;z-index:30;padding:12px 16px calc(12px + env(safe-area-inset-bottom));background:rgba(251,250,247,.94);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-top:1px solid #e8e6e1}
 .pp-dock .pp-btn{width:100%;justify-content:center}}
@@ -2456,7 +2480,8 @@ def partnership_page():
                     for i, (h, t) in enumerate(PP_STEPS, 1))
     faq = "".join(f"<details><summary>{q}</summary><p>{a}</p></details>" for q, a in PP_FAQ)
     cards = "".join(ig_card(p) for p in PP_PROFILES)
-    chain = ' <i>→</i> '.join(f"<b>{x}</b>" for x in ("Ads", "Leads", "Qualifying", "Calls", "Site visits", "Closing"))
+    journey = "".join(f'<li><div class="dot">{i}</div><div><b>{h}</b><span>{t}</span></div></li>'
+                      for i, (h, t) in enumerate(PP_JOURNEY, 1))
     page_head = head(title, desc, "/partnership/", body_class="pp").replace("</head>", f"<style>{PP_CSS}</style>\n</head>", 1)
     return f"""{page_head}
 <header class="pp-bar"><div class="pp-w"><a class="pp-logo" href="{BASE}/"><span>Bali</span> Off Script</a>{btn("Talk to Kai", "sm")}</div></header>
@@ -2469,7 +2494,7 @@ def partnership_page():
 <p class="pp-note">On WhatsApp. We take 3 projects at a time.</p>
 <div class="pp-stats"><div><b>7M</b><span>views in the last 30 days</span></div><div><b>25.7K</b><span>followers on 3 accounts</span></div><div><b>100%</b><span>organic, no ads</span></div></div>
 </div></section>
-<div class="pp-chain"><div class="pp-w"><p>The whole journey</p>{chain}</div></div>
+<section class="pp-jr"><div class="pp-w"><p class="pp-eye">The whole journey, done for you</p><ol>{journey}</ol></div></section>
 
 <section class="pp-sec"><div class="pp-w">
 <h2 class="pp-h2">The problems we fix</h2>
@@ -2484,23 +2509,30 @@ def partnership_page():
 <div class="pp-facts"><p><b>1.2M views</b> on one reel about what buyers forget to check</p><p><b>We already sell</b> for developers in Bali</p></div>
 </div></section>
 
-<section class="pp-sec"><div class="pp-w">
+<section class="pp-sec"><div class="pp-w"><div class="pp-bonus">
+<p class="pp-eye">Only for partners</p>
+<h2>Our own buyers, on top of your ads.</h2>
+<p>Every month our Instagram brings us buyers who never saw your ads. We only show them our partners' projects. When a buyer fits yours, we send them to you.</p>
+<div class="pp-brow"><div><b>No extra fee</b><span>It comes with the partnership</span></div><div><b>Same commission</b><span>As buyers from your ads</span></div><div><b>7M views a month</b><span>Where these buyers come from</span></div></div>
+</div></div></section>
+
+<section class="pp-sec alt"><div class="pp-w">
 <h2 class="pp-h2">How it works</h2>
 <p class="pp-lead">From the first call to your first reservations.</p>
 <div class="pp-steps">{steps}</div>
 </div></section>
 
-<section class="pp-sec alt"><div class="pp-w">
+<section class="pp-sec"><div class="pp-w">
 <h2 class="pp-h2">How we get paid</h2>
 <p class="pp-lead">Simple, and tied to your sales.</p>
 <div class="pp-pay"><div><b>A monthly fee</b><p>For the ads, the funnel and the team. Fixed, no surprises.</p></div>
 <div><b>Your ad budget</b><p>Paid by you, straight to Meta. We never hold your money.</p></div>
-<div><b>Commission</b><p>Only when a unit sells.</p></div></div>
+<div><b>Commission</b><p>Only when a unit sells. The same rate, whether the buyer came from your ads or our own audience.</p></div></div>
 <div class="pp-trust"><b>Your buyers stay yours.</b> We never push them to another project. Only if a buyer says no to yours and you agree, and then you earn 1% of that sale.</div>
 <p class="pp-small">Exact numbers on the call, because every project is different.</p>
 </div></section>
 
-<section class="pp-sec"><div class="pp-w">
+<section class="pp-sec alt"><div class="pp-w">
 <h2 class="pp-h2">Questions</h2>
 <div class="pp-faq">{faq}</div>
 </div></section>
