@@ -817,7 +817,7 @@ def title_tag(t):
 def robots_meta(path):
     """Utility pages have nothing to rank for. Keeping them out of the index
     stops them being counted as thin content against the site."""
-    return '\n<meta name="robots" content="noindex,follow">' if path in ("/search/",) else ""
+    return '\n<meta name="robots" content="noindex,follow">' if path in ("/search/", "/partnership/") else ""
 
 
 def head(title, desc, path, card=None, body_class=""):
@@ -2294,6 +2294,226 @@ def deal_check_page():
 {footer()}"""
 
 
+# Kai, 1 Nov 2026: the partnership page for developers and builders. Real numbers only. Profiles and followers
+# come from the Graph API (pulled 1 Nov); the 30-day views are what Kai's Instagram app shows on 1 Nov.
+PP_PROFILES = [
+    {"img": "k1.jpg", "user": "bali.offscript", "name": "Kai | Bali Property", "posts": "97", "followers": "16.9K",
+     "following": "444", "views": "2.7M",
+     "bio": ["🇸🇪 Swedish in Bali", "🏝️ Your trusted eyes on the ground in Bali", "📩 DM me before you sign",
+             "👇🏼 Opportunities + free guides"]},
+    {"img": "k2.jpg", "user": "balioffscript", "name": "Kai | Bali Property", "posts": "144", "followers": "7,831",
+     "following": "119", "views": "2.2M",
+     "bio": ["🏝️ Your trusted eyes on the ground.", "📩 DM me before you sign", "👇🏼 Opportunities + free guides"]},
+    {"img": "k3.jpg", "user": "kaitalksproperty", "name": "Kaitalksproperty", "posts": "372", "followers": "975",
+     "following": "122", "views": "2.1M",
+     "bio": ["🏝️ Your trusted eyes on the ground.", "Main: @bali.offscript",
+             "🏡 Helping foreign investors find the best deals", "👇🏼 Opportunities + free guides"]},
+]
+
+PP_PROBLEMS = [
+    ("Agents list you next to 50 other projects.", "They push whatever sells easiest that week. Yours waits.",
+     "We push one project: yours."),
+    ("You paid for ads and got clicks, not buyers.", "Cheap leads, wrong budgets, people who never reply.",
+     "Ads made from your renders and site footage, aimed at real foreign buyers."),
+    ("Leads message at 2 a.m. from Europe.", "Nobody answers until morning. By then they've asked three other developers.",
+     "Every lead gets a fast answer, in their time zone."),
+    ("Your team chases people who were never going to buy.", "Days lost on calls with no budget behind them.",
+     "We check budget, timing and cash before anyone gets on a call."),
+    ("Buyers don't trust Bali.", "Leasehold, permits, PT PMA. If nobody explains it clearly, they walk.",
+     "Our audience learns how to buy safely from us. They arrive ready."),
+    ("Construction moves faster than sales.", "Off-plan runs on pre-sales. Slow sales means slow cash.",
+     "A steady flow of qualified buyers, and the numbers every week."),
+]
+
+PP_STEPS = [
+    ("15-minute call", "We look at your project, your prices and your papers."),
+    ("Setup", "You send your material and connect your ad account. We check the papers."),
+    ("Ads live", "We build the ads and the whole funnel around your project."),
+    ("Buyers", "We answer, qualify, call and close. Site visits with you. Numbers every week."),
+]
+
+PP_FAQ = [
+    ("Whose ad account is it?", "Yours. You pay Meta directly and we run the ads inside it as your partner. "
+                                "We never hold your money."),
+    ("What do you need from us?", "Renders, videos, floor plans, prices, the payment plan, and the land and "
+                                  "building papers."),
+    ("Why do you check our papers?", "Our audience trusts us to bring them clean projects. That trust is why they buy."),
+    ("Do you work with builders?", "Yes. We bring you people who have land, or are buying it, and want to build."),
+    ("What does it cost?", "A monthly fee, your ad budget and commission when a unit sells. The exact numbers "
+                           "depend on your project, so we go through them on the call."),
+    ("Will you send our buyers to other projects?", "No. Only if a buyer says no to yours and you agree in writing. "
+                                                    "Then you earn 1% of that sale."),
+]
+
+PP_CSS = """
+body.pp{background:#fbfaf7;color:#121417;font-family:'Public Sans',-apple-system,sans-serif}
+.pp *{box-sizing:border-box}.pp a{text-decoration:none}
+.pp-w{max-width:1120px;margin:0 auto;padding:0 20px}
+.pp-bar{position:sticky;top:0;z-index:20;background:rgba(18,20,23,.92);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.08)}
+.pp-bar .pp-w{display:flex;align-items:center;justify-content:space-between;height:64px}
+.pp-logo{font-family:Fraunces,serif;font-size:1.25rem;color:#fff}.pp-logo span{color:#c9a96e}
+.pp-btn{display:inline-flex;align-items:center;gap:.6rem;background:#1f7a4d;color:#fff!important;font-weight:700;border-radius:999px;padding:1rem 1.6rem;font-size:1.05rem;transition:transform .15s,background .15s;box-shadow:0 8px 24px rgba(31,122,77,.28)}
+.pp-btn:hover{background:#23905a;transform:translateY(-1px)}.pp-btn svg{width:1.3rem;height:1.3rem}
+.pp-btn.sm{padding:.6rem 1.1rem;font-size:.9rem;box-shadow:none}.pp-btn.sm svg{width:1.05rem;height:1.05rem}
+.pp-hero{background:radial-gradient(1200px 500px at 85% -10%,#2b3a33 0,transparent 60%),#121417;color:#fff;padding:96px 0 88px}
+.pp-eye{font-family:'IBM Plex Mono',monospace;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:#c9a96e;margin:0 0 1.2rem}
+.pp-hero h1{font-family:Fraunces,serif;font-weight:600;font-size:clamp(2.5rem,5.6vw,4.4rem);line-height:1.04;letter-spacing:-.02em;margin:0 0 1.4rem;max-width:15ch;color:#fff}
+.pp-hero h1 em{font-style:normal;color:#c9a96e}
+.pp-sub{font-size:clamp(1.1rem,1.6vw,1.3rem);line-height:1.55;color:#c8ccd1;max-width:36rem;margin:0 0 2.2rem}
+.pp-note{font-size:.9rem;color:#8b9198;margin:1rem 0 0}
+.pp-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.1);border-radius:16px;overflow:hidden;margin-top:3.5rem;max-width:760px}
+.pp-stats div{background:#16191d;padding:1.3rem 1.4rem}.pp-stats b{display:block;font-family:Fraunces,serif;font-size:2rem;font-weight:600;color:#fff}
+.pp-stats span{font-size:.88rem;color:#9aa0a6}
+.pp-chain{background:#16191d;color:#fff;padding:26px 0;border-top:1px solid rgba(255,255,255,.06)}
+.pp-chain .pp-w{display:flex;flex-wrap:wrap;align-items:center;gap:.55rem}
+.pp-chain p{margin:0 1rem 0 0;font-family:'IBM Plex Mono',monospace;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:#c9a96e}
+.pp-chain i{font-style:normal;color:#5d646b}.pp-chain b{font-weight:600;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:999px;padding:.45rem .9rem;font-size:.92rem}
+.pp-sec{padding:96px 0}.pp-sec.alt{background:#f2f0ea}
+.pp-h2{font-family:Fraunces,serif;font-weight:600;font-size:clamp(2rem,3.6vw,2.9rem);line-height:1.1;letter-spacing:-.015em;margin:0 0 .8rem;color:#121417}
+.pp-lead{font-size:1.15rem;line-height:1.55;color:#4c545e;max-width:40rem;margin:0 0 3rem}
+.pp-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.pp-card{background:#fff;border:1px solid #e8e6e1;border-radius:18px;padding:1.6rem 1.5rem 1.4rem;display:flex;flex-direction:column}
+.pp-card .n{font-family:'IBM Plex Mono',monospace;font-size:.78rem;color:#b08d4f;margin-bottom:.9rem}
+.pp-card h3{font-size:1.14rem;line-height:1.35;margin:0 0 .5rem;color:#121417;font-weight:700}
+.pp-card p{margin:0;color:#5b636c;line-height:1.5;font-size:.98rem}
+.pp-fix{margin-top:auto!important;padding-top:1.1rem;color:#1f5f3f!important;font-weight:600;display:flex;gap:.55rem}
+.pp-fix:before{content:"";flex:0 0 1.15rem;height:1.15rem;margin-top:.12rem;border-radius:50%;background:#1f7a4d url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 12.5l4 4 8-9'/%3E%3C/svg%3E") center/70% no-repeat}
+.pp-card .rule{height:1px;background:#eeece7;margin:1.1rem 0 0}
+.igc-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;align-items:stretch}
+.igc{display:flex;flex-direction:column;background:#fff;border-radius:22px;box-shadow:0 1px 2px rgba(0,0,0,.05),0 18px 40px rgba(18,20,23,.08);border:1px solid #ebe9e4;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#000}
+.igc-top{display:flex;align-items:center;justify-content:center;gap:.3rem;padding:.9rem 1rem .5rem;font-weight:700;font-size:1.02rem}
+.igc-top svg{width:.8rem;height:.8rem}
+.igc-head{display:flex;align-items:center;gap:1.1rem;padding:.6rem 1.1rem .4rem}
+.igc-av{width:78px;height:78px;border-radius:50%;object-fit:cover;flex:0 0 78px}
+.igc-name{font-weight:600;font-size:.92rem;margin-bottom:.35rem}
+.igc-st{display:flex;gap:1.2rem}.igc-st div{display:flex;flex-direction:column;line-height:1.2}.igc-st b{font-size:1rem}.igc-st span{font-size:.82rem}
+.igc-bio{padding:.5rem 1.1rem 0;font-size:.86rem;line-height:1.42}
+.igc-link{padding:.25rem 1.1rem .9rem;font-size:.86rem;color:#00376b;font-weight:600;display:flex;align-items:center;gap:.3rem}.igc-link svg{width:.85rem;height:.85rem}
+.igc-dash{margin:auto 1.1rem 1.1rem;background:#efefef;border-radius:10px;padding:.7rem .85rem}
+.igc-dash span{display:block;font-size:.8rem;font-weight:600}.igc-dash em{font-style:normal;font-size:.8rem;color:#737373}
+.igc-dash em b{color:#000}
+.pp-facts{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.pp-facts p{margin:0;background:#fff;border:1px solid #e8e6e1;border-radius:999px;padding:.6rem 1.1rem;font-size:.95rem;color:#2d3238}
+.pp-facts b{color:#121417}
+.pp-steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;counter-reset:s}
+.pp-step{border-top:2px solid #121417;padding-top:1.2rem}
+.pp-step .n{font-family:Fraunces,serif;font-size:2.4rem;color:#c9a96e;line-height:1}
+.pp-step h3{font-size:1.15rem;margin:.6rem 0 .4rem}.pp-step p{margin:0;color:#5b636c;line-height:1.5}
+.pp-pay{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.pp-pay div{background:#121417;color:#fff;border-radius:18px;padding:1.6rem 1.5rem}
+.pp-pay b{display:block;font-family:Fraunces,serif;font-size:1.45rem;font-weight:600;margin-bottom:.5rem;color:#fff}
+.pp-pay p{margin:0;color:#b9bec4;line-height:1.5}
+.pp-trust{margin-top:22px;background:#fff;border:1px solid #e8e6e1;border-left:4px solid #1f7a4d;border-radius:14px;padding:1.2rem 1.4rem;line-height:1.55;color:#2d3238}
+.pp-small{margin-top:1rem;color:#5b636c;font-size:.95rem}
+.pp-faq{max-width:760px}
+.pp-faq details{border-bottom:1px solid #e1ded7;padding:1.15rem 0}
+.pp-faq summary{cursor:pointer;list-style:none;font-weight:700;font-size:1.08rem;display:flex;justify-content:space-between;gap:1rem}
+.pp-faq summary::-webkit-details-marker{display:none}.pp-faq summary:after{content:"+";font-weight:400;font-size:1.4rem;line-height:1;color:#b08d4f}
+.pp-faq details[open] summary:after{content:"–"}.pp-faq details p{margin:.7rem 0 0;color:#4c545e;line-height:1.55}
+.pp-end{background:radial-gradient(900px 400px at 15% 120%,#2b3a33 0,transparent 60%),#121417;color:#fff;padding:96px 0}
+.pp-end .pp-w{display:flex;align-items:center;gap:2.2rem;flex-wrap:wrap}
+.pp-end img{width:120px;height:120px;border-radius:50%;object-fit:cover;border:3px solid #c9a96e}
+.pp-end h2{font-family:Fraunces,serif;font-weight:600;font-size:clamp(2rem,3.6vw,2.8rem);margin:0 0 .5rem;color:#fff}
+.pp-end p{margin:0 0 1.5rem;color:#c8ccd1;font-size:1.1rem}
+.pp-foot{background:#0d0f11;color:#7d838a;font-size:.85rem;padding:26px 0 90px}.pp-foot a{color:#c8ccd1}
+.pp-dock{display:none}
+@media (max-width:900px){.pp-grid,.igc-row,.pp-pay{grid-template-columns:1fr}.pp-steps{grid-template-columns:1fr 1fr}.igc{max-width:440px}}
+@media (max-width:620px){.pp-hero{padding:64px 0 60px}.pp-sec,.pp-end{padding:64px 0}.pp-steps{grid-template-columns:1fr}
+.pp-stats{grid-template-columns:1fr}.pp-stats div{padding:1rem 1.2rem}.pp-bar .pp-btn.sm span{display:none}
+.pp-dock{display:block;position:fixed;left:0;right:0;bottom:0;z-index:30;padding:12px 16px calc(12px + env(safe-area-inset-bottom));background:rgba(251,250,247,.94);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-top:1px solid #e8e6e1}
+.pp-dock .pp-btn{width:100%;justify-content:center}}
+"""
+
+
+def ig_card(p):
+    chev = ('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M6 9l6 6 6-6"/></svg>')
+    link = ('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round">'
+            '<path d="M10 14a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"/><path d="M14 10a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></svg>')
+    return f"""<div class="igc">
+<div class="igc-top">{p['user']}{chev}</div>
+<div class="igc-head"><img class="igc-av" src="{BASE}/ig/{p['img']}" alt="@{p['user']}" loading="lazy">
+<div><div class="igc-name">{p['name']}</div><div class="igc-st"><div><b>{p['posts']}</b><span>posts</span></div>
+<div><b>{p['followers']}</b><span>followers</span></div><div><b>{p['following']}</b><span>following</span></div></div></div></div>
+<div class="igc-bio">{'<br>'.join(p['bio'])}</div>
+<div class="igc-link">{link}balioffscript.com/opportunities</div>
+<div class="igc-dash"><span>Professional dashboard</span><em><b>{p['views']}</b> views in the last 30 days</em></div>
+</div>"""
+
+
+def partnership_page():
+    """Kai, 1 Nov 2026: the sales page for developers and builders. We run the whole journey for them: ads, leads,
+    qualifying, calls, site visits, closing. Unlisted (noindex, not in the sitemap or the nav): Kai sends the link.
+    No price on the page on purpose: the model is shown, the numbers come on the call."""
+    from urllib.parse import quote
+    title = "Partner with Bali Off Script"
+    desc = "For Bali developers and builders: we bring the buyers and close them. Ads, leads, qualifying and closing."
+    wa = f"https://wa.me/{LEAD_WHATSAPP}?text=" + quote("Hi Kai, I saw your partnership page. I'd like to talk about our project: ")
+    btn = lambda label, cls="": f'<a class="pp-btn {cls}" href="{wa}">{wa_logo()}<span>{label}</span></a>'
+    problems = "".join(
+        f'<div class="pp-card"><div class="n">{i:02d}</div><h3>{h}</h3><p>{pain}</p><div class="rule"></div>'
+        f'<p class="pp-fix">{fix}</p></div>' for i, (h, pain, fix) in enumerate(PP_PROBLEMS, 1))
+    steps = "".join(f'<div class="pp-step"><div class="n">{i}</div><h3>{h}</h3><p>{t}</p></div>'
+                    for i, (h, t) in enumerate(PP_STEPS, 1))
+    faq = "".join(f"<details><summary>{q}</summary><p>{a}</p></details>" for q, a in PP_FAQ)
+    cards = "".join(ig_card(p) for p in PP_PROFILES)
+    chain = ' <i>→</i> '.join(f"<b>{x}</b>" for x in ("Ads", "Leads", "Qualifying", "Calls", "Site visits", "Closing"))
+    page_head = head(title, desc, "/partnership/", body_class="pp").replace("</head>", f"<style>{PP_CSS}</style>\n</head>", 1)
+    return f"""{page_head}
+<header class="pp-bar"><div class="pp-w"><a class="pp-logo" href="{BASE}/"><span>Bali</span> Off Script</a>{btn("Talk to Kai", "sm")}</div></header>
+
+<section class="pp-hero"><div class="pp-w">
+<p class="pp-eye">For Bali developers and builders</p>
+<h1>We bring you buyers. <em>And we close them.</em></h1>
+<p class="pp-sub">Ads, leads, follow-up, calls and closing. One team runs the whole journey, so you can get back to building.</p>
+{btn("Book a 15-minute call")}
+<p class="pp-note">On WhatsApp. We take 3 projects at a time.</p>
+<div class="pp-stats"><div><b>7M</b><span>views in the last 30 days</span></div><div><b>25.7K</b><span>followers on 3 accounts</span></div><div><b>100%</b><span>organic, no ads</span></div></div>
+</div></section>
+<div class="pp-chain"><div class="pp-w"><p>The whole journey</p>{chain}</div></div>
+
+<section class="pp-sec"><div class="pp-w">
+<h2 class="pp-h2">The problems we fix</h2>
+<p class="pp-lead">If you sell off-plan in Bali, you know these.</p>
+<div class="pp-grid">{problems}</div>
+</div></section>
+
+<section class="pp-sec alt"><div class="pp-w">
+<h2 class="pp-h2">Buyers already follow us</h2>
+<p class="pp-lead">7 million views in 30 days, all organic. No ads. Now imagine your project with ads behind it.</p>
+<div class="igc-row">{cards}</div>
+<div class="pp-facts"><p><b>1.2M views</b> on one reel about what buyers forget to check</p><p><b>We already sell</b> for developers in Bali</p></div>
+</div></section>
+
+<section class="pp-sec"><div class="pp-w">
+<h2 class="pp-h2">How it works</h2>
+<p class="pp-lead">From the first call to your first reservations.</p>
+<div class="pp-steps">{steps}</div>
+</div></section>
+
+<section class="pp-sec alt"><div class="pp-w">
+<h2 class="pp-h2">How we get paid</h2>
+<p class="pp-lead">Simple, and tied to your sales.</p>
+<div class="pp-pay"><div><b>A monthly fee</b><p>For the ads, the funnel and the team. Fixed, no surprises.</p></div>
+<div><b>Your ad budget</b><p>Paid by you, straight to Meta. We never hold your money.</p></div>
+<div><b>Commission</b><p>Only when a unit sells.</p></div></div>
+<div class="pp-trust"><b>Your buyers stay yours.</b> We never push them to another project. Only if a buyer says no to yours and you agree, and then you earn 1% of that sale.</div>
+<p class="pp-small">Exact numbers on the call, because every project is different.</p>
+</div></section>
+
+<section class="pp-sec"><div class="pp-w">
+<h2 class="pp-h2">Questions</h2>
+<div class="pp-faq">{faq}</div>
+</div></section>
+
+<section class="pp-end"><div class="pp-w">
+<img src="{BASE}/{AUTHOR_PHOTO}" alt="Kai">
+<div><h2>Want buyers for your project?</h2><p>15 minutes on WhatsApp. You'll know if it fits.</p>{btn("Book a 15-minute call")}</div>
+</div></section>
+<footer class="pp-foot"><div class="pp-w">Bali Off Script · <a href="{BASE}/">balioffscript.com</a></div></footer>
+<div class="pp-dock">{btn("Book a 15-minute call")}</div>
+</body></html>"""
+
+
 def simple(slug, title, body):
     return f"""{head(title, meta_desc(title, body), f"/{slug}/")}
 {nav()}
@@ -2376,6 +2596,7 @@ def main():
     write("/about/", about_page())
     write("/check/", check_page())
     write("/deal-check/", deal_check_page())
+    write("/partnership/", partnership_page())   # unlisted: noindex, not in the sitemap
     write("/all/", all_page(pages))
     write("/search/", search_page())
     write("/opportunities/", opportunities_page())
