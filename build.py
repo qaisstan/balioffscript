@@ -56,6 +56,7 @@ WHATSAPP_NUMBER = "6285878052692"
 
 # Where lead-form handoffs go. Foreign leads are bounced straight into WhatsApp
 # with their answers pre-written; Indonesian numbers deliberately are not.
+EMAIL = "kai@balioffscript.com"   # Kai, 2 Nov 2026: the one email address for everything
 LEAD_WHATSAPP = "447441340188"   # Kai, 14 Oct 2026: UK WhatsApp number for every lead
 WHATSAPP_TEXT = "Hi Kai, I need your help with a property in Bali."
 
@@ -921,6 +922,7 @@ def footer(extra=""):
 <div>
 <p class="foot-mark">Bali Off Script</p>
 <p class="foot-note">{TAGLINE}</p>
+<p class="foot-note"><a href="mailto:{EMAIL}">{EMAIL}</a></p>
 </div>
 <div class="foot-links">
 <a class="ig-link" href="{BASE}/opportunities/">{form_logo("ig ig-sm")}<span>Find the right one</span></a>
@@ -2422,6 +2424,7 @@ body.pp{background:#fbfaf7;color:#121417;font-family:'Public Sans',-apple-system
 .pp-end h2{font-family:Fraunces,serif;font-weight:600;font-size:clamp(2rem,3.6vw,2.8rem);margin:0 0 .5rem;color:#fff}
 .pp-end p{margin:0 0 1.5rem;color:#c8ccd1;font-size:1.1rem}
 .pp-foot{background:#0d0f11;color:#7d838a;font-size:.85rem;padding:26px 0 90px}.pp-foot a{color:#c8ccd1}
+.pp-mail{margin:1rem 0 0!important;font-size:.95rem!important;color:#9aa0a6!important}.pp-mail a{color:#c9a96e}
 .pp-dock{display:none}
 .pp-jr{background:#16191d;color:#fff;padding:56px 0 64px;border-top:1px solid rgba(255,255,255,.06)}
 .pp-jr ol{list-style:none;margin:1.6rem 0 0;padding:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));position:relative}
@@ -2539,9 +2542,9 @@ def partnership_page():
 
 <section class="pp-end"><div class="pp-w">
 <img src="{BASE}/{AUTHOR_PHOTO}" alt="Kai">
-<div><h2>Want buyers for your project?</h2><p>15 minutes on WhatsApp. You'll know if it fits.</p>{btn("Book a 15-minute call")}</div>
+<div><h2>Want buyers for your project?</h2><p>15 minutes on WhatsApp. You'll know if it fits.</p>{btn("Book a 15-minute call")}<p class="pp-mail">Or email <a href="mailto:{EMAIL}">{EMAIL}</a></p></div>
 </div></section>
-<footer class="pp-foot"><div class="pp-w">Bali Off Script · <a href="{BASE}/">balioffscript.com</a></div></footer>
+<footer class="pp-foot"><div class="pp-w">Bali Off Script · <a href="{BASE}/">balioffscript.com</a> · <a href="mailto:{EMAIL}">{EMAIL}</a></div></footer>
 <div class="pp-dock">{btn("Book a 15-minute call")}</div>
 </body></html>"""
 
