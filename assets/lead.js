@@ -123,11 +123,12 @@
       if (v.length > 80) { err(step, T.e_name_long || "That name is too long."); return false; }
     }
     if (name === "contact") {
-      var nm = form.elements.name.value.trim(), dg = form.elements.phone.value.replace(/[^0-9]/g, ""),
-          em = form.elements.email.value.trim();
-      if (nm.length < 2) { err(step, T.e_name || "Please enter your name."); form.elements.name.focus(); return false; }
+      // Kai, 15 Nov 2026: the English form asks only for the WhatsApp number. Name and email are checked
+      // only where a form still has them.
+      var dg = form.elements.phone.value.replace(/[^0-9]/g, "");
+      if (form.elements.name && form.elements.name.value.trim().length < 2) { err(step, T.e_name || "Please enter your name."); form.elements.name.focus(); return false; }
       if (dg.length < 6 || dg.length > 15) { err(step, T.e_phone || "Please enter a valid number."); form.elements.phone.focus(); return false; }
-      if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(em)) { err(step, T.e_email || "Please enter a valid email."); form.elements.email.focus(); return false; }
+      if (form.elements.email && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(form.elements.email.value.trim())) { err(step, T.e_email || "Please enter a valid email."); form.elements.email.focus(); return false; }
     }
     if (name === "phone") {
       var digits = form.elements.phone.value.replace(/[^0-9]/g, "");
@@ -145,6 +146,8 @@
 
   // Next / back buttons
   form.addEventListener("click", function (e) {
+    var ask = e.target.closest("[data-consult]");
+    if (ask) { e.preventDefault(); consult(true); return; }
     var next = e.target.closest("[data-next]");
     if (next) {
       e.preventDefault();
@@ -216,7 +219,7 @@
   };
 
   function waLink(d) {
-    var first = (d.name.split(/\s+/)[0] || d.name).trim();
+    var first = d.named ? (d.name.split(/\s+/)[0] || d.name).trim() : "";
     first = first.charAt(0).toUpperCase() + first.slice(1);
 
     if (T.msg) {
@@ -237,7 +240,7 @@
       "Not sure yet, show me the best ones": "I'm not sure yet what fits me best. "
     };
     var looking = d.interest ? (WANT[d.interest] || "I'm looking for " + d.interest.charAt(0).toLowerCase() + d.interest.slice(1) + ". ") : "";
-    var text = "Hi Kai, I'm " + first + ". I just filled in the form on your site. " + looking
+    var text = "Hi Kai, " + (first ? "I'm " + first + ". " : "") + "I just filled in the form on your site. " + looking
              + budget + " and " + when + ". Happy to connect.";
 
     return "https://wa.me/" + WA + "?text=" + encodeURIComponent(text);
@@ -246,11 +249,13 @@
   function payload() {
     var dial = sel ? sel.value : "";
     return {
-      name: form.elements.name.value.trim().slice(0, 80),
+      // The sheet needs a name; the English form no longer asks for one (Kai, 15 Nov 2026).
+      name: form.elements.name ? form.elements.name.value.trim().slice(0, 80) : "Website lead",
+      named: !!form.elements.name,
       // Autofill can put the whole international number in the field; then the picker is ignored.
       phone: (/^\s*(\+|00)/.test(form.elements.phone.value) ? form.elements.phone.value.trim()
               : dial + " " + form.elements.phone.value.trim()).slice(0, 40),
-      email: form.elements.email.value.trim().slice(0, 120),
+      email: form.elements.email ? form.elements.email.value.trim().slice(0, 120) : "",
       budget: form.elements.budget.value,
       timeline: form.elements.timeline.value,
       interest: form.elements.interest ? form.elements.interest.value : "",
@@ -315,6 +320,34 @@
       var w = window.open(link, "_blank");
       if (!w) showWa(link);          // popup blocked, offer it as a link instead
     }
+  }
+
+  // "Ask me a question": a short message straight to Kai's WhatsApp, no form (Kai, 15 Nov 2026).
+  var box = document.getElementById("ld-consult");
+  function consult(on) {
+    if (!box) return;
+    form.hidden = on;
+    box.hidden = !on;
+    if (bar) bar.style.width = "0%";
+    if (on && window.matchMedia("(min-width: 40rem)").matches) {
+      setTimeout(function () { try { document.getElementById("ld-msg").focus(); } catch (e) {} }, 150);
+    }
+  }
+  if (box) {
+    document.getElementById("ld-msg-back").addEventListener("click", function () { consult(false); });
+    document.getElementById("ld-msg-send").addEventListener("click", function () {
+      var msg = document.getElementById("ld-msg").value.trim(), e = document.getElementById("ld-msg-err");
+      if (msg.length < 5) { e.textContent = "Write a few words first."; return; }
+      e.textContent = "";
+      var link = "https://wa.me/" + WA + "?text=" + encodeURIComponent("Hi Kai, " + msg);
+      if (window.gtag) gtag("event", "generate_lead", { event_category: "lead", event_label: "consult" });
+      var w = window.open(link, "_blank");
+      if (!w) {
+        var f = document.getElementById("ld-msg-fallback");
+        f.querySelector("a").href = link;
+        f.hidden = false;
+      }
+    });
   }
 
   show(0);

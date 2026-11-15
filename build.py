@@ -2154,12 +2154,19 @@ def opportunities_page():
 
 <div class="ld-step on ld-start" data-field="start">
 <h1>The best <span class="hl">opportunities</span> in Bali right now</h1>
-<button type="button" class="ld-btn ld-go" data-next>Show me what's available</button>
+<div class="ld-two">
+<button type="button" class="ld-btn ld-go ld-shine" data-next>Show me what's available</button>
+<button type="button" class="ld-btn ld-go ld-shine ld-alt" data-consult>Get expert advice</button>
+</div>
+</div>
+
+<div class="ld-step" data-field="interest">
+<h2>What do you want to buy?</h2>
+<div class="ld-opts">{interest}</div>
 </div>
 
 <div class="ld-step" data-field="timeline">
 <h2>When do you want to buy?</h2>
-<p class="ld-sub">Good deals go fast. Your timing decides which ones I send you.</p>
 <div class="ld-opts">{timeline}</div>
 </div>
 
@@ -2169,23 +2176,14 @@ def opportunities_page():
 <div class="ld-opts">{budget}</div>
 </div>
 
-<div class="ld-step" data-field="interest">
-<h2>What are you looking for?</h2>
-<div class="ld-opts">{interest}</div>
-</div>
-
 <div class="ld-step ld-contact" data-field="contact">
 <h2>Where should I send them?</h2>
 <p class="ld-sub">Straight to your WhatsApp, from me. Private, never shared.</p>
-<div class="fld"><label for="ld-name">Full name</label>
-<input id="ld-name" type="text" name="name" autocomplete="name" autocapitalize="words" spellcheck="false" maxlength="80" enterkeyhint="next"></div>
 <div class="fld"><label for="ld-phone">WhatsApp number</label>
 <div class="ld-tel">
 <select id="ld-dial" aria-label="Country code" autocomplete="tel-country-code"></select>
-<input id="ld-phone" type="tel" name="phone" autocomplete="tel" inputmode="tel" maxlength="20" enterkeyhint="next">
+<input id="ld-phone" type="tel" name="phone" autocomplete="tel" inputmode="tel" maxlength="20" enterkeyhint="send">
 </div></div>
-<div class="fld"><label for="ld-email">Email</label>
-<input id="ld-email" type="email" name="email" autocomplete="email" inputmode="email" spellcheck="false" maxlength="120" enterkeyhint="send"></div>
 <p class="ld-err"></p>
 <button type="button" class="ld-btn ld-send" data-next>Send me the opportunities</button>
 <button type="button" class="ld-btn ghost ld-back" data-back>Back</button>
@@ -2200,6 +2198,16 @@ def opportunities_page():
 </div>
 
 </form>
+<div class="ld-consult" id="ld-consult" hidden>
+<h2>What do you need help with?</h2>
+<p class="ld-sub">A deal you are checking, a contract, a delayed build. Write a short message. It opens WhatsApp, straight to me.</p>
+<label class="sr-only" for="ld-msg">Your message</label>
+<textarea id="ld-msg" rows="4" maxlength="500" placeholder="For example: I bought off-plan and the build is delayed. What can I do?"></textarea>
+<p class="ld-err" id="ld-msg-err"></p>
+<button type="button" class="ld-btn ld-send" id="ld-msg-send">Send on WhatsApp</button>
+<button type="button" class="ld-btn ghost ld-back" id="ld-msg-back">Back</button>
+<p id="ld-msg-fallback" hidden><a href="#" target="_blank" rel="noopener">Open WhatsApp</a></p>
+</div>
 </div>
 
 </div>

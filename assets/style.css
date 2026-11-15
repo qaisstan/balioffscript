@@ -1593,3 +1593,21 @@ body.kitdoc { background: #fff; }
   .dealbox { flex-direction: column; align-items: stretch; }
   .dealbox-btn { justify-content: center; white-space: normal; text-align: center; }
 }
+
+/* Opportunities: two shining start buttons + "Ask me a question" box (Kai, 15 Nov 2026) */
+.ld-two { display: grid; gap: .7rem; margin-top: .4rem; }
+.ld-two .ld-go { margin-top: 0; }
+.ld-shine { position: relative; overflow: hidden; isolation: isolate; }
+.ld-shine::before { content: ""; position: absolute; top: 0; left: -70%; width: 45%; height: 100%; z-index: -1;
+  background: linear-gradient(100deg, transparent, rgba(255,255,255,.5), transparent);
+  transform: skewX(-20deg); animation: ld-shine 3.4s ease-in-out infinite; pointer-events: none; }
+.ld-shine.ld-alt::before { animation-delay: 1.7s; }
+.ld-btn.ld-alt { background: linear-gradient(90deg, #c4512f, #e39a2d); border-color: #d06a2c; box-shadow: 0 8px 18px rgba(196,81,47,.3); }
+.ld-btn.ld-alt:hover { background: linear-gradient(90deg, #b3471f, #d98c1f); border-color: #b3471f; }
+@keyframes ld-shine { 0% { left: -70%; } 50%, 100% { left: 130%; } }
+@media (prefers-reduced-motion: reduce) { .ld-shine::before { animation: none; display: none; } }
+.ld-consult h2 { font-family: var(--display); font-size: clamp(1.35rem, 5vw, 1.75rem); margin: 0 0 .4rem; }
+.ld-consult .ld-sub { color: var(--slate); font-size: .95rem; line-height: 1.5; margin: 0 0 1rem; }
+.ld-consult textarea { width: 100%; font: inherit; font-size: 1.05rem; padding: .8rem .9rem; resize: vertical;
+  border: 1px solid var(--rule-2); border-radius: 3px; background: var(--paper); color: var(--ink); min-height: 7rem; }
+.ld-consult textarea:focus-visible { outline: 2px solid var(--go); outline-offset: 1px; }
