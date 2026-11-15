@@ -1,7 +1,7 @@
 ---
 question: Is Airbnb legal in Bali?
-title: Airbnb Rules in Bali 2026: What Happens When Satpol PP Arrive
-summary: Satpol PP arrive, the notice goes on the gate, the guests leave. Listing a villa nightly needs a licence, and enforcement has tightened. What is legal now.
+title: Airbnb Rules in Bali 2026: When Officials Close Your Villa
+summary: Officers arrive, a notice goes on the gate, the guests have to leave. Renting a villa nightly needs a licence, and enforcement has tightened. What is legal now.
 category: rental
 order: 11
 risk: critical
