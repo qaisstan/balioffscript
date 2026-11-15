@@ -1,6 +1,6 @@
 ---
 question: Waar wonen Nederlanders op Bali?
-title: Waar wonen Nederlanders op Bali? De buurten vergeleken
+title: Waar wonen Nederlanders op Bali? De buurten eerlijk vergeleken
 summary: Nederlanders op Bali wonen vooral in Canggu en Pererenan (remote werk, surf), Umalas en Kerobokan (gezinnen), Sanur (gepensioneerden, rust) en Ubud (natuur, wellness). De juiste buurt hangt vooral af van je dagelijkse route.
 group: gebieden
 order: 2

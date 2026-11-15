@@ -1,6 +1,6 @@
 ---
 question: Met pensioen op Bali: visum, AOW en zorg
-title: Met pensioen naar Bali (Indonesië): visum, AOW en zorg
+title: Met pensioen naar Bali in 2026: visum, AOW, zorg en kosten
 summary: Het pensioenvisum (E33F) bestaat vanaf 55 of 60 jaar met pensioenbewijs; voor 60-plussers is er een vijfjarig visum tegen een deposito. De AOW wordt in Indonesië in de regel uitbetaald op het niveau voor gehuwden, ook als je alleenstaand bent. De basisverzekering stopt.
 group: wonen
 order: 2

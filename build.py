@@ -815,10 +815,17 @@ def title_tag(t):
     return full if len(full) <= 60 else t
 
 
+NOINDEX_SECTIONS = ("/travel/", "/islands/")
+
+
 def robots_meta(path):
     """Utility pages have nothing to rank for. Keeping them out of the index
     stops them being counted as thin content against the site."""
-    return '\n<meta name="robots" content="noindex,follow">' if path in ("/search/", "/partnership/") else ""
+    # Kai, 15 Nov 2026: tourist pages (travel, islands) got 3 clicks in 90 days and pull the site away from
+    # property. Out of the index and the sitemap so Google reads the site as a property expert.
+    if path in ("/search/", "/partnership/") or path.startswith(NOINDEX_SECTIONS):
+        return '\n<meta name="robots" content="noindex,follow">'
+    return ""
 
 
 def head(title, desc, path, card=None, body_class=""):
@@ -2695,7 +2702,7 @@ def main():
 
     sm = "".join(
         f"<url><loc>{SITE_URL}{u}</loc><lastmod>{mod.get(u, today)}</lastmod></url>"
-        for u in urls)
+        for u in urls if not u.startswith(NOINDEX_SECTIONS))
     open(os.path.join(OUT, "sitemap.xml"), "w", encoding="utf-8").write(
         f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>')
     # Answer engines are a real referral source now. A wildcard allow already

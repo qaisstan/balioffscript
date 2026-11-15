@@ -1,6 +1,6 @@
 ---
 question: Wat kost wonen op Bali?
-title: Kosten van levensonderhoud op Bali in 2026: budget per maand
+title: Kosten wonen op Bali 2026: wat je echt kwijt bent per maand
 summary: Bij een vergelijkbare levensstandaard is Bali zo'n 50 tot 65 % goedkoper dan West-Europa. Alleen woon je comfortabel met 1.800 tot 2.500 dollar per maand, een gezin met internationale school heeft 4.000 tot 6.500 nodig.
 group: wonen
 order: 3

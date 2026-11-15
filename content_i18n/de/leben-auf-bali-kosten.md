@@ -1,6 +1,6 @@
 ---
 question: Was kostet das Leben auf Bali?
-title: Lebenshaltungskosten auf Bali 2026: Budget pro Monat
+title: Lebenshaltungskosten Bali 2026: was du wirklich pro Monat brauchst
 summary: Bei vergleichbarem Standard ist Bali rund 50 bis 65 % günstiger als Westeuropa. Allein lebt man komfortabel mit 1.800 bis 2.500 US-Dollar im Monat, eine Familie mit internationaler Schule braucht 4.000 bis 6.500.
 group: leben
 order: 3

@@ -1,6 +1,6 @@
 ---
 question: Is the internet good in Bali?
-title: Internet Speed in Bali 2026: Fibre, Providers, Backup
+title: Internet Speed in Bali 2026: Good Enough to Work Remotely?
 summary: Fibre in the main expat areas is fast enough for remote work. Outside them it often is not. Which providers to use and how to set up a backup line.
 category: living
 order: 19

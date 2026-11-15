@@ -1,6 +1,6 @@
 ---
 question: Hva koster det å bo på Bali?
-title: Hva koster det å bo på Bali: budsjett per måned og år
+title: Hva koster det å bo på Bali i 2026? Ærlig budsjett per måned
 summary: En person lever enkelt på 600 til 900 dollar i måneden og komfortabelt på 1 800 til 2 500. En familie med internasjonal skole trenger ofte 4 000 til 6 500 dollar. Sammenlignet med Norge er Bali med samme standard ofte 55 til 70 % billigere.
 group: flytte
 order: 3

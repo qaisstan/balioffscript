@@ -1,6 +1,6 @@
 ---
 question: Box 3 en je villa op Bali: hoe zit het met de Nederlandse belasting?
-title: Box 3, belastingverdrag en je villa op Bali
+title: Box 3 en een villa op Bali (2026): wat je echt betaalt
 summary: Woon je in Nederland, dan hoort je villa of leasehold op Bali in box 3. Omdat Indonesië mag heffen over vastgoed op zijn grondgebied, kun je een vermindering ter voorkoming van dubbele belasting claimen. Die gaat niet vanzelf.
 group: geld
 order: 3
