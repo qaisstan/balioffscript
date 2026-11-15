@@ -1,7 +1,7 @@
 ---
 question: What happens to your Bali property when you die?
-title: Wills and Inheritance in Indonesia for Foreigners
-summary: A will from home does not settle an Indonesian land title. Heirs who cannot lawfully hold the right face a deadline to dispose of it. How to plan ahead.
+title: Inheritance in Indonesia: What Happens to Your Bali Home
+summary: You die owning a Bali home. A will from home does not settle the title, and heirs who cannot hold it face a deadline to sell. How to plan so they keep it.
 category: ownership
 order: 12
 risk: critical

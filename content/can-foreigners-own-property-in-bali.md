@@ -1,7 +1,7 @@
 ---
 question: Can a foreigner own property in Bali?
-title: Can Foreigners Buy Property in Bali? (2026)
-summary: Not freehold. But three legal structures exist, and one of them puts a certificate in your own name.
+title: Can Foreigners Buy Property in Bali? What You Actually Own (2026)
+summary: Foreigners can't own land in Bali. Here's what you actually buy: three legal structures, and one of them puts a certificate in your own name.
 category: ownership
 order: 01
 risk: critical

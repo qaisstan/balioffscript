@@ -1,7 +1,7 @@
 ---
 question: Leasehold or freehold in Bali: what can a foreigner actually own?
-title: Leasehold vs Freehold in Bali 2026: What Foreigners Can Own
-summary: Foreigners cannot hold freehold in Bali, so the real choice is between leasehold, Hak Pakai and a company holding HGB. How each works, how a Bali lease works in practice, and the clauses that decide what it is worth.
+title: Leasehold vs Freehold in Bali: The Part Nobody Explains (2026)
+summary: Foreigners cannot hold freehold in Bali. Here is the part of leasehold almost nobody explains at the start, and how it compares with Hak Pakai and HGB.
 category: ownership
 order: 01
 risk: critical

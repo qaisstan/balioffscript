@@ -1,7 +1,7 @@
 ---
 question: Is Sidemen worth visiting?
-title: Sidemen and East Bali: The Quiet Version
-summary: Rice terraces under Mount Agung, a river valley, almost no tourism and a handful of beautiful small hotels. What Ubud looked like before everyone found it.
+title: Sidemen, Bali: What Ubud Was Before Everyone Found It
+summary: Ubud is busy now. Sidemen is what Ubud was: rice terraces under Mount Agung, a river valley, almost no tourism and a few beautiful small hotels.
 category: places
 order: 09
 risk: none

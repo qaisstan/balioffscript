@@ -1,7 +1,7 @@
 ---
 question: What does it cost to own a villa in Bali each year?
-title: Cost of Owning a Villa in Bali Per Year (2026)
-summary: On a rented villa, running costs take 40 to 50 percent of gross income before income tax. The biggest cost never appears on a bill: the value a lease loses every year.
+title: Cost of Owning a Villa in Bali: The Costs Nobody Tells You (2026)
+summary: Running costs take 40 to 50 percent of a rented villa's gross income. The biggest cost never appears on a bill: the value your lease loses every year.
 category: rental
 order: 02
 risk: high

@@ -1,7 +1,7 @@
 ---
 question: What actually happens if you buy through a nominee?
-title: Nominee Structures in Bali: Why They Fail
-summary: The agreement is void the day it is signed, and since February 2026 it is criminal in Bali.
+title: Nominee Agreements in Bali: Void, and Now a Crime (2026)
+summary: His villa was in his driver's name. A nominee agreement is void the day it is signed, and since February 2026 it is criminal in Bali. What to do instead.
 category: ownership
 order: 03
 risk: critical
