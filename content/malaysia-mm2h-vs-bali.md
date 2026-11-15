@@ -1,7 +1,7 @@
 ---
 question: Is Malaysia MM2H better than Bali?
 title: Malaysia MM2H vs Bali 2026: Ownership You Can Actually Keep
-summary: Malaysia lets foreigners own freehold above state minimums and ties a long-stay visa to it. Bali offers neither. The trade-off is demand.
+summary: Malaysia's MM2H changed: three tiers, and every applicant now has to buy property. How that compares with a Bali lease, and what you actually keep.
 category: compare
 order: 11
 risk: medium

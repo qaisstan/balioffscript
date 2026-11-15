@@ -1,7 +1,7 @@
 ---
 question: My off-plan villa in Bali is delayed. What can I do?
 title: Off-Plan Villa in Bali Delayed? Your Real Options (2026)
-summary: Delays are common in Bali. What you can do depends on three lines in your contract, what is really happening on site, and what you sign next.
+summary: He paid in full off-plan. The villa came 2 years late. What you can do depends on three lines in your contract and what you sign next.
 category: ownership
 order: 61
 risk: high

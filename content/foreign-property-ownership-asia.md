@@ -1,7 +1,7 @@
 ---
 question: Where in Asia can foreigners actually own property?
 title: Which Asian Countries Let Foreigners Own Property? 2026 List
-summary: Almost none let a foreigner own land outright. What separates the markets is what you get instead and how long you keep it, country by country.
+summary: On paper Indonesia has the worst terms in Southeast Asia for a foreign buyer. It is not close. Country by country: who can own land, condos, and for how long.
 category: compare
 order: 02
 risk: high

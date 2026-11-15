@@ -1,7 +1,7 @@
 ---
 question: What is the risk of buying inherited land in Bali?
-title: Buying Inherited Land in Bali: The Family Claim Risk
-summary: Land that passed down a family without being formally divided has more than one owner, and the seller may be only one of them.
+title: Buying Inherited Land in Bali: When One Brother Sells (2026)
+summary: The Bali land was sold by one brother. The others never signed. Every heir has to agree to a sale of inherited land, or the family can claim it back.
 category: ownership
 order: 34
 risk: critical

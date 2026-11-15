@@ -1,7 +1,7 @@
 ---
 question: Bali or Lombok for investment?
 title: Bali vs Lombok Investment 2026: Price Against Demand
-summary: Lombok is a fraction of the price and a fraction of the demand. The question is whether you are buying income or buying time.
+summary: Everyone says Lombok is next because Bali got crowded. Lombok is a fraction of the price and a fraction of the demand. Are you buying income or time?
 category: compare
 order: 21
 risk: high

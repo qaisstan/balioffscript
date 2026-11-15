@@ -1,7 +1,7 @@
 ---
 question: How long does due diligence take in Bali?
 title: Bali Due Diligence Timeline 2026: What Happens Week by Week
-summary: A clean title takes one to three weeks to verify properly. Anyone pressuring you inside that window is telling you something about the deal.
+summary: Paid in full. Contract signed. Notary present. And the villa is not theirs. What a real check covers, week by week, before you pay any deposit.
 category: ownership
 order: 25
 risk: critical

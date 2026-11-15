@@ -1,7 +1,7 @@
 ---
 question: What makes a Bali leasehold extension clause actually safe?
-title: Bali Leasehold Extension Clauses Explained
-summary: The initial term is not the asset. The extension clause is, and most of them are worthless.
+title: Bali Leasehold Extension: What Happens When Your Lease Ends
+summary: When your Bali lease ends, the villa you built goes to the landowner, unless the extension is written down with a price. The clauses that protect you.
 category: ownership
 order: 02
 risk: critical

@@ -1,7 +1,7 @@
 ---
 question: How do you make money on a Bali leasehold?
 title: How to Make Money on a Bali Leasehold 2026
-summary: A wasting asset can still produce a return, but only if the income clears the decay. That arithmetic is the whole discipline.
+summary: It looks irrational: people with money buying something they will never own. How a Bali leasehold actually makes money, and when it does not.
 category: rental
 order: 31
 risk: high

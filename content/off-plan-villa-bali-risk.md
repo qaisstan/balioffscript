@@ -1,6 +1,7 @@
 ---
 question: What are the real risks of buying off-plan in Bali?
-summary: You are paying for something that does not exist yet, on permits that may not exist either. Here is what to verify before the first instalment.
+title: Off-Plan Villa Risks in Bali: How Buyers Lose a Paid Villa (2026)
+summary: 3 ways foreigners lose a Bali villa they paid for in full. You are paying for something that does not exist yet, on permits that may not exist either.
 category: building
 order: 04
 risk: critical

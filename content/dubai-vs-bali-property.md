@@ -1,7 +1,7 @@
 ---
 question: Dubai or Bali for property?
 title: Dubai vs Bali Property 2026: What $300,000 Actually Buys
-summary: Dubai gives you freehold and no income tax. Bali gives you 30 years and no freehold at all. The money keeps arriving in both.
+summary: Dubai hands you the title, in your name, forever. Bali hands you a lease with an end date. What $300,000 really buys in each, and which one pays more.
 category: compare
 order: 05
 risk: medium
