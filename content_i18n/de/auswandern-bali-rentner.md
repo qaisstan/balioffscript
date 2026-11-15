@@ -1,6 +1,6 @@
 ---
 question: Als Rentner nach Bali auswandern: Visum, Rente, Krankenversicherung
-title: Als Rentner nach Bali auswandern (2026): Visum, Rente, Versicherung
+title: Als Rentner nach Bali auswandern: Visum, Rente, Versicherung
 summary: Das Rentnervisum (E33F) gibt es ab 55 oder 60 Jahren mit Rentennachweis; für über 60-Jährige gibt es inzwischen ein Fünfjahresvisum gegen eine Einlage. Die deutsche Rente wird nach Bali gezahlt, mit jährlicher Lebensbescheinigung. Die Krankenversicherung der Rentner endet in der Regel.
 group: leben
 order: 2
