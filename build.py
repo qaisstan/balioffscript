@@ -2714,16 +2714,6 @@ def main():
 <meta http-equiv="refresh" content="0;url={studio}"><script>location.replace("{studio}")</script></head>
 <body style="font-family:sans-serif;padding:24px"><a href="{studio}">Open the Studio</a></body></html>""")
 
-    # Instagram story links (Kai, 16 Nov 2026): /watch/ opens the newest YouTube video through our own address,
-    # so the link sticker shows balioffscript.com, not YouTube.
-    vids = sorted((p for p in pages if p.get("youtube")), key=lambda p: p.get("youtube_date", ""))
-    if vids:
-        yt = f'https://www.youtube.com/watch?v={vids[-1]["youtube"]}'
-        write("/watch/", f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow">
-<meta name="viewport" content="width=device-width,initial-scale=1"><title>Kai | Bali Property</title>
-<meta http-equiv="refresh" content="0;url={yt}"><script>location.replace("{yt}")</script></head>
-<body style="font-family:sans-serif;padding:24px"><a href="{yt}">Watch the video</a></body></html>""")
-
     # Language sections: their own pages, written for each market (langs.py).
     import langs as L
     lang_urls = L.build(me)

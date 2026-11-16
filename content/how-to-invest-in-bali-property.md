@@ -8,9 +8,9 @@ risk: high
 regulation: Basic Agrarian Law No. 5/1960; PP 18/2021 on land rights; Perda Bali 4/2026 on nominee arrangements; KBLI 2025 accommodation classifications; Permenpar No. 6/2025 on rental listings.
 applies: Anyone considering Bali property as an investment, first purchase or tenth
 verified: 2026-10-08
-youtube: vAx7wKIJM7k
+youtube: RY85EWK6HKw
 youtube_title: When Your Bali Lease Ends, the Villa You Built Belongs to the Landowner
-youtube_date: 2026-11-16T11:55:28+08:00
+youtube_date: 2026-11-16T14:14:32+08:00
 youtube_duration: PT8M19S
 youtube_chapters: 0:00 A villa that loses $12,000 a year|0:41 What foreigners can actually own|2:19 What it really returns|3:33 5 ways people lose their villa|4:44 What your budget buys|5:48 How to buy, in the right order|7:02 Send me your deal|7:14 The sentence in your lease
 ---
