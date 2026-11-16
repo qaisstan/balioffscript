@@ -993,6 +993,43 @@ def reel(url):
 </section>"""
 
 
+def video(m):
+    """Kai's YouTube video for this page (16 Nov 2026: every long YouTube video is embedded on the page it serves).
+    Frontmatter: youtube (video id), youtube_title, youtube_date (ISO upload time), youtube_duration (PT8M19S),
+    youtube_chapters ("0:00 Name|0:41 Name|..."). Returns the player and its VideoObject: the chapters become
+    Clips, which is what Google shows as key moments in search."""
+    vid = m.get("youtube")
+    if not vid:
+        return "", None
+    from html import escape
+    title = m.get("youtube_title") or m["question"]
+    watch = f"https://www.youtube.com/watch?v={vid}"
+    player = f"""<figure class="yt">
+<div class="yt-frame"><iframe src="https://www.youtube-nocookie.com/embed/{vid}?rel=0" title="{escape(title)}" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<figcaption>Watch: {escape(title)} &middot; <a href="{watch}" target="_blank" rel="noopener">on YouTube</a></figcaption>
+</figure>"""
+    dur = m.get("youtube_duration", "")
+    mm = re.match(r"PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?", dur)
+    total = sum(int(x or 0) * k for x, k in zip(mm.groups(), (3600, 60, 1))) if mm else 0
+    marks = []
+    for c in filter(None, m.get("youtube_chapters", "").split("|")):
+        t, name = c.strip().split(" ", 1)
+        mi, se = t.split(":")
+        marks.append((int(mi) * 60 + int(se), name.strip()))
+    clips = [{"@type": "Clip", "name": n, "startOffset": s,
+              "endOffset": marks[i + 1][0] if i + 1 < len(marks) else total, "url": f"{watch}&t={s}"}
+             for i, (s, n) in enumerate(marks)]
+    obj = {"@type": "VideoObject", "name": title, "description": meta_desc(m["summary"], m["body"]),
+           "thumbnailUrl": [f"https://i.ytimg.com/vi/{vid}/maxresdefault.jpg",
+                            f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg"],
+           "uploadDate": m.get("youtube_date", ""), "duration": dur,
+           "embedUrl": f"https://www.youtube.com/embed/{vid}", "url": watch, "inLanguage": "en",
+           "author": {"@type": "Person", "name": AUTHOR, "url": SITE_URL + "/about/"}}
+    if clips:
+        obj["hasPart"] = clips
+    return player, obj
+
+
 def wa_link(text=None):
     from urllib.parse import quote
     return f"https://wa.me/{WHATSAPP_NUMBER}?text={quote(text or WHATSAPP_TEXT)}"
@@ -1270,6 +1307,7 @@ def article(m, siblings):
     if not faq_entities:
         faq_entities = [{"@type": "Question", "name": m["question"],
                          "acceptedAnswer": {"@type": "Answer", "text": m["summary"]}}]
+    player, video_obj = video(m)                    # Kai's YouTube video takes the hero's place
 
     schema = json.dumps({
         "@context": "https://schema.org",
@@ -1308,7 +1346,7 @@ def article(m, siblings):
                      "item": SITE_URL + path},
                 ],
             },
-        ],
+        ] + ([video_obj] if video_obj else []),
     })
 
     return f"""{head(seo_title, meta_desc(m["summary"], m["body"]), path, card=m["slug"])}
@@ -1329,7 +1367,7 @@ def article(m, siblings):
 {deal_box(m["category"], m["question"], path)}
 <div class="art-grid">
 <div class="art-main">
-{hero}
+{player or hero}
 {prose_with_kit}
 {faq_block}
 {map_widget(focus=m["slug"], compact=True) if m["category"] == "areas" and any(a["slug"] == m["slug"] for a in MAP_AREAS) else ""}

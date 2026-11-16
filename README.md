@@ -67,6 +67,11 @@ Frontmatter fields:
     applies:     who this affects
     verified:    date you last checked it — keep this honest
     reel:        Instagram permalink, optional; embeds the video on the page
+    youtube:     Kai's YouTube video id, optional; the player replaces the hero photo and the page
+                 gets a VideoObject (chapters become Google "key moments"). With it:
+                 youtube_title, youtube_date (ISO upload time), youtube_duration (PT8M19S),
+                 youtube_chapters ("0:00 Name|0:41 Name|..."). Every long YouTube video goes
+                 on the page it serves (Kai, 16 Nov 2026).
 
 Body supports headings, bold, lists, tables, links, `code`, and `>` for a pull quote.
 
