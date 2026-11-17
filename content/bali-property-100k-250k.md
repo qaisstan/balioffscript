@@ -8,6 +8,11 @@ risk: high
 regulation: Market figures, September 2026. Verify current pricing directly with a notary.
 applies: Buyers working with USD 100,000 to 250,000
 verified: 2026-09-21
+youtube: i3K-MLr1kM4
+youtube_title: 10 Bali Properties Under $300K: The Leasehold Sum Nobody Explains
+youtube_date: 2026-11-17T11:29:53+08:00
+youtube_duration: PT3M57S
+youtube_chapters: 0:00 10 Bali properties under $300K|0:20 1. Canggu, $110K|0:34 2. Uluwatu, from $100K|0:59 3. Ubud, $199K|1:30 4. Umalas, from $200K|1:56 5. Berawa, $160K|2:21 6 and 7. Ubud, $233K vs $235K|2:52 8. Jimbaran, $236K|3:07 9. Sanur, from $148K|3:35 10. Pandawa, about $240K
 ---
 
 This is the busiest price band in Bali and the one with the widest gap between what is marketed and what is delivered. It is also the first bracket where a genuinely workable investment exists.
