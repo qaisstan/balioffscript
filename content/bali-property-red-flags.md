@@ -8,6 +8,11 @@ risk: critical
 regulation: General guidance. Verify every concern independently through your own notary.
 applies: Anyone viewing or negotiating a property
 verified: 2026-09-21
+youtube: 1oc3mGKasX4
+youtube_title: Buying a Villa in Bali? 5 Reasons I'd Walk Away
+youtube_date: 2026-11-20T16:18:30+08:00
+youtube_duration: PT11M52S
+youtube_chapters: 0:00 5 reasons I'd walk away|0:30 1. Who will actually rent it?|2:21 2. Returns that look too good|4:31 3. The lease terms|6:14 4. The developer, the build and the paperwork|8:33 5. The exit plan
 ---
 
 The losses in this market are not caused by sophisticated fraud. They are preceded by signals that were visible and that the buyer talked themselves past.
